@@ -1,0 +1,3545 @@
+{
+  "summary": {
+    "total_triaged": 384,
+    "garbage_count": 278,
+    "garbage_loc": 6966,
+    "cold_storage_count": 56,
+    "cold_storage_loc": 17227,
+    "reconnect_count": 50,
+    "reconnect_loc": 32616
+  },
+  "reconnect": [
+    {
+      "module": "agents.advanced_agent_patterns",
+      "loc": 1321,
+      "classes": 22,
+      "funcs": 51,
+      "subsystem": "agents",
+      "score": 85.0,
+      "reasons": [
+        "large_investment(1321_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "strategic_name(agent)",
+        "rich_API(22_classes,51_funcs)",
+        "capability_doc(orchestrat)"
+      ],
+      "docstring": "Advanced Agent Patterns (AP-1 through AP-7)\n============================================\n\nSeven advanced agentic capabilities for CaseCrack's pentest ",
+      "key_classes": [
+        "FuseState",
+        "FuseCircuit",
+        "ResolveOnceGuard",
+        "StallVerdict",
+        "StallReport"
+      ]
+    },
+    {
+      "module": "recon_dashboard.cross_target_intelligence",
+      "loc": 627,
+      "classes": 5,
+      "funcs": 15,
+      "subsystem": "recon_dashboard",
+      "score": 85.0,
+      "reasons": [
+        "large_investment(627_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(intelligence)",
+        "rich_API(5_classes,15_funcs)",
+        "capability_doc(intelligence,exploit,real-time)"
+      ],
+      "docstring": "Cross-Target Intelligence Sharing + Real-Time Replanning + Exploit Commitment\n========================================================================",
+      "key_classes": [
+        "_ExploitHit",
+        "CrossTargetMemory",
+        "_PathStatus",
+        "RealtimePlanner",
+        "ExploitCommitment"
+      ]
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.intelligence",
+      "loc": 522,
+      "classes": 0,
+      "funcs": 2,
+      "subsystem": "recon_dashboard",
+      "score": 75.0,
+      "reasons": [
+        "large_investment(522_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(intelligence)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Phase handlers for intelligence phases 28-30 (posture, topology, correlation).\n\n.. versionadded:: 2.40",
+      "key_classes": []
+    },
+    {
+      "module": "exploit_chains.manual_audit_engine",
+      "loc": 1640,
+      "classes": 17,
+      "funcs": 12,
+      "subsystem": "exploit_chains",
+      "score": 72.0,
+      "reasons": [
+        "large_investment(1640_LOC)",
+        "partially_active(exploit_chains)",
+        "strategic_name(audit,engine)",
+        "rich_API(17_classes,12_funcs)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Manual Audit Engine \u2014 deep, decision-level system inspection.\n\nGoes beyond automated metrics. For each decision the engine answers:\n\n    1. **What** d",
+      "key_classes": [
+        "DecisionSnapshot",
+        "InterestType",
+        "WalkedDecision",
+        "DecisionWalker",
+        "FailureType"
+      ]
+    },
+    {
+      "module": "agents.advanced_orchestration",
+      "loc": 1127,
+      "classes": 24,
+      "funcs": 56,
+      "subsystem": "agents",
+      "score": 70.0,
+      "reasons": [
+        "large_investment(1127_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(24_classes,56_funcs)",
+        "capability_doc(orchestrat,autonomous)"
+      ],
+      "docstring": "Advanced Orchestration Patterns (AO 1-8).\n\nHigh-performance agent orchestration primitives for autonomous scan\npipelines.  Each pattern is a standalon",
+      "key_classes": [
+        "EscalationStage",
+        "EscalationRecord",
+        "OutputSlotReservation",
+        "ToolExecState",
+        "StreamToolSlot"
+      ]
+    },
+    {
+      "module": "agents.deterministic_replay",
+      "loc": 606,
+      "classes": 8,
+      "funcs": 40,
+      "subsystem": "agents",
+      "score": 70.0,
+      "reasons": [
+        "large_investment(606_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(8_classes,40_funcs)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Deterministic Replay Layer (DRL).\n\nSolves the decision unpredictability problem: the system explores during\nlive scans but can reproduce every stochas",
+      "key_classes": [
+        "DecisionRNG",
+        "DecisionFrame",
+        "JournalSnapshot",
+        "JournalStats",
+        "DecisionJournal"
+      ]
+    },
+    {
+      "module": "database.data_migration",
+      "loc": 559,
+      "classes": 3,
+      "funcs": 6,
+      "subsystem": "database",
+      "score": 65.0,
+      "reasons": [
+        "large_investment(559_LOC)",
+        "active_subsystem(database:7_live/13_total)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Data Migration Engine \u2014 SQLite \u2192 PostgreSQL + Redis migration.\n\nProvides a complete, resumable migration pipeline that:\n\n1. **Reads** all data from th",
+      "key_classes": [
+        "TableMigrationResult",
+        "MigrationReport",
+        "MigrationEngine"
+      ]
+    },
+    {
+      "module": "graph.multi_agent.tests.test_multi_agent",
+      "loc": 431,
+      "classes": 9,
+      "funcs": 39,
+      "subsystem": "graph",
+      "score": 65.0,
+      "reasons": [
+        "medium_investment(431_LOC)",
+        "active_subsystem(graph:18_live/23_total)",
+        "strategic_name(agent)",
+        "rich_API(9_classes,39_funcs)"
+      ],
+      "docstring": "Tests for the multi-agent supervisor graph (Priority 4).\n\nValidates:\n- State schema construction\n- Graph topology (nodes, edges, conditional routing)\n",
+      "key_classes": [
+        "TestMultiAgentState",
+        "TestRoutingDecisions",
+        "TestRuleBasedRouting",
+        "TestSpecialistNodes",
+        "TestStrategistNode"
+      ]
+    },
+    {
+      "module": "recon_dashboard.routes_intelligence_experience",
+      "loc": 335,
+      "classes": 0,
+      "funcs": 5,
+      "subsystem": "recon_dashboard",
+      "score": 65.0,
+      "reasons": [
+        "medium_investment(335_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(intelligence)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Intelligence Experience HTTP routes \u2014 surfaces HOW Venator thinks.\n\nThis is the killer differentiator: not just \"we find vulnerabilities\" but\n\"we show",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.routes_persistent_agent",
+      "loc": 1147,
+      "classes": 0,
+      "funcs": 47,
+      "subsystem": "recon_dashboard",
+      "score": 65.0,
+      "reasons": [
+        "large_investment(1147_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(agent)"
+      ],
+      "docstring": "HTTP route handlers for the Persistent Agent Loop.\n\nEndpoints for lifecycle control, status, history, and configuration.",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.target_scoring",
+      "loc": 691,
+      "classes": 4,
+      "funcs": 9,
+      "subsystem": "recon_dashboard",
+      "score": 65.0,
+      "reasons": [
+        "large_investment(691_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(exploit)"
+      ],
+      "docstring": "Pre-Exploit Decision Dominance Layer\n=====================================\n\nDecides \"Is this target worth attacking deeply BEFORE scanning?\"\n\nFour sub",
+      "key_classes": [
+        "ExploitPath",
+        "TargetScore",
+        "CampaignBudget",
+        "HuntPlan"
+      ]
+    },
+    {
+      "module": "exploitation.engine",
+      "loc": 628,
+      "classes": 1,
+      "funcs": 7,
+      "subsystem": "exploitation",
+      "score": 62.0,
+      "reasons": [
+        "large_investment(628_LOC)",
+        "partially_active(exploitation)",
+        "strategic_name(engine,exploitation)",
+        "capability_doc(exploit,orchestrat)"
+      ],
+      "docstring": "ExploitationEngine \u2014 main orchestrator for exploitation verification.",
+      "key_classes": [
+        "ExploitationEngine"
+      ]
+    },
+    {
+      "module": "swarm.multi_gpu.messenger",
+      "loc": 534,
+      "classes": 8,
+      "funcs": 20,
+      "subsystem": "swarm",
+      "score": 62.0,
+      "reasons": [
+        "large_investment(534_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "rich_API(8_classes,20_funcs)"
+      ],
+      "docstring": "Inter-GPU Messenger \u2014 Cross-GPU Agent Communication Router\n==========================================================\n\nRoutes messages between agents ",
+      "key_classes": [
+        "TransportType",
+        "RouteStatus",
+        "DeliveryStatus",
+        "CrossGPUMessage",
+        "GPURoute"
+      ]
+    },
+    {
+      "module": "swarm.multi_gpu.model_sharder",
+      "loc": 499,
+      "classes": 6,
+      "funcs": 19,
+      "subsystem": "swarm",
+      "score": 62.0,
+      "reasons": [
+        "medium_investment(499_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "rich_API(6_classes,19_funcs)",
+        "capability_doc(parallel)"
+      ],
+      "docstring": "Model Sharder \u2014 Tensor-Parallel Layer Distribution Across GPUs\n==============================================================\n\nDistributes model layer",
+      "key_classes": [
+        "ShardStrategy",
+        "ShardStatus",
+        "LayerAssignment",
+        "ShardPlan",
+        "SharderConfig"
+      ]
+    },
+    {
+      "module": "swarm.multi_gpu.scheduler",
+      "loc": 584,
+      "classes": 8,
+      "funcs": 26,
+      "subsystem": "swarm",
+      "score": 62.0,
+      "reasons": [
+        "large_investment(584_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "rich_API(8_classes,26_funcs)"
+      ],
+      "docstring": "Agent-GPU Scheduler \u2014 Placement & Migration of Agents Across GPUs\n=================================================================\n\nDecides which GPU",
+      "key_classes": [
+        "PlacementStrategy",
+        "MigrationReason",
+        "AgentPlacement",
+        "GPULoadSnapshot",
+        "MigrationEvent"
+      ]
+    },
+    {
+      "module": "swarm.multi_gpu.topology",
+      "loc": 710,
+      "classes": 7,
+      "funcs": 28,
+      "subsystem": "swarm",
+      "score": 62.0,
+      "reasons": [
+        "large_investment(710_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "rich_API(7_classes,28_funcs)"
+      ],
+      "docstring": "GPU Topology \u2014 Multi-GPU Discovery, Interconnect Detection & Affinity\n=====================================================================\n\nDiscovers",
+      "key_classes": [
+        "InterconnectType",
+        "GPUHealth",
+        "GPUDevice",
+        "InterconnectLink",
+        "TopologyConfig"
+      ]
+    },
+    {
+      "module": "agents.conflict_arbitration",
+      "loc": 685,
+      "classes": 16,
+      "funcs": 31,
+      "subsystem": "agents",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(685_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(16_classes,31_funcs)"
+      ],
+      "docstring": "Conflict Arbitration Layer (CAL).\n\nLightweight rule layer that sits on top of the existing G5 conflict\ndetection.  G5 *detects* conflicts (boosters vs",
+      "key_classes": [
+        "ConflictType",
+        "ScanMode",
+        "Winner",
+        "DominantSignal",
+        "ConflictClassification"
+      ]
+    },
+    {
+      "module": "agents.fork_spawn",
+      "loc": 1099,
+      "classes": 12,
+      "funcs": 46,
+      "subsystem": "agents",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(1099_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(12_classes,46_funcs)"
+      ],
+      "docstring": "Fork / Spawn Agent Semantics Engine\n=====================================\n\nProduction-grade dynamic agent spawning system that lets CaseCrack spin up\n",
+      "key_classes": [
+        "AgentOrigin",
+        "SpawnOutcome",
+        "CoordinatorPhase",
+        "AgentDefinition",
+        "ForkContext"
+      ]
+    },
+    {
+      "module": "agents.role_registry",
+      "loc": 634,
+      "classes": 5,
+      "funcs": 14,
+      "subsystem": "agents",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(634_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(5_classes,14_funcs)"
+      ],
+      "docstring": "Unified Role Registry \u2014 Single source of truth for all CaseCrack AI roles.\n\nProvides:\n1. **RoleID** \u2014 Enum covering every AI role across all subsystem",
+      "key_classes": [
+        "RoleID",
+        "TemperatureArchetype",
+        "RoleMetadata",
+        "SchemaContract",
+        "RoleRegistry"
+      ]
+    },
+    {
+      "module": "agents.speculative_executor",
+      "loc": 768,
+      "classes": 8,
+      "funcs": 31,
+      "subsystem": "agents",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(768_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(8_classes,31_funcs)"
+      ],
+      "docstring": "Speculative Tool Pre-Execution Engine\n======================================\n\nProduction-grade speculative execution system that pre-runs read-only\nto",
+      "key_classes": [
+        "SpeculationStatus",
+        "SpeculationOutcome",
+        "OverlayContext",
+        "SpeculativeResult",
+        "SpeculationRequest"
+      ]
+    },
+    {
+      "module": "graph.production",
+      "loc": 573,
+      "classes": 5,
+      "funcs": 20,
+      "subsystem": "graph",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(573_LOC)",
+        "active_subsystem(graph:18_live/23_total)",
+        "rich_API(5_classes,20_funcs)"
+      ],
+      "docstring": "Production hardening utilities for LangGraph-based scan execution.\n\nProvides the operational scaffolding needed to run CaseCrack graph\nexecutions reli",
+      "key_classes": [
+        "HealthStatus",
+        "GraphHealthCheck",
+        "GraphCircuitBreaker",
+        "GraphTimeoutGuard",
+        "GraphLifecycleManager"
+      ]
+    },
+    {
+      "module": "swarm.multi_gpu.governor",
+      "loc": 466,
+      "classes": 4,
+      "funcs": 27,
+      "subsystem": "swarm",
+      "score": 57.0,
+      "reasons": [
+        "medium_investment(466_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "capability_doc(orchestrat)"
+      ],
+      "docstring": "Multi-GPU Governor \u2014 Top-Level Orchestrator for Multi-GPU Operations\n====================================================================\n\nCoordinates",
+      "key_classes": [
+        "MultiGPUState",
+        "MultiGPUConfig",
+        "MultiGPUSummary",
+        "MultiGPUGovernor"
+      ]
+    },
+    {
+      "module": "recon_dashboard.routes_agent",
+      "loc": 376,
+      "classes": 0,
+      "funcs": 10,
+      "subsystem": "recon_dashboard",
+      "score": 55.0,
+      "reasons": [
+        "medium_investment(376_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(agent)"
+      ],
+      "docstring": "Agent-loop and agent-memory HTTP route handlers extracted from server.py.",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.routes_multi_agent",
+      "loc": 493,
+      "classes": 0,
+      "funcs": 8,
+      "subsystem": "recon_dashboard",
+      "score": 55.0,
+      "reasons": [
+        "medium_investment(493_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(agent)"
+      ],
+      "docstring": "Multi-agent campaign HTTP route handlers.\n\nProvides:\n- POST /api/multi-agent/start   \u2014 Launch a multi-agent campaign\n- POST /api/multi-agent/stop    \u2014",
+      "key_classes": []
+    },
+    {
+      "module": "exploitation.chains",
+      "loc": 326,
+      "classes": 1,
+      "funcs": 4,
+      "subsystem": "exploitation",
+      "score": 52.0,
+      "reasons": [
+        "medium_investment(326_LOC)",
+        "partially_active(exploitation)",
+        "strategic_name(exploitation)",
+        "capability_doc(orchestrat)"
+      ],
+      "docstring": "Attack chain executor \u2014 multi-step attack chain orchestration.",
+      "key_classes": [
+        "AttackChainExecutor"
+      ]
+    },
+    {
+      "module": "exploitation.impact",
+      "loc": 548,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "exploitation",
+      "score": 52.0,
+      "reasons": [
+        "large_investment(548_LOC)",
+        "partially_active(exploitation)",
+        "strategic_name(exploitation)"
+      ],
+      "docstring": "Impact demonstration \u2014 showing real-world consequences of vulnerabilities.",
+      "key_classes": [
+        "ImpactDemonstrator"
+      ]
+    },
+    {
+      "module": "inference.kv_cache",
+      "loc": 277,
+      "classes": 5,
+      "funcs": 11,
+      "subsystem": "inference",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(277_LOC)",
+        "active_subsystem(inference:13_live/15_total)",
+        "rich_API(5_classes,11_funcs)"
+      ],
+      "docstring": "KV Cache Manager \u2014 Quantized KV Cache for VRAM Optimization\n============================================================\n\nManages KV (Key-Value) cache",
+      "key_classes": [
+        "KVQuantType",
+        "KVCacheConfig",
+        "ModelArchInfo",
+        "KVCacheEstimate",
+        "KVCacheManager"
+      ]
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.advanced",
+      "loc": 1229,
+      "classes": 0,
+      "funcs": 2,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "large_investment(1229_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Phase handlers for advanced phases 20-27 (specialized scanners).\n\n.. versionadded:: 2.40",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.discovery",
+      "loc": 609,
+      "classes": 0,
+      "funcs": 2,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "large_investment(609_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Phase handlers for discovery phases 1-6 (crawl, JS, param, content discovery).\n\n.. versionadded:: 2.40",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.security_testing",
+      "loc": 1178,
+      "classes": 0,
+      "funcs": 2,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "large_investment(1178_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Phase handlers for security testing phases 14-17 (WAF, secrets, injection, vuln).\n\n.. versionadded:: 2.40",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.routes_assessment",
+      "loc": 219,
+      "classes": 0,
+      "funcs": 16,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(219_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Assessment-engine and intelligence HTTP route handlers extracted from server.py.",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.routes_cross_target",
+      "loc": 335,
+      "classes": 0,
+      "funcs": 11,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(335_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(intelligence,learning,exploit)"
+      ],
+      "docstring": "Cross-Target Intelligence + Real-Time Replanning + Exploit Commitment \u2014 Routes.\n\nEndpoints:\n    POST /api/intel/record         \u2014 Record exploit succes",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.routes_exploit_graph",
+      "loc": 262,
+      "classes": 0,
+      "funcs": 8,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(262_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(exploit)"
+      ],
+      "docstring": "Exploit-graph HTTP route handlers extracted from server.py.",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.routes_target_scoring",
+      "loc": 249,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(249_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(exploit)"
+      ],
+      "docstring": "Pre-Exploit Decision Dominance \u2014 HTTP route handlers.\n\nEndpoints:\n    POST /api/target/score             \u2014 Score a single target for ROI.\n    POST /ap",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.state_serializers",
+      "loc": 662,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "large_investment(662_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "State serialization \u2014 to_dict, to_dict_diff, to_report_dict,\nto_snapshot_dict, and differential change tracking.",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.routes_reasoning",
+      "loc": 198,
+      "classes": 0,
+      "funcs": 5,
+      "subsystem": "recon_dashboard",
+      "score": 48.0,
+      "reasons": [
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(reasoning)"
+      ],
+      "docstring": "Reasoning-engine HTTP route handlers extracted from server.py.",
+      "key_classes": []
+    },
+    {
+      "module": "core_infra.chaos_testing_v2",
+      "loc": 1032,
+      "classes": 15,
+      "funcs": 50,
+      "subsystem": "core_infra",
+      "score": 47.0,
+      "reasons": [
+        "large_investment(1032_LOC)",
+        "partially_active(core_infra)",
+        "rich_API(15_classes,50_funcs)"
+      ],
+      "docstring": "Chaos Testing Framework \u2014 Production Enterprise-Grade Fault Injection Engine\n=========================================================================",
+      "key_classes": [
+        "FaultType",
+        "FaultOutcome",
+        "ChaosConfig",
+        "FaultEvent",
+        "ChaosReport"
+      ]
+    },
+    {
+      "module": "osint_providers.netintel_client",
+      "loc": 615,
+      "classes": 1,
+      "funcs": 9,
+      "subsystem": "osint_providers",
+      "score": 47.0,
+      "reasons": [
+        "large_investment(615_LOC)",
+        "partially_active(osint_providers)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "NetIntel Client \u2014 Multi-source network intelligence (unlimited, free, keyless).\n\nReplaces HackerTarget with ZERO rate limits by combining:\n  \u2022 **dnspy",
+      "key_classes": [
+        "NetIntelClient"
+      ]
+    },
+    {
+      "module": "osint_providers.schemas",
+      "loc": 346,
+      "classes": 8,
+      "funcs": 11,
+      "subsystem": "osint_providers",
+      "score": 47.0,
+      "reasons": [
+        "medium_investment(346_LOC)",
+        "partially_active(osint_providers)",
+        "rich_API(8_classes,11_funcs)",
+        "capability_doc(validation)"
+      ],
+      "docstring": "Response Schema Validation \u2014 Pydantic Models for External APIs.\n\nValidates and sanitises responses from external OSINT APIs before\nthey enter the find",
+      "key_classes": [
+        "CrtshEntry",
+        "InternetDBResponse",
+        "BGPViewIP",
+        "RDAPDomain",
+        "XposedOrNotBreach"
+      ]
+    },
+    {
+      "module": "adversarial_validation_agent",
+      "loc": 1137,
+      "classes": 9,
+      "funcs": 16,
+      "subsystem": "adversarial_validation_agent",
+      "score": 45.0,
+      "reasons": [
+        "large_investment(1137_LOC)",
+        "dead_subsystem(adversarial_validation_agent)",
+        "strategic_name(agent,validation)",
+        "rich_API(9_classes,16_funcs)",
+        "capability_doc(validation)"
+      ],
+      "docstring": "Adversarial Validation Agent \u2014 the system that DISPROVES findings.\n\nCore principle:\n  \"Your job is not to confirm the implementation works \u2014 it's to t",
+      "key_classes": [
+        "ChallengeVerdict",
+        "ProbeType",
+        "RationalizationPattern",
+        "RationalizationDetection",
+        "CounterHypothesis"
+      ]
+    },
+    {
+      "module": "intel.github_client_base",
+      "loc": 388,
+      "classes": 2,
+      "funcs": 16,
+      "subsystem": "intel",
+      "score": 45.0,
+      "reasons": [
+        "medium_investment(388_LOC)",
+        "active_subsystem(intel:12_live/16_total)"
+      ],
+      "docstring": "Shared GitHub REST API v3 client base.\n\nProvides common auth, rate-limiting, retry-with-backoff, and session\nmanagement for all GitHub API consumers (",
+      "key_classes": [
+        "_SearchRateLimiter",
+        "BaseGitHubClient"
+      ]
+    },
+    {
+      "module": "knowledge_resilience",
+      "loc": 1163,
+      "classes": 7,
+      "funcs": 18,
+      "subsystem": "knowledge_resilience",
+      "score": 45.0,
+      "reasons": [
+        "large_investment(1163_LOC)",
+        "dead_subsystem(knowledge_resilience)",
+        "strategic_name(knowledge,resilience)",
+        "rich_API(7_classes,18_funcs)",
+        "capability_doc(learning,resilience)"
+      ],
+      "docstring": "Venator Knowledge Resilience Engine\n====================================\n\nTier 5 upgrades that close all category-defining gaps:\n\n- **INTEL-1**: Cross",
+      "key_classes": [
+        "FederationManifest",
+        "KnowledgeFederation",
+        "FlywheelGuard",
+        "PolicySnapshot",
+        "ABTestResult"
+      ]
+    },
+    {
+      "module": "strategy_horizon_optimizer",
+      "loc": 618,
+      "classes": 8,
+      "funcs": 37,
+      "subsystem": "strategy_horizon_optimizer",
+      "score": 45.0,
+      "reasons": [
+        "large_investment(618_LOC)",
+        "dead_subsystem(strategy_horizon_optimizer)",
+        "strategic_name(optimizer,strategy)",
+        "rich_API(8_classes,37_funcs)",
+        "capability_doc(parallel,orchestrat)"
+      ],
+      "docstring": "StrategyHorizonOptimizer \u2014 Long-term strategy optimization (GAP-2: S1\u2013S6).\n\nCloses six strategy gaps that exist across the planning/orchestration stac",
+      "key_classes": [
+        "ArcState",
+        "DependencyType",
+        "ResourcePoolPolicy",
+        "ArcDependency",
+        "ManagedArc"
+      ]
+    },
+    {
+      "module": "validation_fleet",
+      "loc": 2578,
+      "classes": 20,
+      "funcs": 42,
+      "subsystem": "validation_fleet",
+      "score": 45.0,
+      "reasons": [
+        "large_investment(2578_LOC)",
+        "dead_subsystem(validation_fleet)",
+        "strategic_name(validation)",
+        "rich_API(20_classes,42_funcs)",
+        "capability_doc(parallel,consensus,validation)"
+      ],
+      "docstring": "Parallel Finding Validation Fleet \u2014 Scientific Consensus Engine.\n\nInspired by Anthropic's pattern:\n    \"One agent finds \u2192 multiple agents attack valid",
+      "key_classes": [
+        "ConsensusVerdict",
+        "ValidatorType",
+        "IndividualVerdict",
+        "ValidatorVerdict",
+        "FleetConsensus"
+      ]
+    },
+    {
+      "module": "tool_wrappers._evidence",
+      "loc": 107,
+      "classes": 0,
+      "funcs": 3,
+      "subsystem": "tool_wrappers",
+      "score": 43.0,
+      "reasons": [
+        "active_subsystem(tool_wrappers:42_live/50_total)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Evidence pack bundler \u2014 collects scan outputs, tool versions, and config\ninto a ZIP archive for audit trail and compliance.",
+      "key_classes": []
+    },
+    {
+      "module": "cli.daemon",
+      "loc": 377,
+      "classes": 1,
+      "funcs": 9,
+      "subsystem": "cli",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(377_LOC)",
+        "active_subsystem(cli:86_live/89_total)"
+      ],
+      "docstring": "CLI Daemon \u2014 JSON-Line Protocol Server\n\nA single long-running Python process that accepts JSON-line requests on stdin\nand writes JSON-line responses t",
+      "key_classes": [
+        "StreamingWriter"
+      ]
+    },
+    {
+      "module": "discovery_pkg.subdomain_external",
+      "loc": 273,
+      "classes": 1,
+      "funcs": 3,
+      "subsystem": "discovery_pkg",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(273_LOC)",
+        "active_subsystem(discovery_pkg:14_live/21_total)"
+      ],
+      "docstring": "S21: External Tool Wrappers for Subdomain Discovery\n====================================================\n\nIntegrates industry-standard external subdom",
+      "key_classes": [
+        "ExternalToolResult"
+      ]
+    },
+    {
+      "module": "recon_dashboard.infra_monitor",
+      "loc": 387,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(387_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Infrastructure monitoring probes \u2014 Burp, Docker, performance, API keys.\n\nExtracted from ``server.py`` (M3 Step 1).  All functions are stateless\n(forme",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.routes_operator",
+      "loc": 238,
+      "classes": 0,
+      "funcs": 9,
+      "subsystem": "recon_dashboard",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(238_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "HTTP route handlers for operator feedback, action rationale, and outcome narratives.",
+      "key_classes": []
+    },
+    {
+      "module": "recon_dashboard.session_store",
+      "loc": 210,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(210_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Session persistence helpers \u2014 save / restore / list / prune.\n\nExtracted from ``server.py`` (M3 Step 2).  Functions accept explicit\nparameters instead ",
+      "key_classes": []
+    }
+  ],
+  "cold_storage": [
+    {
+      "module": "vuln_intel.clients",
+      "loc": 924,
+      "classes": 7,
+      "funcs": 16,
+      "subsystem": "vuln_intel",
+      "score": 30.0,
+      "reasons": [
+        "large_investment(924_LOC)",
+        "dead_subsystem(vuln_intel)",
+        "rich_API(7_classes,16_funcs)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "API clients for vulnerability intelligence sources.",
+      "key_classes": [
+        "OSVClient",
+        "CIRCLClient",
+        "NVDClient",
+        "EPSSClient",
+        "ExploitDBClient"
+      ]
+    },
+    {
+      "module": "wasm_analysis.wat_decompiler",
+      "loc": 871,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "wasm_analysis",
+      "score": 10.0,
+      "reasons": [
+        "large_investment(871_LOC)",
+        "dead_subsystem(wasm_analysis)"
+      ],
+      "docstring": "WAT Decompiler \u2014 full WASM opcode disassembly and pseudocode generation.\n\nParses the *code* section of a WASM binary, decodes every instruction into\nW",
+      "key_classes": [
+        "WATDecompiler"
+      ]
+    },
+    {
+      "module": "architecture_evolver",
+      "loc": 779,
+      "classes": 9,
+      "funcs": 30,
+      "subsystem": "architecture_evolver",
+      "score": 30.0,
+      "reasons": [
+        "large_investment(779_LOC)",
+        "dead_subsystem(architecture_evolver)",
+        "rich_API(9_classes,30_funcs)",
+        "capability_doc(learning,autonomous)"
+      ],
+      "docstring": "GAP 3: Self-Improving Architecture \u2014 ArchitectureEvolver + PromptEvolver.\n\nImplements three sub-gaps:\n  A1 \u2014 Autonomous agent topology evolution (spaw",
+      "key_classes": [
+        "HealthSignal",
+        "SubsystemHealth",
+        "HealthReport",
+        "TopologyAction",
+        "TopologyDecision"
+      ]
+    },
+    {
+      "module": "defender_adversary_model",
+      "loc": 719,
+      "classes": 8,
+      "funcs": 25,
+      "subsystem": "defender_adversary_model",
+      "score": 20.0,
+      "reasons": [
+        "large_investment(719_LOC)",
+        "dead_subsystem(defender_adversary_model)",
+        "rich_API(8_classes,25_funcs)"
+      ],
+      "docstring": "GAP 4: Competitive Adversarial Modeling \u2014 DefenderAdversaryModel.\n\nBridges the gap between world-class passive evasion and active defender\nreasoning. ",
+      "key_classes": [
+        "EscalationPhase",
+        "ProbeOutcome",
+        "EscalationForecast",
+        "InferredRule",
+        "PayloadRiskScore"
+      ]
+    },
+    {
+      "module": "vuln_intel.correlator",
+      "loc": 719,
+      "classes": 4,
+      "funcs": 13,
+      "subsystem": "vuln_intel",
+      "score": 15.0,
+      "reasons": [
+        "large_investment(719_LOC)",
+        "dead_subsystem(vuln_intel)"
+      ],
+      "docstring": "Finding-to-CVE correlation engine.",
+      "key_classes": [
+        "GenericFinding",
+        "CorrelatedCVE",
+        "CorrelationResult",
+        "FindingCorrelator"
+      ]
+    },
+    {
+      "module": "objective_engine",
+      "loc": 658,
+      "classes": 7,
+      "funcs": 18,
+      "subsystem": "objective_engine",
+      "score": 35.0,
+      "reasons": [
+        "large_investment(658_LOC)",
+        "dead_subsystem(objective_engine)",
+        "strategic_name(engine)",
+        "rich_API(7_classes,18_funcs)"
+      ],
+      "docstring": "Objective-Driven Hunting Engine  (GAP-3 FIX)\n==============================================\n\nCloses the biggest conceptual gap: the system explores an",
+      "key_classes": [
+        "ObjectiveType",
+        "ObjectiveStatus",
+        "HuntingObjective",
+        "ObjectiveProgressTracker",
+        "ObjectivePhaseBooster"
+      ]
+    },
+    {
+      "module": "causal_bridge",
+      "loc": 620,
+      "classes": 4,
+      "funcs": 17,
+      "subsystem": "causal_bridge",
+      "score": 30.0,
+      "reasons": [
+        "large_investment(620_LOC)",
+        "dead_subsystem(causal_bridge)",
+        "strategic_name(bridge)"
+      ],
+      "docstring": "CausalBridge \u2014 Unified causal reasoning layer (GAP-C1/C2/C3/C4).\n\nComposes three existing graph subsystems into one queryable interface:\n  1. CausalIn",
+      "key_classes": [
+        "CausalConsequence",
+        "CausalSimulationResult",
+        "WorldStateChange",
+        "CausalBridge"
+      ]
+    },
+    {
+      "module": "attacker_memory",
+      "loc": 589,
+      "classes": 4,
+      "funcs": 23,
+      "subsystem": "attacker_memory",
+      "score": 30.0,
+      "reasons": [
+        "large_investment(589_LOC)",
+        "dead_subsystem(attacker_memory)",
+        "strategic_name(memory)"
+      ],
+      "docstring": "Persistent Attacker Memory  (GAP-2 FIX)\n=========================================\n\nCloses the gap where every scan is \"a genius with amnesia\" by provi",
+      "key_classes": [
+        "PayloadRecord",
+        "WAFBypassRecord",
+        "TechPlaybook",
+        "AttackerMemory"
+      ]
+    },
+    {
+      "module": "signal_contracts",
+      "loc": 578,
+      "classes": 5,
+      "funcs": 1,
+      "subsystem": "signal_contracts",
+      "score": 15.0,
+      "reasons": [
+        "large_investment(578_LOC)",
+        "dead_subsystem(signal_contracts)"
+      ],
+      "docstring": "Signal Contract Map \u2014 Single Source of Truth for System Wiring\n\nEvery event in the system is declared here with:\n- who emits it\n- who MUST consume it\n",
+      "key_classes": [
+        "SignalDomain",
+        "PropagationMode",
+        "ConsumerContract",
+        "SignalContract",
+        "InteractionCell"
+      ]
+    },
+    {
+      "module": "vuln_intel.mapper",
+      "loc": 479,
+      "classes": 1,
+      "funcs": 5,
+      "subsystem": "vuln_intel",
+      "score": 0,
+      "reasons": [
+        "medium_investment(479_LOC)",
+        "dead_subsystem(vuln_intel)"
+      ],
+      "docstring": "Technology-to-CVE mapping and analysis.",
+      "key_classes": [
+        "TechnologyCVEMapper"
+      ]
+    },
+    {
+      "module": "reporting.jira_client",
+      "loc": 466,
+      "classes": 2,
+      "funcs": 11,
+      "subsystem": "reporting",
+      "score": 5.0,
+      "reasons": [
+        "medium_investment(466_LOC)",
+        "dead_subsystem(reporting)"
+      ],
+      "docstring": "Jira Cloud / Server integration \u2014 create issues from Venator findings.\n\nSupports both Jira Cloud (Atlassian Cloud) and Jira Server/Data Center\nvia the",
+      "key_classes": [
+        "JiraConfig",
+        "JiraClient"
+      ]
+    },
+    {
+      "module": "operator_trust_dashboard",
+      "loc": 449,
+      "classes": 4,
+      "funcs": 10,
+      "subsystem": "operator_trust_dashboard",
+      "score": 5.0,
+      "reasons": [
+        "medium_investment(449_LOC)",
+        "dead_subsystem(operator_trust_dashboard)"
+      ],
+      "docstring": "Operator Trust Dashboard \u2014 \"Why should I trust this system?\"\n=============================================================\n\nThe system has perfect int",
+      "key_classes": [
+        "SignalContribution",
+        "ConflictSummary",
+        "TrustSnapshot",
+        "OperatorTrustDashboard"
+      ]
+    },
+    {
+      "module": "vuln_intel.database",
+      "loc": 418,
+      "classes": 1,
+      "funcs": 12,
+      "subsystem": "vuln_intel",
+      "score": 0,
+      "reasons": [
+        "medium_investment(418_LOC)",
+        "dead_subsystem(vuln_intel)"
+      ],
+      "docstring": "SQLite vulnerability database with caching.",
+      "key_classes": [
+        "VulnerabilityDatabase"
+      ]
+    },
+    {
+      "module": "network.tls_posture_report",
+      "loc": 414,
+      "classes": 4,
+      "funcs": 13,
+      "subsystem": "network",
+      "score": 5.0,
+      "reasons": [
+        "medium_investment(414_LOC)",
+        "dead_subsystem(network)"
+      ],
+      "docstring": "TLS Posture Report \u2014 Unified scoring and aggregation (GAP T-9).\n\nMerges TLS findings from three sources:\n  1. Native scanner  (``tls_scanner.py`` \u2192 ``",
+      "key_classes": [
+        "TLSGrade",
+        "ReportSection",
+        "UnifiedTLSFinding",
+        "TLSPostureReport"
+      ]
+    },
+    {
+      "module": "wasm_analysis.wasi_deep",
+      "loc": 374,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "wasm_analysis",
+      "score": 10.0,
+      "reasons": [
+        "medium_investment(374_LOC)",
+        "dead_subsystem(wasm_analysis)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Deep WASI Capability Auditor \u2014 capability escalation chains and sandbox escape detection.\n\nGoes far beyond simple import-name matching:\n\n- **Capabilit",
+      "key_classes": [
+        "WASIDeepAuditor"
+      ]
+    },
+    {
+      "module": "wasm_analysis.data_flow",
+      "loc": 368,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "wasm_analysis",
+      "score": 0,
+      "reasons": [
+        "medium_investment(368_LOC)",
+        "dead_subsystem(wasm_analysis)"
+      ],
+      "docstring": "Data Flow Tracer \u2014 control-flow graphs, taint propagation, and unsafe pattern detection.\n\nBuilds per-function control-flow graphs from structured WASM",
+      "key_classes": [
+        "DataFlowTracer"
+      ]
+    },
+    {
+      "module": "wasm_analysis._types",
+      "loc": 365,
+      "classes": 21,
+      "funcs": 17,
+      "subsystem": "wasm_analysis",
+      "score": 10.0,
+      "reasons": [
+        "medium_investment(365_LOC)",
+        "dead_subsystem(wasm_analysis)",
+        "rich_API(21_classes,17_funcs)"
+      ],
+      "docstring": "Shared data structures for WASM deep analysis engines.",
+      "key_classes": [
+        "WASMOpCategory",
+        "WASMInstruction",
+        "DecompiledFunction",
+        "CallGraphEdge",
+        "WATDecompileResult"
+      ]
+    },
+    {
+      "module": "_extract_data_to_json",
+      "loc": 346,
+      "classes": 0,
+      "funcs": 9,
+      "subsystem": "_extract_data_to_json",
+      "score": 0,
+      "reasons": [
+        "medium_investment(346_LOC)",
+        "dead_subsystem(_extract_data_to_json)"
+      ],
+      "docstring": "Phase-1 Quick-Win: Extract data to JSON and install thin loaders.\n\nTargets:\n  D1. compliance_pkg/data.py  -> compliance_data.json  + thin loader\n  D2.",
+      "key_classes": []
+    },
+    {
+      "module": "wasm_analysis.side_channel",
+      "loc": 342,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "wasm_analysis",
+      "score": 0,
+      "reasons": [
+        "medium_investment(342_LOC)",
+        "dead_subsystem(wasm_analysis)"
+      ],
+      "docstring": "Side-Channel Timing Analyzer \u2014 detect non-constant-time crypto implementations.\n\nAnalyses decompiled WASM functions for patterns that leak secrets thr",
+      "key_classes": [
+        "SideChannelAnalyzer"
+      ]
+    },
+    {
+      "module": "osint_providers.email_intel_client",
+      "loc": 320,
+      "classes": 1,
+      "funcs": 5,
+      "subsystem": "osint_providers",
+      "score": 37.0,
+      "reasons": [
+        "medium_investment(320_LOC)",
+        "partially_active(osint_providers)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Email Intelligence Client \u2014 Free multi-source email OSINT.\n\nReplaces Hunter.io with a combination of free, keyless sources:\n\n- **DNS SOA record** \u2014 ad",
+      "key_classes": [
+        "EmailIntelClient"
+      ]
+    },
+    {
+      "module": "vuln_intel.hub",
+      "loc": 319,
+      "classes": 1,
+      "funcs": 8,
+      "subsystem": "vuln_intel",
+      "score": 10.0,
+      "reasons": [
+        "medium_investment(319_LOC)",
+        "dead_subsystem(vuln_intel)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Central vulnerability intelligence hub.",
+      "key_classes": [
+        "VulnerabilityIntelligenceHub"
+      ]
+    },
+    {
+      "module": "vuln_intel.models",
+      "loc": 316,
+      "classes": 16,
+      "funcs": 16,
+      "subsystem": "vuln_intel",
+      "score": 20.0,
+      "reasons": [
+        "medium_investment(316_LOC)",
+        "dead_subsystem(vuln_intel)",
+        "rich_API(16_classes,16_funcs)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Enums and dataclasses for vulnerability intelligence.",
+      "key_classes": [
+        "CVSSVersion",
+        "CVSSSeverity",
+        "ExploitMaturity",
+        "PatchStatus",
+        "AdvisorySource"
+      ]
+    },
+    {
+      "module": "osint_providers.bgpview_client",
+      "loc": 269,
+      "classes": 1,
+      "funcs": 7,
+      "subsystem": "osint_providers",
+      "score": 37.0,
+      "reasons": [
+        "medium_investment(269_LOC)",
+        "partially_active(osint_providers)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "BGPView Client \u2014 Free network / ASN / IP intelligence.\n\nBGPView (https://bgpview.io) provides a free, keyless API for querying\nBGP routing data, ASN i",
+      "key_classes": [
+        "BgpViewClient"
+      ]
+    },
+    {
+      "module": "osint_providers.alienvault_otx_client",
+      "loc": 256,
+      "classes": 1,
+      "funcs": 6,
+      "subsystem": "osint_providers",
+      "score": 37.0,
+      "reasons": [
+        "medium_investment(256_LOC)",
+        "partially_active(osint_providers)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "AlienVault OTX Client \u2014 Open Threat Exchange passive DNS & threat intelligence.\n\nAlienVault OTX (https://otx.alienvault.com) provides **free** access ",
+      "key_classes": [
+        "AlienVaultOTXClient"
+      ]
+    },
+    {
+      "module": "email_hardening.bimi_deep",
+      "loc": 255,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "email_hardening",
+      "score": 10.0,
+      "reasons": [
+        "medium_investment(255_LOC)",
+        "dead_subsystem(email_hardening)",
+        "capability_doc(validation)"
+      ],
+      "docstring": "Enhanced BIMI Deep Checker\n===========================\n\nGoes beyond basic BIMI record existence to validate:\n\n1. Multiple selectors (default + brand-s",
+      "key_classes": [
+        "BIMIDeepChecker"
+      ]
+    },
+    {
+      "module": "email_hardening._types",
+      "loc": 247,
+      "classes": 13,
+      "funcs": 9,
+      "subsystem": "email_hardening",
+      "score": 5.0,
+      "reasons": [
+        "medium_investment(247_LOC)",
+        "dead_subsystem(email_hardening)"
+      ],
+      "docstring": "Shared types for email infrastructure hardening engines.",
+      "key_classes": [
+        "MTASTSMode",
+        "MTASTSPolicy",
+        "MTASTSResult",
+        "TLSACertUsage",
+        "TLSASelector"
+      ]
+    },
+    {
+      "module": "osint_providers.subdomain_aggregator",
+      "loc": 235,
+      "classes": 1,
+      "funcs": 3,
+      "subsystem": "osint_providers",
+      "score": 27.0,
+      "reasons": [
+        "medium_investment(235_LOC)",
+        "partially_active(osint_providers)"
+      ],
+      "docstring": "Subdomain Aggregator \u2014 Free multi-source passive subdomain enumeration.\n\nCombines four completely free, keyless sources:\n\n1. **crt.sh** \u2014 Certificate ",
+      "key_classes": [
+        "SubdomainAggregatorClient"
+      ]
+    },
+    {
+      "module": "osint_providers.rdap_client",
+      "loc": 226,
+      "classes": 1,
+      "funcs": 5,
+      "subsystem": "osint_providers",
+      "score": 27.0,
+      "reasons": [
+        "medium_investment(226_LOC)",
+        "partially_active(osint_providers)"
+      ],
+      "docstring": "RDAP Client \u2014 Registration Data Access Protocol (WHOIS replacement).\n\nRDAP is the IETF-standardised successor to WHOIS (RFC 7480\u20137484).\nEvery TLD regi",
+      "key_classes": [
+        "RdapClient"
+      ]
+    },
+    {
+      "module": "signal_tracer",
+      "loc": 222,
+      "classes": 3,
+      "funcs": 15,
+      "subsystem": "signal_tracer",
+      "score": 5.0,
+      "reasons": [
+        "medium_investment(222_LOC)",
+        "dead_subsystem(signal_tracer)"
+      ],
+      "docstring": "Signal Trace Layer \u2014 Lightweight instrumentation for wiring verification.\n\nWraps subsystem boundaries to track which signals propagate to which consum",
+      "key_classes": [
+        "TraceEvent",
+        "WiringAuditReport",
+        "SignalTracer"
+      ]
+    },
+    {
+      "module": "email_hardening.dane_tlsa",
+      "loc": 219,
+      "classes": 1,
+      "funcs": 2,
+      "subsystem": "email_hardening",
+      "score": 0,
+      "reasons": [
+        "medium_investment(219_LOC)",
+        "dead_subsystem(email_hardening)"
+      ],
+      "docstring": "DANE/TLSA Checker\n==================\n\nValidates DNS-Based Authentication of Named Entities (RFC 6698, RFC 7671)\nfor email transport security:\n\n1. TLSA",
+      "key_classes": [
+        "DANETLSAChecker"
+      ]
+    },
+    {
+      "module": "osint_providers.xposedornot_client",
+      "loc": 219,
+      "classes": 1,
+      "funcs": 5,
+      "subsystem": "osint_providers",
+      "score": 27.0,
+      "reasons": [
+        "medium_investment(219_LOC)",
+        "partially_active(osint_providers)"
+      ],
+      "docstring": "XposedOrNot Client \u2014 Free credential breach database.\n\nXposedOrNot (https://xposedornot.com) provides a completely free,\nkeyless API for checking whet",
+      "key_classes": [
+        "XposedOrNotClient"
+      ]
+    },
+    {
+      "module": "reporting.defectdojo_client",
+      "loc": 213,
+      "classes": 1,
+      "funcs": 6,
+      "subsystem": "reporting",
+      "score": 0,
+      "reasons": [
+        "medium_investment(213_LOC)",
+        "dead_subsystem(reporting)"
+      ],
+      "docstring": "DefectDojo API client for importing scan results.\n\nPushes findings from ``ToolResult`` objects or SARIF files to DefectDojo\ncommunity edition for cent",
+      "key_classes": [
+        "DefectDojoClient"
+      ]
+    },
+    {
+      "module": "_phase1_loaders.data_loader",
+      "loc": 206,
+      "classes": 7,
+      "funcs": 7,
+      "subsystem": "_phase1_loaders",
+      "score": 5.0,
+      "reasons": [
+        "medium_investment(206_LOC)",
+        "dead_subsystem(_phase1_loaders)"
+      ],
+      "docstring": "Compliance constant data \u2014 loaded from compliance_data.json.",
+      "key_classes": [
+        "PCIDSSRequirement",
+        "SOC2Criterion",
+        "HIPAARequirement",
+        "GDPRRequirement",
+        "NISTCSFControl"
+      ]
+    },
+    {
+      "module": "notifications.email_smtp",
+      "loc": 198,
+      "classes": 1,
+      "funcs": 4,
+      "subsystem": "notifications",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(notifications)"
+      ],
+      "docstring": "Email (SMTP) notification provider.\n\nSends scan result alerts via SMTP with HTML-formatted email bodies.\nSupports TLS/STARTTLS, authentication, and mu",
+      "key_classes": [
+        "EmailNotifier"
+      ]
+    },
+    {
+      "module": "email_hardening.starttls_downgrade",
+      "loc": 197,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "email_hardening",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(email_hardening)"
+      ],
+      "docstring": "STARTTLS Downgrade Tester\n==========================\n\nTests SMTP STARTTLS implementation for MITM resistance:\n\n1. STARTTLS support and upgrade verific",
+      "key_classes": [
+        "STARTTLSDowngradeTester"
+      ]
+    },
+    {
+      "module": "core_infra.production_utils",
+      "loc": 195,
+      "classes": 0,
+      "funcs": 6,
+      "subsystem": "core_infra",
+      "score": 20.0,
+      "reasons": [
+        "partially_active(core_infra)"
+      ],
+      "docstring": "Core production utilities for systemic hardening.\n\nPattern fixes from v7 assessment Section 6 (Systemic Patterns):\n- **Pattern 1:** Lock hierarchy doc",
+      "key_classes": []
+    },
+    {
+      "module": "email_hardening.mta_sts",
+      "loc": 193,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "email_hardening",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(email_hardening)"
+      ],
+      "docstring": "MTA-STS (Mail Transfer Agent Strict Transport Security) Checker\n================================================================\n\nValidates RFC 8461 M",
+      "key_classes": [
+        "MTASTSChecker"
+      ]
+    },
+    {
+      "module": "email_hardening.spf_loops",
+      "loc": 182,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "email_hardening",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(email_hardening)"
+      ],
+      "docstring": "SPF Include/Redirect Loop Detector\n====================================\n\nDetects SPF policy explosion and DoS conditions per RFC 7208:\n\n1. Recursive i",
+      "key_classes": [
+        "SPFLoopDetector"
+      ]
+    },
+    {
+      "module": "tool_wrappers._policy",
+      "loc": 181,
+      "classes": 2,
+      "funcs": 5,
+      "subsystem": "tool_wrappers",
+      "score": 38.0,
+      "reasons": [
+        "active_subsystem(tool_wrappers:42_live/50_total)"
+      ],
+      "docstring": "Policy layer \u2014 evaluates merged SARIF results against a configurable\npolicy to produce pass/fail gate decisions for CI.\n\nLoads ``policy.yaml`` which d",
+      "key_classes": [
+        "Policy",
+        "GateResult"
+      ]
+    },
+    {
+      "module": "recon_dashboard.routes_findings",
+      "loc": 153,
+      "classes": 0,
+      "funcs": 6,
+      "subsystem": "recon_dashboard",
+      "score": 33.0,
+      "reasons": [
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Finding-annotation and unified-findings HTTP route handlers extracted from server.py.",
+      "key_classes": []
+    },
+    {
+      "module": "reporting.sarif_reporter",
+      "loc": 150,
+      "classes": 1,
+      "funcs": 7,
+      "subsystem": "reporting",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(reporting)"
+      ],
+      "docstring": "SARIF reporter \u2014 aggregate multi-tool results into a single SARIF 2.1.0 report.\n\nReads ``ToolResult`` objects (or raw ``.sarif`` files in ``.runs/``) ",
+      "key_classes": [
+        "SarifReporter"
+      ]
+    },
+    {
+      "module": "tool_wrappers._lockfile",
+      "loc": 150,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "tool_wrappers",
+      "score": 33.0,
+      "reasons": [
+        "active_subsystem(tool_wrappers:42_live/50_total)"
+      ],
+      "docstring": "Image lockfile for reproducible tool environments.\n\nGenerates and validates a ``tool-images.lock.json`` file that pins every\ntool image to an exact di",
+      "key_classes": []
+    },
+    {
+      "module": "_shared_rendering",
+      "loc": 145,
+      "classes": 0,
+      "funcs": 3,
+      "subsystem": "_shared_rendering",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(_shared_rendering)"
+      ],
+      "docstring": "Shared Dashboard Rendering Utilities\n======================================\n\nProvides common **JavaScript helper snippets** and **HTML fragment\nbuilde",
+      "key_classes": []
+    },
+    {
+      "module": "tool_wrappers._capabilities",
+      "loc": 143,
+      "classes": 0,
+      "funcs": 10,
+      "subsystem": "tool_wrappers",
+      "score": 33.0,
+      "reasons": [
+        "active_subsystem(tool_wrappers:42_live/50_total)"
+      ],
+      "docstring": "Capability-based tool filtering and querying.\n\nUses the ``capabilities``, ``run_level``, and other flags from\n``TOOL_DEFAULTS`` to let callers select ",
+      "key_classes": []
+    },
+    {
+      "module": "tool_wrappers._retry",
+      "loc": 142,
+      "classes": 1,
+      "funcs": 8,
+      "subsystem": "tool_wrappers",
+      "score": 33.0,
+      "reasons": [
+        "active_subsystem(tool_wrappers:42_live/50_total)"
+      ],
+      "docstring": "Retry policy for transient integration-test operations.\n\nProvides a configurable retry decorator and helper for operations\nthat may fail transiently (",
+      "key_classes": [
+        "RetryRecord"
+      ]
+    },
+    {
+      "module": "notifications.ntfy_client",
+      "loc": 131,
+      "classes": 1,
+      "funcs": 4,
+      "subsystem": "notifications",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(notifications)"
+      ],
+      "docstring": "ntfy notification client.\n\nSend push notifications about scan results via ntfy.sh (free, open-source)\nor a self-hosted ntfy server.\n\nTypical usage::\n\n",
+      "key_classes": [
+        "NtfyClient"
+      ]
+    },
+    {
+      "module": "notifications.slack",
+      "loc": 131,
+      "classes": 1,
+      "funcs": 5,
+      "subsystem": "notifications",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(notifications)"
+      ],
+      "docstring": "Slack notification provider.\n\nSends scan result alerts to Slack channels via Incoming Webhooks or\nthe Slack Web API (``chat.postMessage``).\n\nUsage::\n\n",
+      "key_classes": [
+        "SlackNotifier"
+      ]
+    },
+    {
+      "module": "vuln_intel.cvss",
+      "loc": 129,
+      "classes": 1,
+      "funcs": 5,
+      "subsystem": "vuln_intel",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(vuln_intel)"
+      ],
+      "docstring": "CVSS v3.1 score calculator.",
+      "key_classes": [
+        "CVSSCalculator"
+      ]
+    },
+    {
+      "module": "notifications.teams",
+      "loc": 126,
+      "classes": 1,
+      "funcs": 6,
+      "subsystem": "notifications",
+      "score": 3.0,
+      "reasons": [
+        "dead_subsystem(notifications)",
+        "capability_doc(adaptive)"
+      ],
+      "docstring": "Microsoft Teams notification provider.\n\nSends scan result alerts to Teams channels via Incoming Webhooks\n(Adaptive Card format, compatible with both l",
+      "key_classes": [
+        "TeamsNotifier"
+      ]
+    },
+    {
+      "module": "notifications.webhook",
+      "loc": 118,
+      "classes": 1,
+      "funcs": 5,
+      "subsystem": "notifications",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(notifications)"
+      ],
+      "docstring": "Generic webhook notification provider.\n\nSends scan result alerts to any HTTP endpoint that accepts JSON POST\nrequests.  Supports custom headers (for A",
+      "key_classes": [
+        "WebhookNotifier"
+      ]
+    },
+    {
+      "module": "tool_wrappers._preflight",
+      "loc": 118,
+      "classes": 2,
+      "funcs": 9,
+      "subsystem": "tool_wrappers",
+      "score": 38.0,
+      "reasons": [
+        "active_subsystem(tool_wrappers:42_live/50_total)"
+      ],
+      "docstring": "Preflight checks for integration test infrastructure.\n\nVerifies Docker daemon, images, ports, and disk space before\nrunning scans or integration tests",
+      "key_classes": [
+        "CheckResult",
+        "PreflightResult"
+      ]
+    },
+    {
+      "module": "notifications.discord",
+      "loc": 112,
+      "classes": 1,
+      "funcs": 5,
+      "subsystem": "notifications",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(notifications)"
+      ],
+      "docstring": "Discord notification provider.\n\nSends scan result alerts to Discord channels via Webhook URL with\nrich embed formatting.\n\nUsage::\n\n    from tools.burp",
+      "key_classes": [
+        "DiscordNotifier"
+      ]
+    },
+    {
+      "module": "recon_dashboard.llm_helpers",
+      "loc": 109,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 33.0,
+      "reasons": [
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "LLM lazy-initialisation helpers.\n\nExtracted from ``server.py`` (M3 Step 3).  Each ``init_*`` function\nencapsulates the import + construction logic.  T",
+      "key_classes": []
+    },
+    {
+      "module": "tool_wrappers._adaptive_rate",
+      "loc": 98,
+      "classes": 1,
+      "funcs": 6,
+      "subsystem": "tool_wrappers",
+      "score": 35.0,
+      "reasons": [
+        "active_subsystem(tool_wrappers:42_live/50_total)",
+        "capability_doc(adaptive,real-time)"
+      ],
+      "docstring": "Adaptive rate controller for port scanning.\n\nENH-N2: Real-time scan rate adjustment based on network feedback.\nAdjusts naabu/nmap rate parameters dyna",
+      "key_classes": [
+        "AdaptiveRateController"
+      ]
+    },
+    {
+      "module": "_phase1_loaders.mcp_tools_loader",
+      "loc": 73,
+      "classes": 1,
+      "funcs": 0,
+      "subsystem": "_phase1_loaders",
+      "score": 0,
+      "reasons": [
+        "dead_subsystem(_phase1_loaders)"
+      ],
+      "docstring": "MCP Tool definitions \u2014 schemas, categories, and meta-tool registry.\n\nExtracted from mcp_server.py to keep the server class focused on routing.\nTool sc",
+      "key_classes": [
+        "MCPToolSchema"
+      ]
+    },
+    {
+      "module": "scanners.telemetry",
+      "loc": 53,
+      "classes": 0,
+      "funcs": 3,
+      "subsystem": "scanners",
+      "score": 25.0,
+      "reasons": [
+        "active_subsystem(scanners:16_live/24_total)"
+      ],
+      "docstring": "Telemetry \u2014 Lightweight Scanner Metrics Recording\n===================================================\n\nProvides a ``record_metric`` function consumed ",
+      "key_classes": []
+    }
+  ],
+  "garbage": [
+    {
+      "module": "vuln_intel.data",
+      "loc": 1121,
+      "reason": "medium_no_api",
+      "subsystem": "vuln_intel"
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.infrastructure",
+      "loc": 702,
+      "reason": "medium_no_api",
+      "subsystem": "recon_dashboard"
+    },
+    {
+      "module": "_finding_correlator_deprecated",
+      "loc": 343,
+      "reason": "deprecated_naming",
+      "subsystem": "_finding_correlator_deprecated"
+    },
+    {
+      "module": "agents",
+      "loc": 334,
+      "reason": "medium_no_api",
+      "subsystem": "agents"
+    },
+    {
+      "module": "_scanner_providers_deprecated",
+      "loc": 225,
+      "reason": "deprecated_naming",
+      "subsystem": "_scanner_providers_deprecated"
+    },
+    {
+      "module": "_cli_dispatch",
+      "loc": 199,
+      "reason": "medium_no_api",
+      "subsystem": "_cli_dispatch"
+    },
+    {
+      "module": "static.rewrite_template",
+      "loc": 198,
+      "reason": "medium_no_api",
+      "subsystem": "static"
+    },
+    {
+      "module": "strategy._build_modules",
+      "loc": 180,
+      "reason": "medium_no_api",
+      "subsystem": "strategy"
+    },
+    {
+      "module": "loop",
+      "loc": 163,
+      "reason": "medium_no_api",
+      "subsystem": "loop"
+    },
+    {
+      "module": "tool_wrappers._doctor",
+      "loc": 143,
+      "reason": "medium_no_api",
+      "subsystem": "tool_wrappers"
+    },
+    {
+      "module": "static.extract_phase_a",
+      "loc": 141,
+      "reason": "medium_no_api",
+      "subsystem": "static"
+    },
+    {
+      "module": "discovery_pkg._js_patterns",
+      "loc": 131,
+      "reason": "medium_no_api",
+      "subsystem": "discovery_pkg"
+    },
+    {
+      "module": "graph",
+      "loc": 121,
+      "reason": "medium_no_api",
+      "subsystem": "graph"
+    },
+    {
+      "module": "misc.strategy_engine",
+      "loc": 115,
+      "reason": "medium_no_api",
+      "subsystem": "misc"
+    },
+    {
+      "module": "vuln_intel",
+      "loc": 89,
+      "reason": "medium_no_api",
+      "subsystem": "vuln_intel"
+    },
+    {
+      "module": "core_infra.finding_schema",
+      "loc": 75,
+      "reason": "medium_no_api",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "cli._parsers",
+      "loc": 74,
+      "reason": "medium_no_api",
+      "subsystem": "cli"
+    },
+    {
+      "module": "inference",
+      "loc": 64,
+      "reason": "medium_no_api",
+      "subsystem": "inference"
+    },
+    {
+      "module": "scanners.finding_enrichment",
+      "loc": 58,
+      "reason": "medium_no_api",
+      "subsystem": "scanners"
+    },
+    {
+      "module": "exploitation",
+      "loc": 57,
+      "reason": "medium_no_api",
+      "subsystem": "exploitation"
+    },
+    {
+      "module": "wasm_analysis",
+      "loc": 57,
+      "reason": "medium_no_api",
+      "subsystem": "wasm_analysis"
+    },
+    {
+      "module": "osint_providers",
+      "loc": 53,
+      "reason": "medium_no_api",
+      "subsystem": "osint_providers"
+    },
+    {
+      "module": "graph.reasoning",
+      "loc": 46,
+      "reason": "medium_no_api",
+      "subsystem": "graph"
+    },
+    {
+      "module": "recon_dashboard.__main__",
+      "loc": 42,
+      "reason": "medium_no_api",
+      "subsystem": "recon_dashboard"
+    },
+    {
+      "module": "scanners.event_integration",
+      "loc": 41,
+      "reason": "medium_no_api",
+      "subsystem": "scanners"
+    },
+    {
+      "module": "strategy._build_facade",
+      "loc": 34,
+      "reason": "medium_no_api",
+      "subsystem": "strategy"
+    },
+    {
+      "module": "notifications",
+      "loc": 24,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "notifications"
+    },
+    {
+      "module": "reporting",
+      "loc": 13,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "reporting"
+    },
+    {
+      "module": "agent_sessions",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "agent_sessions"
+    },
+    {
+      "module": "atlas_mcp_bridge",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "atlas_mcp_bridge"
+    },
+    {
+      "module": "audit_trail_tester",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "audit_trail_tester"
+    },
+    {
+      "module": "burp_enterprise_api",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "burp_enterprise_api"
+    },
+    {
+      "module": "business_logic_ai",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "business_logic_ai"
+    },
+    {
+      "module": "caap_chains",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap_chains"
+    },
+    {
+      "module": "caap_hypothesis",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap_hypothesis"
+    },
+    {
+      "module": "caap_models",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap_models"
+    },
+    {
+      "module": "caap_output_wrapper",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap_output_wrapper"
+    },
+    {
+      "module": "caap_parser",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap_parser"
+    },
+    {
+      "module": "caap_session",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap_session"
+    },
+    {
+      "module": "chain_schema",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "chain_schema"
+    },
+    {
+      "module": "cli.__main__",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "cli"
+    },
+    {
+      "module": "container",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "container"
+    },
+    {
+      "module": "context_manager",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "context_manager"
+    },
+    {
+      "module": "creative_exploit_heuristics",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "creative_exploit_heuristics"
+    },
+    {
+      "module": "csp_analyzer",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "csp_analyzer"
+    },
+    {
+      "module": "db_consolidation_migrate",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "db_consolidation_migrate"
+    },
+    {
+      "module": "db_migrations",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "db_migrations"
+    },
+    {
+      "module": "docker_layer_analyzer",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "docker_layer_analyzer"
+    },
+    {
+      "module": "dom_xss_analyzer",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "dom_xss_analyzer"
+    },
+    {
+      "module": "domain_knowledge_engine",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "domain_knowledge_engine"
+    },
+    {
+      "module": "entropy_intelligence",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "entropy_intelligence"
+    },
+    {
+      "module": "error_page_analyzer",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "error_page_analyzer"
+    },
+    {
+      "module": "fail_secure_tester",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "fail_secure_tester"
+    },
+    {
+      "module": "finding_dedup",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "finding_dedup"
+    },
+    {
+      "module": "git_deep_scanner",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "git_deep_scanner"
+    },
+    {
+      "module": "graph_integrations",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph_integrations"
+    },
+    {
+      "module": "graph_knowledge_base",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph_knowledge_base"
+    },
+    {
+      "module": "graph_pathfinding",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph_pathfinding"
+    },
+    {
+      "module": "graph_persistence",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph_persistence"
+    },
+    {
+      "module": "graph_rendering",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph_rendering"
+    },
+    {
+      "module": "graph_reporting",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph_reporting"
+    },
+    {
+      "module": "graph_state_ops",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph_state_ops"
+    },
+    {
+      "module": "graph_suggestions",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph_suggestions"
+    },
+    {
+      "module": "graphql_schema_cache",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graphql_schema_cache"
+    },
+    {
+      "module": "grpc_exploit_tester",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "grpc_exploit_tester"
+    },
+    {
+      "module": "install_helper",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "install_helper"
+    },
+    {
+      "module": "js_intelligence_bridge",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "js_intelligence_bridge"
+    },
+    {
+      "module": "keyword_prefilter",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "keyword_prefilter"
+    },
+    {
+      "module": "license_keygen",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "license_keygen"
+    },
+    {
+      "module": "log_endpoint_scanner",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "log_endpoint_scanner"
+    },
+    {
+      "module": "mass_assignment_tester",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "mass_assignment_tester"
+    },
+    {
+      "module": "mcp_builtins",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "mcp_builtins"
+    },
+    {
+      "module": "module_registry",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "module_registry"
+    },
+    {
+      "module": "nuclei_health",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "nuclei_health"
+    },
+    {
+      "module": "opportunity_scoring",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "opportunity_scoring"
+    },
+    {
+      "module": "orchestrator",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "orchestrator"
+    },
+    {
+      "module": "output_formats",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output_formats"
+    },
+    {
+      "module": "planner_bridge",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "planner_bridge"
+    },
+    {
+      "module": "postmessage_analyzer",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "postmessage_analyzer"
+    },
+    {
+      "module": "reasoning_display",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "reasoning_display"
+    },
+    {
+      "module": "recon_transport",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon_transport"
+    },
+    {
+      "module": "registry",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "registry"
+    },
+    {
+      "module": "results",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "results"
+    },
+    {
+      "module": "rl_reward_engine",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "rl_reward_engine"
+    },
+    {
+      "module": "secret_patterns_expanded",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secret_patterns_expanded"
+    },
+    {
+      "module": "session_fixation_tester",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "session_fixation_tester"
+    },
+    {
+      "module": "soap_wsdl_tester",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "soap_wsdl_tester"
+    },
+    {
+      "module": "ssrf_dns_bridge",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "ssrf_dns_bridge"
+    },
+    {
+      "module": "state_machine_tester",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "state_machine_tester"
+    },
+    {
+      "module": "subdomain_active",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "subdomain_active"
+    },
+    {
+      "module": "subdomain_passive",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "subdomain_passive"
+    },
+    {
+      "module": "subdomain_takeover_ext",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "subdomain_takeover_ext"
+    },
+    {
+      "module": "supply_chain_deep",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "supply_chain_deep"
+    },
+    {
+      "module": "vuln_database",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "vuln_database"
+    },
+    {
+      "module": "vuln_intel_clients",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "vuln_intel_clients"
+    },
+    {
+      "module": "vuln_intel_correlator",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "vuln_intel_correlator"
+    },
+    {
+      "module": "vuln_intel_data",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "vuln_intel_data"
+    },
+    {
+      "module": "waf_payload_adapter",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "waf_payload_adapter"
+    },
+    {
+      "module": "waf_payload_tester",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "waf_payload_tester"
+    },
+    {
+      "module": "websocket",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "websocket"
+    },
+    {
+      "module": "webtransport_security",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "webtransport_security"
+    },
+    {
+      "module": "wildcard_filter",
+      "loc": 11,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "wildcard_filter"
+    },
+    {
+      "module": "network",
+      "loc": 10,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "network"
+    },
+    {
+      "module": "agents.http_client",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "agents"
+    },
+    {
+      "module": "agents.init_wizard",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "agents"
+    },
+    {
+      "module": "agents.platforms",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "agents"
+    },
+    {
+      "module": "agents.session_manager",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "agents"
+    },
+    {
+      "module": "agents.telemetry",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "agents"
+    },
+    {
+      "module": "caap.event_bus",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap"
+    },
+    {
+      "module": "caap.exploit_verifier",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap"
+    },
+    {
+      "module": "caap.impact_chain",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap"
+    },
+    {
+      "module": "caap.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap"
+    },
+    {
+      "module": "caap.poc_generator",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap"
+    },
+    {
+      "module": "caap.vuln_knowledge",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap"
+    },
+    {
+      "module": "cloud.http_client",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "cloud"
+    },
+    {
+      "module": "cloud.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "cloud"
+    },
+    {
+      "module": "cloud.subdomain",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "cloud"
+    },
+    {
+      "module": "core_infra.copilot_loop",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "core_infra.db_manager",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "core_infra.db_registry",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "core_infra.resource_monitor",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "core_infra.session_manager",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "core_infra.storage",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "core_infra.vuln_knowledge",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "database.core",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "database"
+    },
+    {
+      "module": "database.exceptions",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "database"
+    },
+    {
+      "module": "database.http_client",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "database"
+    },
+    {
+      "module": "database.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "database"
+    },
+    {
+      "module": "discovery_pkg.caching",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "discovery_pkg"
+    },
+    {
+      "module": "discovery_pkg.core",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "discovery_pkg"
+    },
+    {
+      "module": "discovery_pkg.secret_patterns",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "discovery_pkg"
+    },
+    {
+      "module": "discovery_pkg.secrets_scanner",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "discovery_pkg"
+    },
+    {
+      "module": "exploit_chains",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.advanced_racer",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.authz",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.business_logic",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.cache",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.captcha_bypass",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.collaborator",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.comparer",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.core",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.cors",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.crawler",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.csrf",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.ct_monitor",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.defensive_posture",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.deserialize",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.discovery",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.error_recovery",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.evasion_engine",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.evolutionary_fuzzer",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.fuzzer",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.graphql_advanced",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.headers",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.iam_attack_paths",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.idor",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.injection",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.iot_discovery",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.js_ast_analyzer",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.js_supply_chain",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.jwt",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.network_safety",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.oauth",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.oauth_recon",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.prototype_pollution",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.racer",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.recon_dashboard",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.recon_pipeline",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.sql_injection",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.ssrf",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.strategy_engine",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.subdomain",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.subdomain_predictor",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.subdomain_takeover",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.template_fingerprint",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.tls_scanner",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.tool_wrappers",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.upload",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.vuln_knowledge",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.wappalyzer_engine",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.wasm_security",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "exploit_chains.websocket_security",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "exploit_chains"
+    },
+    {
+      "module": "integrations.core",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "integrations"
+    },
+    {
+      "module": "integrations.cross_cutting",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "integrations"
+    },
+    {
+      "module": "integrations.email_hardening",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "integrations"
+    },
+    {
+      "module": "integrations.event_bus",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "integrations"
+    },
+    {
+      "module": "integrations.http_client",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "integrations"
+    },
+    {
+      "module": "integrations.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "integrations"
+    },
+    {
+      "module": "intel.free_osint",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "intel"
+    },
+    {
+      "module": "intel.network_safety",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "intel"
+    },
+    {
+      "module": "mcp.atlas",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "mcp"
+    },
+    {
+      "module": "misc.atlas",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "misc"
+    },
+    {
+      "module": "misc.db_registry",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "misc"
+    },
+    {
+      "module": "misc.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "misc"
+    },
+    {
+      "module": "misc.secrets_scanner",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "misc"
+    },
+    {
+      "module": "misc.strategy",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "misc"
+    },
+    {
+      "module": "network.captcha_bypass",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "network"
+    },
+    {
+      "module": "network.core",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "network"
+    },
+    {
+      "module": "network.distributed_recon",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "network"
+    },
+    {
+      "module": "network.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "network"
+    },
+    {
+      "module": "network.subdomain",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "network"
+    },
+    {
+      "module": "output._design_tokens",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output._spa_shell",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.cross_cutting",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.exploitation_data",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.exploitation_models",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.http_client",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.scanner",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.storage",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "pipeline.core",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "pipeline"
+    },
+    {
+      "module": "pipeline.health",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "pipeline"
+    },
+    {
+      "module": "pipeline.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "pipeline"
+    },
+    {
+      "module": "recon.api_discovery",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.archive_sourcemap_scanner",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.asn_intel",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.autonomy",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.cloud_discovery",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.copilot_loop",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.correlation_engine",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.ct_monitor",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.discovery",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.dns_intel",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.email_security",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.exceptions",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.osint_recon",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.param_discovery",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.recovery_bridge",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.screenshot",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.secrets_scanner",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.smart_wordlists",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.subdomain",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.url_aggregator",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.waf",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "recon.wappalyzer_engine",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "scanners.caching",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "scanners"
+    },
+    {
+      "module": "scanners.db_registry",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "scanners"
+    },
+    {
+      "module": "scanners.dns_security",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "scanners"
+    },
+    {
+      "module": "scanners.graphql_recon",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "scanners"
+    },
+    {
+      "module": "secrets.archive_sourcemap_scanner",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "secrets.baseline_manager",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "secrets.composite_rule_engine",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "secrets.core",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "secrets.http_client",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "secrets.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "secrets.recursive_decoder",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "secrets.response_classifier",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "session_auth.core",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "session_auth"
+    },
+    {
+      "module": "session_auth.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "session_auth"
+    },
+    {
+      "module": "testing_tools.db_registry",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "testing_tools"
+    },
+    {
+      "module": "testing_tools.http_client",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "testing_tools"
+    },
+    {
+      "module": "testing_tools.logging_config",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "testing_tools"
+    },
+    {
+      "module": "testing_tools.session_manager",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "testing_tools"
+    },
+    {
+      "module": "testing_tools.storage",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "testing_tools"
+    },
+    {
+      "module": "testing_tools.vuln_knowledge",
+      "loc": 8,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "testing_tools"
+    },
+    {
+      "module": "_phase1_loaders.poc_generator_facade",
+      "loc": 7,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "_phase1_loaders"
+    },
+    {
+      "module": "scanner_providers",
+      "loc": 5,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "scanner_providers"
+    },
+    {
+      "module": "caap",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "caap"
+    },
+    {
+      "module": "cloud",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "cloud"
+    },
+    {
+      "module": "core_infra",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "core_infra"
+    },
+    {
+      "module": "database",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "database"
+    },
+    {
+      "module": "discovery_pkg",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "discovery_pkg"
+    },
+    {
+      "module": "integrations",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "integrations"
+    },
+    {
+      "module": "intel",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "intel"
+    },
+    {
+      "module": "mcp",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "mcp"
+    },
+    {
+      "module": "misc",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "misc"
+    },
+    {
+      "module": "output",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "pipeline",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "pipeline"
+    },
+    {
+      "module": "recon",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "recon"
+    },
+    {
+      "module": "scanners",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "scanners"
+    },
+    {
+      "module": "secrets",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "secrets"
+    },
+    {
+      "module": "session_auth",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "session_auth"
+    },
+    {
+      "module": "testing_tools",
+      "loc": 4,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "testing_tools"
+    },
+    {
+      "module": "output.compliance_pkg",
+      "loc": 2,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.compliance_pkg.data",
+      "loc": 2,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "output.compliance_pkg.mapper",
+      "loc": 2,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "output"
+    },
+    {
+      "module": "data",
+      "loc": 1,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "data"
+    },
+    {
+      "module": "graph.multi_agent.tests",
+      "loc": 0,
+      "reason": "stub(<30_LOC)",
+      "subsystem": "graph"
+    }
+  ]
+}

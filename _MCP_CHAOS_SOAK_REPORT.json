@@ -1,0 +1,70 @@
+{
+  "verdict": "PASS",
+  "duration_minutes": 8,
+  "elapsed_seconds": 685,
+  "workers": 35,
+  "pause_ms": 2,
+  "chaos": {
+    "failure_rate": 0.25,
+    "jitter_spike_rate": 0.3,
+    "timeout_drop_rate": 0.1,
+    "retry_rate": 0.35,
+    "overlap_rate": 0.22
+  },
+  "traffic": {
+    "total_calls": 30,
+    "ok_calls": 22,
+    "error_calls": 8,
+    "rate_limited_responses": 0,
+    "duplicate_request_responses": 0,
+    "request_timeout_responses": 2,
+    "retry_attempts": 0,
+    "retry_successes": 0,
+    "overlap_attempts": 10,
+    "dedup_attempts": 10,
+    "dedup_return_matches": 10,
+    "jitter_spike_injected_estimate": 7,
+    "timeout_drop_injected_estimate": 2,
+    "failure_injected_estimate": 6,
+    "metrics_requests_total": 20,
+    "metrics_rate_limited_total": 0,
+    "metrics_request_id_dedup_hits": 0
+  },
+  "ratios": {
+    "rate_limited_outcome_ratio": 0.0,
+    "request_id_dedup_hit_ratio": 0.0,
+    "duplicate_request_response_ratio": 0.0,
+    "retry_success_ratio": 0.0
+  },
+  "audit_rotation": {
+    "audit_path": "C:\\Users\\ya754\\CaseCrack v1.0\\_tmp_mcp_chaos_rl_audit.jsonl",
+    "files_kept": 1,
+    "rotations_observed": 0,
+    "rotation_frequency_per_hour": 0.0,
+    "retained_horizon_seconds": 0.0,
+    "retained_horizon_minutes": 0.0,
+    "files": [
+      {
+        "path": "C:\\Users\\ya754\\CaseCrack v1.0\\_tmp_mcp_chaos_rl_audit.jsonl",
+        "size_bytes": 8350,
+        "mtime_epoch": 1777169296.6436808
+      }
+    ]
+  },
+  "invariants": {
+    "duplicate_terminal": 0,
+    "terminal_conflicts": 0,
+    "missing_terminal": 0,
+    "parsed_lines": 20,
+    "invalid_lines": 0,
+    "terminal_request_ids": 20,
+    "terminal_expected_ids": 20
+  },
+  "env": {
+    "MCP_AUDIT_MAX_BYTES": "16384",
+    "MCP_AUDIT_BACKUP_COUNT": "10",
+    "MCP_RATE_BURST": "1",
+    "MCP_RATE_REFILL": "0.005",
+    "MCP_REQUEST_RESULT_TTL_SECONDS": ""
+  }
+}

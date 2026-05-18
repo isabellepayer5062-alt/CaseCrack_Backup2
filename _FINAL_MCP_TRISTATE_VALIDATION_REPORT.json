@@ -1,0 +1,233 @@
+{
+  "verdict": "GO",
+  "generated_at": "2026-04-25T22:30:36.724827+00:00",
+  "phases": [
+    {
+      "name": "offline",
+      "passed": true,
+      "details": {
+        "status": "offline",
+        "stream_ok": false,
+        "source_of_truth": "offline",
+        "recent_actions": 0
+      }
+    },
+    {
+      "name": "degraded",
+      "passed": true,
+      "details": {
+        "status": "degraded",
+        "stream_ok": true,
+        "outcomes": {
+          "success": 1,
+          "allowlist_deny": 1,
+          "license_required": 1,
+          "rate_limited": 0,
+          "other_error": 0
+        },
+        "request_ids_unique": true,
+        "sse_request_events": 3,
+        "sse_result_events": 3,
+        "recent_actions": [
+          {
+            "request_id": "a925c63fa89b",
+            "tool": "run_burp_scan",
+            "status": "error",
+            "code": "ALLOWLIST_DENY",
+            "error": "tool_not_allowed",
+            "summary": "role_access_denied",
+            "tenant_id": "",
+            "ok": false,
+            "arguments": {
+              "target": "https://example.com"
+            },
+            "completed_at": "2026-04-25T22:27:23.615678+00:00"
+          },
+          {
+            "request_id": "ba7c5d113ab4",
+            "tool": "get_report",
+            "status": "error",
+            "code": "LICENSE_REQUIRED",
+            "error": "license_required",
+            "summary": "valid license required",
+            "tenant_id": "",
+            "ok": false,
+            "arguments": {
+              "path": "alpha.json"
+            },
+            "completed_at": "2026-04-25T22:27:23.600748+00:00"
+          },
+          {
+            "request_id": "5506946cc3aa",
+            "tool": "list_targets",
+            "status": "ok",
+            "code": "",
+            "error": "",
+            "summary": "completed",
+            "tenant_id": "",
+            "ok": true,
+            "arguments": {
+              "filter": "alpha"
+            },
+            "completed_at": "2026-04-25T22:27:23.587403+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "name": "healthy",
+      "passed": true,
+      "details": {
+        "status": "healthy",
+        "stream_ok": true,
+        "outcomes": {
+          "success": 1,
+          "allowlist_deny": 1,
+          "license_required": 0,
+          "rate_limited": 1,
+          "other_error": 0
+        },
+        "latest_action": {
+          "request_id": "2fea92f6a29a",
+          "tool": "run_burp_scan",
+          "status": "error",
+          "code": "RATE_LIMITED",
+          "error": "rate_limited",
+          "summary": "tenant burst exhausted",
+          "tenant_id": "",
+          "ok": false,
+          "arguments": {
+            "target": "https://beta.example.com"
+          },
+          "completed_at": "2026-04-25T22:27:23.662195+00:00"
+        },
+        "recent_actions": [
+          {
+            "request_id": "2fea92f6a29a",
+            "tool": "run_burp_scan",
+            "status": "error",
+            "code": "RATE_LIMITED",
+            "error": "rate_limited",
+            "summary": "tenant burst exhausted",
+            "tenant_id": "",
+            "ok": false,
+            "arguments": {
+              "target": "https://beta.example.com"
+            },
+            "completed_at": "2026-04-25T22:27:23.662195+00:00"
+          },
+          {
+            "request_id": "7f6df0b74f94",
+            "tool": "get_report",
+            "status": "error",
+            "code": "ALLOWLIST_DENY",
+            "error": "tool_not_allowed",
+            "summary": "backend policy denied report",
+            "tenant_id": "",
+            "ok": false,
+            "arguments": {
+              "path": "beta.json"
+            },
+            "completed_at": "2026-04-25T22:27:23.646522+00:00"
+          },
+          {
+            "request_id": "ebc4eb7a29b2",
+            "tool": "list_targets",
+            "status": "ok",
+            "code": "",
+            "error": "",
+            "summary": "completed",
+            "tenant_id": "",
+            "ok": true,
+            "arguments": {
+              "filter": "beta"
+            },
+            "completed_at": "2026-04-25T22:27:23.633000+00:00"
+          }
+        ],
+        "sse_request_events": 3,
+        "sse_result_events": 3
+      }
+    },
+    {
+      "name": "concurrency",
+      "passed": true,
+      "details": {
+        "honored": true,
+        "configured_concurrency": 3,
+        "observed_max_active": 3,
+        "calls": 12,
+        "all_success": true,
+        "request_ids_unique": true,
+        "dropped_events": false,
+        "duplicate_request_ids": false,
+        "duration_ms": 193042.3,
+        "sample_results": [
+          {
+            "ok": true,
+            "tool": "get_copilot_coverage",
+            "run_id": "tri-concurrency-1",
+            "request_id": "tri-concurrency-1",
+            "summary": "completed",
+            "artifacts": [
+              {
+                "tool": "get_copilot_coverage",
+                "arguments": {},
+                "ok": true
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ],
+            "is_error": false
+          },
+          {
+            "ok": true,
+            "tool": "get_copilot_coverage",
+            "run_id": "tri-concurrency-2",
+            "request_id": "tri-concurrency-2",
+            "summary": "completed",
+            "artifacts": [
+              {
+                "tool": "get_copilot_coverage",
+                "arguments": {},
+                "ok": true
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ],
+            "is_error": false
+          },
+          {
+            "ok": true,
+            "tool": "get_copilot_coverage",
+            "run_id": "tri-concurrency-3",
+            "request_id": "tri-concurrency-3",
+            "summary": "completed",
+            "artifacts": [
+              {
+                "tool": "get_copilot_coverage",
+                "arguments": {},
+                "ok": true
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ],
+            "is_error": false
+          }
+        ]
+      }
+    }
+  ]
+}

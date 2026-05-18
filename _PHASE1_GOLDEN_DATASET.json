@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "generated_by": "frontend-integration-gate-remediation",
+  "tools": {
+    "run_burp_scan": {
+      "normal": [
+        {"id": "rbs-n-01", "input": {"url": "https://app.example.com"}},
+        {"id": "rbs-n-02", "input": {"url": "https://api.example.com", "mode": "scan", "profile": "quick"}},
+        {"id": "rbs-n-03", "input": {"url": "https://shop.example.com", "mode": "scan", "profile": "ecommerce"}},
+        {"id": "rbs-n-04", "input": {"url": "https://corp.example.com", "mode": "scan", "profile": "full", "method": "POST"}},
+        {"id": "rbs-n-05", "input": {"url": "https://mobile.example.com", "mode": "full_scan"}},
+        {"id": "rbs-n-06", "input": {"url": "https://auth.example.com", "params": ["tenant=blue", "stage=prod"]}},
+        {"id": "rbs-n-07", "input": {"url": "https://pay.example.com", "data": ["currency=USD", "country=US"]}}
+      ],
+      "edge": [
+        {"id": "rbs-e-01", "input": {"url": "https://edge.example.com", "params": []}},
+        {"id": "rbs-e-02", "input": {"url": "https://edge.example.com/path?a=1", "mode": "scan"}},
+        {"id": "rbs-e-03", "input": {"url": "https://edge.example.com", "no_proxy": true}},
+        {"id": "rbs-e-04", "input": {"url": "https://edge.example.com", "report_path": "reports/scan-edge-04.json"}},
+        {"id": "rbs-e-05", "input": {"url": "https://edge.example.com", "output_path": "reports/scan-edge-05.db"}},
+        {"id": "rbs-e-06", "input": {"url": "https://edge.example.com", "timeout_seconds": 120}},
+        {"id": "rbs-e-07", "input": {"url": "https://edge.example.com", "method": "PUT", "data": ["a=b"]}}
+      ],
+      "boundary": [
+        {"id": "rbs-b-01", "input": {"url": "https://b.example.com", "timeout_seconds": 30}},
+        {"id": "rbs-b-02", "input": {"url": "https://b.example.com", "timeout_seconds": 3600}},
+        {"id": "rbs-b-03", "input": {"url": "https://b.example.com", "profile": "api"}},
+        {"id": "rbs-b-04", "input": {"url": "https://b.example.com", "mode": "full_scan", "params": ["k=v", "x=y", "z=1"]}},
+        {"id": "rbs-b-05", "input": {"url": "https://b.example.com", "mode": "scan", "method": "DELETE"}},
+        {"id": "rbs-b-06", "input": {"url": "https://b.example.com", "report_path": "reports/rbs-b-06.json", "output_path": "reports/rbs-b-06.db"}},
+        {"id": "rbs-b-07", "input": {"url": "https://b.example.com", "data": ["k1=v1", "k2=v2", "k3=v3"]}}
+      ]
+    },
+    "list_targets": {
+      "normal": [
+        {"id": "lt-n-01", "input": {}},
+        {"id": "lt-n-02", "input": {"include_sessions": true}},
+        {"id": "lt-n-03", "input": {"targets": ["https://a.example.com"]}},
+        {"id": "lt-n-04", "input": {"targets": ["https://a.example.com", "https://b.example.com"]}},
+        {"id": "lt-n-05", "input": {"limit": 20}},
+        {"id": "lt-n-06", "input": {"include_sessions": false, "targets": ["https://manual.example.com"]}},
+        {"id": "lt-n-07", "input": {"include_sessions": true, "limit": 200}}
+      ],
+      "edge": [
+        {"id": "lt-e-01", "input": {"targets": []}},
+        {"id": "lt-e-02", "input": {"targets": ["https://dup.example.com", "https://dup.example.com"]}},
+        {"id": "lt-e-03", "input": {"include_sessions": false}},
+        {"id": "lt-e-04", "input": {"limit": 1}},
+        {"id": "lt-e-05", "input": {"limit": 1000}},
+        {"id": "lt-e-06", "input": {"targets": ["https://x.example.com/path?q=1"]}},
+        {"id": "lt-e-07", "input": {"targets": ["https://xn--bcher-kva.example"]}}
+      ],
+      "boundary": [
+        {"id": "lt-b-01", "input": {"limit": 2}},
+        {"id": "lt-b-02", "input": {"limit": 999}},
+        {"id": "lt-b-03", "input": {"include_sessions": true, "targets": ["https://t1.example.com", "https://t2.example.com", "https://t3.example.com"]}},
+        {"id": "lt-b-04", "input": {"include_sessions": false, "targets": ["https://single.example.com"], "limit": 1}},
+        {"id": "lt-b-05", "input": {"targets": ["https://api.example.com", "https://app.example.com"], "limit": 2}},
+        {"id": "lt-b-06", "input": {"targets": ["https://api.example.com"], "limit": 1000}},
+        {"id": "lt-b-07", "input": {"include_sessions": true, "limit": 500}}
+      ]
+    },
+    "get_report": {
+      "normal": [
+        {"id": "gr-n-01", "input": {"path": "_FINAL_FRONTEND_INTEGRATION_GATE_REPORT.json"}},
+        {"id": "gr-n-02", "input": {"path": "_FINAL_FRONTEND_INTEGRATION_GATE_REPORT.json", "include_raw": true}},
+        {"id": "gr-n-03", "input": {"target": "example.com"}},
+        {"id": "gr-n-04", "input": {"target": "api.example.com", "include_raw": false}},
+        {"id": "gr-n-05", "input": {"session_id": "latest"}},
+        {"id": "gr-n-06", "input": {"target": "shop"}},
+        {"id": "gr-n-07", "input": {"target": "corp", "include_raw": true}}
+      ],
+      "edge": [
+        {"id": "gr-e-01", "input": {"path": "reports/missing.json"}},
+        {"id": "gr-e-02", "input": {"session_id": "does-not-exist"}},
+        {"id": "gr-e-03", "input": {"target": "nonexistent-target"}},
+        {"id": "gr-e-04", "input": {"path": "./_FINAL_FRONTEND_INTEGRATION_GATE_REPORT.json"}},
+        {"id": "gr-e-05", "input": {"target": "EXAMPLE.COM"}},
+        {"id": "gr-e-06", "input": {"path": "_FINAL_FRONTEND_INTEGRATION_GATE_REPORT.json", "session_id": "ignored"}},
+        {"id": "gr-e-07", "input": {"include_raw": false}}
+      ],
+      "boundary": [
+        {"id": "gr-b-01", "input": {"path": "_FINAL_FRONTEND_INTEGRATION_GATE_REPORT.json", "include_raw": false}},
+        {"id": "gr-b-02", "input": {"path": "_FINAL_FRONTEND_INTEGRATION_GATE_REPORT.json", "include_raw": true}},
+        {"id": "gr-b-03", "input": {"target": "a"}},
+        {"id": "gr-b-04", "input": {"target": "z"}},
+        {"id": "gr-b-05", "input": {"session_id": "latest", "include_raw": true}},
+        {"id": "gr-b-06", "input": {"session_id": "latest", "include_raw": false}},
+        {"id": "gr-b-07", "input": {"path": "_FINAL_FRONTEND_INTEGRATION_GATE_REPORT.json", "target": "example", "include_raw": true}}
+      ]
+    }
+  }
+}

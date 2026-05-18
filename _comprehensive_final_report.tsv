@@ -1,0 +1,101 @@
+section	status	path	disk_size	hist_size	ratio	notes
+B_REGRESSION	OK	tools\burp_enterprise\decision_orchestrator.py	207168	207168	1.0	
+B_REGRESSION	REGRESSION	tools\burp_enterprise\inference\model_management\model_cli.py	19747	7683	2.57	__all__
+B_REGRESSION	REGRESSION	tools\burp_enterprise\inference\model_management\model_benchmarker.py	23590	9464	2.493	__all__
+B_REGRESSION	OK	tests\test_organism_health_gaps.py	30712	17085	1.798	
+B_REGRESSION	OK	tools\burp_enterprise\intel\github_client_base.py	16707	6388	2.615	
+B_REGRESSION	OK	tools\burp_enterprise\output\findings_formatter.py	15947	15947	1.0	
+B_REGRESSION	OK	tools\burp_enterprise\mcp\mcp_server.py	48081	48081	1.0	
+B_REGRESSION	OK	tools\burp_enterprise\agents\bayesian_prioritizer.py	26313	26313	1.0	
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/__init__.py	8132	88768	0.092	only_hist=0
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/gpu_governor.py	8770	54091	0.162	only_hist=36
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/weight_tuner.py	15319	79190	0.193	only_hist=27
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/reasoning/prompt_chains.py	16706	66776	0.25	only_hist=40
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/payload_arbiter.py	20585	81808	0.252	only_hist=57
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/agents/llm_bridge.py	73075	257834	0.283	only_hist=48
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/payload_synthesis_engine.py	13445	44077	0.305	only_hist=21
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/model_manager.py	9232	28690	0.322	only_hist=15
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/tool_registry/fallback.py	6938	21369	0.325	only_hist=10
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/tool_registry/registry.py	16764	47151	0.356	only_hist=24
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/model_management/vram_selector.py	7671	19414	0.395	only_hist=5
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/execution_scheduler.py	7956	18702	0.425	only_hist=6
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/database/data_migration.py	11022	25239	0.437	only_hist=16
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/grammar.py	7377	16688	0.442	only_hist=15
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/tool_registry/action_translator.py	8777	19531	0.449	only_hist=12
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/failure_pattern.py	10508	22365	0.47	only_hist=3
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/memory/vector_index.py	10164	21199	0.479	only_hist=16
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/reasoning/context_budget.py	11548	22121	0.522	only_hist=20
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/hypothesis_engine.py	36976	70338	0.526	only_hist=18
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_feedback.py	14808	27958	0.53	only_hist=17
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_context.py	22505	42242	0.533	only_hist=15
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/model_management/finetune_exporter.py	11879	21405	0.555	only_hist=6
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/grammar_synthesizer.py	30328	52847	0.574	only_hist=35
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/reasoning/hypothesis_manager.py	15619	27162	0.575	only_hist=20
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/model_management/model_registry.py	14323	24525	0.584	only_hist=13
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/tool_registry/output_parsers.py	27311	45570	0.599	only_hist=45
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/model_management/model_downloader.py	11632	19145	0.608	only_hist=4
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/reasoning/kv_checkpoint.py	15425	22889	0.674	only_hist=23
+C_REFACTORED	MISSING	CaseCrack/tests/test_cli_api_extended.py	26276	38922	0.675	only_hist=23
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/learning_loop_engine.py	68800	100011	0.688	only_hist=17
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/genetic_forge.py	26006	37297	0.697	only_hist=27
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/engine.py	21814	30418	0.717	only_hist=19
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/synthesis_safety.py	26190	36297	0.722	only_hist=15
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/inference/kv_cache.py	10447	14468	0.722	only_hist=3
+C_REFACTORED	MISSING	CaseCrack/tests/strict_fakes.py	14026	19125	0.733	only_hist=16
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/llm_synthesizer.py	15709	21185	0.742	only_hist=15
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py	54146	67615	0.801	only_hist=28
+C_REFACTORED	MISSING	CaseCrack/tests/test_fix134_waf_phase14_degraded.py	35205	42913	0.82	only_hist=4
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/recon_dashboard/target_scoring.py	34103	41514	0.821	only_hist=15
+C_REFACTORED	MISSING	CaseCrack/tests/test_recon_transport.py	5099	5981	0.853	only_hist=6
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/memory/embedder.py	10226	11771	0.869	only_hist=2
+C_REFACTORED	MISSING	CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_tracer.py	27677	30694	0.902	only_hist=5
+D_REIMPLEM	OK	tools/burp_enterprise/network/dns_resolver.py	774	0		
+D_REIMPLEM	OK	tools/burp_enterprise/network/http_fingerprint.py	788	0		
+D_REIMPLEM	OK	tools/burp_enterprise/network/proxy_chain.py	702	0		
+D_REIMPLEM	OK	tools/burp_enterprise/network/ssl_analyzer.py	799	0		
+D_REIMPLEM	OK	tools/burp_enterprise/network/traffic_analyzer.py	838	0		
+D_REIMPLEM	OK	tools/burp_enterprise/integrations/ci_cd_pipeline.py	810	0		
+D_REIMPLEM	OK	tools/burp_enterprise/integrations/defect_dojo.py	689	0		
+D_REIMPLEM	OK	tools/burp_enterprise/integrations/jira_client.py	776	0		
+D_REIMPLEM	OK	tools/burp_enterprise/integrations/slack_notifier.py	698	0		
+D_REIMPLEM	OK	tools/burp_enterprise/integrations/sonarqube.py	710	0		
+D_REIMPLEM	OK	tools/burp_enterprise/integrations/webhook_dispatcher.py	800	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/caap_coordinator.py	620	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/chat_interface.py	605	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/compliance_checker.py	677	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/discovery_agent.py	708	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/exploitation_agent.py	750	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/hypothesis_engine.py	749	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/knowledge_graph.py	789	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/recon_agent.py	726	0		
+D_REIMPLEM	OK	tools/burp_enterprise/caap/session_orchestrator.py	822	0		
+D_REIMPLEM	OK	tools/burp_enterprise/testing_tools/api_fuzzer.py	672	0		
+D_REIMPLEM	OK	tools/burp_enterprise/testing_tools/benchmark_runner.py	586	0		
+D_REIMPLEM	OK	tools/burp_enterprise/testing_tools/compliance_validator.py	566	0		
+D_REIMPLEM	OK	tools/burp_enterprise/testing_tools/integration_harness.py	631	0		
+D_REIMPLEM	OK	tools/burp_enterprise/testing_tools/load_tester.py	682	0		
+D_REIMPLEM	OK	tools/burp_enterprise/testing_tools/mock_server.py	677	0		
+D_REIMPLEM	OK	tools/burp_enterprise/testing_tools/regression_tracker.py	688	0		
+D_REIMPLEM	OK	tools/burp_enterprise/scanners/timing_attack_scanner.py	434	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/scanners/rate_limit_analyzer.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/scanners/response_anomaly_scanner.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/scanners/vulnerability_correlator.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/scanners/cache_poisoning_scanner.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/testing_tools/mutation_engine.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/testing_tools/chaos_framework.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/testing_tools/property_tester.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/testing_tools/security_harness.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/testing_tools/differential_tester.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/testing_tools/trace_analyzer.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/testing_tools/coverage_tracker.py	0	0		
+D_REIMPLEM	OK	tools/burp_enterprise/output/cvss_calculator.py	261	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/sarif_exporter.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/html_reporter.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/pdf_generator.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/csv_exporter.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/json_formatter.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/xml_formatter.py	0	0		
+D_REIMPLEM	OK	tools/burp_enterprise/output/executive_summary.py	264	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/compliance_report.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/dashboard_exporter.py	0	0		
+D_REIMPLEM	MISSING	tools/burp_enterprise/output/notification_dispatcher.py	0	0		

@@ -1,0 +1,50 @@
+History snapshots indexed: 32232
+Disk files scanned: 3247
+Missing-from-disk candidates: 1688
+Regressed-on-disk candidates: 12
+
+=== Top 30 missing by size ===
+     261651  lib/enhancedaiservice.js
+     259341  burp_enterprise/cli.py
+     259142  lib/workfloworchestrator.js
+     255507  casecrack/recon-report-sugarrushed.ca (20).md
+     254988  lib/imageprocessingservice.js
+     223905  casecrack v1.0/test_validation_fleet.py
+     203211  redactify/server.py
+     200970  casecrack/recon-report-sugarrushed.ca (15).md
+     190206  modules/repeaterpanel.simple.tsx
+     144498  casecrack v1.0/_ml_llm_complete_system_map.md
+     141891  components/worldmapwebgl.tsx
+     129720  lib/vendorprofileautolearner.js
+     122543  __tests__/vendorprofileautolearner.test.js
+     122357  casecrack v1.0/venator-production-readiness-analysis-2026-03-20.md
+     115196  lib/realtemplategenerator.ts
+     106533  lib/databasepersistenceservice.js
+     106351  casecrack v1.0/_comprehensive_llm_audit.py
+     103020  workers/railway-worker.js
+     100573  components/purchaseorderdetails.tsx
+      96345  casecrack/recon-report-sugarrushed.ca (14).md
+      90921  paypal-checkout/braintree_graphql_attack.py
+      88859  casecrack v1.0/_ml_llm_complete_system_map_v2.md
+      87066  components/productdetailview.tsx
+      87050  casecrack/_write_agent_roles_v2.py
+      85775  js/panel-dashboard.new.js
+      81660  js/persistent-agent.js
+      78425  docs/recon-report-sugarrushed.ca (3).md
+      77459  casecrack v1.0/_architecture_recommendations_analysis_v2.md
+      76254  stores/repeaterstore.simple.ts
+      74656  components/settingspanel.tsx
+
+=== Top 30 regressed by ratio ===
+  19.11x  disk=     656  hist=   12539  types/index.ts
+   7.42x  disk=   14292  hist=  105993  css/panel-dashboard.css
+   7.14x  disk=    8755  hist=   62474  recon_dashboard/routes_llm.py
+   3.28x  disk=   13445  hist=   44077  exploit_chains/payload_synthesis_engine.py
+   3.22x  disk=   23393  hist=   75209  recon_dashboard/atlas_api.py
+   2.75x  disk=   85775  hist=  235857  js/panel-dashboard.js
+   2.05x  disk=   92499  hist=  189931  html/recon-dashboard-body.html
+   1.89x  disk=   17984  hist=   33945  css/intelligence-experience.css
+   1.84x  disk=    2489  hist=    4568  exploit_chains/graph_suggestions.py
+   1.75x  disk=    3267  hist=    5714  recon_dashboard/llm_helpers.py
+   1.64x  disk=   18271  hist=   30019  recon_dashboard/routes_standalone.py
+   1.51x  disk=   30221  hist=   45655  recon_dashboard/finding_pipeline.py

@@ -1,0 +1,85 @@
+name: Security Scan - ['main', 'develop']
+'on':
+  push:
+    branches:
+    - main
+    - master
+    - develop
+  pull_request:
+    branches:
+    - main
+    - master
+  workflow_dispatch:
+    inputs:
+      target_url:
+        description: Target URL to scan
+        required: false
+        default: https://sugarrushed.ca
+      scan_profile:
+        description: Scan profile
+        required: false
+        default: standard
+        type: choice
+        options:
+        - quick
+        - standard
+        - comprehensive
+        - owasp_top_10
+env:
+  TARGET_URL: https://sugarrushed.ca
+  SCAN_PROFILE: standard
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      security-events: write
+      issues: write
+      pull-requests: write
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Run security scan
+      id: scan
+      run: "python -m tools.burp_enterprise.cli scan \\\n  --url \"${{ github.event.inputs.target_url\
+        \ || env.TARGET_URL }}\" \\\n  --profile \"${{ github.event.inputs.scan_profile\
+        \ || env.SCAN_PROFILE }}\" \\\n  --output security-report.json \\\n  --json"
+    - name: Evaluate quality gate
+      id: quality-gate
+      run: "python -m tools.burp_enterprise.cli cicd evaluate \\\n  --findings security-report.json\
+        \ \\\n  --max-critical 0 \\\n  --max-high 0 \\\n  --max-medium 10 \\\n  --json"
+    - name: Generate HTML report
+      if: always()
+      run: "python -m tools.burp_enterprise.cli report \\\n  --database burp_data.db\
+        \ \\\n  --output security-report.html \\\n  --format html"
+    - name: Upload scan results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: security-scan-results
+        path: security-report.*
+        retention-days: 30
+    - name: Comment on PR
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: "const fs = require('fs');\nconst report = JSON.parse(fs.readFileSync('security-report.json',\
+          \ 'utf8'));\nconst findings = report.findings || [];\nconst critical = findings.filter(f\
+          \ => f.severity === 'critical').length;\nconst high = findings.filter(f\
+          \ => f.severity === 'high').length;\nconst medium = findings.filter(f =>\
+          \ f.severity === 'medium').length;\n\nlet body = '## \U0001F512 Security\
+          \ Scan Results\\n\\n';\nbody += `| Severity | Count |\\n|----------|-------|\\\
+          n`;\nbody += `| \U0001F534 Critical | ${critical} |\\n`;\nbody += `| \U0001F7E0\
+          \ High | ${high} |\\n`;\nbody += `| \U0001F7E1 Medium | ${medium} |\\n`;\n\
+          body += `| **Total** | ${findings.length} |\\n\\n`;\n\nif (critical > 0\
+          \ || high > 0) {\n  body += '\u26A0\uFE0F **Action Required**: Please review\
+          \ and fix security vulnerabilities before merging.\\n';\n}\n\ngithub.rest.issues.createComment({\n\
+          \  issue_number: context.issue.number,\n  owner: context.repo.owner,\n \
+          \ repo: context.repo.repo,\n  body: body\n});"

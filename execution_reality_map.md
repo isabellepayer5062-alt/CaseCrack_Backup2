@@ -1,0 +1,535 @@
+# Execution Reality Map
+
+Generated: 2026-04-20T03:12:48.060357+00:00
+
+## Summary
+
+| Metric | Count |
+|--------|-------|
+| Total modules | 1423 |
+| ✅ Executed / Reachable | 528 |
+| ⚠️ Conditional (runtime-only) | 0 |
+| ❌ Dead (unreachable) | 895 |
+| ❌ Syntax errors | 0 |
+| Dangling imports (module not on disk) | 129 |
+| Import edges | 2443 |
+
+## ✅ Executed / Reachable Modules
+
+- `tools.burp_enterprise._design_tokens`
+- `tools.burp_enterprise._safe_parse`
+- `tools.burp_enterprise._scanner_http`
+- `tools.burp_enterprise.account`
+- `tools.burp_enterprise.adaptive_chain_engine`
+- `tools.burp_enterprise.adaptive_learning`
+- `tools.burp_enterprise.advanced_racer`
+- `tools.burp_enterprise.agent_loop`
+- `tools.burp_enterprise.agent_memory`
+- `tools.burp_enterprise.agent_telemetry`
+- `tools.burp_enterprise.agents._safe_parse`
+- `tools.burp_enterprise.agents.adaptive_learning`
+- `tools.burp_enterprise.agents.advanced_agent_patterns`
+- `tools.burp_enterprise.agents.advanced_orchestration`
+- `tools.burp_enterprise.agents.agent_memory`
+- `tools.burp_enterprise.agents.atlas`
+- `tools.burp_enterprise.agents.bayesian_prioritizer`
+- `tools.burp_enterprise.agents.db_registry`
+- `tools.burp_enterprise.agents.deterministic_replay`
+- `tools.burp_enterprise.agents.exceptions`
+- `tools.burp_enterprise.agents.http_client`
+- `tools.burp_enterprise.agents.llm_bridge`
+- `tools.burp_enterprise.agents.logging_config`
+- `tools.burp_enterprise.agents.reasoning_engine`
+- `tools.burp_enterprise.agents.rl_reward_engine`
+- `tools.burp_enterprise.ai_ml`
+- `tools.burp_enterprise.ai_ml._ai_api_proxy`
+- `tools.burp_enterprise.ai_ml._llm_exfiltration`
+- `tools.burp_enterprise.ai_ml._model_endpoint`
+- `tools.burp_enterprise.ai_ml._models`
+- `tools.burp_enterprise.ai_ml._prompt_injection`
+- `tools.burp_enterprise.ai_ml._rag_pipeline`
+- `tools.burp_enterprise.ai_ml._scanner`
+- `tools.burp_enterprise.ai_ml._serialization`
+- `tools.burp_enterprise.ai_ml._utils`
+- `tools.burp_enterprise.ai_ml._vector_db`
+- `tools.burp_enterprise.ai_ml_scanner`
+- `tools.burp_enterprise.analyzer`
+- `tools.burp_enterprise.api_discovery`
+- `tools.burp_enterprise.api_security`
+- `tools.burp_enterprise.archive_sourcemap_scanner`
+- `tools.burp_enterprise.asn_intel`
+- `tools.burp_enterprise.assessment_engine`
+- `tools.burp_enterprise.atlas`
+- `tools.burp_enterprise.atlas.adapter`
+- `tools.burp_enterprise.atlas.advisory`
+- `tools.burp_enterprise.atlas.archetypes`
+- `tools.burp_enterprise.atlas.atlas_nexus`
+- `tools.burp_enterprise.atlas.bootstrap`
+- `tools.burp_enterprise.atlas.defense`
+- `tools.burp_enterprise.atlas.graph`
+- `tools.burp_enterprise.atlas.ingest`
+- `tools.burp_enterprise.atlas.interface`
+- `tools.burp_enterprise.atlas.models`
+- `tools.burp_enterprise.atlas.patterns`
+- `tools.burp_enterprise.atlas.store`
+- `tools.burp_enterprise.attack_reasoning`
+- `tools.burp_enterprise.audit_trail`
+- `tools.burp_enterprise.authz`
+- `tools.burp_enterprise.autonomy`
+- `tools.burp_enterprise.azure_devops_deep_recon`
+- `tools.burp_enterprise.baseline_manager`
+- `tools.burp_enterprise.bayesian_prioritizer`
+- `tools.burp_enterprise.bitbucket_deep_recon`
+- `tools.burp_enterprise.browser_extension_recon`
+- `tools.burp_enterprise.bucket_scanner`
+- `tools.burp_enterprise.business_logic`
+- `tools.burp_enterprise.caap_formatter`
+- `tools.burp_enterprise.cache`
+- `tools.burp_enterprise.canary_detector`
+- `tools.burp_enterprise.canonical_finding`
+- `tools.burp_enterprise.captcha_bypass`
+- `tools.burp_enterprise.certificates`
+- `tools.burp_enterprise.chain`
+- `tools.burp_enterprise.chain_includes`
+- `tools.burp_enterprise.chain_matcher`
+- `tools.burp_enterprise.chain_output`
+- `tools.burp_enterprise.chain_packs`
+- `tools.burp_enterprise.ci_cd_integration`
+- `tools.burp_enterprise.cli._base`
+- `tools.burp_enterprise.cli._parsers.advanced_racer`
+- `tools.burp_enterprise.cli._parsers.agent`
+- `tools.burp_enterprise.cli._parsers.ai_scan`
+- `tools.burp_enterprise.cli._parsers.api`
+- `tools.burp_enterprise.cli._parsers.ask`
+- `tools.burp_enterprise.cli._parsers.attack_reason`
+- `tools.burp_enterprise.cli._parsers.auth`
+- `tools.burp_enterprise.cli._parsers.context`
+- `tools.burp_enterprise.cli._parsers.copilot`
+- `tools.burp_enterprise.cli._parsers.core`
+- `tools.burp_enterprise.cli._parsers.dashboard`
+- `tools.burp_enterprise.cli._parsers.devsecops`
+- `tools.burp_enterprise.cli._parsers.dynamic_chain`
+- `tools.burp_enterprise.cli._parsers.elite`
+- `tools.burp_enterprise.cli._parsers.evolutionary_fuzzer`
+- `tools.burp_enterprise.cli._parsers.findings`
+- `tools.burp_enterprise.cli._parsers.gap_r`
+- `tools.burp_enterprise.cli._parsers.go`
+- `tools.burp_enterprise.cli._parsers.graph`
+- `tools.burp_enterprise.cli._parsers.http3`
+- `tools.burp_enterprise.cli._parsers.init_cmd`
+- `tools.burp_enterprise.cli._parsers.injection`
+- `tools.burp_enterprise.cli._parsers.intel`
+- `tools.burp_enterprise.cli._parsers.license`
+- `tools.burp_enterprise.cli._parsers.nuclei_gen`
+- `tools.burp_enterprise.cli._parsers.osint`
+- `tools.burp_enterprise.cli._parsers.p7`
+- `tools.burp_enterprise.cli._parsers.passive_templates`
+- `tools.burp_enterprise.cli._parsers.pilot`
+- `tools.burp_enterprise.cli._parsers.platform`
+- `tools.burp_enterprise.cli._parsers.protocol`
+- `tools.burp_enterprise.cli._parsers.recon`
+- `tools.burp_enterprise.cli._parsers.recon_dashboard`
+- `tools.burp_enterprise.cli._parsers.resume`
+- `tools.burp_enterprise.cli._parsers.worker`
+- `tools.burp_enterprise.cli.commands`
+- `tools.burp_enterprise.cli.commands.advanced_racer`
+- `tools.burp_enterprise.cli.commands.agent`
+- `tools.burp_enterprise.cli.commands.agent_cognition`
+- `tools.burp_enterprise.cli.commands.agent_exploit_adapt`
+- `tools.burp_enterprise.cli.commands.agent_integration`
+- `tools.burp_enterprise.cli.commands.agent_orchestration`
+- `tools.burp_enterprise.cli.commands.agent_strategy`
+- `tools.burp_enterprise.cli.commands.ai_scan`
+- `tools.burp_enterprise.cli.commands.api`
+- `tools.burp_enterprise.cli.commands.ask`
+- `tools.burp_enterprise.cli.commands.atlas_cmd`
+- `tools.burp_enterprise.cli.commands.attack_reason`
+- `tools.burp_enterprise.cli.commands.auth`
+- `tools.burp_enterprise.cli.commands.cloud`
+- `tools.burp_enterprise.cli.commands.copilot`
+- `tools.burp_enterprise.cli.commands.core`
+- `tools.burp_enterprise.cli.commands.dashboard`
+- `tools.burp_enterprise.cli.commands.devsecops`
+- `tools.burp_enterprise.cli.commands.dynamic_chain`
+- `tools.burp_enterprise.cli.commands.elite`
+- `tools.burp_enterprise.cli.commands.evolutionary_fuzzer`
+- `tools.burp_enterprise.cli.commands.findings`
+- `tools.burp_enterprise.cli.commands.gap_r`
+- `tools.burp_enterprise.cli.commands.go`
+- `tools.burp_enterprise.cli.commands.graph`
+- `tools.burp_enterprise.cli.commands.http3`
+- `tools.burp_enterprise.cli.commands.init_cmd`
+- `tools.burp_enterprise.cli.commands.injection`
+- `tools.burp_enterprise.cli.commands.intel`
+- `tools.burp_enterprise.cli.commands.nuclei_gen`
+- `tools.burp_enterprise.cli.commands.osint`
+- `tools.burp_enterprise.cli.commands.p7_commands`
+- `tools.burp_enterprise.cli.commands.passive_templates`
+- `tools.burp_enterprise.cli.commands.pilot`
+- `tools.burp_enterprise.cli.commands.platform`
+- `tools.burp_enterprise.cli.commands.protocol`
+- `tools.burp_enterprise.cli.commands.recon`
+- `tools.burp_enterprise.cli.commands.recon_advanced`
+- `tools.burp_enterprise.cli.commands.recon_common`
+- `tools.burp_enterprise.cli.commands.recon_discovery`
+- `tools.burp_enterprise.cli.commands.recon_fingerprint`
+- `tools.burp_enterprise.cli.commands.recon_scanning`
+- `tools.burp_enterprise.cli.commands.recon_tier2`
+- `tools.burp_enterprise.cli.commands.recon_web_security`
+- `tools.burp_enterprise.cli.commands.resume`
+- `tools.burp_enterprise.cli.main`
+- `tools.burp_enterprise.cloud_discovery`
+- `tools.burp_enterprise.cloud_inventory`
+- `tools.burp_enterprise.cloud_security`
+- `tools.burp_enterprise.cognitive_bridge`
+- `tools.burp_enterprise.collaborative_intelligence`
+- `tools.burp_enterprise.collaborator`
+- `tools.burp_enterprise.command_injection`
+- `tools.burp_enterprise.comparer`
+- `tools.burp_enterprise.compliance_pkg`
+- `tools.burp_enterprise.compliance_pkg.checks`
+- `tools.burp_enterprise.compliance_pkg.checks.nist`
+- `tools.burp_enterprise.compliance_pkg.checks.owasp_asvs`
+- `tools.burp_enterprise.compliance_pkg.checks.pci_dss`
+- `tools.burp_enterprise.compliance_pkg.checks.soc2`
+- `tools.burp_enterprise.compliance_pkg.data`
+- `tools.burp_enterprise.compliance_pkg.enterprise`
+- `tools.burp_enterprise.compliance_pkg.mapper`
+- `tools.burp_enterprise.compliance_pkg.models`
+- `tools.burp_enterprise.composite_rule_engine`
+- `tools.burp_enterprise.confidence_engine`
+- `tools.burp_enterprise.config`
+- `tools.burp_enterprise.config.scan_config`
+- `tools.burp_enterprise.container_recon`
+- `tools.burp_enterprise.context_builder`
+- `tools.burp_enterprise.copilot`
+- `tools.burp_enterprise.copilot_loop`
+- `tools.burp_enterprise.copilot_reasoning`
+- `tools.burp_enterprise.core`
+- `tools.burp_enterprise.core_infra.health`
+- `tools.burp_enterprise.core_infra.logging_config`
+- `tools.burp_enterprise.core_infra.shutdown`
+- `tools.burp_enterprise.correlation_engine`
+- `tools.burp_enterprise.cors`
+- `tools.burp_enterprise.crawl_secrets_pipeline`
+- `tools.burp_enterprise.crawler`
+- `tools.burp_enterprise.credential_enumerator`
+- `tools.burp_enterprise.crlf_injection`
+- `tools.burp_enterprise.cross_fork_scanner`
+
+## ⚠️ Conditional Modules (0)
+
+
+## ❌ Dead Modules (895)
+
+These modules are not reachable from any canonical entrypoint.
+
+- `tools.burp_enterprise`
+- `tools.burp_enterprise._check_enums`
+- `tools.burp_enterprise._cli_dispatch`
+- `tools.burp_enterprise._cold_storage._extract_data_to_json`
+- `tools.burp_enterprise._cold_storage._shared_rendering`
+- `tools.burp_enterprise._cold_storage.email_hardening._types`
+- `tools.burp_enterprise._cold_storage.tool_wrappers._adaptive_rate`
+- `tools.burp_enterprise._cold_storage.tool_wrappers._capabilities`
+- `tools.burp_enterprise._cold_storage.tool_wrappers._lockfile`
+- `tools.burp_enterprise._cold_storage.tool_wrappers._policy`
+- `tools.burp_enterprise._cold_storage.tool_wrappers._preflight`
+- `tools.burp_enterprise._cold_storage.tool_wrappers._retry`
+- `tools.burp_enterprise._cold_storage.wasm_analysis._types`
+- `tools.burp_enterprise._dedup_enums`
+- `tools.burp_enterprise._exploitation_engine_new`
+- `tools.burp_enterprise._extract_data_to_json`
+- `tools.burp_enterprise._extract_vuln_intel`
+- `tools.burp_enterprise._find_dquotes`
+- `tools.burp_enterprise._find_dupes`
+- `tools.burp_enterprise._finding_correlator_deprecated`
+- `tools.burp_enterprise._fix_di1`
+- `tools.burp_enterprise._gen_expanded`
+- `tools.burp_enterprise._mcp_tool_registry`
+- `tools.burp_enterprise._migrate_print_to_logger`
+- `tools.burp_enterprise._phase1_loaders.data_loader`
+- `tools.burp_enterprise._phase1_loaders.mcp_tools_loader`
+- `tools.burp_enterprise._phase1_loaders.poc_generator_facade`
+- `tools.burp_enterprise._scan_quotes`
+- `tools.burp_enterprise._scanner_providers_deprecated`
+- `tools.burp_enterprise._shared_rendering`
+- `tools.burp_enterprise._spa_shell`
+- `tools.burp_enterprise.agent_sessions`
+- `tools.burp_enterprise.agents`
+- `tools.burp_enterprise.agents._llm_bridge_new`
+- `tools.burp_enterprise.agents.agent_loop`
+- `tools.burp_enterprise.agents.agent_sessions`
+- `tools.burp_enterprise.agents.agent_telemetry`
+- `tools.burp_enterprise.agents.attack_reasoning`
+- `tools.burp_enterprise.agents.auth_context`
+- `tools.burp_enterprise.agents.autonomous_exploitation`
+- `tools.burp_enterprise.agents.autonomy`
+- `tools.burp_enterprise.agents.browser_workflow_extractor`
+- `tools.burp_enterprise.agents.business_logic_scanner`
+- `tools.burp_enterprise.agents.caap_formatter`
+- `tools.burp_enterprise.agents.chain`
+- `tools.burp_enterprise.agents.chain_impact_scorer`
+- `tools.burp_enterprise.agents.chain_resolver`
+- `tools.burp_enterprise.agents.cognitive_bridge`
+- `tools.burp_enterprise.agents.collaborative_intelligence`
+- `tools.burp_enterprise.agents.copilot`
+- `tools.burp_enterprise.agents.copilot_loop`
+- `tools.burp_enterprise.agents.copilot_reasoning`
+- `tools.burp_enterprise.agents.core`
+- `tools.burp_enterprise.agents.crawl_secrets_pipeline`
+- `tools.burp_enterprise.agents.crawler`
+- `tools.burp_enterprise.agents.creative_exploit_heuristics`
+- `tools.burp_enterprise.agents.db_manager`
+- `tools.burp_enterprise.agents.discovery_bridge`
+- `tools.burp_enterprise.agents.domain_knowledge_engine`
+- `tools.burp_enterprise.agents.environmental_adaptation`
+- `tools.burp_enterprise.agents.evolutionary_fuzzer`
+- `tools.burp_enterprise.agents.exploit_graph`
+- `tools.burp_enterprise.agents.exploitation_engine`
+- `tools.burp_enterprise.agents.fuzzer`
+- `tools.burp_enterprise.agents.goal_planner`
+- `tools.burp_enterprise.agents.hierarchical_planner`
+- `tools.burp_enterprise.agents.init_wizard`
+- `tools.burp_enterprise.agents.long_running_orchestrator`
+- `tools.burp_enterprise.agents.next_action_advisor`
+- `tools.burp_enterprise.agents.nl_translator`
+- `tools.burp_enterprise.agents.opportunity_scoring`
+- `tools.burp_enterprise.agents.payload_intelligence`
+- `tools.burp_enterprise.agents.planner_bridge`
+- `tools.burp_enterprise.agents.platforms`
+- `tools.burp_enterprise.agents.race_harness`
+- `tools.burp_enterprise.agents.reasoning_display`
+- `tools.burp_enterprise.agents.reporter`
+- `tools.burp_enterprise.agents.reverse_analytics`
+- `tools.burp_enterprise.agents.risk_aware_testing`
+- `tools.burp_enterprise.agents.session_manager`
+- `tools.burp_enterprise.agents.session_state_manager`
+- `tools.burp_enterprise.agents.source_code_search`
+- `tools.burp_enterprise.agents.state_graph`
+- `tools.burp_enterprise.agents.strategy_engine`
+- `tools.burp_enterprise.agents.telemetry`
+- `tools.burp_enterprise.agents.ui_interaction_engine`
+- `tools.burp_enterprise.agents.unified_agent`
+- `tools.burp_enterprise.agents.vuln_knowledge`
+- `tools.burp_enterprise.agents.vulnerability_intelligence`
+- `tools.burp_enterprise.agents.waf`
+- `tools.burp_enterprise.agents.workflow_modeler`
+- `tools.burp_enterprise.atlas_mcp_bridge`
+- `tools.burp_enterprise.audit_trail_tester`
+- `tools.burp_enterprise.auth_context`
+- `tools.burp_enterprise.autonomous_exploitation`
+- `tools.burp_enterprise.base_finding`
+- `tools.burp_enterprise.browser_exploitation_engine`
+- `tools.burp_enterprise.browser_workflow_extractor`
+- `tools.burp_enterprise.burp_enterprise_api`
+- `tools.burp_enterprise.business_logic_ai`
+- `tools.burp_enterprise.business_logic_scanner`
+- `tools.burp_enterprise.caap`
+- `tools.burp_enterprise.caap.adaptive_learning`
+- `tools.burp_enterprise.caap.agent_memory`
+- `tools.burp_enterprise.caap.autonomy`
+- `tools.burp_enterprise.caap.browser_exploitation_engine`
+- `tools.burp_enterprise.caap.caap_chains`
+- `tools.burp_enterprise.caap.caap_formatter`
+- `tools.burp_enterprise.caap.caap_hypothesis`
+- `tools.burp_enterprise.caap.caap_models`
+- `tools.burp_enterprise.caap.caap_output_wrapper`
+- `tools.burp_enterprise.caap.caap_parser`
+- `tools.burp_enterprise.caap.caap_session`
+- `tools.burp_enterprise.caap.copilot_loop`
+- `tools.burp_enterprise.caap.environmental_adaptation`
+- `tools.burp_enterprise.caap.escalation_gateway`
+- `tools.burp_enterprise.caap.event_bus`
+- `tools.burp_enterprise.caap.exploit_verifier`
+- `tools.burp_enterprise.caap.exploitation_data`
+- `tools.burp_enterprise.caap.exploitation_engine`
+- `tools.burp_enterprise.caap.exploitation_models`
+- `tools.burp_enterprise.caap.impact_chain`
+- `tools.burp_enterprise.caap.logging_config`
+- `tools.burp_enterprise.caap.poc_generator`
+- `tools.burp_enterprise.caap.reasoning_engine`
+- `tools.burp_enterprise.caap.screenshot`
+- `tools.burp_enterprise.caap.state_graph`
+- `tools.burp_enterprise.caap.ui_interaction_engine`
+- `tools.burp_enterprise.caap.vuln_knowledge`
+- `tools.burp_enterprise.caap_chains`
+- `tools.burp_enterprise.caap_hypothesis`
+- `tools.burp_enterprise.caap_models`
+- `tools.burp_enterprise.caap_output_wrapper`
+- `tools.burp_enterprise.caap_parser`
+- `tools.burp_enterprise.caap_session`
+- `tools.burp_enterprise.caching`
+- `tools.burp_enterprise.chain_executor`
+- `tools.burp_enterprise.chain_handlers_ext`
+- `tools.burp_enterprise.chain_impact_scorer`
+- `tools.burp_enterprise.chain_resolver`
+- `tools.burp_enterprise.chain_schema`
+- `tools.burp_enterprise.cli`
+- `tools.burp_enterprise.cli.__main__`
+- `tools.burp_enterprise.cli._parsers`
+- `tools.burp_enterprise.cli._parsers.atlas`
+- `tools.burp_enterprise.cli.daemon`
+- `tools.burp_enterprise.cloud`
+- `tools.burp_enterprise.cloud.bucket_scanner`
+- `tools.burp_enterprise.cloud.cloud_asset_discovery`
+- `tools.burp_enterprise.cloud.cloud_discovery`
+- `tools.burp_enterprise.cloud.cloud_inventory`
+- `tools.burp_enterprise.cloud.cloud_security`
+- `tools.burp_enterprise.cloud.container`
+- `tools.burp_enterprise.cloud.container_recon`
+- `tools.burp_enterprise.cloud.http_client`
+- `tools.burp_enterprise.cloud.iam_attack_paths`
+- `tools.burp_enterprise.cloud.ipv6_scanner`
+- `tools.burp_enterprise.cloud.kerberos_scanner`
+- `tools.burp_enterprise.cloud.logging_config`
+- `tools.burp_enterprise.cloud.network_safety`
+- `tools.burp_enterprise.cloud.subdomain`
+- `tools.burp_enterprise.cloud_asset_discovery`
+- `tools.burp_enterprise.compliance_mapper`
+- `tools.burp_enterprise.container`
+- `tools.burp_enterprise.context_manager`
+- `tools.burp_enterprise.core_infra`
+- `tools.burp_enterprise.core_infra.audit_trail`
+- `tools.burp_enterprise.core_infra.base_finding`
+- `tools.burp_enterprise.core_infra.canonical_finding`
+- `tools.burp_enterprise.core_infra.chaos_testing`
+- `tools.burp_enterprise.core_infra.chaos_testing_v2`
+- `tools.burp_enterprise.core_infra.compliance_pkg`
+- `tools.burp_enterprise.core_infra.confidence_engine`
+- `tools.burp_enterprise.core_infra.context_builder`
+- `tools.burp_enterprise.core_infra.context_manager`
+- `tools.burp_enterprise.core_infra.copilot_loop`
+- `tools.burp_enterprise.core_infra.cross_cutting`
+- `tools.burp_enterprise.core_infra.db_manager`
+- `tools.burp_enterprise.core_infra.db_registry`
+- `tools.burp_enterprise.core_infra.error_intelligence`
+- `tools.burp_enterprise.core_infra.error_recovery`
+- `tools.burp_enterprise.core_infra.event_bus`
+- `tools.burp_enterprise.core_infra.exceptions`
+- `tools.burp_enterprise.core_infra.exploit_graph`
+- `tools.burp_enterprise.core_infra.finding_stream`
+- `tools.burp_enterprise.core_infra.js_ast_analyzer`
+- `tools.burp_enterprise.core_infra.metrics_collector`
+- `tools.burp_enterprise.core_infra.module_registry`
+- `tools.burp_enterprise.core_infra.preflight`
+- `tools.burp_enterprise.core_infra.project`
+- `tools.burp_enterprise.core_infra.registry`
+- `tools.burp_enterprise.core_infra.resilience_wiring`
+- `tools.burp_enterprise.core_infra.resource_monitor`
+- `tools.burp_enterprise.core_infra.results`
+- `tools.burp_enterprise.core_infra.safety_guardrails`
+- `tools.burp_enterprise.core_infra.scanner_utilities`
+- `tools.burp_enterprise.core_infra.scope`
+- `tools.burp_enterprise.core_infra.secret_patterns`
+- `tools.burp_enterprise.core_infra.secrets_scanner`
+- `tools.burp_enterprise.core_infra.self_healing`
+... and 695 more
+
+## ❌ Syntax Errors (0)
+
+
+## Dangling Imports (129)
+
+Import targets that don't exist on disk.
+
+- `tools.atlas.models` ← referenced by `tools.burp_enterprise.learning_loop_engine`
+- `tools.burp_enterprise._cold_storage.tool_wrappers._defaults` ← referenced by `tools.burp_enterprise._cold_storage.tool_wrappers._capabilities`, `tools.burp_enterprise._cold_storage.tool_wrappers._lockfile`, `tools.burp_enterprise._cold_storage.tool_wrappers._preflight`
+- `tools.burp_enterprise._phase1_loaders.exploitation.poc_generator` ← referenced by `tools.burp_enterprise._phase1_loaders.poc_generator_facade`
+- `tools.burp_enterprise._phase1_loaders.models` ← referenced by `tools.burp_enterprise._phase1_loaders.data_loader`
+- `tools.burp_enterprise._phase1_loaders.tool_abstraction` ← referenced by `tools.burp_enterprise._phase1_loaders.mcp_tools_loader`
+- `tools.burp_enterprise._phase1_loaders.tool_chain_advisor` ← referenced by `tools.burp_enterprise._phase1_loaders.mcp_tools_loader`
+- `tools.burp_enterprise.agents.atlas.adapter` ← referenced by `tools.burp_enterprise.agents.agent_loop`, `tools.burp_enterprise.agents.copilot_loop`
+- `tools.burp_enterprise.agents.atlas.defense` ← referenced by `tools.burp_enterprise.agents.reasoning_engine`
+- `tools.burp_enterprise.agents.atlas.graph` ← referenced by `tools.burp_enterprise.agents.reasoning_engine`
+- `tools.burp_enterprise.agents.cli._base` ← referenced by `tools.burp_enterprise.agents.copilot_loop`
+- `tools.burp_enterprise.agents.conflict_arbitration` ← referenced by `tools.burp_enterprise.agents`
+- `tools.burp_enterprise.agents.exploitation.engine` ← referenced by `tools.burp_enterprise.agents.copilot_loop`
+- `tools.burp_enterprise.agents.finding_safety_interlocks` ← referenced by `tools.burp_enterprise.agents`
+- `tools.burp_enterprise.agents.fork_spawn` ← referenced by `tools.burp_enterprise.agents`
+- `tools.burp_enterprise.agents.llm_cache` ← referenced by `tools.burp_enterprise.agents._llm_bridge_new`
+- `tools.burp_enterprise.agents.llm_clients` ← referenced by `tools.burp_enterprise.agents._llm_bridge_new`
+- `tools.burp_enterprise.agents.llm_routing` ← referenced by `tools.burp_enterprise.agents._llm_bridge_new`
+- `tools.burp_enterprise.agents.llm_tracking` ← referenced by `tools.burp_enterprise.agents._llm_bridge_new`
+- `tools.burp_enterprise.agents.llm_types` ← referenced by `tools.burp_enterprise.agents._llm_bridge_new`
+- `tools.burp_enterprise.agents.passive_templates.scanner` ← referenced by `tools.burp_enterprise.agents.unified_agent`
+- `tools.burp_enterprise.agents.role_registry` ← referenced by `tools.burp_enterprise.agents`
+- `tools.burp_enterprise.agents.speculative_executor` ← referenced by `tools.burp_enterprise.agents`
+- `tools.burp_enterprise.cli.dynamic_chain` ← referenced by `tools.burp_enterprise.cli.commands.dynamic_chain`
+- `tools.burp_enterprise.database.data.postgres` ← referenced by `tools.burp_enterprise.database.storage`
+- `tools.burp_enterprise.exploit_chains.atlas.adapter` ← referenced by `tools.burp_enterprise.exploit_chains.chain`
+- `tools.burp_enterprise.exploit_chains.execution_scheduler` ← referenced by `tools.burp_enterprise.exploit_chains.payload_synthesis_engine`
+- `tools.burp_enterprise.exploit_chains.genetic_forge` ← referenced by `tools.burp_enterprise.exploit_chains.payload_synthesis_engine`
+- `tools.burp_enterprise.exploit_chains.grammar_synthesizer` ← referenced by `tools.burp_enterprise.exploit_chains.payload_synthesis_engine`
+- `tools.burp_enterprise.exploit_chains.llm_synthesizer` ← referenced by `tools.burp_enterprise.exploit_chains.payload_synthesis_engine`
+- `tools.burp_enterprise.exploit_chains.manual_audit_engine` ← referenced by `tools.burp_enterprise.exploit_chains`
+- `tools.burp_enterprise.exploit_chains.payload_arbiter` ← referenced by `tools.burp_enterprise.exploit_chains.payload_synthesis_engine`
+- `tools.burp_enterprise.graph.builder` ← referenced by `tools.burp_enterprise.graph`
+- `tools.burp_enterprise.graph.checkpointer_async` ← referenced by `tools.burp_enterprise.graph`
+- `tools.burp_enterprise.graph.cross_scan_memory` ← referenced by `tools.burp_enterprise.graph`
+- `tools.burp_enterprise.graph.multi_agent.builder` ← referenced by `tools.burp_enterprise.graph.multi_agent`
+- `tools.burp_enterprise.graph.multi_agent.handoff` ← referenced by `tools.burp_enterprise.graph.multi_agent`
+- `tools.burp_enterprise.graph.multi_agent.runner` ← referenced by `tools.burp_enterprise.graph.multi_agent`
+- `tools.burp_enterprise.graph.multi_agent.state` ← referenced by `tools.burp_enterprise.graph.multi_agent`
+- `tools.burp_enterprise.graph.multi_agent.worker_factory` ← referenced by `tools.burp_enterprise.graph.multi_agent`
+- `tools.burp_enterprise.graph.production` ← referenced by `tools.burp_enterprise.graph`
+- `tools.burp_enterprise.graph.reasoning.builder` ← referenced by `tools.burp_enterprise.graph.reasoning`
+- `tools.burp_enterprise.graph.reasoning.runner` ← referenced by `tools.burp_enterprise.graph.reasoning`
+- `tools.burp_enterprise.graph.reasoning.state` ← referenced by `tools.burp_enterprise.graph.reasoning`
+- `tools.burp_enterprise.graph.runner` ← referenced by `tools.burp_enterprise.graph`
+- `tools.burp_enterprise.graph.state` ← referenced by `tools.burp_enterprise.graph`
+- `tools.burp_enterprise.graph.tracing` ← referenced by `tools.burp_enterprise.graph`
+- `tools.burp_enterprise.inference.engine` ← referenced by `tools.burp_enterprise.inference`
+- `tools.burp_enterprise.inference.gpu_governor` ← referenced by `tools.burp_enterprise.inference`
+- `tools.burp_enterprise.inference.grammar` ← referenced by `tools.burp_enterprise.inference`
+- `tools.burp_enterprise.inference.kv_cache` ← referenced by `tools.burp_enterprise.inference`
+- `tools.burp_enterprise.inference.model_management.finetune_exporter` ← referenced by `tools.burp_enterprise.inference.model_management`
+- `tools.burp_enterprise.inference.model_management.model_benchmarker` ← referenced by `tools.burp_enterprise.inference.model_management`
+- `tools.burp_enterprise.inference.model_management.model_cli` ← referenced by `tools.burp_enterprise.inference.model_management`
+- `tools.burp_enterprise.inference.model_management.model_downloader` ← referenced by `tools.burp_enterprise.inference.model_management`
+- `tools.burp_enterprise.inference.model_management.model_registry` ← referenced by `tools.burp_enterprise.inference.model_management`
+- `tools.burp_enterprise.inference.model_management.vram_selector` ← referenced by `tools.burp_enterprise.inference.model_management`
+- `tools.burp_enterprise.inference.model_manager` ← referenced by `tools.burp_enterprise.inference`
+- `tools.burp_enterprise.integrations.atlas.interface` ← referenced by `tools.burp_enterprise.integrations.nuclei_template_generator`
+- `tools.burp_enterprise.integrations.atlas.models` ← referenced by `tools.burp_enterprise.integrations.nuclei_template_generator`
+- `tools.burp_enterprise.loop.ai_directed_executor` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.attack_graph` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.autonomous_loop` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.campaign_strategy` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.confirmation_engine` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.exploit_report` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.exploration_bias` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.graph_pruner` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.invariant_engine` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.loop_config` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.parallel_executor` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.payload_evolution` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.race_engine` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.session_matrix` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.signal_extraction` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.target_selection` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.target_specialization` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.value_scorer` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.vector_reasoning` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.loop.world_state` ← referenced by `tools.burp_enterprise.loop`
+- `tools.burp_enterprise.mcp.atlas.models` ← referenced by `tools.burp_enterprise.mcp.atlas_mcp_bridge`
+- `tools.burp_enterprise.mcp.recon_dashboard._hooks` ← referenced by `tools.burp_enterprise.mcp.mcp_server`
+- `tools.burp_enterprise.mcp.tool_wrappers._base` ← referenced by `tools.burp_enterprise.mcp.mcp_server`
+- `tools.burp_enterprise.mcp.tool_wrappers._doctor` ← referenced by `tools.burp_enterprise.mcp.mcp_builtins`
+- `tools.burp_enterprise.memory.embedder` ← referenced by `tools.burp_enterprise.memory`
+- `tools.burp_enterprise.memory.vector_index` ← referenced by `tools.burp_enterprise.memory`
+- `tools.burp_enterprise.misc.atlas.patterns` ← referenced by `tools.burp_enterprise.misc.tool_chain_advisor`
+- `tools.burp_enterprise.misc.cli._base` ← referenced by `tools.burp_enterprise.misc.init_wizard`
+- `tools.burp_enterprise.output.atlas.adapter` ← referenced by `tools.burp_enterprise.output.correlation_engine`
+- `tools.burp_enterprise.pipeline.data.postgres` ← referenced by `tools.burp_enterprise.pipeline.worker`
+- `tools.burp_enterprise.pipeline.subdomain_enum` ← referenced by `tools.burp_enterprise.pipeline.enterprise_scale_executor`
+- `tools.burp_enterprise.pipeline.tool_wrappers._scan_runner` ← referenced by `tools.burp_enterprise.pipeline.worker`
+- `tools.burp_enterprise.production_subsystems` ← referenced by `tools.burp_enterprise.agents`
+- `tools.burp_enterprise.reasoning.context_budget` ← referenced by `tools.burp_enterprise.reasoning`
+- `tools.burp_enterprise.reasoning.hypothesis_manager` ← referenced by `tools.burp_enterprise.reasoning`
+- `tools.burp_enterprise.reasoning.kv_checkpoint` ← referenced by `tools.burp_enterprise.reasoning`
+- `tools.burp_enterprise.reasoning.prompt_chains` ← referenced by `tools.burp_enterprise.reasoning`
+- `tools.burp_enterprise.recon.atlas.adapter` ← referenced by `tools.burp_enterprise.recon.assessment_engine`, `tools.burp_enterprise.recon.recon_pipeline`
+- `tools.burp_enterprise.recon.recon_dashboard._hooks` ← referenced by `tools.burp_enterprise.recon.assessment_engine`
+- `tools.burp_enterprise.recon.tool_wrappers._registry` ← referenced by `tools.burp_enterprise.recon.recon_pipeline`
+- `tools.burp_enterprise.recon_dashboard.logging_config` ← referenced by `tools.burp_enterprise.recon_dashboard`, `tools.burp_enterprise.recon_dashboard._hooks`

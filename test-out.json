@@ -1,0 +1,8 @@
+{
+  "target_url": "https://empireminecraft.com",
+  "scanner": "zap",
+  "findings": [],
+  "skipped": true,
+  "skip_reason": "ZAP provider unavailable",
+  "generated_at": "2026-05-05T05:26:57.358746+00:00Z"
+}

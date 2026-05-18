@@ -1,0 +1,2980 @@
+[
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/weight_tuner.py",
+    "disk_size": 15319,
+    "hist_size": 79190,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6e057ee0\\X8Q1.py",
+    "disk_only": [
+      "WeightTuner._extract_observation",
+      "_NEGATIVE_SIGNALS",
+      "_POSITIVE_SIGNALS",
+      "_REWARD_BY_TYPE",
+      "_SIGNAL_TO_ARBITER_ATTR"
+    ],
+    "hist_only": [
+      "AUTO_PERSIST_INTERVAL",
+      "BLEND_RAMP_OBSERVATIONS",
+      "BLEND_RATIO",
+      "BLEND_RATIO_MAX",
+      "DECAY_FACTOR",
+      "DECEPTION_DECLINE_ACCEL",
+      "DECEPTION_DECLINE_PCT",
+      "DECEPTION_LOOKBACK",
+      "DESERT_THRESHOLD",
+      "DESERT_WINDOW",
+      "FROZEN_MISBELIEF_BLEND_CAP",
+      "FROZEN_MISBELIEF_TRUST_THRESHOLD",
+      "INDEX_DECAY_FACTOR",
+      "LOW_VARIANCE_DECAY",
+      "LOW_VARIANCE_EPSILON",
+      "MAX_OBSERVATIONS",
+      "MAX_WEIGHT_MAGNITUDE",
+      "MIN_WEIGHT_VELOCITY",
+      "PERSIST_DECAY",
+      "PERSIST_DIR",
+      "PERSIST_FILENAME",
+      "PERSIST_VERSION",
+      "PROGRESSIVE_RIDGE_EXTRA",
+      "PROGRESSIVE_RIDGE_RAMP",
+      "RESURRECTION_CORR_MIN",
+      "REWARD_INFORMATIVENESS_FLOOR",
+      "RIDGE_LAMBDA",
+      "SIGNAL_JITTER_SCALE",
+      "STABILITY_DAMPEN_FACTOR",
+      "STABILITY_DAMPEN_THRESHOLD",
+      "STABILITY_WINDOW",
+      "TRUST_MAX",
+      "TRUST_MIN",
+      "WEAK_SIGNAL_PROTECTION_THRESHOLD",
+      "WeightTuner._adaptive_blend",
+      "WeightTuner._calibrate",
+      "WeightTuner._has_contextual_contradictions",
+      "WeightTuner._in_reward_desert",
+      "WeightTuner._maybe_auto_persist",
+      "WeightTuner._try_load",
+      "WeightTuner._update_contextual_trust",
+      "WeightTuner._update_trust_scores",
+      "WeightTuner.bind_exploit_graph",
+      "WeightTuner.bind_observability",
+      "WeightTuner.export_state",
+      "WeightTuner.get_all_contextual_trust",
+      "WeightTuner.get_calibration_history",
+      "WeightTuner.get_contextual_trust",
+      "WeightTuner.get_signal_trust",
+      "WeightTuner.get_stability_scores",
+      "WeightTuner.get_weight_history",
+      "WeightTuner.get_weight_velocity",
+      "WeightTuner.import_state",
+      "WeightTuner.load",
+      "WeightTuner.observe_with_context",
+      "WeightTuner.save",
+      "WeightTuner.weight_context_for_prompt",
+      "_jitter",
+      "_stable_payload_hash",
+      "get_weight_tuner",
+      "set_weight_tuner"
+    ],
+    "overlap_count": 22,
+    "signature_changes": [
+      {
+        "name": "WeightTuner.__init__",
+        "disk_sig": "__init__(self, calibration_interval, blend_ratio)",
+        "hist_sig": "__init__(self, calibration_interval, blend_ratio, ridge_lambda, *, persist_path, auto_persist, auto_persist_interval)"
+      },
+      {
+        "name": "WeightTuner._push_to_arbiter",
+        "disk_sig": "_push_to_arbiter(self)",
+        "hist_sig": "_push_to_arbiter(self, weights)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/agents/llm_bridge.py",
+    "disk_size": 71924,
+    "hist_size": 257834,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6532e0c0\\wbiO.py",
+    "disk_only": [
+      "Analysis",
+      "Analysis.to_dict",
+      "AnthropicClient",
+      "AnthropicClient.__init__",
+      "AnthropicClient.complete",
+      "AnthropicClient.estimate_cost",
+      "AnthropicClient.estimate_tokens",
+      "BaseLLMClient",
+      "BaseLLMClient.complete",
+      "BaseLLMClient.estimate_cost",
+      "BaseLLMClient.estimate_tokens",
+      "CacheStrategy",
+      "Explanation",
+      "Explanation.to_markdown",
+      "Finding",
+      "GitHubModelsClient",
+      "GitHubModelsClient.__init__",
+      "GitHubModelsClient.complete",
+      "GitHubModelsClient.estimate_cost",
+      "GitHubModelsClient.estimate_tokens",
+      "Hypothesis",
+      "Hypothesis.to_dict",
+      "LLMConfig",
+      "LLMConfig._auto_detect_provider",
+      "LLMConfig.from_env",
+      "LLMProvider",
+      "LLMResponse",
+      "LocalLlamaClient",
+      "MockClient",
+      "MockClient.__init__",
+      "MockClient.complete",
+      "MockClient.estimate_cost",
+      "MockClient.estimate_tokens",
+      "Observation",
+      "OllamaClient",
+      "OllamaClient.__init__",
+      "OllamaClient.complete",
+      "OllamaClient.estimate_cost",
+      "OllamaClient.estimate_tokens",
+      "OpenAIClient",
+      "OpenAIClient.__init__",
+      "OpenAIClient.complete",
+      "OpenAIClient.estimate_cost",
+      "OpenAIClient.estimate_tokens",
+      "PROMPT_TEMPLATES",
+      "PROVIDER_DEFAULT_MODELS",
+      "PromptType",
+      "ResponseCache",
+      "ResponseCache.__init__",
+      "ResponseCache._hash_key",
+      "ResponseCache.clear",
+      "ResponseCache.get",
+      "ResponseCache.set",
+      "ResponseCache.stats",
+      "_API_KEY_PATTERN",
+      "_safe_format",
+      "_sanitize_for_log"
+    ],
+    "hist_only": [
+      "LLMBridge._adaptive_temperature",
+      "LLMBridge._augment_with_rag",
+      "LLMBridge._auto_route_role",
+      "LLMBridge._build_agent_chat_prompt",
+      "LLMBridge._build_agent_chat_prompt_local",
+      "LLMBridge._build_tool_calling_system_prompt",
+      "LLMBridge._classify_complexity",
+      "LLMBridge._cleanup_old_costs",
+      "LLMBridge._client_for_role",
+      "LLMBridge._complete_inner",
+      "LLMBridge._complete_structured",
+      "LLMBridge._complete_structured_stream",
+      "LLMBridge._compute_finding_dedup",
+      "LLMBridge._detect_prompt_collapse",
+      "LLMBridge._emit_llm_event",
+      "LLMBridge._estimate_tokens",
+      "LLMBridge._get_event_bus",
+      "LLMBridge._get_secret",
+      "LLMBridge._infer_tool_categories",
+      "LLMBridge._inject_feedback_signal",
+      "LLMBridge._run_infra_health_check",
+      "LLMBridge._score_intent",
+      "LLMBridge._tool_calling_loop",
+      "LLMBridge.agent_chat",
+      "LLMBridge.agent_chat_stream",
+      "LLMBridge.analyze_false_positive",
+      "LLMBridge.close",
+      "LLMBridge.complete",
+      "LLMBridge.configure_feedback_db",
+      "LLMBridge.discover_chains",
+      "LLMBridge.generate_compliance_narrative",
+      "LLMBridge.generate_executive_summary",
+      "LLMBridge.generate_smart_remediation",
+      "LLMBridge.generate_target_profile",
+      "LLMBridge.get_queue_stats",
+      "LLMBridge.map_attack_surface",
+      "LLMBridge.plan_and_execute",
+      "LLMBridge.prioritize_findings",
+      "LLMBridge.recommend_scan_tuning",
+      "LLMBridge.request_count",
+      "LLMBridge.reset_escalation",
+      "LLMBridge.session_cost",
+      "LLMBridge.session_tokens",
+      "LLMBridge.set_escalation",
+      "LLMBridge.validate_finding",
+      "LLMBridge.validate_finding_with_debate",
+      "_CVSS_FALLBACK",
+      "_CWE_FALLBACK",
+      "_HEAVY_MODEL_RE",
+      "_inject_thinking_budget"
+    ],
+    "overlap_count": 25,
+    "signature_changes": [
+      {
+        "name": "LLMBridge._complete",
+        "disk_sig": "_complete(self, prompt, use_cache, role, **kwargs)",
+        "hist_sig": "_complete(self, prompt, use_cache, role, purpose, **kwargs)"
+      },
+      {
+        "name": "LLMBridge._parse_json_response",
+        "disk_sig": "_parse_json_response(self, content)",
+        "hist_sig": "_parse_json_response(self, content, *, purpose, role_id)"
+      },
+      {
+        "name": "LLMBridge.analyze_response",
+        "disk_sig": "analyze_response(self, response, context)",
+        "hist_sig": "analyze_response(self, response, context, tech_stack, payload, payload_purpose, baseline_status, baseline_length, baseline_response)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/payload_arbiter.py",
+    "disk_size": 20144,
+    "hist_size": 81808,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6f3a78fd\\dlFG.py",
+    "disk_only": [
+      "PayloadArbiter._score_payload",
+      "_CHAIN_KEYWORDS",
+      "_COST_BY_ENGINE",
+      "_DESTRUCTIVE_PATTERNS",
+      "_IMPACT_BY_VULN",
+      "_LOCAL_HOSTS",
+      "_OBFUSCATION_PATTERNS",
+      "_PRIVATE_PREFIXES",
+      "_SIGNAL_TO_WEIGHT_ATTR",
+      "_URL_RE",
+      "_compute_momentum",
+      "_compute_novelty",
+      "_compute_stealth",
+      "_compute_temporal",
+      "_is_local_host"
+    ],
+    "hist_only": [
+      "CANDIDATE_LIMIT",
+      "CHAIN_EV_MAX_MULTIPLIER",
+      "CHAIN_EV_THRESHOLD",
+      "COMPETITION_AMPLIFICATION",
+      "COMPETITION_DISAGREEMENT_THRESHOLD",
+      "CONVERGENCE_THRESHOLD",
+      "CONVERGENCE_WINDOW",
+      "DIVERSITY_PRESSURE_BONUS",
+      "DOMINANCE_THRESHOLD",
+      "DOMINANCE_WINDOW",
+      "EXPLORATION_BOOST",
+      "EXPLORATION_BUDGET_BASE",
+      "PRUNING_DEAD_CYCLES",
+      "PRUNING_DEAD_THRESHOLD",
+      "PayloadArbiter._apply_diversity_bonus",
+      "PayloadArbiter._apply_evasion_optimization",
+      "PayloadArbiter._chain_aware_reorder",
+      "PayloadArbiter._get_lazy_dominant",
+      "PayloadArbiter._validate_synergy_pairs",
+      "PayloadArbiter.bind_observability",
+      "PayloadArbiter.get_convergence_history",
+      "PayloadArbiter.get_disabled_synergy_pairs",
+      "PayloadArbiter.get_dominance_stats",
+      "PayloadArbiter.get_lifecycle",
+      "PayloadArbiter.get_marginal_contributions",
+      "PayloadArbiter.get_pruned_signals",
+      "PayloadArbiter.get_resurrection_history",
+      "PayloadArbiter.get_synergy_correlations",
+      "PayloadArbiter.is_diversity_pressure_active",
+      "PayloadArbiter.set_exploration_trust_scores",
+      "PayloadArbiter.verify_field_mapping",
+      "RESURRECTION_EVIDENCE_CYCLES",
+      "RESURRECTION_EVIDENCE_THRESHOLD",
+      "RESURRECTION_INITIAL_TRUST",
+      "SYNERGY_DISABLE_THRESHOLD",
+      "SYNERGY_PAIRS",
+      "SYNERGY_VALIDATION_WINDOW",
+      "_AGGRESSIVE_ONLY_PATTERNS",
+      "_DEAD_SIGNAL_EPSILON",
+      "_SAFETY_REJECT_PATTERNS",
+      "_WEIGHT_SUM",
+      "_compute_chain_momentum",
+      "_compute_novelty_score",
+      "_compute_stealth_score",
+      "_compute_temporal_relevance"
+    ],
+    "overlap_count": 33,
+    "signature_changes": [
+      {
+        "name": "PayloadArbiter.arbitrate",
+        "disk_sig": "arbitrate(self, ctx, engine_outputs)",
+        "hist_sig": "arbitrate(self, context, engine_outputs)"
+      },
+      {
+        "name": "PayloadArbiter.bind_evasion_engine",
+        "disk_sig": "bind_evasion_engine(self, engine)",
+        "hist_sig": "bind_evasion_engine(self, evasion_engine)"
+      },
+      {
+        "name": "PayloadArbiter.bind_waf_adaptive",
+        "disk_sig": "bind_waf_adaptive(self, waf)",
+        "hist_sig": "bind_waf_adaptive(self, waf_adaptive)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/grammar_synthesizer.py",
+    "disk_size": 30328,
+    "hist_size": 52847,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\729d304b\\0dqL.py",
+    "disk_only": [
+      "SQLiGrammar._dialect_payloads",
+      "SQLiGrammar._position_payloads",
+      "XSSGrammar._attr_name_payloads",
+      "XSSGrammar._attr_value_payloads",
+      "XSSGrammar._comment_payloads",
+      "XSSGrammar._encoded_variants",
+      "XSSGrammar._noscript_payloads",
+      "XSSGrammar._script_block_payloads",
+      "XSSGrammar._style_block_payloads",
+      "XSSGrammar._svg_payloads",
+      "XSSGrammar._tag_name_payloads",
+      "XSSGrammar._text_node_payloads",
+      "XSSGrammar._textarea_payloads",
+      "XSSGrammar._url_context_payloads",
+      "_take",
+      "_wrap"
+    ],
+    "hist_only": [
+      "BYPASS_KNOWN_BOOST",
+      "CONTEXT_PRECISION_BOOST",
+      "GRAMMAR_BASE_CONFIDENCE",
+      "MAX_AST_DEPTH",
+      "MAX_GRAMMAR_PAYLOADS",
+      "SQLiGrammar._gen_boolean_where",
+      "SQLiGrammar._gen_numeric_inject",
+      "SQLiGrammar._gen_order_by",
+      "SQLiGrammar._gen_string_break_double",
+      "SQLiGrammar._gen_string_break_single",
+      "SQLiGrammar._gen_union_numeric",
+      "SQLiGrammar._gen_union_string",
+      "SQLiGrammar._select_generators",
+      "XSSGrammar._gen_attr_name_injection",
+      "XSSGrammar._gen_attribute_break",
+      "XSSGrammar._gen_comment_break",
+      "XSSGrammar._gen_csp_bypass",
+      "XSSGrammar._gen_event_injection",
+      "XSSGrammar._gen_js_injection",
+      "XSSGrammar._gen_noscript_break",
+      "XSSGrammar._gen_script_break",
+      "XSSGrammar._gen_style_break",
+      "XSSGrammar._gen_svg_injection",
+      "XSSGrammar._gen_tag_injection",
+      "XSSGrammar._gen_textarea_break",
+      "XSSGrammar._select_encodings",
+      "XSSGrammar._select_generators",
+      "_ENCODERS",
+      "_GRAMMAR_REGISTRY",
+      "_SAFE_ALERTS",
+      "_double_url_encode",
+      "_html_entity_encode",
+      "_html_hex_encode",
+      "_mixed_case",
+      "_rand_str",
+      "_unicode_escape",
+      "_url_encode"
+    ],
+    "overlap_count": 19,
+    "signature_changes": [
+      {
+        "name": "CMDiGrammar.synthesize",
+        "disk_sig": "synthesize(cls, ctx, count)",
+        "hist_sig": "synthesize(cls, context, count)"
+      },
+      {
+        "name": "GrammarSynthesizer.synthesize",
+        "disk_sig": "synthesize(self, ctx, count)",
+        "hist_sig": "synthesize(self, context, count, constraints)"
+      },
+      {
+        "name": "PathTraversalGrammar.synthesize",
+        "disk_sig": "synthesize(cls, ctx, count)",
+        "hist_sig": "synthesize(cls, context, count)"
+      },
+      {
+        "name": "SQLiGrammar.synthesize",
+        "disk_sig": "synthesize(cls, ctx, count)",
+        "hist_sig": "synthesize(cls, context, count)"
+      },
+      {
+        "name": "SSRFGrammar.synthesize",
+        "disk_sig": "synthesize(cls, ctx, count)",
+        "hist_sig": "synthesize(cls, context, count)"
+      },
+      {
+        "name": "SSTIGrammar.synthesize",
+        "disk_sig": "synthesize(cls, ctx, count)",
+        "hist_sig": "synthesize(cls, context, count)"
+      },
+      {
+        "name": "XSSGrammar.synthesize",
+        "disk_sig": "synthesize(cls, ctx, count)",
+        "hist_sig": "synthesize(cls, context, count)"
+      },
+      {
+        "name": "XXEGrammar.synthesize",
+        "disk_sig": "synthesize(cls, ctx, count)",
+        "hist_sig": "synthesize(cls, context, count)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py",
+    "disk_size": 54146,
+    "hist_size": 67615,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-73a8cea7\\93xQ.py",
+    "disk_only": [
+      "AgentConfigValidator",
+      "AgentConfigValidator.__init__",
+      "AgentConfigValidator.get_stats",
+      "AgentConfigValidator.validate",
+      "AgentMemoryCompactor",
+      "AgentMemoryCompactor.__init__",
+      "AgentMemoryCompactor.compact",
+      "AgentMemoryCompactor.get_history",
+      "AgentMetricCollector",
+      "AgentMetricCollector.__init__",
+      "AgentMetricCollector.aggregate",
+      "AgentMetricCollector.get_counter",
+      "AgentMetricCollector.get_gauge",
+      "AgentMetricCollector.get_samples",
+      "AgentMetricCollector.get_stats",
+      "AgentMetricCollector.increment_counter",
+      "AgentMetricCollector.record_sample",
+      "AgentMetricCollector.set_gauge",
+      "AgentMetricSample",
+      "AgentMetricSample.to_dict",
+      "CacheOptimizedForker._build_prefix",
+      "CacheOptimizedForker._build_suffix",
+      "CacheOptimizedForker._hash_messages",
+      "CompactionStats",
+      "CompactionStats.reduction_rate",
+      "CompactionStats.to_dict",
+      "ConfigValidationResult",
+      "ConfigValidationResult.to_dict",
+      "ConfigViolation",
+      "ConfigViolation.to_dict",
+      "FuseCircuit.__init__",
+      "FuseCircuit.__repr__",
+      "FuseCircuit.allow",
+      "FuseCircuit.consecutive_failures",
+      "FuseCircuit.state",
+      "FuseCircuit.total_failures",
+      "FuseCircuit.total_successes",
+      "LLMMemoryRetriever._llm_select",
+      "PostTurnOrchestrator._run_with_timeout",
+      "StallWatchdog._assess",
+      "StallWatchdog._remediation",
+      "_HookEntry",
+      "_PROMPT_PATTERNS",
+      "_WatchEntry",
+      "get_config_validator",
+      "get_memory_compactor",
+      "get_metric_collector",
+      "reset_config_validator",
+      "reset_memory_compactor",
+      "reset_metric_collector"
+    ],
+    "hist_only": [
+      "CacheOptimizedForker._build_child_message",
+      "CacheOptimizedForker._build_shared_prefix",
+      "CacheOptimizedForker._compute_prefix_hash",
+      "DreamConsolidator._bg_loop",
+      "DreamConsolidator._gather_episodes",
+      "DreamConsolidator._prune_duplicates",
+      "DreamConsolidator._store_fact",
+      "DreamConsolidator._store_rule",
+      "DreamConsolidator.start_background",
+      "DreamConsolidator.stop_background",
+      "DreamCycleStats.to_dict",
+      "FORK_CHILD_RULES",
+      "HOOK_TIMEOUT_S",
+      "HookResult.to_dict",
+      "LLMMemoryRetriever._query_llm",
+      "MAX_DREAM_TURNS",
+      "MAX_RELEVANT_MEMORIES",
+      "MEMORY_SELECTOR_PROMPT",
+      "PostTurnOrchestrator._execute_one",
+      "PostTurnResult.to_dict",
+      "STALL_CHECK_INTERVAL_S",
+      "STALL_PROMPT_PATTERNS",
+      "STALL_REMEDIATIONS",
+      "STALL_TAIL_BYTES",
+      "STALL_THRESHOLD_S",
+      "StallWatchdog._bg_loop",
+      "StallWatchdog._classify_stall",
+      "StallWatchdog.cleanup",
+      "StallWatchdog.start_background",
+      "StallWatchdog.stop_background",
+      "T",
+      "_RegisteredHook",
+      "_WatchedProcess"
+    ],
+    "overlap_count": 72,
+    "signature_changes": [
+      {
+        "name": "CacheOptimizedForker.__init__",
+        "disk_sig": "__init__(self)",
+        "hist_sig": "__init__(self, child_rules, include_scan_state)"
+      },
+      {
+        "name": "CacheOptimizedForker.build_fork_messages",
+        "disk_sig": "build_fork_messages(self, context, directives)",
+        "hist_sig": "build_fork_messages(self, parent_context, directives, parent_messages)"
+      },
+      {
+        "name": "DreamConsolidator.__init__",
+        "disk_sig": "__init__(self, agent_memory, consolidation_threshold, max_turns)",
+        "hist_sig": "__init__(self, agent_memory, max_turns, consolidation_threshold, review_interval_s)"
+      },
+      {
+        "name": "DreamConsolidator.consolidate_session",
+        "disk_sig": "consolidate_session(self, episodes, session_id)",
+        "hist_sig": "consolidate_session(self, session_id, episodes)"
+      },
+      {
+        "name": "LLMMemoryRetriever.__init__",
+        "disk_sig": "__init__(self, llm_fn, max_results)",
+        "hist_sig": "__init__(self, llm_fn, max_results, max_response_tokens)"
+      },
+      {
+        "name": "LLMMemoryRetriever.select",
+        "disk_sig": "select(self, task, candidates, already_surfaced)",
+        "hist_sig": "select(self, task, candidates, active_tools, already_surfaced)"
+      },
+      {
+        "name": "PostTurnOrchestrator._safe_call",
+        "disk_sig": "_safe_call(fn, ctx)",
+        "hist_sig": "_safe_call(fn, context)"
+      },
+      {
+        "name": "PostTurnOrchestrator.register",
+        "disk_sig": "register(self, name, fn, priority, fire_and_forget)",
+        "hist_sig": "register(self, name, fn, priority, fire_and_forget, timeout_s)"
+      },
+      {
+        "name": "StallWatchdog.__init__",
+        "disk_sig": "__init__(self, threshold_s, on_stall)",
+        "hist_sig": "__init__(self, check_interval_s, threshold_s, tail_bytes, on_stall)"
+      },
+      {
+        "name": "StallWatchdog._read_tail",
+        "disk_sig": "_read_tail(path, max_bytes)",
+        "hist_sig": "_read_tail(self, output_file, known_size)"
+      },
+      {
+        "name": "StallWatchdog.record_output",
+        "disk_sig": "record_output(self, tool_id, byte_count)",
+        "hist_sig": "record_output(self, tool_id, new_size)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/genetic_forge.py",
+    "disk_size": 26006,
+    "hist_size": 37297,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-67bb4266\\FAiP.py",
+    "disk_only": [
+      "CONVERGENCE_PATIENCE",
+      "DEFAULT_CROSSOVER_RATE",
+      "DEFAULT_ELITE_FRACTION",
+      "DEFAULT_MAX_GENERATIONS",
+      "DEFAULT_MUTATION_RATE",
+      "ForgeChromosome.__post_init__",
+      "ForgeFitnessEvaluator._bypass_score",
+      "ForgeFitnessEvaluator._diversity_score",
+      "ForgeFitnessEvaluator._hypothesis_score",
+      "GeneticForge._initial_population",
+      "GeneticForge._next_generation",
+      "GeneticForge._to_ranked",
+      "TOP_K_SURVIVORS",
+      "_FALLBACK_SEEDS",
+      "_MUTATION_OPERATORS",
+      "_RNG_DEFAULT",
+      "_STRUCTURAL_SIGNATURES",
+      "_chromosome_id",
+      "_rng"
+    ],
+    "hist_only": [
+      "CONVERGENCE_THRESHOLD",
+      "CONVERGENCE_WINDOW",
+      "CROSSOVER_RATE",
+      "ELITE_SIZE",
+      "FITNESS_BYPASS_REWARD_WEIGHT",
+      "FITNESS_DIVERSITY_WEIGHT",
+      "FITNESS_HYPOTHESIS_WEIGHT",
+      "FITNESS_LENGTH_PENALTY_WEIGHT",
+      "FITNESS_PATH_ALIGNMENT_WEIGHT",
+      "FITNESS_STRUCTURAL_WEIGHT",
+      "ForgeChromosome.id",
+      "GeneticForge._apply_random_mutation",
+      "GeneticForge._evolve_generation",
+      "GeneticForge._get_hypothesis_seeds",
+      "GeneticForge._get_thompson_arms",
+      "GeneticForge._seed_population",
+      "GeneticForge.drain_execution_fitness",
+      "GeneticForge.inject_fitness_signal",
+      "MAX_GENERATIONS",
+      "MUTATION_RATE",
+      "SEED_BYPASSED_RATIO",
+      "SEED_GRAMMAR_RATIO",
+      "SEED_HYPOTHESIS_RATIO",
+      "SEED_RANDOM_RATIO",
+      "SEED_THOMPSON_RATIO",
+      "TOURNAMENT_SIZE",
+      "_MUTATION_OPS"
+    ],
+    "overlap_count": 27,
+    "signature_changes": [
+      {
+        "name": "ForgeChromosome.clone",
+        "disk_sig": "clone(self, *, source)",
+        "hist_sig": "clone(self)"
+      },
+      {
+        "name": "ForgeFitnessEvaluator._structural_score",
+        "disk_sig": "_structural_score(self, genes, vuln_type)",
+        "hist_sig": "_structural_score(payload, context)"
+      },
+      {
+        "name": "ForgeFitnessEvaluator.evaluate",
+        "disk_sig": "evaluate(self, chromosome, ctx, *, population_hashes)",
+        "hist_sig": "evaluate(self, chromosome, context, population_hashes)"
+      },
+      {
+        "name": "GeneticForge.__init__",
+        "disk_sig": "__init__(self, *, population_size, max_generations, mutation_rate, crossover_rate, elite_fraction, seed)",
+        "hist_sig": "__init__(self, population_size, max_generations)"
+      },
+      {
+        "name": "GeneticForge._crossover",
+        "disk_sig": "_crossover(self, a, b, rng)",
+        "hist_sig": "_crossover(genes_a, genes_b)"
+      },
+      {
+        "name": "GeneticForge._fallback_seed",
+        "disk_sig": "_fallback_seed(ctx)",
+        "hist_sig": "_fallback_seed(context)"
+      },
+      {
+        "name": "GeneticForge._tournament_select",
+        "disk_sig": "_tournament_select(self, population, rng, k)",
+        "hist_sig": "_tournament_select(population)"
+      },
+      {
+        "name": "GeneticForge.bind_waf_adaptive",
+        "disk_sig": "bind_waf_adaptive(self, waf)",
+        "hist_sig": "bind_waf_adaptive(self, waf_adaptive)"
+      },
+      {
+        "name": "GeneticForge.evolve",
+        "disk_sig": "evolve(self, ctx, *, grammar_seeds)",
+        "hist_sig": "evolve(self, context, grammar_seeds, generations, mutation_biases)"
+      },
+      {
+        "name": "MutationOp.case_swap",
+        "disk_sig": "case_swap(payload, rng)",
+        "hist_sig": "case_swap(payload)"
+      },
+      {
+        "name": "MutationOp.delete_char",
+        "disk_sig": "delete_char(payload, rng)",
+        "hist_sig": "delete_char(payload)"
+      },
+      {
+        "name": "MutationOp.double_encode",
+        "disk_sig": "double_encode(payload, rng)",
+        "hist_sig": "double_encode(payload)"
+      },
+      {
+        "name": "MutationOp.html_entity_encode_segment",
+        "disk_sig": "html_entity_encode_segment(payload, rng)",
+        "hist_sig": "html_entity_encode_segment(payload)"
+      },
+      {
+        "name": "MutationOp.insert_char",
+        "disk_sig": "insert_char(payload, rng)",
+        "hist_sig": "insert_char(payload)"
+      },
+      {
+        "name": "MutationOp.insert_comment",
+        "disk_sig": "insert_comment(payload, rng)",
+        "hist_sig": "insert_comment(payload)"
+      },
+      {
+        "name": "MutationOp.swap_chars",
+        "disk_sig": "swap_chars(payload, rng)",
+        "hist_sig": "swap_chars(payload)"
+      },
+      {
+        "name": "MutationOp.tag_mangle",
+        "disk_sig": "tag_mangle(payload, rng)",
+        "hist_sig": "tag_mangle(payload)"
+      },
+      {
+        "name": "MutationOp.url_encode_segment",
+        "disk_sig": "url_encode_segment(payload, rng)",
+        "hist_sig": "url_encode_segment(payload)"
+      },
+      {
+        "name": "MutationOp.whitespace_variant",
+        "disk_sig": "whitespace_variant(payload, rng)",
+        "hist_sig": "whitespace_variant(payload)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/payload_synthesis_engine.py",
+    "disk_size": 13445,
+    "hist_size": 44077,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-b3e0feb\\90Xn.py",
+    "disk_only": [
+      "PayloadSynthesisEngine._ensure_arbiter",
+      "PayloadSynthesisEngine._ensure_forge",
+      "PayloadSynthesisEngine._ensure_grammar",
+      "PayloadSynthesisEngine._ensure_llm",
+      "PayloadSynthesisEngine._ensure_scheduler",
+      "PayloadSynthesisEngine.forge",
+      "PayloadSynthesisEngine.synthesize",
+      "SynthesisPhase",
+      "SynthesisResult.total_payloads",
+      "_OUTCOME_DELTA"
+    ],
+    "hist_only": [
+      "GRAMMAR_COUNT",
+      "LLM_SKIP_THRESHOLD",
+      "MAX_FINAL_PAYLOADS",
+      "MAX_SYNTHESIS_TIME_MS",
+      "PER_ENGINE_CAP",
+      "PayloadSynthesisEngine._ensure_initialised",
+      "PayloadSynthesisEngine._evaluate_strategy",
+      "PayloadSynthesisEngine._run_arbiter",
+      "PayloadSynthesisEngine._run_grammar",
+      "PayloadSynthesisEngine._run_llm",
+      "PayloadSynthesisEngine._run_scheduler",
+      "PayloadSynthesisEngine._should_invoke_llm",
+      "PayloadSynthesisEngine.bind_campaign_intelligence",
+      "PayloadSynthesisEngine.bind_evasion_engine",
+      "PayloadSynthesisEngine.bind_exploit_graph",
+      "PayloadSynthesisEngine.bind_state_machine",
+      "PayloadSynthesisEngine.bind_unified_reasoning",
+      "PayloadSynthesisEngine.bind_waf_adaptive",
+      "PayloadSynthesisEngine.context_compiler",
+      "PayloadSynthesisEngine.failure_extractor",
+      "PayloadSynthesisEngine.feedback_collector",
+      "PayloadSynthesisEngine.genetic_forge",
+      "PayloadSynthesisEngine.llm_synthesizer",
+      "PayloadSynthesisEngine.observability_hub",
+      "PayloadSynthesisEngine.synthesize_payloads",
+      "PayloadSynthesisEngine.weight_tuner"
+    ],
+    "overlap_count": 13,
+    "signature_changes": [
+      {
+        "name": "PayloadSynthesisEngine.bind_hypothesis_engine",
+        "disk_sig": "bind_hypothesis_engine(self, he)",
+        "hist_sig": "bind_hypothesis_engine(self, engine)"
+      },
+      {
+        "name": "PayloadSynthesisEngine.bind_llm_bridge",
+        "disk_sig": "bind_llm_bridge(self, bridge)",
+        "hist_sig": "bind_llm_bridge(self, llm_bridge)"
+      },
+      {
+        "name": "PayloadSynthesisEngine.compile_context",
+        "disk_sig": "compile_context(self, vuln_type, target, **kwargs)",
+        "hist_sig": "compile_context(self, **kwargs)"
+      },
+      {
+        "name": "PayloadSynthesisEngine.record_feedback",
+        "disk_sig": "record_feedback(self, event)",
+        "hist_sig": "record_feedback(self, payload, context, feedback_type, *, response_status, response_body_snippet, response_time_ms, evidence_found, evidence_type)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/learning_loop_engine.py",
+    "disk_size": 68527,
+    "hist_size": 100011,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7c838736\\Uhkc.py",
+    "disk_only": [
+      "StrategyEvolver.evolve_exploitation_paths"
+    ],
+    "hist_only": [
+      "LearningLoopEngine._emit_learning_event",
+      "LearningLoopEngine._on_atlas_event",
+      "LearningLoopEngine._on_decision_outcome",
+      "LearningLoopEngine._on_domain_vertical_detected",
+      "LearningLoopEngine._on_finding_status_changed",
+      "LearningLoopEngine._on_goal_event",
+      "LearningLoopEngine._on_stealth_event",
+      "LearningLoopEngine._on_strategy_event",
+      "LearningLoopEngine._on_vuln_event",
+      "LearningLoopEngine.bind_event_bus",
+      "LearningLoopEngine.bind_learning_bridge",
+      "LearningLoopEngine.get_meta_trend",
+      "QTablePersistence.decay_epsilon",
+      "QTablePersistence.max_q_for_state",
+      "QTablePersistence.set_plateau_mode",
+      "_atexit_train_end_of_session",
+      "_sigterm_handler"
+    ],
+    "overlap_count": 67,
+    "signature_changes": [
+      {
+        "name": "QTablePersistence.get_best_action",
+        "disk_sig": "get_best_action(self, state, available_actions)",
+        "hist_sig": "get_best_action(self, state, available_actions, *, explore)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_feedback.py",
+    "disk_size": 14808,
+    "hist_size": 27958,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\734cf3e3\\YU9x.py",
+    "disk_only": [
+      "FeedbackEvent.is_neutral",
+      "SynthesisFeedbackCollector._propagate_to_campaign",
+      "SynthesisFeedbackCollector._propagate_to_forge",
+      "SynthesisFeedbackCollector._propagate_to_hypothesis",
+      "SynthesisFeedbackCollector._propagate_to_reasoning",
+      "SynthesisFeedbackCollector._propagate_to_waf",
+      "_NEGATIVE",
+      "_NEUTRAL",
+      "_POSITIVE",
+      "_SUBSYSTEM_NAMES"
+    ],
+    "hist_only": [
+      "FeedbackEvent.reward_signal",
+      "FeedbackEvent.to_dict",
+      "MAX_FEEDBACK_HISTORY",
+      "NEGATIVE_THRESHOLD",
+      "POSITIVE_THRESHOLD",
+      "STRONG_POSITIVE_THRESHOLD",
+      "SUBSYSTEM_TIMEOUT_MS",
+      "SynthesisFeedbackCollector._propagate_to_campaign_intelligence",
+      "SynthesisFeedbackCollector._propagate_to_genetic_forge",
+      "SynthesisFeedbackCollector._propagate_to_hypothesis_engine",
+      "SynthesisFeedbackCollector._propagate_to_unified_reasoning",
+      "SynthesisFeedbackCollector._propagate_to_waf_adaptive",
+      "SynthesisFeedbackCollector._record_error",
+      "SynthesisFeedbackCollector._record_latency",
+      "SynthesisFeedbackCollector.get_engine_performance",
+      "SynthesisFeedbackCollector.get_success_rate",
+      "SynthesisFeedbackCollector.get_target_history"
+    ],
+    "overlap_count": 17,
+    "signature_changes": [
+      {
+        "name": "SynthesisFeedbackCollector.bind_hypothesis_engine",
+        "disk_sig": "bind_hypothesis_engine(self, hyp)",
+        "hist_sig": "bind_hypothesis_engine(self, engine)"
+      },
+      {
+        "name": "SynthesisFeedbackCollector.bind_waf_adaptive",
+        "disk_sig": "bind_waf_adaptive(self, waf)",
+        "hist_sig": "bind_waf_adaptive(self, engine)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_context.py",
+    "disk_size": 22505,
+    "hist_size": 42242,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2b863a49\\q1mG.py",
+    "disk_only": [
+      "ProbeResult.__post_init__",
+      "ProbeResult.to_dict",
+      "RankedPayload.__post_init__",
+      "ReflectionContext.__post_init__",
+      "ReflectionContextDetector.__init__",
+      "ReflectionContextDetector.add_probe",
+      "ReflectionContextDetector.detect",
+      "SynthesisContext.__post_init__",
+      "_WHITESPACE_RE",
+      "_enum_value",
+      "_to_frozenset"
+    ],
+    "hist_only": [
+      "CANARY_PREFIX",
+      "CMD_PROBE_CHARS",
+      "ContextCompiler.cache_reflection_context",
+      "ContextCompiler.from_scan",
+      "HIGH_CONFIDENCE",
+      "HTML_PROBE_CHARS",
+      "LOW_CONFIDENCE",
+      "MAX_CONTEXT_PROBES",
+      "MEDIUM_CONFIDENCE",
+      "ReflectionContextDetector.analyze_char_probe",
+      "ReflectionContextDetector.build_reflection_context",
+      "ReflectionContextDetector.find_reflections",
+      "SAFETY_LEVELS",
+      "SQL_PROBE_CHARS",
+      "TEMPLATE_PROBE_CHARS"
+    ],
+    "overlap_count": 27,
+    "signature_changes": [
+      {
+        "name": "ContextCompiler.compile",
+        "disk_sig": "compile(self, target_url, vuln_type, param_name, param_location, recommendation, environment, **overrides)",
+        "hist_sig": "compile(self, *, target_url, vuln_type, param_name, param_location, param_type, original_value, recommendation, environment, exploit_position, fingerprint, reflection_context, csp_policy, cors_policy, prior_attempts, safety_level, max_payload_length, time_budget_ms)"
+      },
+      {
+        "name": "ContextCompiler.record_blocked",
+        "disk_sig": "record_blocked(self, target_url, payload)",
+        "hist_sig": "record_blocked(self, target_url, pattern)"
+      },
+      {
+        "name": "ContextCompiler.record_bypassed",
+        "disk_sig": "record_bypassed(self, target_url, payload)",
+        "hist_sig": "record_bypassed(self, target_url, pattern)"
+      },
+      {
+        "name": "ReflectionContextDetector.generate_canary",
+        "disk_sig": "generate_canary(self)",
+        "hist_sig": "generate_canary()"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/execution_scheduler.py",
+    "disk_size": 7956,
+    "hist_size": 18702,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5217667\\IxwG.py",
+    "disk_only": [
+      "ExecutionScheduler._estimate_latency",
+      "ExecutionScheduler._interleave_stealth",
+      "ExecutionScheduler._primary_key",
+      "ExecutionScheduler._trim_by_budget"
+    ],
+    "hist_only": [
+      "DEFAULT_BUDGET_PER_REQUEST_MS",
+      "ExecutionScheduler._get_vendor_latency",
+      "ExecutionScheduler._phase1_efficiency_sort",
+      "ExecutionScheduler._phase2_chain_order",
+      "ExecutionScheduler._phase3_stealth_interleave",
+      "ExecutionScheduler._phase4_budget_trim",
+      "ExecutionScheduler.bind_exploit_graph",
+      "INFO_VALUE_WEIGHT",
+      "MAX_SCHEDULE_SIZE",
+      "MIN_COST_FLOOR",
+      "NOISY_THRESHOLD",
+      "QUIET_THRESHOLD",
+      "WAF_TRIGGER_LATENCY_PENALTY_MS"
+    ],
+    "overlap_count": 11,
+    "signature_changes": [
+      {
+        "name": "ExecutionScheduler._compute_info_value",
+        "disk_sig": "_compute_info_value(payload, ctx)",
+        "hist_sig": "_compute_info_value(self, payload, context)"
+      },
+      {
+        "name": "ExecutionScheduler._make_entry",
+        "disk_sig": "_make_entry(self, payload, ctx)",
+        "hist_sig": "_make_entry(self, payload, context)"
+      },
+      {
+        "name": "ExecutionScheduler.record_latency",
+        "disk_sig": "record_latency(self, vendor, latency_ms)",
+        "hist_sig": "record_latency(self, waf_vendor, latency_ms)"
+      },
+      {
+        "name": "ExecutionScheduler.schedule",
+        "disk_sig": "schedule(self, payloads, ctx)",
+        "hist_sig": "schedule(self, payloads, context)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/llm_synthesizer.py",
+    "disk_size": 15709,
+    "hist_size": 21185,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\50fc2245\\tgeL.py",
+    "disk_only": [
+      "DEFAULT_LLM_CONFIDENCE",
+      "DEFAULT_MAX_PAYLOADS_PER_CALL",
+      "LLMSynthesizer._coerce_entry",
+      "LLMSynthesizer._rank",
+      "LLMSynthesizer.clear_cache",
+      "_DESTRUCTIVE_RE",
+      "_EXFIL_HOST_RE",
+      "_HTTP_EXFIL_RE",
+      "_cache_key",
+      "_endpoint_key",
+      "_max_payloads_for_ctx"
+    ],
+    "hist_only": [
+      "ESTIMATED_COST_PER_CALL",
+      "LLMSynthesizer._build_prompt",
+      "LLMSynthesizer._call_llm",
+      "LLMSynthesizer._parse_payload_dict",
+      "LLMSynthesizer._validate_and_wrap",
+      "LLM_BASE_CONFIDENCE",
+      "LLM_CACHE_TTL",
+      "MAX_CACHE_SIZE",
+      "MAX_LLM_PAYLOADS_PER_CALL",
+      "REASONING_CONFIDENCE_BOOST",
+      "SYNTHESIS_PROMPT",
+      "_UNSAFE_PATTERNS"
+    ],
+    "overlap_count": 13,
+    "signature_changes": [
+      {
+        "name": "LLMSynthesizer._parse_response",
+        "disk_sig": "_parse_response(self, raw)",
+        "hist_sig": "_parse_response(self, raw, ctx)"
+      },
+      {
+        "name": "LLMSynthesizer.bind_llm_bridge",
+        "disk_sig": "bind_llm_bridge(self, bridge)",
+        "hist_sig": "bind_llm_bridge(self, llm_bridge)"
+      },
+      {
+        "name": "LLMSynthesizer.should_use_llm",
+        "disk_sig": "should_use_llm(self, ctx, grammar_results)",
+        "hist_sig": "should_use_llm(self, context, grammar_results)"
+      },
+      {
+        "name": "LLMSynthesizer.synthesize",
+        "disk_sig": "synthesize(self, ctx)",
+        "hist_sig": "synthesize(self, context, failure_history)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/failure_pattern.py",
+    "disk_size": 10508,
+    "hist_size": 22365,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-19daba80\\Bhje.py",
+    "disk_only": [
+      "FailurePatternExtractor._evict_one",
+      "FailurePatternExtractor._filter",
+      "FailurePatternExtractor._refresh_counters",
+      "_AVOID_STRUCTURE_BY_SIG",
+      "_EVENT_HANDLER_RE",
+      "_MAX_PATTERNS",
+      "_MUTATION_BIAS_BY_SIG",
+      "_STABILITY_CONF",
+      "_STABILITY_OCC",
+      "_TEMPLATE_RE"
+    ],
+    "hist_only": [
+      "CONFIDENCE_PER_HIT",
+      "FailurePatternExtractor._evict_oldest",
+      "FailurePatternExtractor.bind_observability",
+      "FailurePatternExtractor.get_all_patterns",
+      "MAX_CONFIDENCE",
+      "MAX_PATTERNS_PER_VENDOR",
+      "MAX_TOTAL_PATTERNS",
+      "MIN_OCCURRENCES_FOR_RULE",
+      "_RULE_DESCRIPTIONS",
+      "_SIGNATURE_DETECTORS"
+    ],
+    "overlap_count": 14,
+    "signature_changes": [
+      {
+        "name": "FailurePatternExtractor.get_active_rules",
+        "disk_sig": "get_active_rules(self, vuln_type, waf_vendor)",
+        "hist_sig": "get_active_rules(self, context_type, waf_vendor)"
+      },
+      {
+        "name": "FailurePatternExtractor.get_grammar_constraints",
+        "disk_sig": "get_grammar_constraints(self, vuln_type, waf_vendor)",
+        "hist_sig": "get_grammar_constraints(self, context_type, waf_vendor)"
+      },
+      {
+        "name": "FailurePatternExtractor.get_llm_prompt_context",
+        "disk_sig": "get_llm_prompt_context(self, vuln_type, waf_vendor)",
+        "hist_sig": "get_llm_prompt_context(self, context_type, waf_vendor)"
+      },
+      {
+        "name": "FailurePatternExtractor.get_mutation_biases",
+        "disk_sig": "get_mutation_biases(self, vuln_type, waf_vendor)",
+        "hist_sig": "get_mutation_biases(self, context_type, waf_vendor)"
+      },
+      {
+        "name": "_detect_signatures",
+        "disk_sig": "_detect_signatures(text)",
+        "hist_sig": "_detect_signatures(payload)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/hypothesis_engine.py",
+    "disk_size": 36976,
+    "hist_size": 70338,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\64279997\\MbGW.py",
+    "disk_only": [
+      "HypothesisEngine._amplification_for",
+      "HypothesisEngine._get_or_create",
+      "HypothesisEngine._interaction_lookup",
+      "HypothesisEngine._prune_expired_boosts",
+      "HypothesisEngine._update_extreme_metrics",
+      "HypothesisWeight.signal_boost_total",
+      "SignalBoost.current_value",
+      "_ADMIN_TARGETS",
+      "_AUTH_TARGETS",
+      "_CHAIN_BOOST_CAP",
+      "_CLOUD_RELEVANT_TARGETS",
+      "_CTX_ADMIN_MULT",
+      "_CTX_AUTH_MULT",
+      "_CTX_CLOUD_MULT",
+      "_CTX_WAF_MULT",
+      "_DEFAULT_SEVERITY",
+      "_INJECTION_TARGETS",
+      "_INTERACTION_BOOST_CAP",
+      "_WEIGHT_MAX",
+      "_WEIGHT_MAX_EXPLOITING",
+      "_WEIGHT_MIN"
+    ],
+    "hist_only": [
+      "HypothesisEngine._apply_context_amplification",
+      "HypothesisEngine._apply_interactions",
+      "HypothesisEngine._get_or_create_weight",
+      "HypothesisEngine._propagate_failure_cascade",
+      "HypothesisEngine._update_weight_extremes",
+      "HypothesisWeight.decay_all",
+      "HypothesisWeight.recalibrate_base_weight",
+      "_MOMENTUM_BOOST_CAP_EXPLOIT",
+      "_MOMENTUM_BOOST_CAP_EXPLORE"
+    ],
+    "overlap_count": 42,
+    "signature_changes": [
+      {
+        "name": "HypothesisEngine.__init__",
+        "disk_sig": "__init__(self)",
+        "hist_sig": "__init__(self, *, default_ttl, max_boosts_per_action, failure_penalty_rate, failure_penalty_cap)"
+      },
+      {
+        "name": "HypothesisEngine.get_boosted_actions",
+        "disk_sig": "get_boosted_actions(self)",
+        "hist_sig": "get_boosted_actions(self, min_boost)"
+      },
+      {
+        "name": "HypothesisEngine.get_recent_events",
+        "disk_sig": "get_recent_events(self)",
+        "hist_sig": "get_recent_events(self, limit)"
+      },
+      {
+        "name": "HypothesisEngine.record_interaction_payoff",
+        "disk_sig": "record_interaction_payoff(self, action)",
+        "hist_sig": "record_interaction_payoff(self, finding_type)"
+      },
+      {
+        "name": "HypothesisEngine.signal_finding",
+        "disk_sig": "signal_finding(self, finding_type, severity, *, ctx)",
+        "hist_sig": "signal_finding(self, finding_type, severity, ctx)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/synthesis_safety.py",
+    "disk_size": 26190,
+    "hist_size": 36297,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1bb50c2b\\E2oc.py",
+    "disk_only": [
+      "_CONFIDENCE_FIELD_WEIGHTS",
+      "_WS_RE",
+      "_fingerprint",
+      "_shingles",
+      "_similarity"
+    ],
+    "hist_only": [
+      "CONTEXT_PROBE_AGREEMENT",
+      "CoherenceController._compute_alignment_unlocked",
+      "NOVELTY_BIGRAM_SIZE",
+      "NoveltyPressure._compute_novelty_unlocked",
+      "NoveltyPressure._fingerprint",
+      "NoveltyPressure._payload_hash"
+    ],
+    "overlap_count": 45,
+    "signature_changes": [
+      {
+        "name": "CoherenceController._type_agreement",
+        "disk_sig": "_type_agreement(a, b)",
+        "hist_sig": "_type_agreement(type_a, type_b)"
+      },
+      {
+        "name": "CoherenceController.compute_payload_coherence",
+        "disk_sig": "compute_payload_coherence(self, vuln_type)",
+        "hist_sig": "compute_payload_coherence(self, payload_type)"
+      },
+      {
+        "name": "ContextConfidence.from_probes",
+        "disk_sig": "from_probes(cls, *, canary_reflected, chars_tested, chars_reflected_unchanged, chars_encoded, chars_stripped, defense_signatures_matched, defense_signatures_tested, probes_sent, probes_consistent, html_position_confirmed, sql_context_confirmed, template_engine_confirmed, waf_vendor_confirmed)",
+        "hist_sig": "from_probes(cls, canary_reflected, chars_tested, chars_reflected_unchanged, chars_encoded, chars_stripped, defense_signatures_matched, defense_signatures_tested, probes_sent, probes_consistent, html_position_confirmed, sql_context_confirmed, template_engine_confirmed, waf_vendor_confirmed)"
+      },
+      {
+        "name": "NoveltyPressure.__init__",
+        "disk_sig": "__init__(self, window_size)",
+        "hist_sig": "__init__(self, window_size, ngram_size, min_distance)"
+      },
+      {
+        "name": "SynthesisSafetyGuard.__init__",
+        "disk_sig": "__init__(self, coherence, novelty)",
+        "hist_sig": "__init__(self, coherence_weight, novelty_weight)"
+      },
+      {
+        "name": "SynthesisSafetyGuard.adjust_score",
+        "disk_sig": "adjust_score(self, payload, vuln_type, raw_score, ctx)",
+        "hist_sig": "adjust_score(self, payload, payload_type, raw_score, context_confidence)"
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_tracer.py",
+    "disk_size": 27677,
+    "hist_size": 30694,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-39ce9d25\\QLmq.py",
+    "disk_only": [
+      "REQUIRED_FEEDBACK_TARGETS",
+      "SynthesisTracer._next_id",
+      "SynthesisTracer._parents_of",
+      "SynthesisTracer._record",
+      "WEIGHTS_SUM_TOLERANCE",
+      "_PENALTY_TO_WEIGHT_KEY",
+      "_SIGNAL_TO_WEIGHT_KEY"
+    ],
+    "hist_only": [
+      "SynthesisTracer._emit",
+      "SynthesisTracer._next_event_id",
+      "SynthesisTracer._parents_for",
+      "ValidationResult.add_violation",
+      "_SIGNAL_LABELS"
+    ],
+    "overlap_count": 30,
+    "signature_changes": [
+      {
+        "name": "SynthesisTracer.trace_engine_output",
+        "disk_sig": "trace_engine_output(self, context_id, engine, count, top_payloads)",
+        "hist_sig": "trace_engine_output(self, context_id, engine, count, top_previews)"
+      },
+      {
+        "name": "SynthesisTracer.trace_scoring",
+        "disk_sig": "trace_scoring(self, context_id, payloads, context_hash)",
+        "hist_sig": "trace_scoring(self, context_id, scored_payloads, context_hash)"
+      },
+      {
+        "name": "TraceValidator.validate",
+        "disk_sig": "validate(trace, context_hashes)",
+        "hist_sig": "validate(traces, context_hashes)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/tool_registry/output_parsers.py",
+    "disk_size": 27311,
+    "hist_size": 45570,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\43fdc151\\mtTp.py",
+    "disk_only": [
+      "CANONICAL_SEVERITIES",
+      "NaabuParser.parse",
+      "OutputParser._severity_norm",
+      "ParsedFinding.is_valid",
+      "ParserRegistry.invalid_count",
+      "ParserRegistry.names",
+      "REQUIRED_FIELDS",
+      "_PLUGIN_PARSERS",
+      "register_parser",
+      "registered_plugins",
+      "validate_finding"
+    ],
+    "hist_only": [
+      "ArjunParser.output_format",
+      "ArjunParser.tool_name",
+      "DalfoxParser.output_format",
+      "DalfoxParser.tool_name",
+      "FeroxbusterParser.output_format",
+      "FeroxbusterParser.tool_name",
+      "FfufParser.output_format",
+      "FfufParser.tool_name",
+      "GenericNDJSONParser.__init__",
+      "GenericNDJSONParser.output_format",
+      "GenericNDJSONParser.tool_name",
+      "GhauriParser.output_format",
+      "GhauriParser.tool_name",
+      "GobusterParser.output_format",
+      "GobusterParser.tool_name",
+      "HttpxParser.output_format",
+      "HttpxParser.tool_name",
+      "JsluiceParser.output_format",
+      "JsluiceParser.tool_name",
+      "KatanaParser.output_format",
+      "KatanaParser.tool_name",
+      "NaabuParser.tool_name",
+      "NiktoParser.output_format",
+      "NiktoParser.tool_name",
+      "NmapParser.output_format",
+      "NmapParser.tool_name",
+      "NucleiParser.output_format",
+      "NucleiParser.tool_name",
+      "OutputParser.output_format",
+      "OutputParser.tool_name",
+      "ParsedFinding._compute_hmac",
+      "ParsedFinding.to_dict",
+      "ParsedFinding.verify_hmac",
+      "ParserRegistry.has_parser",
+      "ParserRegistry.registered_tools",
+      "SqlmapParser.output_format",
+      "SqlmapParser.tool_name",
+      "SubfinderParser.output_format",
+      "SubfinderParser.tool_name",
+      "_HMAC_KEY",
+      "_extract_cves",
+      "_extract_cwes",
+      "_extract_severity",
+      "_extract_url",
+      "_safe_json",
+      "_safe_json_lines"
+    ],
+    "overlap_count": 42,
+    "signature_changes": [
+      {
+        "name": "ArjunParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "DalfoxParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "FeroxbusterParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "FfufParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "GenericNDJSONParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "GhauriParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "GobusterParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "HttpxParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "JsluiceParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "KatanaParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "NiktoParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "NmapParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "NucleiParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "OutputParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "ParserRegistry.__init__",
+        "disk_sig": "__init__(self, *, validate)",
+        "hist_sig": "__init__(self)"
+      },
+      {
+        "name": "ParserRegistry.parse",
+        "disk_sig": "parse(self, tool_name, raw, ctx)",
+        "hist_sig": "parse(self, tool_name, raw_output, context)"
+      },
+      {
+        "name": "SqlmapParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "SubfinderParser.parse",
+        "disk_sig": "parse(self, raw, ctx)",
+        "hist_sig": "parse(self, raw_output, context)"
+      },
+      {
+        "name": "build_default_parser_registry",
+        "disk_sig": "build_default_parser_registry(*, validate)",
+        "hist_sig": "build_default_parser_registry()"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/reasoning/prompt_chains.py",
+    "disk_size": 16706,
+    "hist_size": 66776,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-21530720\\34xb.py",
+    "disk_only": [
+      "ChainResult.get_step",
+      "ChainResult.success",
+      "DAGNode",
+      "DAGTraceEntry",
+      "PromptChainDAGExecutor",
+      "PromptChainDAGExecutor.__init__",
+      "PromptChainDAGExecutor._select_label",
+      "PromptChainDAGExecutor.run",
+      "PromptChainExecutor._default_llm",
+      "PromptChainExecutor._run_step",
+      "PromptChainExecutor.run",
+      "PromptChainExecutor.run_async",
+      "RetryPolicy",
+      "RetryPolicy.should_retry",
+      "RetryPolicy.sleep_for"
+    ],
+    "hist_only": [
+      "ChainResult._get_step_output",
+      "ChainResult.assessment",
+      "ChainResult.critic_approved",
+      "ChainResult.critic_modifications",
+      "ChainResult.evaluation",
+      "ChainResult.failed_steps",
+      "ChainResult.hypotheses",
+      "ChainResult.plan",
+      "ChainResult.reflection",
+      "ChainResult.successful_steps",
+      "ChainResult.to_dict",
+      "ChainStepResult.to_dict",
+      "InferenceProvider",
+      "InferenceProvider.generate",
+      "InferenceProvider.generate_structured",
+      "PromptChain.add_step",
+      "PromptChain.get_step",
+      "PromptChainExecutor._apply_critic_modifications",
+      "PromptChainExecutor._execute_step",
+      "PromptChainExecutor._extract_structured",
+      "PromptChainExecutor._fallback_unstructured",
+      "PromptChainExecutor._inject_doubt_into_evaluate",
+      "PromptChainExecutor._try_parse_json",
+      "PromptChainExecutor._validate_schema",
+      "PromptChainExecutor.execute",
+      "PromptChainExecutor.execute_step",
+      "PromptChainExecutor.get_stats",
+      "_ASSESS_SCHEMA",
+      "_ASSESS_SYSTEM",
+      "_ASSESS_USER",
+      "_EVALUATE_SCHEMA",
+      "_EVALUATE_SYSTEM",
+      "_EVALUATE_USER",
+      "_HYPOTHESIZE_SCHEMA",
+      "_HYPOTHESIZE_SYSTEM",
+      "_HYPOTHESIZE_USER",
+      "_PLAN_SCHEMA",
+      "_PLAN_SYSTEM",
+      "_PLAN_USER",
+      "_REFLECT_SCHEMA",
+      "_REFLECT_SYSTEM",
+      "_REFLECT_USER",
+      "_SafeDict",
+      "_SafeDict.__missing__",
+      "build_reflect_step"
+    ],
+    "overlap_count": 16,
+    "signature_changes": [
+      {
+        "name": "PromptChainExecutor.__init__",
+        "disk_sig": "__init__(self, config, llm_fn)",
+        "hist_sig": "__init__(self, inference, config)"
+      },
+      {
+        "name": "PromptChainExecutor._render_prompt",
+        "disk_sig": "_render_prompt(self, template, ctx)",
+        "hist_sig": "_render_prompt(self, step, context)"
+      },
+      {
+        "name": "build_assess_step",
+        "disk_sig": "build_assess_step(target_key)",
+        "hist_sig": "build_assess_step()"
+      },
+      {
+        "name": "build_full_reasoning_chain",
+        "disk_sig": "build_full_reasoning_chain()",
+        "hist_sig": "build_full_reasoning_chain(*, include_reflect)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/gpu_governor.py",
+    "disk_size": 8770,
+    "hist_size": 54091,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-321de56d\\4cUG.py",
+    "disk_only": [
+      "GPUGovernor._discover_nvidia_smi",
+      "GPUGovernor._discover_windows_wmic",
+      "GPUGovernor.allocate",
+      "GPUGovernor.discover",
+      "GPUGovernor.release",
+      "GPUInfo.__post_init__",
+      "VRAMBudget.__post_init__"
+    ],
+    "hist_only": [
+      "GPUGovernor.recommend_n_gpu_layers",
+      "GPUGovernor.resources",
+      "GPUVendor",
+      "OllamaBackend",
+      "SystemResources.has_gpu",
+      "SystemResources.to_dict",
+      "SystemResources.total_free_vram_mb",
+      "SystemResources.total_vram_mb",
+      "VRAMBudget.to_dict",
+      "VRAMBudget.total_allocated_mb",
+      "_AMD_NAME_TO_GFX",
+      "_AMD_PATTERNS",
+      "_AMD_ROCM_NATIVE",
+      "_AMD_VULKAN_ONLY",
+      "_APPLE_PATTERNS",
+      "_INTEL_PATTERNS",
+      "_NVIDIA_MIN_CUDA",
+      "_NVIDIA_PATTERNS",
+      "_amd_best_backend",
+      "_amd_estimate_vram_from_name",
+      "_amd_gfx_from_name",
+      "_detect_all_gpus_windows",
+      "_detect_amd_linux",
+      "_detect_amd_windows",
+      "_detect_cuda_pynvml",
+      "_detect_cuda_torch",
+      "_detect_intel_linux",
+      "_detect_intel_windows",
+      "_detect_metal",
+      "_detect_nvidia_smi",
+      "_detect_via_ollama_api",
+      "_detect_vulkan_devices",
+      "_get_system_ram",
+      "_intel_estimate_vram",
+      "_nvidia_best_backend",
+      "_query_dxgi_vram",
+      "apply_ollama_env",
+      "classify_vendor",
+      "get_ollama_env_vars",
+      "recommend_ollama_backend"
+    ],
+    "overlap_count": 10,
+    "signature_changes": [
+      {
+        "name": "GPUGovernor.__init__",
+        "disk_sig": "__init__(self, vram_budget_mb, reserved_mb)",
+        "hist_sig": "__init__(self, vram_budget_mb)"
+      },
+      {
+        "name": "GPUGovernor.detect",
+        "disk_sig": "detect(self)",
+        "hist_sig": "detect(self, force)"
+      },
+      {
+        "name": "GPUGovernor.plan_budget",
+        "disk_sig": "plan_budget(self, model_size_mb, model_layers, kv_cache_mb)",
+        "hist_sig": "plan_budget(self, model_size_mb, context_length, model_layers, kv_cache_mb)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/tool_registry/registry.py",
+    "disk_size": 16764,
+    "hist_size": 47151,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4050eaaa\\TJ0D.py",
+    "disk_only": [
+      "ToolDefinition.availability",
+      "ToolDefinition.is_available",
+      "ToolRegistry.__contains__",
+      "ToolRegistry.available_for_capability",
+      "ToolRegistry.available_tools",
+      "ToolRegistry.deep_check",
+      "ToolRegistry.deep_check_all",
+      "ToolRegistry.health_score",
+      "ToolRegistry.health_stats",
+      "ToolRegistry.last_probe",
+      "ToolRegistry.record_invocation",
+      "ToolRegistry.reset_health",
+      "ToolRegistry.summary",
+      "ToolRegistry.tools_with_capability",
+      "_SANDBOX_FORBIDDEN_CHARS"
+    ],
+    "hist_only": [
+      "ToolDefinition.__post_init__",
+      "ToolDefinition.to_dict",
+      "ToolDefinition.to_llm_description",
+      "ToolRegistry._check_docker",
+      "ToolRegistry._probe_availability",
+      "ToolRegistry.check_all_availability",
+      "ToolRegistry.clear_availability_cache",
+      "ToolRegistry.find_by_capability",
+      "ToolRegistry.find_by_category",
+      "ToolRegistry.find_by_tag",
+      "ToolRegistry.get_all",
+      "ToolRegistry.get_llm_tool_descriptions",
+      "ToolRegistry.get_stats",
+      "ToolRegistry.has",
+      "ToolRegistry.map_vuln_to_tools",
+      "ToolRegistry.register_many",
+      "ToolRegistry.tool_count",
+      "ToolRegistry.tool_names",
+      "ToolRegistry.unregister",
+      "_APPROVED_DOCKER_REGISTRIES",
+      "_SAFE_DOCKER_IMAGE_RE",
+      "_SafeDict",
+      "_SafeDict.__missing__",
+      "_build_default_tools",
+      "_is_approved_docker_image"
+    ],
+    "overlap_count": 12,
+    "signature_changes": [
+      {
+        "name": "ToolRegistry.__init__",
+        "disk_sig": "__init__(self)",
+        "hist_sig": "__init__(self, config)"
+      },
+      {
+        "name": "ToolRegistry.build_command",
+        "disk_sig": "build_command(self, name, *, sandbox, **extra_args)",
+        "hist_sig": "build_command(self, tool_name, target, parameters, use_docker)"
+      },
+      {
+        "name": "ToolRegistry.check_availability",
+        "disk_sig": "check_availability(self, name)",
+        "hist_sig": "check_availability(self, tool_name)"
+      },
+      {
+        "name": "build_default_registry",
+        "disk_sig": "build_default_registry()",
+        "hist_sig": "build_default_registry(config)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/reasoning/kv_checkpoint.py",
+    "disk_size": 15425,
+    "hist_size": 22889,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\f3d22b1\\Zxfe.py",
+    "disk_only": [
+      "ChainCheckpointState.checkpoint_count",
+      "ChainCheckpointState.latest",
+      "Checkpoint.__post_init__",
+      "Checkpoint.from_dict",
+      "Checkpoint.verify",
+      "CheckpointIntegrityError",
+      "CheckpointVersionConflict",
+      "JournalEntry",
+      "JournalEntry.to_dict",
+      "KVCheckpointManager._enforce_cap",
+      "KVCheckpointManager._peek",
+      "KVCheckpointManager._prune_journal",
+      "KVCheckpointManager._record_journal",
+      "KVCheckpointManager.clear_chain",
+      "KVCheckpointManager.close",
+      "KVCheckpointManager.delete",
+      "KVCheckpointManager.journal",
+      "KVCheckpointManager.journal_size",
+      "KVCheckpointManager.latest",
+      "KVCheckpointManager.list_chain",
+      "KVCheckpointManager.replay_audit",
+      "KVCheckpointManager.restore",
+      "_SQLiteStore",
+      "_SQLiteStore.__init__",
+      "_SQLiteStore._init",
+      "_SQLiteStore.close",
+      "_SQLiteStore.delete",
+      "_SQLiteStore.list_chain",
+      "_SQLiteStore.load",
+      "_SQLiteStore.save",
+      "compute_integrity_hash"
+    ],
+    "hist_only": [
+      "ChainCheckpointState.get_step_output",
+      "ChainCheckpointState.get_step_text",
+      "ChainCheckpointState.last_step_index",
+      "ChainCheckpointState.resume_from",
+      "ChainCheckpointState.to_dict",
+      "Checkpoint.age_seconds",
+      "Checkpoint.is_expired",
+      "KVCheckpointConfig.from_dict",
+      "KVCheckpointManager._init_tables",
+      "KVCheckpointManager._load_chain_from_db",
+      "KVCheckpointManager._load_from_db",
+      "KVCheckpointManager._make_id",
+      "KVCheckpointManager._persist",
+      "KVCheckpointManager._row_to_checkpoint",
+      "KVCheckpointManager.cleanup",
+      "KVCheckpointManager.delete_chain",
+      "KVCheckpointManager.fork",
+      "KVCheckpointManager.get",
+      "KVCheckpointManager.get_stats",
+      "KVCheckpointManager.list_chains",
+      "KVCheckpointManager.restore_chain",
+      "_CREATE_INDEX",
+      "_CREATE_TABLE"
+    ],
+    "overlap_count": 7,
+    "signature_changes": [
+      {
+        "name": "KVCheckpointManager.__init__",
+        "disk_sig": "__init__(self, config)",
+        "hist_sig": "__init__(self, config, db_connection)"
+      },
+      {
+        "name": "KVCheckpointManager.save",
+        "disk_sig": "save(self, name, chain_id, step_index, data, tags, *, expected_version)",
+        "hist_sig": "save(self, chain_id, step_index, step_name, prompt_text, generated_text, parsed_output, tokens_used, latency_ms, ttl_seconds, metadata)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/recon_dashboard/target_scoring.py",
+    "disk_size": 34103,
+    "hist_size": 41514,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\225d8946\\hFdr.py",
+    "disk_only": [
+      "CampaignBudget.allocate",
+      "CampaignBudget.consume",
+      "CampaignBudget.remaining",
+      "CampaignBudget.remaining_for",
+      "TargetScoringEngine",
+      "TargetScoringEngine.__init__",
+      "TargetScoringEngine._alloc_kelly",
+      "TargetScoringEngine._alloc_minmax",
+      "TargetScoringEngine._alloc_proportional",
+      "TargetScoringEngine._apply_floor",
+      "TargetScoringEngine._emit_topic",
+      "TargetScoringEngine._materialize",
+      "TargetScoringEngine._normalise_priors",
+      "TargetScoringEngine._normalise_weights",
+      "TargetScoringEngine._vuln_meta",
+      "TargetScoringEngine.allocate_campaign_budget",
+      "TargetScoringEngine.materialize_paths",
+      "TargetScoringEngine.rank_targets",
+      "TargetScoringEngine.score_target",
+      "_DEFAULT_VULN_META",
+      "_DEFAULT_WEIGHTS",
+      "_SUB_SCORERS",
+      "_TECH_VULN_PRIORS",
+      "_clamp",
+      "_emit",
+      "_normalise_tech_list",
+      "_safe_str",
+      "_score_auth_weakness",
+      "_score_finding_density",
+      "_score_recon_signals",
+      "_score_surface_size",
+      "_score_tech_match",
+      "_stable_hash",
+      "get_target_scoring_engine",
+      "reset_singletons",
+      "set_target_scoring_engine"
+    ],
+    "hist_only": [
+      "HuntPlan",
+      "HuntPlan.to_dict",
+      "_ATTACK_APPROACHES",
+      "_BOUNTY_INDICATORS",
+      "_HUNT_REQUIRED_PHASES",
+      "_TECH_EXPLOIT_SCORES",
+      "_TECH_VULN_MAP",
+      "_VULN_CLASS_PAYOUTS",
+      "_VULN_CLASS_PHASES",
+      "_build_reasoning",
+      "_compute_bounty_score",
+      "_compute_history_score",
+      "_compute_recommendation",
+      "_compute_surface_score",
+      "_compute_tech_score",
+      "_predict_exploit_paths",
+      "allocate_campaign_budgets",
+      "compute_hunt_plan",
+      "filter_kill_targets",
+      "get_hunt_mode_directive",
+      "score_target"
+    ],
+    "overlap_count": 6,
+    "signature_changes": []
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/reasoning/context_budget.py",
+    "disk_size": 11548,
+    "hist_size": 22121,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1f870cd4\\uqDV.py",
+    "disk_only": [
+      "AdaptiveBudgetTuner",
+      "AdaptiveBudgetTuner.__init__",
+      "AdaptiveBudgetTuner.record",
+      "AdaptiveBudgetTuner.record_batch",
+      "AdaptiveBudgetTuner.stats",
+      "AdaptiveBudgetTuner.step",
+      "AdaptiveBudgetTuner.steps_taken",
+      "ContextBudgetAllocator.build_context",
+      "ContextBudgetAllocator.remove_slot",
+      "ContextBudgetAllocator.truncate",
+      "FeedbackSignal"
+    ],
+    "hist_only": [
+      "BudgetAllocation.render",
+      "BudgetAllocation.to_dict",
+      "BudgetAllocation.utilisation",
+      "BudgetConfig.available_prompt_tokens",
+      "BudgetConfig.from_dict",
+      "BudgetConfig.response_reserve_tokens",
+      "BudgetSlot.__post_init__",
+      "BudgetSlot.estimated_tokens",
+      "BudgetSlot.is_over_budget",
+      "ContextBudgetAllocator._validate_pinned_budget",
+      "ContextBudgetAllocator.config",
+      "ContextBudgetAllocator.get_slot",
+      "ContextBudgetAllocator.get_stats",
+      "ContextBudgetAllocator.set_content",
+      "ContextBudgetAllocator.slot_names",
+      "_DEFAULT_CPT",
+      "_MODEL_CPT",
+      "_cpt_for_model",
+      "_truncate_to_tokens",
+      "set_tokenizer",
+      "token_count"
+    ],
+    "overlap_count": 10,
+    "signature_changes": [
+      {
+        "name": "ContextBudgetAllocator.allocate",
+        "disk_sig": "allocate(self, requests)",
+        "hist_sig": "allocate(self)"
+      },
+      {
+        "name": "default_slots",
+        "disk_sig": "default_slots()",
+        "hist_sig": "default_slots(total_tokens)"
+      },
+      {
+        "name": "estimate_tokens",
+        "disk_sig": "estimate_tokens(text)",
+        "hist_sig": "estimate_tokens(text, chars_per_token, model_name)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/reasoning/hypothesis_manager.py",
+    "disk_size": 15619,
+    "hist_size": 27162,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a03d5d7\\1Lr9.py",
+    "disk_only": [
+      "DeduplicationStats.unique_count",
+      "Hypothesis",
+      "Hypothesis.fingerprint",
+      "HypothesisManager._enforce_cap",
+      "HypothesisManager._evict_stale",
+      "HypothesisManager._find_semantic_duplicate",
+      "HypothesisManager._merge_confidence",
+      "HypothesisManager.active",
+      "HypothesisManager.add",
+      "HypothesisManager.add_batch",
+      "HypothesisManager.add_evidence",
+      "HypothesisManager.all",
+      "HypothesisManager.by_vuln_type",
+      "HypothesisManager.cluster",
+      "HypothesisManager.get",
+      "HypothesisManager.merge",
+      "HypothesisManager.promote_eligible",
+      "HypothesisManager.remove",
+      "HypothesisManager.top_k",
+      "HypothesisManager.update",
+      "HypothesisStatus",
+      "_TOKEN_RE",
+      "_ngrams",
+      "_tokenize",
+      "text_similarity"
+    ],
+    "hist_only": [
+      "DeduplicationStats.dedup_ratio",
+      "DeduplicationStats.to_dict",
+      "HypothesisCluster.to_dict",
+      "HypothesisManager._bayesian_fuse",
+      "HypothesisManager._compute_canonical_id",
+      "HypothesisManager._enforce_limits",
+      "HypothesisManager._merge_into",
+      "HypothesisManager.active_count",
+      "HypothesisManager.config",
+      "HypothesisManager.get_active",
+      "HypothesisManager.get_by_vuln_type",
+      "HypothesisManager.get_clusters",
+      "HypothesisManager.get_hypothesis",
+      "HypothesisManager.get_stats",
+      "HypothesisManager.ingest",
+      "HypothesisManager.mark_stale",
+      "HypothesisManager.prune",
+      "HypothesisManager.record_test_result",
+      "HypothesisManagerConfig.from_dict",
+      "MergedHypothesis.to_dict"
+    ],
+    "overlap_count": 8,
+    "signature_changes": [
+      {
+        "name": "HypothesisManager.apply_decay",
+        "disk_sig": "apply_decay(self, *, now)",
+        "hist_sig": "apply_decay(self, current_iteration)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/engine.py",
+    "disk_size": 21814,
+    "hist_size": 30418,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-33dd2d26\\B01d.py",
+    "disk_only": [
+      "GenerationResult.__init__",
+      "GenerationResult.cost_usd",
+      "GenerationResult.latency_ms",
+      "GenerationResult.stop_reason",
+      "GenerationResult.tokens_generated",
+      "GenerationResult.tokens_per_second",
+      "GenerationResult.tokens_prompt",
+      "GenerationResult.tokens_total",
+      "InferenceEngine.agenerate",
+      "InferenceEngine.generate_sync",
+      "_BaseBackend",
+      "_BaseBackend.generate",
+      "_BaseBackend.load",
+      "_BaseBackend.unload",
+      "_LlamaCppBackend",
+      "_LlamaCppBackend.__init__",
+      "_LlamaCppBackend.generate",
+      "_LlamaCppBackend.load",
+      "_LlamaCppBackend.unload",
+      "_OllamaBackend",
+      "_OllamaBackend.__init__",
+      "_OllamaBackend._request",
+      "_OllamaBackend.generate",
+      "_OllamaBackend.load",
+      "_infer_quantization"
+    ],
+    "hist_only": [
+      "BackendType",
+      "InferenceBackend.backend_type",
+      "InferenceBackend.detokenize",
+      "InferenceBackend.generate",
+      "InferenceBackend.generate_structured",
+      "InferenceBackend.is_loaded",
+      "InferenceBackend.load_model",
+      "InferenceBackend.model_info",
+      "InferenceBackend.tokenize",
+      "InferenceBackend.unload_model",
+      "InferenceEngine._cache_key",
+      "InferenceEngine._ensure_started",
+      "InferenceEngine._try_fallback",
+      "InferenceEngine.config",
+      "InferenceEngine.detokenize",
+      "InferenceEngine.get_model_info",
+      "InferenceEngine.tokenize",
+      "ModelInfo.size_gb",
+      "ModelInfo.to_dict"
+    ],
+    "overlap_count": 20,
+    "signature_changes": [
+      {
+        "name": "InferenceEngine.__aexit__",
+        "disk_sig": "__aexit__(self, exc_type, exc, tb)",
+        "hist_sig": "__aexit__(self, *exc)"
+      },
+      {
+        "name": "InferenceEngine._create_backend",
+        "disk_sig": "_create_backend(self, cfg)",
+        "hist_sig": "_create_backend(self, backend_type)"
+      },
+      {
+        "name": "InferenceEngine.generate",
+        "disk_sig": "generate(self, prompt, config, **overrides)",
+        "hist_sig": "generate(self, prompt, *, max_tokens, temperature, top_p, top_k, stop, grammar, seed, use_cache)"
+      },
+      {
+        "name": "InferenceEngine.generate_structured",
+        "disk_sig": "generate_structured(self, prompt, schema, **overrides)",
+        "hist_sig": "generate_structured(self, prompt, schema, *, max_tokens, temperature)"
+      },
+      {
+        "name": "InferenceEngine.start",
+        "disk_sig": "start(self, config)",
+        "hist_sig": "start(self)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/database/data_migration.py",
+    "disk_size": 11022,
+    "hist_size": 25239,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3ef0668f\\GL6a.py",
+    "disk_only": [
+      "MigrationEngine._common_columns",
+      "MigrationEngine._migrate_table",
+      "MigrationEngine._row_count",
+      "MigrationEngine._table_list",
+      "MigrationEngine.migrate",
+      "MigrationEngine.verify",
+      "MigrationReport.failed_tables",
+      "MigrationReport.success",
+      "MigrationReport.to_dict",
+      "MigrationReport.total_rows",
+      "MigrationStatus",
+      "TableMigrationResult.to_dict",
+      "_SAFE_IDENT_RE",
+      "_validate_identifier"
+    ],
+    "hist_only": [
+      "MigrationEngine._get_column_names",
+      "MigrationEngine._get_pg_db",
+      "MigrationEngine._get_sqlite_db",
+      "MigrationEngine._get_tables",
+      "MigrationEngine._safe_column_names",
+      "MigrationEngine._safe_table_name",
+      "MigrationEngine._transform_row",
+      "MigrationEngine.migrate_all",
+      "MigrationEngine.migrate_cache_to_redis",
+      "MigrationEngine.migrate_table",
+      "MigrationEngine.rollback",
+      "MigrationEngine.validate_migration",
+      "MigrationReport.summary",
+      "_BATCH_SIZE",
+      "_PARALLEL",
+      "_TYPE_TRANSFORMS",
+      "_transform_value"
+    ],
+    "overlap_count": 4,
+    "signature_changes": [
+      {
+        "name": "MigrationEngine.__init__",
+        "disk_sig": "__init__(self, source_path, target_path, *, batch_size)",
+        "hist_sig": "__init__(self)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_manager.py",
+    "disk_size": 9232,
+    "hist_size": 28690,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\859617b\\VNIq.py",
+    "disk_only": [
+      "ModelManager._default_catalog",
+      "ModelManager._parse_filename",
+      "ModelManager.scan",
+      "ModelManager.select",
+      "ModelSpec.__post_init__",
+      "_CTX_RE",
+      "_QUANT_RE"
+    ],
+    "hist_only": [
+      "BenchmarkResult",
+      "BenchmarkResult.to_dict",
+      "InstalledModel",
+      "InstalledModel.to_dict",
+      "ModelManager._blocking_download",
+      "ModelManager._download_hf_hub",
+      "ModelManager._download_http",
+      "ModelManager._ensure_dir",
+      "ModelManager._query_vram_used_mb",
+      "ModelManager.benchmark",
+      "ModelManager.close",
+      "ModelManager.model_dir",
+      "ModelManager.remove",
+      "ModelSpec.to_dict",
+      "RECOMMENDED_MODELS",
+      "_DEFAULT_MODEL_DIR"
+    ],
+    "overlap_count": 10,
+    "signature_changes": [
+      {
+        "name": "ModelManager._register_model",
+        "disk_sig": "_register_model(self, spec, file_path)",
+        "hist_sig": "_register_model(self, spec, path)"
+      },
+      {
+        "name": "ModelManager.download",
+        "disk_sig": "download(self, url, dest)",
+        "hist_sig": "download(self, spec, progress_callback)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/memory/vector_index.py",
+    "disk_size": 10164,
+    "hist_size": 21199,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\648e0518\\fb46.py",
+    "disk_only": [
+      "VectorMemoryIndex.__len__",
+      "VectorMemoryIndex._raw_search",
+      "VectorMemoryIndex.add_batch",
+      "VectorMemoryIndex.load",
+      "VectorMemoryIndex.save",
+      "_BruteForceIndex",
+      "_BruteForceIndex.__init__",
+      "_BruteForceIndex.__len__",
+      "_BruteForceIndex.add",
+      "_BruteForceIndex.search"
+    ],
+    "hist_only": [
+      "VectorMemoryIndex._init_storage",
+      "VectorMemoryIndex._load_from_storage",
+      "VectorMemoryIndex._persist_vector",
+      "VectorMemoryIndex._remove_unlocked",
+      "VectorMemoryIndex._search_binary_rerank",
+      "VectorMemoryIndex._search_numpy",
+      "VectorMemoryIndex._search_usearch",
+      "VectorMemoryIndex.add_vector",
+      "VectorMemoryIndex.close",
+      "VectorMemoryIndex.contains",
+      "VectorMemoryIndex.get_metadata",
+      "VectorMemoryIndex.get_stats",
+      "VectorMemoryIndex.get_vector",
+      "VectorMemoryIndex.remove",
+      "VectorMemoryIndex.search_vector",
+      "VectorMemoryIndex.size"
+    ],
+    "overlap_count": 9,
+    "signature_changes": [
+      {
+        "name": "VectorMemoryIndex.search",
+        "disk_sig": "search(self, query, k, threshold)",
+        "hist_sig": "search(self, query, k)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/grammar.py",
+    "disk_size": 7377,
+    "hist_size": 16688,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\545ec0ab\\3Mtt.py",
+    "disk_only": [
+      "GBNFGrammar.to_string",
+      "GBNFGrammar.validate",
+      "_SchemaWalker",
+      "_SchemaWalker.__init__",
+      "_SchemaWalker._emit",
+      "_SchemaWalker._next_rule",
+      "_SchemaWalker.build"
+    ],
+    "hist_only": [
+      "GBNFGrammar.fresh_name",
+      "_PRIMITIVES",
+      "_SchemaConverter",
+      "_SchemaConverter.__init__",
+      "_SchemaConverter._escape_string",
+      "_SchemaConverter._get_ref_schema",
+      "_SchemaConverter._resolve_ref",
+      "_SchemaConverter._visit",
+      "_SchemaConverter._visit_array",
+      "_SchemaConverter._visit_const",
+      "_SchemaConverter._visit_enum",
+      "_SchemaConverter._visit_object",
+      "_SchemaConverter._visit_string",
+      "_SchemaConverter._visit_union",
+      "_SchemaConverter.convert"
+    ],
+    "overlap_count": 5,
+    "signature_changes": [
+      {
+        "name": "GBNFGrammar.add_rule",
+        "disk_sig": "add_rule(self, name, production)",
+        "hist_sig": "add_rule(self, name, definition)"
+      },
+      {
+        "name": "pydantic_to_gbnf",
+        "disk_sig": "pydantic_to_gbnf(model_cls)",
+        "hist_sig": "pydantic_to_gbnf(model_class)"
+      },
+      {
+        "name": "schema_to_gbnf",
+        "disk_sig": "schema_to_gbnf(schema_or_model)",
+        "hist_sig": "schema_to_gbnf(schema)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_management/model_registry.py",
+    "disk_size": 14323,
+    "hist_size": 24525,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\13ff49c9\\O4kx.py",
+    "disk_only": [
+      "ModelRegistry.list_all",
+      "_cap"
+    ],
+    "hist_only": [
+      "ModelRegistry.cards",
+      "_ARCH_DEEPSEEK_CODER_7B",
+      "_ARCH_LLAMA_3B",
+      "_ARCH_LLAMA_8B",
+      "_ARCH_MISTRAL_7B",
+      "_ARCH_PHI_3_MINI",
+      "_ARCH_QWEN_14B",
+      "_ARCH_QWEN_1_5B",
+      "_ARCH_QWEN_32B",
+      "_ARCH_QWEN_7B",
+      "_QUALITY_WEIGHT_CODE",
+      "_QUALITY_WEIGHT_QUANT",
+      "_QUALITY_WEIGHT_REASONING"
+    ],
+    "overlap_count": 29,
+    "signature_changes": [
+      {
+        "name": "ModelArchitecture.estimate_kv_cache_mb",
+        "disk_sig": "estimate_kv_cache_mb(self, context_length, ratio)",
+        "hist_sig": "estimate_kv_cache_mb(self, context_length, quant)"
+      },
+      {
+        "name": "ModelCard.fits_vram",
+        "disk_sig": "fits_vram(self, vram_mb)",
+        "hist_sig": "fits_vram(self, available_vram_mb)"
+      },
+      {
+        "name": "ModelRegistry.__init__",
+        "disk_sig": "__init__(self, initial)",
+        "hist_sig": "__init__(self, catalog)"
+      },
+      {
+        "name": "ModelRegistry.filter_by_vram",
+        "disk_sig": "filter_by_vram(self, vram_mb)",
+        "hist_sig": "filter_by_vram(self, available_vram_mb)"
+      },
+      {
+        "name": "ModelRegistry.search",
+        "disk_sig": "search(self, family, capability, name_contains, max_vram_mb)",
+        "hist_sig": "search(self, *, family, capability, min_quality, max_vram_mb, name_contains)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/tool_registry/action_translator.py",
+    "disk_size": 8777,
+    "hist_size": 19531,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7c9ca0c4\\Mt06.py",
+    "disk_only": [
+      "ActionTranslator._build_args",
+      "ActionTranslator._pick_tool",
+      "ActionTranslator.set_registry",
+      "ActionTranslator.translate_batch",
+      "TOOL_PRIORS"
+    ],
+    "hist_only": [
+      "ActionTranslator._map_vuln_type",
+      "ActionTranslator.fallback_selector",
+      "ActionTranslator.get_available_actions",
+      "ActionTranslator.get_stats",
+      "ActionTranslator.get_tools_for_vuln",
+      "ActionTranslator.parse_output",
+      "ActionTranslator.parser_registry",
+      "ActionTranslator.registry",
+      "ActionTranslator.translate_vuln_type",
+      "ActionTranslator.translation_log",
+      "TranslatedAction.to_dict",
+      "TranslatorConfig.from_dict"
+    ],
+    "overlap_count": 6,
+    "signature_changes": [
+      {
+        "name": "ActionTranslator.__init__",
+        "disk_sig": "__init__(self, config, registry)",
+        "hist_sig": "__init__(self, registry, fallback_selector, parser_registry, config)"
+      },
+      {
+        "name": "ActionTranslator.translate",
+        "disk_sig": "translate(self, vuln_type, target_url, extra_args)",
+        "hist_sig": "translate(self, tool_name, target, parameters, vuln_type)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/tool_registry/fallback.py",
+    "disk_size": 6938,
+    "hist_size": 21369,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-13234a1b\\Ivr0.py",
+    "disk_only": [
+      "FallbackSelector._is_healthy",
+      "FallbackSelector._rank_alternatives",
+      "FallbackSelector._score",
+      "FallbackSelector.record_outcome",
+      "FallbackSelector.set_registry",
+      "_build_default_chains"
+    ],
+    "hist_only": [
+      "FallbackConfig.from_dict",
+      "FallbackResult.to_dict",
+      "FallbackSelector._find_by_capability_fallback",
+      "FallbackSelector._register_defaults",
+      "FallbackSelector._try_explicit_chain",
+      "FallbackSelector.get_stats",
+      "FallbackSelector.register_chains",
+      "FallbackSelector.select_best_for_capability",
+      "FallbackSelector.selection_log",
+      "_CandidateScore"
+    ],
+    "overlap_count": 7,
+    "signature_changes": [
+      {
+        "name": "FallbackSelector.__init__",
+        "disk_sig": "__init__(self, config)",
+        "hist_sig": "__init__(self, registry, config)"
+      },
+      {
+        "name": "FallbackSelector.select",
+        "disk_sig": "select(self, tool_name)",
+        "hist_sig": "select(self, tool_name, required_capabilities, prefer_available)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_management/vram_selector.py",
+    "disk_size": 6589,
+    "hist_size": 19414,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\37be9f7c\\qeBh.py",
+    "disk_only": [
+      "VRAMModelSelector._score",
+      "VRAMModelSelector._task_capability"
+    ],
+    "hist_only": [
+      "SelectionResult.filename",
+      "SelectionResult.model_name",
+      "VRAMModelSelector._build_explanation",
+      "VRAMModelSelector.detect_vram",
+      "VRAMModelSelector.governor",
+      "VRAMModelSelector.registry",
+      "VRAMModelSelector.select_with_criteria",
+      "_score_model"
+    ],
+    "overlap_count": 12,
+    "signature_changes": [
+      {
+        "name": "VRAMModelSelector.__init__",
+        "disk_sig": "__init__(self, registry)",
+        "hist_sig": "__init__(self, registry, gpu_governor)"
+      },
+      {
+        "name": "VRAMModelSelector.select",
+        "disk_sig": "select(self, prefer, max_vram_mb, task, min_context)",
+        "hist_sig": "select(self, task, prefer, min_context, max_vram_mb)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_management/model_downloader.py",
+    "disk_size": 9336,
+    "hist_size": 19145,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-52893bef\\7tSv.py",
+    "disk_only": [
+      "ModelDownloader._partial_path",
+      "ModelDownloader._path",
+      "ModelDownloader.download_url"
+    ],
+    "hist_only": [
+      "DownloadProgress.is_failed",
+      "DownloadResult.to_dict",
+      "ModelDownloader._blocking_download",
+      "ModelDownloader._do_download",
+      "ModelDownloader.config",
+      "ModelDownloader.download_batch",
+      "ModelDownloader.get_storage_usage",
+      "ModelDownloader.model_dir"
+    ],
+    "overlap_count": 17,
+    "signature_changes": [
+      {
+        "name": "ModelDownloader.download",
+        "disk_sig": "download(self, card, progress)",
+        "hist_sig": "download(self, card, progress, expected_sha256)"
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_management/finetune_exporter.py",
+    "disk_size": 10962,
+    "hist_size": 21405,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7275cefc\\Kzu3.py",
+    "disk_only": [
+      "FinetuneExporter._serialize"
+    ],
+    "hist_only": [
+      "FinetuneExporter._get_converter",
+      "FinetuneExporter._write_samples",
+      "FinetuneExporter.config",
+      "_SYSTEM_PROMPT_CODE",
+      "_SYSTEM_PROMPT_HYPOTHESIS",
+      "_SYSTEM_PROMPT_VULN"
+    ],
+    "overlap_count": 29,
+    "signature_changes": []
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/kv_cache.py",
+    "disk_size": 6839,
+    "hist_size": 14468,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-52f8b352\\rVkn.py",
+    "disk_only": [
+      "KVCacheManager._bytes_per_token",
+      "KVCacheManager._evict_one",
+      "KVCacheManager._seq_mb",
+      "KVCacheManager._used_mb",
+      "KVCacheManager.release",
+      "KVCacheManager.reserve",
+      "KVCacheManager.stats",
+      "_HAS_LLAMA_CPP",
+      "_SeqEntry"
+    ],
+    "hist_only": [
+      "KVCacheConfig.from_dict",
+      "KVQuantType.bytes_per_element",
+      "KVQuantType.quality_factor"
+    ],
+    "overlap_count": 16,
+    "signature_changes": []
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/memory/embedder.py",
+    "disk_size": 7709,
+    "hist_size": 11771,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\79be7d96\\onO1.py",
+    "disk_only": [
+      "VenatorEmbedder.clear_cache",
+      "VenatorEmbedder.embedding_dim",
+      "VenatorEmbedder.similarity",
+      "_TFIDFEmbedder",
+      "_TFIDFEmbedder.__init__",
+      "_TFIDFEmbedder._term_freq",
+      "_TFIDFEmbedder._tokenise",
+      "_TFIDFEmbedder.embed",
+      "_TFIDFEmbedder.embed_batch",
+      "_hash_embed"
+    ],
+    "hist_only": [
+      "VenatorEmbedder._hash_embed",
+      "VenatorEmbedder.dimension"
+    ],
+    "overlap_count": 13,
+    "signature_changes": []
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/__init__.py",
+    "disk_size": 8132,
+    "hist_size": 88768,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3bcd2844\\XCHc.py",
+    "disk_only": [
+      "__getattr__",
+      "_lazy_registry",
+      "get_recovered_modules",
+      "register_with_orchestrator"
+    ],
+    "hist_only": [],
+    "overlap_count": 0,
+    "signature_changes": []
+  },
+  {
+    "bucket": "C",
+    "rel_path": "CaseCrack/tests/test_cli_api_extended.py",
+    "disk_size": 26276,
+    "hist_size": 38922,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\60f9d9ac\\DmH8.py",
+    "disk_only": [
+      "TestCmdApi._make_mod",
+      "TestCmdApi._run",
+      "TestCmdApi.test_hpp_missing_param",
+      "TestCmdApi.test_hpp_missing_value",
+      "TestCmdApi.test_hpp_ok",
+      "TestCmdBizlogic._ba",
+      "TestCmdBizlogic._run",
+      "TestCmdGraphql._run",
+      "TestCmdGraphql._setup_mod",
+      "TestCmdGraphql.test_output_file",
+      "TestCmdGraphql.test_scan_no_findings",
+      "TestCmdGraphql.test_scan_with_findings",
+      "TestCmdGraphql.test_schema_output",
+      "TestCmdGraphqlAdv._run",
+      "TestCmdGrpc._ga",
+      "TestCmdGrpc._run",
+      "TestCmdIdor._ia",
+      "TestCmdIdor._run",
+      "TestCmdIdor.test_compare_not_enough",
+      "TestCmdMobile._ma",
+      "TestCmdMobile._run",
+      "TestCmdMobile.test_deeplink_missing",
+      "TestCmdMobile.test_jwt_missing_token",
+      "TestCmdRestapi._ra",
+      "TestCmdRestapi._run",
+      "TestCmdSse._run",
+      "TestCmdSse._sa",
+      "TestDelegateCommands.test_api_discovery",
+      "TestDelegateCommands.test_graphql_recon",
+      "_API_SEC",
+      "_BIZ",
+      "_GQL",
+      "_GQL_ADV",
+      "_GRPC",
+      "_IDOR",
+      "_MOBILE",
+      "_REST",
+      "_SSE",
+      "_ns"
+    ],
+    "hist_only": [
+      "TestCmdApi._mock_api_sec",
+      "TestCmdApi.test_hpp_action_missing_params",
+      "TestCmdApi.test_hpp_action_missing_value",
+      "TestCmdApi.test_hpp_action_ok",
+      "TestCmdBizlogic._biz_args",
+      "TestCmdGraphql.test_graphql_output_file",
+      "TestCmdGraphql.test_graphql_scan_no_findings",
+      "TestCmdGraphql.test_graphql_scan_with_findings",
+      "TestCmdGraphql.test_graphql_schema_output",
+      "TestCmdGraphqlAdv._mock_gql_adv",
+      "TestCmdGrpc._grpc_args",
+      "TestCmdIdor._idor_args",
+      "TestCmdIdor.test_compare_not_enough_contexts",
+      "TestCmdMobile._mobile_args",
+      "TestCmdMobile.test_deeplink_missing_links",
+      "TestCmdMobile.test_headers_parsing",
+      "TestCmdMobile.test_jwt_action_missing_token",
+      "TestCmdRestapi._rest_args",
+      "TestCmdSse._sse_args",
+      "TestCmdSse.test_scan_missing_url",
+      "TestDelegateCommands.test_api_discovery_delegates",
+      "TestDelegateCommands.test_graphql_recon_delegates",
+      "_args"
+    ],
+    "overlap_count": 55,
+    "signature_changes": [
+      {
+        "name": "TestCmdApi.test_bfla_action",
+        "disk_sig": "test_bfla_action(self)",
+        "hist_sig": "test_bfla_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdApi.test_idor_action",
+        "disk_sig": "test_idor_action(self)",
+        "hist_sig": "test_idor_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdApi.test_mass_action",
+        "disk_sig": "test_mass_action(self)",
+        "hist_sig": "test_mass_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdApi.test_scan_no_findings",
+        "disk_sig": "test_scan_no_findings(self)",
+        "hist_sig": "test_scan_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdApi.test_scan_with_findings",
+        "disk_sig": "test_scan_with_findings(self)",
+        "hist_sig": "test_scan_with_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdApi.test_unknown_action",
+        "disk_sig": "test_unknown_action(self)",
+        "hist_sig": "test_unknown_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdApi.test_version_action",
+        "disk_sig": "test_version_action(self)",
+        "hist_sig": "test_version_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdBizlogic.test_checkout_action",
+        "disk_sig": "test_checkout_action(self)",
+        "hist_sig": "test_checkout_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdBizlogic.test_discount_action",
+        "disk_sig": "test_discount_action(self)",
+        "hist_sig": "test_discount_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdBizlogic.test_full_action",
+        "disk_sig": "test_full_action(self)",
+        "hist_sig": "test_full_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdBizlogic.test_price_no_vulns",
+        "disk_sig": "test_price_no_vulns(self)",
+        "hist_sig": "test_price_no_vulns(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdBizlogic.test_price_with_vulns",
+        "disk_sig": "test_price_with_vulns(self)",
+        "hist_sig": "test_price_with_vulns(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdBizlogic.test_quantity_action",
+        "disk_sig": "test_quantity_action(self)",
+        "hist_sig": "test_quantity_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGraphqlAdv.test_batch_no_findings",
+        "disk_sig": "test_batch_no_findings(self)",
+        "hist_sig": "test_batch_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGraphqlAdv.test_circular_no_findings",
+        "disk_sig": "test_circular_no_findings(self)",
+        "hist_sig": "test_circular_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGraphqlAdv.test_directive_no_findings",
+        "disk_sig": "test_directive_no_findings(self)",
+        "hist_sig": "test_directive_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGraphqlAdv.test_introspect_no_schema",
+        "disk_sig": "test_introspect_no_schema(self)",
+        "hist_sig": "test_introspect_no_schema(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGraphqlAdv.test_introspect_with_schema",
+        "disk_sig": "test_introspect_with_schema(self, tmp_path)",
+        "hist_sig": "test_introspect_with_schema(self, mock_logger, tmp_path)"
+      },
+      {
+        "name": "TestCmdGraphqlAdv.test_scan_no_findings",
+        "disk_sig": "test_scan_no_findings(self)",
+        "hist_sig": "test_scan_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGraphqlAdv.test_scan_with_findings",
+        "disk_sig": "test_scan_with_findings(self)",
+        "hist_sig": "test_scan_with_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGrpc.test_endpoint_parsing",
+        "disk_sig": "test_endpoint_parsing(self)",
+        "hist_sig": "test_endpoint_parsing(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGrpc.test_metadata_parsing",
+        "disk_sig": "test_metadata_parsing(self)",
+        "hist_sig": "test_metadata_parsing(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGrpc.test_method_missing_args",
+        "disk_sig": "test_method_missing_args(self)",
+        "hist_sig": "test_method_missing_args(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGrpc.test_reflect_disabled",
+        "disk_sig": "test_reflect_disabled(self)",
+        "hist_sig": "test_reflect_disabled(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGrpc.test_reflect_enabled",
+        "disk_sig": "test_reflect_enabled(self)",
+        "hist_sig": "test_reflect_enabled(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGrpc.test_scan_no_findings",
+        "disk_sig": "test_scan_no_findings(self)",
+        "hist_sig": "test_scan_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdGrpc.test_tls_action",
+        "disk_sig": "test_tls_action(self)",
+        "hist_sig": "test_tls_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdIdor.test_analyze_missing_id",
+        "disk_sig": "test_analyze_missing_id(self)",
+        "hist_sig": "test_analyze_missing_id(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdIdor.test_blind_action",
+        "disk_sig": "test_blind_action(self)",
+        "hist_sig": "test_blind_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdIdor.test_harvest_action",
+        "disk_sig": "test_harvest_action(self)",
+        "hist_sig": "test_harvest_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdIdor.test_scan_no_findings",
+        "disk_sig": "test_scan_no_findings(self)",
+        "hist_sig": "test_scan_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdIdor.test_unknown_action",
+        "disk_sig": "test_unknown_action(self)",
+        "hist_sig": "test_unknown_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdMobile.test_device_action",
+        "disk_sig": "test_device_action(self)",
+        "hist_sig": "test_device_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdMobile.test_keys_action",
+        "disk_sig": "test_keys_action(self)",
+        "hist_sig": "test_keys_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdMobile.test_pinning_action",
+        "disk_sig": "test_pinning_action(self)",
+        "hist_sig": "test_pinning_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdMobile.test_scan_no_findings",
+        "disk_sig": "test_scan_no_findings(self)",
+        "hist_sig": "test_scan_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdRestapi.test_mass_action",
+        "disk_sig": "test_mass_action(self)",
+        "hist_sig": "test_mass_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdRestapi.test_rate_action",
+        "disk_sig": "test_rate_action(self)",
+        "hist_sig": "test_rate_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdRestapi.test_scan_no_findings",
+        "disk_sig": "test_scan_no_findings(self)",
+        "hist_sig": "test_scan_no_findings(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdRestapi.test_spec_action",
+        "disk_sig": "test_spec_action(self)",
+        "hist_sig": "test_spec_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdRestapi.test_version_action",
+        "disk_sig": "test_version_action(self)",
+        "hist_sig": "test_version_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdSse.test_cors_action",
+        "disk_sig": "test_cors_action(self)",
+        "hist_sig": "test_cors_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdSse.test_discover_action",
+        "disk_sig": "test_discover_action(self)",
+        "hist_sig": "test_discover_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdSse.test_inject_action",
+        "disk_sig": "test_inject_action(self)",
+        "hist_sig": "test_inject_action(self, mock_logger)"
+      },
+      {
+        "name": "TestCmdSse.test_scan_no_findings",
+        "disk_sig": "test_scan_no_findings(self)",
+        "hist_sig": "test_scan_no_findings(self, mock_logger)"
+      }
+    ]
+  },
+  {
+    "bucket": "C",
+    "rel_path": "CaseCrack/tests/strict_fakes.py",
+    "disk_size": 14026,
+    "hist_size": 19125,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-40068db0\\xQFh.py",
+    "disk_only": [
+      "_Call",
+      "_FakeBypassArm",
+      "_FakeBypassArm.__repr__",
+      "_StrictBase",
+      "_StrictBase.__getattr__",
+      "_StrictBase.__init__",
+      "_StrictBase._record",
+      "_StrictBase.all_calls",
+      "_StrictBase.calls_for"
+    ],
+    "hist_only": [
+      "CallRecord",
+      "FakeBypassArm",
+      "StrictGeneticForge.__init__",
+      "StrictGeneticForge.bind_grammar_synthesizer",
+      "StrictHypothesisEngine.get_all_weights",
+      "StrictHypothesisEngine.get_metrics",
+      "StrictHypothesisEngine.get_weight",
+      "StrictUnifiedReasoning.__init__",
+      "StrictWeightTuner.get_current_weights",
+      "_StrictFakeBase",
+      "_StrictFakeBase.__getattr__",
+      "_StrictFakeBase.__init__",
+      "_StrictFakeBase._record",
+      "_StrictFakeBase.calls",
+      "_StrictFakeBase.calls_for",
+      "_StrictFakeBase.reset"
+    ],
+    "overlap_count": 26,
+    "signature_changes": [
+      {
+        "name": "StrictBypassArmManager.get_or_create_arm",
+        "disk_sig": "get_or_create_arm(self, *args, **kwargs)",
+        "hist_sig": "get_or_create_arm(self, vendor, attack_type, mutation_op)"
+      },
+      {
+        "name": "StrictCampaignSignalBus.__init__",
+        "disk_sig": "__init__(self)",
+        "hist_sig": "__init__(self, campaign_id)"
+      },
+      {
+        "name": "StrictCampaignSignalBus.broadcast_finding",
+        "disk_sig": "broadcast_finding(self, *, finding_type, severity, source_target, source_fingerprint, target, payload, **extra)",
+        "hist_sig": "broadcast_finding(self, finding_type, severity, source_target, source_fingerprint)"
+      },
+      {
+        "name": "StrictCampaignSignalBus.record",
+        "disk_sig": "record(self, *, target, vuln_type, outcome, payload, **extra)",
+        "hist_sig": "record(self, role, context_key, found, source_target)"
+      },
+      {
+        "name": "StrictGeneticForge.bind_hypothesis_engine",
+        "disk_sig": "bind_hypothesis_engine(self, hyp)",
+        "hist_sig": "bind_hypothesis_engine(self, engine)"
+      },
+      {
+        "name": "StrictGeneticForge.bind_waf_adaptive",
+        "disk_sig": "bind_waf_adaptive(self, waf)",
+        "hist_sig": "bind_waf_adaptive(self, waf_adaptive)"
+      },
+      {
+        "name": "StrictGeneticForge.evolve",
+        "disk_sig": "evolve(self, *args, **kwargs)",
+        "hist_sig": "evolve(self, context, **kwargs)"
+      },
+      {
+        "name": "StrictHypothesisEngine.signal_failure",
+        "disk_sig": "signal_failure(self, *, action, target, vuln_type, magnitude, **extra)",
+        "hist_sig": "signal_failure(self, action)"
+      },
+      {
+        "name": "StrictHypothesisEngine.signal_finding",
+        "disk_sig": "signal_finding(self, *, finding_type, target, vuln_type, evidence_type, payload, **extra)",
+        "hist_sig": "signal_finding(self, finding_type, severity, ctx)"
+      },
+      {
+        "name": "StrictHypothesisEngine.signal_success_no_finding",
+        "disk_sig": "signal_success_no_finding(self, *, target, vuln_type, **extra)",
+        "hist_sig": "signal_success_no_finding(self, action)"
+      },
+      {
+        "name": "StrictStateMachine.advance_intent",
+        "disk_sig": "advance_intent(self, *, target, vuln_type, evidence_found, **extra)",
+        "hist_sig": "advance_intent(self, **kwargs)"
+      },
+      {
+        "name": "StrictStateMachine.transition",
+        "disk_sig": "transition(self, *, event, target, reason, **extra)",
+        "hist_sig": "transition(self, **kwargs)"
+      },
+      {
+        "name": "StrictUnifiedReasoning.record_outcome",
+        "disk_sig": "record_outcome(self, *, action, found, severity, target, outcome, **extra)",
+        "hist_sig": "record_outcome(self, action, found, severity, role, ctx)"
+      },
+      {
+        "name": "StrictWeightTuner.observe",
+        "disk_sig": "observe(self, event, **kwargs)",
+        "hist_sig": "observe(self, event)"
+      }
+    ]
+  },
+  {
+    "bucket": "C",
+    "rel_path": "CaseCrack/tests/test_recon_transport.py",
+    "disk_size": 5099,
+    "hist_size": 5981,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-21540a14\\8YMk.py",
+    "disk_only": [
+      "TestInProcessTransport.test_default_execute"
+    ],
+    "hist_only": [
+      "TestCreateTransport.test_grpc_backend",
+      "TestCreateTransport.test_redis_backend",
+      "TestInProcessTransport.test_default_returns_none",
+      "TestRedisTransport",
+      "TestRedisTransport.test_construction",
+      "TestRedisTransport.test_with_config"
+    ],
+    "overlap_count": 15,
+    "signature_changes": []
+  },
+  {
+    "bucket": "C",
+    "rel_path": "CaseCrack/tests/test_fix134_waf_phase14_degraded.py",
+    "disk_size": 35205,
+    "hist_size": 42913,
+    "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7e21f311\\zKmD.py",
+    "disk_only": [
+      "TestFix134aCmdWafOutputFirst.test_detect_writes_output_with_envelope_keys",
+      "TestFix134bStructural",
+      "TestFix134bStructural.test_output_write_before_logging",
+      "TestFix134bStructural.test_scan_started_emit_in_try_block",
+      "TestFix134dWafw00fImportProtection.test_import_guard_exists_in_source",
+      "TestFix134dWafw00fImportProtection.test_import_guard_has_write_skip",
+      "TestFix134dWafw00fImportProtection.test_import_module_not_found_error",
+      "TestFix134dWafw00fLoggingProtection.test_logging_protection_exists_in_source"
+    ],
+    "hist_only": [
+      "TestFix134CmdWafDetectErrorPaths.test_detect_import_error",
+      "TestFix134aCmdWafOutputFirst._run_detect",
+      "TestFix134aCmdWafOutputFirst.test_detect_writes_output_before_logging",
+      "TestFix134dWafw00fImportProtection.test_import_error_module_not_found"
+    ],
+    "overlap_count": 47,
+    "signature_changes": []
+  }
+]

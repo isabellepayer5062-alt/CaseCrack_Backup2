@@ -1,0 +1,298 @@
+=== Mandarin Restaurant Scan Issue Report ===
+=== Target: https://www.mandarinrestaurant.com/ ===
+=== Started: 2026-05-06T23:04:12.157815+00:00 ===
+
+[Fingerprinting & Technology] [stderr] [*]   Missing:       Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy, Cross-Origin-Embedder-Policy, Cross-Origin-Resource-Policy
+[Fingerprinting & Technology] [stderr] ⚠️ Missing HSTS header
+[Fingerprinting & Technology] [stderr] ⚠️ Missing X-Content-Type-Options header
+[Fingerprinting & Technology] [stderr] ⚠️ Missing X-Frame-Options header
+[Fingerprinting & Technology] [stderr] ⚠️ Missing CSP header
+
+=== Monitor v2 resumed: 2026-05-06T23:10:50.357502+00:00 ===
+
+[Fingerprinting & Technology] [stderr] [*]   Missing:       Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy, Cross-Origin-Embedder-Policy, Cross-Origin-Resource-Policy
+[Fingerprinting & Technology] [stderr] ⚠️ Missing HSTS header
+[Fingerprinting & Technology] [stderr] ⚠️ Missing X-Content-Type-Options header
+[Fingerprinting & Technology] [stderr] ⚠️ Missing X-Frame-Options header
+[Fingerprinting & Technology] [stderr] ⚠️ Missing CSP header
+[JS Analysis & Source Maps] [stderr] docker run timed out after 8s for image casecrack/jsluice:1.0.2 — returning partial output
+[JS Analysis & Source Maps] [stderr] docker run timed out after 8s for image casecrack/jsluice:1.0.2 — returning partial output
+[Parameter Discovery] [stderr] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (19s) for command 'params'
+[JS Analysis & Source Maps] [stderr] docker run timed out after 8s for image casecrack/jsluice:1.0.2 — returning partial output
+[JS Analysis & Source Maps] [stderr] docker run timed out after 9s for image casecrack/jsluice:1.0.2 — returning partial output
+[JS Analysis & Source Maps] [stderr]   error: open ﻿/** Abstract base class for collection plugins v1.0.1.: no such file or directory
+[JS Analysis & Source Maps] [stderr]   error: open /*!: no such file or directory
+[JS Analysis & Source Maps] [stderr]   error: open 	Written by Keith Wood (kbwood{at}iinet.com.au) December 2013.: no such file or directory
+[JS Analysis & Source Maps] [stderr]   error: open : no such file or directory
+[JS Analysis & Source Maps] [stderr]   error: open 	Licensed under the MIT (http://keith-wood.name/licence.html) license. */: no such file or directory
+[JS Analysis & Source Maps] [stderr]   error: open   - Slider Revolution 6.3.2 JavaScript Plugin -: no such file or directory
+[JS Analysis & Source Maps] [stderr]   error: open (function(){var j=false;window.JQClass=function(){};JQClass.classes={};JQClass.extend=function extender(f){var g=this.prototype;j=true;var h=new this();j=false;for(var i in f){h[i]=typeof f[i]=='function'&&typeof g[i]=='function'?(function(d,e){return function(){var b=this._super;this._super=function(a){return g[d].apply(this,a||[])};var c=e.apply(this,arguments);this._super=b;return c}})(i,f[i]):f[i]}function JQClass(){if(!j&&this._init){this._init.apply(this,arguments)}}JQClass.p… [truncated]
+[JS Analysis & Source Maps] [stderr]   error: open : no such file or directory
+[JS Analysis & Source Maps] [stderr]   error: open /*!: no such file or directory
+[JS Analysis & Source Maps] [stderr]   error: open ..........................xXXXXX.................: no such file or directory
+[JS Analysis & Source Maps] [stderr] [*]   Missing SRI:    4
+[URL Aggregation & Dorking] [stderr] [*] Timeout: 480.0s
+[DNS Security Testing] [stderr] [*]    Description: No TLSRPT record — not receiving TLS failure reports for email
+[WAF Detection & Fingerprinting] [stdout]         "Keep-Alive": "timeout=5, max=100",
+[WAF Detection & Fingerprinting] [stdout]         "Keep-Alive": "timeout=5, max=99",
+[WAF Detection & Fingerprinting] [stdout]         "Keep-Alive": "timeout=5, max=98",
+[Source Code & Reverse Analytics] [stdout]       "title": "SRI Missing: https://www.fbgcdn.com/embedder/js/ewm2.js",
+[Source Code & Reverse Analytics] [stdout]       "title": "SRI Missing: https://unpkg.com/@googlemaps/js-api-loader@^1.2.0/dist/index.min.js",
+[Source Code & Reverse Analytics] [stdout]       "title": "SRI Missing: https://mandarin.email-list-mgr.com/subscribe/1c71acf0-d053-4ba0-8f14-efac85be662e/js/popup.js",
+[Source Code & Reverse Analytics] [stdout]       "title": "SRI Missing: https://js.adsrvr.org/up_loader.1.1.0.js",
+[Source Code & Reverse Analytics] [stdout]       "title": "SRI Missing: //fonts.googleapis.com/css?family=Roboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CSatisfy%3Aregular",
+[Source Code & Reverse Analytics] [stdout]       "title": "SRI Missing: https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJosefin+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic… [truncated]
+[Source Code & Reverse Analytics] [stdout]       "title": "SRI Missing: https://fonts.googleapis.com/css?family=Roboto:400",
+[Authenticated Platform Scanning] [stdout]   [HIGH] CSRF protection may be missing at /login/login
+[Authenticated Platform Scanning] [stdout]   [HIGH] CSRF protection may be missing at /account/email
+[Authenticated Platform Scanning] [stdout]   [HIGH] CSRF protection may be missing at /account/save
+[Access Control & Privilege Testing] [stderr] [*] No roles specified — testing as unauthenticated user (detects endpoints missing authentication)
+[Access Control & Privilege Testing] [stderr] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (300s) for command 'ssrf_map'
+[Core Utility Testing] [stderr] [*] Module timeout: 60.0s
+[Core Utility Testing] [stderr] [*] CAA: policy=missing, 0 record(s), 1 issue(s)
+[Core Utility Testing] [stderr] [!] [MEDIUM] Missing HSTS Header
+[Core Utility Testing] [stderr] [!] [MEDIUM] Missing CSP Header
+[Core Utility Testing] [stderr] [*] [LOW] Missing X-Content-Type-Options
+[Core Utility Testing] [stderr] [-] [HIGH] SQL Error Message
+[Core Utility Testing] [stderr] [>] dorking: 70/147 (48%) | [yahoo] site: intext:"java.lang." "Exception" | found=61 err=0 q/s=5.9
+[Injection & Deserialization Testing] [stderr] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (90s) for command 'traversal'
+[DNS Resolution & Brute-force] [stderr] [!]   Timeout           : 10s
+[DNS Resolution & Brute-force] [stderr] [*] CAA: policy=missing, 0 record(s), 1 issue(s)
+[DNS Resolution & Brute-force] [stderr]   CAA Analysis [MEDIUM] (policy: missing):
+[Network Topology Mapping] [stderr]   Timeout         : 10.0s
+[Defensive Posture Assessment] [stderr] [*]   Missing: Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy
+[Active Vulnerability Testing] [stderr] docker run timed out after 80s for image projectdiscovery/nuclei:latest — returning partial output
+[Active Vulnerability Testing] [stderr] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (60s) for command 'sqli'
+[Supply Chain Security] [stderr] [*]   Missing SRI:    4
+[Advanced Exploitation Testing] [WARNING] [WARNING] Result: ⚠️  VULNERABLE
+[Advanced Exploitation Testing] [WARNING] [WARNING] Anomalies:
+[Advanced Exploitation Testing] [WARNING] [WARNING]   - Multiple successful responses: 5
+[Advanced Exploitation Testing] [WARNING] [WARNING] Result: ⚠️  VULNERABLE
+[Advanced Exploitation Testing] [WARNING] [WARNING] Result: ⚠️  VULNERABLE
+[Advanced Exploitation Testing] [WARNING] [WARNING] Anomalies:
+[Advanced Exploitation Testing] [WARNING] [WARNING] Anomalies:
+[Advanced Exploitation Testing] [WARNING] [WARNING]   - Multiple successful responses: 5
+[Advanced Exploitation Testing] [WARNING] [WARNING]   - Multiple successful responses: 5
+[Advanced Exploitation Testing] [stderr] [!] [bizlogic] Cannot bruteforce discounts — no variant_id discovered
+[Advanced Exploitation Testing] [stderr] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (90s) for command 'cmdi'
+[Advanced Exploitation Testing] [stderr] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'sqli'
+[Advanced Exploitation Testing] [stderr] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'ssrf_advanced'
+[Cloud & Container Security] [stderr] [!]   Timeout: 30.0s
+[Network & Port Scanning] [ERROR]           "output": "ERROR: Script execution failed (use -d to debug)"
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: Strict-Transport-Security","detail":"Header 'Strict-Transport-Security' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"e9781f736d2d","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology"… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: Content-Security-Policy","detail":"Header 'Content-Security-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"f6125282ef70","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","co… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: X-Content-Type-Options","detail":"Header 'X-Content-Type-Options' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"ef638cf8ba71","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","conf… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: X-Frame-Options","detail":"Header 'X-Frame-Options' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"3f2e7a6f62b6","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","confidence":0.0,"m… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: Referrer-Policy","detail":"Header 'Referrer-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"cea4803d3b5c","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","confidence":0.0,"m… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: Permissions-Policy","detail":"Header 'Permissions-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"dd7636628dd9","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","confidence":… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Opener-Policy","detail":"Header 'Cross-Origin-Opener-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"19fa7ca41056","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technolog… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Embedder-Policy","detail":"Header 'Cross-Origin-Embedder-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"d99de1a76bf1","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Techn… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Resource-Policy","detail":"Header 'Cross-Origin-Resource-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","id":"c8a110658b08","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Techn… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing HSTS header","detail":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","url":"https://www.mandarinrestaurant.com","id":"3d742f26e060","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","confidence":0.0,"module":"Fingerprinting & Technology","source":"Fingerprinting & Technology","payload":"","curl_c… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing X-Content-Type-Options header","detail":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","url":"https://www.mandarinrestaurant.com","id":"c293006ae97c","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","confidence":0.0,"module":"Fingerprinting & Technology","source":"Fingerprinting & Technology","p… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing X-Frame-Options header","detail":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","url":"https://www.mandarinrestaurant.com","id":"cc2d4fbad0ba","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","confidence":0.0,"module":"Fingerprinting & Technology","source":"Fingerprinting & Technology","payload"… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing CSP header","detail":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","url":"https://www.mandarinrestaurant.com","id":"950848b0dc59","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Fingerprinting & Technology","confidence":0.0,"module":"Fingerprinting & Technology","source":"Fingerprinting & Technology","payload":"","curl_co… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"DOM XSS: document.cookie \u2192 href attribute assignment","detail":"https://www.fbgcdn.com/embedder/js/ewm2.js | Source: document.cookie | Sink: href attribute assignment | Source Line: 1 | Sink Line: 1 | Source Context: !function(){function a(b,c,d){function e(g,h){if(!c[g]){if(!b[g]){var i=\"function\"==typeof require&&require;if(!h&&i)return i(g,!0);if(f)return f(g,!0);var j=new Error(\"Cannot find module '\"+g+\"'\");th | Sink Context: !function(… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://www.fbgcdn.com/embedder/js/ewm2.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loaded without Subresource Integrity.","remediation":"Add integrity=\"sha384-+X3ZwhtKs1H4j3hnSzQEiH2P+8WUPqCao1GwXXWlt8VL4+Mw3q8Bougmi41mqjDp\" crossorigin=\"anonymous\" to the <script> tag loading https://www.fbgcdn.com/embedder/js/ewm2.js","url":"ht… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://unpkg.com/@googlemaps/js-api-loader@^1.2.0/dist/index.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from unpkg loaded without Subresource Integrity.","remediation":"Add integrity=\"sha384-nd3GjZgzKioOjW8EFVdftA2jPz3lhIn2o1YrOD71R3F+STMg5I1dhoBHTLEcu7Rf\" crossorigin=\"anonymous\" to the <script> tag loading https://unpkg.com/@googlemaps/js-ap… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://mandarin.email-list-mgr.com/subscribe/1c71acf0-d053-4ba0-8f14-efac85be662e/js/popup.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loaded without Subresource Integrity.","remediation":"Add integrity=\"sha384-kAPBLvE9Bh0HmXT6yW9SpSlWDpL3+iXilVTOm4cPAg3NbaUhTZcW2mj+nb5DlKIQ\" crossorigin=\"anonymous\" to the <script> tag loading h… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://js.adsrvr.org/up_loader.1.1.0.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loaded without Subresource Integrity.","remediation":"Add integrity=\"sha384-W2WmIDCWCr1SIwmRY9WwmGVuwqVFysCVfaAXB2hcWKrJELDkvMv0XDfHyvpUTjpv\" crossorigin=\"anonymous\" to the <script> tag loading https://js.adsrvr.org/up_loader.1.1.0.js","url":"https:… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"No DKIM selectors found: mandarinrestaurant.com","detail":"Checked 5 common selectors (default, selector1, selector2, google, mail) \u2014 none had DKIM TXT records. Without DKIM, recipients cannot verify that emails were authorized by the domain owner.","phase":"DNS Security Testing","category":"dns_security","url":"https://mandarinrestaurant.com","id":"5584551c8fa2","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cv… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"No TLSRPT record \u2014 not receiving TLS failure reports for email","detail":"No TLSRPT record \u2014 not receiving TLS failure reports for email","phase":"DNS Security Testing","category":"misconfiguration","url":"https://mandarinrestaurant.com","id":"1b82e6b98ab4","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"DNS Security Testing","confidence":0.0,"module":"DNS Security Testing","s… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"SRI Missing: https://www.fbgcdn.com/embedder/js/ewm2.js","detail":"External script from 'www.fbgcdn.com' loaded without SRI integrity attribute. CDN resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d high risk. An attacker compromising the CDN could inject malicious code. | Tag: script | Has Integrity: False | Algorithm:  | Crossorigin:","phase":"Source Code & Reverse Analytics","category":"","remediation":"Add integrity and crossorigin attribu… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"SRI Missing: https://unpkg.com/@googlemaps/js-api-loader@^1.2.0/dist/index.min.js","detail":"External script from 'unpkg.com' loaded without SRI integrity attribute. CDN resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d high risk. An attacker compromising the CDN could inject malicious code. | Tag: script | Has Integrity: False | Algorithm:  | Crossorigin:","phase":"Source Code & Reverse Analytics","category":"","remediation":"Add integrity an… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"SRI Missing: https://mandarin.email-list-mgr.com/subscribe/1c71acf0-d053-4ba0-8f14-efac85be662e/js/popup.js","detail":"External script from 'mandarin.email-list-mgr.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d medium risk. An attacker compromising the CDN could inject malicious code. | Tag: script | Has Integrity: False | Algorithm:  | Crossorigin:","phase":"Source Code & Reverse Analy… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"SRI Missing: https://js.adsrvr.org/up_loader.1.1.0.js","detail":"External script from 'js.adsrvr.org' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d medium risk. An attacker compromising the CDN could inject malicious code. | Tag: script | Has Integrity: False | Algorithm:  | Crossorigin:","phase":"Source Code & Reverse Analytics","category":"","remediation":"Add integrity and crossorigin att… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"SRI Missing: //fonts.googleapis.com/css?family=Roboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CSatisfy%3Aregular","detail":"External link from 'fonts.googleapis.com' loaded without SRI integrity attribute. CDN resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d high risk. An attacker compromising the CDN could inject malicious code. | Tag: link | Has Integrity: False |… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"SRI Missing: https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJosefin+Sans%3A100%2C100italic%2C200%2C200italic%2C300%… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"SRI Missing: https://fonts.googleapis.com/css?family=Roboto:400","detail":"External link from 'fonts.googleapis.com' loaded without SRI integrity attribute. CDN resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d high risk. An attacker compromising the CDN could inject malicious code. | Tag: link | Has Integrity: False | Algorithm:  | Crossorigin:","phase":"Source Code & Reverse Analytics","category":"","remediation":"Add integrity and crossorig… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"CSRF protection may be missing at /login/login","detail":"https://www.mandarinrestaurant.com/login/login | Status Code: 404 | Snippet: <!DOCTYPE html>\n<html dir=\"ltr\" lang=\"en-US\"\n\tprefix=\"og: https://ogp.me/ns#\"  >\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <link rel=\"profile\" href=\"http:// | Token Sent: False","phase":"Authenticated Platform Scanning","category":"csrf_missing","descripti… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"CSRF protection may be missing at /account/email","detail":"https://www.mandarinrestaurant.com/account/email | Status Code: 404 | Snippet: <!DOCTYPE html>\n<html dir=\"ltr\" lang=\"en-US\"\n\tprefix=\"og: https://ogp.me/ns#\"  >\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <link rel=\"profile\" href=\"http:// | Token Sent: False","phase":"Authenticated Platform Scanning","category":"csrf_missing","descr… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"CSRF protection may be missing at /account/save","detail":"https://www.mandarinrestaurant.com/account/save | Status Code: 404 | Snippet: <!DOCTYPE html>\n<html dir=\"ltr\" lang=\"en-US\"\n\tprefix=\"og: https://ogp.me/ns#\"  >\n\n<head>\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n    <link rel=\"profile\" href=\"http:// | Token Sent: False","phase":"Authenticated Platform Scanning","category":"csrf_missing","descrip… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Pipeline encountered 1 error(s) during crawl","detail":"no_package_manifests_in_target_dir","phase":"CVE Correlation","category":"pipeline","pipeline_error":true,"id":"ff951b90af4f","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"CVE Correlation","confidence":0.0,"module":"CVE Correlation","source":"CVE Correlation","payload":"","curl_command":"","request":"","response":"","tem… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing HSTS Header","detail":"The response lacks Strict-Transport-Security header.","url":"https://www.mandarinrestaurant.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"9e48cafbc5a1","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Core Utility Testing","confidence":0.0,"module":"Core Utility Testing","source":"Core Utility Testing","payload":"… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing CSP Header","detail":"The response lacks Content-Security-Policy header.","url":"https://www.mandarinrestaurant.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"b2a8e8b2a799","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Core Utility Testing","confidence":0.0,"module":"Core Utility Testing","source":"Core Utility Testing","payload":"","… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"Missing X-Content-Type-Options","detail":"The response lacks X-Content-Type-Options header.","url":"https://www.mandarinrestaurant.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"fc73070ff24a","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Core Utility Testing","confidence":0.0,"module":"Core Utility Testing","source":"Core Utility Testing","pa… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"SQL Error Message","detail":"A SQL error message was exposed, potentially revealing database information.","url":"https://www.mandarinrestaurant.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"730614007dfb","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"Core Utility Testing","confidence":0.0,"module":"Core Utility Testing","source":"Core Utilit… [truncated]
+[Correlation & Compliance] [stdout] {"type":"finding","severity":"info","title":"DNS record coverage gap: 4 record type(s) not found","detail":"The following DNS record types were not found in Phase 8 output: MX (mail server), AAAA (IPv6), SRV (service discovery), TXT (SPF/DKIM/DMARC).  Record types found: A only.  dnsx is configured with --record-types A AAAA CNAME MX NS TXT but non-A records may have failed silently.  The dns-intel SRV discovery module may have been deferred or timed out.  Consider manual DNS queries for missing… [truncated]
+[Correlation & Compliance] [stdout]       "title": "Missing X-Content-Type-Options header",
+[Correlation & Compliance] [stdout]       "title": "Missing X-Frame-Options header",
+[Correlation & Compliance] [stdout]       "title": "Missing CSP header",
+[Dashboard & Post-Scan Analysis] [status] Phase status=DEGRADED: Dashboard & Post-Scan Analysis
+
+=== Monitor v2 resumed: 2026-05-07T00:05:41.075002+00:00 ===
+
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "SRI Missing: https://www.fbgcdn.com/embedder/js/ewm2.js",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "SRI Missing: https://unpkg.com/@googlemaps/js-api-loader@^1.2.0/dist/index.min.js",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "SRI Missing: https://mandarin.email-list-mgr.com/subscribe/1c71acf0-d053-4ba0-8f14-efac85be662e/js/popup.js",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "SRI Missing: https://js.adsrvr.org/up_loader.1.1.0.js",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "SRI Missing: //fonts.googleapis.com/css?family=Roboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CSatisfy%3Aregular",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "SRI Missing: https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CJosefin+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2… [truncated]
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "SRI Missing: https://fonts.googleapis.com/css?family=Roboto:400",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "CSRF protection may be missing at /login/login",
+[Dashboard & Post-Scan Analysis] [ERROR]     "description": "POST to /login/login without _xfToken returned HTTP 404 without a CSRF rejection error. If this endpoint mutates state (e.g., changes email, saves account settings), it may be exploitable via Cross-Site Request Forgery.",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "CSRF protection may be missing at /account/email",
+[Dashboard & Post-Scan Analysis] [ERROR]     "description": "POST to /account/email without _xfToken returned HTTP 404 without a CSRF rejection error. If this endpoint mutates state (e.g., changes email, saves account settings), it may be exploitable via Cross-Site Request Forgery.",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "CSRF protection may be missing at /account/save",
+[Dashboard & Post-Scan Analysis] [ERROR]     "description": "POST to /account/save without _xfToken returned HTTP 404 without a CSRF rejection error. If this endpoint mutates state (e.g., changes email, saves account settings), it may be exploitable via Cross-Site Request Forgery.",
+[Dashboard & Post-Scan Analysis] [ERROR]     "title": "Pipeline encountered 1 error(s) during crawl",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "Missing HSTS Header",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "Missing CSP Header",
+[Dashboard & Post-Scan Analysis] [stdout]     "title": "Missing X-Content-Type-Options",
+[Dashboard & Post-Scan Analysis] [ERROR]     "title": "SQL Error Message",
+[Dashboard & Post-Scan Analysis] [ERROR]     "detail": "A SQL error message was exposed, potentially revealing database information.",
+[Dashboard & Post-Scan Analysis] [ERROR]     "description": "A SQL error message was exposed, potentially revealing database information.",
+
+
+=== SUMMARY (monitor v2): 109 issues ===
+
+[Access Control & Privilege Testing] (2 issues):
+  • [*] No roles specified — testing as unauthenticated user (detects endpoints missing authentication)
+  • [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (300s) for command 'ssrf_map'
+
+[Active Vulnerability Testing] (2 issues):
+  • docker run timed out after 80s for image projectdiscovery/nuclei:latest — returning partial output
+  • [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (60s) for command 'sqli'
+
+[Advanced Exploitation Testing] (13 issues):
+  • [WARNING] Result: ⚠️  VULNERABLE
+  • [WARNING] Anomalies:
+  • [WARNING]   - Multiple successful responses: 5
+  • [WARNING] Result: ⚠️  VULNERABLE
+  • [WARNING] Result: ⚠️  VULNERABLE
+  • [WARNING] Anomalies:
+  • [WARNING] Anomalies:
+  • [WARNING]   - Multiple successful responses: 5
+  • [WARNING]   - Multiple successful responses: 5
+  • [!] [bizlogic] Cannot bruteforce discounts — no variant_id discovered
+  • [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (90s) for command 'cmdi'
+  • [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'sqli'
+  • [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'ssrf_advanced'
+
+[Authenticated Platform Scanning] (3 issues):
+  •   [HIGH] CSRF protection may be missing at /login/login
+  •   [HIGH] CSRF protection may be missing at /account/email
+  •   [HIGH] CSRF protection may be missing at /account/save
+
+[Cloud & Container Security] (1 issues):
+  • [!]   Timeout: 30.0s
+
+[Core Utility Testing] (7 issues):
+  • [*] Module timeout: 60.0s
+  • [*] CAA: policy=missing, 0 record(s), 1 issue(s)
+  • [!] [MEDIUM] Missing HSTS Header
+  • [!] [MEDIUM] Missing CSP Header
+  • [*] [LOW] Missing X-Content-Type-Options
+  • [-] [HIGH] SQL Error Message
+  • [>] dorking: 70/147 (48%) | [yahoo] site: intext:"java.lang." "Exception" | found=61 err=0 q/s=5.9
+
+[Correlation & Compliance] (39 issues):
+  • {"type":"finding","severity":"info","title":"Missing security header: Strict-Transport-Security","detail":"Header 'Strict-Transport-Security' is absent (grade: F). Configure the web server to send thi
+  • {"type":"finding","severity":"info","title":"Missing security header: Content-Security-Policy","detail":"Header 'Content-Security-Policy' is absent (grade: F). Configure the web server to send this he
+  • {"type":"finding","severity":"info","title":"Missing security header: X-Content-Type-Options","detail":"Header 'X-Content-Type-Options' is absent (grade: F). Configure the web server to send this head
+  • {"type":"finding","severity":"info","title":"Missing security header: X-Frame-Options","detail":"Header 'X-Frame-Options' is absent (grade: F). Configure the web server to send this header on all resp
+  • {"type":"finding","severity":"info","title":"Missing security header: Referrer-Policy","detail":"Header 'Referrer-Policy' is absent (grade: F). Configure the web server to send this header on all resp
+  • {"type":"finding","severity":"info","title":"Missing security header: Permissions-Policy","detail":"Header 'Permissions-Policy' is absent (grade: F). Configure the web server to send this header on al
+  • {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Opener-Policy","detail":"Header 'Cross-Origin-Opener-Policy' is absent (grade: F). Configure the web server to send t
+  • {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Embedder-Policy","detail":"Header 'Cross-Origin-Embedder-Policy' is absent (grade: F). Configure the web server to se
+  • {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Resource-Policy","detail":"Header 'Cross-Origin-Resource-Policy' is absent (grade: F). Configure the web server to se
+  • {"type":"finding","severity":"info","title":"Missing HSTS header","detail":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","url":"https://www.ma
+  • {"type":"finding","severity":"info","title":"Missing X-Content-Type-Options header","detail":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","ur
+  • {"type":"finding","severity":"info","title":"Missing X-Frame-Options header","detail":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","url":"htt
+  • {"type":"finding","severity":"info","title":"Missing CSP header","detail":"https://www.mandarinrestaurant.com","phase":"Fingerprinting & Technology","category":"security_header","url":"https://www.man
+  • {"type":"finding","severity":"info","title":"DOM XSS: document.cookie \u2192 href attribute assignment","detail":"https://www.fbgcdn.com/embedder/js/ewm2.js | Source: document.cookie | Sink: href attr
+  • {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://www.fbgcdn.com/embedder/js/ewm2.js","phase":"JS Analysis & Source Maps","category":"supply_chain","des
+  • {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://unpkg.com/@googlemaps/js-api-loader@^1.2.0/dist/index.min.js","phase":"JS Analysis & Source Maps","cat
+  • {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://mandarin.email-list-mgr.com/subscribe/1c71acf0-d053-4ba0-8f14-efac85be662e/js/popup.js","phase":"JS An
+  • {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://js.adsrvr.org/up_loader.1.1.0.js","phase":"JS Analysis & Source Maps","category":"supply_chain","descr
+  • {"type":"finding","severity":"info","title":"No DKIM selectors found: mandarinrestaurant.com","detail":"Checked 5 common selectors (default, selector1, selector2, google, mail) \u2014 none had DKIM TX
+  • {"type":"finding","severity":"info","title":"No TLSRPT record \u2014 not receiving TLS failure reports for email","detail":"No TLSRPT record \u2014 not receiving TLS failure reports for email","phase"
+  • {"type":"finding","severity":"info","title":"SRI Missing: https://www.fbgcdn.com/embedder/js/ewm2.js","detail":"External script from 'www.fbgcdn.com' loaded without SRI integrity attribute. CDN resour
+  • {"type":"finding","severity":"info","title":"SRI Missing: https://unpkg.com/@googlemaps/js-api-loader@^1.2.0/dist/index.min.js","detail":"External script from 'unpkg.com' loaded without SRI integrity 
+  • {"type":"finding","severity":"info","title":"SRI Missing: https://mandarin.email-list-mgr.com/subscribe/1c71acf0-d053-4ba0-8f14-efac85be662e/js/popup.js","detail":"External script from 'mandarin.email
+  • {"type":"finding","severity":"info","title":"SRI Missing: https://js.adsrvr.org/up_loader.1.1.0.js","detail":"External script from 'js.adsrvr.org' loaded without SRI integrity attribute. External reso
+  • {"type":"finding","severity":"info","title":"SRI Missing: //fonts.googleapis.com/css?family=Roboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C
+  • {"type":"finding","severity":"info","title":"SRI Missing: https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600
+  • {"type":"finding","severity":"info","title":"SRI Missing: https://fonts.googleapis.com/css?family=Roboto:400","detail":"External link from 'fonts.googleapis.com' loaded without SRI integrity attribute
+  • {"type":"finding","severity":"info","title":"CSRF protection may be missing at /login/login","detail":"https://www.mandarinrestaurant.com/login/login | Status Code: 404 | Snippet: <!DOCTYPE html>\n<ht
+  • {"type":"finding","severity":"info","title":"CSRF protection may be missing at /account/email","detail":"https://www.mandarinrestaurant.com/account/email | Status Code: 404 | Snippet: <!DOCTYPE html>\
+  • {"type":"finding","severity":"info","title":"CSRF protection may be missing at /account/save","detail":"https://www.mandarinrestaurant.com/account/save | Status Code: 404 | Snippet: <!DOCTYPE html>\n<
+  • {"type":"finding","severity":"info","title":"Pipeline encountered 1 error(s) during crawl","detail":"no_package_manifests_in_target_dir","phase":"CVE Correlation","category":"pipeline","pipeline_error
+  • {"type":"finding","severity":"info","title":"Missing HSTS Header","detail":"The response lacks Strict-Transport-Security header.","url":"https://www.mandarinrestaurant.com","parameter":"","phase":"Cor
+  • {"type":"finding","severity":"info","title":"Missing CSP Header","detail":"The response lacks Content-Security-Policy header.","url":"https://www.mandarinrestaurant.com","parameter":"","phase":"Core U
+  • {"type":"finding","severity":"info","title":"Missing X-Content-Type-Options","detail":"The response lacks X-Content-Type-Options header.","url":"https://www.mandarinrestaurant.com","parameter":"","pha
+  • {"type":"finding","severity":"info","title":"SQL Error Message","detail":"A SQL error message was exposed, potentially revealing database information.","url":"https://www.mandarinrestaurant.com","para
+  • {"type":"finding","severity":"info","title":"DNS record coverage gap: 4 record type(s) not found","detail":"The following DNS record types were not found in Phase 8 output: MX (mail server), AAAA (IPv
+  •       "title": "Missing X-Content-Type-Options header",
+  •       "title": "Missing X-Frame-Options header",
+  •       "title": "Missing CSP header",
+
+[DNS Resolution & Brute-force] (3 issues):
+  • [!]   Timeout           : 10s
+  • [*] CAA: policy=missing, 0 record(s), 1 issue(s)
+  •   CAA Analysis [MEDIUM] (policy: missing):
+
+[DNS Security Testing] (1 issues):
+  • [*]    Description: No TLSRPT record — not receiving TLS failure reports for email
+
+[Dashboard & Post-Scan Analysis] (1 issues):
+  • Phase status=DEGRADED: Dashboard & Post-Scan Analysis
+
+[Defensive Posture Assessment] (1 issues):
+  • [*]   Missing: Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy
+
+[Fingerprinting & Technology] (5 issues):
+  • [*]   Missing:       Strict-Transport-Security, Content-Security-Policy, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy, Cross-Origin-Embedder
+  • ⚠️ Missing HSTS header
+  • ⚠️ Missing X-Content-Type-Options header
+  • ⚠️ Missing X-Frame-Options header
+  • ⚠️ Missing CSP header
+
+[Injection & Deserialization Testing] (1 issues):
+  • [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (90s) for command 'traversal'
+
+[JS Analysis & Source Maps] (15 issues):
+  • docker run timed out after 8s for image casecrack/jsluice:1.0.2 — returning partial output
+  • docker run timed out after 8s for image casecrack/jsluice:1.0.2 — returning partial output
+  • docker run timed out after 8s for image casecrack/jsluice:1.0.2 — returning partial output
+  • docker run timed out after 9s for image casecrack/jsluice:1.0.2 — returning partial output
+  •   error: open ﻿/** Abstract base class for collection plugins v1.0.1.: no such file or directory
+  •   error: open /*!: no such file or directory
+  •   error: open 	Written by Keith Wood (kbwood{at}iinet.com.au) December 2013.: no such file or directory
+  •   error: open : no such file or directory
+  •   error: open 	Licensed under the MIT (http://keith-wood.name/licence.html) license. */: no such file or directory
+  •   error: open   - Slider Revolution 6.3.2 JavaScript Plugin -: no such file or directory
+  •   error: open (function(){var j=false;window.JQClass=function(){};JQClass.classes={};JQClass.extend=function extender(f){var g=this.prototype;j=true;var h=new this();j=false;for(var i in f){h[i]=typeo
+  •   error: open : no such file or directory
+  •   error: open /*!: no such file or directory
+  •   error: open ..........................xXXXXX.................: no such file or directory
+  • [*]   Missing SRI:    4
+
+[Network & Port Scanning] (1 issues):
+  •           "output": "ERROR: Script execution failed (use -d to debug)"
+
+[Network Topology Mapping] (1 issues):
+  •   Timeout         : 10.0s
+
+[Parameter Discovery] (1 issues):
+  • [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (19s) for command 'params'
+
+[Source Code & Reverse Analytics] (7 issues):
+  •       "title": "SRI Missing: https://www.fbgcdn.com/embedder/js/ewm2.js",
+  •       "title": "SRI Missing: https://unpkg.com/@googlemaps/js-api-loader@^1.2.0/dist/index.min.js",
+  •       "title": "SRI Missing: https://mandarin.email-list-mgr.com/subscribe/1c71acf0-d053-4ba0-8f14-efac85be662e/js/popup.js",
+  •       "title": "SRI Missing: https://js.adsrvr.org/up_loader.1.1.0.js",
+  •       "title": "SRI Missing: //fonts.googleapis.com/css?family=Roboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CRoboto%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%7CSatisfy%3Ar
+  •       "title": "SRI Missing: https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700itali
+  •       "title": "SRI Missing: https://fonts.googleapis.com/css?family=Roboto:400",
+
+[Supply Chain Security] (1 issues):
+  • [*]   Missing SRI:    4
+
+[URL Aggregation & Dorking] (1 issues):
+  • [*] Timeout: 480.0s
+
+[WAF Detection & Fingerprinting] (3 issues):
+  •         "Keep-Alive": "timeout=5, max=100",
+  •         "Keep-Alive": "timeout=5, max=99",
+  •         "Keep-Alive": "timeout=5, max=98",

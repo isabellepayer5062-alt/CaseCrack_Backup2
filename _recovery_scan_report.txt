@@ -1,0 +1,1104 @@
+MISSING_COUNT=772
+M  255150 CaseCrack\tools\burp_enterprise\recon_dashboard.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\417a6ff8\HZZz.py
+M  222052 CaseCrack\tools\burp_enterprise\compliance.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4d6d17\wdcY.py
+M  199690 CaseCrack\tools\burp_enterprise\agent_roles.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6c2949d9\0AZl.py
+M  169295 CaseCrack\tools\burp_enterprise\recon_dashboard\multi_request_validator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4403b6cb\qfEh.py
+M  154964 CaseCrack\tools\burp_enterprise\loop\autonomous_loop.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5a3c7faa\VdtT.py
+M  142386 CaseCrack\tools\burp_enterprise\validation_fleet.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\37fa9fca\jA4I.py
+M  117190 CaseCrack\tools\burp_enterprise\persistent_agent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3a85d9ab\mpU6.py
+M  109476 CaseCrack\tools\burp_enterprise\recon_dashboard\bounty_ops.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5b6c9ed7\6WPu.py
+M  106469 CaseCrack\tools\burp_enterprise\recon_dashboard\authenticated_exploit_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3b558bc1\K7GD.py
+M  106351 _comprehensive_llm_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\41804f0c\Vok1.py
+M  103728 CaseCrack\tools\burp_enterprise\agent_roles_clean.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7bad2d31\guOh.py
+M   98427 CaseCrack\tools\burp_enterprise\agents\llm_clients.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-25e0443\WJ2G.py
+M   96482 CaseCrack\tools\burp_enterprise\recon_dashboard\truth_enforcement.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-54647b85\JEaQ.py
+M   95948 CaseCrack\tools\burp_enterprise\production_gaps.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5a466839\McPl.py
+M   87050 CaseCrack\_write_agent_roles_v2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-74244ccf\hhRK.py
+M   81580 CaseCrack\tools\burp_enterprise\world_model.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\29e5ec00\5sjQ.py
+M   79905 CaseCrack\tools\burp_enterprise\recon_dashboard\impact_amplifier.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1c721ab1\9qRw.py
+M   79593 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-f9888bf\rp9s.py
+M   78823 CaseCrack\tools\burp_enterprise\agents\llm_production.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1a7edc90\MBEQ.py
+M   78267 CaseCrack\tools\burp_enterprise\exploit_chains\manual_audit_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\12ae87dc\ZTEQ.py
+M   78137 CaseCrack\tools\burp_enterprise\session_auth\session_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5d7222d6\S5Kg.py
+M   75312 CaseCrack\tools\burp_enterprise\exploit_chains\system_audit_harness.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4a7d40c9\Sh1o.py
+M   72880 CaseCrack\tools\burp_enterprise\confidence_ensemble.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\204d40de\eWVd.py
+M   70098 CaseCrack\tools\burp_enterprise\multi_agent_debate.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\78b843c1\uilG.py
+M   69070 CaseCrack\tools\burp_enterprise\lookahead_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-71fed82d\sGDP.py
+M   68261 CaseCrack\tools\burp_enterprise\self_healing.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1f67efeb\zbeF.py
+M   67936 CaseCrack\tools\burp_enterprise\agents\anthropic_patterns.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\382395a5\dEId.py
+M   66484 CaseCrack\tools\burp_enterprise\adversarial_validation_agent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6bc88c04\6h2D.py
+M   66074 CaseCrack\tools\burp_enterprise\agents\llm_advanced_defense.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\21393466\uiau.py
+M   65431 CaseCrack\ctemp\_e3_wave.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7fc96f63\mf5D.py
+M   64681 CaseCrack\_write_agent_roles.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-56064e9e\Mn7y.py
+M   62476 CaseCrack\tools\burp_enterprise\recon_dashboard\remediation_validation.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-63d2beac\baVx.py
+M   62409 CaseCrack\tools\burp_enterprise\exploit_chains\deep_audit_harness.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3960351a\XyBx.py
+M   62222 CaseCrack\ctemp\_e3_wave_v2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\60ba990\vDsx.py
+M   62152 CaseCrack\tools\burp_enterprise\exploit_chains\reality_gap_harness.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-f52d85d\usQH.py
+M   60939 CaseCrack\tools\burp_enterprise\adaptive_exploration_policy.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\45ab0925\tJcN.py
+M   60231 CaseCrack\tools\burp_enterprise\graph\nodes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\148e850c\RY4V.py
+M   59167 CaseCrack\tools\burp_enterprise\persona_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1110e4c3\qL4o.py
+M   58909 CaseCrack\tools\burp_enterprise\agents\unified_arbitration.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5ed36c21\VbjE.py
+M   58562 CaseCrack\tools\burp_enterprise\recon_dashboard\exploit_persistence_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-e327fcf\Jk20.py
+M   57420 _test_all_llm_features.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-28cde910\5mHY.py
+M   57254 CaseCrack\tools\burp_enterprise\agents\llm_ops.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\29e851d3\QTWg.py
+M   57252 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_persistent_agent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3ea4148b\Svl9.py
+M   55945 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_vuln_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7db546fa\RbrS.py
+M   55753 CaseCrack\tools\burp_enterprise\target_mental_model.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3da23445\gY7p.py
+M   54263 CaseCrack\tools\burp_enterprise\xss.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2bb45ee4\J16x.py
+M   53930 CaseCrack\tools\burp_enterprise\strategic_llm_layer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-8b68a4\8rIq.py
+M   53812 CaseCrack\tools\burp_enterprise\graph\multi_agent\specialist_nodes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1bc7b6be\xo6q.py
+M   53753 CaseCrack\tools\burp_enterprise\hierarchical_decomposition.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1b72bbdf\olhY.py
+M   53653 CaseCrack\tools\burp_enterprise\tool_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7888c9ca\z00i.py
+M   53310 tests\test_llm_advanced_defense.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\35b5cd0f\fDr6.py
+M   52338 CaseCrack\tools\burp_enterprise\recon_dashboard\scan_mode_config.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5ede0aeb\Ye1T.py
+M   52085 CaseCrack\tools\burp_enterprise\agents\prompt_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-16500968\GW3t.py
+M   51160 CaseCrack\tools\burp_enterprise\recon_dashboard\benchmark_tracker.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1be016b1\TUoF.py
+M   50840 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_agents.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\67442ff5\SDR1.py
+M   50440 CaseCrack\tools\burp_enterprise\agents\rag_context.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-56689755\RCci.py
+M   49950 CaseCrack\tools\burp_enterprise\recon_dashboard\system_health.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-158f4585\wxT9.py
+M   49317 CaseCrack\tools\burp_enterprise\memory_control.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5831113\0MOV.py
+M   49014 tests\test_strategic_llm_layer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\68d3470a\RvEX.py
+M   48880 CaseCrack\tools\burp_enterprise\agents\llm_tracking.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2ffaaa52\Zeez.py
+M   48433 CaseCrack\tools\burp_enterprise\exploit_chains\audit_pyramid.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6b3bcdcf\SOwl.py
+M   48418 CaseCrack\tools\burp_enterprise\frontier_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-18b4bd5\fvdi.py
+M   47718 CaseCrack\tools\burp_enterprise\verification_chain.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-275084ab\xbKn.py
+M   47653 CaseCrack\tools\burp_enterprise\database\pg_schema.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\359a069d\fnov.py
+M   46973 CaseCrack\tools\burp_enterprise\exploit_chains\integration_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\8127c8b\Q7gz.py
+M   46602 CaseCrack\tools\burp_enterprise\graph\reasoning\nodes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7a49c15d\hppN.py
+M   46527 _prove_cart_idor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\422858d0\0vA9.py
+M   46493 CaseCrack\ctemp\_eg_upgrade.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-66c85fe\Wiue.py
+M   46309 tests\test_lookahead_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\132246e5\JuI6.py
+M   45827 CaseCrack\tools\burp_enterprise\symbolic_fallback.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3bfb3833\OC0A.py
+M   45719 tests\test_llm_output_guard.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2bc8aeb5\WzJ5.py
+M   45178 CaseCrack\tools\burp_enterprise\agents\ab_testing.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\31a47289\TED4.py
+M   44433 CaseCrack\tools\burp_enterprise\prompt_registry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-63c8947c\q7dO.py
+M   44260 CaseCrack\tools\burp_enterprise\agents\native_tool_calling.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\25806bce\5YIi.py
+M   43860 CaseCrack\tools\burp_enterprise\decision_trace.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\46261730\HsHg.py
+M   43583 CaseCrack\tools\burp_enterprise\mcp\cognitive_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5f3ad371\54i4.py
+M   43521 CaseCrack\tools\burp_enterprise\architecture_evolver.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\434b7d09\bR37.py
+M   43328 CaseCrack\tools\burp_enterprise\agents\llm_routing.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-619bfc1\QOuk.py
+M   42865 CaseCrack\tools\burp_enterprise\decision_plane.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\69d702b9\K5KG.py
+M   42666 CaseCrack\tools\burp_enterprise\production_subsystems.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\525e6a12\Vw1u.py
+M   42577 CaseCrack\ctemp\_e2_wave.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-147aff9e\0n0Q.py
+M   42268 CaseCrack\tools\burp_enterprise\agents\reactive_compaction.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7f9984b8\9CfT.py
+M   42027 CaseCrack\tools\burp_enterprise\confidence_diversity.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5c93d0ee\Zcs9.py
+M   41775 CaseCrack\tools\burp_enterprise\defender_adversary_model.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\36ca572f\U8Wl.py
+M   41611 CaseCrack\tools\burp_enterprise\swarm\agent_roles.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1c4f7390\6bxk.py
+M   41116 CaseCrack\tools\burp_enterprise\agents\llm_output_guard.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3149fc22\1hiY.py
+M   40895 CaseCrack\tools\burp_enterprise\recon_dashboard\threat_modeling.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\a25d309\bmBz.py
+M   40176 _test_phase22_real_campaign.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6576597c\XgnK.py
+M   40103 CaseCrack\tools\burp_enterprise\agents\doubt_injector.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1bf7f69c\QoUK.py
+M   39885 _rewrite_aap.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-46907813\F5hc.py
+M   39841 CaseCrack\tools\burp_enterprise\recon_dashboard\auto_exploit_executor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\cd8cb70\fQ2G.py
+M   39746 CaseCrack\tools\burp_enterprise\temporal_stability.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2af301c6\Gdma.py
+M   39151 CaseCrack\tools\burp_enterprise\event_driven_wakeup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-43d74239\g4i1.py
+M   38283 _rewrite_ao.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\378d2783\vDYV.py
+M   38277 CaseCrack\tools\burp_enterprise\agents\feedback_learning.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6f860065\sRdV.py
+M   37972 tests\test_verdict_auditor_circuit_breaker.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\eadb99b\UPzb.py
+M   37730 CaseCrack\tools\burp_enterprise\recon_dashboard\graph_reasoning.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6b0f0bda\y1Jc.py
+M   37660 CaseCrack\tools\burp_enterprise\recon_dashboard\multimodal_support.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7d9af0e3\g6Mm.py
+M   37518 tests\test_canonical_data_flow_gaps.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\53c91540\ehex.py
+M   37382 CaseCrack\tools\burp_enterprise\agents\llm_adaptive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-160b99cd\vFPQ.py
+M   37117 CaseCrack\tools\burp_enterprise\recon_dashboard\causal_inference.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3bc5b4e6\XUdk.py
+M   36721 tests\test_prompt_injection_defense_gaps.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-31755255\tUld.py
+M   36671 CaseCrack\tests\scenarios\framework.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6c066adc\IxgD.py
+M   36355 CaseCrack\tools\burp_enterprise\recon_dashboard\confidence_calibration.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-22f000ce\q5KH.py
+M   35625 CaseCrack\tools\burp_enterprise\objective_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\597aedca\fryM.py
+M   35355 CaseCrack\tools\burp_enterprise\recon_dashboard\chain_execution_loop.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2c1ad5be\gyq6.py
+M   34900 CaseCrack\tools\burp_enterprise\exploit_chains\observability.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-209fee06\Oz4F.py
+M   34802 CaseCrack\tools\burp_enterprise\graph\cross_scan_memory.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-733df9a7\Z93Q.py
+M   34478 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5d4f770\m99s.py
+M   34310 _test_sdk_engine_routes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2a01110f\dxCu.py
+M   34297 CaseCrack\tools\burp_enterprise\loop\invariant_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\19b04050\1aLV.py
+M   34232 tests\test_llm_defense_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-567185f3\9NST.py
+M   33798 CaseCrack\tools\burp_enterprise\exploit_chains\production_truth_loop.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\66c6da3d\0Cui.py
+M   33582 CaseCrack\tools\burp_enterprise\swarm\multi_gpu\topology.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\422e6dc3\taTr.py
+M   33425 CaseCrack\tools\burp_enterprise\loop\feedback_loop_breaker.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\84cfc72\ZQfn.py
+M   33235 CaseCrack\tools\burp_enterprise\few_shot_selector.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-34745641\Kzgv.py
+M   33168 CaseCrack\tools\burp_enterprise\causal_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-9b19145\wVDa.py
+M   33134 tests\test_concurrency_defects.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4aee1034\wM24.py
+M   32989 CaseCrack\tools\burp_enterprise\recon_dashboard\target_profile.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7a9bd82c\WAcF.py
+M   32809 _test_ux1_ux2_ux3_provider_vault.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-25a93117\KJMC.py
+M   32803 CaseCrack\tools\burp_enterprise\exploit_chains\decision_framework.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-74997588\TC91.py
+M   32402 CaseCrack\tools\burp_enterprise\strategy_horizon_optimizer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5af4712d\DroA.py
+M   32317 CaseCrack\tools\burp_enterprise\agents\proactive_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7d6b7e50\R1qu.py
+M   32220 CaseCrack\tools\burp_enterprise\exploit_chains\exploit_progression.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\13da93d4\o8ZM.py
+M   32206 CaseCrack\tools\burp_enterprise\swarm\swarm.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1316a405\qfhK.py
+M   32025 CaseCrack\tools\burp_enterprise\recon_dashboard\conversation_branching.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5736d243\MNLC.py
+M   31876 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_sdk_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4594f0eb\bIZF.py
+M   31874 CaseCrack\tools\burp_enterprise\agents\llm_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\47c1c44a\GGcp.py
+M   31291 CaseCrack\ctemp\fix134_rewrite_tests.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3434b2de\2JeM.py
+M   30826 CaseCrack\tools\burp_enterprise\graph\multi_agent\supervisor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1353d127\RkuD.py
+M   30523 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_discovery_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\31da081f\3EOT.py
+M   30292 CaseCrack\tools\burp_enterprise\signal_contracts.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6fce71c8\RHQI.py
+M   30280 CaseCrack\tools\burp_enterprise\agents\llm_defense_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2e77fd96\gxYo.py
+M   30111 CaseCrack\_production_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4d6475d4\GgNS.py
+M   29910 CaseCrack\tools\burp_enterprise\attacker_memory.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\184a4bd1\tm2u.py
+M   29789 _test_phase21_revenue_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\17dd5ed3\TVnx.py
+M   29753 CaseCrack\tools\burp_enterprise\transfer_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1a995409\BwCR.py
+M   29734 CaseCrack\_test_cross_scanner_validation.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-600b18a1\VHrN.py
+M   29457 CaseCrack\tools\burp_enterprise\graph\multi_agent\supervisor_clean.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\e55f7cf\flEb.py
+M   29159 tests\test_role_registry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\72406f04\tkLj.py
+M   28769 CaseCrack\tools\burp_enterprise\agents\streaming_structured.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7aca953\M1fE.py
+M   28744 _test_u5_u6_l6_l7_l8_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\67fa23c4\3iRt.py
+M   28641 CaseCrack\tools\burp_enterprise\operator_trust_dashboard.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-75279940\73eI.py
+M   28069 tests\test_calibration_drift_fp_tracking.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\199bc529\Twgi.py
+M   27924 tests\test_progressive_prompts.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-273b7851\z8gu.py
+M   27545 CaseCrack\tools\burp_enterprise\swarm\multi_gpu\scheduler.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-65da485f\ueJO.py
+M   27494 CaseCrack\tools\burp_enterprise\recon_dashboard\finding_validator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-67e6fb35\t8CA.py
+M   27227 CaseCrack\tools\burp_enterprise\inference\setup_local_llm.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6b6e2e7b\tnHI.py
+M   27189 tests\test_verification_chain.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-65fae219\6bqE.py
+M   27099 CaseCrack\tools\burp_enterprise\loop\ai_directed_executor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-158d7ee2\2gXr.py
+M   27057 _llm_multi_target_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-53e02955\m33L.py
+M   27022 CaseCrack\tools\burp_enterprise\loop\exploit_report.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1d5daea9\WIdV.py
+M   26973 CaseCrack\tools\burp_enterprise\graph\runner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5d4d7ba1\6XRu.py
+M   26817 CaseCrack\tools\burp_enterprise\swarm\multi_gpu\messenger.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1db87e49\uspj.py
+M   26716 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_provider_vault.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\56a0d1ce\HCPj.py
+M   26267 CaseCrack\tools\burp_enterprise\recon_dashboard\attack_strategy_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7cb33cf0\6CI4.py
+M   26243 CaseCrack\tests\test_xss_scanner_comprehensive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2db7e4c7\dwFo.py
+M   26166 CaseCrack\tools\burp_enterprise\loop\target_selection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\509dae73\4s3d.py
+M   25664 _run_atlas_campaign.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\12f1186c\gM4m.py
+M   25354 CaseCrack\tools\burp_enterprise\exploit_chains\learning_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\72ef5531\r1An.py
+M   25269 CaseCrack\tools\burp_enterprise\progressive_prompts.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6f65d801\6stt.py
+M   24763 CaseCrack\tools\burp_enterprise\agents\llm_tracing.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-19b013d\BL1b.py
+M   24684 CaseCrack\tools\burp_enterprise\counterfactual_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6d10718d\Xqjf.py
+M   24674 CaseCrack\tools\burp_enterprise\loop\signal_extraction.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7940fe7f\k7yY.py
+M   24532 _test_knowledge_resilience.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2defa7cb\3gCk.py
+M   24508 CaseCrack\tools\burp_enterprise\ml_feedback_propagator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-625f0207\m30y.py
+M   24424 _test_strategic_foresight.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\357e24ef\Mr5x.py
+M   24401 tests\test_target_mental_model.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2bbc7b69\y1l5.py
+M   24298 _test_bounty_ops.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4a76a3df\sApQ.py
+M   24203 _test_s1_s2_r1_r2_s3_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-59a54d70\USzL.py
+M   24198 CaseCrack\tools\burp_enterprise\agents\llm_cache.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\40ed5383\9sth.py
+M   24100 CaseCrack\tools\burp_enterprise\loop\payload_evolution.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3949aad3\4WxP.py
+M   23895 CaseCrack\tools\burp_enterprise\database\pg_manager.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2d2ca3a3\5nu8.py
+M   23856 CaseCrack\tools\burp_enterprise\graph\tracing.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-d785025\YBG1.py
+M   23769 _test_tier3_upgrades.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-502e5f28\jF3J.py
+M   23712 CaseCrack\tools\burp_enterprise\recon_dashboard\platform_intelligence_memory.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5aef9ce\DbiX.py
+M   23648 CaseCrack\_decompose_generate.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-383be09a\WwnL.py
+M   23553 CaseCrack\tools\burp_enterprise\inference\ollama_backend.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3043f101\1CCT.py
+M   23548 CaseCrack\tools\burp_enterprise\loop\confirmation_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7ad90e91\mr3b.py
+M   23462 _test_st2_l1_l2_r5_r6_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7cecbe6f\QfHD.py
+M   23318 CaseCrack\tools\burp_enterprise\swarm\multi_gpu\model_sharder.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6f3f25a7\hE2E.py
+M   23179 batch_scan.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1b334c97\7XSf.py
+M   23128 CaseCrack\_restructure_flat_dir.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1f1d4883\eZdc.py
+M   22772 _test_r7_st3_st4_u1_u2_u3_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6cb6be4e\vK9X.py
+M   22698 CaseCrack\tools\burp_enterprise\graph\checkpointer_async.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1b072a9f\BzrR.py
+M   22688 CaseCrack\tools\burp_enterprise\loop\attack_graph.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3e81b49a\OXAA.py
+M   22663 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_multi_agent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\704fffbd\ypQ9.py
+M   22577 CaseCrack\tools\burp_enterprise\loop\session_matrix.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\70923c47\b4VJ.py
+M   22423 _verify_opp2_persona_switching.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1f1868bb\Ilaz.py
+M   22281 CaseCrack\tools\burp_enterprise\phase_priority_queue.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\f275d18\iyE0.py
+M   22059 CaseCrack\tools\burp_enterprise\outcome_narrative_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\625a7656\MQpD.py
+M   22002 CaseCrack\tools\burp_enterprise\mcp\cognitive_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-17b11325\gugz.py
+M   21933 CaseCrack\tools\burp_enterprise\agents\llm_hardware_adapter.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\356a1b71\oMng.py
+M   21714 CaseCrack\tools\burp_enterprise\agents\redis_cache.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4a479e4b\hlC4.py
+M   21713 CaseCrack\tools\burp_enterprise\decision_quality_evaluator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2bbf6246\O4GH.py
+M   21654 _test_truth_enforcement.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\17ffe905\DyaE.py
+M   21609 _validate_cross_target.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-128ae92f\bBQK.py
+M   21604 _test_l3_l4_l5_st5_u4_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\53849521\eXZ0.py
+M   21455 _patch_watcher_v2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3431a2d2\BpGO.py
+M   21359 CaseCrack\tools\burp_enterprise\swarm\multi_gpu\governor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\597e4b9c\WAeO.py
+M   21328 CaseCrack\tools\burp_enterprise\agents\prompt_budget.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-37caa74d\5ImU.py
+M   21234 CaseCrack\tools\burp_enterprise\recon_dashboard\payout_metrics.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3e8ac863\8bxk.py
+M   21106 CaseCrack\tools\burp_enterprise\loop\campaign_strategy.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-389a33e5\Jcjj.py
+M   21055 _apply_cc_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3805cc51\vkkV.py
+M   20942 _test_gap_1_1_and_3_1.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-14866fc7\klsB.py
+M   20937 _validate_truth_real.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7cb1b98f\ouja.py
+M   20834 _test_ux4_ux5_ux6_ux7_provider_vault.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6116bad9\th2Q.py
+M   20696 _llm_commander.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6849b44\wJCt.py
+M   20462 CaseCrack\tools\burp_enterprise\loop\vector_reasoning.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-527f2ed1\fjVo.py
+M   20216 _test_g6_g7_mcp_event_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6cac0ff5\y7Mj.py
+M   20194 _rewrite_dr.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\37b8cb23\SXbo.py
+M   20181 _verify_opp4_transfer_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-39071935\3PgJ.py
+M   19835 CaseCrack\tools\burp_enterprise\swarm\message_bus.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\58b7c2b\sMmi.py
+M   19783 CaseCrack\tools\burp_enterprise\loop\race_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\25e5802d\yDPv.py
+M   19523 CaseCrack\tools\burp_enterprise\swarm\shared_weights.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6b8d8dba\JeTy.py
+M   19518 CaseCrack\tools\burp_enterprise\database\redis_manager.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\ba1971d\DEGq.py
+M   19470 _stress_test_cognitive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-23d6aa6e\8xKs.py
+M   19360 _test_stealth.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-15485172\mcNo.py
+M   19097 CaseCrack\tools\burp_enterprise\action_rationale_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-79cf5c17\Gusp.py
+M   18551 CaseCrack\test_p0_integration_wiring.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\524950e7\h89i.py
+M   18498 _patch_elite_findings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-16587789\SLsp.py
+M   18462 CaseCrack\_narrow_all_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-752fcba1\gSep.py
+M   18392 CaseCrack\test_missing_integrations_b3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6650ddbb\T4q8.py
+M   18280 CaseCrack\tools\burp_enterprise\database\hybrid_backend.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-20b44a49\KKlw.py
+M   18216 CaseCrack\_test_chain_identity_v36.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-15db605e\XDaz.py
+M   18197 CaseCrack\tools\burp_enterprise\recon_dashboard\conversation_export.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-56916889\drMZ.py
+M   18189 _test_g2_ws_bridge_wiring.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7d5e8098\KQgG.py
+M   18141 CaseCrack\tools\burp_enterprise\loop\target_specialization.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1f093584\jHxv.py
+M   18094 _verify_opp3_doubt.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1209157d\m4X6.py
+M   17904 _test_s4_s5_r3_r4_st1_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4c82f6f0\gbGD.py
+M   17808 CaseCrack\tools\burp_enterprise\swarm\gpu_governor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\323dd772\Bh95.py
+M   17807 CaseCrack\tools\burp_enterprise\inference\llama_backend.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-54b5b358\hcuy.py
+M   17730 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_infra_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-462d2601\oG2x.py
+M   17624 CaseCrack\tools\burp_enterprise\osint_providers\securitytrails_client.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4d567880\j0oQ.py
+M   17519 tune_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-341ef60c\Xw1C.py
+M   17313 CaseCrack\tools\burp_enterprise\qtable_advisor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\53900554\sSXW.py
+M   17187 CaseCrack\_decompose_v1.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\b1e43a0\4SBu.py
+M   17066 _patch_next_level.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2be69b35\sYMm.py
+M   16814 _run_full_chaos.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6bf11a20\dY90.py
+M   16770 CaseCrack\tools\burp_enterprise\thinking_budget.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\c04a208\Ygat.py
+M   16739 CaseCrack\_extract_m5.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-569e735d\4lFy.py
+M   16330 _test_smart_opt.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\8664694\BMFI.py
+M   16221 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_cross_target.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3b229d02\efOw.py
+M   16200 _test_g8_g9_g10_config_health_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-25eed6c3\Ev7e.py
+M   16149 CaseCrack\_test_p7_delegate.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3ce1f807\XCzk.py
+M   16145 CaseCrack\_wire_modules.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\36cca2dc\oujc.py
+M   16116 CaseCrack\ctemp\_e1_6_fix.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-541bc138\MnbD.py
+M   16086 _test_hardened_chaos.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\df80b89\qyK4.py
+M   15937 CaseCrack\tools\burp_enterprise\graph\multi_agent\builder.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2ef1a30e\K07u.py
+M   15830 CaseCrack\tools\burp_enterprise\loop\value_scorer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\29b97723\vkiS.py
+M   15700 _insert_28_30.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1ebb43b4\9Egp.py
+M   15608 CaseCrack\_test_sdk_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7df77431\tdln.py
+M   15605 CaseCrack\ctemp\split_vuln_intel.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-29df6bcf\WuIE.py
+M   15590 _test_gov_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\503bf91f\3IfX.py
+M   15584 _insert_tests_28_30.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\485ca9d2\sMOJ.py
+M   15369 CaseCrack\_test_production_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\64e1691b\K3pj.py
+M   15367 _test_edge_case_hardening.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\436f45d0\1Yjl.py
+M   15357 CaseCrack\tools\burp_enterprise\operator_feedback.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\128d6d3c\dR9i.py
+M   15345 CaseCrack\tools\burp_enterprise\recon_dashboard\langgraph_scan.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1e96b9b5\OUVR.py
+M   15293 _test_tier2_upgrades.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3eb165a9\eGLL.py
+M   15152 _do_deep_extract.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3ac803f8\KsJS.py
+M   14894 CaseCrack\tools\burp_enterprise\loop\parallel_executor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\9716d32\enm8.py
+M   14872 CaseCrack\tests\scenarios\run_all_scenarios.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2b03d431\GtVf.py
+M   14688 _llm_deep_dive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7f85bf4b\Z162.py
+M   14608 CaseCrack\tools\burp_enterprise\graph\multi_agent\runner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3d57cef\JzJg.py
+M   14589 _fix5_plateau.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\da09879\rlgK.py
+M   14568 _insert_section31.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\22899207\MMiQ.py
+M   14529 CaseCrack\_instrument_silent_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3b4725cd\Ibkx.py
+M   14523 _test_new_subsystems.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4ea3ae06\W5FC.py
+M   14462 CaseCrack\tools\burp_enterprise\recon_dashboard\proof_first_severity.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5b5a7a60\FYSn.py
+M   14380 CaseCrack\tools\burp_enterprise\loop\exploration_bias.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6530481c\iPeM.py
+M   14323 CaseCrack\tests\test_xss_module.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\18398a36\BLLu.py
+M   14279 _test_console_balloon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-58255336\RMQI.py
+M   14104 _patch_finding_guidance.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\31d996df\MKYf.py
+M   14088 _test_final_loop_fix.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-396a74c6\oZFF.py
+M   14082 _fix_targeted_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5d97e0ad\BZet.py
+M   13940 CaseCrack\tools\burp_enterprise\agents\finding_dedup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\84cd08b\RPFb.py
+M   13765 _test_g3_frontend_ui.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\c1a3f2f\tJjl.py
+M   13762 track_submissions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4c6b3ab0\kMI1.py
+M   13682 CaseCrack\_patch_caap_round4.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6056111c\RoTH.py
+M   13569 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_intel_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1514adb9\82gu.py
+M   13469 CaseCrack\tools\burp_enterprise\graph\reasoning\runner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-51063690\vwxG.py
+M   13206 CaseCrack\tools\burp_enterprise\loop\graph_pruner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-31dc7428\mguY.py
+M   13105 CaseCrack\_fix_silent_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\635db0e1\sNS5.py
+M   12987 _insert_ma1.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6fad60ed\z4QW.py
+M   12900 _fix_info_scan_intent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5dee0bcd\mGi5.py
+M   12863 CaseCrack\tools\burp_enterprise\signal_tracer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6095b348\4sbb.py
+M   12760 CaseCrack\_test_priority5.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3df60125\ZIHn.py
+M   12712 c:\Users\ya754\CaseCrack v1.0 - Copy\CaseCrack\persist_turborepo_findings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1f517cb6\iLhz.py
+M   12706 CaseCrack\_fix_jsluice_provider.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2caeb778\ETdI.py
+M   12635 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_exploit_cloud_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3a7b686e\dE1o.py
+M   12602 _insert_tests.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\591498a9\o7zh.py
+M   12522 _test_g4_g5_scan_sdk_agent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\213d00\XzUi.py
+M   12417 CaseCrack\_wire_state_modules.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2fe999b6\kG1T.py
+M   12347 CaseCrack\tools\burp_enterprise\recon_dashboard\differential_analysis.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\187f7947\bi3V.py
+M   12270 CaseCrack\_refactor_ai_ml_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-797bc14f\7njE.py
+M   12129 _insert_conv_tests.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4c8a8a32\iCxP.py
+M   12006 CaseCrack\ctemp\_fix_silent_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\fb27049\Xmxy.py
+M   11862 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_operator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3198432\SYlo.py
+M   11833 CaseCrack\test_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2b3a2e7d\VGuW.py
+M   11832 _test_auto_exploit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\50c77b62\bGVR.py
+M   11831 CaseCrack\tools\burp_enterprise\osint_providers\hackertarget_client.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\56ab1bb2\eLl8.py
+M   11825 _patch_elite_p12.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-69177bc4\YaNg.py
+M   11813 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_scan_config.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\c85d6d8\6f14.py
+M   11650 CaseCrack\_apply_scanner_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\154c08d4\Ggqt.py
+M   11266 CaseCrack\_apply_except_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4d9d017b\wQMC.py
+M   10962 CaseCrack\tools\burp_enterprise\agents\llm_shutdown.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\23f7aa53\R7QI.py
+M   10847 _campaign_3targets.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1da3b56c\QAWy.py
+M   10800 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_target_scoring.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6f08f70f\27as.py
+M   10690 CaseCrack\_disk_cleanup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-554cb979\BGP9.py
+M   10674 CaseCrack\fix_bare_except.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1ce5ee2c\wo00.py
+M   10667 CaseCrack\tools\burp_enterprise\budget_controller.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1b1f9d66\0PMD.py
+M   10665 _test_search_v34.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4d7bbf7d\gmHB.py
+M   10430 CaseCrack\test_captcha_bypass.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4961f692\E91Z.py
+M   10418 _patch_payout_metrics.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\47bb7b03\wmMG.py
+M   10395 CaseCrack\tools\burp_enterprise\graph\multi_agent\state.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\56ce51bc\5cN8.py
+M   10253 CaseCrack\_fix_broad_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4c0c631e\qmKU.py
+M   10241 CaseCrack\ctemp\_e1_6_collapsible.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1800b4b3\XM5I.py
+M   10182 _test_deadlock_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-13e30f6\QMIT.py
+M   10098 CaseCrack\_fix_broad_exceptions_v2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2954d7f5\60Ba.py
+M   10072 CaseCrack\tests\test_config_watcher_comprehensive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3782560b\F4pB.py
+M    9951 CaseCrack\_test_sdk_improvements.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-65cea6ca\xAYH.py
+M    9916 CaseCrack\_test_production.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4b7b5fe1\h3mc.py
+M    9903 c:\Users\ya754\CaseCrack v1.0 - Copy\CaseCrack\persist_ai_sdk_findings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\491e4f45\4z9Q.py
+M    9889 CaseCrack\tools\burp_enterprise\graph\multi_agent\handoff.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\68704fcd\VWkp.py
+M    9886 CaseCrack\tools\burp_enterprise\graph\state.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2022072c\dlhj.py
+M    9739 _extract_mcp.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-723e1a32\o8ij.py
+M    9656 tests\test_prompt_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5b6127b1\ewee.py
+M    9632 CaseCrack\_test_secrets_fp.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2773750e\mGb0.py
+M    9632 c:\Users\ya754\CaseCrack v1.0 - Copy\CaseCrack\persist_svelte_nitro_findings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\60e2e934\ozXJ.py
+M    9630 CaseCrack\tools\burp_enterprise\osint_providers\hunterio_client.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1a15a7f9\e5Kd.py
+M    9568 _test_goal_modes_v35.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-672edc00\S686.py
+M    9563 _patch_info_watcher.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\13bcce2\HokU.py
+M    9551 CaseCrack\tools\burp_enterprise\core_infra\production_utils.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\147b9ad2\MNVH.py
+M    9311 CaseCrack\_refactor_graphql_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-26395293\6OJX.py
+M    9050 CaseCrack\tools\burp_enterprise\osint_providers\netlas_client.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\249bfdf4\rPBC.py
+M    9019 CaseCrack\tools\burp_enterprise\graph\builder.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6bb5899e\Bl87.py
+M    8991 CaseCrack\_smoke_synthesis_context.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1f5834f\RwDa.py
+M    8815 _extract_caap.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\155c79b9\RyRF.py
+M    8798 CaseCrack\test_missing_integrations_b2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6650695c\8mV4.py
+M    8769 CaseCrack\_production_audit_final.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7f49603d\jiQM.py
+M    8670 CaseCrack\tools\burp_enterprise\config_watcher.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1153c8d\Kwzn.py
+M    8630 CaseCrack\test_missing_integrations.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-727a5a7d\ikEN.py
+M    8627 CaseCrack\tools\burp_enterprise\loop\world_state.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\15a7a579\gKj4.py
+M    8599 CaseCrack\_fix7_pipeline.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6783a7fa\hEqQ.py
+M    8585 CaseCrack\fix_hanging_tests.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-14675820\yY41.py
+M    8534 CaseCrack\_do_wire_delegators.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\16e77e33\hvQ3.py
+M    8402 CaseCrack\_insert_handlers.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7cbc84d6\5TY4.py
+M    8251 CaseCrack\tools\burp_enterprise\osint_providers\whoxy_client.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\405686\RuGv.py
+M    8203 CaseCrack\_codebase_analysis.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\a068c08\3b7E.py
+M    8183 CaseCrack\ctemp\split_exploitation.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\531ccdbf\hVGI.py
+M    8171 _test_p2_fix.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\35e6da5\9RhG.py
+M    7894 CaseCrack\tools\burp_enterprise\graph\reasoning\builder.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7827e273\UZ0v.py
+M    7832 CaseCrack\tools\burp_enterprise\agents\llm_registry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\418fe30c\E9rb.py
+M    7789 CaseCrack\tools\burp_enterprise\graph\reasoning\state.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7a22bc83\TEp8.py
+M    7753 CaseCrack\seed_test_data.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2fc985fd\Y9Gk.py
+M    7543 CaseCrack\tools\burp_enterprise\loop\loop_config.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\54446740\YaLz.py
+M    7398 CaseCrack\_test_priority3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3df51867\Eg3r.py
+M    7392 _patch_scan_api.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\68867a95\VVz8.py
+M    7378 CaseCrack\tools\burp_enterprise\graph\multi_agent\worker_factory.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\120a0858\TIPd.py
+M    7340 CaseCrack\_narrow_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\cdc8b7d\EIHX.py
+M    7328 CaseCrack\_validate_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5fba8a11\igKr.py
+M    7318 CaseCrack\tools\burp_enterprise\agents\copilot_sdk_tool_registry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\8fdcda7\7yxg.py
+M    7286 _patch_scan_api2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-57b64ed9\eBHz.py
+M    7219 CaseCrack\_test_ops.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\56f2e124\RzGf.py
+M    7217 _cli_deep_analysis.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\448a77fa\kKuP.py
+M    7170 _test_e2e_pipeline.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-481689cc\fsNI.py
+M    7055 CaseCrack\ctemp\_e1_3_heroes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\31649946\XXlP.py
+M    7024 CaseCrack\tools\burp_enterprise\osint_providers\dehashed_client.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-731b54bf\5Znh.py
+M    6937 CaseCrack\_fix_mypy.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\591ec9ca\wza8.py
+M    6933 CaseCrack\_patch_agent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5432d457\6EoK.py
+M    6930 _fix_p17_timeout.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6e060c5c\hBBl.py
+M    6923 CaseCrack\ctemp\extract_sections.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4868c47e\Ub0V.py
+M    6876 _cleanup_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-13e2ff16\5K1C.py
+M    6813 CaseCrack\_test_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\58188ef3\RGxn.py
+M    6635 _patch_elite_p3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\25e7599e\surM.py
+M    6550 _test_prod_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5b1930be\ouHU.py
+M    6501 _validate_findings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-430c3a09\ZAa4.py
+M    6454 CaseCrack\tools\burp_enterprise\osint_providers\fofa_client.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\74176c17\XG0H.py
+M    6243 _audit_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\21b712e8\d03h.py
+M    6241 CaseCrack\_verify_candidates.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\28a60a4f\tP9s.py
+M    6109 CaseCrack\_extract_m6.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-569dfefe\fSq4.py
+M    6077 CaseCrack\_deep_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3442977f\qZr9.py
+M    5954 CaseCrack\_narrow_crawler.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-45bdf5e7\0vx5.py
+M    5949 _build_mcp_facade.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4e320e2c\v55O.py
+M    5940 CaseCrack\_test_degraded_cmds.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5b45912c\6EyG.py
+M    5812 _fix2_abstraction.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7f765880\yfwD.py
+M    5745 _audit_runner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\37d78b10\XIgj.py
+M    5721 _test_hardened_healing.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-337d34b1\Z3zS.py
+M    5718 CaseCrack\ctemp\_fix_mojibake.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4b0b7fc3\7iF9.py
+M    5702 _test_impact_amplifier.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4a25c785\uBSG.py
+M    5690 CaseCrack\_disk_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\49968ef0\uTo4.py
+M    5473 CaseCrack\_narrow_dns.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1c62bee4\Qi8V.py
+M    5454 _fix_scan_started_response.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-56dd2f8d\jeG5.py
+M    5444 CaseCrack\_diag_secrets.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5e727d86\g8UR.py
+M    5347 CaseCrack\ctemp\_scan_mojibake2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\766ed0ab\yRcU.py
+M    5288 CaseCrack\_sprint6_smoke.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-29ee067\1VLE.py
+M    5267 CaseCrack\_fix_approve.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\58eec762\i2eS.py
+M    5265 _phase5_html_cleanup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\52dd2cf5\IAAa.py
+M    5175 CaseCrack\scripts\_fix_ci_mypy.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1661741a\2mXt.py
+M    5154 CaseCrack\_test_fp_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-263d1ed6\I31U.py
+M    5110 CaseCrack\_test_deadlock_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3627c745\sEmN.py
+M    5104 CaseCrack\_sprint6_inject.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\393e18f5\bDYu.py
+M    5099 CaseCrack\ctemp\build_init.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5bdb348d\GCdq.py
+M    5055 _test_reasoning_graph.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\19c7764\Rshd.py
+M    5047 _test_ace_mini.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\e1607ca\UjuF.py
+M    5035 CaseCrack\tools\burp_enterprise\osint_providers\chaos_client.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2d56ad87\dSgp.py
+M    5027 CaseCrack\split_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-70093302\OAhm.py
+M    5004 _submit_direct.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\494c477a\tv5n.py
+M    4984 CaseCrack\_narrow_iot.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\24f985df\TnPR.py
+M    4856 _llm_direct.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\41fd9789\4vPj.py
+M    4745 _test_auth_exploit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1aebf5c9\YVEZ.py
+M    4735 _analyze_state.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\67308acc\QulL.py
+M    4716 CaseCrack\_narrow_tls.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\379419d2\X01c.py
+M    4713 _test_tuning.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5cc65a18\KQbz.py
+M    4707 CaseCrack\ctemp\split_compliance.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3f20fcce\q2aO.py
+M    4661 CaseCrack\ctemp\test_ws_full.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5294a2d7\jACN.py
+M    4652 _refactor_m10_m11.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\40634e27\j5yy.py
+M    4648 CaseCrack\split_agent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\172d9ca8\VnOS.py
+M    4632 CaseCrack\_precise_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\61add38e\0lQy.py
+M    4575 _test_agent_chat_ws.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5342a498\JdSJ.py
+M    4557 CaseCrack\_test_adaptive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1d9c3e7e\Gl61.py
+M    4555 CaseCrack\coverage_analysis.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\37a9d55\SJjv.py
+M    4442 CaseCrack\_analyze_degraded.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-596a8d98\qT0I.py
+M    4406 CaseCrack\ctemp\_scan_mojibake.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4ec2a56f\qDAI.py
+M    4359 CaseCrack\ctemp\_scan_silent_except.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7e0fb9c0\Hxj3.py
+M    4330 _apply_lazy_tasks.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5f67d7d0\JsDl.py
+M    4236 CaseCrack\ctemp\_ws_browser_test.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\18212681\mw9p.py
+M    4235 CaseCrack\_cross_ref_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\63fe8275\yKku.py
+M    4229 CaseCrack\_metrics_out.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1f7da053\oStA.py
+M    4207 CaseCrack\_narrow_waf.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3c11b851\Yv2b.py
+M    4203 CaseCrack\tools\burp_enterprise\tool_wrappers\_adaptive_rate.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-416c4800\FSco.py
+M    4190 CaseCrack\_test_base_finding.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-136156c3\kFsA.py
+M    4169 CaseCrack\_validate_tier3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2ec3f021\FJqm.py
+M    4168 CaseCrack\ctemp\rebuild_server.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-19060459\qhvn.py
+M    4167 _patch_lifecycle.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2019e69\XOcG.py
+M    4165 CaseCrack\_validate_io7_io10_io3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6ca6d21b\Ouvy.py
+M    4153 CaseCrack\tools\burp_enterprise\cli\commands\recon_facade.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7f6708da\HQls.py
+M    4107 _submit_findings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-31855547\k6ul.py
+M    4089 _test_adaptive_chain.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-38cc63fb\B1tW.py
+M    4066 _phase5_css_cleanup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\40dd1d41\w0CE.py
+M    4045 CaseCrack\ctemp\_ws_diag.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-228781e1\VbCN.py
+M    4040 CaseCrack\_scan_specific_files.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\21a7cab9\DpYY.py
+M    4039 CaseCrack\_fix_log_injection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-711b4f4d\z3E7.py
+M    3965 CaseCrack\_recon_gap_analysis.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\569f0c34\uUYY.py
+M    3945 _patch_metrics_api.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\62158163\E0WD.py
+M    3838 CaseCrack\_fix_shim_mocks.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\62e2c71c\oMUj.py
+M    3832 _fix_tests.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6ac38c13\vDZ4.py
+M    3828 _verify_issue8_issue9.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5f063296\2DGs.py
+M    3811 _test_benchmark.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7b95ab2c\vSnA.py
+M    3794 CaseCrack\_final_audit2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-237bf2d7\XFao.py
+M    3789 CaseCrack\tools\burp_enterprise\json_file_lock.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-30e41145\7CPz.py
+M    3776 _cleanup_atlas.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3b93a5c6\YM64.py
+M    3746 CaseCrack\_fix_stripe_test_keys.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-d9233d0\gJS1.py
+M    3730 _validate_graphql.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7c622364\hYmz.py
+M    3707 CaseCrack\_audit_metrics.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-25366cda\Ucxr.py
+M    3703 CaseCrack\ctemp\fix134_patch_wafw00f.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-53077564\9IrS.py
+M    3681 CaseCrack\_trace_p15.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2e94840b\OKbb.py
+M    3676 CaseCrack\_smoke_test.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7a547c59\k4T0.py
+M    3675 CaseCrack\_audit_findings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\279d3e9b\3Nto.py
+M    3633 _debug_ace2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\57d20289\b5rs.py
+M    3631 _patch_ws_keepalive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-269638f8\K5DY.py
+M    3630 _fix_cc_s1.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-749e9a9\sdFI.py
+M    3609 CaseCrack\_fix_mobile_api.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\152a3e82\iZJc.py
+M    3600 _fix1_mcp.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6992d2d\6xfG.py
+M    3590 CaseCrack\ctemp\fix134_patch_tests2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\758649b6\MgAg.py
+M    3589 CaseCrack\_verify_no_output.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2a8bd730\ICik.py
+M    3585 CaseCrack\test_db_consolidation.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\45dd2dd0\bK2f.py
+M    3581 _explore_db2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2811b49e\ud5f.py
+M    3577 CaseCrack\_test_ep_extraction.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4b8e2b85\HSXs.py
+M    3562 _build_caap_facade.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1451204f\t9gz.py
+M    3562 _cli_trace.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5212edc4\378a.py
+M    3547 _insert_handlers.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2033371b\yLen.py
+M    3524 CaseCrack\_fix_jsluice_cmd.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-29908365\zM0F.py
+M    3508 _test_thinking_preview.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3079399c\7agf.py
+M    3504 CaseCrack\_fix_cloud_enum.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-d886c0c\3X8T.py
+M    3454 verify_tier1.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\53eaf622\wWf1.py
+M    3452 CaseCrack\_test_pass6.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-482c370f\TvMz.py
+M    3436 CaseCrack\_test_dalfox_v2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\62bf57bb\tyPW.py
+M    3404 _test_self_opt.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\798bc3fd\smfR.py
+M    3380 CaseCrack\ctemp\phase_analysis.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\181137ce\2Ax5.py
+M    3356 _simulate_tuning.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5a36237a\bfP0.py
+M    3330 CaseCrack\_test_budget.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\193c4e93\4iHa.py
+M    3324 CaseCrack\_test_agents_hooks.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-336ebf67\jV5y.py
+M    3314 CaseCrack\_create_relay_shims.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5489ba40\QIls.py
+M    3310 CaseCrack\_check_cli_gaps.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4d74470a\WxTv.py
+M    3309 CaseCrack\_test_classifier.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-8e4e249\1aNZ.py
+M    3285 _coverage_probe.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\171b6b2b\bufI.py
+M    3279 CaseCrack\_test_trust_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\666671ba\JpoB.py
+M    3267 CaseCrack\ctemp\audit_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5e255946\szEe.py
+M    3256 fix_swallowed_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\664e3f22\ixhG.py
+M    3235 CaseCrack\ctemp\categorize.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\77a79935\yZkK.py
+M    3225 _test_llm_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\46c886c2\eom7.py
+M    3194 CaseCrack\ctemp\_prune_snapshots.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\52d69eb3\Te1L.py
+M    3131 CaseCrack\tools\burp_enterprise\compliance_facade_tmp.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-43f302da\fkFe.py
+M    3126 _fix_obs3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-128ca019\e3mW.py
+M    3123 CaseCrack\ctemp\fix_eb_encoding2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4a6691c7\DLGd.py
+M    3097 _build_patterns_loader.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2bb9b574\1Njv.py
+M    3091 _verify_dashboard_llm.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-76fbac58\t3T2.py
+M    3054 CaseCrack\ctemp\analyze_scan.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\60e3071e\4umS.py
+M    2999 CaseCrack\_test_agents_api.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5a8add91\YNKh.py
+M    2988 CaseCrack\_check_dalfox2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7d224cea\U2JK.py
+M    2970 _compare_scans.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-ec3f7d2\8WUZ.py
+M    2944 CaseCrack\tools\burp_enterprise\core_infra\finding_schema.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7a85bf66\9w6F.py
+M    2940 CaseCrack\_check_errs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7a05f1a4\Zcb4.py
+M    2936 CaseCrack\ctemp\_db_size_analysis.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-57a16798\sbNP.py
+M    2927 _monitor_scan.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3f3711de\kwLp.py
+M    2917 _demo_defense_v2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\702b9293\Jrk9.py
+M    2914 CaseCrack\_smoke_test_ghost.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-593967e9\4uPZ.py
+M    2911 CaseCrack\_audit_deep.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\10735b79\IMn0.py
+M    2906 CaseCrack\_fetch_status.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\211c6f52\Kcy2.py
+M    2888 _analyze_findings_detail.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\150a4b97\UIgk.py
+M    2839 _test_ws_chat.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1a44c0b6\yNZJ.py
+M    2817 CaseCrack\tools\burp_enterprise\static\verify_phase_b.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5c5dbd\jxMu.py
+M    2811 CaseCrack\_audit_scan.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\264ddc48\9pqH.py
+M    2809 CaseCrack\ctemp\_eg_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2e9239a3\Zcj9.py
+M    2805 CaseCrack\_test_queue_integration.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1d010d70\D9fx.py
+M    2803 _test_s1_s3_p2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6698b45d\GJLK.py
+M    2788 CaseCrack\_fix_xxe.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3edb6e4a\8Ta8.py
+M    2781 _test_v242_subsystems.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\486df188\60Xi.py
+M    2764 _patch_s3_chain_payout.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7802e5c2\smo9.py
+M    2749 CaseCrack\_check_secrets_output.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1c8b3cb\Eofk.py
+M    2741 CaseCrack\_db_audit3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2d9d7654\WVEz.py
+M    2712 CaseCrack\_scan_module_apis.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1425e5bf\q8Zs.py
+M    2689 _get_finding_details.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6fa33259\vP96.py
+M    2681 _validate_graphql2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\fe32238\V8IM.py
+M    2669 _launch_scan.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5a6b2001\BnDE.py
+M    2652 CaseCrack\tools\burp_enterprise\static\verify_spa_shell.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6113df2c\BVe9.py
+M    2641 _audit_registries.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4afd83bb\WAxn.py
+M    2612 _verify_consistency.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7d562152\G5e6.py
+M    2604 _uu8_debug.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2b7bc87e\qqB4.py
+M    2597 CaseCrack\_verify_resolve.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-dcaa29d\EOtT.py
+M    2590 _analyze_scan_results.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5d6a2303\Uep9.py
+M    2583 CaseCrack\_crossphase_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\29223f92\B9gT.py
+M    2556 _atlas_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3158a85d\Mf0B.py
+M    2556 _get_scan_state.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2ccf908c\Jyvl.py
+M    2553 _test_cot_error.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4c973340\olep.py
+M    2551 CaseCrack\ctemp\_analyze_emoji_bytes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4d7d7252\67C9.py
+M    2550 CaseCrack\_scan_except_pass.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6c90060c\jH35.py
+M    2535 _patch_watcher_v2b.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-51ec0c82\wspo.py
+M    2488 CaseCrack\_vacuum_into.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3e210985\8jiB.py
+M    2474 CaseCrack\_compact_dbs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-feec7d4\QSy6.py
+M    2454 _fix5b_pivot.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3ef226a5\40QI.py
+M    2440 CaseCrack\tools\burp_enterprise\static\verify_intercept.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1543af1f\ytqT.py
+M    2436 CaseCrack\_check_phantoms.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-53843a34\RueI.py
+M    2424 CaseCrack\_extract_cmds.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\28bb48f2\yVaW.py
+M    2422 _fix1_mcp2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3372ae71\hbfF.py
+M    2418 CaseCrack\_verify_stats_bug.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-372a5a85\FP2n.py
+M    2417 CaseCrack\_audit_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2070170d\Z47n.py
+M    2416 _test_finding_validator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\47d6955\RNBl.py
+M    2400 CaseCrack\_audit_scan2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5c917a2c\dp84.py
+M    2393 CaseCrack\_test_safe_parse.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\60881c57\fW2L.py
+M    2359 CaseCrack\_fix7e_coverage.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1ed05bfb\Xpq0.py
+M    2353 CaseCrack\_check_parallel2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-69a1b8af\dNf4.py
+M    2335 CaseCrack\_check_p15_logs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-8c6a428\eF2U.py
+M    2334 CaseCrack\_test_p15.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5513c202\7RHQ.py
+M    2322 _debug_uu1_novelty.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-235fbc9d\Y3ik.py
+M    2311 CaseCrack\_fix_api_key_fp.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3d4435d0\IA8P.py
+M    2306 _uu7_hard_check.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5c451a88\Eydn.py
+M    2301 _docker_diag.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4e88e640\wuxx.py
+M    2283 _test_agent_chat.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\a10cc2b\i2Xo.py
+M    2270 _check_llm_cache.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5d70012f\i4iO.py
+M    2267 CaseCrack\ctemp\profile_tests.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6ec219b5\vjfP.py
+M    2261 CaseCrack\_analyze_timing2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5d9d0f0\shWC.py
+M    2260 CaseCrack\ctemp\test_diff.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\227e814e\1Ywr.py
+M    2241 _analyze_stall.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\66c2fd5d\80HU.py
+M    2225 _check_all_tables.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7a7f3376\idca.py
+M    2216 CaseCrack\_validate_p5b.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6facf54b\OtTd.py
+M    2212 CaseCrack\_find_markers.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-c29d40a\KhKY.py
+M    2202 CaseCrack\ctemp\test_crawl.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-65f4e40c\z1sU.py
+M    2201 _analyze_test_failures.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\58ab3a07\vaqS.py
+M    2193 CaseCrack\_build_facade.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6b2f63a2\5DpV.py
+M    2191 _fix_intent_detection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-789c8c68\Kopv.py
+M    2186 _do_kb_extract.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-39b6f183\3ZUT.py
+M    2163 _inspect_payout_db.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7c8686e2\Ikag.py
+M    2160 CaseCrack\ctemp\strip_unused_ignores.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2ade5431\8t1e.py
+M    2159 CaseCrack\_extract_api.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\71af2489\Q7lm.py
+M    2140 _scan_bugs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-12a2c7b7\10F9.py
+M    2140 CaseCrack\ctemp\_eg_verify.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\33325bd7\bJlB.py
+M    2127 _patch_csrf.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-33b86337\7f0D.py
+M    2062 CaseCrack\_fix7d_method.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4f91d2b\kQKh.py
+M    2058 _patch_fix_fstring.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3535ba2c\RuhC.py
+M    2052 _patch_fix_lifecycle.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-71c50b7f\XfiU.py
+M    2037 CaseCrack\_check_wiring.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-375a65f0\kjgC.py
+M    2036 CaseCrack\_analyze_timing.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\399e1b8c\DOvU.py
+M    2034 _t13_test.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-46d24557\z2VO.py
+M    2028 CaseCrack\_check_consistency.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5da7c81c\eboq.py
+M    2024 CaseCrack\_find_missing_json3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4ee89963\grXu.py
+M    2018 _test_remaining.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7319a6c5\41rh.py
+M    2015 CaseCrack\_audit_full_classify.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-31b1d6b\e05m.py
+M    2015 _verify_dashboard.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4ba8bbea\kbFT.py
+M    2002 CaseCrack\_analyze_agent_reports.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2d3763d3\O46n.py
+M    1993 CaseCrack\_test_dalfox_e2e.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-27bebae1\b2qT.py
+M    1970 CaseCrack\_inspect_snapshots.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\8a3b7a1\xT7Z.py
+M    1925 _fix_enqueue.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-b26474\RBCz.py
+M    1902 CaseCrack\_count_cmds.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\40a26c00\RS8I.py
+M    1894 CaseCrack\_fix_test_patches.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\60abb5b6\j6YH.py
+M    1893 _fix_atlas.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3e72fa97\g9Gk.py
+M    1879 _verify_deadlock.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1c04da0b\bEKn.py
+M    1874 CaseCrack\_smoke_ast.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\26b909f3\wKjJ.py
+M    1867 CaseCrack\_one_time_cleanup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7538827e\ilwe.py
+M    1847 _verify_import_bug.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6d9c9076\FrJ5.py
+M    1843 CaseCrack\_audit_root_stubs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-223cb383\M3a9.py
+M    1826 CaseCrack\ctemp\test_ws.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-675405e9\tXHJ.py
+M    1822 CaseCrack\tools\burp_enterprise\cli\commands\agent_facade_tmp.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2d340de8\Fke0.py
+M    1807 CaseCrack\_check_json.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7bf299d6\whXb.py
+M    1804 CaseCrack\ctemp\_check_snapshot_format.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\77575dd2\1C3R.py
+M    1776 CaseCrack\_scan_classes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\158dd8e5\oEVb.py
+M    1769 CaseCrack\_check_findings_store.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7f227c66\rTsb.py
+M    1768 CaseCrack\_check_actions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-59e46ea1\qS9R.py
+M    1762 CaseCrack\_count_phases2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3ddc65fb\6Ag3.py
+M    1760 CaseCrack\tools\burp_enterprise\static\verify_phase_a.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5cd21c\mhGx.py
+M    1754 CaseCrack\_check_dalfox.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4619da72\Z3Vq.py
+M    1713 _validate_llm.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-722d4f20\Tcor.py
+M    1711 CaseCrack\_test_sec_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-114a185f\YgY9.py
+M    1707 CaseCrack\_scan_silent_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3894c6dd\kELo.py
+M    1704 CaseCrack\_verify_wire.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\73713afa\fhB4.py
+M    1690 CaseCrack\_audit_shim_completeness.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4990b2cd\RxHO.py
+M    1690 _explore_db.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-74e7d306\oGPp.py
+M    1684 CaseCrack\_regen_shims.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-25089e73\rJ0b.py
+M    1678 CaseCrack\_regen_relay_shims.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2383b085\sgvS.py
+M    1672 CaseCrack\ctemp\fix_eb_encoding.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\54fb05f5\sytq.py
+M    1664 CaseCrack\_verify_wiring.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6662845d\jbKz.py
+M    1657 CaseCrack\_check_parallel.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1c2e88d5\UbfR.py
+M    1655 CaseCrack\_verify.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\79766a30\MWMm.py
+M    1655 _verify_full.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\c9cb175\7NFu.py
+M    1633 CaseCrack\ctemp\audit_creds.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6264341\t1z2.py
+M    1617 _run_sections_35_39.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-28eda022\hGzG.py
+M    1614 CaseCrack\_analyze_session.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2d1426e2\Ibtn.py
+M    1605 _db_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-54e4e4f6\tRLM.py
+M    1603 CaseCrack\_validate_p5.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\78440317\bg1Z.py
+M    1601 _check_chat_history.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2962dae0\dBkQ.py
+M    1577 CaseCrack\_check_all_loggers.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\26f1e97\eNBa.py
+M    1562 _patch_nomore403.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5bf6b740\BmxM.py
+M    1549 CaseCrack\_find_parsers.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\77e4595b\Ubg1.py
+M    1548 CaseCrack\ctemp\fix_hooks.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-627b12a6\EnV7.py
+M    1545 CaseCrack\_verify_fixes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1f1da26c\sQwK.py
+M    1542 CaseCrack\_inventory_exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5959445e\1iXF.py
+M    1521 CaseCrack\_extract_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-348abc4d\uheV.py
+M    1521 CaseCrack\_fix_rewrite.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-52833d\7od9.py
+M    1519 CaseCrack\ctemp\check_dbs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-8daae9e\zQjp.py
+M    1499 CaseCrack\_extract_runner_cmds.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-78deee45\xJkj.py
+M    1499 CaseCrack\_copy_data_files.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7d26f839\eUQU.py
+M    1497 CaseCrack\_verify_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4257eec\0RmS.py
+M    1486 CaseCrack\_check_dalfox3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7d22c149\9t9r.py
+M    1467 CaseCrack\ctemp\test_gitleaks_repro.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-50bd6b26\hLaf.py
+M    1448 CaseCrack\_check_dalfox4.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7d2335a8\fEvz.py
+M    1446 CaseCrack\_find_missing_json2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4ee90dc2\k0bF.py
+M    1434 _debug_p6.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\758339b2\KuQa.py
+M    1419 CaseCrack\_test_level_detect.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5e867eba\Rfhv.py
+M    1414 _test_llm_fixed.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\216a500f\eAo9.py
+M    1380 CaseCrack\_analyze_unified.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-72ff499a\V7Pk.py
+M    1378 CaseCrack\_check_p15_scope.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\59e418b3\XZ1h.py
+M    1375 CaseCrack\ctemp\_check_other_files.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\740262dc\U6Jz.py
+M    1358 CaseCrack\ctemp\_check_served_js.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5f1fc031\BtPw.py
+M    1358 CaseCrack\_verify_counters.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\719b0048\5983.py
+M    1342 CaseCrack\_test_dalfox_optimized.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7e58e0d0\M8uS.py
+M    1341 _apply_lazy_routes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\70b5a446\y6QZ.py
+M    1323 CaseCrack\ctemp\verify_fix15.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4e6cbe5\8Cfq.py
+M    1308 CaseCrack\_smoke3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\603b9a25\fWF0.py
+M    1302 _patch_csrf_dedup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\21bea60a\juff.py
+M    1301 _check_scan.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1b0cdf10\T4It.py
+M    1290 CaseCrack\_create_subpkg_relays.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\ad4277\bMey.py
+M    1280 _verify_lazy.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\28ac5a70\jaFK.py
+M    1279 CaseCrack\_analyze_findings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-46877df4\34Xh.py
+M    1269 CaseCrack\_count_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-79e024bf\WH4H.py
+M    1265 CaseCrack\_test_dalfox_docker.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2645a69\RVaz.py
+M    1265 CaseCrack\_test_dalfox_v3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\62bfcc1a\D6xl.py
+M    1249 _test_gpu_detect.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7258ff99\2ehw.py
+M    1243 _fix_llm_offline.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7385601d\OFVp.py
+M    1239 _fix_dup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7daefd4b\gUsR.py
+M    1235 CaseCrack\_patch_u1_u2_multiagent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1b9cb8f9\FTmf.py
+M    1216 _convert_patterns.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\c9a6ad5\Xx3l.py
+M    1213 CaseCrack\ctemp\audit_type_ignore.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5a51f82d\1YnJ.py
+M    1205 _test_d6.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2cd1b5d5\OIMZ.py
+M    1203 CaseCrack\_check_state.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3e071575\O91V.py
+M    1201 CaseCrack\_test_treesitter.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-151c6bc9\dTp8.py
+M    1195 CaseCrack\_db_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\595df9af\u0fT.py
+M    1182 CaseCrack\_check_logger_defs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3393397f\wHGE.py
+M    1170 CaseCrack\_check_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1a5a7752\GbHD.py
+M    1162 _dryrun_check.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-40c8aa05\FgGO.py
+M    1157 _check_scan_state.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-459db082\kU3D.py
+M    1140 CaseCrack\ctemp\test_ws_fix.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1db9c701\Sgjx.py
+M    1132 CaseCrack\_debug3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2d54aaf7\uo6J.py
+M    1128 _find_unwired.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2e13455c\EMWR.py
+M    1119 CaseCrack\_debug_fp.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\23538ad3\qVRv.py
+M    1113 CaseCrack\_validate.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1bd7dbf3\XZqb.py
+M    1104 _debug_line.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-57765b7c\UcTN.py
+M    1100 CaseCrack\_audit_registry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\668fd388\S3IR.py
+M    1083 _check_ast.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-14ac95c1\QsfS.py
+M    1078 CaseCrack\ctemp\fix_server_patching.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-351fc08c\D4md.py
+M    1061 _verify_canonical.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6744124a\SJHm.py
+M    1060 CaseCrack\_patch_u4_multiagent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-74216650\yydE.py
+M    1048 CaseCrack\_check_subparser_url.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\419619cd\w4qi.py
+M    1044 check_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-797db1c4\ez7j.py
+M    1043 CaseCrack\tools\burp_enterprise\cli\_parsers\production_gate.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-10d9c6f4\kkT5.py
+M    1043 CaseCrack\_debug_open.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7bb94fd3\qyu6.py
+M    1036 _verify_ix.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-bceb5eb\BNIk.py
+M    1034 CaseCrack\_check_imports.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4998c8b2\2un9.py
+M    1033 _h5_fix.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3ccf731f\d6HH.py
+M    1028 CaseCrack\_fix_double_percent_v2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6dfcc76b\hpVW.py
+M    1008 CaseCrack\_verify_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7def7647\HwaM.py
+M     997 CaseCrack\_parse_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6725ae4a\jMD0.py
+M     989 CaseCrack\_db_audit2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2d9deab3\rOqa.py
+M     985 CaseCrack\ctemp\check_bypass.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7b177db1\sIX6.py
+M     951 c:\Users\ya754\CaseCrack v1.0 - Copy\CaseCrack\check_db.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4a1ac579\eAHX.py
+M     950 _check_ast3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7f1b2b1c\0Fug.py
+M     930 CaseCrack\ctemp\_preview_docstrings.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\64f76d20\IYeX.py
+M     929 _check_compliance.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4d5827ce\XmLZ.py
+M     929 _find_icon_maps.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7a8b316d\83WA.py
+M     926 CaseCrack\_cleanup_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3b7b7e9b\EY9A.py
+M     926 _patch_public_routes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4b8fb19f\kdL0.py
+M     919 CaseCrack\_patch_l7_display.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\291eea84\VaVK.py
+M     912 CaseCrack\_insert_atlas_init.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2dae31b\iDuS.py
+M     905 check_status.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\24740662\uJrc.py
+M     892 _phase5_css_legacy_rules.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-57f0a4d8\yFZW.py
+M     879 CaseCrack\_run_engine_tests.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-31de6f4f\sM9u.py
+M     874 CaseCrack\_fix_double_percent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2099768\tdMp.py
+M     862 CaseCrack\_cleanup_fixer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7307405e\bMrJ.py
+M     860 CaseCrack\_audit_types.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4fafcbd0\OTRN.py
+M     853 _debug_ace.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\23dd74f3\ganR.py
+M     852 CaseCrack\ctemp\find_unused_ignores.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2565db62\6NSE.py
+M     824 CaseCrack\_smoke_tracer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3d1cda0c\Wvqq.py
+M     819 CaseCrack\_patch_l7_multiagent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-54aff464\4OeF.py
+M     812 CaseCrack\_check_phase_modes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-c9e79f0\J2EJ.py
+M     812 CaseCrack\_audit_coverage.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-d70d603\SdnK.py
+M     806 _debug_p5a.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3aec1b9a\gHQ8.py
+M     794 CaseCrack\_check_p26.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1b54eac8\ObT7.py
+M     764 _run_35_39.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3a358025\9yLs.py
+M     759 CaseCrack\_find_missing_json.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\71113a9e\Si5X.py
+M     758 CaseCrack\_count_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\35ec94da\2AaW.py
+M     748 CaseCrack\_fix_init_encoding.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6b75ef13\zWKo.py
+M     737 CaseCrack\_patch_final_summary.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3c04b97f\UDMo.py
+M     736 CaseCrack\_check_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1fcd7406\IIMp.py
+M     734 _check_ast2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7f1ab6bd\MGvi.py
+M     702 _bench_llm.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-69bb6434\jCFe.py
+M     695 CaseCrack\_check_db.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-52464e6c\5qrK.py
+M     690 parse_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1fb7c0cc\uIkB.py
+M     663 CaseCrack\_fix_except.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4ba03f1a\ZkS4.py
+M     644 CaseCrack\ctemp\check_sessions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4f64d986\YGUM.py
+M     644 CaseCrack\ctemp\start_dashboard.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\f040d09\D6FS.py
+M     637 CaseCrack\ctemp\verify_fix133.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\67f26dbe\686t.py
+M     636 CaseCrack\test_typeign.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5a79b243\8s8p.py
+M     630 CaseCrack\ctemp\_eg_check.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4fffc556\GzNu.py
+M     612 CaseCrack\tools\burp_enterprise\extract_html.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4d04f309\3q9C.py
+M     609 CaseCrack\_run_tests.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\510a3858\323D.py
+M     608 CaseCrack\test_ti3.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5b41340b\teH3.py
+M     582 CaseCrack\ctemp\docstring_check.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-304c0e72\K1Fl.py
+M     577 CaseCrack\_read_results.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\216f365c\KgpS.py
+M     576 CaseCrack\ctemp\check_attrs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\49168d55\fmOl.py
+M     575 _fix_fstring.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\784fb33d\0nSZ.py
+M     561 CaseCrack\ctemp\check_bandit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6291ea17\vhew.py
+M     560 _find_combo.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\870e65c\rB2B.py
+M     553 CaseCrack\_read_results2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\c786e40\EgDb.py
+M     528 _analyze_categories.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-71093f6b\yCaz.py
+M     525 CaseCrack\_debug2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2d551f56\WLBn.py
+M     522 CaseCrack\ctemp\_parse_audit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-26344ce2\gsye.py
+M     484 CaseCrack\_compile_check.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1a759a69\slmf.py
+M     480 _check_quotes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5d86abaa\Jfmz.py
+M     478 CaseCrack\_check_tech_map.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7e82f681\eBYg.py
+M     468 CaseCrack\_check_syntax.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3423968f\taHr.py
+M     463 _extract_cmds.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2a0244cd\24GZ.py
+M     446 _check_pkg.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\47576b5\uj3R.py
+M     426 CaseCrack\_smoke2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\603b25c6\kMU7.py
+M     407 _show_triage.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-21608e8c\2jxz.py
+M     378 _check_quotes2.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-534df07a\8vt3.py
+M     368 CaseCrack\ctemp\_clear_dashboard_db.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\12d9fb46\EGtn.py
+M     311 CaseCrack\ctemp\list_modules.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-64c0aff8\WSlA.py
+M     292 _check_phases.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1e86782b\WnKd.py
+M     224 CaseCrack\ctemp\_list_tables.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-cc0e619\6gtX.py
+M     132 CaseCrack\tools\burp_enterprise\output\compliance_pkg.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1111e6ba\Qzgk.py
+M      97 CaseCrack\_debug_ast.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3edeb48f\gAqw.py
+
+STUBS_COUNT=327
+S snap= 212854 cur=    643 CaseCrack\tools\burp_enterprise\secret_patterns_expanded.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5f0b4c\FnVy.py
+S snap= 204414 cur=    619 CaseCrack\tools\burp_enterprise\recon_pipeline.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\67cefde0\FggM.py
+S snap= 174682 cur=    607 CaseCrack\tools\burp_enterprise\mcp_server.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7a52a48a\dWOx.py
+S snap= 165959 cur=    631 CaseCrack\tools\burp_enterprise\scan_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-22cdd6e5\6603.py
+S snap= 162112 cur=    623 CaseCrack\tools\burp_enterprise\iam_attack_paths.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-354992af\rD6b.py
+S snap= 147393 cur=    613 CaseCrack\tools\burp_enterprise\agent_loop.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\31a0f2b4\5L42.py
+S snap= 141555 cur=    619 CaseCrack\tools\burp_enterprise\unified_agent.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6a0c4c9c\XvOr.py
+S snap= 133004 cur=    619 CaseCrack\tools\burp_enterprise\chain.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2941371b\x3Ev.py
+S snap= 131048 cur=    625 CaseCrack\tools\burp_enterprise\secrets_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6f6e1986\fyaT.py
+S snap= 130071 cur=    617 CaseCrack\tools\burp_enterprise\copilot_loop.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4daacbbb\bJzN.py
+S snap= 123860 cur=    603 CaseCrack\tools\burp_enterprise\waf.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\28fbf660\293k.py
+S snap= 121819 cur=    631 CaseCrack\tools\burp_enterprise\defensive_posture.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2b509800\0tRt.py
+S snap= 120446 cur=    629 CaseCrack\tools\burp_enterprise\correlation_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\15342813\oyJX.py
+S snap= 120097 cur=    639 CaseCrack\tools\burp_enterprise\crawl_secrets_pipeline.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-636a6de4\5r10.py
+S snap= 117513 cur=    619 CaseCrack\tools\burp_enterprise\poc_generator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6e7812e4\EDrE.py
+S snap= 116502 cur=    635 CaseCrack\tools\burp_enterprise\evasion_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7afcd0d6\1KUn.py
+S snap= 114846 cur=    645 CaseCrack\tools\burp_enterprise\subdomain_predictor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1ddc501b\1DWR.py
+S snap= 112337 cur=    633 CaseCrack\tools\burp_enterprise\email_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5e4d6dd1\stdX.py
+S snap= 111940 cur=    647 CaseCrack\tools\burp_enterprise\enterprise_scale_executor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-64d9e18a\UBB2.py
+S snap= 111864 cur=    635 CaseCrack\tools\burp_enterprise\google_dorking.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\d5a113a\FSIe.py
+S snap= 111658 cur=    625 CaseCrack\tools\burp_enterprise\tls_fingerprint.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5048139c\Bxgd.py
+S snap= 108890 cur=    623 CaseCrack\tools\burp_enterprise\sql_injection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-9e9f4ea\iAPV.py
+S snap= 108864 cur=    738 CaseCrack\tools\burp_enterprise\ai_ml_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5b8fcb79\DPas.py
+S snap= 108718 cur=    625 CaseCrack\tools\burp_enterprise\captcha_bypass.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-558217db\tcxQ.py
+S snap= 108009 cur=    627 CaseCrack\tools\burp_enterprise\supply_chain_intel.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2ee2fc8a\KDiw.py
+S snap= 107319 cur=    603 CaseCrack\tools\burp_enterprise\jwt.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\14095895\tOvp.py
+S snap= 106114 cur=    615 CaseCrack\tools\burp_enterprise\domain_intel.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\426d08d7\5U1a.py
+S snap= 105489 cur=    637 CaseCrack\tools\burp_enterprise\js_ast_analyzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5ffe9fa3\3Od3.py
+S snap= 104969 cur=    609 CaseCrack\tools\burp_enterprise\dns_intel.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-37160b44\3Git.py
+S snap= 104353 cur=    629 CaseCrack\tools\burp_enterprise\multi_perspective.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4458c1fa\dSXy.py
+S snap= 104170 cur=    635 CaseCrack\tools\burp_enterprise\dynamic_chain.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4becb5e5\QBws.py
+S snap= 104139 cur=    637 CaseCrack\tools\burp_enterprise\smart_wordlists.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7d6d08b9\z8J4.py
+S snap= 103640 cur=    621 CaseCrack\tools\burp_enterprise\cloud_discovery.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4e4b8556\b386.py
+S snap= 103375 cur=    657 CaseCrack\tools\burp_enterprise\mfa_captcha_bypass_chain.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5f58a1cc\f3E7.py
+S snap= 102975 cur=    645 CaseCrack\tools\burp_enterprise\collaborative_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4e0d2337\5vPM.py
+S snap= 102814 cur=    645 CaseCrack\tools\burp_enterprise\evolutionary_fuzzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\ddbd54e\bluh.py
+S snap= 101345 cur=    623 CaseCrack\tools\burp_enterprise\http3_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7bda30be\YWwz.py
+S snap= 100180 cur=    625 CaseCrack\tools\burp_enterprise\reverse_analytics.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4136d6f3\m5Ix.py
+S snap=  99637 cur=    617 CaseCrack\tools\burp_enterprise\agent_memory.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6ae7bef7\BuHF.py
+S snap=  99433 cur=    619 CaseCrack\tools\burp_enterprise\oauth_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6b91e66b\fFCr.py
+S snap=  98746 cur=    625 CaseCrack\tools\burp_enterprise\secret_verifier.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3a8aad97\ULKq.py
+S snap=  98686 cur=    760 CaseCrack\tools\burp_enterprise\graphql_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-84d5cbd\ObHE.py
+S snap=  96380 cur=    639 CaseCrack\tools\burp_enterprise\headless_crawler.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5e9bbbc4\Wskq.py
+S snap=  96288 cur=    633 CaseCrack\tools\burp_enterprise\error_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\822f8bc\5Lhq.py
+S snap=  95585 cur=    655 CaseCrack\tools\burp_enterprise\nuclei_template_generator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\433b3003\XI0o.py
+S snap=  94127 cur=    635 CaseCrack\tools\burp_enterprise\saas_integration_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\c583fad\XUXB.py
+S snap=  92090 cur=    621 CaseCrack\tools\burp_enterprise\cloud_inventory.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5dfcbdd6\wiF9.py
+S snap=  91289 cur=    621 CaseCrack\tools\burp_enterprise\container_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1523d86b\vvJf.py
+S snap=  91227 cur=    637 CaseCrack\tools\burp_enterprise\environmental_adaptation.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-33238722\hMzV.py
+S snap=  91063 cur=    631 CaseCrack\tools\burp_enterprise\distributed_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\41a7c749\4uCX.py
+S snap=  90434 cur=    643 CaseCrack\tools\burp_enterprise\browser_exploitation_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-798aec84\YgbH.py
+S snap=  89548 cur=    653 CaseCrack\tools\burp_enterprise\browser_extension_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\49343e4\t5On.py
+S snap=  89198 cur=    629 CaseCrack\tools\burp_enterprise\risk_aware_testing.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4f9483f3\Blaw.py
+S snap=  88348 cur=    617 CaseCrack\tools\burp_enterprise\tls_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3029bb3e\oSjH.py
+S snap=  87961 cur=    637 CaseCrack\tools\burp_enterprise\js_supply_chain.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5a4ce4cb\hOIq.py
+S snap=  87776 cur=    617 CaseCrack\tools\burp_enterprise\goal_planner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-33a92214\BQKn.py
+S snap=  86956 cur=    627 CaseCrack\tools\burp_enterprise\source_code_search.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1496763c\0GAK.py
+S snap=  86465 cur=    633 CaseCrack\tools\burp_enterprise\hierarchical_planner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7706b34a\bdG3.py
+S snap=  86116 cur=    631 CaseCrack\tools\burp_enterprise\business_logic_ai.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4dbb06b4\sMrj.py
+S snap=  85415 cur=    627 CaseCrack\tools\burp_enterprise\adaptive_learning.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\659095d5\exof.py
+S snap=  84259 cur=    623 CaseCrack\tools\burp_enterprise\grpc_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6f7e9565\SnU2.py
+S snap=  84053 cur=    631 CaseCrack\tools\burp_enterprise\context_builder.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7314adaf\zEfD.py
+S snap=  83962 cur=    629 CaseCrack\tools\burp_enterprise\favicon_correlation.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-22ec867b\hs8J.py
+S snap=  83294 cur=    635 CaseCrack\tools\burp_enterprise\advanced_racer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7315b252\6X4b.py
+S snap=  82635 cur=    631 CaseCrack\tools\burp_enterprise\module_registry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7099374\KzxI.py
+S snap=  82344 cur=    627 CaseCrack\tools\burp_enterprise\cross_cutting.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-71a50055\qNx8.py
+S snap=  81089 cur=    621 CaseCrack\tools\burp_enterprise\output_formats.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-56c0214c\whrf.py
+S snap=  80450 cur=    633 CaseCrack\tools\burp_enterprise\api_discovery.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-44cd7d2f\yc8q.py
+S snap=  80241 cur=    635 CaseCrack\tools\burp_enterprise\prototype_pollution.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3e93b031\B4cD.py
+S snap=  79689 cur=    645 CaseCrack\tools\burp_enterprise\secret_verifiers_extended.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4d07c40e\MMrH.py
+S snap=  78966 cur=    625 CaseCrack\tools\burp_enterprise\subdomain.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\15373578\dw0X.py
+S snap=  77547 cur=    629 CaseCrack\tools\burp_enterprise\http2_fingerprint.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7a2d7533\q6MX.py
+S snap=  76919 cur=    623 CaseCrack\tools\burp_enterprise\severity_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-350e508\DlXU.py
+S snap=  76793 cur=    617 CaseCrack\tools\burp_enterprise\iot_discovery.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\226db15d\tY0K.py
+S snap=  73323 cur=    629 CaseCrack\tools\burp_enterprise\dashboard_renderer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3c3bbb44\x5mJ.py
+S snap=  72725 cur=    627 CaseCrack\tools\burp_enterprise\websocket_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-e3e281b\QhEC.py
+S snap=  71672 cur=    627 CaseCrack\tools\burp_enterprise\screenshot.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-625c7014\tWsp.py
+S snap=  71614 cur=    625 CaseCrack\tools\burp_enterprise\github_deep_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5765b83c\RJCT.py
+S snap=  69968 cur=    613 CaseCrack\tools\burp_enterprise\llm_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7a74cbe9\Sw2L.py
+S snap=  69219 cur=    611 CaseCrack\tools\burp_enterprise\juicy_files.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3571a5b0\Ts2I.py
+S snap=  68633 cur=    623 CaseCrack\tools\burp_enterprise\network_mapper.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-443bcd20\JAlG.py
+S snap=  67374 cur=    625 CaseCrack\tools\burp_enterprise\business_logic.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-25d838ed\3Nmr.py
+S snap=  66473 cur=    637 CaseCrack\tools\burp_enterprise\azure_devops_deep_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\782cfcce\G4ZI.py
+S snap=  66238 cur=    625 CaseCrack\tools\burp_enterprise\attack_reasoning.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\a946b8b\VfiV.py
+S snap=  65178 cur=    605 CaseCrack\tools\burp_enterprise\idor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\17a6e654\Tc9G.py
+S snap=  64600 cur=    621 CaseCrack\tools\burp_enterprise\agent_sessions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-332fe65\J4dE.py
+S snap=  64116 cur=    611 CaseCrack\tools\burp_enterprise\headers.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2daa710a\5in0.py
+S snap=  63036 cur=    637 CaseCrack\tools\burp_enterprise\param_discovery.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\62c4d9fe\iyVF.py
+S snap=  62190 cur=    625 CaseCrack\tools\burp_enterprise\supply_chain_deep.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-50f5493e\hcZS.py
+S snap=  61593 cur=    607 CaseCrack\tools\burp_enterprise\nosql.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3160d1ef\hSTn.py
+S snap=  59877 cur=    623 CaseCrack\tools\burp_enterprise\saml_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-17385f96\ryPj.py
+S snap=  58838 cur=    619 CaseCrack\tools\burp_enterprise\dns_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\13e4dafc\tOau.py
+S snap=  58573 cur=    631 CaseCrack\tools\burp_enterprise\bitbucket_deep_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\542da16e\SX1U.py
+S snap=  57572 cur=    625 CaseCrack\tools\burp_enterprise\gitlab_deep_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4bdc6a5c\DW7l.py
+S snap=  57584 cur=    641 CaseCrack\tools\burp_enterprise\full_scan_orchestrator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6c5eebb6\ZEhz.py
+S snap=  56959 cur=    631 CaseCrack\tools\burp_enterprise\state_graph.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7178c264\h5Ns.py
+S snap=  56097 cur=    625 CaseCrack\tools\burp_enterprise\escalation_gateway.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\70479b38\u6tA.py
+S snap=  55698 cur=    607 CaseCrack\tools\burp_enterprise\oauth.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-47c3187b\vcG0.py
+S snap=  55398 cur=    627 CaseCrack\tools\burp_enterprise\ct_monitor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-644753fa\X2nb.py
+S snap=  55190 cur=    615 CaseCrack\tools\burp_enterprise\threat_intel.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-73040fbf\ULAM.py
+S snap=  55060 cur=    621 CaseCrack\tools\burp_enterprise\waf_adaptive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-82a06c7\m6uB.py
+S snap=  54830 cur=    609 CaseCrack\tools\burp_enterprise\upload.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5bf1d0f\8pjk.py
+S snap=  62474 cur=   8755 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_llm.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\21d93f8f\dm8m.py
+S snap=  54303 cur=    631 CaseCrack\tools\burp_enterprise\scanner_utilities.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-78ecd8ad\VCzo.py
+S snap=  53209 cur=    629 CaseCrack\tools\burp_enterprise\graphql_advanced.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4da38fe6\m80p.py
+S snap=  75209 cur=  23393 CaseCrack\tools\burp_enterprise\recon_dashboard\atlas_api.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5f0d7241\3msW.py
+S snap=  51744 cur=    631 CaseCrack\tools\burp_enterprise\wasm_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-573b27df\1y1Y.py
+S snap=  51600 cur=    647 CaseCrack\tools\burp_enterprise\template_fingerprint.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\27cafc53\8Hg7.py
+S snap=  50265 cur=    633 CaseCrack\tools\burp_enterprise\vuln_intel_correlator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\49b7254c\8qap.py
+S snap=  49910 cur=    639 CaseCrack\tools\burp_enterprise\ci_cd_integration.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-72014853\t70V.py
+S snap=  49865 cur=    617 CaseCrack\tools\burp_enterprise\caap_formatter.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-f3add86\XMbi.py
+S snap=  49203 cur=    641 CaseCrack\tools\burp_enterprise\wappalyzer_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\202bb43e\f6iT.py
+S snap=  48951 cur=    621 CaseCrack\tools\burp_enterprise\planner_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-53f3ccc4\W1K5.py
+S snap=  48874 cur=    633 CaseCrack\tools\burp_enterprise\websocket_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-36916ba6\WJU7.py
+S snap=  48006 cur=    613 CaseCrack\tools\burp_enterprise\tier2_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4579a5bc\5J3c.py
+S snap=  47788 cur=    631 CaseCrack\tools\burp_enterprise\nuclei_health.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3ffb3335\bgLI.py
+S snap=  47509 cur=    619 CaseCrack\tools\burp_enterprise\account.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2c871eef\kBXG.py
+S snap=  47281 cur=    625 CaseCrack\tools\burp_enterprise\cognitive_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\bc78204\gAVP.py
+S snap=  47018 cur=    623 CaseCrack\tools\burp_enterprise\safety_guardrails.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-728031cd\M68M.py
+S snap=  46823 cur=    619 CaseCrack\tools\burp_enterprise\deserialize.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4220d623\H9xl.py
+S snap=  46311 cur=    629 CaseCrack\tools\burp_enterprise\osint_recon.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-c9a14df\03Vl.py
+S snap=  45257 cur=    643 CaseCrack\tools\burp_enterprise\vulnerability_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4ee3b7d0\qRMH.py
+S snap=  44818 cur=    605 CaseCrack\tools\burp_enterprise\csrf.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-c00f9d2\XUe4.py
+S snap=  44814 cur=    623 CaseCrack\tools\burp_enterprise\http2_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-72a8d5c3\6d2l.py
+S snap=  44526 cur=    611 CaseCrack\tools\burp_enterprise\caap_parser.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\370acc8b\R6jw.py
+S snap=  44170 cur=    639 CaseCrack\tools\burp_enterprise\autonomous_exploitation.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\509f82e3\xhKU.py
+S snap=  43887 cur=    621 CaseCrack\tools\burp_enterprise\http3_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4807a1d2\1luX.py
+S snap=  43622 cur=    621 CaseCrack\tools\burp_enterprise\api_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\78efee6d\GTgm.py
+S snap=  43081 cur=    635 CaseCrack\tools\burp_enterprise\incremental_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\58f0783\uXwI.py
+S snap=  42874 cur=    635 CaseCrack\tools\burp_enterprise\url_aggregator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6dba21a7\kayN.py
+S snap=  42821 cur=    611 CaseCrack\tools\burp_enterprise\audit_trail.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1cf09226\QnXJ.py
+S snap=  42230 cur=    625 CaseCrack\tools\burp_enterprise\error_recovery.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-541f8dda\2lnz.py
+S snap=  42219 cur=    631 CaseCrack\tools\burp_enterprise\rest_api_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\f4d5dac\F6M5.py
+S snap=  42040 cur=    623 CaseCrack\tools\burp_enterprise\network_safety.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1271bcaf\t3Ta.py
+S snap=  41656 cur=    615 CaseCrack\tools\burp_enterprise\smuggling.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-19b34495\t85v.py
+S snap=  41528 cur=    605 CaseCrack\tools\burp_enterprise\cors.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-12ce737b\YYQF.py
+S snap=  41512 cur=    621 CaseCrack\tools\burp_enterprise\csp_analyzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3559b62d\53XC.py
+S snap=  41424 cur=    619 CaseCrack\tools\burp_enterprise\atlas_mcp_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-10b9a670\9Cmt.py
+S snap=  41347 cur=    625 CaseCrack\tools\burp_enterprise\secret_patterns.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\66332e6a\5MXg.py
+S snap=  40984 cur=    631 CaseCrack\tools\burp_enterprise\command_injection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-70b56dc7\XKde.py
+S snap=  40937 cur=    619 CaseCrack\tools\burp_enterprise\cloud_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2b1a0748\9bMi.py
+S snap=  40311 cur=    617 CaseCrack\tools\burp_enterprise\registry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4da0438b\72xO.py
+S snap=  39959 cur=    625 CaseCrack\tools\burp_enterprise\mobile_api.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1ecec0f5\46eo.py
+S snap=  39809 cur=    643 CaseCrack\tools\burp_enterprise\burp_enterprise_api.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7fec5fee\i5UK.py
+S snap=  39586 cur=    623 CaseCrack\tools\burp_enterprise\ssi_injection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\43382bb\7xGc.py
+S snap=  39440 cur=    627 CaseCrack\tools\burp_enterprise\vuln_intel_clients.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7e4abbef\UORf.py
+S snap=  39331 cur=    629 CaseCrack\tools\burp_enterprise\dom_xss_analyzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-af1ad78\W7PB.py
+S snap=  38632 cur=    637 CaseCrack\tools\burp_enterprise\state_machine_tester.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\23c11e0d\o5wR.py
+S snap=  38564 cur=    649 CaseCrack\tools\burp_enterprise\graph_knowledge_base.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7da7816f\hYWf.py
+S snap=  38288 cur=    627 CaseCrack\tools\burp_enterprise\graphql_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-604a396c\85vc.py
+S snap=  37889 cur=    611 CaseCrack\tools\burp_enterprise\mcp_builtins.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5a17427d\FATx.py
+S snap=  37689 cur=    615 CaseCrack\tools\burp_enterprise\injection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-71b1553b\V1ge.py
+S snap=  37545 cur=    619 CaseCrack\tools\burp_enterprise\threat_modeler.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\281f3381\ROIj.py
+S snap=  37329 cur=    625 CaseCrack\tools\burp_enterprise\assessment_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1dcbff3d\osYi.py
+S snap=  36978 cur=    637 CaseCrack\tools\burp_enterprise\credential_enumerator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-26cc60b0\3Geh.py
+S snap=  36563 cur=    637 CaseCrack\tools\burp_enterprise\wildcard_filter.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2682d761\zBwG.py
+S snap=  36245 cur=    603 CaseCrack\tools\burp_enterprise\xxe.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2bf47737\DGvd.py
+S snap=  35723 cur=    631 CaseCrack\tools\burp_enterprise\next_action_advisor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\18349459\Rz7H.py
+S snap=  35608 cur=    643 CaseCrack\tools\burp_enterprise\subdomain_takeover.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2896bf9c\4c6Q.py
+S snap=  35019 cur=    643 CaseCrack\tools\burp_enterprise\intercept_analyzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5ca761af\eRX7.py
+S snap=  34785 cur=    635 CaseCrack\tools\burp_enterprise\vcs_integration.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6dcae91f\86Ej.py
+S snap=  34699 cur=    627 CaseCrack\tools\burp_enterprise\confidence_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\624d0d05\dVzq.py
+S snap=  34658 cur=    623 CaseCrack\tools\burp_enterprise\scanner_hooks.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6d4887ed\sSdN.py
+S snap=  34315 cur=    625 CaseCrack\tools\burp_enterprise\intercept.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5aadc906\QNIx.py
+S snap=  34205 cur=    625 CaseCrack\tools\burp_enterprise\tool_chain_advisor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\13909c57\BZXA.py
+S snap=  34187 cur=    623 CaseCrack\tools\burp_enterprise\open_redirect.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-72807355\q9pu.py
+S snap=  34195 cur=    637 CaseCrack\tools\burp_enterprise\chain_executor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1a0c09f\dEva.py
+S snap=  34155 cur=    621 CaseCrack\tools\burp_enterprise\sse_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4a155628\BEl8.py
+S snap=  34028 cur=    615 CaseCrack\tools\burp_enterprise\authz.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2993506a\Y0SF.py
+S snap=  33895 cur=    647 CaseCrack\tools\burp_enterprise\postmessage_analyzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-584c05ec\i8hw.py
+S snap=  33170 cur=    619 CaseCrack\tools\burp_enterprise\fuzzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\493f89d6\0GzI.py
+S snap=  32986 cur=    619 CaseCrack\tools\burp_enterprise\certificates.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5a121116\QdQW.py
+S snap=  32763 cur=    627 CaseCrack\tools\burp_enterprise\xpath_injection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1846b499\2Ypq.py
+S snap=  32671 cur=    605 CaseCrack\tools\burp_enterprise\ssrf.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4262ba3e\5Px7.py
+S snap=  32485 cur=    619 CaseCrack\tools\burp_enterprise\nl_translator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5490cf61\YZUg.py
+S snap=  32491 cur=    627 CaseCrack\tools\burp_enterprise\passive_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6bf43896\xlhf.py
+S snap=  32444 cur=    621 CaseCrack\tools\burp_enterprise\workflow_modeler.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\63ba15fc\oA49.py
+S snap=  32402 cur=    625 CaseCrack\tools\burp_enterprise\path_traversal.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\174d1ee\ezy5.py
+S snap=  31843 cur=    621 CaseCrack\tools\burp_enterprise\spa_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\564532f7\iPDF.py
+S snap=  31494 cur=    607 CaseCrack\tools\burp_enterprise\cache.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-45b2e546\Wplt.py
+S snap=  44077 cur=  13445 CaseCrack\tools\burp_enterprise\exploit_chains\payload_synthesis_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-b3e0feb\90Xn.py
+S snap=  30973 cur=    625 CaseCrack\tools\burp_enterprise\recon_transport.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1efa9f43\4dgH.py
+S snap=  30687 cur=    625 CaseCrack\tools\burp_enterprise\ldap_injection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\66bceaf3\bXSt.py
+S snap=  30240 cur=    625 CaseCrack\tools\burp_enterprise\base_finding.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\25fe8a57\wuHE.py
+S snap=  30035 cur=    635 CaseCrack\tools\burp_enterprise\error_page_analyzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1ac8be03\Oy61.py
+S snap=  29927 cur=    627 CaseCrack\tools\burp_enterprise\copilot_reasoning.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-d35a24f\OoJm.py
+S snap=  29527 cur=    625 CaseCrack\tools\burp_enterprise\crlf_injection.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-f7e104f\tnFj.py
+S snap=  29365 cur=    607 CaseCrack\tools\burp_enterprise\telemetry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6843c35d\5gsq.py
+S snap=  28999 cur=    631 CaseCrack\tools\burp_enterprise\ui_interaction_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6d7e0f5e\9i11.py
+S snap=  28940 cur=    621 CaseCrack\tools\burp_enterprise\wayback.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1d36cc26\MzpP.py
+S snap=  28906 cur=    617 CaseCrack\tools\burp_enterprise\rate_limit.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\775f0df6\JDZr.py
+S snap=  28714 cur=    609 CaseCrack\tools\burp_enterprise\reporter.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\226e1551\opdu.py
+S snap=  28705 cur=    637 CaseCrack\tools\burp_enterprise\graphql_schema_cache.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-18c6bce8\T5X1.py
+S snap=  28586 cur=    641 CaseCrack\tools\burp_enterprise\business_logic_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6dfe61f4\sPmy.py
+S snap=  28554 cur=    617 CaseCrack\tools\burp_enterprise\recon_context.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-304963c3\WUas.py
+S snap=  28309 cur=    625 CaseCrack\tools\burp_enterprise\discovery.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2f21834c\6pJ5.py
+S snap=  28203 cur=    611 CaseCrack\tools\burp_enterprise\scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4896d57e\YK7B.py
+S snap=  27970 cur=    635 CaseCrack\tools\burp_enterprise\orchestrator_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\102d5f1e\8KwK.py
+S snap=  27749 cur=    611 CaseCrack\tools\burp_enterprise\init_wizard.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\618b402\63pA.py
+S snap=  27774 cur=    647 CaseCrack\tools\burp_enterprise\creative_exploit_heuristics.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\57f3242f\y9Tc.py
+S snap=  27726 cur=    631 CaseCrack\tools\burp_enterprise\context_manager.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3d5a60ff\1I67.py
+S snap=  27685 cur=    607 CaseCrack\tools\burp_enterprise\copilot.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\20b92f0\2Qze.py
+S snap=  57286 cur=  30929 CaseCrack\tools\burp_enterprise\tool_wrappers\_docker.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3bcb2a1b\9Qt5.py
+S snap=  26890 cur=    639 CaseCrack\tools\burp_enterprise\domain_knowledge_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2661463e\okHQ.py
+S snap=  25669 cur=    647 CaseCrack\tools\burp_enterprise\payload_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7038ae7e\btG7.py
+S snap=  25603 cur=    637 CaseCrack\tools\burp_enterprise\postman_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6b103523\VTrt.py
+S snap=  25322 cur=    611 CaseCrack\tools\burp_enterprise\storage.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-730d241f\Zr04.py
+S snap=  25256 cur=    635 CaseCrack\tools\burp_enterprise\docker_image_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-66586fc9\Ub4o.py
+S snap=  25128 cur=    629 CaseCrack\tools\burp_enterprise\resource_monitor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4fa91009\JJkh.py
+S snap=  25024 cur=    633 CaseCrack\tools\burp_enterprise\weak_hash_detector.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\77eb72c2\JRIu.py
+S snap=  24951 cur=    609 CaseCrack\tools\burp_enterprise\asn_intel.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2b22b337\4Uxd.py
+S snap=  24774 cur=    621 CaseCrack\tools\burp_enterprise\crawler.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-734f5758\g063.py
+S snap=  24546 cur=    617 CaseCrack\tools\burp_enterprise\github_search.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-a84d388\THsP.py
+S snap=  24295 cur=    629 CaseCrack\tools\burp_enterprise\nsec_walker.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2c54daa\1peM.py
+S snap=  23970 cur=    639 CaseCrack\tools\burp_enterprise\webtransport_security.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1a415952\gxhZ.py
+S snap=  23564 cur=    631 CaseCrack\tools\burp_enterprise\response_classifier.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-53812483\IoW8.py
+S snap=  23394 cur=    623 CaseCrack\tools\burp_enterprise\xss_confirmer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\169e9df6\EzPG.py
+S snap=  23287 cur=    651 CaseCrack\tools\burp_enterprise\session_fixation_tester.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\23c6b7e7\VZAw.py
+S snap=  22990 cur=    617 CaseCrack\tools\burp_enterprise\racer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2fa5a1e5\Qi0x.py
+S snap=  23001 cur=    639 CaseCrack\tools\burp_enterprise\discovery_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-35c3126\5Nip.py
+S snap=  22891 cur=    625 CaseCrack\tools\burp_enterprise\sequencer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1912a88b\ofqQ.py
+S snap=  22839 cur=    623 CaseCrack\tools\burp_enterprise\agent_telemetry.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\739b2bdd\7966.py
+S snap=  22838 cur=    627 CaseCrack\tools\burp_enterprise\free_osint.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\54b52c1a\uRcF.py
+S snap=  22725 cur=    615 CaseCrack\tools\burp_enterprise\project.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1902597d\x126.py
+S snap=  22658 cur=    629 CaseCrack\tools\burp_enterprise\html_poc_generator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3e42d772\IeoV.py
+S snap=  22610 cur=    619 CaseCrack\tools\burp_enterprise\updater.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4ad2f2d3\ocHp.py
+S snap=  22569 cur=    623 CaseCrack\tools\burp_enterprise\intruder.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-76ecceed\b8iO.py
+S snap=  22429 cur=    639 CaseCrack\tools\burp_enterprise\subdomain_active.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\159faa91\ya0h.py
+S snap=  22376 cur=    619 CaseCrack\tools\burp_enterprise\bucket_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\205b2849\q48v.py
+S snap=  22235 cur=    629 CaseCrack\tools\burp_enterprise\soap_wsdl_tester.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\1414facc\rJkX.py
+S snap=  58976 cur=  37376 CaseCrack\tools\burp_enterprise\exploit_chains\chain_executor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2d60b182\98jZ.py
+S snap=  22017 cur=    635 CaseCrack\tools\burp_enterprise\canonical_finding.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\69f8adfe\kKfc.py
+S snap=  21932 cur=    621 CaseCrack\tools\burp_enterprise\orchestrator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3c73f788\DH4O.py
+S snap=  21857 cur=    631 CaseCrack\tools\burp_enterprise\race_harness.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-341043f0\dJne.py
+S snap=  21822 cur=    633 CaseCrack\tools\burp_enterprise\siem_connector.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6d6858ba\Xnct.py
+S snap=  21785 cur=    659 CaseCrack\tools\burp_enterprise\browser_workflow_extractor.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2551f0e9\yQ3A.py
+S snap=  21687 cur=    647 CaseCrack\tools\burp_enterprise\chain_impact_scorer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2714955f\G51W.py
+S snap=  21388 cur=    617 CaseCrack\tools\burp_enterprise\scope.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-48e8bd58\omoP.py
+S snap=  21367 cur=    629 CaseCrack\tools\burp_enterprise\finding_enrichment.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2bcaa319\wnTh.py
+S snap=  21243 cur=    635 CaseCrack\tools\burp_enterprise\grpc_exploit_tester.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3d131ff8\Oj7M.py
+S snap=  21179 cur=    647 CaseCrack\tools\burp_enterprise\long_running_orchestrator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7d4cecef\9cdd.py
+S snap=  21049 cur=    619 CaseCrack\tools\burp_enterprise\session.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-40891e1a\zj1u.py
+S snap=  20922 cur=    633 CaseCrack\tools\burp_enterprise\waf_payload_tester.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3fc422df\J7rs.py
+S snap=  20895 cur=    625 CaseCrack\tools\burp_enterprise\rl_reward_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-612aa85b\WaWi.py
+S snap=  20907 cur=    641 CaseCrack\tools\burp_enterprise\mass_assignment_tester.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4836deec\XBGn.py
+S snap=  20661 cur=    635 CaseCrack\tools\burp_enterprise\composite_rule_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\4ec4712f\URpd.py
+S snap=  20503 cur=    637 CaseCrack\tools\burp_enterprise\docker_layer_analyzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\606162c9\DWbW.py
+S snap=  20266 cur=    647 CaseCrack\tools\burp_enterprise\session_state_manager.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1880885a\o0Ea.py
+S snap=  20211 cur=    653 CaseCrack\tools\burp_enterprise\exploit_graph_renderer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4892436\GWWg.py
+S snap=  20143 cur=    627 CaseCrack\tools\burp_enterprise\git_deep_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2c696da\0aHn.py
+S snap=  20124 cur=    635 CaseCrack\tools\burp_enterprise\session_manager.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6485cdb8\2GMo.py
+S snap=  19977 cur=    615 CaseCrack\tools\burp_enterprise\websocket.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6a6e5e2b\sI7X.py
+S snap=  19739 cur=    639 CaseCrack\tools\burp_enterprise\dependency_health.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\616a0e2c\QcyN.py
+S snap=  19624 cur=    625 CaseCrack\tools\burp_enterprise\audit_trail_tester.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3897a396\mXvj.py
+S snap=  19411 cur=    617 CaseCrack\tools\burp_enterprise\vuln_database.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\620fc263\X9UP.py
+S snap=  19437 cur=    651 CaseCrack\tools\burp_enterprise\subdomain_takeover_ext.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-78d70786\deky.py
+S snap=  19282 cur=    637 CaseCrack\tools\burp_enterprise\log_endpoint_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5653fdfd\vrVy.py
+S snap=  19261 cur=    633 CaseCrack\tools\burp_enterprise\fail_secure_tester.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7cfc32c\DVmr.py
+S snap=  46393 cur=  27916 CaseCrack\tools\burp_enterprise\core_infra\canonical_finding.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5441ee2d\DD5B.py
+S snap=  18908 cur=    633 CaseCrack\tools\burp_enterprise\bayesian_prioritizer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-99fc6d0\suaK.py
+S snap=  18735 cur=    633 CaseCrack\tools\burp_enterprise\git_history_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\25317416\1FAI.py
+S snap=  18654 cur=    635 CaseCrack\tools\burp_enterprise\chain_matcher.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-55e185b8\UFq3.py
+S snap=  18120 cur=    635 CaseCrack\tools\burp_enterprise\entropy_intelligence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-7a46199b\UfyW.py
+S snap=  17773 cur=    623 CaseCrack\tools\burp_enterprise\comparer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\18464685\BPm7.py
+S snap=  17746 cur=    629 CaseCrack\tools\burp_enterprise\auth_context.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5bf0433a\ROk6.py
+S snap=  17171 cur=    651 CaseCrack\tools\burp_enterprise\js_intelligence_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-177ccf61\4SwK.py
+S snap=  17139 cur=    627 CaseCrack\tools\burp_enterprise\exploitation_models.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-b04ffa3\gOpp.py
+S snap=  17086 cur=    657 CaseCrack\tools\burp_enterprise\archive_sourcemap_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-50f95ec7\3Gj6.py
+S snap=  17024 cur=    627 CaseCrack\tools\burp_enterprise\tool_wrapper_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4138a700\raZO.py
+S snap=  16932 cur=    647 CaseCrack\tools\burp_enterprise\notification_webhooks.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6b221034\BLtV.py
+S snap=  16671 cur=    639 CaseCrack\tools\burp_enterprise\event_integration.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-540f013\GXhW.py
+S snap=  16449 cur=    631 CaseCrack\tools\burp_enterprise\cross_fork_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\201036f2\xwpo.py
+S snap=  16305 cur=    621 CaseCrack\tools\burp_enterprise\tool_abstraction.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\12d661f3\2vtS.py
+S snap=  16254 cur=    609 CaseCrack\tools\burp_enterprise\worker.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-e46afac\SE9w.py
+S snap=  16204 cur=    645 CaseCrack\tools\burp_enterprise\sensitive_source_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\768e5a4f\Z0Ey.py
+S snap=  45655 cur=  30221 CaseCrack\tools\burp_enterprise\recon_dashboard\finding_pipeline.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5f98e691\b4zd.py
+S snap=  16048 cur=    635 CaseCrack\tools\burp_enterprise\waf_payload_adapter.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-5663f5f\SvS4.py
+S snap=  15725 cur=    619 CaseCrack\tools\burp_enterprise\vuln_knowledge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\66d3ab52\80Ym.py
+S snap=  15531 cur=    625 CaseCrack\tools\burp_enterprise\canary_detector.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\ed90c8f\QRS9.py
+S snap=  15125 cur=    621 CaseCrack\tools\burp_enterprise\exceptions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\43c22e8e\4MxV.py
+S snap=  14997 cur=    643 CaseCrack\tools\burp_enterprise\graph_persistence.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6ff201f2\gDSv.py
+S snap=  25239 cur=  11022 CaseCrack\tools\burp_enterprise\database\data_migration.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3ef0668f\GL6a.py
+S snap=  14748 cur=    641 CaseCrack\tools\burp_enterprise\recursive_decoder.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1faa729b\m1Sb.py
+S snap=  14642 cur=    633 CaseCrack\tools\burp_enterprise\license_keygen.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-58e9631d\ze53.py
+S snap=  14335 cur=    617 CaseCrack\tools\burp_enterprise\task_queue.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-119ac625\o3Gn.py
+S snap=  14214 cur=    621 CaseCrack\tools\burp_enterprise\sbom_generator.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-21c0bf8f\zK4f.py
+S snap=  14202 cur=    625 CaseCrack\tools\burp_enterprise\custom_detector.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-647d0e18\sL5o.py
+S snap=  13797 cur=    645 CaseCrack\tools\burp_enterprise\db_consolidation_migrate.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-578db925\dPBv.py
+S snap=  13683 cur=    619 CaseCrack\tools\burp_enterprise\finding_dedup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\ed729d4\TKv1.py
+S snap=  13456 cur=    613 CaseCrack\tools\burp_enterprise\caap_session.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\46e33c6e\5Zik.py
+S snap=  12581 cur=    627 CaseCrack\tools\burp_enterprise\entropy_analyzer.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-469e9662\mDS1.py
+S snap=  12512 cur=    633 CaseCrack\tools\burp_enterprise\chain_schema.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\32931b13\vWsL.py
+S snap=  12445 cur=    639 CaseCrack\tools\burp_enterprise\graph_rendering.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-40162b7f\7rBd.py
+S snap=  30019 cur=  18271 CaseCrack\tools\burp_enterprise\recon_dashboard\routes_standalone.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\781671cd\3cMY.py
+S snap=  12326 cur=    631 CaseCrack\tools\burp_enterprise\opportunity_scoring.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-39a65387\Dkb9.py
+S snap=  12234 cur=    619 CaseCrack\tools\burp_enterprise\preflight.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\43cea149\rAvn.py
+S snap=  12221 cur=    641 CaseCrack\tools\burp_enterprise\subdomain_passive.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5a102590\qjZE.py
+S snap=  12068 cur=    627 CaseCrack\tools\burp_enterprise\reasoning_display.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-3592e45\5CX4.py
+S snap=  11996 cur=    621 CaseCrack\tools\burp_enterprise\baseline_manager.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-2084a1c1\Qne6.py
+S snap=  11499 cur=    615 CaseCrack\tools\burp_enterprise\results.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\3a612c86\z7Yl.py
+S snap=  14902 cur=   4456 CaseCrack\tools\burp_enterprise\recon_dashboard\finding_dedup.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\47e19bf\yPZ5.py
+S snap=  10851 cur=    629 CaseCrack\tools\burp_enterprise\findings_formatter.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\534ea31d\Rt03.py
+S snap=  10769 cur=    629 CaseCrack\tools\burp_enterprise\keyword_prefilter.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\112576d7\uz8h.py
+S snap=  10656 cur=    631 CaseCrack\tools\burp_enterprise\chain_packs.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-65ef7e40\bcA1.py
+S snap=  10171 cur=    645 CaseCrack\tools\burp_enterprise\graph_integrations.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\626fb9a2\xUr5.py
+S snap=   9717 cur=    627 CaseCrack\tools\burp_enterprise\ssrf_dns_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\659b0712\S8gc.py
+S snap=   9491 cur=    633 CaseCrack\tools\burp_enterprise\cloud_asset_discovery.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\75591305\0v5d.py
+S snap=   9158 cur=    637 CaseCrack\tools\burp_enterprise\chain_resolver.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-726634b2\I9nd.py
+S snap=   8806 cur=    637 CaseCrack\tools\burp_enterprise\chain_includes.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\299b5469\5Zs6.py
+S snap=   8012 cur=    633 CaseCrack\tools\burp_enterprise\chain_output.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-42a0044d\hlzp.py
+S snap=   7997 cur=    639 CaseCrack\tools\burp_enterprise\graph_reporting.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-4856c661\J6jK.py
+S snap=   7955 cur=    623 CaseCrack\tools\burp_enterprise\db_migrations.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-930760a\hKez.py
+S snap=   7649 cur=    639 CaseCrack\tools\burp_enterprise\graph_state_ops.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\7ad67609\6FYb.py
+S snap=   7383 cur=    611 CaseCrack\tools\burp_enterprise\caching.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\65c5741d\iWuM.py
+S snap=   7059 cur=    639 CaseCrack\tools\burp_enterprise\custom_detector_loader.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\b62a7f4\YQax.py
+S snap=   6879 cur=    621 CaseCrack\tools\burp_enterprise\finding_stream.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5ad430dc\E78p.py
+S snap=   6165 cur=    615 CaseCrack\tools\burp_enterprise\phase_health.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-21849d4e\OAcj.py
+S snap=   6116 cur=    619 CaseCrack\tools\burp_enterprise\port_scanner.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-503d5fee\xLlv.py
+S snap=   6091 cur=    643 CaseCrack\tools\burp_enterprise\graph_pathfinding.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\2bef3ec9\qpg8.py
+S snap=   5456 cur=    609 CaseCrack\tools\burp_enterprise\container.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6887fedb\8n3d.py
+S snap=   5254 cur=    627 CaseCrack\tools\burp_enterprise\recovery_bridge.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-1835917\EsGG.py
+S snap=   4253 cur=    623 CaseCrack\tools\burp_enterprise\scan_profiles.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6ea05e70\fqeV.py
+S snap=   3837 cur=    609 CaseCrack\tools\burp_enterprise\autonomy.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6c6390a\K16w.py
+S snap=   3250 cur=    627 CaseCrack\tools\burp_enterprise\exploitation_engine.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-6f6dbe7b\6QOj.py
+S snap=   3104 cur=    605 CaseCrack\tools\burp_enterprise\mcp_tools.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\6ee98446\qHOZ.py
+S snap=   5714 cur=   3267 CaseCrack\tools\burp_enterprise\recon_dashboard\llm_helpers.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\5ddc7454\59CN.py
+S snap=   4568 cur=   2489 CaseCrack\tools\burp_enterprise\exploit_chains\graph_suggestions.py :: C:\Users\ya754\AppData\Roaming\Code\User\History\-13790a03\OFRf.py
+
+OK_COUNT=1544

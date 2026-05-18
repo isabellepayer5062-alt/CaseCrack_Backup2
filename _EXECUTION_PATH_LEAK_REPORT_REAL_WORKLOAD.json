@@ -1,0 +1,267 @@
+{
+  "execution_path_leak_validation": "PASS",
+  "audit_path": "_tmp_execution_path_realworkload.jsonl",
+  "entries_checked": 288,
+  "missing_request_ids": 0,
+  "unknown_execution_paths": 0,
+  "state_mutation_non_mcp": 0,
+  "missing_terminal_events": 0,
+  "malformed_lines": 0,
+  "execution_path_distribution": {
+    "counts": {
+      "BRIDGE": 6,
+      "CLI": 2,
+      "MANUAL": 0,
+      "MCP": 280
+    },
+    "percent": {
+      "BRIDGE": 0.020833,
+      "CLI": 0.006944,
+      "MANUAL": 0.0,
+      "MCP": 0.972222
+    }
+  },
+  "mutation_leak_rate": 0.0,
+  "non_mcp_execution_rate": 0.027778,
+  "missing_terminal_rate": 0.0,
+  "request_id_gap_rate": 0.0,
+  "trends": [
+    {
+      "bucket_start": "2026-04-26T04:52:00+00:00",
+      "entries_checked": 277,
+      "execution_path_distribution": {
+        "counts": {
+          "BRIDGE": 0,
+          "CLI": 0,
+          "MANUAL": 0,
+          "MCP": 277
+        },
+        "percent": {
+          "BRIDGE": 0.0,
+          "CLI": 0.0,
+          "MANUAL": 0.0,
+          "MCP": 1.0
+        }
+      },
+      "mutation_leak_rate": 0.0,
+      "non_mcp_execution_rate": 0.0,
+      "missing_terminal_rate": 0.0,
+      "request_id_gap_rate": 0.0
+    },
+    {
+      "bucket_start": "2026-04-26T04:54:00+00:00",
+      "entries_checked": 9,
+      "execution_path_distribution": {
+        "counts": {
+          "BRIDGE": 6,
+          "CLI": 0,
+          "MANUAL": 0,
+          "MCP": 3
+        },
+        "percent": {
+          "BRIDGE": 0.666667,
+          "CLI": 0.0,
+          "MANUAL": 0.0,
+          "MCP": 0.333333
+        }
+      },
+      "mutation_leak_rate": 0.0,
+      "non_mcp_execution_rate": 0.666667,
+      "missing_terminal_rate": 0.0,
+      "request_id_gap_rate": 0.0
+    },
+    {
+      "bucket_start": "2026-04-26T04:55:00+00:00",
+      "entries_checked": 2,
+      "execution_path_distribution": {
+        "counts": {
+          "BRIDGE": 0,
+          "CLI": 2,
+          "MANUAL": 0,
+          "MCP": 0
+        },
+        "percent": {
+          "BRIDGE": 0.0,
+          "CLI": 1.0,
+          "MANUAL": 0.0,
+          "MCP": 0.0
+        }
+      },
+      "mutation_leak_rate": 0.0,
+      "non_mcp_execution_rate": 1.0,
+      "missing_terminal_rate": 0.0,
+      "request_id_gap_rate": 0.0
+    }
+  ],
+  "non_mcp_sources": [
+    {
+      "execution_path": "BRIDGE",
+      "tool": "help",
+      "entry_point": "mcp_http_server.handle_call_tool",
+      "user_flow": "http_mcp_gateway",
+      "feature": "ui_help_panel",
+      "count": 2,
+      "mutation_count": 0,
+      "path_type": "BRIDGE read command",
+      "risk": "Safe for correctness",
+      "truth_risk": "Medium (UI fragmentation)",
+      "migration_phase": "Phase A (collapse BRIDGE reads)",
+      "action": "Convert to MCP call \u2192 collapse to transport only"
+    },
+    {
+      "execution_path": "BRIDGE",
+      "tool": "get_report",
+      "entry_point": "mcp_http_server.handle_call_tool",
+      "user_flow": "http_mcp_gateway",
+      "feature": "dashboard_export",
+      "count": 2,
+      "mutation_count": 0,
+      "path_type": "BRIDGE read command",
+      "risk": "Safe for correctness",
+      "truth_risk": "Medium (UI fragmentation)",
+      "migration_phase": "Phase A (collapse BRIDGE reads)",
+      "action": "Convert to MCP call \u2192 collapse to transport only"
+    },
+    {
+      "execution_path": "BRIDGE",
+      "tool": "get_system_health",
+      "entry_point": "mcp_http_server.handle_call_tool",
+      "user_flow": "http_mcp_gateway",
+      "feature": "dashboard_health_monitor",
+      "count": 2,
+      "mutation_count": 0,
+      "path_type": "BRIDGE read command",
+      "risk": "Safe for correctness",
+      "truth_risk": "Medium (UI fragmentation)",
+      "migration_phase": "Phase A (collapse BRIDGE reads)",
+      "action": "Convert to MCP call \u2192 collapse to transport only"
+    },
+    {
+      "execution_path": "CLI",
+      "tool": "config",
+      "entry_point": "cli.main._dispatch_command",
+      "user_flow": "operator_cli",
+      "feature": "cli_config_management",
+      "count": 2,
+      "mutation_count": 0,
+      "path_type": "CLI read-only",
+      "risk": "Safe for correctness",
+      "truth_risk": "Medium (state fragmentation)",
+      "migration_phase": "Phase B (normalize CLI reads)",
+      "action": "Normalize into MCP audit model"
+    }
+  ],
+  "trend_window": {
+    "bucket_minutes": 1,
+    "bucket_count": 3
+  },
+  "trend_stability": {
+    "trend_stable": false,
+    "evaluated_buckets": 3,
+    "non_mcp_rate_min": 0.0,
+    "non_mcp_rate_max": 1.0,
+    "non_mcp_rate_spread": 1.0
+  },
+  "cutover_condition": {
+    "mutation_leak_rate": 0.0,
+    "non_mcp_execution_rate": 0.027778,
+    "trend_stable": false,
+    "ready_for_enforcement": false,
+    "target": {
+      "mutation_leak_rate": 0.0,
+      "non_mcp_execution_rate_lt": 0.01,
+      "trend_stable": true
+    }
+  },
+  "migration_plan": {
+    "phases_ordered": [
+      "Phase A (BRIDGE reads)",
+      "Phase B (CLI reads)",
+      "Phase C (mutations)"
+    ],
+    "phase_a_bridge_reads": {
+      "count": 3,
+      "priority": "HIGH (truth consistency)",
+      "sources": [
+        {
+          "execution_path": "BRIDGE",
+          "tool": "help",
+          "entry_point": "mcp_http_server.handle_call_tool",
+          "user_flow": "http_mcp_gateway",
+          "feature": "ui_help_panel",
+          "count": 2,
+          "mutation_count": 0,
+          "path_type": "BRIDGE read command",
+          "risk": "Safe for correctness",
+          "truth_risk": "Medium (UI fragmentation)",
+          "migration_phase": "Phase A (collapse BRIDGE reads)",
+          "action": "Convert to MCP call \u2192 collapse to transport only"
+        },
+        {
+          "execution_path": "BRIDGE",
+          "tool": "get_report",
+          "entry_point": "mcp_http_server.handle_call_tool",
+          "user_flow": "http_mcp_gateway",
+          "feature": "dashboard_export",
+          "count": 2,
+          "mutation_count": 0,
+          "path_type": "BRIDGE read command",
+          "risk": "Safe for correctness",
+          "truth_risk": "Medium (UI fragmentation)",
+          "migration_phase": "Phase A (collapse BRIDGE reads)",
+          "action": "Convert to MCP call \u2192 collapse to transport only"
+        },
+        {
+          "execution_path": "BRIDGE",
+          "tool": "get_system_health",
+          "entry_point": "mcp_http_server.handle_call_tool",
+          "user_flow": "http_mcp_gateway",
+          "feature": "dashboard_health_monitor",
+          "count": 2,
+          "mutation_count": 0,
+          "path_type": "BRIDGE read command",
+          "risk": "Safe for correctness",
+          "truth_risk": "Medium (UI fragmentation)",
+          "migration_phase": "Phase A (collapse BRIDGE reads)",
+          "action": "Convert to MCP call \u2192 collapse to transport only"
+        }
+      ],
+      "action": "Convert BRIDGE \u2192 MCP call, then bridge becomes transport-only",
+      "success_metric": "non_mcp_execution_rate for BRIDGE drops to 0"
+    },
+    "phase_b_cli_reads": {
+      "count": 1,
+      "priority": "MEDIUM (state fragmentation)",
+      "sources": [
+        {
+          "execution_path": "CLI",
+          "tool": "config",
+          "entry_point": "cli.main._dispatch_command",
+          "user_flow": "operator_cli",
+          "feature": "cli_config_management",
+          "count": 2,
+          "mutation_count": 0,
+          "path_type": "CLI read-only",
+          "risk": "Safe for correctness",
+          "truth_risk": "Medium (state fragmentation)",
+          "migration_phase": "Phase B (normalize CLI reads)",
+          "action": "Normalize into MCP audit model"
+        }
+      ],
+      "action": "Option 1: cli \u2192 MCP tool call | Option 2: mirror result into MCP audit model",
+      "success_metric": "CLI read execution path normalized or reflected in MCP audit"
+    },
+    "phase_c_mutations": {
+      "count": 0,
+      "priority": "CRITICAL (correctness)",
+      "sources": [],
+      "action": "Block all non-MCP mutations via ILLEGAL_MUTATION_PATH guardrail",
+      "success_metric": "mutation_leak_rate stays 0.0, ILLEGAL_MUTATION_PATH logs show 0 violations"
+    }
+  },
+  "details": {
+    "state_mutation_non_mcp": [],
+    "missing_terminal_request_ids": [],
+    "unknown_execution_path_entries": []
+  }
+}

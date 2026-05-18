@@ -1,0 +1,81 @@
+# === _handle_cognitive_status ===
+
+
+# === _handle_cognitive_reason ===
+
+
+# === _handle_cognitive_memory ===
+
+
+# === _handle_cognitive_strategic ===
+
+
+# === _handle_cognitive_set_mode ===
+
+
+# === _handle_cognitive_update_context ===
+
+
+# === _handle_cognitive_get_context ===
+
+
+# === _handle_cognitive_traces ===
+
+
+# === _handle_cognitive_trace_detail ===
+
+
+# === _handle_cognitive_cache_stats ===
+
+
+# === _handle_cognitive_clear_caches ===
+
+
+# === _handle_cognitive_context_health ===
+
+
+# === _handle_llm_chat_stream ===
+
+
+# === _handle_llm_feedback ===
+
+
+# === _handle_llm_history ===
+
+
+# === _handle_llm_clear_history ===
+
+
+# === _handle_llm_dedup ===
+
+
+# === _handle_payout_metrics ===
+
+
+# === _handle_payout_history ===
+
+
+# === _handle_payout_consistency ===
+
+
+# === _handle_payout_ttff ===
+
+
+# === _handle_payout_chains ===
+
+
+# === _handle_payout_submission ===
+
+
+# === _handle_scan_start ===
+
+
+# === _handle_scan_stop ===
+
+
+# === _handle_scan_status ===
+
+
+# === _handle_target_profile ===
+
+

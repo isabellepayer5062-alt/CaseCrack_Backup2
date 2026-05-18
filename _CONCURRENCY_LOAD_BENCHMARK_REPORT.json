@@ -1,0 +1,76 @@
+{
+  "verdict": "PASS",
+  "concurrency_honored": true,
+  "max_parallel_observed": 5,
+  "semaphore_limit": 5,
+  "duplicate_ids": 0,
+  "classification_correct": true,
+  "p95_latency_acceptable": true,
+  "p95_limit_ms": 500,
+  "blockers_proven": {
+    "LD-002": true,
+    "UI-003": true
+  },
+  "ramp_results": [
+    {
+      "concurrency": 10,
+      "total_calls": 10,
+      "total_ms": 27.3,
+      "outcomes": {
+        "ok": 6,
+        "error": 4
+      },
+      "max_parallel_observed": 5,
+      "p95_latency_ms": 15.99,
+      "p95_acceptable": true,
+      "semaphore_limit": 5,
+      "semaphore_respected": true
+    },
+    {
+      "concurrency": 50,
+      "total_calls": 50,
+      "total_ms": 156.6,
+      "outcomes": {
+        "ok": 30,
+        "error": 20
+      },
+      "max_parallel_observed": 5,
+      "p95_latency_ms": 15.97,
+      "p95_acceptable": true,
+      "semaphore_limit": 5,
+      "semaphore_respected": true
+    },
+    {
+      "concurrency": 100,
+      "total_calls": 100,
+      "total_ms": 308.5,
+      "outcomes": {
+        "ok": 60,
+        "error": 40
+      },
+      "max_parallel_observed": 5,
+      "p95_latency_ms": 16.06,
+      "p95_acceptable": true,
+      "semaphore_limit": 5,
+      "semaphore_respected": true
+    }
+  ],
+  "classification_result": {
+    "test": "classification_correctness",
+    "passed": true,
+    "violations": [],
+    "total_calls": 30,
+    "rate_limited": 6,
+    "license_denied": 6,
+    "successes": 18,
+    "unique_request_ids": 30
+  },
+  "ui_consistency_result": {
+    "test": "ui_consistency_burst",
+    "passed": true,
+    "violations": [],
+    "total_calls": 100,
+    "duplicate_ids_in_history": 0,
+    "state_regressions": 0
+  }
+}

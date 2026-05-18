@@ -1,0 +1,123 @@
+=== Scan Issue Report — 2026-05-03 02:05:17 ===
+
+[Fingerprinting & Technology] [stderr] [*]   Missing:       Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy, Cross-Origin-Embedder-Policy, Cross-Origin-Resource-Policy
+[JS Analysis & Source Maps] [stderr] [*]   Missing SRI:    5
+[Endpoint & Asset Discovery] [stderr] [!] [*] Timeout: 30.0s
+[URL Aggregation & Dorking] [stderr] [*] Timeout: 480.0s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 50/147 queries | 98 found | 0 errors | 0 rate-limits | 10.10 q/s ETA=0m09s
+[URL Aggregation & Dorking] [stderr] [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/collections/vendors?q=Sourced%20Locally
+[URL Aggregation & Dorking] [stderr] [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/collections/trolli-products
+[URL Aggregation & Dorking] [stderr] [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/collections/drink-mixes
+[URL Aggregation & Dorking] [stderr] [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/products/warhead-wedges-theatre-box
+[URL Aggregation & Dorking] [stderr] [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/products/snickers-butterscotch-scoop-share-size
+[URL Aggregation & Dorking] [stderr] [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/products/kool-aid-soda
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 101/147 queries | 191 found | 0 errors | 0 rate-limits | 10.14 q/s ETA=0m04s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 7.02 q/s ETA=0m05s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 5.26 q/s ETA=0m07s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 4.20 q/s ETA=0m09s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 3.50 q/s ETA=0m11s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 3.00 q/s ETA=0m13s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 2.62 q/s ETA=0m16s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 2.33 q/s ETA=0m18s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 2.10 q/s ETA=0m20s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.91 q/s ETA=0m22s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.75 q/s ETA=0m24s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.61 q/s ETA=0m26s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.50 q/s ETA=0m28s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.40 q/s ETA=0m30s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.31 q/s ETA=0m32s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.23 q/s ETA=0m34s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.17 q/s ETA=0m36s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.10 q/s ETA=0m38s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.05 q/s ETA=0m40s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.00 q/s ETA=0m42s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.95 q/s ETA=0m44s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.91 q/s ETA=0m46s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.87 q/s ETA=0m48s
+[Subdomain Discovery] [stderr] [*]   Cache hits (skipped): 5
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.84 q/s ETA=0m50s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.81 q/s ETA=0m52s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.78 q/s ETA=0m54s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.75 q/s ETA=0m56s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.72 q/s ETA=0m58s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.70 q/s ETA=1m00s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.68 q/s ETA=1m02s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.66 q/s ETA=1m04s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.64 q/s ETA=1m06s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.62 q/s ETA=1m08s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.60 q/s ETA=1m10s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.58 q/s ETA=1m12s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.57 q/s ETA=1m14s
+[URL Aggregation & Dorking] [stderr] [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.55 q/s ETA=1m16s
+[URL Aggregation & Dorking] [stderr] [*] Categories: admin-panels: 26 | api-endpoints: 28 | ci-cd-exposure: 6 | cloud-exposure: 5 | config-files: 3 | credentials: 34 | database: 20 | directory-listing: 5 | error-pages: 6 | file-exposure: 22 | login-pages: 7 | sensitive-docs: 29
+[DNS Security Testing] [stderr] [*]    Description: No TLSRPT record â€” not receiving TLS failure reports for email
+[Dashboard & Post-Scan Analysis] [status] Phase DEGRADED: Dashboard & Post-Scan Analysis
+
+
+=== SUMMARY: 52 issues found ===
+
+[DNS Security Testing] (1 issues):
+  • [*]    Description: No TLSRPT record â€” not receiving TLS failure reports for email
+
+[Dashboard & Post-Scan Analysis] (1 issues):
+  • Phase DEGRADED: Dashboard & Post-Scan Analysis
+
+[Endpoint & Asset Discovery] (1 issues):
+  • [!] [*] Timeout: 30.0s
+
+[Fingerprinting & Technology] (1 issues):
+  • [*]   Missing:       Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy, Cross-Origin-Embedder-Policy, Cross-Origin-Resource-Policy
+
+[JS Analysis & Source Maps] (1 issues):
+  • [*]   Missing SRI:    5
+
+[Subdomain Discovery] (1 issues):
+  • [*]   Cache hits (skipped): 5
+
+[URL Aggregation & Dorking] (46 issues):
+  • [*] Timeout: 480.0s
+  • [*] [dorking] 50/147 queries | 98 found | 0 errors | 0 rate-limits | 10.10 q/s ETA=0m09s
+  • [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/collections/vendors?q=Sourced%20Locally
+  • [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/collections/trolli-products
+  • [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/collections/drink-mixes
+  • [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/products/warhead-wedges-theatre-box
+  • [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/products/snickers-butterscotch-scoop-share-size
+  • [*]   [MEDIUM] PHP warning messages: https://sugarrushed.ca/products/kool-aid-soda
+  • [*] [dorking] 101/147 queries | 191 found | 0 errors | 0 rate-limits | 10.14 q/s ETA=0m04s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 7.02 q/s ETA=0m05s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 5.26 q/s ETA=0m07s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 4.20 q/s ETA=0m09s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 3.50 q/s ETA=0m11s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 3.00 q/s ETA=0m13s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 2.62 q/s ETA=0m16s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 2.33 q/s ETA=0m18s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 2.10 q/s ETA=0m20s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.91 q/s ETA=0m22s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.75 q/s ETA=0m24s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.61 q/s ETA=0m26s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.50 q/s ETA=0m28s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.40 q/s ETA=0m30s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.31 q/s ETA=0m32s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.23 q/s ETA=0m34s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.17 q/s ETA=0m36s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.10 q/s ETA=0m38s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.05 q/s ETA=0m40s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 1.00 q/s ETA=0m42s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.95 q/s ETA=0m44s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.91 q/s ETA=0m46s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.87 q/s ETA=0m48s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.84 q/s ETA=0m50s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.81 q/s ETA=0m52s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.78 q/s ETA=0m54s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.75 q/s ETA=0m56s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.72 q/s ETA=0m58s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.70 q/s ETA=1m00s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.68 q/s ETA=1m02s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.66 q/s ETA=1m04s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.64 q/s ETA=1m06s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.62 q/s ETA=1m08s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.60 q/s ETA=1m10s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.58 q/s ETA=1m12s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.57 q/s ETA=1m14s
+  • [*] [dorking] 105/147 queries | 191 found | 0 errors | 0 rate-limits | 0.55 q/s ETA=1m16s
+  • [*] Categories: admin-panels: 26 | api-endpoints: 28 | ci-cd-exposure: 6 | cloud-exposure: 5 | config-files: 3 | credentials: 34 | database: 20 | directory-listing: 5 | error-pages: 6 | file-exposure:

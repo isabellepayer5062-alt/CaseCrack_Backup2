@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "total_dangling": 209,
+    "fixable_renames": 1,
+    "guardable": 2,
+    "from_dead_modules": 27,
+    "already_guarded": 14
+  },
+  "fixes": [
+    {
+      "file": "tools\\burp_enterprise\\graph\\multi_agent\\specialist_nodes.py",
+      "line": 360,
+      "action": "guard",
+      "missing": "tools.burp_enterprise.graph.agents.agent_loop",
+      "target": null
+    },
+    {
+      "file": "tools\\burp_enterprise\\mcp\\mcp_server.py",
+      "line": 783,
+      "action": "guard",
+      "missing": "tools.burp_enterprise.mcp.tool_wrappers._base",
+      "target": null
+    },
+    {
+      "file": "tools\\burp_enterprise\\persistent_agent.py",
+      "line": 1480,
+      "action": "rename",
+      "missing": "tools.llm_bridge",
+      "target": "tools.burp_enterprise.agents.llm_bridge"
+    }
+  ],
+  "applied_log": [
+    "GUARD  tools\\burp_enterprise\\graph\\multi_agent\\specialist_nodes.py:360 \u2014 tools.burp_enterprise.graph.agents.agent_loop",
+    "GUARD  tools\\burp_enterprise\\mcp\\mcp_server.py:783 \u2014 tools.burp_enterprise.mcp.tool_wrappers._base",
+    "RENAME tools\\burp_enterprise\\persistent_agent.py:1480 \u2014 tools.llm_bridge \u2192 tools.burp_enterprise.agents.llm_bridge"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "verdict": "PASS",
+  "duration_seconds": 10,
+  "config": {
+    "tool_name": "get_report",
+    "saturation_workers": 6,
+    "saturation_rps_per_worker": 4.0,
+    "dedup_workers": 2,
+    "dedup_rps_per_worker": 2.0,
+    "pause_jitter_ms": 1,
+    "rate_burst": 2.0,
+    "rate_refill": 0.2,
+    "high_cost_extra_tokens": 9.0
+  },
+  "traffic": {
+    "total_calls": 400,
+    "ok_calls": 0,
+    "error_calls": 400,
+    "rate_limited_responses": 400,
+    "duplicate_request_responses": 0,
+    "dedup_attempts": 160,
+    "dedup_return_matches": 160,
+    "saturation_lane": {
+      "sent": 240,
+      "rate_limited": 240,
+      "duplicate_request": 0,
+      "errors": 240
+    },
+    "dedup_lane": {
+      "sent": 160,
+      "rate_limited": 160,
+      "duplicate_request": 0,
+      "errors": 160
+    },
+    "metrics_requests_total": 277,
+    "metrics_rate_limited_total": 277,
+    "metrics_request_id_dedup_hits": 123
+  },
+  "separation_proof": {
+    "assert_rate_limited_positive": true,
+    "assert_dedup_positive": true,
+    "assert_saturation_not_dedup_only": true,
+    "rate_limited_on_uncached_lane": 240,
+    "request_id_dedup_hits_total": 123
+  }
+}

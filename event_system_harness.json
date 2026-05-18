@@ -1,0 +1,514 @@
+{
+  "summary": {
+    "critical": 0,
+    "warnings": 24,
+    "info": 24,
+    "event_types_emitted": 26,
+    "event_types_listened": 26
+  },
+  "emitters": {
+    "goal.progress": [
+      "tools\\burp_enterprise\\decision_orchestrator.py:2702"
+    ],
+    "decision.outcome_recorded": [
+      "tools\\burp_enterprise\\decision_orchestrator.py:2457"
+    ],
+    "goal.intensity_reduced": [
+      "tools\\burp_enterprise\\decision_orchestrator.py:2730"
+    ],
+    "goal.achieved": [
+      "tools\\burp_enterprise\\decision_orchestrator.py:2747"
+    ],
+    "objective.changed": [
+      "tools\\burp_enterprise\\objective_engine.py:674"
+    ],
+    "stealth.defense_detected": [
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1431",
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1458",
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1486"
+    ],
+    "stealth.tool_gated": [
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1626"
+    ],
+    "stealth.heat_escalated": [
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1645"
+    ],
+    "cognitive.copilot_reasoning": [
+      "tools\\burp_enterprise\\agents\\cognitive_bridge.py:1312"
+    ],
+    "sdk.finding.discovered": [
+      "tools\\burp_enterprise\\agents\\copilot_sdk_engine.py:1519"
+    ],
+    "domain_vertical_detected": [
+      "tools\\burp_enterprise\\agents\\domain_knowledge_engine.py:504"
+    ],
+    "reasoning.trace.completed": [
+      "tools\\burp_enterprise\\agents\\reasoning_engine.py:1578"
+    ],
+    "streaming.schema_progress": [
+      "tools\\burp_enterprise\\agents\\streaming_structured.py:560"
+    ],
+    "streaming.schema_complete": [
+      "tools\\burp_enterprise\\agents\\streaming_structured.py:585"
+    ],
+    "finding.verdict": [
+      "tools\\burp_enterprise\\agents\\unified_arbitration.py:894"
+    ],
+    "graph.position.updated": [
+      "tools\\burp_enterprise\\exploit_chains\\exploit_graph.py:1091"
+    ],
+    "loop.started": [
+      "tools\\burp_enterprise\\loop\\autonomous_loop.py:711"
+    ],
+    "loop.completed": [
+      "tools\\burp_enterprise\\loop\\autonomous_loop.py:873"
+    ],
+    "finding.discovered": [
+      "tools\\burp_enterprise\\loop\\autonomous_loop.py:2355"
+    ],
+    "decision.explanation": [
+      "tools\\burp_enterprise\\loop\\autonomous_loop.py:1624"
+    ],
+    "mcp.tool.completed": [
+      "tools\\burp_enterprise\\mcp\\mcp_server.py:722",
+      "tools\\burp_enterprise\\mcp\\mcp_server.py:739"
+    ],
+    "system.resource.snapshot": [
+      "tools\\burp_enterprise\\pipeline\\resource_monitor.py:416"
+    ],
+    "finding.batch_stored": [
+      "tools\\burp_enterprise\\recon_dashboard\\findings_store.py:332"
+    ],
+    "finding.status_changed": [
+      "tools\\burp_enterprise\\recon_dashboard\\multi_request_validator.py:422"
+    ],
+    "vuln.detected": [
+      "tools\\burp_enterprise\\swarm\\swarm.py:591"
+    ],
+    "multi_agent_complete": [
+      "tools\\burp_enterprise\\graph\\multi_agent\\builder.py:272"
+    ]
+  },
+  "listeners": {
+    "stealth.heat_escalated": [
+      "tools\\burp_enterprise\\decision_orchestrator.py:1182"
+    ],
+    "finding.verdict": [
+      "tools\\burp_enterprise\\decision_orchestrator.py:1189"
+    ],
+    "recon.vuln.*": [
+      "tools\\burp_enterprise\\event_bus.py:1884",
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2226"
+    ],
+    "recon.secret.*": [
+      "tools\\burp_enterprise\\event_bus.py:1887",
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2232"
+    ],
+    "recon.error.*": [
+      "tools\\burp_enterprise\\event_bus.py:1890"
+    ],
+    "module.*": [
+      "tools\\burp_enterprise\\event_bus.py:1895",
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2241"
+    ],
+    "goal.*": [
+      "tools\\burp_enterprise\\event_bus.py:1911"
+    ],
+    "system.resource.*": [
+      "tools\\burp_enterprise\\event_bus.py:1914"
+    ],
+    "atlas.*": [
+      "tools\\burp_enterprise\\event_bus.py:1919"
+    ],
+    "learning.*": [
+      "tools\\burp_enterprise\\event_bus.py:1923"
+    ],
+    "defense.waf.detected": [
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1353"
+    ],
+    "defense.rate_limit.detected": [
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1354"
+    ],
+    "defense.bot.challenge": [
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1355"
+    ],
+    "system.rate_limited": [
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1356"
+    ],
+    "system.error": [
+      "tools\\burp_enterprise\\stealth_orchestrator.py:1357"
+    ],
+    "recon.vuln.detected": [
+      "tools\\burp_enterprise\\recon_dashboard\\attack_strategy_engine.py:570",
+      "tools\\burp_enterprise\\recon_dashboard\\chain_execution_loop.py:699"
+    ],
+    "*": [
+      "tools\\burp_enterprise\\recon_dashboard\\event_bridge.py:150"
+    ],
+    "objective.changed": [
+      "tools\\burp_enterprise\\recon_dashboard\\runner.py:7108"
+    ],
+    "recon.tech.*": [
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2229"
+    ],
+    "recon.subdomain.*": [
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2235"
+    ],
+    "recon.endpoint.*": [
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2238"
+    ],
+    "recon.scan.*": [
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2244"
+    ],
+    "graph.state.changed": [
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2249"
+    ],
+    "graph.transition.confirmed": [
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2256"
+    ],
+    "atlas.archetype.matched": [
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2264"
+    ],
+    "atlas.strategy.recommended": [
+      "tools\\burp_enterprise\\scanners\\scan_intelligence.py:2271"
+    ]
+  },
+  "issues": [
+    {
+      "severity": "WARNING",
+      "category": "deprecated_api",
+      "file": "tools\\burp_enterprise\\pipeline\\enterprise_scale_executor.py",
+      "line": 498,
+      "message": "Uses deprecated .subscribe() on 'event_bus' \u2014 should use canonical API"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\decision_orchestrator.py",
+      "line": 2702,
+      "message": "Event 'goal.progress' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\decision_orchestrator.py",
+      "line": 2457,
+      "message": "Event 'decision.outcome_recorded' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\decision_orchestrator.py",
+      "line": 2730,
+      "message": "Event 'goal.intensity_reduced' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\decision_orchestrator.py",
+      "line": 2747,
+      "message": "Event 'goal.achieved' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\stealth_orchestrator.py",
+      "line": 1431,
+      "message": "Event 'stealth.defense_detected' is emitted (3 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\stealth_orchestrator.py",
+      "line": 1626,
+      "message": "Event 'stealth.tool_gated' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\agents\\cognitive_bridge.py",
+      "line": 1312,
+      "message": "Event 'cognitive.copilot_reasoning' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\agents\\copilot_sdk_engine.py",
+      "line": 1519,
+      "message": "Event 'sdk.finding.discovered' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\agents\\domain_knowledge_engine.py",
+      "line": 504,
+      "message": "Event 'domain_vertical_detected' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\agents\\reasoning_engine.py",
+      "line": 1578,
+      "message": "Event 'reasoning.trace.completed' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\agents\\streaming_structured.py",
+      "line": 560,
+      "message": "Event 'streaming.schema_progress' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\agents\\streaming_structured.py",
+      "line": 585,
+      "message": "Event 'streaming.schema_complete' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\exploit_chains\\exploit_graph.py",
+      "line": 1091,
+      "message": "Event 'graph.position.updated' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\loop\\autonomous_loop.py",
+      "line": 711,
+      "message": "Event 'loop.started' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\loop\\autonomous_loop.py",
+      "line": 873,
+      "message": "Event 'loop.completed' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\loop\\autonomous_loop.py",
+      "line": 2355,
+      "message": "Event 'finding.discovered' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\loop\\autonomous_loop.py",
+      "line": 1624,
+      "message": "Event 'decision.explanation' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\mcp\\mcp_server.py",
+      "line": 722,
+      "message": "Event 'mcp.tool.completed' is emitted (2 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\pipeline\\resource_monitor.py",
+      "line": 416,
+      "message": "Event 'system.resource.snapshot' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\recon_dashboard\\findings_store.py",
+      "line": 332,
+      "message": "Event 'finding.batch_stored' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\recon_dashboard\\multi_request_validator.py",
+      "line": 422,
+      "message": "Event 'finding.status_changed' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\swarm\\swarm.py",
+      "line": 591,
+      "message": "Event 'vuln.detected' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "INFO",
+      "category": "phantom_event",
+      "file": "tools\\burp_enterprise\\graph\\multi_agent\\builder.py",
+      "line": 272,
+      "message": "Event 'multi_agent_complete' is emitted (1 locations) but has no .on() listeners"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\event_bus.py",
+      "line": 1884,
+      "message": "Listener for 'recon.vuln.*' registered (2 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\event_bus.py",
+      "line": 1887,
+      "message": "Listener for 'recon.secret.*' registered (2 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\event_bus.py",
+      "line": 1890,
+      "message": "Listener for 'recon.error.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\event_bus.py",
+      "line": 1895,
+      "message": "Listener for 'module.*' registered (2 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\event_bus.py",
+      "line": 1911,
+      "message": "Listener for 'goal.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\event_bus.py",
+      "line": 1914,
+      "message": "Listener for 'system.resource.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\event_bus.py",
+      "line": 1919,
+      "message": "Listener for 'atlas.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\event_bus.py",
+      "line": 1923,
+      "message": "Listener for 'learning.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\stealth_orchestrator.py",
+      "line": 1353,
+      "message": "Listener for 'defense.waf.detected' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\stealth_orchestrator.py",
+      "line": 1354,
+      "message": "Listener for 'defense.rate_limit.detected' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\stealth_orchestrator.py",
+      "line": 1355,
+      "message": "Listener for 'defense.bot.challenge' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\stealth_orchestrator.py",
+      "line": 1356,
+      "message": "Listener for 'system.rate_limited' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\stealth_orchestrator.py",
+      "line": 1357,
+      "message": "Listener for 'system.error' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\recon_dashboard\\attack_strategy_engine.py",
+      "line": 570,
+      "message": "Listener for 'recon.vuln.detected' registered (2 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\recon_dashboard\\event_bridge.py",
+      "line": 150,
+      "message": "Listener for '*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "line": 2229,
+      "message": "Listener for 'recon.tech.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "line": 2235,
+      "message": "Listener for 'recon.subdomain.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "line": 2238,
+      "message": "Listener for 'recon.endpoint.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "line": 2244,
+      "message": "Listener for 'recon.scan.*' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "line": 2249,
+      "message": "Listener for 'graph.state.changed' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "line": 2256,
+      "message": "Listener for 'graph.transition.confirmed' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "line": 2264,
+      "message": "Listener for 'atlas.archetype.matched' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "WARNING",
+      "category": "orphan_listener",
+      "file": "tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "line": 2271,
+      "message": "Listener for 'atlas.strategy.recommended' registered (1 locations) but event is never emitted"
+    },
+    {
+      "severity": "INFO",
+      "category": "enum_stats",
+      "file": "event_bus.py",
+      "line": 0,
+      "message": "BusEventType enum has 67 defined event types"
+    }
+  ]
+}

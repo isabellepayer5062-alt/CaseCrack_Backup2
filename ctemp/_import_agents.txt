@@ -1,0 +1,275 @@
+﻿========== AGENTS/ ==========
+
+=== agents/ab_testing.py ===
+
+=== agents/adaptive_learning.py ===
+from .db_registry import T, get_agent_db
+
+=== agents/agent_loop.py ===
+from .db_manager import DatabaseManager  # noqa: F401  ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â @patch target in tests
+from .db_registry import T, get_agent_db
+
+=== agents/agent_memory.py ===
+from .db_registry import Tables as T
+from .db_registry import get_agent_db
+
+=== agents/agent_sessions.py ===
+from .logging_config import logger
+
+=== agents/agent_telemetry.py ===
+
+=== agents/atlas.py ===
+
+=== agents/attack_reasoning.py ===
+
+=== agents/auth_context.py ===
+
+=== agents/autonomous_exploitation.py ===
+
+=== agents/autonomy.py ===
+
+=== agents/bayesian_prioritizer.py ===
+from .logging_config import logger
+from ._safe_parse import safe_json_load_file
+
+=== agents/browser_workflow_extractor.py ===
+
+=== agents/business_logic_scanner.py ===
+
+=== agents/caap_formatter.py ===
+
+=== agents/chain.py ===
+
+=== agents/chain_impact_scorer.py ===
+
+=== agents/chain_resolver.py ===
+
+=== agents/cognitive_bridge.py ===
+from .db_registry import T, get_agent_db
+
+=== agents/collaborative_intelligence.py ===
+from .db_registry import T, get_intel_db
+
+=== agents/copilot.py ===
+from ..logging_config import logger  # noqa: E402
+
+=== agents/copilot_loop.py ===
+from .autonomy import auto_approve_set, level_name, resolve_autonomy, should_pause_on_critical
+from .platforms import detect as detect_platform
+from .reasoning_display import ReasoningDisplay
+from .reasoning_engine import ReasoningConfig, ReasoningEngine
+from .strategy_engine import PLATFORM_ATTACK_PROFILES, StrategyEngine
+from .telemetry import set_attribute
+from .telemetry import span as otel_span
+
+=== agents/copilot_reasoning.py ===
+from .vuln_knowledge import (
+
+=== agents/copilot_sdk_agents.py ===
+
+=== agents/copilot_sdk_discovery_tools.py ===
+from .copilot_sdk_tools import HAS_COPILOT_SDK, _enum_val, _json_result, _run_sync
+
+=== agents/copilot_sdk_engine.py ===
+
+=== agents/copilot_sdk_exploit_cloud_tools.py ===
+from .copilot_sdk_tools import HAS_COPILOT_SDK, _enum_val, _json_result, _run_sync
+
+=== agents/copilot_sdk_infra_tools.py ===
+from .copilot_sdk_tools import HAS_COPILOT_SDK, _enum_val, _json_result, _run_sync
+
+=== agents/copilot_sdk_intel_tools.py ===
+from .copilot_sdk_tools import HAS_COPILOT_SDK, _enum_val, _json_result, _run_sync
+
+=== agents/copilot_sdk_tools.py ===
+
+=== agents/copilot_sdk_tool_registry.py ===
+
+=== agents/copilot_sdk_vuln_tools.py ===
+from .copilot_sdk_tools import HAS_COPILOT_SDK, _enum_val, _json_result, _run_sync
+
+=== agents/core.py ===
+
+=== agents/crawler.py ===
+
+=== agents/crawl_secrets_pipeline.py ===
+
+=== agents/creative_exploit_heuristics.py ===
+
+=== agents/db_manager.py ===
+
+=== agents/db_registry.py ===
+
+=== agents/discovery_bridge.py ===
+
+=== agents/domain_knowledge_engine.py ===
+
+=== agents/doubt_injector.py ===
+
+=== agents/environmental_adaptation.py ===
+
+=== agents/evolutionary_fuzzer.py ===
+
+=== agents/exceptions.py ===
+
+=== agents/exploitation_engine.py ===
+
+=== agents/exploit_graph.py ===
+
+=== agents/feedback_learning.py ===
+
+=== agents/finding_dedup.py ===
+
+=== agents/fuzzer.py ===
+
+=== agents/goal_planner.py ===
+from .db_registry import T, get_agent_db
+
+=== agents/hierarchical_planner.py ===
+from .db_registry import T, get_agent_db
+
+=== agents/http_client.py ===
+
+=== agents/init_wizard.py ===
+
+=== agents/llm_adaptive.py ===
+from .db_registry import get_agent_db
+
+=== agents/llm_advanced_defense.py ===
+
+=== agents/llm_bridge.py ===
+from .db_registry import T, get_agent_db
+from .exceptions import AuthenticationError, DependencyError, LLMError, LLMTimeoutError, LLMBudgetError, LLMQualityError, RateLimitError
+from .llm_types import (
+from .llm_cache import ResponseCache, ChainCache
+from .llm_cache import ResponseCache as _SQLiteResponseCache, ChainCache as _SQLiteChainCache
+from .llm_clients import (
+from .llm_routing import ModelRouter, compress_prompt, LLMRequestQueue, LLMPriority
+from .llm_hardware_adapter import (
+from .llm_tracking import CostTracker, QualityScorer
+from .feedback_learning import FeedbackLearningEngine, get_feedback_engine
+from .streaming_structured import (
+from .llm_adaptive import (
+from .llm_production import (
+from .llm_ops import (
+from .ab_testing import (
+from .llm_tracing import LLMTracer, get_tracer
+
+=== agents/llm_cache.py ===
+from .db_registry import T, get_agent_db
+from .llm_types import CacheStrategy, LLMResponse
+
+=== agents/llm_clients.py ===
+from .exceptions import AuthenticationError, DependencyError, RateLimitError
+from .llm_types import (
+
+=== agents/llm_defense_hardening.py ===
+
+=== agents/llm_hardware_adapter.py ===
+
+=== agents/llm_intelligence.py ===
+from .prompt_security import sanitize_untrusted_text, wrap_untrusted
+
+=== agents/llm_ops.py ===
+
+=== agents/llm_output_guard.py ===
+
+=== agents/llm_production.py ===
+from .db_registry import get_agent_db
+
+=== agents/llm_registry.py ===
+
+=== agents/llm_routing.py ===
+from .llm_types import LLMConfig, LLMProvider, PROVIDER_DEFAULT_MODELS
+from .llm_clients import BaseLLMClient, create_client
+from .llm_hardware_adapter import (
+
+=== agents/llm_shutdown.py ===
+
+=== agents/llm_tracing.py ===
+
+=== agents/llm_tracking.py ===
+from .db_registry import T, get_agent_db
+from .exceptions import LLMBudgetError, RateLimitError
+from .llm_types import LLMConfig, LLMResponse
+
+=== agents/llm_types.py ===
+
+=== agents/logging_config.py ===
+
+=== agents/long_running_orchestrator.py ===
+
+=== agents/native_tool_calling.py ===
+
+=== agents/next_action_advisor.py ===
+
+=== agents/nl_translator.py ===
+from .logging_config import logger
+
+=== agents/opportunity_scoring.py ===
+
+=== agents/payload_intelligence.py ===
+
+=== agents/planner_bridge.py ===
+
+=== agents/platforms.py ===
+
+=== agents/proactive_intelligence.py ===
+
+=== agents/prompt_security.py ===
+
+=== agents/race_harness.py ===
+
+=== agents/rag_context.py ===
+
+=== agents/reasoning_display.py ===
+
+=== agents/reasoning_engine.py ===
+from .db_registry import T, get_agent_db
+
+=== agents/redis_cache.py ===
+
+=== agents/reporter.py ===
+
+=== agents/reverse_analytics.py ===
+
+=== agents/risk_aware_testing.py ===
+from .db_registry import T, get_intel_db
+
+=== agents/rl_reward_engine.py ===
+
+=== agents/role_registry.py ===
+
+=== agents/session_manager.py ===
+
+=== agents/session_state_manager.py ===
+
+=== agents/source_code_search.py ===
+
+=== agents/state_graph.py ===
+
+=== agents/strategy_engine.py ===
+
+=== agents/streaming_structured.py ===
+
+=== agents/telemetry.py ===
+
+=== agents/ui_interaction_engine.py ===
+
+=== agents/unified_agent.py ===
+from .db_registry import T, get_agent_db
+
+=== agents/unified_arbitration.py ===
+
+=== agents/vulnerability_intelligence.py ===
+
+=== agents/vuln_knowledge.py ===
+
+=== agents/waf.py ===
+
+=== agents/workflow_modeler.py ===
+
+=== agents/_safe_parse.py ===
+
+=== agents/__init__.py ===
+

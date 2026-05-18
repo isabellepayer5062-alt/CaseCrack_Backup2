@@ -1,0 +1,611 @@
+[
+  {
+    "subsystem": "agents",
+    "module": "agents.advanced_agent_patterns",
+    "score": 85,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "FuseState",
+      "FuseCircuit",
+      "ResolveOnceGuard"
+    ]
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.cross_target_intelligence",
+    "score": 85,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "CrossTargetMemory"
+    ]
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.phase_handlers.intelligence",
+    "score": 75,
+    "exists": true,
+    "loc": 613,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": []
+  },
+  {
+    "subsystem": "exploit_chains",
+    "module": "exploit_chains.manual_audit_engine",
+    "score": 72,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "DecisionSnapshot",
+      "InterestType",
+      "WalkedDecision"
+    ]
+  },
+  {
+    "subsystem": "agents",
+    "module": "agents.advanced_orchestration",
+    "score": 70,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "EscalationStage",
+      "EscalationRecord",
+      "OutputSlotReservation"
+    ]
+  },
+  {
+    "subsystem": "agents",
+    "module": "agents.deterministic_replay",
+    "score": 70,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "DecisionRNG",
+      "DecisionFrame",
+      "JournalSnapshot"
+    ]
+  },
+  {
+    "subsystem": "database",
+    "module": "database.data_migration",
+    "score": 65,
+    "exists": true,
+    "loc": 327,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "MigrationEngine",
+      "MigrationReport",
+      "TableMigrationResult"
+    ]
+  },
+  {
+    "subsystem": "graph",
+    "module": "graph.multi_agent.tests.test_multi_agent",
+    "score": 65,
+    "exists": true,
+    "loc": 573,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_intelligence_experience",
+    "score": 65,
+    "exists": true,
+    "loc": 380,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_persistent_agent",
+    "score": 65,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.target_scoring",
+    "score": 65,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "ExploitPath",
+      "TargetScore",
+      "CampaignBudget"
+    ]
+  },
+  {
+    "subsystem": "exploitation",
+    "module": "exploitation.engine",
+    "score": 62,
+    "exists": true,
+    "loc": 722,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "ExploitationEngine"
+    ]
+  },
+  {
+    "subsystem": "swarm",
+    "module": "swarm.multi_gpu.messenger",
+    "score": 62,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "TransportType",
+      "RouteStatus",
+      "DeliveryStatus"
+    ]
+  },
+  {
+    "subsystem": "swarm",
+    "module": "swarm.multi_gpu.model_sharder",
+    "score": 62,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "ShardStrategy",
+      "ShardStatus",
+      "LayerAssignment"
+    ]
+  },
+  {
+    "subsystem": "swarm",
+    "module": "swarm.multi_gpu.scheduler",
+    "score": 62,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "PlacementStrategy",
+      "MigrationReason",
+      "AgentPlacement"
+    ]
+  },
+  {
+    "subsystem": "swarm",
+    "module": "swarm.multi_gpu.topology",
+    "score": 62,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "InterconnectType",
+      "GPUHealth",
+      "GPUDevice"
+    ]
+  },
+  {
+    "subsystem": "agents",
+    "module": "agents.conflict_arbitration",
+    "score": 60,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "ConflictType",
+      "ScanMode",
+      "Winner"
+    ]
+  },
+  {
+    "subsystem": "agents",
+    "module": "agents.fork_spawn",
+    "score": 60,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "AgentOrigin",
+      "SpawnOutcome",
+      "CoordinatorPhase"
+    ]
+  },
+  {
+    "subsystem": "agents",
+    "module": "agents.role_registry",
+    "score": 60,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "RoleID",
+      "TemperatureArchetype",
+      "RoleMetadata"
+    ]
+  },
+  {
+    "subsystem": "agents",
+    "module": "agents.speculative_executor",
+    "score": 60,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "SpeculationStatus",
+      "SpeculationOutcome",
+      "OverlayContext"
+    ]
+  },
+  {
+    "subsystem": "graph",
+    "module": "graph.production",
+    "score": 60,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "HealthStatus",
+      "GraphHealthCheck",
+      "GraphCircuitBreaker"
+    ]
+  },
+  {
+    "subsystem": "swarm",
+    "module": "swarm.multi_gpu.governor",
+    "score": 57,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "MultiGPUState",
+      "MultiGPUConfig",
+      "MultiGPUSummary"
+    ]
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_agent",
+    "score": 55,
+    "exists": true,
+    "loc": 376,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_multi_agent",
+    "score": 55,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "exploitation",
+    "module": "exploitation.chains",
+    "score": 52,
+    "exists": true,
+    "loc": 376,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "AttackChainExecutor"
+    ]
+  },
+  {
+    "subsystem": "exploitation",
+    "module": "exploitation.impact",
+    "score": 52,
+    "exists": true,
+    "loc": 702,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "ImpactDemonstrator"
+    ]
+  },
+  {
+    "subsystem": "inference",
+    "module": "inference.kv_cache",
+    "score": 50,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "KVQuantType",
+      "KVCacheConfig",
+      "ModelArchInfo"
+    ]
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.phase_handlers.advanced",
+    "score": 50,
+    "exists": true,
+    "loc": 1424,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.phase_handlers.discovery",
+    "score": 50,
+    "exists": true,
+    "loc": 724,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.phase_handlers.security_testing",
+    "score": 50,
+    "exists": true,
+    "loc": 1444,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_assessment",
+    "score": 50,
+    "exists": true,
+    "loc": 270,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_cross_target",
+    "score": 50,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_exploit_graph",
+    "score": 50,
+    "exists": true,
+    "loc": 290,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_target_scoring",
+    "score": 50,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.state_serializers",
+    "score": 50,
+    "exists": true,
+    "loc": 753,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_reasoning",
+    "score": 48,
+    "exists": true,
+    "loc": 225,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "core_infra",
+    "module": "core_infra.chaos_testing_v2",
+    "score": 47,
+    "exists": true,
+    "loc": 1287,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "FaultType",
+      "FaultOutcome",
+      "ChaosConfig"
+    ]
+  },
+  {
+    "subsystem": "osint_providers",
+    "module": "osint_providers.netintel_client",
+    "score": 47,
+    "exists": true,
+    "loc": 753,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "NetIntelClient"
+    ]
+  },
+  {
+    "subsystem": "osint_providers",
+    "module": "osint_providers.schemas",
+    "score": 47,
+    "exists": true,
+    "loc": 428,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "CrtshEntry",
+      "InternetDBResponse",
+      "BGPViewIP"
+    ]
+  },
+  {
+    "subsystem": "__root__",
+    "module": "adversarial_validation_agent",
+    "score": 45,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "ChallengeVerdict",
+      "ProbeType",
+      "RationalizationPattern"
+    ]
+  },
+  {
+    "subsystem": "intel",
+    "module": "intel.github_client_base",
+    "score": 45,
+    "exists": true,
+    "loc": 148,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "BaseGitHubClient",
+      "_SearchRateLimiter"
+    ]
+  },
+  {
+    "subsystem": "__root__",
+    "module": "knowledge_resilience",
+    "score": 45,
+    "exists": true,
+    "loc": 1410,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "FederationManifest",
+      "KnowledgeFederation",
+      "FlywheelGuard"
+    ]
+  },
+  {
+    "subsystem": "__root__",
+    "module": "strategy_horizon_optimizer",
+    "score": 45,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "ArcState",
+      "DependencyType",
+      "ResourcePoolPolicy"
+    ]
+  },
+  {
+    "subsystem": "__root__",
+    "module": "validation_fleet",
+    "score": 45,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": [
+      "ConsensusVerdict",
+      "ValidatorType",
+      "IndividualVerdict"
+    ]
+  },
+  {
+    "subsystem": "tool_wrappers",
+    "module": "tool_wrappers._evidence",
+    "score": 43,
+    "exists": true,
+    "loc": 128,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": []
+  },
+  {
+    "subsystem": "cli",
+    "module": "cli.daemon",
+    "score": 40,
+    "exists": true,
+    "loc": 495,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "StreamingWriter"
+    ]
+  },
+  {
+    "subsystem": "discovery_pkg",
+    "module": "discovery_pkg.subdomain_external",
+    "score": 40,
+    "exists": true,
+    "loc": 328,
+    "init_exists": true,
+    "init_has_ref": true,
+    "api": [
+      "ExternalToolResult"
+    ]
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.infra_monitor",
+    "score": 40,
+    "exists": true,
+    "loc": 438,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.routes_operator",
+    "score": 40,
+    "exists": false,
+    "loc": 0,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  },
+  {
+    "subsystem": "recon_dashboard",
+    "module": "recon_dashboard.session_store",
+    "score": 40,
+    "exists": true,
+    "loc": 263,
+    "init_exists": true,
+    "init_has_ref": false,
+    "api": []
+  }
+]

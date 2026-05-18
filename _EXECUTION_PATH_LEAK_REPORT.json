@@ -1,0 +1,15 @@
+{
+  "execution_path_leak_validation": "PASS",
+  "audit_path": "C:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\mcp_audit.jsonl",
+  "entries_checked": 4,
+  "missing_request_ids": 0,
+  "unknown_execution_paths": 0,
+  "state_mutation_non_mcp": 0,
+  "missing_terminal_events": 0,
+  "malformed_lines": 0,
+  "details": {
+    "state_mutation_non_mcp": [],
+    "missing_terminal_request_ids": [],
+    "unknown_execution_path_entries": []
+  }
+}

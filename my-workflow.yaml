@@ -1,0 +1,23 @@
+name: my-workflow
+description: Custom attack chain workflow
+version: "1.0"
+author: Security Researcher
+tags: [custom]
+
+variables:
+  target: "{{target}}"
+
+steps:
+  - name: initial_request
+    action: request
+    params:
+      url: "{{target}}"
+      method: GET
+    extract:
+      response_body: body
+      status_code: status_code
+
+  - name: log_result
+    action: log
+    params:
+      message: "Initial request returned status {{status_code}}"

@@ -1,0 +1,54 @@
+{
+  "verdict": "PASS",
+  "duration_minutes": 25,
+  "elapsed_seconds": 1774,
+  "workers": 35,
+  "pause_ms": 2,
+  "traffic": {
+    "total_calls": 75,
+    "ok_calls": 72,
+    "error_calls": 3,
+    "dedup_attempts": 8,
+    "dedup_return_matches": 8,
+    "rate_limited_responses": 0,
+    "metrics_requests_total": 67,
+    "metrics_rate_limited_total": 0,
+    "metrics_request_id_dedup_hits": 1
+  },
+  "ratios": {
+    "rate_limited_outcome_ratio": 0.0,
+    "request_id_dedup_hit_ratio": 0.014925
+  },
+  "audit_rotation": {
+    "audit_path": "C:\\Users\\ya754\\CaseCrack v1.0\\mcp_audit.jsonl",
+    "files_kept": 3,
+    "rotations_observed": 2,
+    "rotation_frequency_per_hour": 4.059,
+    "retained_horizon_seconds": 9143.224,
+    "retained_horizon_minutes": 152.387,
+    "files": [
+      {
+        "path": "C:\\Users\\ya754\\CaseCrack v1.0\\mcp_audit.jsonl",
+        "size_bytes": 9702,
+        "mtime_epoch": 1777165719.919018
+      },
+      {
+        "path": "C:\\Users\\ya754\\CaseCrack v1.0\\mcp_audit.jsonl.1",
+        "size_bytes": 16229,
+        "mtime_epoch": 1777165511.125332
+      },
+      {
+        "path": "C:\\Users\\ya754\\CaseCrack v1.0\\mcp_audit.jsonl.2",
+        "size_bytes": 54913,
+        "mtime_epoch": 1777156576.6952662
+      }
+    ]
+  },
+  "env": {
+    "MCP_AUDIT_MAX_BYTES": "16384",
+    "MCP_AUDIT_BACKUP_COUNT": "10",
+    "MCP_RATE_BURST": "2",
+    "MCP_RATE_REFILL": "0.05",
+    "MCP_REQUEST_RESULT_TTL_SECONDS": ""
+  }
+}

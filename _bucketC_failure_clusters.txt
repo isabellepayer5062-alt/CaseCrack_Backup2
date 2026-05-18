@@ -1,0 +1,59 @@
+﻿Total test-bodies: 100
+
+=== FAILURE CLUSTERS ===
+[  9] AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+[  8] TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+[  5] TypeError: GenericNDJSONParser() takes no arguments
+[  5] AttributeError: 'NoneType' object has no attribute '_availability_cache'
+[  4] TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+[  3] KeyError: 'tool_registry'
+[  3] TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+[  2] TypeError: GhauriParser.parse() missing 1 required positional argument: 'ctx'
+[  2] TypeError: JsluiceParser.parse() missing 1 required positional argument: 'ctx'
+[  2] TypeError: SqlmapParser.parse() missing 1 required positional argument: 'ctx'
+[  2] TypeError: NmapParser.parse() missing 1 required positional argument: 'ctx'
+[  2] TypeError: KatanaParser.parse() missing 1 required positional argument: 'ctx'
+[  2] AttributeError: type object 'TranslatorConfig' has no attribute 'from_dict'
+[  2] TypeError: DalfoxParser.parse() missing 1 required positional argument: 'ctx'
+[  2] AttributeError: type object 'FallbackConfig' has no attribute 'from_dict'
+[  2] TypeError: FallbackChain.__init__() got an unexpected keyword argument 'fallbacks'
+[  2] AttributeError: 'ParserRegistry' object has no attribute 'registered_tools'
+[  2] TypeError: SubfinderParser.parse() missing 1 required positional argument: 'ctx'
+[  2] ImportError: cannot import name '_safe_json_lines' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\
+[  2] ImportError: cannot import name '_extract_cwes' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\too
+[  2] ImportError: cannot import name '_extract_cves' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\too
+[  1] Failed: DID NOT RAISE <class 'KeyError'>
+[  1] TypeError: FfufParser.parse() missing 1 required positional argument: 'ctx'
+[  1] TypeError: HttpxParser.parse() missing 1 required positional argument: 'ctx'
+[  1] AssertionError: Missing 'tool' key for sql_injection
+[  1] AttributeError: 'TranslatorConfig' object has no attribute 'prefer_docker'
+[  1] AssertionError: assert 'sqli' in {'api_discovery': ['arjun', 'katana'], 'crawl': ['katana'], 'directory_enum': ['feroxbuster', 'gobuster', 'ffuf'], 'g
+[  1] TypeError: TranslatedAction.__init__() got an unexpected keyword argument 'command'
+[  1] TypeError: NiktoParser.parse() missing 1 required positional argument: 'ctx'
+[  1] AttributeError: 'FallbackConfig' object has no attribute 'enabled'
+[  1] TypeError: FallbackResult.__init__() got an unexpected keyword argument 'is_fallback'
+[  1] TypeError: FeroxbusterParser.parse() missing 1 required positional argument: 'ctx'
+[  1] TypeError: ArjunParser.parse() missing 1 required positional argument: 'ctx'
+[  1] AssertionError: assert 'tool_registry' in {'chain': {'cooldown': 8.0, 'max_chain_history': 500, 'max_chain_length': 10, 'max_concurrent': 3, ...}, 'le
+[  1] AttributeError: type object 'OutputFormat' has no attribute 'PLAIN_TEXT'
+[  1] AttributeError: 'ActionTranslator' object has no attribute 'translate_vuln_type'
+[  1] AttributeError: 'ActionTranslator' object has no attribute 'registry'. Did you mean: '_registry'?
+[  1] AttributeError: 'ActionTranslator' object has no attribute 'get_tools_for_vuln'
+[  1] AttributeError: 'ActionTranslator' object has no attribute 'parse_output'
+[  1] AttributeError: 'ActionTranslator' object has no attribute 'get_available_actions'
+[  1] TypeError: FallbackConfig.__init__() got an unexpected keyword argument 'strict_tools'
+[  1] TypeError: FallbackConfig.__init__() got an unexpected keyword argument 'enabled'
+[  1] AttributeError: 'ParserRegistry' object has no attribute 'has_parser'
+[  1] assert None is not None
+[  1] TypeError: GobusterParser.parse() missing 1 required positional argument: 'ctx'
+[  1] TypeError: ParsedFinding.__init__() missing 4 required positional arguments: 'tool', 'vuln_type', 'severity', and 'url'
+[  1] TypeError: ParsedFinding.__init__() got an unexpected keyword argument 'extra'
+[  1] TypeError: ParsedFinding.__init__() missing 5 required positional arguments: 'tool', 'vuln_type', 'severity', 'url', and 'title'
+[  1] TypeError: ParsedFinding.__init__() got an unexpected keyword argument 'vulnerability_type'
+[  1] TypeError: ParseContext.__init__() missing 1 required positional argument: 'tool_name'
+[  1] TypeError: ParseContext.__init__() got an unexpected keyword argument 'target'
+[  1] ImportError: cannot import name '_extract_severity' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack
+[  1] ImportError: cannot import name '_safe_json' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\
+[  1] ImportError: cannot import name '_extract_url' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tool
+[  1] AttributeError: 'AIDirectedExecutor' object has no attribute '_allowed'
+[  1] KeyError: 'severity'

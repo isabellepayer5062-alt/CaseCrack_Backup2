@@ -1,0 +1,4269 @@
+{
+  "summary": {
+    "reconnect_tasks": 50,
+    "cr_documentation_tasks": 130,
+    "rr_baseline_tasks": 141,
+    "reimplementation_tasks": 201,
+    "dangling_imports": 382,
+    "active_modules": 1174
+  },
+  "subsystem_priority": {
+    "recon_dashboard": {
+      "reconnect": 19,
+      "lost": 0,
+      "cr_alive": 3,
+      "score": 98
+    },
+    "agents": {
+      "reconnect": 7,
+      "lost": 20,
+      "cr_alive": 16,
+      "score": 91
+    },
+    "scanners": {
+      "reconnect": 0,
+      "lost": 26,
+      "cr_alive": 4,
+      "score": 56
+    },
+    "core_infra": {
+      "reconnect": 1,
+      "lost": 15,
+      "cr_alive": 11,
+      "score": 46
+    },
+    "(root)": {
+      "reconnect": 0,
+      "lost": 3,
+      "cr_alive": 31,
+      "score": 37
+    },
+    "pipeline": {
+      "reconnect": 0,
+      "lost": 15,
+      "cr_alive": 5,
+      "score": 35
+    },
+    "recon": {
+      "reconnect": 0,
+      "lost": 15,
+      "cr_alive": 4,
+      "score": 34
+    },
+    "secrets": {
+      "reconnect": 0,
+      "lost": 16,
+      "cr_alive": 1,
+      "score": 33
+    },
+    "output": {
+      "reconnect": 0,
+      "lost": 14,
+      "cr_alive": 2,
+      "score": 30
+    },
+    "swarm": {
+      "reconnect": 5,
+      "lost": 1,
+      "cr_alive": 0,
+      "score": 27
+    },
+    "caap": {
+      "reconnect": 0,
+      "lost": 9,
+      "cr_alive": 8,
+      "score": 26
+    },
+    "discovery_pkg": {
+      "reconnect": 1,
+      "lost": 9,
+      "cr_alive": 2,
+      "score": 25
+    },
+    "misc": {
+      "reconnect": 0,
+      "lost": 10,
+      "cr_alive": 3,
+      "score": 23
+    },
+    "tool_wrappers": {
+      "reconnect": 1,
+      "lost": 0,
+      "cr_alive": 17,
+      "score": 22
+    },
+    "intel": {
+      "reconnect": 1,
+      "lost": 7,
+      "cr_alive": 0,
+      "score": 19
+    },
+    "exploit_chains": {
+      "reconnect": 1,
+      "lost": 3,
+      "cr_alive": 7,
+      "score": 18
+    },
+    "cloud": {
+      "reconnect": 0,
+      "lost": 9,
+      "cr_alive": 0,
+      "score": 18
+    },
+    "testing_tools": {
+      "reconnect": 0,
+      "lost": 7,
+      "cr_alive": 2,
+      "score": 16
+    },
+    "exploitation": {
+      "reconnect": 3,
+      "lost": 0,
+      "cr_alive": 0,
+      "score": 15
+    },
+    "integrations": {
+      "reconnect": 0,
+      "lost": 7,
+      "cr_alive": 1,
+      "score": 15
+    },
+    "network": {
+      "reconnect": 0,
+      "lost": 7,
+      "cr_alive": 1,
+      "score": 15
+    },
+    "graph": {
+      "reconnect": 2,
+      "lost": 0,
+      "cr_alive": 1,
+      "score": 11
+    },
+    "osint_providers": {
+      "reconnect": 2,
+      "lost": 0,
+      "cr_alive": 0,
+      "score": 10
+    },
+    "database": {
+      "reconnect": 1,
+      "lost": 2,
+      "cr_alive": 0,
+      "score": 9
+    },
+    "loop": {
+      "reconnect": 0,
+      "lost": 0,
+      "cr_alive": 9,
+      "score": 9
+    },
+    "inference": {
+      "reconnect": 1,
+      "lost": 1,
+      "cr_alive": 0,
+      "score": 7
+    },
+    "session_auth": {
+      "reconnect": 0,
+      "lost": 3,
+      "cr_alive": 1,
+      "score": 7
+    },
+    "adversarial_validation_agent": {
+      "reconnect": 1,
+      "lost": 0,
+      "cr_alive": 0,
+      "score": 5
+    },
+    "knowledge_resilience": {
+      "reconnect": 1,
+      "lost": 0,
+      "cr_alive": 0,
+      "score": 5
+    },
+    "strategy_horizon_optimizer": {
+      "reconnect": 1,
+      "lost": 0,
+      "cr_alive": 0,
+      "score": 5
+    },
+    "validation_fleet": {
+      "reconnect": 1,
+      "lost": 0,
+      "cr_alive": 0,
+      "score": 5
+    },
+    "cli": {
+      "reconnect": 1,
+      "lost": 0,
+      "cr_alive": 0,
+      "score": 5
+    },
+    "tools": {
+      "reconnect": 0,
+      "lost": 1,
+      "cr_alive": 0,
+      "score": 2
+    },
+    "mcp": {
+      "reconnect": 0,
+      "lost": 1,
+      "cr_alive": 0,
+      "score": 2
+    },
+    "data": {
+      "reconnect": 0,
+      "lost": 0,
+      "cr_alive": 1,
+      "score": 1
+    }
+  },
+  "reconnect_tasks": [
+    {
+      "module": "agents.advanced_agent_patterns",
+      "loc": 1321,
+      "classes": 22,
+      "funcs": 51,
+      "subsystem": "agents",
+      "score": 85.0,
+      "reasons": [
+        "large_investment(1321_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "strategic_name(agent)",
+        "rich_API(22_classes,51_funcs)",
+        "capability_doc(orchestrat)"
+      ],
+      "docstring": "Advanced Agent Patterns (AP-1 through AP-7)\n============================================\n\nSeven advanced agentic capabilities for CaseCrack's pentest ",
+      "key_classes": [
+        "FuseState",
+        "FuseCircuit",
+        "ResolveOnceGuard",
+        "StallVerdict",
+        "StallReport"
+      ],
+      "module_full": "tools.burp_enterprise.agents.advanced_agent_patterns",
+      "path": "CaseCrack\\tools\\burp_enterprise\\agents\\advanced_agent_patterns.py",
+      "api_classes": [
+        "FuseState",
+        "FuseCircuit",
+        "ResolveOnceGuard",
+        "StallVerdict",
+        "StallReport",
+        "_WatchedProcess",
+        "StallWatchdog",
+        "DreamPhase"
+      ],
+      "api_functions": [
+        "get_stall_watchdog",
+        "reset_stall_watchdog",
+        "get_post_turn_orchestrator",
+        "reset_post_turn_orchestrator",
+        "get_dream_consolidator",
+        "reset_dream_consolidator",
+        "get_memory_retriever",
+        "reset_memory_retriever"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.cross_target_intelligence",
+      "loc": 627,
+      "classes": 5,
+      "funcs": 15,
+      "subsystem": "recon_dashboard",
+      "score": 85.0,
+      "reasons": [
+        "large_investment(627_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(intelligence)",
+        "rich_API(5_classes,15_funcs)",
+        "capability_doc(intelligence,exploit,real-time)"
+      ],
+      "docstring": "Cross-Target Intelligence Sharing + Real-Time Replanning + Exploit Commitment\n========================================================================",
+      "key_classes": [
+        "_ExploitHit",
+        "CrossTargetMemory",
+        "_PathStatus",
+        "RealtimePlanner",
+        "ExploitCommitment"
+      ],
+      "module_full": "tools.burp_enterprise.recon_dashboard.cross_target_intelligence",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\cross_target_intelligence.py",
+      "api_classes": [
+        "_ExploitHit",
+        "CrossTargetMemory",
+        "_PathStatus",
+        "RealtimePlanner",
+        "ExploitCommitment"
+      ],
+      "api_functions": [
+        "version",
+        "record_success",
+        "record_failure",
+        "get_boosts",
+        "get_reinforcement_signal",
+        "get_summary",
+        "version",
+        "on_phase_complete"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.intelligence",
+      "loc": 522,
+      "classes": 0,
+      "funcs": 2,
+      "subsystem": "recon_dashboard",
+      "score": 75.0,
+      "reasons": [
+        "large_investment(522_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(intelligence)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Phase handlers for intelligence phases 28-30 (posture, topology, correlation).\n\n.. versionadded:: 2.40",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.phase_handlers.intelligence",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\phase_handlers\\intelligence.py",
+      "api_classes": [],
+      "api_functions": [
+        "expand_commands",
+        "post_phase"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "exploit_chains.manual_audit_engine",
+      "loc": 1640,
+      "classes": 17,
+      "funcs": 12,
+      "subsystem": "exploit_chains",
+      "score": 72.0,
+      "reasons": [
+        "large_investment(1640_LOC)",
+        "partially_active(exploit_chains)",
+        "strategic_name(audit,engine)",
+        "rich_API(17_classes,12_funcs)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Manual Audit Engine \u2014 deep, decision-level system inspection.\n\nGoes beyond automated metrics. For each decision the engine answers:\n\n    1. **What** d",
+      "key_classes": [
+        "DecisionSnapshot",
+        "InterestType",
+        "WalkedDecision",
+        "DecisionWalker",
+        "FailureType"
+      ],
+      "module_full": "tools.burp_enterprise.exploit_chains.manual_audit_engine",
+      "path": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\manual_audit_engine.py",
+      "api_classes": [
+        "DecisionSnapshot",
+        "InterestType",
+        "WalkedDecision",
+        "DecisionWalker",
+        "FailureType",
+        "FailureLabel",
+        "FailureClassifier",
+        "Counterfactual"
+      ],
+      "api_functions": [
+        "traced_run",
+        "explain_choice",
+        "walk",
+        "build_all_snapshots",
+        "classify_all",
+        "analyze",
+        "flatten",
+        "trace"
+      ],
+      "exports": [],
+      "internal_imports": [
+        "tools.burp_enterprise.exploit_chains.payload_arbiter",
+        "tools.burp_enterprise.exploit_chains.system_audit_harness",
+        "tools.burp_enterprise.exploit_chains.weight_tuner",
+        "tools.burp_enterprise.exploit_chains.synthesis_tracer"
+      ]
+    },
+    {
+      "module": "agents.advanced_orchestration",
+      "loc": 1127,
+      "classes": 24,
+      "funcs": 56,
+      "subsystem": "agents",
+      "score": 70.0,
+      "reasons": [
+        "large_investment(1127_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(24_classes,56_funcs)",
+        "capability_doc(orchestrat,autonomous)"
+      ],
+      "docstring": "Advanced Orchestration Patterns (AO 1-8).\n\nHigh-performance agent orchestration primitives for autonomous scan\npipelines.  Each pattern is a standalon",
+      "key_classes": [
+        "EscalationStage",
+        "EscalationRecord",
+        "OutputSlotReservation",
+        "ToolExecState",
+        "StreamToolSlot"
+      ],
+      "module_full": "tools.burp_enterprise.agents.advanced_orchestration",
+      "path": "CaseCrack\\tools\\burp_enterprise\\agents\\advanced_orchestration.py",
+      "api_classes": [
+        "EscalationStage",
+        "EscalationRecord",
+        "OutputSlotReservation",
+        "ToolExecState",
+        "StreamToolSlot",
+        "StreamingToolExecutor",
+        "ToolBatchEntry",
+        "BatchSummary"
+      ],
+      "api_functions": [
+        "get_slot_reservation",
+        "get_tool_summariser",
+        "get_away_summary",
+        "get_diagnostic_tracker",
+        "get_fallback_tombstoner",
+        "get_triage_queue",
+        "get_progress_reporter",
+        "reset_slot_reservation"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "agents.deterministic_replay",
+      "loc": 606,
+      "classes": 8,
+      "funcs": 40,
+      "subsystem": "agents",
+      "score": 70.0,
+      "reasons": [
+        "large_investment(606_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(8_classes,40_funcs)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Deterministic Replay Layer (DRL).\n\nSolves the decision unpredictability problem: the system explores during\nlive scans but can reproduce every stochas",
+      "key_classes": [
+        "DecisionRNG",
+        "DecisionFrame",
+        "JournalSnapshot",
+        "JournalStats",
+        "DecisionJournal"
+      ],
+      "module_full": "tools.burp_enterprise.agents.deterministic_replay",
+      "path": "CaseCrack\\tools\\burp_enterprise\\agents\\deterministic_replay.py",
+      "api_classes": [
+        "DecisionRNG",
+        "DecisionFrame",
+        "JournalSnapshot",
+        "JournalStats",
+        "DecisionJournal",
+        "ReplayMode",
+        "ReplayMismatch",
+        "ReplayController"
+      ],
+      "api_functions": [
+        "get_replay_controller",
+        "reset_replay_controller",
+        "start_live_session",
+        "start_replay_session",
+        "start_reproduce_session",
+        "random",
+        "betavariate",
+        "choice"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "database.data_migration",
+      "loc": 559,
+      "classes": 3,
+      "funcs": 6,
+      "subsystem": "database",
+      "score": 65.0,
+      "reasons": [
+        "large_investment(559_LOC)",
+        "active_subsystem(database:7_live/13_total)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Data Migration Engine \u2014 SQLite \u2192 PostgreSQL + Redis migration.\n\nProvides a complete, resumable migration pipeline that:\n\n1. **Reads** all data from th",
+      "key_classes": [
+        "TableMigrationResult",
+        "MigrationReport",
+        "MigrationEngine"
+      ],
+      "module_full": "tools.burp_enterprise.database.data_migration",
+      "path": "CaseCrack\\tools\\burp_enterprise\\database\\data_migration.py",
+      "api_classes": [
+        "TableMigrationResult",
+        "MigrationReport",
+        "MigrationEngine"
+      ],
+      "api_functions": [
+        "summary",
+        "migrate_table",
+        "migrate_cache_to_redis",
+        "migrate_all",
+        "validate_migration",
+        "rollback"
+      ],
+      "exports": [
+        "MigrationEngine",
+        "MigrationReport",
+        "TableMigrationResult"
+      ],
+      "internal_imports": []
+    },
+    {
+      "module": "graph.multi_agent.tests.test_multi_agent",
+      "loc": 431,
+      "classes": 9,
+      "funcs": 39,
+      "subsystem": "graph",
+      "score": 65.0,
+      "reasons": [
+        "medium_investment(431_LOC)",
+        "active_subsystem(graph:18_live/23_total)",
+        "strategic_name(agent)",
+        "rich_API(9_classes,39_funcs)"
+      ],
+      "docstring": "Tests for the multi-agent supervisor graph (Priority 4).\n\nValidates:\n- State schema construction\n- Graph topology (nodes, edges, conditional routing)\n",
+      "key_classes": [
+        "TestMultiAgentState",
+        "TestRoutingDecisions",
+        "TestRuleBasedRouting",
+        "TestSpecialistNodes",
+        "TestStrategistNode"
+      ],
+      "module_full": "tools.burp_enterprise.graph.multi_agent.tests.test_multi_agent",
+      "path": "CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\tests\\test_multi_agent.py",
+      "api_classes": [
+        "TestMultiAgentState",
+        "TestRoutingDecisions",
+        "TestRuleBasedRouting",
+        "TestSpecialistNodes",
+        "TestStrategistNode",
+        "TestFinalizeNode",
+        "TestHandoffProtocol",
+        "TestGraphTopology"
+      ],
+      "api_functions": [
+        "test_make_initial_state_defaults",
+        "test_make_initial_state_custom",
+        "test_campaign_id_auto_generated",
+        "test_route_from_strategist_recon",
+        "test_route_from_strategist_exploit",
+        "test_route_from_strategist_validate",
+        "test_route_from_strategist_synthesize",
+        "test_route_from_strategist_done"
+      ],
+      "exports": [],
+      "internal_imports": [
+        "CaseCrack.tools.burp_enterprise.graph.multi_agent.builder",
+        "CaseCrack.tools.burp_enterprise.graph.multi_agent.specialist_nodes",
+        "CaseCrack.tools.burp_enterprise.graph.multi_agent.supervisor",
+        "CaseCrack.tools.burp_enterprise.graph.multi_agent.state",
+        "CaseCrack.tools.burp_enterprise.graph.multi_agent.handoff"
+      ]
+    },
+    {
+      "module": "recon_dashboard.routes_intelligence_experience",
+      "loc": 335,
+      "classes": 0,
+      "funcs": 5,
+      "subsystem": "recon_dashboard",
+      "score": 65.0,
+      "reasons": [
+        "medium_investment(335_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(intelligence)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Intelligence Experience HTTP routes \u2014 surfaces HOW Venator thinks.\n\nThis is the killer differentiator: not just \"we find vulnerabilities\" but\n\"we show",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_intelligence_experience",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_intelligence_experience.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.routes_persistent_agent",
+      "loc": 1147,
+      "classes": 0,
+      "funcs": 47,
+      "subsystem": "recon_dashboard",
+      "score": 65.0,
+      "reasons": [
+        "large_investment(1147_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(agent)"
+      ],
+      "docstring": "HTTP route handlers for the Persistent Agent Loop.\n\nEndpoints for lifecycle control, status, history, and configuration.",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_persistent_agent",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_persistent_agent.py",
+      "api_classes": [],
+      "api_functions": [
+        "factory",
+        "callback"
+      ],
+      "exports": [],
+      "internal_imports": [
+        "tools.burp_enterprise.recon_dashboard.runner",
+        "tools.burp_enterprise.persistent_agent",
+        "tools.burp_enterprise.frontier_intelligence",
+        "tools.burp_enterprise.event_driven_wakeup",
+        "tools.burp_enterprise.self_healing"
+      ]
+    },
+    {
+      "module": "recon_dashboard.target_scoring",
+      "loc": 691,
+      "classes": 4,
+      "funcs": 9,
+      "subsystem": "recon_dashboard",
+      "score": 65.0,
+      "reasons": [
+        "large_investment(691_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(exploit)"
+      ],
+      "docstring": "Pre-Exploit Decision Dominance Layer\n=====================================\n\nDecides \"Is this target worth attacking deeply BEFORE scanning?\"\n\nFour sub",
+      "key_classes": [
+        "ExploitPath",
+        "TargetScore",
+        "CampaignBudget",
+        "HuntPlan"
+      ],
+      "module_full": "tools.burp_enterprise.recon_dashboard.target_scoring",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\target_scoring.py",
+      "api_classes": [
+        "ExploitPath",
+        "TargetScore",
+        "CampaignBudget",
+        "HuntPlan"
+      ],
+      "api_functions": [
+        "score_target",
+        "allocate_campaign_budgets",
+        "filter_kill_targets",
+        "compute_hunt_plan",
+        "get_hunt_mode_directive",
+        "to_dict",
+        "to_dict",
+        "to_dict"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "exploitation.engine",
+      "loc": 628,
+      "classes": 1,
+      "funcs": 7,
+      "subsystem": "exploitation",
+      "score": 62.0,
+      "reasons": [
+        "large_investment(628_LOC)",
+        "partially_active(exploitation)",
+        "strategic_name(engine,exploitation)",
+        "capability_doc(exploit,orchestrat)"
+      ],
+      "docstring": "ExploitationEngine \u2014 main orchestrator for exploitation verification.",
+      "key_classes": [
+        "ExploitationEngine"
+      ],
+      "module_full": "tools.burp_enterprise.exploitation.engine",
+      "path": "CaseCrack\\tools\\burp_enterprise\\exploitation\\engine.py",
+      "api_classes": [
+        "ExploitationEngine"
+      ],
+      "api_functions": [
+        "exploit",
+        "verify_finding",
+        "generate_poc",
+        "demonstrate_impact",
+        "execute_chain",
+        "list_chains",
+        "generate_report"
+      ],
+      "exports": [],
+      "internal_imports": [
+        "tools.burp_enterprise.atlas.adapter"
+      ]
+    },
+    {
+      "module": "swarm.multi_gpu.messenger",
+      "loc": 534,
+      "classes": 8,
+      "funcs": 20,
+      "subsystem": "swarm",
+      "score": 62.0,
+      "reasons": [
+        "large_investment(534_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "rich_API(8_classes,20_funcs)"
+      ],
+      "docstring": "Inter-GPU Messenger \u2014 Cross-GPU Agent Communication Router\n==========================================================\n\nRoutes messages between agents ",
+      "key_classes": [
+        "TransportType",
+        "RouteStatus",
+        "DeliveryStatus",
+        "CrossGPUMessage",
+        "GPURoute"
+      ],
+      "module_full": "tools.burp_enterprise.swarm.multi_gpu.messenger",
+      "path": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\messenger.py",
+      "api_classes": [
+        "TransportType",
+        "RouteStatus",
+        "DeliveryStatus",
+        "CrossGPUMessage",
+        "GPURoute",
+        "MessengerConfig",
+        "MessengerStats",
+        "InterGPUMessenger"
+      ],
+      "api_functions": [
+        "is_expired",
+        "to_dict",
+        "success_rate",
+        "to_dict",
+        "from_dict",
+        "to_dict",
+        "is_running",
+        "route_count"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "swarm.multi_gpu.model_sharder",
+      "loc": 499,
+      "classes": 6,
+      "funcs": 19,
+      "subsystem": "swarm",
+      "score": 62.0,
+      "reasons": [
+        "medium_investment(499_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "rich_API(6_classes,19_funcs)",
+        "capability_doc(parallel)"
+      ],
+      "docstring": "Model Sharder \u2014 Tensor-Parallel Layer Distribution Across GPUs\n==============================================================\n\nDistributes model layer",
+      "key_classes": [
+        "ShardStrategy",
+        "ShardStatus",
+        "LayerAssignment",
+        "ShardPlan",
+        "SharderConfig"
+      ],
+      "module_full": "tools.burp_enterprise.swarm.multi_gpu.model_sharder",
+      "path": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\model_sharder.py",
+      "api_classes": [
+        "ShardStrategy",
+        "ShardStatus",
+        "LayerAssignment",
+        "ShardPlan",
+        "SharderConfig",
+        "ModelSharder"
+      ],
+      "api_functions": [
+        "layer_count",
+        "total_required_mb",
+        "to_dict",
+        "gpu_count",
+        "gpus_used",
+        "total_estimated_vram_mb",
+        "is_valid",
+        "get_gpu_assignment"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "swarm.multi_gpu.scheduler",
+      "loc": 584,
+      "classes": 8,
+      "funcs": 26,
+      "subsystem": "swarm",
+      "score": 62.0,
+      "reasons": [
+        "large_investment(584_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "rich_API(8_classes,26_funcs)"
+      ],
+      "docstring": "Agent-GPU Scheduler \u2014 Placement & Migration of Agents Across GPUs\n=================================================================\n\nDecides which GPU",
+      "key_classes": [
+        "PlacementStrategy",
+        "MigrationReason",
+        "AgentPlacement",
+        "GPULoadSnapshot",
+        "MigrationEvent"
+      ],
+      "module_full": "tools.burp_enterprise.swarm.multi_gpu.scheduler",
+      "path": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\scheduler.py",
+      "api_classes": [
+        "PlacementStrategy",
+        "MigrationReason",
+        "AgentPlacement",
+        "GPULoadSnapshot",
+        "MigrationEvent",
+        "SchedulerConfig",
+        "SchedulerStats",
+        "AgentGPUScheduler"
+      ],
+      "api_functions": [
+        "is_idle",
+        "touch",
+        "to_dict",
+        "available_for_agents_mb",
+        "to_dict",
+        "to_dict",
+        "from_dict",
+        "to_dict"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "swarm.multi_gpu.topology",
+      "loc": 710,
+      "classes": 7,
+      "funcs": 28,
+      "subsystem": "swarm",
+      "score": 62.0,
+      "reasons": [
+        "large_investment(710_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "rich_API(7_classes,28_funcs)"
+      ],
+      "docstring": "GPU Topology \u2014 Multi-GPU Discovery, Interconnect Detection & Affinity\n=====================================================================\n\nDiscovers",
+      "key_classes": [
+        "InterconnectType",
+        "GPUHealth",
+        "GPUDevice",
+        "InterconnectLink",
+        "TopologyConfig"
+      ],
+      "module_full": "tools.burp_enterprise.swarm.multi_gpu.topology",
+      "path": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\topology.py",
+      "api_classes": [
+        "InterconnectType",
+        "GPUHealth",
+        "GPUDevice",
+        "InterconnectLink",
+        "TopologyConfig",
+        "TopologySummary",
+        "GPUTopology"
+      ],
+      "api_functions": [
+        "vram_utilization",
+        "is_available",
+        "is_healthy",
+        "to_dict",
+        "is_fast",
+        "to_dict",
+        "from_dict",
+        "to_dict"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "agents.conflict_arbitration",
+      "loc": 685,
+      "classes": 16,
+      "funcs": 31,
+      "subsystem": "agents",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(685_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(16_classes,31_funcs)"
+      ],
+      "docstring": "Conflict Arbitration Layer (CAL).\n\nLightweight rule layer that sits on top of the existing G5 conflict\ndetection.  G5 *detects* conflicts (boosters vs",
+      "key_classes": [
+        "ConflictType",
+        "ScanMode",
+        "Winner",
+        "DominantSignal",
+        "ConflictClassification"
+      ],
+      "module_full": "tools.burp_enterprise.agents.conflict_arbitration",
+      "path": "CaseCrack\\tools\\burp_enterprise\\agents\\conflict_arbitration.py",
+      "api_classes": [
+        "ConflictType",
+        "ScanMode",
+        "Winner",
+        "DominantSignal",
+        "ConflictClassification",
+        "ArbitrationResult",
+        "DominantSignalDetector",
+        "ConflictClassifier"
+      ],
+      "api_functions": [
+        "get_arbitrator",
+        "reset_arbitrator",
+        "to_dict",
+        "detect",
+        "detect_opposing",
+        "classify",
+        "resolve",
+        "mode"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "agents.fork_spawn",
+      "loc": 1099,
+      "classes": 12,
+      "funcs": 46,
+      "subsystem": "agents",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(1099_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(12_classes,46_funcs)"
+      ],
+      "docstring": "Fork / Spawn Agent Semantics Engine\n=====================================\n\nProduction-grade dynamic agent spawning system that lets CaseCrack spin up\n",
+      "key_classes": [
+        "AgentOrigin",
+        "SpawnOutcome",
+        "CoordinatorPhase",
+        "AgentDefinition",
+        "ForkContext"
+      ],
+      "module_full": "tools.burp_enterprise.agents.fork_spawn",
+      "path": "CaseCrack\\tools\\burp_enterprise\\agents\\fork_spawn.py",
+      "api_classes": [
+        "AgentOrigin",
+        "SpawnOutcome",
+        "CoordinatorPhase",
+        "AgentDefinition",
+        "ForkContext",
+        "SpawnResult",
+        "SquadResult",
+        "DynamicAgentRecord"
+      ],
+      "api_functions": [
+        "get_agent_registry",
+        "get_spawn_engine",
+        "to_dict",
+        "to_dict",
+        "success",
+        "to_dict",
+        "successful_agents",
+        "all_succeeded"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "agents.role_registry",
+      "loc": 634,
+      "classes": 5,
+      "funcs": 14,
+      "subsystem": "agents",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(634_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(5_classes,14_funcs)"
+      ],
+      "docstring": "Unified Role Registry \u2014 Single source of truth for all CaseCrack AI roles.\n\nProvides:\n1. **RoleID** \u2014 Enum covering every AI role across all subsystem",
+      "key_classes": [
+        "RoleID",
+        "TemperatureArchetype",
+        "RoleMetadata",
+        "SchemaContract",
+        "RoleRegistry"
+      ],
+      "module_full": "tools.burp_enterprise.agents.role_registry",
+      "path": "CaseCrack\\tools\\burp_enterprise\\agents\\role_registry.py",
+      "api_classes": [
+        "RoleID",
+        "TemperatureArchetype",
+        "RoleMetadata",
+        "SchemaContract",
+        "RoleRegistry"
+      ],
+      "api_functions": [
+        "get_registry",
+        "validate",
+        "get",
+        "get_temperature",
+        "get_archetype",
+        "get_max_tokens",
+        "list_all",
+        "list_by_subsystem"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "agents.speculative_executor",
+      "loc": 768,
+      "classes": 8,
+      "funcs": 31,
+      "subsystem": "agents",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(768_LOC)",
+        "active_subsystem(agents:58_live/71_total)",
+        "rich_API(8_classes,31_funcs)"
+      ],
+      "docstring": "Speculative Tool Pre-Execution Engine\n======================================\n\nProduction-grade speculative execution system that pre-runs read-only\nto",
+      "key_classes": [
+        "SpeculationStatus",
+        "SpeculationOutcome",
+        "OverlayContext",
+        "SpeculativeResult",
+        "SpeculationRequest"
+      ],
+      "module_full": "tools.burp_enterprise.agents.speculative_executor",
+      "path": "CaseCrack\\tools\\burp_enterprise\\agents\\speculative_executor.py",
+      "api_classes": [
+        "SpeculationStatus",
+        "SpeculationOutcome",
+        "OverlayContext",
+        "SpeculativeResult",
+        "SpeculationRequest",
+        "SpeculationStats",
+        "SpeculationPolicy",
+        "SpeculativeExecutor"
+      ],
+      "api_functions": [
+        "get_speculative_executor",
+        "reset_speculative_executor",
+        "from_dict",
+        "to_dict",
+        "is_usable",
+        "is_terminal",
+        "age_seconds",
+        "to_dict"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "graph.production",
+      "loc": 573,
+      "classes": 5,
+      "funcs": 20,
+      "subsystem": "graph",
+      "score": 60.0,
+      "reasons": [
+        "large_investment(573_LOC)",
+        "active_subsystem(graph:18_live/23_total)",
+        "rich_API(5_classes,20_funcs)"
+      ],
+      "docstring": "Production hardening utilities for LangGraph-based scan execution.\n\nProvides the operational scaffolding needed to run CaseCrack graph\nexecutions reli",
+      "key_classes": [
+        "HealthStatus",
+        "GraphHealthCheck",
+        "GraphCircuitBreaker",
+        "GraphTimeoutGuard",
+        "GraphLifecycleManager"
+      ],
+      "module_full": "tools.burp_enterprise.graph.production",
+      "path": "CaseCrack\\tools\\burp_enterprise\\graph\\production.py",
+      "api_classes": [
+        "HealthStatus",
+        "GraphHealthCheck",
+        "GraphCircuitBreaker",
+        "GraphTimeoutGuard",
+        "GraphLifecycleManager"
+      ],
+      "api_functions": [
+        "check_graph_dependencies",
+        "get_production_metrics",
+        "compile_production_graph",
+        "check",
+        "record_success",
+        "record_error",
+        "should_trip",
+        "reset"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "swarm.multi_gpu.governor",
+      "loc": 466,
+      "classes": 4,
+      "funcs": 27,
+      "subsystem": "swarm",
+      "score": 57.0,
+      "reasons": [
+        "medium_investment(466_LOC)",
+        "partially_active(swarm)",
+        "strategic_name(swarm)",
+        "capability_doc(orchestrat)"
+      ],
+      "docstring": "Multi-GPU Governor \u2014 Top-Level Orchestrator for Multi-GPU Operations\n====================================================================\n\nCoordinates",
+      "key_classes": [
+        "MultiGPUState",
+        "MultiGPUConfig",
+        "MultiGPUSummary",
+        "MultiGPUGovernor"
+      ],
+      "module_full": "tools.burp_enterprise.swarm.multi_gpu.governor",
+      "path": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\governor.py",
+      "api_classes": [
+        "MultiGPUState",
+        "MultiGPUConfig",
+        "MultiGPUSummary",
+        "MultiGPUGovernor"
+      ],
+      "api_functions": [
+        "from_dict",
+        "to_dict",
+        "state",
+        "is_multi_gpu",
+        "gpu_count",
+        "topology",
+        "sharder",
+        "scheduler"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.routes_agent",
+      "loc": 376,
+      "classes": 0,
+      "funcs": 10,
+      "subsystem": "recon_dashboard",
+      "score": 55.0,
+      "reasons": [
+        "medium_investment(376_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(agent)"
+      ],
+      "docstring": "Agent-loop and agent-memory HTTP route handlers extracted from server.py.",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_agent",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_agent.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.routes_multi_agent",
+      "loc": 493,
+      "classes": 0,
+      "funcs": 8,
+      "subsystem": "recon_dashboard",
+      "score": 55.0,
+      "reasons": [
+        "medium_investment(493_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(agent)"
+      ],
+      "docstring": "Multi-agent campaign HTTP route handlers.\n\nProvides:\n- POST /api/multi-agent/start   \u2014 Launch a multi-agent campaign\n- POST /api/multi-agent/stop    \u2014",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_multi_agent",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_multi_agent.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "exploitation.chains",
+      "loc": 326,
+      "classes": 1,
+      "funcs": 4,
+      "subsystem": "exploitation",
+      "score": 52.0,
+      "reasons": [
+        "medium_investment(326_LOC)",
+        "partially_active(exploitation)",
+        "strategic_name(exploitation)",
+        "capability_doc(orchestrat)"
+      ],
+      "docstring": "Attack chain executor \u2014 multi-step attack chain orchestration.",
+      "key_classes": [
+        "AttackChainExecutor"
+      ],
+      "module_full": "tools.burp_enterprise.exploitation.chains",
+      "path": "CaseCrack\\tools\\burp_enterprise\\exploitation\\chains.py",
+      "api_classes": [
+        "AttackChainExecutor"
+      ],
+      "api_functions": [
+        "execute_chain",
+        "list_chains",
+        "get_chain",
+        "find_applicable_chains"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "exploitation.impact",
+      "loc": 548,
+      "classes": 1,
+      "funcs": 1,
+      "subsystem": "exploitation",
+      "score": 52.0,
+      "reasons": [
+        "large_investment(548_LOC)",
+        "partially_active(exploitation)",
+        "strategic_name(exploitation)"
+      ],
+      "docstring": "Impact demonstration \u2014 showing real-world consequences of vulnerabilities.",
+      "key_classes": [
+        "ImpactDemonstrator"
+      ],
+      "module_full": "tools.burp_enterprise.exploitation.impact",
+      "path": "CaseCrack\\tools\\burp_enterprise\\exploitation\\impact.py",
+      "api_classes": [
+        "ImpactDemonstrator"
+      ],
+      "api_functions": [
+        "demonstrate"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "inference.kv_cache",
+      "loc": 277,
+      "classes": 5,
+      "funcs": 11,
+      "subsystem": "inference",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(277_LOC)",
+        "active_subsystem(inference:13_live/15_total)",
+        "rich_API(5_classes,11_funcs)"
+      ],
+      "docstring": "KV Cache Manager \u2014 Quantized KV Cache for VRAM Optimization\n============================================================\n\nManages KV (Key-Value) cache",
+      "key_classes": [
+        "KVQuantType",
+        "KVCacheConfig",
+        "ModelArchInfo",
+        "KVCacheEstimate",
+        "KVCacheManager"
+      ],
+      "module_full": "tools.burp_enterprise.inference.kv_cache",
+      "path": "CaseCrack\\tools\\burp_enterprise\\inference\\kv_cache.py",
+      "api_classes": [
+        "KVQuantType",
+        "KVCacheConfig",
+        "ModelArchInfo",
+        "KVCacheEstimate",
+        "KVCacheManager"
+      ],
+      "api_functions": [
+        "bytes_per_element",
+        "quality_factor",
+        "from_dict",
+        "total_mb",
+        "total_gb",
+        "to_dict",
+        "estimate",
+        "auto_select"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.advanced",
+      "loc": 1229,
+      "classes": 0,
+      "funcs": 2,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "large_investment(1229_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Phase handlers for advanced phases 20-27 (specialized scanners).\n\n.. versionadded:: 2.40",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.phase_handlers.advanced",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\phase_handlers\\advanced.py",
+      "api_classes": [],
+      "api_functions": [
+        "expand_commands",
+        "post_phase"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.discovery",
+      "loc": 609,
+      "classes": 0,
+      "funcs": 2,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "large_investment(609_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Phase handlers for discovery phases 1-6 (crawl, JS, param, content discovery).\n\n.. versionadded:: 2.40",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.phase_handlers.discovery",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\phase_handlers\\discovery.py",
+      "api_classes": [],
+      "api_functions": [
+        "expand_commands",
+        "post_phase"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.phase_handlers.security_testing",
+      "loc": 1178,
+      "classes": 0,
+      "funcs": 2,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "large_investment(1178_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Phase handlers for security testing phases 14-17 (WAF, secrets, injection, vuln).\n\n.. versionadded:: 2.40",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.phase_handlers.security_testing",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\phase_handlers\\security_testing.py",
+      "api_classes": [],
+      "api_functions": [
+        "expand_commands",
+        "post_phase"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.routes_assessment",
+      "loc": 219,
+      "classes": 0,
+      "funcs": 16,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(219_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "Assessment-engine and intelligence HTTP route handlers extracted from server.py.",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_assessment",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_assessment.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.routes_cross_target",
+      "loc": 335,
+      "classes": 0,
+      "funcs": 11,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(335_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(intelligence,learning,exploit)"
+      ],
+      "docstring": "Cross-Target Intelligence + Real-Time Replanning + Exploit Commitment \u2014 Routes.\n\nEndpoints:\n    POST /api/intel/record         \u2014 Record exploit succes",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_cross_target",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_cross_target.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.routes_exploit_graph",
+      "loc": 262,
+      "classes": 0,
+      "funcs": 8,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(262_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(exploit)"
+      ],
+      "docstring": "Exploit-graph HTTP route handlers extracted from server.py.",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_exploit_graph",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_exploit_graph.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": [
+        "tools.burp_enterprise.exploit_graph"
+      ]
+    },
+    {
+      "module": "recon_dashboard.routes_target_scoring",
+      "loc": 249,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "medium_investment(249_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "capability_doc(exploit)"
+      ],
+      "docstring": "Pre-Exploit Decision Dominance \u2014 HTTP route handlers.\n\nEndpoints:\n    POST /api/target/score             \u2014 Score a single target for ROI.\n    POST /ap",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_target_scoring",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_target_scoring.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.state_serializers",
+      "loc": 662,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 50.0,
+      "reasons": [
+        "large_investment(662_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "State serialization \u2014 to_dict, to_dict_diff, to_report_dict,\nto_snapshot_dict, and differential change tracking.",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.state_serializers",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\state_serializers.py",
+      "api_classes": [],
+      "api_functions": [
+        "to_dict",
+        "to_dict_diff",
+        "to_report_dict",
+        "to_snapshot_dict"
+      ],
+      "exports": [],
+      "internal_imports": [
+        "tools.burp_enterprise.exploit_graph"
+      ]
+    },
+    {
+      "module": "recon_dashboard.routes_reasoning",
+      "loc": 198,
+      "classes": 0,
+      "funcs": 5,
+      "subsystem": "recon_dashboard",
+      "score": 48.0,
+      "reasons": [
+        "active_subsystem(recon_dashboard:62_live/85_total)",
+        "strategic_name(reasoning)"
+      ],
+      "docstring": "Reasoning-engine HTTP route handlers extracted from server.py.",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_reasoning",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_reasoning.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "core_infra.chaos_testing_v2",
+      "loc": 1032,
+      "classes": 15,
+      "funcs": 50,
+      "subsystem": "core_infra",
+      "score": 47.0,
+      "reasons": [
+        "large_investment(1032_LOC)",
+        "partially_active(core_infra)",
+        "rich_API(15_classes,50_funcs)"
+      ],
+      "docstring": "Chaos Testing Framework \u2014 Production Enterprise-Grade Fault Injection Engine\n=========================================================================",
+      "key_classes": [
+        "FaultType",
+        "FaultOutcome",
+        "ChaosConfig",
+        "FaultEvent",
+        "ChaosReport"
+      ],
+      "module_full": "tools.burp_enterprise.core_infra.chaos_testing_v2",
+      "path": "CaseCrack\\tools\\burp_enterprise\\core_infra\\chaos_testing_v2.py",
+      "api_classes": [
+        "FaultType",
+        "FaultOutcome",
+        "ChaosConfig",
+        "FaultEvent",
+        "ChaosReport",
+        "_FlagState",
+        "_ChaosFlags",
+        "_BaseInjector"
+      ],
+      "api_functions": [
+        "should_inject_tool_crash",
+        "should_inject_network_timeout",
+        "should_inject_network_reset",
+        "should_inject_slow_io",
+        "should_drop_event",
+        "should_trip_circuit",
+        "get_chaos_flags_status",
+        "get_chaos_engine"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "osint_providers.netintel_client",
+      "loc": 615,
+      "classes": 1,
+      "funcs": 9,
+      "subsystem": "osint_providers",
+      "score": 47.0,
+      "reasons": [
+        "large_investment(615_LOC)",
+        "partially_active(osint_providers)",
+        "capability_doc(intelligence)"
+      ],
+      "docstring": "NetIntel Client \u2014 Multi-source network intelligence (unlimited, free, keyless).\n\nReplaces HackerTarget with ZERO rate limits by combining:\n  \u2022 **dnspy",
+      "key_classes": [
+        "NetIntelClient"
+      ],
+      "module_full": "tools.burp_enterprise.osint_providers.netintel_client",
+      "path": "CaseCrack\\tools\\burp_enterprise\\osint_providers\\netintel_client.py",
+      "api_classes": [
+        "NetIntelClient"
+      ],
+      "api_functions": [
+        "is_configured",
+        "close",
+        "host_search",
+        "reverse_ip",
+        "dns_lookup",
+        "reverse_dns",
+        "http_headers",
+        "page_links"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "osint_providers.schemas",
+      "loc": 346,
+      "classes": 8,
+      "funcs": 11,
+      "subsystem": "osint_providers",
+      "score": 47.0,
+      "reasons": [
+        "medium_investment(346_LOC)",
+        "partially_active(osint_providers)",
+        "rich_API(8_classes,11_funcs)",
+        "capability_doc(validation)"
+      ],
+      "docstring": "Response Schema Validation \u2014 Pydantic Models for External APIs.\n\nValidates and sanitises responses from external OSINT APIs before\nthey enter the find",
+      "key_classes": [
+        "CrtshEntry",
+        "InternetDBResponse",
+        "BGPViewIP",
+        "RDAPDomain",
+        "XposedOrNotBreach"
+      ],
+      "module_full": "tools.burp_enterprise.osint_providers.schemas",
+      "path": "CaseCrack\\tools\\burp_enterprise\\osint_providers\\schemas.py",
+      "api_classes": [
+        "CrtshEntry",
+        "InternetDBResponse",
+        "BGPViewIP",
+        "RDAPDomain",
+        "XposedOrNotBreach",
+        "BreachAnalytics",
+        "EmailRepResponse",
+        "OTXPassiveDNS"
+      ],
+      "api_functions": [
+        "sanitise_string",
+        "validate_response",
+        "validate_single",
+        "from_raw",
+        "from_raw",
+        "from_raw",
+        "from_raw",
+        "from_raw"
+      ],
+      "exports": [
+        "CrtshEntry",
+        "InternetDBResponse",
+        "BGPViewIP",
+        "RDAPDomain",
+        "XposedOrNotBreach",
+        "BreachAnalytics",
+        "EmailRepResponse",
+        "OTXPassiveDNS",
+        "sanitise_string",
+        "validate_response",
+        "validate_single"
+      ],
+      "internal_imports": []
+    },
+    {
+      "module": "adversarial_validation_agent",
+      "loc": 1137,
+      "classes": 9,
+      "funcs": 16,
+      "subsystem": "adversarial_validation_agent",
+      "score": 45.0,
+      "reasons": [
+        "large_investment(1137_LOC)",
+        "dead_subsystem(adversarial_validation_agent)",
+        "strategic_name(agent,validation)",
+        "rich_API(9_classes,16_funcs)",
+        "capability_doc(validation)"
+      ],
+      "docstring": "Adversarial Validation Agent \u2014 the system that DISPROVES findings.\n\nCore principle:\n  \"Your job is not to confirm the implementation works \u2014 it's to t",
+      "key_classes": [
+        "ChallengeVerdict",
+        "ProbeType",
+        "RationalizationPattern",
+        "RationalizationDetection",
+        "CounterHypothesis"
+      ],
+      "module_full": "tools.burp_enterprise.adversarial_validation_agent",
+      "path": "CaseCrack\\tools\\burp_enterprise\\adversarial_validation_agent.py",
+      "api_classes": [
+        "ChallengeVerdict",
+        "ProbeType",
+        "RationalizationPattern",
+        "RationalizationDetection",
+        "CounterHypothesis",
+        "AdversarialProbe",
+        "ConfidenceAttack",
+        "ChallengeReport"
+      ],
+      "api_functions": [
+        "to_dict",
+        "to_dict",
+        "to_dict",
+        "to_dict",
+        "to_dict",
+        "confidence_delta",
+        "survived",
+        "bind_verdict_auditor"
+      ],
+      "exports": [
+        "AdversarialValidationAgent",
+        "ChallengeReport",
+        "ChallengeVerdict",
+        "CounterHypothesis",
+        "AdversarialProbe",
+        "RationalizationDetection",
+        "ConfidenceAttack",
+        "ProbeType",
+        "RationalizationPattern"
+      ],
+      "internal_imports": []
+    },
+    {
+      "module": "intel.github_client_base",
+      "loc": 388,
+      "classes": 2,
+      "funcs": 16,
+      "subsystem": "intel",
+      "score": 45.0,
+      "reasons": [
+        "medium_investment(388_LOC)",
+        "active_subsystem(intel:12_live/16_total)"
+      ],
+      "docstring": "Shared GitHub REST API v3 client base.\n\nProvides common auth, rate-limiting, retry-with-backoff, and session\nmanagement for all GitHub API consumers (",
+      "key_classes": [
+        "_SearchRateLimiter",
+        "BaseGitHubClient"
+      ],
+      "module_full": "tools.burp_enterprise.intel.github_client_base",
+      "path": "CaseCrack\\tools\\burp_enterprise\\intel\\github_client_base.py",
+      "api_classes": [
+        "_SearchRateLimiter",
+        "BaseGitHubClient"
+      ],
+      "api_functions": [
+        "wait",
+        "is_authenticated",
+        "close",
+        "api_get",
+        "api_get_raw",
+        "search_code",
+        "search_repos",
+        "search_commits"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "knowledge_resilience",
+      "loc": 1163,
+      "classes": 7,
+      "funcs": 18,
+      "subsystem": "knowledge_resilience",
+      "score": 45.0,
+      "reasons": [
+        "large_investment(1163_LOC)",
+        "dead_subsystem(knowledge_resilience)",
+        "strategic_name(knowledge,resilience)",
+        "rich_API(7_classes,18_funcs)",
+        "capability_doc(learning,resilience)"
+      ],
+      "docstring": "Venator Knowledge Resilience Engine\n====================================\n\nTier 5 upgrades that close all category-defining gaps:\n\n- **INTEL-1**: Cross",
+      "key_classes": [
+        "FederationManifest",
+        "KnowledgeFederation",
+        "FlywheelGuard",
+        "PolicySnapshot",
+        "ABTestResult"
+      ],
+      "module_full": "tools.burp_enterprise.knowledge_resilience",
+      "path": "CaseCrack\\tools\\burp_enterprise\\knowledge_resilience.py",
+      "api_classes": [
+        "FederationManifest",
+        "KnowledgeFederation",
+        "FlywheelGuard",
+        "PolicySnapshot",
+        "ABTestResult",
+        "PolicyABTester",
+        "TechTransferLearner"
+      ],
+      "api_functions": [
+        "get_knowledge_federation",
+        "get_flywheel_guard",
+        "get_policy_ab_tester",
+        "get_tech_transfer_learner",
+        "reset_all_resilience_singletons",
+        "export_bundle",
+        "import_bundle",
+        "create_snapshot"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "strategy_horizon_optimizer",
+      "loc": 618,
+      "classes": 8,
+      "funcs": 37,
+      "subsystem": "strategy_horizon_optimizer",
+      "score": 45.0,
+      "reasons": [
+        "large_investment(618_LOC)",
+        "dead_subsystem(strategy_horizon_optimizer)",
+        "strategic_name(optimizer,strategy)",
+        "rich_API(8_classes,37_funcs)",
+        "capability_doc(parallel,orchestrat)"
+      ],
+      "docstring": "StrategyHorizonOptimizer \u2014 Long-term strategy optimization (GAP-2: S1\u2013S6).\n\nCloses six strategy gaps that exist across the planning/orchestration stac",
+      "key_classes": [
+        "ArcState",
+        "DependencyType",
+        "ResourcePoolPolicy",
+        "ArcDependency",
+        "ManagedArc"
+      ],
+      "module_full": "tools.burp_enterprise.strategy_horizon_optimizer",
+      "path": "CaseCrack\\tools\\burp_enterprise\\strategy_horizon_optimizer.py",
+      "api_classes": [
+        "ArcState",
+        "DependencyType",
+        "ResourcePoolPolicy",
+        "ArcDependency",
+        "ManagedArc",
+        "ReplanEvent",
+        "ArcTemplateRecord",
+        "StrategyHorizonOptimizer"
+      ],
+      "api_functions": [
+        "to_dict",
+        "budget_remaining",
+        "time_remaining",
+        "urgency",
+        "to_dict",
+        "to_dict",
+        "update",
+        "to_dict"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "validation_fleet",
+      "loc": 2578,
+      "classes": 20,
+      "funcs": 42,
+      "subsystem": "validation_fleet",
+      "score": 45.0,
+      "reasons": [
+        "large_investment(2578_LOC)",
+        "dead_subsystem(validation_fleet)",
+        "strategic_name(validation)",
+        "rich_API(20_classes,42_funcs)",
+        "capability_doc(parallel,consensus,validation)"
+      ],
+      "docstring": "Parallel Finding Validation Fleet \u2014 Scientific Consensus Engine.\n\nInspired by Anthropic's pattern:\n    \"One agent finds \u2192 multiple agents attack valid",
+      "key_classes": [
+        "ConsensusVerdict",
+        "ValidatorType",
+        "IndividualVerdict",
+        "ValidatorVerdict",
+        "FleetConsensus"
+      ],
+      "module_full": "tools.burp_enterprise.validation_fleet",
+      "path": "CaseCrack\\tools\\burp_enterprise\\validation_fleet.py",
+      "api_classes": [
+        "ConsensusVerdict",
+        "ValidatorType",
+        "IndividualVerdict",
+        "ValidatorVerdict",
+        "FleetConsensus",
+        "ExploitValidator",
+        "AdversarialValidatorAdapter",
+        "ContextValidator"
+      ],
+      "api_functions": [
+        "to_dict",
+        "to_dict",
+        "confidence_delta",
+        "survived",
+        "validators_agreeing",
+        "validate",
+        "bind_ava",
+        "validate"
+      ],
+      "exports": [
+        "ValidationFleet",
+        "FleetConsensus",
+        "ValidatorVerdict",
+        "ConsensusVerdict",
+        "ExploitValidator",
+        "ContextValidator",
+        "ChainConsistencyValidator",
+        "ValidatorType",
+        "EvidenceGraph",
+        "DisagreementIntelligence",
+        "EvidenceRelation",
+        "DisagreementSignature",
+        "ProbeGenerator",
+        "ConvergenceLoop",
+        "ConvergenceResult",
+        "InformationGainScorer",
+        "CausalAttackModel",
+        "CausalImpact"
+      ],
+      "internal_imports": []
+    },
+    {
+      "module": "tool_wrappers._evidence",
+      "loc": 107,
+      "classes": 0,
+      "funcs": 3,
+      "subsystem": "tool_wrappers",
+      "score": 43.0,
+      "reasons": [
+        "active_subsystem(tool_wrappers:42_live/50_total)",
+        "capability_doc(audit)"
+      ],
+      "docstring": "Evidence pack bundler \u2014 collects scan outputs, tool versions, and config\ninto a ZIP archive for audit trail and compliance.",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.tool_wrappers._evidence",
+      "path": "CaseCrack\\tools\\burp_enterprise\\tool_wrappers\\_evidence.py",
+      "api_classes": [],
+      "api_functions": [
+        "collect_tool_versions",
+        "collect_run_config",
+        "bundle_evidence"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "cli.daemon",
+      "loc": 377,
+      "classes": 1,
+      "funcs": 9,
+      "subsystem": "cli",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(377_LOC)",
+        "active_subsystem(cli:86_live/89_total)"
+      ],
+      "docstring": "CLI Daemon \u2014 JSON-Line Protocol Server\n\nA single long-running Python process that accepts JSON-line requests on stdin\nand writes JSON-line responses t",
+      "key_classes": [
+        "StreamingWriter"
+      ],
+      "module_full": "tools.burp_enterprise.cli.daemon",
+      "path": "CaseCrack\\tools\\burp_enterprise\\cli\\daemon.py",
+      "api_classes": [
+        "StreamingWriter"
+      ],
+      "api_functions": [
+        "run_daemon",
+        "write",
+        "flush",
+        "getvalue",
+        "writable",
+        "readable",
+        "seekable",
+        "encoding"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "discovery_pkg.subdomain_external",
+      "loc": 273,
+      "classes": 1,
+      "funcs": 3,
+      "subsystem": "discovery_pkg",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(273_LOC)",
+        "active_subsystem(discovery_pkg:14_live/21_total)"
+      ],
+      "docstring": "S21: External Tool Wrappers for Subdomain Discovery\n====================================================\n\nIntegrates industry-standard external subdom",
+      "key_classes": [
+        "ExternalToolResult"
+      ],
+      "module_full": "tools.burp_enterprise.discovery_pkg.subdomain_external",
+      "path": "CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\subdomain_external.py",
+      "api_classes": [
+        "ExternalToolResult"
+      ],
+      "api_functions": [
+        "run_external_tools",
+        "merge_external_results",
+        "to_dict"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.infra_monitor",
+      "loc": 387,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(387_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Infrastructure monitoring probes \u2014 Burp, Docker, performance, API keys.\n\nExtracted from ``server.py`` (M3 Step 1).  All functions are stateless\n(forme",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.infra_monitor",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\infra_monitor.py",
+      "api_classes": [],
+      "api_functions": [
+        "check_burp",
+        "check_docker",
+        "check_performance",
+        "check_api_keys"
+      ],
+      "exports": [],
+      "internal_imports": []
+    },
+    {
+      "module": "recon_dashboard.routes_operator",
+      "loc": 238,
+      "classes": 0,
+      "funcs": 9,
+      "subsystem": "recon_dashboard",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(238_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "HTTP route handlers for operator feedback, action rationale, and outcome narratives.",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.routes_operator",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_operator.py",
+      "api_classes": [],
+      "api_functions": [],
+      "exports": [],
+      "internal_imports": [
+        "tools.burp_enterprise.operator_feedback",
+        "tools.burp_enterprise.outcome_narrative_engine",
+        "tools.burp_enterprise.action_rationale_engine"
+      ]
+    },
+    {
+      "module": "recon_dashboard.session_store",
+      "loc": 210,
+      "classes": 0,
+      "funcs": 4,
+      "subsystem": "recon_dashboard",
+      "score": 40.0,
+      "reasons": [
+        "medium_investment(210_LOC)",
+        "active_subsystem(recon_dashboard:62_live/85_total)"
+      ],
+      "docstring": "Session persistence helpers \u2014 save / restore / list / prune.\n\nExtracted from ``server.py`` (M3 Step 2).  Functions accept explicit\nparameters instead ",
+      "key_classes": [],
+      "module_full": "tools.burp_enterprise.recon_dashboard.session_store",
+      "path": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\session_store.py",
+      "api_classes": [],
+      "api_functions": [
+        "restore_session",
+        "save_state_snapshot",
+        "prune_old_sessions",
+        "list_sessions"
+      ],
+      "exports": [],
+      "internal_imports": []
+    }
+  ],
+  "cr_alive_by_subsystem": {
+    "(root)": [
+      "_spa_shell",
+      "browser_workflow_extractor",
+      "business_logic_scanner",
+      "caching",
+      "chain_executor",
+      "chain_handlers_ext",
+      "chain_impact_scorer",
+      "chain_resolver",
+      "compliance_mapper",
+      "discovery_bridge",
+      "event_integration",
+      "exploit_verifier",
+      "exploitation_data",
+      "http3_scanner",
+      "impact_chain",
+      "ipv6_scanner",
+      "kerberos_scanner",
+      "long_running_orchestrator",
+      "mcp_tools",
+      "payload_intelligence",
+      "poc_generator",
+      "race_harness",
+      "recon_context",
+      "scan_intelligence",
+      "scanner_utilities",
+      "second_order_detector",
+      "secret_patterns",
+      "session_state_manager",
+      "state_graph",
+      "ui_interaction_engine",
+      "workflow_modeler"
+    ],
+    "agents": [
+      "agents.chain",
+      "agents.chain_resolver",
+      "agents.copilot_sdk_discovery_tools",
+      "agents.copilot_sdk_exploit_cloud_tools",
+      "agents.copilot_sdk_infra_tools",
+      "agents.copilot_sdk_intel_tools",
+      "agents.copilot_sdk_vuln_tools",
+      "agents.core",
+      "agents.crawler",
+      "agents.domain_knowledge_engine",
+      "agents.fuzzer",
+      "agents.planner_bridge",
+      "agents.reasoning_display",
+      "agents.reporter",
+      "agents.vulnerability_intelligence",
+      "agents.waf"
+    ],
+    "caap": [
+      "caap.adaptive_learning",
+      "caap.agent_memory",
+      "caap.autonomy",
+      "caap.caap_output_wrapper",
+      "caap.caap_session",
+      "caap.copilot_loop",
+      "caap.environmental_adaptation",
+      "caap.reasoning_engine"
+    ],
+    "core_infra": [
+      "core_infra.audit_trail",
+      "core_infra.chaos_testing",
+      "core_infra.error_recovery",
+      "core_infra.metrics_collector",
+      "core_infra.registry",
+      "core_infra.resilience_wiring",
+      "core_infra.results",
+      "core_infra.safety_guardrails",
+      "core_infra.scope",
+      "core_infra.secrets_scanner",
+      "core_infra.self_healing"
+    ],
+    "data": [
+      "data.postgres"
+    ],
+    "discovery_pkg": [
+      "discovery_pkg.browser_workflow_extractor",
+      "discovery_pkg.js_intelligence_bridge"
+    ],
+    "exploit_chains": [
+      "exploit_chains.chain_executor",
+      "exploit_chains.chain_handlers_ext",
+      "exploit_chains.chain_resolver",
+      "exploit_chains.chain_schema",
+      "exploit_chains.exploit_progression",
+      "exploit_chains.impact_chain",
+      "exploit_chains.state_graph"
+    ],
+    "graph": [
+      "graph.checkpointer_async"
+    ],
+    "integrations": [
+      "integrations.burp_enterprise_api"
+    ],
+    "loop": [
+      "loop.attack_graph",
+      "loop.exploit_report",
+      "loop.exploration_bias",
+      "loop.graph_pruner",
+      "loop.race_engine",
+      "loop.session_matrix",
+      "loop.target_selection",
+      "loop.target_specialization",
+      "loop.value_scorer"
+    ],
+    "misc": [
+      "misc.core",
+      "misc.rate_limit",
+      "misc.waf"
+    ],
+    "network": [
+      "network.asn_intel"
+    ],
+    "output": [
+      "output.output_formats",
+      "output.poc_generator"
+    ],
+    "pipeline": [
+      "pipeline.exploitation_engine",
+      "pipeline.orchestrator",
+      "pipeline.reporter",
+      "pipeline.risk_aware_testing",
+      "pipeline.storage"
+    ],
+    "recon": [
+      "recon.crawler",
+      "recon.logging_config",
+      "recon.recon_context",
+      "recon.session_manager"
+    ],
+    "recon_dashboard": [
+      "recon_dashboard.event_bridge",
+      "recon_dashboard.routes_provider_vault",
+      "recon_dashboard.routes_sdk_engine"
+    ],
+    "scanners": [
+      "scanners.dom_xss_analyzer",
+      "scanners.scanner_utilities",
+      "scanners.waf_payload_adapter",
+      "scanners.websocket"
+    ],
+    "secrets": [
+      "secrets.secret_patterns_expanded"
+    ],
+    "session_auth": [
+      "session_auth.session_fixation_tester"
+    ],
+    "testing_tools": [
+      "testing_tools.core",
+      "testing_tools.passive_scanner"
+    ],
+    "tool_wrappers": [
+      "tool_wrappers._registry",
+      "tool_wrappers._scan_correlation",
+      "tool_wrappers._scan_runner",
+      "tool_wrappers.amass_provider",
+      "tool_wrappers.arjun_provider",
+      "tool_wrappers.ffuf_provider",
+      "tool_wrappers.grpcurl_provider",
+      "tool_wrappers.hakrawler_provider",
+      "tool_wrappers.interactsh_provider",
+      "tool_wrappers.jwt_tool_provider",
+      "tool_wrappers.meg_provider",
+      "tool_wrappers.qsreplace_provider",
+      "tool_wrappers.rustscan_provider",
+      "tool_wrappers.sqlmap_provider",
+      "tool_wrappers.sslyze_provider",
+      "tool_wrappers.subfinder_provider",
+      "tool_wrappers.zap_provider"
+    ]
+  },
+  "reimpl_tasks_by_subsystem": {
+    "agents": [
+      {
+        "module": "agents.auth_context",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_auth_context'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.auth_context"
+        ]
+      },
+      {
+        "module": "agents.autonomous_exploitation",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_autonomous_exploitation'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.autonomous_exploitation"
+        ]
+      },
+      {
+        "module": "agents.browser_workflow_extractor",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_browser_workflow_extractor'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.browser_workflow_extractor"
+        ]
+      },
+      {
+        "module": "agents.business_logic_scanner",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_business_logic_scanner'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.business_logic_scanner"
+        ]
+      },
+      {
+        "module": "agents.chain_impact_scorer",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_chain_impact_scorer'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.chain_impact_scorer"
+        ]
+      },
+      {
+        "module": "agents.crawl_secrets_pipeline",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_crawl_secrets_pipeline'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.crawl_secrets_pipeline"
+        ]
+      },
+      {
+        "module": "agents.creative_exploit_heuristics",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_creative_exploit_heuristics'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.creative_exploit_heuristics"
+        ]
+      },
+      {
+        "module": "agents.discovery_bridge",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_discovery_bridge'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.discovery_bridge"
+        ]
+      },
+      {
+        "module": "agents.evolutionary_fuzzer",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_evolutionary_fuzzer'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.evolutionary_fuzzer"
+        ]
+      },
+      {
+        "module": "agents.exploit_graph",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_exploit_graph'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.exploit_graph"
+        ]
+      },
+      {
+        "module": "agents.long_running_orchestrator",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_long_running_orchestrator'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.long_running_orchestrator"
+        ]
+      },
+      {
+        "module": "agents.opportunity_scoring",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_opportunity_scoring'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.opportunity_scoring"
+        ]
+      },
+      {
+        "module": "agents.payload_intelligence",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_payload_intelligence'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.payload_intelligence"
+        ]
+      },
+      {
+        "module": "agents.race_harness",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_race_harness'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.race_harness"
+        ]
+      },
+      {
+        "module": "agents.reverse_analytics",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_reverse_analytics'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.reverse_analytics"
+        ]
+      },
+      {
+        "module": "agents.session_state_manager",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_session_state_manager'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.session_state_manager"
+        ]
+      },
+      {
+        "module": "agents.source_code_search",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_source_code_search'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.source_code_search"
+        ]
+      },
+      {
+        "module": "agents.state_graph",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_state_graph'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.state_graph"
+        ]
+      },
+      {
+        "module": "agents.ui_interaction_engine",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_ui_interaction_engine'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.ui_interaction_engine"
+        ]
+      },
+      {
+        "module": "agents.workflow_modeler",
+        "subsystem": "agents",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'agents_workflow_modeler'",
+          "Inspect surviving siblings under burp_enterprise/agents/",
+          "Check dangling imports in reality map referencing agents.workflow_modeler"
+        ]
+      }
+    ],
+    "caap": [
+      {
+        "module": "caap.browser_exploitation_engine",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_browser_exploitation_engine'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.browser_exploitation_engine"
+        ]
+      },
+      {
+        "module": "caap.caap_chains",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_caap_chains'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.caap_chains"
+        ]
+      },
+      {
+        "module": "caap.caap_hypothesis",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_caap_hypothesis'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.caap_hypothesis"
+        ]
+      },
+      {
+        "module": "caap.caap_models",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_caap_models'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.caap_models"
+        ]
+      },
+      {
+        "module": "caap.caap_parser",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_caap_parser'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.caap_parser"
+        ]
+      },
+      {
+        "module": "caap.exploitation_data",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_exploitation_data'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.exploitation_data"
+        ]
+      },
+      {
+        "module": "caap.screenshot",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_screenshot'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.screenshot"
+        ]
+      },
+      {
+        "module": "caap.state_graph",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_state_graph'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.state_graph"
+        ]
+      },
+      {
+        "module": "caap.ui_interaction_engine",
+        "subsystem": "caap",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'caap_ui_interaction_engine'",
+          "Inspect surviving siblings under burp_enterprise/caap/",
+          "Check dangling imports in reality map referencing caap.ui_interaction_engine"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "module": "cloud.bucket_scanner",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_bucket_scanner'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.bucket_scanner"
+        ]
+      },
+      {
+        "module": "cloud.cloud_asset_discovery",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_cloud_asset_discovery'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.cloud_asset_discovery"
+        ]
+      },
+      {
+        "module": "cloud.cloud_inventory",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_cloud_inventory'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.cloud_inventory"
+        ]
+      },
+      {
+        "module": "cloud.container",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_container'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.container"
+        ]
+      },
+      {
+        "module": "cloud.container_recon",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_container_recon'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.container_recon"
+        ]
+      },
+      {
+        "module": "cloud.iam_attack_paths",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_iam_attack_paths'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.iam_attack_paths"
+        ]
+      },
+      {
+        "module": "cloud.ipv6_scanner",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_ipv6_scanner'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.ipv6_scanner"
+        ]
+      },
+      {
+        "module": "cloud.kerberos_scanner",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_kerberos_scanner'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.kerberos_scanner"
+        ]
+      },
+      {
+        "module": "cloud.network_safety",
+        "subsystem": "cloud",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cloud_network_safety'",
+          "Inspect surviving siblings under burp_enterprise/cloud/",
+          "Check dangling imports in reality map referencing cloud.network_safety"
+        ]
+      }
+    ],
+    "core_infra": [
+      {
+        "module": "core_infra.compliance_pkg",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_compliance_pkg'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.compliance_pkg"
+        ]
+      },
+      {
+        "module": "core_infra.confidence_engine",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_confidence_engine'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.confidence_engine"
+        ]
+      },
+      {
+        "module": "core_infra.context_manager",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_context_manager'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.context_manager"
+        ]
+      },
+      {
+        "module": "core_infra.cross_cutting",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_cross_cutting'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.cross_cutting"
+        ]
+      },
+      {
+        "module": "core_infra.error_intelligence",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_error_intelligence'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.error_intelligence"
+        ]
+      },
+      {
+        "module": "core_infra.event_bus",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_event_bus'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.event_bus"
+        ]
+      },
+      {
+        "module": "core_infra.exploit_graph",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_exploit_graph'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.exploit_graph"
+        ]
+      },
+      {
+        "module": "core_infra.finding_stream",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_finding_stream'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.finding_stream"
+        ]
+      },
+      {
+        "module": "core_infra.js_ast_analyzer",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_js_ast_analyzer'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.js_ast_analyzer"
+        ]
+      },
+      {
+        "module": "core_infra.module_registry",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_module_registry'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.module_registry"
+        ]
+      },
+      {
+        "module": "core_infra.preflight",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_preflight'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.preflight"
+        ]
+      },
+      {
+        "module": "core_infra.scanner_utilities",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_scanner_utilities'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.scanner_utilities"
+        ]
+      },
+      {
+        "module": "core_infra.secret_patterns",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_secret_patterns'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.secret_patterns"
+        ]
+      },
+      {
+        "module": "core_infra.severity_engine",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_severity_engine'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.severity_engine"
+        ]
+      },
+      {
+        "module": "core_infra.telemetry",
+        "subsystem": "core_infra",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'core_infra_telemetry'",
+          "Inspect surviving siblings under burp_enterprise/core_infra/",
+          "Check dangling imports in reality map referencing core_infra.telemetry"
+        ]
+      }
+    ],
+    "discovery_pkg": [
+      {
+        "module": "discovery_pkg.browser_extension_recon",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_browser_extension_recon'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.browser_extension_recon"
+        ]
+      },
+      {
+        "module": "discovery_pkg.captcha_bypass",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_captcha_bypass'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.captcha_bypass"
+        ]
+      },
+      {
+        "module": "discovery_pkg.discovery_bridge",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_discovery_bridge'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.discovery_bridge"
+        ]
+      },
+      {
+        "module": "discovery_pkg.postman_scanner",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_postman_scanner'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.postman_scanner"
+        ]
+      },
+      {
+        "module": "discovery_pkg.postmessage_analyzer",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_postmessage_analyzer'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.postmessage_analyzer"
+        ]
+      },
+      {
+        "module": "discovery_pkg.state_graph",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_state_graph'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.state_graph"
+        ]
+      },
+      {
+        "module": "discovery_pkg.subdomain_takeover_ext",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_subdomain_takeover_ext'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.subdomain_takeover_ext"
+        ]
+      },
+      {
+        "module": "discovery_pkg.template_fingerprint",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_template_fingerprint'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.template_fingerprint"
+        ]
+      },
+      {
+        "module": "discovery_pkg.workflow_modeler",
+        "subsystem": "discovery_pkg",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'discovery_pkg_workflow_modeler'",
+          "Inspect surviving siblings under burp_enterprise/discovery_pkg/",
+          "Check dangling imports in reality map referencing discovery_pkg.workflow_modeler"
+        ]
+      }
+    ],
+    "exploit_chains": [
+      {
+        "module": "exploit_chains.chain_impact_scorer",
+        "subsystem": "exploit_chains",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'exploit_chains_chain_impact_scorer'",
+          "Inspect surviving siblings under burp_enterprise/exploit_chains/",
+          "Check dangling imports in reality map referencing exploit_chains.chain_impact_scorer"
+        ]
+      },
+      {
+        "module": "exploit_chains.chain_matcher",
+        "subsystem": "exploit_chains",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'exploit_chains_chain_matcher'",
+          "Inspect surviving siblings under burp_enterprise/exploit_chains/",
+          "Check dangling imports in reality map referencing exploit_chains.chain_matcher"
+        ]
+      },
+      {
+        "module": "exploit_chains.chain_packs",
+        "subsystem": "exploit_chains",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'exploit_chains_chain_packs'",
+          "Inspect surviving siblings under burp_enterprise/exploit_chains/",
+          "Check dangling imports in reality map referencing exploit_chains.chain_packs"
+        ]
+      }
+    ],
+    "integrations": [
+      {
+        "module": "integrations.config",
+        "subsystem": "integrations",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'integrations_config'",
+          "Inspect surviving siblings under burp_enterprise/integrations/",
+          "Check dangling imports in reality map referencing integrations.config"
+        ]
+      },
+      {
+        "module": "integrations.dependency_health",
+        "subsystem": "integrations",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'integrations_dependency_health'",
+          "Inspect surviving siblings under burp_enterprise/integrations/",
+          "Check dangling imports in reality map referencing integrations.dependency_health"
+        ]
+      },
+      {
+        "module": "integrations.event_integration",
+        "subsystem": "integrations",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'integrations_event_integration'",
+          "Inspect surviving siblings under burp_enterprise/integrations/",
+          "Check dangling imports in reality map referencing integrations.event_integration"
+        ]
+      },
+      {
+        "module": "integrations.notification_webhooks",
+        "subsystem": "integrations",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'integrations_notification_webhooks'",
+          "Inspect surviving siblings under burp_enterprise/integrations/",
+          "Check dangling imports in reality map referencing integrations.notification_webhooks"
+        ]
+      },
+      {
+        "module": "integrations.nuclei_health",
+        "subsystem": "integrations",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'integrations_nuclei_health'",
+          "Inspect surviving siblings under burp_enterprise/integrations/",
+          "Check dangling imports in reality map referencing integrations.nuclei_health"
+        ]
+      },
+      {
+        "module": "integrations.nuclei_template_generator",
+        "subsystem": "integrations",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'integrations_nuclei_template_generator'",
+          "Inspect surviving siblings under burp_enterprise/integrations/",
+          "Check dangling imports in reality map referencing integrations.nuclei_template_generator"
+        ]
+      },
+      {
+        "module": "integrations.updater",
+        "subsystem": "integrations",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'integrations_updater'",
+          "Inspect surviving siblings under burp_enterprise/integrations/",
+          "Check dangling imports in reality map referencing integrations.updater"
+        ]
+      }
+    ],
+    "intel": [
+      {
+        "module": "intel.azure_devops_deep_recon",
+        "subsystem": "intel",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'intel_azure_devops_deep_recon'",
+          "Inspect surviving siblings under burp_enterprise/intel/",
+          "Check dangling imports in reality map referencing intel.azure_devops_deep_recon"
+        ]
+      },
+      {
+        "module": "intel.bitbucket_deep_recon",
+        "subsystem": "intel",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'intel_bitbucket_deep_recon'",
+          "Inspect surviving siblings under burp_enterprise/intel/",
+          "Check dangling imports in reality map referencing intel.bitbucket_deep_recon"
+        ]
+      },
+      {
+        "module": "intel.gitlab_deep_recon",
+        "subsystem": "intel",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'intel_gitlab_deep_recon'",
+          "Inspect surviving siblings under burp_enterprise/intel/",
+          "Check dangling imports in reality map referencing intel.gitlab_deep_recon"
+        ]
+      },
+      {
+        "module": "intel.iot_discovery",
+        "subsystem": "intel",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'intel_iot_discovery'",
+          "Inspect surviving siblings under burp_enterprise/intel/",
+          "Check dangling imports in reality map referencing intel.iot_discovery"
+        ]
+      },
+      {
+        "module": "intel.source_code_search",
+        "subsystem": "intel",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'intel_source_code_search'",
+          "Inspect surviving siblings under burp_enterprise/intel/",
+          "Check dangling imports in reality map referencing intel.source_code_search"
+        ]
+      },
+      {
+        "module": "intel.supply_chain_deep",
+        "subsystem": "intel",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'intel_supply_chain_deep'",
+          "Inspect surviving siblings under burp_enterprise/intel/",
+          "Check dangling imports in reality map referencing intel.supply_chain_deep"
+        ]
+      },
+      {
+        "module": "intel.supply_chain_intel",
+        "subsystem": "intel",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'intel_supply_chain_intel'",
+          "Inspect surviving siblings under burp_enterprise/intel/",
+          "Check dangling imports in reality map referencing intel.supply_chain_intel"
+        ]
+      }
+    ],
+    "misc": [
+      {
+        "module": "misc.audit_trail_tester",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_audit_trail_tester'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.audit_trail_tester"
+        ]
+      },
+      {
+        "module": "misc.baseline_manager",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_baseline_manager'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.baseline_manager"
+        ]
+      },
+      {
+        "module": "misc.install_helper",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_install_helper'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.install_helper"
+        ]
+      },
+      {
+        "module": "misc.juicy_files",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_juicy_files'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.juicy_files"
+        ]
+      },
+      {
+        "module": "misc.licensing",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_licensing'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.licensing"
+        ]
+      },
+      {
+        "module": "misc.network_safety",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_network_safety'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.network_safety"
+        ]
+      },
+      {
+        "module": "misc.preflight",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_preflight'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.preflight"
+        ]
+      },
+      {
+        "module": "misc.resource_monitor",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_resource_monitor'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.resource_monitor"
+        ]
+      },
+      {
+        "module": "misc.tool_wrapper_bridge",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_tool_wrapper_bridge'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.tool_wrapper_bridge"
+        ]
+      },
+      {
+        "module": "misc.workflow_modeler",
+        "subsystem": "misc",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'misc_workflow_modeler'",
+          "Inspect surviving siblings under burp_enterprise/misc/",
+          "Check dangling imports in reality map referencing misc.workflow_modeler"
+        ]
+      }
+    ],
+    "network": [
+      {
+        "module": "network.http2_fingerprint",
+        "subsystem": "network",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'network_http2_fingerprint'",
+          "Inspect surviving siblings under burp_enterprise/network/",
+          "Check dangling imports in reality map referencing network.http2_fingerprint"
+        ]
+      },
+      {
+        "module": "network.http3_scanner",
+        "subsystem": "network",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'network_http3_scanner'",
+          "Inspect surviving siblings under burp_enterprise/network/",
+          "Check dangling imports in reality map referencing network.http3_scanner"
+        ]
+      },
+      {
+        "module": "network.http3_security",
+        "subsystem": "network",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'network_http3_security'",
+          "Inspect surviving siblings under burp_enterprise/network/",
+          "Check dangling imports in reality map referencing network.http3_security"
+        ]
+      },
+      {
+        "module": "network.http_client",
+        "subsystem": "network",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'network_http_client'",
+          "Inspect surviving siblings under burp_enterprise/network/",
+          "Check dangling imports in reality map referencing network.http_client"
+        ]
+      },
+      {
+        "module": "network.multi_perspective",
+        "subsystem": "network",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'network_multi_perspective'",
+          "Inspect surviving siblings under burp_enterprise/network/",
+          "Check dangling imports in reality map referencing network.multi_perspective"
+        ]
+      },
+      {
+        "module": "network.network_mapper",
+        "subsystem": "network",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'network_network_mapper'",
+          "Inspect surviving siblings under burp_enterprise/network/",
+          "Check dangling imports in reality map referencing network.network_mapper"
+        ]
+      },
+      {
+        "module": "network.recon_transport",
+        "subsystem": "network",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'network_recon_transport'",
+          "Inspect surviving siblings under burp_enterprise/network/",
+          "Check dangling imports in reality map referencing network.recon_transport"
+        ]
+      }
+    ],
+    "output": [
+      {
+        "module": "output.atlas",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_atlas'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.atlas"
+        ]
+      },
+      {
+        "module": "output.base_finding",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_base_finding'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.base_finding"
+        ]
+      },
+      {
+        "module": "output.chain_executor",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_chain_executor'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.chain_executor"
+        ]
+      },
+      {
+        "module": "output.compliance_mapper",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_compliance_mapper'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.compliance_mapper"
+        ]
+      },
+      {
+        "module": "output.composite_rule_engine",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_composite_rule_engine'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.composite_rule_engine"
+        ]
+      },
+      {
+        "module": "output.confidence_engine",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_confidence_engine'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.confidence_engine"
+        ]
+      },
+      {
+        "module": "output.event_integration",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_event_integration'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.event_integration"
+        ]
+      },
+      {
+        "module": "output.exploit_graph",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_exploit_graph'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.exploit_graph"
+        ]
+      },
+      {
+        "module": "output.exploit_graph_renderer",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_exploit_graph_renderer'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.exploit_graph_renderer"
+        ]
+      },
+      {
+        "module": "output.finding_correlator",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_finding_correlator'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.finding_correlator"
+        ]
+      },
+      {
+        "module": "output.finding_dedup",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_finding_dedup'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.finding_dedup"
+        ]
+      },
+      {
+        "module": "output.finding_enrichment",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_finding_enrichment'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.finding_enrichment"
+        ]
+      },
+      {
+        "module": "output.response_classifier",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_response_classifier'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.response_classifier"
+        ]
+      },
+      {
+        "module": "output.severity_engine",
+        "subsystem": "output",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'output_severity_engine'",
+          "Inspect surviving siblings under burp_enterprise/output/",
+          "Check dangling imports in reality map referencing output.severity_engine"
+        ]
+      }
+    ],
+    "pipeline": [
+      {
+        "module": "pipeline.config",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_config'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.config"
+        ]
+      },
+      {
+        "module": "pipeline.cross_cutting",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_cross_cutting'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.cross_cutting"
+        ]
+      },
+      {
+        "module": "pipeline.ct_monitor",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_ct_monitor'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.ct_monitor"
+        ]
+      },
+      {
+        "module": "pipeline.distributed_recon",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_distributed_recon'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.distributed_recon"
+        ]
+      },
+      {
+        "module": "pipeline.dns_intel",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_dns_intel'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.dns_intel"
+        ]
+      },
+      {
+        "module": "pipeline.enterprise_scale_executor",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_enterprise_scale_executor'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.enterprise_scale_executor"
+        ]
+      },
+      {
+        "module": "pipeline.event_bus",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_event_bus'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.event_bus"
+        ]
+      },
+      {
+        "module": "pipeline.licensing",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_licensing'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.licensing"
+        ]
+      },
+      {
+        "module": "pipeline.long_running_orchestrator",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_long_running_orchestrator'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.long_running_orchestrator"
+        ]
+      },
+      {
+        "module": "pipeline.orchestrator_bridge",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_orchestrator_bridge'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.orchestrator_bridge"
+        ]
+      },
+      {
+        "module": "pipeline.recovery_bridge",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_recovery_bridge'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.recovery_bridge"
+        ]
+      },
+      {
+        "module": "pipeline.scan_intelligence",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_scan_intelligence'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.scan_intelligence"
+        ]
+      },
+      {
+        "module": "pipeline.scanner_hooks",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_scanner_hooks'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.scanner_hooks"
+        ]
+      },
+      {
+        "module": "pipeline.scanner_utilities",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_scanner_utilities'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.scanner_utilities"
+        ]
+      },
+      {
+        "module": "pipeline.task_queue",
+        "subsystem": "pipeline",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'pipeline_task_queue'",
+          "Inspect surviving siblings under burp_enterprise/pipeline/",
+          "Check dangling imports in reality map referencing pipeline.task_queue"
+        ]
+      }
+    ],
+    "recon": [
+      {
+        "module": "recon.cross_cutting",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_cross_cutting'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.cross_cutting"
+        ]
+      },
+      {
+        "module": "recon.event_bus",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_event_bus'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.event_bus"
+        ]
+      },
+      {
+        "module": "recon.git_history_scanner",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_git_history_scanner'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.git_history_scanner"
+        ]
+      },
+      {
+        "module": "recon.graphql_recon",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_graphql_recon'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.graphql_recon"
+        ]
+      },
+      {
+        "module": "recon.headless_crawler",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_headless_crawler'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.headless_crawler"
+        ]
+      },
+      {
+        "module": "recon.http3_scanner",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_http3_scanner'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.http3_scanner"
+        ]
+      },
+      {
+        "module": "recon.http_client",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_http_client'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.http_client"
+        ]
+      },
+      {
+        "module": "recon.ipv6_scanner",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_ipv6_scanner'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.ipv6_scanner"
+        ]
+      },
+      {
+        "module": "recon.juicy_files",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_juicy_files'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.juicy_files"
+        ]
+      },
+      {
+        "module": "recon.kerberos_scanner",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_kerberos_scanner'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.kerberos_scanner"
+        ]
+      },
+      {
+        "module": "recon.phase_health",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_phase_health'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.phase_health"
+        ]
+      },
+      {
+        "module": "recon.scanner_hooks",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_scanner_hooks'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.scanner_hooks"
+        ]
+      },
+      {
+        "module": "recon.second_order_detector",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_second_order_detector'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.second_order_detector"
+        ]
+      },
+      {
+        "module": "recon.supply_chain_intel",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_supply_chain_intel'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.supply_chain_intel"
+        ]
+      },
+      {
+        "module": "recon.telemetry",
+        "subsystem": "recon",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'recon_telemetry'",
+          "Inspect surviving siblings under burp_enterprise/recon/",
+          "Check dangling imports in reality map referencing recon.telemetry"
+        ]
+      }
+    ],
+    "scanners": [
+      {
+        "module": "scanners.business_logic_ai",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_business_logic_ai'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.business_logic_ai"
+        ]
+      },
+      {
+        "module": "scanners.business_logic_scanner",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_business_logic_scanner'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.business_logic_scanner"
+        ]
+      },
+      {
+        "module": "scanners.captcha_bypass",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_captcha_bypass'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.captcha_bypass"
+        ]
+      },
+      {
+        "module": "scanners.csp_analyzer",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_csp_analyzer'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.csp_analyzer"
+        ]
+      },
+      {
+        "module": "scanners.defensive_monitoring_tester",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_defensive_monitoring_tester'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.defensive_monitoring_tester"
+        ]
+      },
+      {
+        "module": "scanners.error_intelligence",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_error_intelligence'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.error_intelligence"
+        ]
+      },
+      {
+        "module": "scanners.error_page_analyzer",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_error_page_analyzer'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.error_page_analyzer"
+        ]
+      },
+      {
+        "module": "scanners.fail_secure_tester",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_fail_secure_tester'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.fail_secure_tester"
+        ]
+      },
+      {
+        "module": "scanners.graphql_schema_cache",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_graphql_schema_cache'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.graphql_schema_cache"
+        ]
+      },
+      {
+        "module": "scanners.grpc_exploit_tester",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_grpc_exploit_tester'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.grpc_exploit_tester"
+        ]
+      },
+      {
+        "module": "scanners.log_endpoint_scanner",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_log_endpoint_scanner'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.log_endpoint_scanner"
+        ]
+      },
+      {
+        "module": "scanners.mass_assignment_tester",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_mass_assignment_tester'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.mass_assignment_tester"
+        ]
+      },
+      {
+        "module": "scanners.network_safety",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_network_safety'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.network_safety"
+        ]
+      },
+      {
+        "module": "scanners.oauth_recon",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_oauth_recon'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.oauth_recon"
+        ]
+      },
+      {
+        "module": "scanners.oob_interaction",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_oob_interaction'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.oob_interaction"
+        ]
+      },
+      {
+        "module": "scanners.scan_profiles",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_scan_profiles'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.scan_profiles"
+        ]
+      },
+      {
+        "module": "scanners.second_order_detector",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_second_order_detector'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.second_order_detector"
+        ]
+      },
+      {
+        "module": "scanners.sensitive_source_scanner",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_sensitive_source_scanner'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.sensitive_source_scanner"
+        ]
+      },
+      {
+        "module": "scanners.soap_wsdl_tester",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_soap_wsdl_tester'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.soap_wsdl_tester"
+        ]
+      },
+      {
+        "module": "scanners.ssrf_dns_bridge",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_ssrf_dns_bridge'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.ssrf_dns_bridge"
+        ]
+      },
+      {
+        "module": "scanners.state_graph",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_state_graph'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.state_graph"
+        ]
+      },
+      {
+        "module": "scanners.state_machine_tester",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_state_machine_tester'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.state_machine_tester"
+        ]
+      },
+      {
+        "module": "scanners.waf_payload_tester",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_waf_payload_tester'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.waf_payload_tester"
+        ]
+      },
+      {
+        "module": "scanners.weak_hash_detector",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_weak_hash_detector'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.weak_hash_detector"
+        ]
+      },
+      {
+        "module": "scanners.websocket_recon",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_websocket_recon'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.websocket_recon"
+        ]
+      },
+      {
+        "module": "scanners.webtransport_security",
+        "subsystem": "scanners",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'scanners_webtransport_security'",
+          "Inspect surviving siblings under burp_enterprise/scanners/",
+          "Check dangling imports in reality map referencing scanners.webtransport_security"
+        ]
+      }
+    ],
+    "secrets": [
+      {
+        "module": "secrets.canary_detector",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_canary_detector'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.canary_detector"
+        ]
+      },
+      {
+        "module": "secrets.crawl_secrets_pipeline",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_crawl_secrets_pipeline'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.crawl_secrets_pipeline"
+        ]
+      },
+      {
+        "module": "secrets.credential_enumerator",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_credential_enumerator'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.credential_enumerator"
+        ]
+      },
+      {
+        "module": "secrets.cross_fork_scanner",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_cross_fork_scanner'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.cross_fork_scanner"
+        ]
+      },
+      {
+        "module": "secrets.custom_detector",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_custom_detector'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.custom_detector"
+        ]
+      },
+      {
+        "module": "secrets.custom_detector_loader",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_custom_detector_loader'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.custom_detector_loader"
+        ]
+      },
+      {
+        "module": "secrets.docker_image_scanner",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_docker_image_scanner'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.docker_image_scanner"
+        ]
+      },
+      {
+        "module": "secrets.docker_layer_analyzer",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_docker_layer_analyzer'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.docker_layer_analyzer"
+        ]
+      },
+      {
+        "module": "secrets.entropy_analyzer",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_entropy_analyzer'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.entropy_analyzer"
+        ]
+      },
+      {
+        "module": "secrets.entropy_intelligence",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_entropy_intelligence'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.entropy_intelligence"
+        ]
+      },
+      {
+        "module": "secrets.git_deep_scanner",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_git_deep_scanner'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.git_deep_scanner"
+        ]
+      },
+      {
+        "module": "secrets.keyword_prefilter",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_keyword_prefilter'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.keyword_prefilter"
+        ]
+      },
+      {
+        "module": "secrets.network_safety",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_network_safety'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.network_safety"
+        ]
+      },
+      {
+        "module": "secrets.secret_patterns",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_secret_patterns'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.secret_patterns"
+        ]
+      },
+      {
+        "module": "secrets.secret_verifier",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_secret_verifier'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.secret_verifier"
+        ]
+      },
+      {
+        "module": "secrets.secret_verifiers_extended",
+        "subsystem": "secrets",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'secrets_secret_verifiers_extended'",
+          "Inspect surviving siblings under burp_enterprise/secrets/",
+          "Check dangling imports in reality map referencing secrets.secret_verifiers_extended"
+        ]
+      }
+    ],
+    "session_auth": [
+      {
+        "module": "session_auth.auth_context",
+        "subsystem": "session_auth",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'session_auth_auth_context'",
+          "Inspect surviving siblings under burp_enterprise/session_auth/",
+          "Check dangling imports in reality map referencing session_auth.auth_context"
+        ]
+      },
+      {
+        "module": "session_auth.license_keygen",
+        "subsystem": "session_auth",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'session_auth_license_keygen'",
+          "Inspect surviving siblings under burp_enterprise/session_auth/",
+          "Check dangling imports in reality map referencing session_auth.license_keygen"
+        ]
+      },
+      {
+        "module": "session_auth.session_state_manager",
+        "subsystem": "session_auth",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'session_auth_session_state_manager'",
+          "Inspect surviving siblings under burp_enterprise/session_auth/",
+          "Check dangling imports in reality map referencing session_auth.session_state_manager"
+        ]
+      }
+    ],
+    "testing_tools": [
+      {
+        "module": "testing_tools.advanced_racer",
+        "subsystem": "testing_tools",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'testing_tools_advanced_racer'",
+          "Inspect surviving siblings under burp_enterprise/testing_tools/",
+          "Check dangling imports in reality map referencing testing_tools.advanced_racer"
+        ]
+      },
+      {
+        "module": "testing_tools.captcha_bypass",
+        "subsystem": "testing_tools",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'testing_tools_captcha_bypass'",
+          "Inspect surviving siblings under burp_enterprise/testing_tools/",
+          "Check dangling imports in reality map referencing testing_tools.captcha_bypass"
+        ]
+      },
+      {
+        "module": "testing_tools.evolutionary_fuzzer",
+        "subsystem": "testing_tools",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'testing_tools_evolutionary_fuzzer'",
+          "Inspect surviving siblings under burp_enterprise/testing_tools/",
+          "Check dangling imports in reality map referencing testing_tools.evolutionary_fuzzer"
+        ]
+      },
+      {
+        "module": "testing_tools.payload_intelligence",
+        "subsystem": "testing_tools",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'testing_tools_payload_intelligence'",
+          "Inspect surviving siblings under burp_enterprise/testing_tools/",
+          "Check dangling imports in reality map referencing testing_tools.payload_intelligence"
+        ]
+      },
+      {
+        "module": "testing_tools.race_harness",
+        "subsystem": "testing_tools",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'testing_tools_race_harness'",
+          "Inspect surviving siblings under burp_enterprise/testing_tools/",
+          "Check dangling imports in reality map referencing testing_tools.race_harness"
+        ]
+      },
+      {
+        "module": "testing_tools.recursive_decoder",
+        "subsystem": "testing_tools",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'testing_tools_recursive_decoder'",
+          "Inspect surviving siblings under burp_enterprise/testing_tools/",
+          "Check dangling imports in reality map referencing testing_tools.recursive_decoder"
+        ]
+      },
+      {
+        "module": "testing_tools.screenshot",
+        "subsystem": "testing_tools",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'testing_tools_screenshot'",
+          "Inspect surviving siblings under burp_enterprise/testing_tools/",
+          "Check dangling imports in reality map referencing testing_tools.screenshot"
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "module": "tools.burp_enterprise",
+        "subsystem": "tools",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'tools_burp_enterprise'",
+          "Inspect surviving siblings under burp_enterprise/tools/",
+          "Check dangling imports in reality map referencing tools.burp_enterprise"
+        ]
+      }
+    ],
+    "(root)": [
+      {
+        "module": "cli",
+        "subsystem": "(root)",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'cli'",
+          "Inspect surviving siblings under burp_enterprise/(root)/",
+          "Check dangling imports in reality map referencing cli"
+        ]
+      },
+      {
+        "module": "email_hardening",
+        "subsystem": "(root)",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'email_hardening'",
+          "Inspect surviving siblings under burp_enterprise/(root)/",
+          "Check dangling imports in reality map referencing email_hardening"
+        ]
+      },
+      {
+        "module": "swarm",
+        "subsystem": "(root)",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'swarm'",
+          "Inspect surviving siblings under burp_enterprise/(root)/",
+          "Check dangling imports in reality map referencing swarm"
+        ]
+      }
+    ],
+    "database": [
+      {
+        "module": "database.db_consolidation_migrate",
+        "subsystem": "database",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'database_db_consolidation_migrate'",
+          "Inspect surviving siblings under burp_enterprise/database/",
+          "Check dangling imports in reality map referencing database.db_consolidation_migrate"
+        ]
+      },
+      {
+        "module": "database.db_migrations",
+        "subsystem": "database",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'database_db_migrations'",
+          "Inspect surviving siblings under burp_enterprise/database/",
+          "Check dangling imports in reality map referencing database.db_migrations"
+        ]
+      }
+    ],
+    "inference": [
+      {
+        "module": "inference.model_management",
+        "subsystem": "inference",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'inference_model_management'",
+          "Inspect surviving siblings under burp_enterprise/inference/",
+          "Check dangling imports in reality map referencing inference.model_management"
+        ]
+      }
+    ],
+    "mcp": [
+      {
+        "module": "mcp.atlas_mcp_bridge",
+        "subsystem": "mcp",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'mcp_atlas_mcp_bridge'",
+          "Inspect surviving siblings under burp_enterprise/mcp/",
+          "Check dangling imports in reality map referencing mcp.atlas_mcp_bridge"
+        ]
+      }
+    ],
+    "swarm": [
+      {
+        "module": "swarm.multi_gpu",
+        "subsystem": "swarm",
+        "spec_source": "memory/repo notes + canonical schema + sibling modules",
+        "rebuild_hints": [
+          "Search /memories/repo/ for matches on 'swarm_multi_gpu'",
+          "Inspect surviving siblings under burp_enterprise/swarm/",
+          "Check dangling imports in reality map referencing swarm.multi_gpu"
+        ]
+      }
+    ]
+  }
+}

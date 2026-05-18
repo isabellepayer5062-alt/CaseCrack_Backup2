@@ -1,0 +1,1417 @@
+{
+  "A_safe_restore": [
+    {
+      "hits": 5,
+      "size": 75312,
+      "module": "tools.burp_enterprise.exploit_chains.system_audit_harness",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\system_audit_harness.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4a7d40c9\\Sh1o.py",
+      "hard_callers": 6,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_audit_pyramid.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_decision_framework.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1954,
+        "classes": 17,
+        "funcs": 55,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 5,
+      "size": 27099,
+      "module": "tools.burp_enterprise.loop.ai_directed_executor",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\ai_directed_executor.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-158d7ee2\\2gXr.py",
+      "hard_callers": 6,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adversarial_upgrades.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_autonomous_loop.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 711,
+        "classes": 4,
+        "funcs": 17,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 5,
+      "size": 8627,
+      "module": "tools.burp_enterprise.loop.world_state",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\world_state.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\15a7a579\\gKj4.py",
+      "hard_callers": 5,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adversarial_upgrades.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_autonomous_loop.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 212,
+        "classes": 4,
+        "funcs": 5,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 5,
+      "size": 7543,
+      "module": "tools.burp_enterprise.loop.loop_config",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\loop_config.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\54446740\\YaLz.py",
+      "hard_callers": 5,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adversarial_upgrades.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_autonomous_loop.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 158,
+        "classes": 1,
+        "funcs": 2,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 3,
+      "size": 60939,
+      "module": "tools.burp_enterprise.adaptive_exploration_policy",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\adaptive_exploration_policy.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\45ab0925\\tJcN.py",
+      "hard_callers": 3,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adaptive_exploration.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_commercial_autonomous_gaps.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1484,
+        "classes": 4,
+        "funcs": 35,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 3,
+      "size": 22281,
+      "module": "tools.burp_enterprise.phase_priority_queue",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\phase_priority_queue.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\f275d18\\iyE0.py",
+      "hard_callers": 3,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adaptive_exploration.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_commercial_autonomous_gaps.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 553,
+        "classes": 3,
+        "funcs": 20,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 2,
+      "size": 48433,
+      "module": "tools.burp_enterprise.exploit_chains.audit_pyramid",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\audit_pyramid.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6b3bcdcf\\SOwl.py",
+      "hard_callers": 2,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_audit_pyramid.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_decision_framework.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1405,
+        "classes": 20,
+        "funcs": 30,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 2,
+      "size": 35625,
+      "module": "tools.burp_enterprise.objective_engine",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\objective_engine.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\597aedca\\fryM.py",
+      "hard_callers": 2,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_commercial_autonomous_gaps.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_organism_health_gaps.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 852,
+        "classes": 7,
+        "funcs": 22,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 2,
+      "size": 23856,
+      "module": "tools.burp_enterprise.graph.tracing",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\tracing.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-d785025\\YBG1.py",
+      "hard_callers": 2,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_defense_stack.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_hardening.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 628,
+        "classes": 3,
+        "funcs": 26,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 2,
+      "size": 14608,
+      "module": "tools.burp_enterprise.graph.multi_agent.runner",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\runner.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3d57cef\\JzJg.py",
+      "hard_callers": 2,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_parallel_dispatch.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_hardening.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 417,
+        "classes": 0,
+        "funcs": 8,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 78267,
+      "module": "tools.burp_enterprise.exploit_chains.manual_audit_engine",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\manual_audit_engine.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\12ae87dc\\ZTEQ.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_manual_audit_engine.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 2088,
+        "classes": 17,
+        "funcs": 34,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 78137,
+      "module": "tools.burp_enterprise.session_auth.session_intelligence",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\session_auth\\session_intelligence.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5d7222d6\\S5Kg.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_session_intelligence.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1961,
+        "classes": 12,
+        "funcs": 82,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 66074,
+      "module": "tools.burp_enterprise.agents.llm_advanced_defense",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\agents\\llm_advanced_defense.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\21393466\\uiau.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_defense_stack.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1482,
+        "classes": 10,
+        "funcs": 33,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 62409,
+      "module": "tools.burp_enterprise.exploit_chains.deep_audit_harness",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\deep_audit_harness.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3960351a\\XyBx.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_deep_audit_harness.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1694,
+        "classes": 25,
+        "funcs": 38,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 62152,
+      "module": "tools.burp_enterprise.exploit_chains.reality_gap_harness",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\reality_gap_harness.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-f52d85d\\usQH.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_reality_gap_harness.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1701,
+        "classes": 29,
+        "funcs": 33,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 60231,
+      "module": "tools.burp_enterprise.graph.nodes",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\nodes.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\148e850c\\RY4V.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_hardening.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1398,
+        "classes": 0,
+        "funcs": 19,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 53812,
+      "module": "tools.burp_enterprise.graph.multi_agent.specialist_nodes",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\specialist_nodes.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1bc7b6be\\xo6q.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 1,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_parallel_dispatch.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1292,
+        "classes": 0,
+        "funcs": 21,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 52085,
+      "module": "tools.burp_enterprise.agents.prompt_security",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\agents\\prompt_security.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-16500968\\GW3t.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_defense_stack.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1126,
+        "classes": 5,
+        "funcs": 23,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 48880,
+      "module": "tools.burp_enterprise.agents.llm_tracking",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\agents\\llm_tracking.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2ffaaa52\\Zeez.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_thread_safety_phase1.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1008,
+        "classes": 2,
+        "funcs": 20,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 46973,
+      "module": "tools.burp_enterprise.exploit_chains.integration_audit",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\integration_audit.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\8127c8b\\Q7gz.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_integration_audit.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1193,
+        "classes": 9,
+        "funcs": 46,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 39746,
+      "module": "tools.burp_enterprise.temporal_stability",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\temporal_stability.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2af301c6\\Gdma.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_temporal_stability.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 982,
+        "classes": 8,
+        "funcs": 44,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 35355,
+      "module": "tools.burp_enterprise.recon_dashboard.chain_execution_loop",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\chain_execution_loop.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2c1ad5be\\gyq6.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_execution_planning.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 815,
+        "classes": 4,
+        "funcs": 31,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 34900,
+      "module": "tools.burp_enterprise.exploit_chains.observability",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\observability.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-209fee06\\Oz4F.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_observability.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 921,
+        "classes": 5,
+        "funcs": 27,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 34802,
+      "module": "tools.burp_enterprise.graph.cross_scan_memory",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\cross_scan_memory.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-733df9a7\\Z93Q.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_hardening.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 874,
+        "classes": 1,
+        "funcs": 19,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 34297,
+      "module": "tools.burp_enterprise.loop.invariant_engine",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\invariant_engine.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\19b04050\\1aLV.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adversarial_upgrades.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 820,
+        "classes": 7,
+        "funcs": 15,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 33798,
+      "module": "tools.burp_enterprise.exploit_chains.production_truth_loop",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\production_truth_loop.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\66c6da3d\\0Cui.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_truth_loop.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1011,
+        "classes": 15,
+        "funcs": 21,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 33582,
+      "module": "tools.burp_enterprise.swarm.multi_gpu.topology",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\topology.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\422e6dc3\\taTr.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_multi_gpu.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 861,
+        "classes": 7,
+        "funcs": 40,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 32803,
+      "module": "tools.burp_enterprise.exploit_chains.decision_framework",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\decision_framework.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-74997588\\TC91.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_decision_framework.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 989,
+        "classes": 22,
+        "funcs": 25,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 32220,
+      "module": "tools.burp_enterprise.exploit_chains.exploit_progression",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\exploit_chains\\exploit_progression.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\13da93d4\\o8ZM.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_commercial_autonomous_gaps.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 755,
+        "classes": 5,
+        "funcs": 19,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 32206,
+      "module": "tools.burp_enterprise.swarm.swarm",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\swarm.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1316a405\\qfhK.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_agent_swarm.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 826,
+        "classes": 4,
+        "funcs": 35,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 31874,
+      "module": "tools.burp_enterprise.agents.llm_intelligence",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\agents\\llm_intelligence.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\47c1c44a\\GGcp.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_phase_d_llm_guided_execution.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 679,
+        "classes": 0,
+        "funcs": 11,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 30826,
+      "module": "tools.burp_enterprise.graph.multi_agent.supervisor",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\supervisor.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1353d127\\RkuD.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 1,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_parallel_dispatch.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 752,
+        "classes": 0,
+        "funcs": 18,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 29910,
+      "module": "tools.burp_enterprise.attacker_memory",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\attacker_memory.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\184a4bd1\\tm2u.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_commercial_autonomous_gaps.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 751,
+        "classes": 4,
+        "funcs": 35,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 27545,
+      "module": "tools.burp_enterprise.swarm.multi_gpu.scheduler",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\scheduler.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-65da485f\\ueJO.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_multi_gpu.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 736,
+        "classes": 8,
+        "funcs": 30,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 27022,
+      "module": "tools.burp_enterprise.loop.exploit_report",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\exploit_report.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1d5daea9\\WIdV.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_final_refinements.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 602,
+        "classes": 3,
+        "funcs": 16,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 26973,
+      "module": "tools.burp_enterprise.graph.runner",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\runner.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5d4d7ba1\\6XRu.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_hardening.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 713,
+        "classes": 0,
+        "funcs": 13,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 26817,
+      "module": "tools.burp_enterprise.swarm.multi_gpu.messenger",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\messenger.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1db87e49\\uspj.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_multi_gpu.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 679,
+        "classes": 8,
+        "funcs": 28,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 26166,
+      "module": "tools.burp_enterprise.loop.target_selection",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\target_selection.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\509dae73\\4s3d.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_strategic_operations.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 619,
+        "classes": 4,
+        "funcs": 22,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 24674,
+      "module": "tools.burp_enterprise.loop.signal_extraction",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\signal_extraction.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7940fe7f\\k7yY.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_strategic_operations.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 580,
+        "classes": 5,
+        "funcs": 17,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 24100,
+      "module": "tools.burp_enterprise.loop.payload_evolution",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\payload_evolution.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3949aad3\\4WxP.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_elite_upgrades.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 630,
+        "classes": 7,
+        "funcs": 23,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 23548,
+      "module": "tools.burp_enterprise.loop.confirmation_engine",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\confirmation_engine.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7ad90e91\\mr3b.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adversarial_upgrades.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 594,
+        "classes": 7,
+        "funcs": 15,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 23318,
+      "module": "tools.burp_enterprise.swarm.multi_gpu.model_sharder",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\model_sharder.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6f3f25a7\\hE2E.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_multi_gpu.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 615,
+        "classes": 6,
+        "funcs": 26,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 22698,
+      "module": "tools.burp_enterprise.graph.checkpointer_async",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\checkpointer_async.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1b072a9f\\BzrR.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_hardening.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 569,
+        "classes": 3,
+        "funcs": 30,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 22688,
+      "module": "tools.burp_enterprise.loop.attack_graph",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\attack_graph.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3e81b49a\\OXAA.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_elite_upgrades.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 568,
+        "classes": 7,
+        "funcs": 15,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 22663,
+      "module": "tools.burp_enterprise.recon_dashboard.routes_multi_agent",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_multi_agent.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\704fffbd\\ypQ9.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_multi_agent_integration.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 604,
+        "classes": 0,
+        "funcs": 13,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 22577,
+      "module": "tools.burp_enterprise.loop.session_matrix",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\session_matrix.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\70923c47\\b4VJ.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_elite_upgrades.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 557,
+        "classes": 7,
+        "funcs": 18,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 21359,
+      "module": "tools.burp_enterprise.swarm.multi_gpu.governor",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\multi_gpu\\governor.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\597e4b9c\\WAeO.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_multi_gpu.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 599,
+        "classes": 4,
+        "funcs": 29,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 21106,
+      "module": "tools.burp_enterprise.loop.campaign_strategy",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\campaign_strategy.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-389a33e5\\Jcjj.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_strategic_operations.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 479,
+        "classes": 4,
+        "funcs": 9,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 20462,
+      "module": "tools.burp_enterprise.loop.vector_reasoning",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\vector_reasoning.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-527f2ed1\\fjVo.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adversarial_upgrades.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 485,
+        "classes": 7,
+        "funcs": 17,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 19835,
+      "module": "tools.burp_enterprise.swarm.message_bus",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\message_bus.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\58b7c2b\\sMmi.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_agent_swarm.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 526,
+        "classes": 7,
+        "funcs": 21,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 19783,
+      "module": "tools.burp_enterprise.loop.race_engine",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\race_engine.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\25e5802d\\yDPv.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_elite_upgrades.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 498,
+        "classes": 7,
+        "funcs": 11,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 19523,
+      "module": "tools.burp_enterprise.swarm.shared_weights",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\shared_weights.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6b8d8dba\\JeTy.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_agent_swarm.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 524,
+        "classes": 6,
+        "funcs": 28,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 18141,
+      "module": "tools.burp_enterprise.loop.target_specialization",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\target_specialization.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1f093584\\jHxv.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_final_refinements.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 397,
+        "classes": 3,
+        "funcs": 7,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 15937,
+      "module": "tools.burp_enterprise.graph.multi_agent.builder",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\builder.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2ef1a30e\\K07u.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 1,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_parallel_dispatch.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 387,
+        "classes": 0,
+        "funcs": 4,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 15830,
+      "module": "tools.burp_enterprise.loop.value_scorer",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\value_scorer.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\29b97723\\vkiS.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_final_refinements.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 410,
+        "classes": 5,
+        "funcs": 11,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 14894,
+      "module": "tools.burp_enterprise.loop.parallel_executor",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\parallel_executor.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\9716d32\\enm8.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adversarial_upgrades.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 376,
+        "classes": 4,
+        "funcs": 10,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 14380,
+      "module": "tools.burp_enterprise.loop.exploration_bias",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\exploration_bias.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6530481c\\iPeM.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_final_refinements.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 315,
+        "classes": 3,
+        "funcs": 11,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 13469,
+      "module": "tools.burp_enterprise.graph.reasoning.runner",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\reasoning\\runner.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-51063690\\vwxG.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_hardening.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 365,
+        "classes": 0,
+        "funcs": 7,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 13206,
+      "module": "tools.burp_enterprise.loop.graph_pruner",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\graph_pruner.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-31dc7428\\mguY.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_final_refinements.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 320,
+        "classes": 3,
+        "funcs": 8,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 10667,
+      "module": "tools.burp_enterprise.budget_controller",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\budget_controller.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1b1f9d66\\0PMD.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adaptive_exploration.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 263,
+        "classes": 2,
+        "funcs": 11,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 10395,
+      "module": "tools.burp_enterprise.graph.multi_agent.state",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\state.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\56ce51bc\\5cN8.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 1,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_parallel_dispatch.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 285,
+        "classes": 6,
+        "funcs": 4,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 9889,
+      "module": "tools.burp_enterprise.graph.multi_agent.handoff",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\handoff.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\68704fcd\\VWkp.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 1,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_multi_agent_integration.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 263,
+        "classes": 0,
+        "funcs": 5,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 7378,
+      "module": "tools.burp_enterprise.graph.multi_agent.worker_factory",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\worker_factory.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\120a0858\\TIPd.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_worker_factory_phase2.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 167,
+        "classes": 1,
+        "funcs": 1,
+        "old_imports": false
+      }
+    }
+  ],
+  "B_needs_merge": [
+    {
+      "hits": 5,
+      "size": 255150,
+      "module": "tools.burp_enterprise.recon_dashboard",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\recon_dashboard.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\417a6ff8\\HZZz.py",
+      "hard_callers": 39,
+      "guarded_callers": 1,
+      "comment_refs": 6,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\recon_dashboard.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\findings_store.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 5793,
+        "classes": 3,
+        "funcs": 61,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 5,
+      "size": 154964,
+      "module": "tools.burp_enterprise.loop.autonomous_loop",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\loop\\autonomous_loop.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a3c7faa\\VdtT.py",
+      "hard_callers": 5,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_adversarial_upgrades.py",
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_autonomous_loop.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 3229,
+        "classes": 9,
+        "funcs": 44,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 95948,
+      "module": "tools.burp_enterprise.production_gaps",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\production_gaps.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a466839\\McPl.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_production_gaps.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 2345,
+        "classes": 15,
+        "funcs": 85,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 41611,
+      "module": "tools.burp_enterprise.swarm.agent_roles",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\agent_roles.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1c4f7390\\6bxk.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_agent_swarm.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 953,
+        "classes": 7,
+        "funcs": 31,
+        "old_imports": true
+      }
+    },
+    {
+      "hits": 1,
+      "size": 17808,
+      "module": "tools.burp_enterprise.swarm.gpu_governor",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\swarm\\gpu_governor.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\323dd772\\Bh95.py",
+      "hard_callers": 1,
+      "guarded_callers": 0,
+      "comment_refs": 0,
+      "hard_sample": [
+        "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tests\\test_agent_swarm.py"
+      ],
+      "snap_qual": {
+        "ok": true,
+        "loc": 448,
+        "classes": 6,
+        "funcs": 21,
+        "old_imports": true
+      }
+    }
+  ],
+  "C_defer": [
+    {
+      "hits": 5,
+      "size": 222052,
+      "module": "tools.burp_enterprise.compliance",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\compliance.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4d6d17\\wdcY.py",
+      "hard_callers": 0,
+      "guarded_callers": 0,
+      "comment_refs": 16,
+      "hard_sample": [],
+      "snap_qual": {
+        "ok": true,
+        "loc": 5701,
+        "classes": 18,
+        "funcs": 68,
+        "old_imports": false
+      }
+    },
+    {
+      "hits": 1,
+      "size": 54263,
+      "module": "tools.burp_enterprise.xss",
+      "rel": "CaseCrack\\tools\\burp_enterprise\\xss.py",
+      "snap": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2bb45ee4\\J16x.py",
+      "hard_callers": 0,
+      "guarded_callers": 0,
+      "comment_refs": 1,
+      "hard_sample": [],
+      "snap_qual": {
+        "ok": true,
+        "loc": 1309,
+        "classes": 11,
+        "funcs": 42,
+        "old_imports": false
+      }
+    }
+  ],
+  "D_broken_snap": []
+}

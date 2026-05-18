@@ -1,0 +1,203 @@
+{
+  "deduplicated": [
+    {
+      "type": "finding",
+      "severity": "info",
+      "title": "robots.txt parsed: 147 disallowed, 3 sitemap(s)",
+      "detail": "Disallow paths (147): /a/downloads/-/*, /admin, /cart, /orders, /checkouts/, /checkout, /75639193883/checkouts, /75639193883/orders, /carts, /account, /collections/*sort_by*, /*/collections/*sort_by*, /collections/*+*, /collections/*%2B*, /collections/*%2b* | Sitemaps (3): https://sugarrushed.ca/sitemap.xml, https://sugarrushed.ca/sitemap.xml, https://sugarrushed.ca/sitemap.xml",
+      "phase": "Fingerprinting & Technology",
+      "category": "discovery",
+      "id": "d4ac7719ac74",
+      "url": "",
+      "parameter": "",
+      "cluster": "public",
+      "cwe_ids": [],
+      "cve_ids": [],
+      "cvss_score": null,
+      "source_tool": "",
+      "confidence": {
+        "score": 42,
+        "label": "Tentative",
+        "tier": "tentative",
+        "base_score": 0.55,
+        "raw_score": 0.0,
+        "tool_factor": 0.6,
+        "evidence_factor": 0.15,
+        "completeness_factor": 0.833,
+        "confirmation_bonus": 0.0,
+        "fp_penalty": 0.0,
+        "severity_boost": -0.03,
+        "source": "server",
+        "signals": [
+          "cat:discovery=0.55",
+          "evidence=0.15",
+          "completeness=0.8333333333333334",
+          "no_raw_conf",
+          "sev:info=-0.03"
+        ]
+      },
+      "payload": "",
+      "curl_command": "",
+      "request": "",
+      "response": "",
+      "template_id": "",
+      "matcher_name": "",
+      "extracted_results": [],
+      "tags": [],
+      "reference": [],
+      "description": "",
+      "remediation": "",
+      "confirmed": false,
+      "extra": {},
+      "evidence": {
+        "summary": "Finding: robots.txt parsed: 147 disallowed, 3 sitemap(s)\nDetail: Disallow paths (147): /a/downloads/-/*, /admin, /cart, /orders, /checkouts/, /checkout, /75639193883/checkouts, /75639193883/orders, /carts, /account, /collections/*sort_by*, /*/collections/*sort_by*, /collections/*+*, /collections/*%2B*, /collections/*%2b* | Sitemaps (3): https://sugarrushed.ca/sitemap.xml, https://sugarrushed.ca/sitemap.xml, https://sugarrushed.ca/sitemap.xml\nCategory: discovery"
+      },
+      "_has_evidence": true
+    },
+    {
+      "type": "finding",
+      "severity": "low",
+      "title": "robots.txt reveals 7 sensitive path(s)",
+      "detail": "Disallowed paths hint at hidden endpoints: /admin, /sf_private_access_tokens, /sf_private_access_tokens, /admin, /sf_private_access_tokens, /admin, /sf_private_access_tokens",
+      "phase": "Fingerprinting & Technology",
+      "category": "discovery",
+      "id": "20079b995e91",
+      "url": "",
+      "parameter": "",
+      "cluster": "public",
+      "cwe_ids": [],
+      "cve_ids": [],
+      "cvss_score": null,
+      "source_tool": "",
+      "confidence": {
+        "score": 45,
+        "label": "Tentative",
+        "tier": "tentative",
+        "base_score": 0.55,
+        "raw_score": 0.0,
+        "tool_factor": 0.6,
+        "evidence_factor": 0.15,
+        "completeness_factor": 0.833,
+        "confirmation_bonus": 0.0,
+        "fp_penalty": 0.0,
+        "severity_boost": 0.0,
+        "source": "server",
+        "signals": [
+          "cat:discovery=0.55",
+          "evidence=0.15",
+          "completeness=0.8333333333333334",
+          "no_raw_conf",
+          "sev:low=+0.00"
+        ]
+      },
+      "payload": "",
+      "curl_command": "",
+      "request": "",
+      "response": "",
+      "template_id": "",
+      "matcher_name": "",
+      "extracted_results": [],
+      "tags": [],
+      "reference": [],
+      "description": "",
+      "remediation": "",
+      "confirmed": false,
+      "extra": {},
+      "evidence": {
+        "summary": "Finding: robots.txt reveals 7 sensitive path(s)\nDetail: Disallowed paths hint at hidden endpoints: /admin, /sf_private_access_tokens, /sf_private_access_tokens, /admin, /sf_private_access_tokens, /admin, /sf_private_access_tokens\nCategory: discovery"
+      },
+      "_has_evidence": true
+    },
+    {
+      "type": "finding",
+      "severity": "info",
+      "title": "DNS record coverage gap: 4 record type(s) not found",
+      "detail": "The following DNS record types were not found in Phase 8 output: MX (mail server), AAAA (IPv6), SRV (service discovery), TXT (SPF/DKIM/DMARC).  Record types found: A only.  dnsx is configured with --record-types A AAAA CNAME MX NS TXT but non-A records may have failed silently.  The dns-intel SRV discovery module may have been deferred or timed out.  Consider manual DNS queries for missing record types.",
+      "phase": "DNS Resolution & Brute-force",
+      "category": "coverage_gap",
+      "id": "50cee7a82894",
+      "url": "",
+      "parameter": "",
+      "cluster": "public",
+      "cwe_ids": [],
+      "cve_ids": [],
+      "cvss_score": null,
+      "source_tool": "",
+      "confidence": {
+        "score": 39,
+        "label": "Tentative",
+        "tier": "tentative",
+        "base_score": 0.5,
+        "raw_score": 0.0,
+        "tool_factor": 0.6,
+        "evidence_factor": 0.15,
+        "completeness_factor": 0.833,
+        "confirmation_bonus": 0.0,
+        "fp_penalty": 0.0,
+        "severity_boost": -0.03,
+        "source": "server",
+        "signals": [
+          "default_base=0.5",
+          "evidence=0.15",
+          "completeness=0.8333333333333334",
+          "no_raw_conf",
+          "sev:info=-0.03"
+        ]
+      },
+      "payload": "",
+      "curl_command": "",
+      "request": "",
+      "response": "",
+      "template_id": "",
+      "matcher_name": "",
+      "extracted_results": [],
+      "tags": [],
+      "reference": [],
+      "description": "",
+      "remediation": "",
+      "confirmed": false,
+      "extra": {},
+      "evidence": {
+        "summary": "Finding: DNS record coverage gap: 4 record type(s) not found\nDetail: The following DNS record types were not found in Phase 8 output: MX (mail server), AAAA (IPv6), SRV (service discovery), TXT (SPF/DKIM/DMARC).  Record types found: A only.  dnsx is configured with --record-types A AAAA CNAME MX NS TXT but non-A records may have failed silently.  The dns-intel SRV discovery module may have been deferred or timed out.  Consider manual DNS queries for missing record types.\nCategory: coverage_gap"
+      },
+      "_has_evidence": true
+    }
+  ],
+  "attack_chains": [
+    {
+      "chain_name": "osint-data-leak-chain",
+      "description": "OSINT intelligence correlated with sensitive data exposure \u2014 public information confirms internal data leak",
+      "severity": "low",
+      "confidence": {
+        "score": 55,
+        "label": "Probable",
+        "has_verified_finding": false,
+        "unique_phases": 2
+      },
+      "findings_a": [
+        {
+          "title": "DNS record coverage gap: 4 record type(s) not found",
+          "phase": "DNS Resolution & Brute-force"
+        }
+      ],
+      "findings_b": [
+        {
+          "title": "robots.txt reveals 7 sensitive path(s)",
+          "phase": "Fingerprinting & Technology"
+        }
+      ],
+      "total_supporting_findings": 2
+    }
+  ],
+  "stats": {
+    "total_raw_findings": 3,
+    "after_dedup": 3,
+    "after_boost": 3,
+    "duplicates_removed": 0,
+    "attack_chains_found": 1,
+    "correlation_links": 1,
+    "severity_upgrades": 0,
+    "atlas_boosted": 0,
+    "phases_with_findings": 2
+  }
+}

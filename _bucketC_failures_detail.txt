@@ -1,0 +1,623 @@
+﻿============================= test session starts =============================
+collected 184 items
+
+tests\test_tool_registry_sprint2.py FFF..F...F..FF.F......FF...          [ 14%]
+tests\test_tool_registry.py FFFFFFFF..F.F.FFFF.FFFFFFFFFFFFFFFFFFFFFFFFF [ 38%]
+FFF.F...........FFFFFFFFFFFFFFFFFFFFF........FFFFFFFFFFFFFFF............ [ 77%]
+.FFFFF...........................FFFFF.FF                                [100%]
+
+================================== FAILURES ===================================
+__________________ test_registry_health_stats_aggregates_all __________________
+tests\test_tool_registry_sprint2.py:148: in test_registry_health_stats_aggregates_all
+    reg = _make_registry_with(_td("a"), _td("b"))
+                              ^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+________________ test_fallback_record_outcome_updates_registry ________________
+tests\test_tool_registry_sprint2.py:197: in test_fallback_record_outcome_updates_registry
+    reg = _make_registry_with(_td("primary"))
+                              ^^^^^^^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+____________ test_action_translator_returns_none_when_unavailable _____________
+tests\test_tool_registry_sprint2.py:336: in test_action_translator_returns_none_when_unavailable
+    reg = _make_registry_with(_td("nuclei"))  # not forced available
+                              ^^^^^^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+______________ test_build_command_sandbox_blocks_metacharacters _______________
+tests\test_tool_registry_sprint2.py:115: in test_build_command_sandbox_blocks_metacharacters
+    reg = _make_registry_with(_td("nuclei"))
+                              ^^^^^^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+______________ test_fallback_min_health_score_filters_dead_tool _______________
+tests\test_tool_registry_sprint2.py:179: in test_fallback_min_health_score_filters_dead_tool
+    reg = _make_registry_with(_td("primary"), _td("alt_x"))
+                              ^^^^^^^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+_______ test_build_command_sandbox_can_be_disabled_for_trusted_callers ________
+tests\test_tool_registry_sprint2.py:122: in test_build_command_sandbox_can_be_disabled_for_trusted_callers
+    reg = _make_registry_with(_td("nuclei"))
+                              ^^^^^^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+________________ test_registry_record_invocation_updates_score ________________
+tests\test_tool_registry_sprint2.py:140: in test_registry_record_invocation_updates_score
+    reg = _make_registry_with(_td("nuclei"))
+                              ^^^^^^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+___________ test_action_translator_policy_picks_higher_health_score ___________
+tests\test_tool_registry_sprint2.py:316: in test_action_translator_policy_picks_higher_health_score
+    reg = _make_registry_with(_td("nuclei"), _td("nikto"))
+                              ^^^^^^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+___________________ test_build_command_unknown_tool_raises ____________________
+tests\test_tool_registry_sprint2.py:132: in test_build_command_unknown_tool_raises
+    with pytest.raises(KeyError):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+E   Failed: DID NOT RAISE <class 'KeyError'>
+____________ test_fallback_selects_healthier_alternative_in_chain _____________
+tests\test_tool_registry_sprint2.py:160: in test_fallback_selects_healthier_alternative_in_chain
+    reg = _make_registry_with(_td("primary"), _td("alt_a"), _td("alt_b"))
+                              ^^^^^^^^^^^^^^
+tests\test_tool_registry_sprint2.py:62: in _td
+    return ToolDefinition(**defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ToolDefinition.__init__() got an unexpected keyword argument 'binary'
+___________________ TestFallbackModels.test_fallback_chain ____________________
+tests\test_tool_registry.py:1180: in test_fallback_chain
+    chain = FallbackChain(
+E   TypeError: FallbackChain.__init__() got an unexpected keyword argument 'fallbacks'
+______________ TestFallbackModels.test_fallback_config_defaults _______________
+tests\test_tool_registry.py:1191: in test_fallback_config_defaults
+    assert cfg.enabled is True
+           ^^^^^^^^^^^
+E   AttributeError: 'FallbackConfig' object has no attribute 'enabled'
+_______________ TestFallbackModels.test_fallback_result_to_dict _______________
+tests\test_tool_registry.py:1164: in test_fallback_result_to_dict
+    r = FallbackResult(
+E   TypeError: FallbackResult.__init__() got an unexpected keyword argument 'is_fallback'
+______________ TestFallbackModels.test_fallback_config_from_dict ______________
+tests\test_tool_registry.py:1198: in test_fallback_config_from_dict
+    cfg = FallbackConfig.from_dict({
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: type object 'FallbackConfig' has no attribute 'from_dict'
+____________________ TestParsedFinding.test_extra_in_dict _____________________
+tests\test_tool_registry.py:723: in test_extra_in_dict
+    pf = ParsedFinding(extra={"custom_key": "value"})
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ParsedFinding.__init__() got an unexpected keyword argument 'extra'
+_______________________ TestParsedFinding.test_defaults _______________________
+tests\test_tool_registry.py:698: in test_defaults
+    pf = ParsedFinding()
+         ^^^^^^^^^^^^^^^
+E   TypeError: ParsedFinding.__init__() missing 5 required positional arguments: 'tool', 'vuln_type', 'severity', 'url', and 'title'
+_______________________ TestParsedFinding.test_to_dict ________________________
+tests\test_tool_registry.py:707: in test_to_dict
+    pf = ParsedFinding(
+E   TypeError: ParsedFinding.__init__() got an unexpected keyword argument 'vulnerability_type'
+_________________ TestParsedFinding.test_empty_extra_excluded _________________
+tests\test_tool_registry.py:730: in test_empty_extra_excluded
+    pf = ParsedFinding(title="t")
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ParsedFinding.__init__() missing 4 required positional arguments: 'tool', 'vuln_type', 'severity', and 'url'
+_______ TestIntegration.test_executor_get_available_tools_with_registry _______
+tests\test_tool_registry.py:1555: in test_executor_get_available_tools_with_registry
+    tools = executor.get_available_tools()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tools\burp_enterprise\loop\ai_directed_executor.py:500: in get_available_tools
+    if self._allowed and defn["category"] not in self._allowed:
+       ^^^^^^^^^^^^^
+E   AttributeError: 'AIDirectedExecutor' object has no attribute '_allowed'
+____________ TestIntegration.test_executor_parse_findings_enhanced ____________
+tests\test_tool_registry.py:1584: in test_executor_parse_findings_enhanced
+    assert findings[0]["severity"] == "critical"
+           ^^^^^^^^^^^^^^^^^^^^^^^
+E   KeyError: 'severity'
+___________________ TestEdgeCases.test_large_output_parsing ___________________
+tests\test_tool_registry.py:1808: in test_large_output_parsing
+    findings = NucleiParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+__________________ TestEdgeCases.test_unicode_output_parsing __________________
+tests\test_tool_registry.py:1814: in test_unicode_output_parsing
+    findings = GenericNDJSONParser("generic").parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: GenericNDJSONParser() takes no arguments
+_________________ TestEdgeCases.test_port_scan_fallback_chain _________________
+tests\test_tool_registry.py:1836: in test_port_scan_fallback_chain
+    reg._availability_cache["port_scan"] = AvailabilityStatus.UNAVAILABLE
+    ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+_________________ TestEdgeCases.test_translator_empty_target __________________
+tests\test_tool_registry.py:1818: in test_translator_empty_target
+    result = translator.translate("nuclei_scan", target="")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+_______________ TestEdgeCases.test_fallback_chain_fuzzer_group ________________
+tests\test_tool_registry.py:1825: in test_fallback_chain_fuzzer_group
+    reg._availability_cache["ffuf_fuzz"] = AvailabilityStatus.UNAVAILABLE
+    ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+______________________ TestFfufParser.test_parse_results ______________________
+tests\test_tool_registry.py:892: in test_parse_results
+    findings = parser.parse(output)
+               ^^^^^^^^^^^^^^^^^^^^
+E   TypeError: FfufParser.parse() missing 1 required positional argument: 'ctx'
+______________________ TestParseContext.test_with_values ______________________
+tests\test_tool_registry.py:747: in test_with_values
+    ctx = ParseContext(
+E   TypeError: ParseContext.__init__() got an unexpected keyword argument 'target'
+_______________________ TestParseContext.test_defaults ________________________
+tests\test_tool_registry.py:740: in test_defaults
+    ctx = ParseContext()
+          ^^^^^^^^^^^^^^
+E   TypeError: ParseContext.__init__() missing 1 required positional argument: 'tool_name'
+______________________ TestNucleiParser.test_parse_empty ______________________
+tests\test_tool_registry.py:791: in test_parse_empty
+    assert NucleiParser().parse("") == []
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+_____________________ TestNucleiParser.test_parse_ndjson ______________________
+tests\test_tool_registry.py:781: in test_parse_ndjson
+    findings = parser.parse(output)
+               ^^^^^^^^^^^^^^^^^^^^
+E   TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+_________________ TestNucleiParser.test_parse_malformed_lines _________________
+tests\test_tool_registry.py:796: in test_parse_malformed_lines
+    findings = NucleiParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+____________________ TestNmapParser.test_parse_port_output ____________________
+tests\test_tool_registry.py:913: in test_parse_port_output
+    findings = parser.parse(output)
+               ^^^^^^^^^^^^^^^^^^^^
+E   TypeError: NmapParser.parse() missing 1 required positional argument: 'ctx'
+______________________ TestNmapParser.test_parse_ndjson _______________________
+tests\test_tool_registry.py:927: in test_parse_ndjson
+    findings = NmapParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: NmapParser.parse() missing 1 required positional argument: 'ctx'
+_________ TestActionTranslator.test_translate_vuln_type_as_tool_name __________
+tests\test_tool_registry.py:1431: in test_translate_vuln_type_as_tool_name
+    result = translator.translate("xss", target="https://x.com")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+____________ TestActionTranslator.test_translate_nonexistent_tool _____________
+tests\test_tool_registry.py:1468: in test_translate_nonexistent_tool
+    result = translator.translate("totally_nonexistent_xyz", target="https://x.com")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+____________ TestActionTranslator.test_translate_vuln_type_mapping ____________
+tests\test_tool_registry.py:1424: in test_translate_vuln_type_mapping
+    result = translator.translate(
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+_______________ TestActionTranslator.test_translation_log_grows _______________
+tests\test_tool_registry.py:1504: in test_translation_log_grows
+    translator.translate("nuclei_scan", target="https://a.com")
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+___________________ TestActionTranslator.test_parse_output ____________________
+tests\test_tool_registry.py:1478: in test_parse_output
+    findings = translator.parse_output(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ActionTranslator' object has no attribute 'parse_output'
+_____________________ TestActionTranslator.test_get_stats _____________________
+tests\test_tool_registry.py:1498: in test_get_stats
+    translator.translate("nuclei_scan", target="https://x.com")
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+_______________ TestActionTranslator.test_get_available_actions _______________
+tests\test_tool_registry.py:1491: in test_get_available_actions
+    actions = translator.get_available_actions()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ActionTranslator' object has no attribute 'get_available_actions'
+_______________ TestActionTranslator.test_translate_known_tool ________________
+tests\test_tool_registry.py:1416: in test_translate_known_tool
+    result = translator.translate("nuclei_scan", target="https://x.com")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+_____________ TestActionTranslator.test_translate_in_process_tool _____________
+tests\test_tool_registry.py:1454: in test_translate_in_process_tool
+    t for t in translator.registry.get_all().values()
+               ^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ActionTranslator' object has no attribute 'registry'. Did you mean: '_registry'?
+_____________ TestActionTranslator.test_translate_with_parameters _____________
+tests\test_tool_registry.py:1441: in test_translate_with_parameters
+    result = translator.translate(
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+__________ TestActionTranslator.test_translate_vuln_type_convenience __________
+tests\test_tool_registry.py:1436: in test_translate_vuln_type_convenience
+    result = translator.translate_vuln_type("sqli", target="https://x.com")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ActionTranslator' object has no attribute 'translate_vuln_type'
+________________ TestActionTranslator.test_get_tools_for_vuln _________________
+tests\test_tool_registry.py:1484: in test_get_tools_for_vuln
+    tools = translator.get_tools_for_vuln("xss")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ActionTranslator' object has no attribute 'get_tools_for_vuln'
+___________ TestFallbackSelector.test_select_unavailable_with_chain ___________
+tests\test_tool_registry.py:1235: in test_select_unavailable_with_chain
+    reg._availability_cache["sqlmap_test"] = AvailabilityStatus.UNAVAILABLE
+    ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+____________ TestFallbackSelector.test_explicit_chain_registration ____________
+tests\test_tool_registry.py:1302: in test_explicit_chain_registration
+    FallbackChain(primary="custom_tool", fallbacks=["nuclei_scan"]),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: FallbackChain.__init__() got an unexpected keyword argument 'fallbacks'
+_____________ TestFallbackSelector.test_select_disabled_fallback ______________
+tests\test_tool_registry.py:1262: in test_select_disabled_fallback
+    reg, config=FallbackConfig(enabled=False),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: FallbackConfig.__init__() got an unexpected keyword argument 'enabled'
+___________ TestFallbackSelector.test_select_prefer_available_false ___________
+tests\test_tool_registry.py:1293: in test_select_prefer_available_false
+    result = default_fallback_selector.select(
+E   TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+___________________ TestFallbackSelector.test_selection_log ___________________
+tests\test_tool_registry.py:1307: in test_selection_log
+    default_fallback_selector.select("nuclei_scan", prefer_available=False)
+E   TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+_______________ TestFallbackSelector.test_select_available_tool _______________
+tests\test_tool_registry.py:1222: in test_select_available_tool
+    reg._availability_cache["nuclei_scan"] = (
+    ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+________________ TestFallbackSelector.test_select_strict_tool _________________
+tests\test_tool_registry.py:1283: in test_select_strict_tool
+    reg, config=FallbackConfig(strict_tools=["strict_tool"]),
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: FallbackConfig.__init__() got an unexpected keyword argument 'strict_tools'
+_______________________ TestFallbackSelector.test_stats _______________________
+tests\test_tool_registry.py:1313: in test_stats
+    default_fallback_selector.select("nuclei_scan", prefer_available=False)
+E   TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+______________ TestConfigIntegration.test_config_translator_keys ______________
+tests\test_tool_registry.py:1641: in test_config_translator_keys
+    tr = config["tool_registry"]
+         ^^^^^^^^^^^^^^^^^^^^^^^
+E   KeyError: 'tool_registry'
+_______________ TestConfigIntegration.test_config_fallback_keys _______________
+tests\test_tool_registry.py:1628: in test_config_fallback_keys
+    tr = config["tool_registry"]
+         ^^^^^^^^^^^^^^^^^^^^^^^
+E   KeyError: 'tool_registry'
+______________ TestConfigIntegration.test_config_tool_overrides _______________
+tests\test_tool_registry.py:1654: in test_config_tool_overrides
+    tr = config["tool_registry"]
+         ^^^^^^^^^^^^^^^^^^^^^^^
+E   KeyError: 'tool_registry'
+____________ TestConfigIntegration.test_fallback_config_from_yaml _____________
+tests\test_tool_registry.py:1666: in test_fallback_config_from_yaml
+    fb_cfg = FallbackConfig.from_dict(config["tool_registry"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: type object 'FallbackConfig' has no attribute 'from_dict'
+___________________ TestConfigIntegration.test_config_loads ___________________
+tests\test_tool_registry.py:1619: in test_config_loads
+    assert "tool_registry" in config
+E   AssertionError: assert 'tool_registry' in {'chain': {'cooldown': 8.0, 'max_chain_history': 500, 'max_chain_length': 10, 'max_concurrent': 3, ...}, 'learning': {...ro', 'nonce_length': 13, 'poll_interval': 5.0, ...}, 'orchestration': {'max_workers': 4, 'module_timeout': 300.0}, ...}
+___________ TestConfigIntegration.test_translator_config_from_yaml ____________
+tests\test_tool_registry.py:1678: in test_translator_config_from_yaml
+    t_cfg = TranslatorConfig.from_dict(config["tool_registry"])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: type object 'TranslatorConfig' has no attribute 'from_dict'
+___________________ TestFeroxbusterParser.test_parse_ndjson ___________________
+tests\test_tool_registry.py:1055: in test_parse_ndjson
+    findings = FeroxbusterParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: FeroxbusterParser.parse() missing 1 required positional argument: 'ctx'
+____________________ TestHelperUtilities.test_extract_cves ____________________
+tests\test_tool_registry.py:1752: in test_extract_cves
+    from tools.burp_enterprise.tool_registry.output_parsers import _extract_cves
+E   ImportError: cannot import name '_extract_cves' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+____________________ TestHelperUtilities.test_extract_cwes ____________________
+tests\test_tool_registry.py:1765: in test_extract_cwes
+    from tools.burp_enterprise.tool_registry.output_parsers import _extract_cwes
+E   ImportError: cannot import name '_extract_cwes' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+________________ TestHelperUtilities.test_extract_cves_direct _________________
+tests\test_tool_registry.py:1759: in test_extract_cves_direct
+    from tools.burp_enterprise.tool_registry.output_parsers import _extract_cves
+E   ImportError: cannot import name '_extract_cves' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+__________________ TestHelperUtilities.test_extract_severity __________________
+tests\test_tool_registry.py:1739: in test_extract_severity
+    from tools.burp_enterprise.tool_registry.output_parsers import _extract_severity
+E   ImportError: cannot import name '_extract_severity' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+____________________ TestHelperUtilities.test_extract_url _____________________
+tests\test_tool_registry.py:1746: in test_extract_url
+    from tools.burp_enterprise.tool_registry.output_parsers import _extract_url
+E   ImportError: cannot import name '_extract_url' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+__________________ TestHelperUtilities.test_safe_json_lines ___________________
+tests\test_tool_registry.py:1720: in test_safe_json_lines
+    from tools.burp_enterprise.tool_registry.output_parsers import _safe_json_lines
+E   ImportError: cannot import name '_safe_json_lines' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+_____________________ TestHelperUtilities.test_safe_json ______________________
+tests\test_tool_registry.py:1733: in test_safe_json
+    from tools.burp_enterprise.tool_registry.output_parsers import _safe_json
+E   ImportError: cannot import name '_safe_json' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+________________ TestHelperUtilities.test_extract_cwes_direct _________________
+tests\test_tool_registry.py:1771: in test_extract_cwes_direct
+    from tools.burp_enterprise.tool_registry.output_parsers import _extract_cwes
+E   ImportError: cannot import name '_extract_cwes' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+_______________ TestHelperUtilities.test_safe_json_lines_empty ________________
+tests\test_tool_registry.py:1728: in test_safe_json_lines_empty
+    from tools.burp_enterprise.tool_registry.output_parsers import _safe_json_lines
+E   ImportError: cannot import name '_safe_json_lines' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+__________________ TestSubfinderParser.test_parse_plaintext ___________________
+tests\test_tool_registry.py:944: in test_parse_plaintext
+    findings = SubfinderParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: SubfinderParser.parse() missing 1 required positional argument: 'ctx'
+____________________ TestSubfinderParser.test_parse_ndjson ____________________
+tests\test_tool_registry.py:938: in test_parse_ndjson
+    findings = SubfinderParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: SubfinderParser.parse() missing 1 required positional argument: 'ctx'
+_____________ TestGenericNDJSONParser.test_parse_standard_ndjson ______________
+tests\test_tool_registry.py:1693: in test_parse_standard_ndjson
+    parser = GenericNDJSONParser("generic")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: GenericNDJSONParser() takes no arguments
+______________ TestGenericNDJSONParser.test_parse_skip_malformed ______________
+tests\test_tool_registry.py:1707: in test_parse_skip_malformed
+    findings = GenericNDJSONParser("generic").parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: GenericNDJSONParser() takes no arguments
+__________________ TestGenericNDJSONParser.test_parse_empty ___________________
+tests\test_tool_registry.py:1701: in test_parse_empty
+    findings = GenericNDJSONParser("generic").parse("")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: GenericNDJSONParser() takes no arguments
+__________________ TestDalfoxParser.test_parse_grepping_line __________________
+tests\test_tool_registry.py:859: in test_parse_grepping_line
+    findings = DalfoxParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: DalfoxParser.parse() missing 1 required positional argument: 'ctx'
+____________________ TestDalfoxParser.test_parse_xss_found ____________________
+tests\test_tool_registry.py:846: in test_parse_xss_found
+    findings = parser.parse(output)
+               ^^^^^^^^^^^^^^^^^^^^
+E   TypeError: DalfoxParser.parse() missing 1 required positional argument: 'ctx'
+__________________ TestGobusterParser.test_parse_found_paths __________________
+tests\test_tool_registry.py:1092: in test_parse_found_paths
+    findings = GobusterParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: GobusterParser.parse() missing 1 required positional argument: 'ctx'
+_______________________ TestArjunParser.test_parse_json _______________________
+tests\test_tool_registry.py:1019: in test_parse_json
+    findings = ArjunParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: ArjunParser.parse() missing 1 required positional argument: 'ctx'
+__ TestFallbackSelectBestForCapability.test_best_for_nonexistent_capability ___
+tests\test_tool_registry.py:1343: in test_best_for_nonexistent_capability
+    result = default_fallback_selector.select_best_for_capability(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'FallbackSelector' object has no attribute 'select_best_for_capability'
+____________ TestFallbackSelectBestForCapability.test_best_for_xss ____________
+tests\test_tool_registry.py:1331: in test_best_for_xss
+    reg._availability_cache["xss_scan"] = AvailabilityStatus.AVAILABLE
+    ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+_____________________ TestKatanaParser.test_parse_ndjson ______________________
+tests\test_tool_registry.py:973: in test_parse_ndjson
+    findings = KatanaParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: KatanaParser.parse() missing 1 required positional argument: 'ctx'
+____________________ TestKatanaParser.test_parse_plaintext ____________________
+tests\test_tool_registry.py:979: in test_parse_plaintext
+    findings = KatanaParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: KatanaParser.parse() missing 1 required positional argument: 'ctx'
+_______________________ TestNiktoParser.test_parse_json _______________________
+tests\test_tool_registry.py:1038: in test_parse_json
+    findings = NiktoParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: NiktoParser.parse() missing 1 required positional argument: 'ctx'
+_____________ TestTranslatorModels.test_translated_action_to_dict _____________
+tests\test_tool_registry.py:1359: in test_translated_action_to_dict
+    ta = TranslatedAction(
+E   TypeError: TranslatedAction.__init__() got an unexpected keyword argument 'command'
+__________ TestTranslatorModels.test_vuln_tool_map_has_common_types ___________
+tests\test_tool_registry.py:1393: in test_vuln_tool_map_has_common_types
+    assert "sqli" in VULN_TOOL_MAP
+E   AssertionError: assert 'sqli' in {'api_discovery': ['arjun', 'katana'], 'crawl': ['katana'], 'directory_enum': ['feroxbuster', 'gobuster', 'ffuf'], 'graphql_probe': ['nuclei'], ...}
+____________ TestTranslatorModels.test_translator_config_defaults _____________
+tests\test_tool_registry.py:1374: in test_translator_config_defaults
+    assert cfg.prefer_docker is False
+           ^^^^^^^^^^^^^^^^^
+E   AttributeError: 'TranslatorConfig' object has no attribute 'prefer_docker'
+____________ TestTranslatorModels.test_translator_config_from_dict ____________
+tests\test_tool_registry.py:1381: in test_translator_config_from_dict
+    cfg = TranslatorConfig.from_dict({
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: type object 'TranslatorConfig' has no attribute 'from_dict'
+______________ TestTranslatorModels.test_vuln_tool_map_structure ______________
+tests\test_tool_registry.py:1403: in test_vuln_tool_map_structure
+    assert "tool" in mapping, f"Missing 'tool' key for {vuln_type}"
+E   AssertionError: Missing 'tool' key for sql_injection
+E   assert 'tool' in ['sqlmap', 'ghauri']
+________________________ TestEnums.test_output_format _________________________
+tests\test_tool_registry.py:301: in test_output_format
+    assert OutputFormat.PLAIN_TEXT.value == "plain_text"
+           ^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: type object 'OutputFormat' has no attribute 'PLAIN_TEXT'
+______________________ TestJsluiceParser.test_parse_url _______________________
+tests\test_tool_registry.py:1005: in test_parse_url
+    findings = JsluiceParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: JsluiceParser.parse() missing 1 required positional argument: 'ctx'
+_____________________ TestJsluiceParser.test_parse_secret _____________________
+tests\test_tool_registry.py:994: in test_parse_secret
+    findings = JsluiceParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: JsluiceParser.parse() missing 1 required positional argument: 'ctx'
+_________________ TestGhauriParser.test_parse_injection_found _________________
+tests\test_tool_registry.py:1072: in test_parse_injection_found
+    findings = GhauriParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: GhauriParser.parse() missing 1 required positional argument: 'ctx'
+__________________ TestGhauriParser.test_parse_no_injection ___________________
+tests\test_tool_registry.py:1079: in test_parse_no_injection
+    findings = GhauriParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: GhauriParser.parse() missing 1 required positional argument: 'ctx'
+______________________ TestHttpxParser.test_parse_ndjson ______________________
+tests\test_tool_registry.py:960: in test_parse_ndjson
+    findings = HttpxParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: HttpxParser.parse() missing 1 required positional argument: 'ctx'
+_________ TestParserRegistry.test_build_default_parser_registry_count _________
+tests\test_tool_registry.py:1140: in test_build_default_parser_registry_count
+    assert len(parser_registry.registered_tools) >= 15
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ParserRegistry' object has no attribute 'registered_tools'
+____________ TestParserRegistry.test_get_unknown_returns_fallback _____________
+tests\test_tool_registry.py:1126: in test_get_unknown_returns_fallback
+    assert parser is not None
+E   assert None is not None
+_____________________ TestParserRegistry.test_has_parser ______________________
+tests\test_tool_registry.py:1115: in test_has_parser
+    assert parser_registry.has_parser("nuclei")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ParserRegistry' object has no attribute 'has_parser'
+_______________ TestParserRegistry.test_register_custom_parser ________________
+tests\test_tool_registry.py:1148: in test_register_custom_parser
+    custom = GenericNDJSONParser("custom_tool")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: GenericNDJSONParser() takes no arguments
+__________________ TestParserRegistry.test_registered_tools ___________________
+tests\test_tool_registry.py:1107: in test_registered_tools
+    tools = parser_registry.registered_tools
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   AttributeError: 'ParserRegistry' object has no attribute 'registered_tools'
+__________________ TestSqlmapParser.test_parse_no_injection ___________________
+tests\test_tool_registry.py:826: in test_parse_no_injection
+    findings = SqlmapParser().parse(output)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   TypeError: SqlmapParser.parse() missing 1 required positional argument: 'ctx'
+_________________ TestSqlmapParser.test_parse_injection_found _________________
+tests\test_tool_registry.py:817: in test_parse_injection_found
+    findings = parser.parse(output)
+               ^^^^^^^^^^^^^^^^^^^^
+E   TypeError: SqlmapParser.parse() missing 1 required positional argument: 'ctx'
+=========================== short test summary info ===========================
+FAILED tests/test_tool_registry_sprint2.py::test_registry_health_stats_aggregates_all
+FAILED tests/test_tool_registry_sprint2.py::test_fallback_record_outcome_updates_registry
+FAILED tests/test_tool_registry_sprint2.py::test_action_translator_returns_none_when_unavailable
+FAILED tests/test_tool_registry_sprint2.py::test_build_command_sandbox_blocks_metacharacters
+FAILED tests/test_tool_registry_sprint2.py::test_fallback_min_health_score_filters_dead_tool
+FAILED tests/test_tool_registry_sprint2.py::test_build_command_sandbox_can_be_disabled_for_trusted_callers
+FAILED tests/test_tool_registry_sprint2.py::test_registry_record_invocation_updates_score
+FAILED tests/test_tool_registry_sprint2.py::test_action_translator_policy_picks_higher_health_score
+FAILED tests/test_tool_registry_sprint2.py::test_build_command_unknown_tool_raises
+FAILED tests/test_tool_registry_sprint2.py::test_fallback_selects_healthier_alternative_in_chain
+FAILED tests/test_tool_registry.py::TestFallbackModels::test_fallback_chain
+FAILED tests/test_tool_registry.py::TestFallbackModels::test_fallback_config_defaults
+FAILED tests/test_tool_registry.py::TestFallbackModels::test_fallback_result_to_dict
+FAILED tests/test_tool_registry.py::TestFallbackModels::test_fallback_config_from_dict
+FAILED tests/test_tool_registry.py::TestParsedFinding::test_extra_in_dict - T...
+FAILED tests/test_tool_registry.py::TestParsedFinding::test_defaults - TypeEr...
+FAILED tests/test_tool_registry.py::TestParsedFinding::test_to_dict - TypeErr...
+FAILED tests/test_tool_registry.py::TestParsedFinding::test_empty_extra_excluded
+FAILED tests/test_tool_registry.py::TestIntegration::test_executor_get_available_tools_with_registry
+FAILED tests/test_tool_registry.py::TestIntegration::test_executor_parse_findings_enhanced
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_large_output_parsing
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_unicode_output_parsing
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_port_scan_fallback_chain
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_translator_empty_target
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_fallback_chain_fuzzer_group
+FAILED tests/test_tool_registry.py::TestFfufParser::test_parse_results - Type...
+FAILED tests/test_tool_registry.py::TestParseContext::test_with_values - Type...
+FAILED tests/test_tool_registry.py::TestParseContext::test_defaults - TypeErr...
+FAILED tests/test_tool_registry.py::TestNucleiParser::test_parse_empty - Type...
+FAILED tests/test_tool_registry.py::TestNucleiParser::test_parse_ndjson - Typ...
+FAILED tests/test_tool_registry.py::TestNucleiParser::test_parse_malformed_lines
+FAILED tests/test_tool_registry.py::TestNmapParser::test_parse_port_output - ...
+FAILED tests/test_tool_registry.py::TestNmapParser::test_parse_ndjson - TypeE...
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_vuln_type_as_tool_name
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_nonexistent_tool
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_vuln_type_mapping
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translation_log_grows
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_parse_output
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_get_stats - Ty...
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_get_available_actions
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_known_tool
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_in_process_tool
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_with_parameters
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_vuln_type_convenience
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_get_tools_for_vuln
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_unavailable_with_chain
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_explicit_chain_registration
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_disabled_fallback
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_prefer_available_false
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_selection_log
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_available_tool
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_strict_tool
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_stats - TypeEr...
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_config_translator_keys
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_config_fallback_keys
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_config_tool_overrides
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_fallback_config_from_yaml
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_config_loads
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_translator_config_from_yaml
+FAILED tests/test_tool_registry.py::TestFeroxbusterParser::test_parse_ndjson
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_cves - ...
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_cwes - ...
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_cves_direct
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_severity
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_url - I...
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_safe_json_lines
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_safe_json - Imp...
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_cwes_direct
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_safe_json_lines_empty
+FAILED tests/test_tool_registry.py::TestSubfinderParser::test_parse_plaintext
+FAILED tests/test_tool_registry.py::TestSubfinderParser::test_parse_ndjson - ...
+FAILED tests/test_tool_registry.py::TestGenericNDJSONParser::test_parse_standard_ndjson
+FAILED tests/test_tool_registry.py::TestGenericNDJSONParser::test_parse_skip_malformed
+FAILED tests/test_tool_registry.py::TestGenericNDJSONParser::test_parse_empty
+FAILED tests/test_tool_registry.py::TestDalfoxParser::test_parse_grepping_line
+FAILED tests/test_tool_registry.py::TestDalfoxParser::test_parse_xss_found - ...
+FAILED tests/test_tool_registry.py::TestGobusterParser::test_parse_found_paths
+FAILED tests/test_tool_registry.py::TestArjunParser::test_parse_json - TypeEr...
+FAILED tests/test_tool_registry.py::TestFallbackSelectBestForCapability::test_best_for_nonexistent_capability
+FAILED tests/test_tool_registry.py::TestFallbackSelectBestForCapability::test_best_for_xss
+FAILED tests/test_tool_registry.py::TestKatanaParser::test_parse_ndjson - Typ...
+FAILED tests/test_tool_registry.py::TestKatanaParser::test_parse_plaintext - ...
+FAILED tests/test_tool_registry.py::TestNiktoParser::test_parse_json - TypeEr...
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_translated_action_to_dict
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_vuln_tool_map_has_common_types
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_translator_config_defaults
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_translator_config_from_dict
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_vuln_tool_map_structure
+FAILED tests/test_tool_registry.py::TestEnums::test_output_format - Attribute...
+FAILED tests/test_tool_registry.py::TestJsluiceParser::test_parse_url - TypeE...
+FAILED tests/test_tool_registry.py::TestJsluiceParser::test_parse_secret - Ty...
+FAILED tests/test_tool_registry.py::TestGhauriParser::test_parse_injection_found
+FAILED tests/test_tool_registry.py::TestGhauriParser::test_parse_no_injection
+FAILED tests/test_tool_registry.py::TestHttpxParser::test_parse_ndjson - Type...
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_build_default_parser_registry_count
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_get_unknown_returns_fallback
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_has_parser - Att...
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_register_custom_parser
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_registered_tools
+FAILED tests/test_tool_registry.py::TestSqlmapParser::test_parse_no_injection
+FAILED tests/test_tool_registry.py::TestSqlmapParser::test_parse_injection_found
+======================= 101 failed, 83 passed in 7.14s ========================

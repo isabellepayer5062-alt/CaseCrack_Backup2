@@ -1,0 +1,633 @@
+﻿
+======================================================================
+  SCENARIO: B: Conflicting Signals
+  Target:   https://sugarrushed.ca
+  Type:     conflicting_signals
+  Cycles:   3
+======================================================================
+  ============================================================
+  MANUAL AUDIT REPORT
+  ============================================================
+    Scenario: conflicting_signals_hypothesis_vs_waf (conflicting_signals)
+    Cycles:   3
+    Seed:     42
+  
+    Avg Regret:    0.0000
+    % Optimal:     0.0%
+  
+    FAILURE BREAKDOWN:
+      no_failure                3
+  
+    RED FLAGS: 0
+      Critical: 0
+      Warning:  0
+  
+    WALKED DECISIONS:
+      cycle 0: [high_score] score=0.5711
+      cycle 1: [failure] reward=0.0000
+      cycle 2: [recovery] reward improved 0.000 ΓåÆ 0.150
+  
+    SIGNAL EFFECTIVENESS (correlation with rank):
+      bypass_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      execute_score          +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      impact_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      chain_alignment        +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      detection_risk         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      cost                   +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+  
+    SIGNAL vs REWARD (positive = predicts success):
+      execute_score          +0.6667  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.5440  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      bypass_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      impact_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      chain_alignment        +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      detection_risk         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      cost                   +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+  
+    WEIGHT DRIFT (vs static priors):
+  
+    MARGINAL CONTRIBUTIONS (avg signal*weight for winner):
+      execute_score          +0.1693  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ]
+      bypass_score           +0.1640  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ]
+      impact_score           +0.0750  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.0569  [ΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      chain_alignment        +0.0500  [ΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      detection_risk         -0.0090  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      cost                   -0.0040  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+  
+    SIGNAL DOMINANCE: execute_score (67% of recent decisions)
+  ============================================================
+
+  ΓöÇΓöÇ WALKED DECISIONS (detailed) ΓöÇΓöÇ
+
+  Decision #1 ΓÇö cycle 0 [high_score] (score=0.5711)
+    Payload:    <img src=x onerror=alert(1)>
+    Score:      0.5711  (engine=SynthesisEngine.GRAMMAR, conf=0.491)
+    Margin:     0.0001 (over runner-up 0.5710)
+    Candidates: 20
+    Signal breakdown:
+      hypothesis_boost       signal=+0.7640  weight=0.0800  contrib=+0.0611
+      execute_score          signal=+0.6000  weight=0.2500  contrib=+0.1500
+      bypass_score           signal=+0.5500  weight=0.3000  contrib=+0.1650
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.3000  weight=-0.0300  contrib=-0.0090
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   hypothesis_boost (contribution=0.7640)
+    Feedback:   type=blocked_by_waf  status=403  evidence=False
+    Reward:     0.000
+
+  Decision #2 ΓÇö cycle 1 [failure] (reward=0.0000)
+    Payload:    <object data=x onerror=alert(document.domain)>
+    Score:      0.5500  (engine=SynthesisEngine.GRAMMAR, conf=0.492)
+    Margin:     0.0020 (over runner-up 0.5480)
+    Candidates: 20
+    Signal breakdown:
+      hypothesis_boost       signal=+0.7730  weight=0.0800  contrib=+0.0618
+      execute_score          signal=+0.6000  weight=0.2500  contrib=+0.1500
+      bypass_score           signal=+0.5500  weight=0.3000  contrib=+0.1650
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.3000  weight=-0.0300  contrib=-0.0090
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   hypothesis_boost (contribution=0.7730)
+    Feedback:   type=blocked_by_waf  status=403  evidence=False
+    Reward:     0.000
+
+  Decision #3 ΓÇö cycle 2 [recovery] (reward improved 0.000 ΓåÆ 0.150)
+    Payload:    <svg><use href='data:image/svg+xml,<svg onload=alert(1)>'/>
+    Score:      0.5558  (engine=SynthesisEngine.GRAMMAR, conf=0.496)
+    Margin:     0.0261 (over runner-up 0.5296)
+    Candidates: 20
+    Signal breakdown:
+      hypothesis_boost       signal=+0.7795  weight=0.0800  contrib=+0.0624
+      execute_score          signal=+0.6149  weight=0.2500  contrib=+0.1537
+      bypass_score           signal=+0.5500  weight=0.3000  contrib=+0.1650
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.3000  weight=-0.0300  contrib=-0.0090
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   hypothesis_boost (contribution=0.7795)
+    Feedback:   type=no_effect  status=200  evidence=False
+    Reward:     0.150
+
+  ΓöÇΓöÇ FAILURE CLASSIFICATION ΓöÇΓöÇ
+
+  ΓöÇΓöÇ COUNTERFACTUALS: none (all decisions optimal) ΓöÇΓöÇ
+
+  ΓöÇΓöÇ INFLUENCE TRACES ΓöÇΓöÇ
+    cycle 0:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 1:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 2:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+
+  ΓöÇΓöÇ RED FLAGS: none ΓöÇΓöÇ
+
+  ΓÅ▒  Completed in 0.06s
+======================================================================
+
+
+======================================================================
+  SCENARIO: C: Chain Dependency
+  Target:   https://sugarrushed.ca
+  Type:     chain_dependency
+  Cycles:   1
+======================================================================
+  ============================================================
+  MANUAL AUDIT REPORT
+  ============================================================
+    Scenario: chain_dependency_auth_idor (chain_dependency)
+    Cycles:   1
+    Seed:     42
+  
+    Avg Regret:    0.0000
+    % Optimal:     0.0%
+  
+    FAILURE BREAKDOWN:
+      no_failure                1
+  
+    RED FLAGS: 0
+      Critical: 0
+      Warning:  0
+  
+    WALKED DECISIONS:
+      cycle 0: [high_score] score=0.6551
+  
+    SIGNAL EFFECTIVENESS (correlation with rank):
+      bypass_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      execute_score          +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      impact_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      chain_alignment        +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      detection_risk         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      cost                   +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+  
+    SIGNAL vs REWARD (positive = predicts success):
+      bypass_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      execute_score          +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      impact_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      chain_alignment        +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      hypothesis_boost       +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      detection_risk         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      cost                   +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+  
+    WEIGHT DRIFT (vs static priors):
+  
+    MARGINAL CONTRIBUTIONS (avg signal*weight for winner):
+      bypass_score           +0.2400  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê]
+      execute_score          +0.1763  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæ]
+      impact_score           +0.0750  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      chain_alignment        +0.0500  [ΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.0408  [ΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      cost                   -0.0040  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+      detection_risk         -0.0030  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+  
+    SIGNAL DOMINANCE: bypass_score (100% of recent decisions)
+      ΓÜá LAZY OPTIMALITY detected ΓåÆ exploration boost active
+  ============================================================
+
+  ΓöÇΓöÇ WALKED DECISIONS (detailed) ΓöÇΓöÇ
+
+  Decision #1 ΓÇö cycle 0 [high_score] (score=0.6551)
+    Payload:    <svg onload=alerT1)>
+    Score:      0.6551  (engine=SynthesisEngine.GENETIC_FORGE, conf=0.575)
+    Margin:     0.0120 (over runner-up 0.6431)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.7053  weight=0.2500  contrib=+0.1763
+      hypothesis_boost       signal=+0.5100  weight=0.0800  contrib=+0.0408
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      cost                   signal=+0.2000  weight=-0.0200  contrib=-0.0040
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Feedback:   type=executed_successfully  status=200  evidence=True
+    Reward:     0.800
+
+  ΓöÇΓöÇ FAILURE CLASSIFICATION ΓöÇΓöÇ
+
+  ΓöÇΓöÇ COUNTERFACTUALS: none (all decisions optimal) ΓöÇΓöÇ
+
+  ΓöÇΓöÇ INFLUENCE TRACES ΓöÇΓöÇ
+    cycle 0:
+      Γ£à  No anomalies detected
+
+  ΓöÇΓöÇ RED FLAGS: none ΓöÇΓöÇ
+
+  ΓÅ▒  Completed in 0.01s
+======================================================================
+
+
+======================================================================
+  SCENARIO: D: Adversarial Noise
+  Target:   https://sugarrushed.ca
+  Type:     adversarial_noise
+  Cycles:   20
+======================================================================
+  ============================================================
+  MANUAL AUDIT REPORT
+  ============================================================
+    Scenario: adversarial_noise_misleading_feedback (adversarial_noise)
+    Cycles:   20
+    Seed:     42
+  
+    Avg Regret:    0.0000
+    % Optimal:     100.0%
+  
+    FAILURE BREAKDOWN:
+      no_failure                20
+  
+    RED FLAGS: 0
+      Critical: 0
+      Warning:  0
+  
+    WALKED DECISIONS:
+      cycle 1: [high_score] score=0.7027
+      cycle 0: [failure] reward=0.8500
+      cycle 2: [high_score] filler
+      cycle 3: [high_score] filler
+      cycle 4: [high_score] filler
+  
+    SIGNAL EFFECTIVENESS (correlation with rank):
+      bypass_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      execute_score          +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      impact_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      chain_alignment        +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      detection_risk         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      cost                   +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+  
+    SIGNAL vs REWARD (positive = predicts success):
+      bypass_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      execute_score          +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      impact_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      chain_alignment        +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      hypothesis_boost       +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      detection_risk         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      cost                   +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+  
+    WEIGHT DRIFT (vs static priors):
+      hypothesis_boost       +0.0431
+      campaign_boost         -0.0149
+      detection_risk         +0.0129
+      bypass_score           -0.0119
+      chain_alignment        +0.0111
+      execute_score          -0.0075
+      cost                   +0.0075
+  
+    MARGINAL CONTRIBUTIONS (avg signal*weight for winner):
+      bypass_score           +0.2304  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûê]
+      execute_score          +0.1635  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæ]
+      impact_score           +0.0753  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.0612  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      chain_alignment        +0.0556  [ΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      cost                   -0.0022  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+      detection_risk         -0.0017  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+  
+    SIGNAL DOMINANCE: bypass_score (100% of recent decisions)
+      ΓÜá LAZY OPTIMALITY detected ΓåÆ exploration boost active
+  ============================================================
+
+  ΓöÇΓöÇ WALKED DECISIONS (detailed) ΓöÇΓöÇ
+
+  Decision #1 ΓÇö cycle 1 [high_score] (score=0.7027)
+    Payload:    <video src=x onerror=alert(1)>
+    Score:      0.7027  (engine=SynthesisEngine.GRAMMAR, conf=0.552)
+    Margin:     0.0121 (over runner-up 0.6906)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6000  weight=0.2500  contrib=+0.1500
+      hypothesis_boost       signal=+0.5150  weight=0.0800  contrib=+0.0412
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Ground truth: Γ£ô OPTIMAL  reward=0.850  detection_risk=0.100
+    Regret:     0.0000  rank=1
+
+  Decision #2 ΓÇö cycle 0 [failure] (reward=0.8500)
+    Payload:    <object data=x onerror=alert(document.domain)>
+    Score:      0.6828  (engine=SynthesisEngine.GRAMMAR, conf=0.553)
+    Margin:     0.0257 (over runner-up 0.6571)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6000  weight=0.2500  contrib=+0.1500
+      hypothesis_boost       signal=+0.5230  weight=0.0800  contrib=+0.0418
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Ground truth: Γ£ô OPTIMAL  reward=0.850  detection_risk=0.100
+    Regret:     0.0000  rank=1
+
+  Decision #3 ΓÇö cycle 2 [high_score] (filler)
+    Payload:    <svg onload=alert(document.domain)>
+    Score:      0.6790  (engine=SynthesisEngine.GRAMMAR, conf=0.563)
+    Margin:     0.0010 (over runner-up 0.6780)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6410  weight=0.2500  contrib=+0.1602
+      hypothesis_boost       signal=+0.5175  weight=0.0800  contrib=+0.0414
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Ground truth: Γ£ô OPTIMAL  reward=0.850  detection_risk=0.100
+    Regret:     0.0000  rank=1
+
+  Decision #4 ΓÇö cycle 3 [high_score] (filler)
+    Payload:    <svg/onload=alert(1)>
+    Score:      0.6342  (engine=SynthesisEngine.GRAMMAR, conf=0.563)
+    Margin:     -0.0072 (over runner-up 0.6414)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6446  weight=0.2500  contrib=+0.1612
+      hypothesis_boost       signal=+0.5105  weight=0.0800  contrib=+0.0408
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Ground truth: Γ£ô OPTIMAL  reward=0.850  detection_risk=0.100
+    Regret:     0.0000  rank=1
+
+  Decision #5 ΓÇö cycle 4 [high_score] (filler)
+    Payload:    <img src=x onerror=alert(1)>
+    Score:      0.6035  (engine=SynthesisEngine.GRAMMAR, conf=0.563)
+    Margin:     -0.0007 (over runner-up 0.6042)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6453  weight=0.2500  contrib=+0.1613
+      hypothesis_boost       signal=+0.5140  weight=0.0800  contrib=+0.0411
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Ground truth: Γ£ô OPTIMAL  reward=0.850  detection_risk=0.100
+    Regret:     0.0000  rank=1
+
+  ΓöÇΓöÇ FAILURE CLASSIFICATION ΓöÇΓöÇ
+
+  ΓöÇΓöÇ COUNTERFACTUALS: none (all decisions optimal) ΓöÇΓöÇ
+
+  ΓöÇΓöÇ INFLUENCE TRACES ΓöÇΓöÇ
+    cycle 1:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 0:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 2:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 3:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 4:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+
+  ΓöÇΓöÇ RED FLAGS: none ΓöÇΓöÇ
+
+  ΓÅ▒  Completed in 0.23s
+======================================================================
+
+
+======================================================================
+  SCENARIO: E: Long-Run Stability
+  Target:   https://sugarrushed.ca
+  Type:     long_run_stability
+  Cycles:   100
+======================================================================
+  ============================================================
+  MANUAL AUDIT REPORT
+  ============================================================
+    Scenario: long_run_stability (long_run_stability)
+    Cycles:   100
+    Seed:     42
+  
+    Avg Regret:    0.0000
+    % Optimal:     0.0%
+  
+    FAILURE BREAKDOWN:
+      no_failure                100
+  
+    RED FLAGS: 0
+      Critical: 0
+      Warning:  0
+  
+    WALKED DECISIONS:
+      cycle 4: [high_score] score=0.6951
+      cycle 0: [failure] reward=0.8000
+      cycle 1: [high_score] filler
+      cycle 2: [high_score] filler
+      cycle 3: [high_score] filler
+  
+    SIGNAL EFFECTIVENESS (correlation with rank):
+      bypass_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      execute_score          +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      impact_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      chain_alignment        +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      detection_risk         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      cost                   +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+  
+    SIGNAL vs REWARD (positive = predicts success):
+      bypass_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      execute_score          +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      impact_score           +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      chain_alignment        +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      hypothesis_boost       +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      detection_risk         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+      cost                   +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  Γùï USELESS
+  
+    WEIGHT DRIFT (vs static priors):
+      hypothesis_boost       +0.0591
+      chain_alignment        +0.0504
+      bypass_score           -0.0380
+      campaign_boost         -0.0380
+      detection_risk         +0.0250
+      impact_score           +0.0233
+      execute_score          -0.0168
+      cost                   +0.0150
+  
+    MARGINAL CONTRIBUTIONS (avg signal*weight for winner):
+      bypass_score           +0.1721  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæ]
+      execute_score          +0.1579  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæ]
+      impact_score           +0.0866  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      chain_alignment        +0.0752  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      hypothesis_boost       +0.0693  [ΓûêΓûêΓûêΓûêΓûêΓûêΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]
+      detection_risk         -0.0010  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+      cost                   -0.0010  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+      campaign_boost         +0.0000  [ΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæΓûæ]  ΓåÉ DEAD WEIGHT
+  
+    SIGNAL DOMINANCE: bypass_score (57% of recent decisions)
+  ============================================================
+
+  ΓöÇΓöÇ WALKED DECISIONS (detailed) ΓöÇΓöÇ
+
+  Decision #1 ΓÇö cycle 4 [high_score] (score=0.6951)
+    Payload:    <svg/onload=alert(document.domain)>
+    Score:      0.6951  (engine=SynthesisEngine.GRAMMAR, conf=0.564)
+    Margin:     0.0210 (over runner-up 0.6741)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6455  weight=0.2500  contrib=+0.1614
+      hypothesis_boost       signal=+0.5175  weight=0.0800  contrib=+0.0414
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Feedback:   type=executed_successfully  status=200  evidence=True
+    Reward:     0.800
+
+  Decision #2 ΓÇö cycle 0 [failure] (reward=0.8000)
+    Payload:    <object data=x onerror=alert(document.domain)>
+    Score:      0.6828  (engine=SynthesisEngine.GRAMMAR, conf=0.553)
+    Margin:     0.0257 (over runner-up 0.6571)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6000  weight=0.2500  contrib=+0.1500
+      hypothesis_boost       signal=+0.5230  weight=0.0800  contrib=+0.0418
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Feedback:   type=executed_successfully  status=200  evidence=True
+    Reward:     0.800
+
+  Decision #3 ΓÇö cycle 1 [high_score] (filler)
+    Payload:    <svg/onload=alert(1)>
+    Score:      0.6687  (engine=SynthesisEngine.GRAMMAR, conf=0.562)
+    Margin:     -0.0193 (over runner-up 0.6879)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6387  weight=0.2500  contrib=+0.1597
+      hypothesis_boost       signal=+0.5105  weight=0.0800  contrib=+0.0408
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Feedback:   type=executed_successfully  status=200  evidence=True
+    Reward:     0.800
+
+  Decision #4 ΓÇö cycle 2 [high_score] (filler)
+    Payload:    <body onload=alert(1)>
+    Score:      0.6835  (engine=SynthesisEngine.GRAMMAR, conf=0.563)
+    Margin:     -0.0099 (over runner-up 0.6934)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6448  weight=0.2500  contrib=+0.1612
+      hypothesis_boost       signal=+0.5110  weight=0.0800  contrib=+0.0409
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Feedback:   type=executed_successfully  status=200  evidence=True
+    Reward:     0.800
+
+  Decision #5 ΓÇö cycle 3 [high_score] (filler)
+    Payload:    <marquee onstart=alert(document.domain)>
+    Score:      0.6825  (engine=SynthesisEngine.GRAMMAR, conf=0.564)
+    Margin:     0.0023 (over runner-up 0.6802)
+    Candidates: 20
+    Signal breakdown:
+      bypass_score           signal=+0.8000  weight=0.3000  contrib=+0.2400
+      execute_score          signal=+0.6456  weight=0.2500  contrib=+0.1614
+      hypothesis_boost       signal=+0.5200  weight=0.0800  contrib=+0.0416
+      impact_score           signal=+0.5000  weight=0.1500  contrib=+0.0750
+      chain_alignment        signal=+0.5000  weight=0.1000  contrib=+0.0500
+      detection_risk         signal=+0.1000  weight=-0.0300  contrib=-0.0030
+      cost                   signal=+0.0500  weight=-0.0200  contrib=-0.0010
+      campaign_boost         signal=+0.0000  weight=0.0700  contrib=+0.0000
+    Dominant:   bypass_score (contribution=0.8000)
+    Feedback:   type=executed_successfully  status=200  evidence=True
+    Reward:     0.800
+
+  ΓöÇΓöÇ FAILURE CLASSIFICATION ΓöÇΓöÇ
+
+  ΓöÇΓöÇ COUNTERFACTUALS: none (all decisions optimal) ΓöÇΓöÇ
+
+  ΓöÇΓöÇ INFLUENCE TRACES ΓöÇΓöÇ
+    cycle 4:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 0:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 1:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 2:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+    cycle 3:
+      ΓÜá∩╕Å  SHOULDN'T MATTER: chain_alignment: effect=0.0500 but no chain_goal set
+
+  ΓöÇΓöÇ RED FLAGS: none ΓöÇΓöÇ
+
+  ΓÅ▒  Completed in 1.62s
+======================================================================
+
+
+======================================================================
+  ABLATION TEST ΓÇö Scenario D (remove one signal at a time)
+======================================================================
+  Baseline %optimal: 100.0%
+    remove execute_score          ΓåÆ 90.0%  (╬ö=-10.0%)  ΓåÉ WIRED
+    remove bypass_score           ΓåÆ 100.0%  (╬ö=+0.0%)  ΓåÉ NO EFFECT
+    remove impact_score           ΓåÆ 100.0%  (╬ö=+0.0%)  ΓåÉ NO EFFECT
+    remove chain_alignment        ΓåÆ 100.0%  (╬ö=+0.0%)  ΓåÉ NO EFFECT
+    remove hypothesis_boost       ΓåÆ 100.0%  (╬ö=+0.0%)  ΓåÉ NO EFFECT
+    remove campaign_boost         ΓåÆ 100.0%  (╬ö=+0.0%)  ΓåÉ NO EFFECT
+    remove detection_risk         ΓåÆ 100.0%  (╬ö=+0.0%)  ΓåÉ NO EFFECT
+    remove cost                   ΓåÆ 100.0%  (╬ö=+0.0%)  ΓåÉ NO EFFECT
+  ΓÅ▒  Ablation completed in 1.99s
+======================================================================
+
+======================================================================
+  CROSS-SCENARIO SUMMARY
+======================================================================
+  Scenarios:       4
+  Total cycles:    124
+  Total failures:  0
+  Total red flags: 0 (0 critical)
+  Avg regret:      0.0000
+  Avg % optimal:   25.0%
+======================================================================

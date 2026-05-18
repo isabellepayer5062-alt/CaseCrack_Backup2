@@ -1,0 +1,739 @@
+=== Scan Issue Report — thewhiteleafstudio.com — 2026-05-06 22:45:58 ===
+
+[Fingerprinting & Technology] [stderr] [*]   Missing:       Content-Security-Policy, X-Frame-Options, Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy, Cross-Origin-Embedder-Policy, Cross-Origin-Resource-Policy
+[Parameter Discovery] [stderr] [TIMEOUT] Command timed out after 11s
+[URL Aggregation & Dorking] [stderr] [*]   GET +this._getEventFilterUrl(e)),!0):!this._isAllowedUrl(e,t)&&(k.warn(
+[URL Aggregation & Dorking] [stderr] [*]   GET +this._getEventFilterUrl(e)),!0)},e.prototype._isSentryError=function(e,t){if(!t.ignoreInternal)return!1;try{return e&&e.exception&&e.exception.values&&e.exception.values[0]&&
+[Endpoint & Asset Discovery] [stderr] E20: gospider execution state=degraded exit=0 findings=0 target=https://www.thewhiteleafstudio.com
+[JS Analysis & Source Maps] [stderr] [*]   Missing SRI:    11
+[Endpoint & Asset Discovery] [stderr] [!] [*] Timeout: 30.0s
+[URL Aggregation & Dorking] [stderr] [*] Timeout: 480.0s
+[Visual Recon & Screenshots] [stderr] [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 3,959 bytes)
+[Visual Recon & Screenshots] [stderr] [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 9,979 bytes)
+[Visual Recon & Screenshots] [stderr] [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 5,923 bytes)
+[Visual Recon & Screenshots] [stderr] [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 9,979b)
+[Visual Recon & Screenshots] [stderr] [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 5,923b)
+[Visual Recon & Screenshots] [stderr] [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 3,959b)
+[Visual Recon & Screenshots] [stderr] [*]   error-page: 1
+[Visual Recon & Screenshots] [stderr] [*]   error-page: 1
+[Visual Recon & Screenshots] [stderr] [*]   error-page: 1
+[Visual Recon & Screenshots] [stderr] [*]   https://www.thewhiteleafstudio.com [error-page] (429)
+[DNS Security Testing] [stderr] [*]    Description: No TLSRPT record — not receiving TLS failure reports for email
+[Access Control & Privilege Testing] [stderr] [*] No roles specified — testing as unauthenticated user (detects endpoints missing authentication)
+[Core Utility Testing] [stderr] [*] Module timeout: 60.0s
+[DNS Resolution & Brute-force] [stderr] [!]   Timeout           : 10s
+[Core Utility Testing] [stderr] [!] [MEDIUM] Missing CSP Header
+[Core Utility Testing] [stderr] [*] [LOW] Missing X-Frame-Options
+[Core Utility Testing] [stderr] [*] CAA: policy=missing, 0 record(s), 1 issue(s)
+[DNS Resolution & Brute-force] [stderr] [*] CAA: policy=missing, 0 record(s), 1 issue(s)
+[DNS Resolution & Brute-force] [stderr]   CAA Analysis [MEDIUM] (policy: missing):
+[Virtual Host Discovery] [stderr] vhostfinder native: cannot establish baseline (target unreachable)
+[Core Utility Testing] [stderr] [>] dorking: 28/147 (19%) | [bing] site: intext:"SQLSTATE" "error" | found=20 err=0 q/s=8.9
+[Core Utility Testing] [stderr] [>] dorking: 70/147 (48%) | [yahoo] site: intext:"java.lang." "Exception" | found=61 err=0 q/s=8.9
+[Network Topology Mapping] [stderr]   Timeout         : 10.0s
+[Supply Chain Security] [stderr] [*]   Missing SRI:    0
+[Supply Chain Security] [stderr] [*]     - Failed to fetch page HTML from https://www.thewhiteleafstudio.com
+[Active Vulnerability Testing] [stderr] docker run timed out after 122s for image hahwul/dalfox:latest — returning partial output
+[Active Vulnerability Testing] [status] Phase DEGRADED: Active Vulnerability Testing
+[Cloud & Container Security] [stderr] [!]   Timeout: 30.0s
+[Network & Port Scanning] [stderr] [TIMEOUT] Command timed out after 26s
+[Advanced Exploitation Testing] [stderr] [!] [bizlogic] Cannot bruteforce discounts — no variant_id discovered
+[Advanced Exploitation Testing] [stderr] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'ssrf_advanced'
+[Dashboard & Post-Scan Analysis] [status] Phase DEGRADED: Dashboard & Post-Scan Analysis
+
+
+=== SUMMARY: 40 issues found ===
+
+[Access Control & Privilege Testing] (1 issues):
+  • [*] No roles specified — testing as unauthenticated user (detects endpoints missing authentication)
+
+[Active Vulnerability Testing] (2 issues):
+  • docker run timed out after 122s for image hahwul/dalfox:latest — returning partial output
+  • Phase DEGRADED: Active Vulnerability Testing
+
+[Advanced Exploitation Testing] (2 issues):
+  • [!] [bizlogic] Cannot bruteforce discounts — no variant_id discovered
+  • [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'ssrf_advanced'
+
+[Cloud & Container Security] (1 issues):
+  • [!]   Timeout: 30.0s
+
+[Core Utility Testing] (6 issues):
+  • [*] Module timeout: 60.0s
+  • [!] [MEDIUM] Missing CSP Header
+  • [*] [LOW] Missing X-Frame-Options
+  • [*] CAA: policy=missing, 0 record(s), 1 issue(s)
+  • [>] dorking: 28/147 (19%) | [bing] site: intext:"SQLSTATE" "error" | found=20 err=0 q/s=8.9
+  • [>] dorking: 70/147 (48%) | [yahoo] site: intext:"java.lang." "Exception" | found=61 err=0 q/s=8.9
+
+[DNS Resolution & Brute-force] (3 issues):
+  • [!]   Timeout           : 10s
+  • [*] CAA: policy=missing, 0 record(s), 1 issue(s)
+  •   CAA Analysis [MEDIUM] (policy: missing):
+
+[DNS Security Testing] (1 issues):
+  • [*]    Description: No TLSRPT record — not receiving TLS failure reports for email
+
+[Dashboard & Post-Scan Analysis] (1 issues):
+  • Phase DEGRADED: Dashboard & Post-Scan Analysis
+
+[Endpoint & Asset Discovery] (2 issues):
+  • E20: gospider execution state=degraded exit=0 findings=0 target=https://www.thewhiteleafstudio.com
+  • [!] [*] Timeout: 30.0s
+
+[Fingerprinting & Technology] (1 issues):
+  • [*]   Missing:       Content-Security-Policy, X-Frame-Options, Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy, Cross-Origin-Embedder-Policy, Cross-Origin-Resource-Policy
+
+[JS Analysis & Source Maps] (1 issues):
+  • [*]   Missing SRI:    11
+
+[Network & Port Scanning] (1 issues):
+  • [TIMEOUT] Command timed out after 26s
+
+[Network Topology Mapping] (1 issues):
+  •   Timeout         : 10.0s
+
+[Parameter Discovery] (1 issues):
+  • [TIMEOUT] Command timed out after 11s
+
+[Supply Chain Security] (2 issues):
+  • [*]   Missing SRI:    0
+  • [*]     - Failed to fetch page HTML from https://www.thewhiteleafstudio.com
+
+[URL Aggregation & Dorking] (3 issues):
+  • [*]   GET +this._getEventFilterUrl(e)),!0):!this._isAllowedUrl(e,t)&&(k.warn(
+  • [*]   GET +this._getEventFilterUrl(e)),!0)},e.prototype._isSentryError=function(e,t){if(!t.ignoreInternal)return!1;try{return e&&e.exception&&e.exception.values&&e.exception.values[0]&&
+  • [*] Timeout: 480.0s
+
+[Virtual Host Discovery] (1 issues):
+  • vhostfinder native: cannot establish baseline (target unreachable)
+
+[Visual Recon & Screenshots] (10 issues):
+  • [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 3,959 bytes)
+  • [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 9,979 bytes)
+  • [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 5,923 bytes)
+  • [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 9,979b)
+  • [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 5,923b)
+  • [+]   ✓ https://www.thewhiteleafstudio.com [error-page] (429, 3,959b)
+  • [*]   error-page: 1
+  • [*]   error-page: 1
+  • [*]   error-page: 1
+  • [*]   https://www.thewhiteleafstudio.com [error-page] (429)
+
+
+=== INTERESTING SIGNALS: 615 ===
+  >> $ python -m tools.burp_enterprise.cli jsluice --target https://www.thewhiteleafstudio.com --action secrets -o reports/recon-jsluice-secrets.json
+  >> $ python -m tools.burp_enterprise.cli sourcemapper --url https://www.thewhiteleafstudio.com -o reports/recon-sourcemapper.json
+  >> $ python -m tools.burp_enterprise.cli github-search --domain thewhiteleafstudio.com -o reports/recon-github-search-secrets.json secrets
+  >> $ python -m tools.burp_enterprise.cli archive-sourcemap --url https://www.thewhiteleafstudio.com --action archive -o reports/recon-archive-sourcemap.json --json
+  >> [*] Resource monitor started — hardware tier: recommended
+  >> sourcemapper extraction â€” https://www.thewhiteleafstudio.com
+  >> sourcemapper Findings
+  >> jsluice JS analysis (secrets) â€” https://www.thewhiteleafstudio.com
+  >> [*] (Rendering JavaScript, intercepting XHR/fetch, extracting DOM links)
+  >> [*]     graphql: 0
+  >> [*]     url                            │ confidence: 70% │ source: javascript │ -
+  >> [*]     pn                             │ confidence: 70% │ source: javascript │ -
+  >> [*]     appName                        │ confidence: 70% │ source: javascript │ -
+  >> [*]     v                              │ confidence: 70% │ source: javascript │ -
+  >> [*]     src                            │ confidence: 70% │ source: javascript │ -
+  >> [*]     msid                           │ confidence: 70% │ source: javascript │ -
+  >> [*]     t                              │ confidence: 70% │ source: javascript │ -
+  >> [*]     evid                           │ confidence: 70% │ source: javascript │ -
+  >> [*]     r                              │ confidence: 70% │ source: javascript │ -
+  >> [*]     siteId                         │ confidence: 70% │ source: javascript │ -
+  >> [*]     is_rollout                     │ confidence: 70% │ source: javascript │ -
+  >> [*]     dc                             │ confidence: 70% │ source: javascript │ -
+  >> [*]     c                              │ confidence: 70% │ source: javascript │ -
+  >> [*]     pv                             │ confidence: 70% │ source: javascript │ -
+  >> [*]     st                             │ confidence: 70% │ source: javascript │ -
+  >> [*]     nt                             │ confidence: 70% │ source: javascript │ -
+  >> [*]     s                              │ confidence: 70% │ source: javascript │ -
+  >> [*]     sampleEvents                   │ confidence: 70% │ source: javascript │ -
+  >> [*]     pid                            │ confidence: 70% │ source: javascript │ -
+  >> [*]     a                              │ confidence: 70% │ source: javascript │ -
+  >> [*]     is_dac_rollout                 │ confidence: 70% │ source: javascript │ -
+  >> [*]     duration                       │ confidence: 70% │ source: javascript │ -
+  >> [*]     e                              │ confidence: 70% │ source: javascript │ -
+  >> [*]     is_sav_rollout                 │ confidence: 70% │ source: javascript │ -
+  >> [*]     session_id                     │ confidence: 70% │ source: javascript │ -
+  >> [*]     name                           │ confidence: 70% │ source: javascript │ -
+  >> [*]     vsi                            │ confidence: 70% │ source: javascript │ -
+  >> [*]     isPremiumDomain                │ confidence: 60% │ source: javascript
+  >> [*]     isWixCodeOnSite                │ confidence: 60% │ source: javascript
+  >> [*]     caching                        │ confidence: 60% │ source: javascript
+  >> [*]     languageResolutionMethod       │ confidence: 60% │ source: javascript
+  >> [*]     isInSeo                        │ confidence: 60% │ source: javascript
+  >> [*]     dfVersion                      │ confidence: 60% │ source: javascript
+  >> [*]     disableStaticPagesUrlHierarchy │ confidence: 60% │ source: javascript
+  >> [*]     ts                             │ confidence: 60% │ source: javascript
+  >> [*]     pilerExperiments               │ confidence: 60% │ source: javascript
+  >> [*]     disableLazyLoading             │ confidence: 60% │ source: javascript
+  >> [*]     mpaSessionId                   │ confidence: 60% │ source: javascript
+  >> [*]     externalBaseUrl                │ confidence: 60% │ source: javascript
+  >> [*]     remoteWidgetStructureBuilderVersion │ confidence: 60% │ source: javascript
+  >> [*]     platformOnSite                 │ confidence: 60% │ source: javascript
+  >> [*]     contentType                    │ confidence: 60% │ source: javascript
+  >> [*]     language                       │ confidence: 60% │ source: javascript
+  >> [*]     isUrlMigrated                  │ confidence: 60% │ source: javascript
+  >> [*]     hasUserDomainMedia             │ confidence: 60% │ source: javascript
+  >> [*]     deviceType                     │ confidence: 60% │ source: javascript
+  >> [*]     errorInfo                      │ confidence: 60% │ source: javascript
+  >>        Multi-Source Historical URL Aggregation (gau)        
+  >> [*] Sources: commoncrawl, wayback, urlscan, otx
+  >> [*] Max URLs/source: 5000
+  >> Querying sources in parallel...
+  >> [*]   Missing:       Content-Security-Policy, X-Frame-Options, Referrer-Policy, Permissions-Policy, Cross-Origin-Opener-Policy, Cross-Origin-Embedder-Policy, Cross-Origin-Resource-Policy
+  >> [!]   Disclosure:    Server: Pepyaka, Via: 1.1 google
+  >> [*] Scanning for secrets: thewhiteleafstudio.com
+  >> [*] Checking for exposed source maps...
+  >> [*] Scanning for exposed secrets...
+  >> $ python -m tools.burp_enterprise.cli gospider --url https://www.thewhiteleafstudio.com --depth 2 --include-other-source -o reports/recon-gospider.json
+  >> [*] Analyzing for DOM XSS vulnerabilities...
+  >> [*]   185.230.63.171     confidence=70%  source=CT:thewhiteleafstudio.com  cdn_vendor=none
+  >> [*]   185.230.63.107     confidence=70%  source=CT:thewhiteleafstudio.com  cdn_vendor=none
+  >> [*]   185.230.63.186     confidence=70%  source=CT:thewhiteleafstudio.com  cdn_vendor=none
+  >> [*]   34.149.87.45       confidence=53%  source=hackertarget:hostsearch  cdn_vendor=none
+  >> [*] Checking for state exposure...
+  >> [*] Checking for webpack artifact exposure...
+  >> [*] Checking for environment variable exposure...
+  >> [!]   https://www.thewhiteleafstudio.com/_api/v1/access-tokens
+  >>   "secrets_found": 0,
+  >>   "secret_details": [],
+  >>   Findings:     16 total (0 critical, 2 high)
+  >> [*] E9/E21: Discovered 51 virtual hosts: admin.www.thewhiteleafstudio.com, www.thewhiteleafstudio.com-admin, staging.www.thewhiteleafstudio.com, www.thewhiteleafstudio.com-staging, dev.www.thewhiteleafstudio.com
+  >> [>] [graphql] 0/1: 0/1 (0%)
+  >> [>] [graphql] 1/1: 1/1 (100%)
+  >> [*] Target: thewhiteleafstudio.com | Sources: all
+  >> [*] [correlate] Searching intelligence sources for matching fingerprints
+  >> [*]   Sources queried:    local_db
+  >>       "source": "tlsx_san"
+  >> [*]    Description: No MTA-STS TXT record — email delivery not TLS-enforced
+  >> $ python -m tools.burp_enterprise.cli waf-adaptive --url https://www.thewhiteleafstudio.com --attack-type xss --max-probes 30 -o reports/recon-waf-adaptive-xss.json bypass
+  >>         "extended_master_secret",
+  >>            Email Intelligence (Free Multi-Source)           
+  >>   Ã°Å¸Å¸Â¡ [MEDIUM] Email: support@wix.com (source: dns_soa)
+  >>   Ã¢Å¡Âª [INFO] Email: info@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: admin@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: contact@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: support@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: hello@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: sales@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: security@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: abuse@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: webmaster@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: postmaster@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: hostmaster@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: noc@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: billing@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: hr@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: careers@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: press@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: legal@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: privacy@thewhiteleafstudio.com (source: pattern)
+  >>   Ã¢Å¡Âª [INFO] Email: compliance@thewhiteleafstudio.com (source: pattern)
+  >> [*]    • High JS vuln: underscore 1.8.3 - Code Injection
+  >> [*]    • High JS vuln: underscore 1.8.3 - Template Injection
+  >> [*]      Code Injection
+  >> [*]      CVE: CVE-2021-23358
+  >> [*]      Template Injection
+  >> [*] Using FreeIntelHub (no paid API keys configured)
+  >>   No API keys configured â€” results may be limited
+  >>   No API keys configured for any uncover engine — skipping
+  >>     "No API keys configured for any uncover engine \u2014 skipping"
+  >> $ python -m tools.burp_enterprise.cli source-search correlate --domain thewhiteleafstudio.com -o reports/recon-source-search.json
+  >> [*] No SpyOnWeb/PublicWWW/BuiltWith API keys configured. Using free OSINT sources (crt.sh, HackerTarget).
+  >>       Source Code Search — Infrastructure Correlation       
+  >> [*] No PublicWWW/BuiltWith API keys configured. Using free OSINT sources (crt.sh, HackerTarget).
+  >> $ python -m tools.burp_enterprise.cli nuclei --url https://www.thewhiteleafstudio.com --tags cve,exposure,misconfig,takeover,config --severity critical,high -o reports/recon-nuclei-cve.json
+  >> $ python -m tools.burp_enterprise.cli trivy --target reports --scan-type fs --severity CRITICAL,HIGH -o reports/recon-trivy.json
+  >>     "critical": 0,
+  >>       "source": "https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js",
+  >>       "detail": "External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d medium risk. An attacker compromising the CDN could inject malicious code.",
+  >>       "remediation": "Add integrity and crossorigin attributes to external resource tags. Use 'integrity=\"sha384-...\"' and 'crossorigin=\"anonymous\"'. Generate hashes with: openssl dgst -sha384 -binary file.js | openssl base64 -A",
+  >>         "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity",
+  >>       "detail": "External script from 'browser.sentry-cdn.com' loaded without SRI integrity attribute. CDN resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d high risk. An attacker compromising the CDN could inject malicious code.",
+  >> $ python -m tools.burp_enterprise.cli source-search profile --domain thewhiteleafstudio.com -o reports/recon-builtwith-profile.json
+  >> $ python -m tools.burp_enterprise.cli intel epss --cves CVE-0000-0000 -o reports/recon-epss.json
+  >> $ python -m tools.burp_enterprise.cli intel kev --cves CVE-0000-0000 -o reports/recon-kev.json
+  >> $ python -m tools.burp_enterprise.cli intel exploits --cves CVE-0000-0000 -o reports/recon-exploits.json
+  >> [*] Use --cve CVE-XXXX-XXXXX to check a specific CVE
+  >> [xenforo-auth] No credentials supplied.  Set CASECRACK_XF_USERNAME / CASECRACK_XF_PASSWORD env vars or use --username / --password flags.
+  >> $ python -m tools.burp_enterprise.cli authz --url https://www.thewhiteleafstudio.com -o reports/recon-authz-forced-browsing.json forced-browsing
+  >> $ python -m tools.burp_enterprise.cli idor -o reports/recon-idor.json harvest --url https://www.thewhiteleafstudio.com
+  >>                 Enterprise IDOR/BOLA Testing                
+  >> [xenforo-vuln-scan] Requests: 38  Duration: 4.4s  Categories: attachment_idor, data_disclosure, admin_exposure, oauth_bypass, csrf, api_mass_assignment, unauthenticated_api
+  >> [*] Harvested IDs saved to: reports/recon-idor.json
+  >> [*]   • No critical account security issues detected.
+  >> Forced Browsing Results
+  >> [+] No forced browsing issues found
+  >> [*] Report saved to: reports/recon-authz-forced-browsing.json
+  >> [*] Tokens collected: 0
+  >> $ python -m tools.burp_enterprise.cli ssrf-map --ssrf-url https://www.thewhiteleafstudio.com/?url=INJECT -o reports/recon-ssrf-map.json map
+  >> $ python -m tools.burp_enterprise.cli tokens --url https://www.thewhiteleafstudio.com -o reports/recon-tokens.json
+  >>         SSRF Cartography — Internal Network Mapping         
+  >> [*] SSRF Endpoint: https://www.thewhiteleafstudio.com/?url=INJECT
+  >>                  Token Analysis (Sequencer)                 
+  >> [*] Collecting tokens from: https://www.thewhiteleafstudio.com
+  >> [*] Token name: token
+  >> $ python -m tools.burp_enterprise.cli ratelimit --url https://www.thewhiteleafstudio.com/account/forgot_password -o reports/recon-ratelimit-forgotpw.json detect
+  >> [*] Analyzing token randomness...
+  >> Analysis Results for 'token'
+  >> [+] Full report saved to: reports\recon-tokens.json
+  >> [*] Target: https://www.thewhiteleafstudio.com/account/forgot_password
+  >>                    XXE Injection Testing                    
+  >>              Path Traversal / LFI / RFI Testing             
+  >>                    CRLF Injection Testing                   
+  >>                    LDAP Injection Testing                   
+  >>                XPath/XQuery Injection Testing               
+  >>                  SSI/ESI Injection Testing                  
+  >> [*] Testing SSI injection...
+  >> [+] No XPath injection vulnerabilities found
+  >> [+] No LDAP injection vulnerabilities found
+  >> [*]   • [medium] CF H2→HTTP/1.1 Desync (httpx fallback): CF H2.TE TE-alongside-CL injection
+  >> [*] Testing ESI injection...
+  >> [*] Testing SSTI polyglots...
+  >> 🟠 ESI Injection Detected
+  >> [*]    Type: esi_injection
+  >> 🔴 SSTI Detected (Jinja2/Twig)
+  >> [*]    Type: ssti_polyglot_injection
+  >> 🔴 SSTI Detected - Jinja2 Engine
+  >> 🔴 SSTI Detected - Twig Engine
+  >> 🔴 SSTI Detected - Smarty Engine
+  >> 🔴 SSTI Detected - Freemarker Engine
+  >> 🔴 SSTI Detected - Velocity Engine
+  >> 🔴 SSTI Detected - Thymeleaf Engine
+  >> 🔴 SSTI Detected - Mako Engine
+  >> 🔴 SSTI Detected - Erb Engine
+  >> 🔴 SSTI Detected - Pebble Engine
+  >> $ python -m tools.burp_enterprise.cli fuzz --url https://www.thewhiteleafstudio.com --param q --categories xss sqli command_injection --max-payloads 50 -o reports/recon-fuzz.json
+  >> $ python -m tools.burp_enterprise.cli puredns --domain thewhiteleafstudio.com --action bruteforce -o reports/recon-puredns.json --json
+  >> [*] Categories: ['xss', 'sqli', 'command_injection']
+  >>        puredns bruteforce â€” thewhiteleafstudio.com        
+  >>   "action": "bruteforce",
+  >>       "description": "DNS brute-force with wildcard filtering confirmed subdomain www.thewhiteleafstudio.com for thewhiteleafstudio.com",
+  >> [*] [LOW] Debug Information Exposed
+  >> [*] [INFO] JavaScript Source Map
+  >> [*]   Critical            : 0
+  >> [!]   [xss] Basic script tag
+  >> [!]   [xss] Image onerror
+  >> [!]   [xss] SVG onload
+  >> [!]   [xss] Body onload
+  >> [!]   [xss] Double quote onclick
+  >> [!]   [xss] Single quote onclick
+  >> [!]   [xss] Autofocus onfocus
+  >> [!]   [xss] Template literal
+  >> [!]   [xss] CharCode
+  >> [!]   [xss] Base64 encoded
+  >> [!]   [xss] JavaScript URI
+  >> [!]   [xss] Data URI
+  >> [!]   [xss] Mixed case
+  >> [!]   [xss] Nested tags
+  >> [!]   [xss] Unclosed script
+  >> [!]   [xss] URL encoded
+  >> [!]   [xss] HTML entities
+  >> [!]   [xss] Iframe srcdoc
+  >> [!]   [xss] Math context
+  >> [!]   [xss] Details ontoggle
+  >> $ python -m tools.burp_enterprise.cli secrets --url https://www.thewhiteleafstudio.com -o reports/recon-secrets-js.json --no-proxy js --max-files 30
+  >> $ python -m tools.burp_enterprise.cli secrets --url https://www.thewhiteleafstudio.com -o reports/recon-secrets-page.json --no-proxy scan
+  >> $ python -m tools.burp_enterprise.cli secrets --url https://www.thewhiteleafstudio.com -o reports/recon-sensitive-sources.json --no-proxy sources
+  >> $ python -m tools.burp_enterprise.cli verify-secrets --url https://www.thewhiteleafstudio.com -o reports/recon-verify-secrets.json --no-proxy scan
+  >> TruffleHog deep secret scan â€” https://www.thewhiteleafstudio.com
+  >> Gitleaks secret scan â€” https://www.thewhiteleafstudio.com 
+  >>               Secrets & Sensitive Data Scanner              
+  >> Sensitive Source Probing (FIX-92)
+  >>            Secret Verification (TruffleHog-style)           
+  >> Phase 1: Secret Detection
+  >> [*] Secrets found: 0
+  >> [+] No secrets found in JavaScript files
+  >> Results saved to: reports/recon-secrets-js.json
+  >> [*] Total secrets found: 0
+  >> [+] No secrets or sensitive data found
+  >> Results saved to: reports/recon-secrets-page.json
+  >> [+] No secrets detected — nothing to verify
+  >> Results saved to: reports/recon-verify-secrets.json
+  >> $ python -m tools.burp_enterprise.cli sensitive-source --url https://www.thewhiteleafstudio.com -o reports/recon-sensitive-source.json
+  >>                  Git History Secret Scanner                 
+  >>                   Sensitive Source Scanner                  
+  >>   "env_secrets": [],
+  >>   "file_secrets": [],
+  >>   "build_arg_secrets": [],
+  >>                   Extended Secret Verifier                  
+  >>   Findings (3 total, 0 critical, 0 high):
+  >> CRAWL + SECRETS PIPELINE REPORT
+  >> $ python -m tools.burp_enterprise.cli nuclei --url https://www.thewhiteleafstudio.com --severity critical,high,medium --tags bitbucket,exposure,misconfig,takeover,config -o reports/recon-nuclei.json
+  >> ghauri SQL injection test â€” https://www.thewhiteleafstudio.com
+  >>     dalfox XSS scan - https://www.thewhiteleafstudio.com    
+  >> commix command injection test â€” https://www.thewhiteleafstudio.com
+  >> Results saved to: reports/recon-sensitive-sources.json
+  >>                   NoSQL Injection Testing                   
+  >> [+] No NoSQL injection vulnerabilities detected
+  >> [*]   • No NoSQL injection vulnerabilities detected in tested parameters.
+  >> dalfox XSS scan - https://www.thewhiteleafstudio.com/search?q=FUZZ
+  >> dalfox XSS scan - https://www.thewhiteleafstudio.com/collections/vendors?q=FUZZ
+  >> dalfox XSS scan - https://www.thewhiteleafstudio.com/search?type=FUZZ&q=test
+  >>       Template Engine Fingerprinting & SSTI Detection       
+  >> $ python -m tools.burp_enterprise.cli nomore403 --url https://www.thewhiteleafstudio.com/admin -o reports\recon-nomore403-crawl-0.json
+  >> nomore403 bypass testing â€” https://www.thewhiteleafstudio.com/admin
+  >> $ python -m tools.burp_enterprise.cli nomore403 --url https://www.thewhiteleafstudio.com/wp-admin -o reports\recon-nomore403-crawl-1.json
+  >> nomore403 bypass testing â€” https://www.thewhiteleafstudio.com/wp-admin
+  >> $ python -m tools.burp_enterprise.cli nuclei --url https://www.thewhiteleafstudio.com --tags xss --severity critical,high,medium,low -o reports\recon-nuclei-xss-fallback-0.json
+  >> $ python -m tools.burp_enterprise.cli sqli --url https://www.thewhiteleafstudio.com --no-proxy -o reports\recon-sqli-headers.json headers
+  >>                    SQL Injection Testing                    
+  >> SQL Injection via HTTP Headers
+  >> [+] No header-based SQL injection found
+  >> [+] Results saved to: reports\recon-sqli-headers.json
+  >>                    Open Redirect Testing                    
+  >> [*]    Type: information_disclosure
+  >> [+] No open redirect vulnerabilities detected
+  >> 🟠 HTTP/2 CONTINUATION Flood — CVE-2024-27316
+  >> [+] No injection vulnerabilities found
+  >> [!] [bizlogic] Cannot bruteforce discounts — no variant_id discovered
+  >> $ python -m tools.burp_enterprise.cli sqli --url https://www.thewhiteleafstudio.com --param id -o reports/recon-sqli-deep.json scan
+  >> $ python -m tools.burp_enterprise.cli sqli --url https://www.thewhiteleafstudio.com --param id -o reports/recon-sqli-blind.json blind
+  >>                  Command Injection Testing                  
+  >> [!] Boolean-based blind SQL injection detected!
+  >> [*] No time-based blind injection detected
+  >> $ python -m tools.burp_enterprise.cli ssrf-advanced --url https://www.thewhiteleafstudio.com --param url -o reports/recon-ssrf-advanced.json scan
+  >>                    Advanced SSRF Testing                    
+  >> [!] Found 69 command injection vulnerabilities!
+  >> • Command Injection (direct) in cmd
+  >> [*] Generated OOB payload: blind-ssrf-url-ssrf_http_direct
+  >> [*] Generated OOB payload: blind-ssrf-url-ssrf_dns_only
+  >> [!] 🔴 [CRITICAL] CF Access Bypassed via JWT alg:none
+  >> [!] 🟠 [HIGH] CF Access Bypassed via X-Forwarded-Host Host Injection
+  >> [!] 🟠 [HIGH] CF Access Bypassed via X-Host Host Injection
+  >> [!] 🟠 [HIGH] CF Access Bypassed via X-Original-URL Host Injection
+  >> [!] 🟠 [HIGH] CF Access Bypassed via X-Rewrite-URL Host Injection
+  >> [*]   Categories tested: detection, jwt_forgery, cors_wildcard, host_bypass, service_token, ip_bypass, path_coverage
+  >>     CWE: CWE-327
+  >>   [CRITICAL] 0-RTT replay attack — server accepts replayed early data
+  >>     CWE: CWE-294
+  >> [*]   Categories tested: detection, routes, proto, ssrf
+  >> [*]   Confirmed (high+critical): 0
+  >> [!] Found 4 metadata exposure vulnerabilities!
+  >> [*] Blind SSRF: 0 interaction(s), 0/2 payloads triggered
+  >> [!] ⚠️ Found 3 SQL injection vulnerabilities!
+  >> 🔴 UNION-Based SQL Injection
+  >> [*]    Injection Type: union_based
+  >> [*]    CWE: CWE-89
+  >> 🟠 Boolean-Based Blind SQL Injection
+  >> [*]    Injection Type: boolean_blind
+  >> 🔴 Stacked Query Injection (mssql)
+  >> [*]    Injection Type: stacked_queries
+  >> [*]   • Limit SELECT column exposure; avoid SELECT * in application queries.
+  >> [*] Report saved to: reports/recon-sqli-deep.json
+  >> [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'ssrf_advanced'
+  >> {"type":"finding","severity":"info","title":"robots.txt parsed: 3 disallowed, 1 sitemap(s)","detail":"Disallow paths (3): *?lightbox=, /_partials*, /pro-gallery-webapp/v1/galleries/* | Sitemaps (1): https://www.thewhiteleafstudio.com/sitemap.xml","phase":"Fingerprinting & Technology","category":"dis
+  >> {"type":"finding","severity":"info","title":"No source maps detected","detail":"Probed https://www.thewhiteleafstudio.com for JavaScript source maps \u2014 none found.  The application does not appear to deploy .js.map files.","phase":"JS Analysis & Source Maps","category":"source_map_check","descri
+  >> {"type":"finding","severity":"info","title":"Parameter mining: 114 unique parameters discovered","detail":"Sources: page_content: 114","phase":"Parameter Discovery","category":"parameters","id":"df6757c685f9","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"
+  >> {"type":"finding","severity":"info","title":"Sensitive parameters found: 1 of 114","detail":"Sensitive: sessionId","phase":"Parameter Discovery","category":"parameters","id":"a5746774478d","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"so
+  >> {"type":"finding","severity":"info","title":"Missing security header: Content-Security-Policy","detail":"Header 'Content-Security-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.thewhiteleafstudio.com","phase":"Fingerprinting & Technol
+  >> {"type":"finding","severity":"info","title":"Missing security header: X-Frame-Options","detail":"Header 'X-Frame-Options' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.thewhiteleafstudio.com","phase":"Fingerprinting & Technology","category":
+  >> {"type":"finding","severity":"info","title":"Missing security header: Referrer-Policy","detail":"Header 'Referrer-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.thewhiteleafstudio.com","phase":"Fingerprinting & Technology","category":
+  >> {"type":"finding","severity":"info","title":"Missing security header: Permissions-Policy","detail":"Header 'Permissions-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.thewhiteleafstudio.com","phase":"Fingerprinting & Technology","cate
+  >> {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Opener-Policy","detail":"Header 'Cross-Origin-Opener-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.thewhiteleafstudio.com","phase":"Fingerprinting & T
+  >> {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Embedder-Policy","detail":"Header 'Cross-Origin-Embedder-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.thewhiteleafstudio.com","phase":"Fingerprinting
+  >> {"type":"finding","severity":"info","title":"Missing security header: Cross-Origin-Resource-Policy","detail":"Header 'Cross-Origin-Resource-Policy' is absent (grade: F). Configure the web server to send this header on all responses.","url":"https://www.thewhiteleafstudio.com","phase":"Fingerprinting
+  >> {"type":"finding","severity":"info","title":"Server version disclosure: Server","detail":"Response header reveals: Server: Pepyaka. Remove or suppress this header to reduce fingerprinting risk.","url":"https://www.thewhiteleafstudio.com","phase":"Fingerprinting & Technology","category":"discovery","
+  >> {"type":"finding","severity":"info","title":"Fingerprinting & Technology: scan completed (no results)","detail":"Summary: asns_found=0, ips_analyzed=3, co_hosted_domains=300, network_ranges=0, total_org_ips=0, total_org_domains=300","phase":"Fingerprinting & Technology","category":"source_code","id"
+  >> {"type":"finding","severity":"info","title":"Origin IP Discovered: 185.230.63.171","detail":"Ip: 185.230.63.171 | Source: CT:thewhiteleafstudio.com | Phase: ct_correlation | Confidence: 0.7 | Verification: {'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': [], '
+  >> {"type":"finding","severity":"info","title":"Removed/Hidden Page: https://www.thewhiteleafstudio.com/_api/v1/access-tokens","detail":"https://www.thewhiteleafstudio.com/_api/v1/access-tokens","phase":"URL Aggregation & Dorking","category":"wayback","description":"Wayback Machine shows a previously a
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://bo.wix.com/suricate/tunnel/","detail":"https://bo.wix.com/suricate/tunnel/","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","u
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://localhost:","detail":"https://localhost:","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"https://localhost:","id":"2c4
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET http://localhost:","detail":"http://localhost:","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"http://localhost:","id":"8eb14a
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://sled.wix.dev/","detail":"https://sled.wix.dev/","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"https://sled.wix.dev/",
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://static.parastorage.com/unpkg","detail":"https://static.parastorage.com/unpkg","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis",
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://static.parastorage.com/","detail":"https://static.parastorage.com/","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"htt
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://panorama.wixapps.net/api/v1/bulklog","detail":"https://panorama.wixapps.net/api/v1/bulklog","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET http://unused.com","detail":"http://unused.com","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"http://unused.com","id":"d4c482
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://pages.parastorage.com","detail":"https://pages.parastorage.com","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"https:/
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://github.com/axios/axios.git","detail":"https://github.com/axios/axios.git","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://github.com/axios/axios/issues","detail":"https://github.com/axios/axios/issues","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET https://axios-http.com","detail":"https://axios-http.com","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"https://axios-http.co
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET http-client-poc","detail":"http-client-poc","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"http-client-poc","id":"dc3ed58ca63e
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: GET bpm","detail":"bpm","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"bpm","id":"500d7994d568","parameter":"","cluster":"public",
+  >> {"type":"finding","severity":"info","title":"Historical API Endpoint: POST https://frog.wix.com/panorama","detail":"https://frog.wix.com/panorama","phase":"URL Aggregation & Dorking","category":"wayback","description":"Historical API endpoint discovered via Wayback Machine JS analysis","url":"https:
+  >> {"type":"finding","severity":"info","title":"URL: https://www.thewhiteleafstudio.com","detail":"https://www.thewhiteleafstudio.com","phase":"Endpoint & Asset Discovery","category":"crawled_url","description":"Discovered URL: https://www.thewhiteleafstudio.com","url":"https://www.thewhiteleafstudio.c
+  >> {"type":"finding","severity":"info","title":"Interesting path: sitemap.xml","detail":"https://www.thewhiteleafstudio.com/sitemap.xml (HTTP 200) \u2014 Interesting content type: text/xml","url":"https://www.thewhiteleafstudio.com/sitemap.xml","phase":"Endpoint & Asset Discovery","category":"discovery
+  >> {"type":"finding","severity":"info","title":"Source Map Exposed","detail":"https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js.map | Sources Count: 1 | Contains Source: False","phase":"JS Analysis & Source Maps","category":"source_map_exposed","description":"Source map accessible a
+  >> {"type":"finding","severity":"info","title":"Source Map Exposed","detail":"https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js.map | Sources Count: 1 | Contains Source: True","phase":"JS Analysis & Source Maps","category":"source_map_exposed","description":
+  >> {"type":"finding","severity":"info","title":"Source Map Exposed","detail":"https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js.map | Sources Count: 6 | Contains Source: True","phase":"JS Analysis & Source Maps","category":"source_map_exposed","description":"Source map accessible at http
+  >> {"type":"finding","severity":"info","title":"Source Map Exposed","detail":"https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.3a1c79ef.bundle.min.js.map | Sources Count: 366 | Contains Source: True","phase":"JS Analysis & Source Maps","category":"source_map_exposed","de
+  >> {"type":"finding","severity":"info","title":"Source Map Exposed","detail":"https://static.parastorage.com/services/wix-thunderbolt/dist/main.2af1520d.bundle.min.js.map | Sources Count: 235 | Contains Source: True","phase":"JS Analysis & Source Maps","category":"source_map_exposed","description":"Sou
+  >> {"type":"finding","severity":"info","title":"Source Map Exposed","detail":"https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js.map | Sources Count: 21 | Contains Source: True","phase":"JS Analysis & Source Maps","category":"source_map_exposed","description":"So
+  >> {"type":"finding","severity":"info","title":"DOM XSS: .getAttribute() (via t) \u2192 src attribute assignment","detail":"https://www.thewhiteleafstudio.com | Source: .getAttribute() (via t) | Sink: src attribute assignment | Source Line: 1 | Sink Line: 1 | Source Context: (()=>{\"use strict\";var e,
+  >> {"type":"finding","severity":"info","title":"DOM XSS: Form input .value \u2192 src attribute assignment","detail":"https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js | Source: Form input .value | Sink: src attribute assignment | Source Line: 11 | Sink Line: 7 | Source Context: ,a(
+  >> {"type":"finding","severity":"info","title":"DOM XSS: Form input .value \u2192 innerHTML assignment","detail":"https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js | Source: Form input .value | Sink: innerHTML assignment | Source Line: 143 | Sink Line: 150 | Source C
+  >> {"type":"finding","severity":"info","title":"DOM XSS: Form input .value \u2192 .append() [jquery]","detail":"https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.3a1c79ef.bundle.min.js | Source: Form input .value | Sink: .append() | Source Line: 7 | Sink Line: 4 | Source 
+  >> {"type":"finding","severity":"info","title":"DOM XSS: Form input .value \u2192 eval()","detail":"https://static.parastorage.com/services/wix-thunderbolt/dist/main.2af1520d.bundle.min.js | Source: Form input .value | Sink: eval() | Source Line: 3 | Sink Line: 3 | Source Context: (self.webpackJsonp__w
+  >> {"type":"finding","severity":"info","title":"DOM XSS: URL query string (location.search) \u2192 innerHTML assignment","detail":"https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js | Source: URL query string (location.search) | Sink: innerHTML assignment | Sourc
+  >> {"type":"finding","severity":"info","title":"Script Inventory Complete","detail":"Found 60 scripts: 11 external, 49 inline, 11 third-party.","phase":"JS Analysis & Source Maps","category":"js_analysis","description":"Found 60 scripts: 11 external, 49 inline, 11 third-party.","url":"https://www.thewh
+  >> {"type":"finding","severity":"info","title":"Excessive Third-Party Scripts","detail":"Page loads 11 third-party scripts. Each is a potential supply-chain compromise vector.","phase":"JS Analysis & Source Maps","category":"js_analysis","description":"Page loads 11 third-party scripts. Each is a poten
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loaded without Subresour
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from Sentry loaded without Subresource Integrity
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loaded without S
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loaded w
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loaded without Subresource I
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.3a1c79ef.bundle.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from exte
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/services/wix-thunderbolt/dist/main.2af1520d.bundle.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loade
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external h
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host
+  >> {"type":"finding","severity":"info","title":"Missing SRI on Third-Party Script","detail":"https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Third-party script from external host loa
+  >> {"type":"finding","severity":"info","title":"Cross-Origin Data Exfiltration Detected","detail":"https://www.thewhiteleafstudio.com","phase":"JS Analysis & Source Maps","category":"supply_chain","description":"Found 1 cross-origin data exfiltration patterns. Scripts are sending data to domains other 
+  >> {"type":"finding","severity":"info","title":"Exploitable DOM Clobbering Surfaces","detail":"Found 1 DOM references where the lookup result flows into a dangerous sink (innerHTML, src, href, etc.). These are clobberable via HTML injection.","phase":"JS Analysis & Source Maps","category":"injection","
+  >> {"type":"finding","severity":"info","title":"Vulnerable PostMessage Handlers","detail":"Found 2 postMessage handlers without adequate origin validation that feed data into dangerous sinks. These are exploitable for XSS via postMessage.","phase":"JS Analysis & Source Maps","category":"supply_chain","
+  >> {"type":"finding","severity":"info","title":"Elevated attack surface risk score: 69.0/100","detail":"Coverage: N/A/100, Assets: N/A","phase":"JS Analysis & Source Maps","category":"attack-surface","url":"https://www.thewhiteleafstudio.com","id":"d316eb83b9c9","parameter":"","cluster":"public","cwe_i
+  >> {"type":"finding","severity":"info","title":"URL Aggregation & Dorking completed","detail":"Stats: total_findings=0, subdomains_found=0, workspace_members=0, commit_secrets=0, pipeline_exposures=0, config_files=0, deploy_secrets=0, snippet_matches=0","phase":"URL Aggregation & Dorking","category":"s
+  >> {"type":"finding","severity":"info","title":"No endpoints/secrets found in 11 JS files","detail":"FIX-115: Processed 11/11 JS file(s) discovered from https://www.thewhiteleafstudio.com but jsluice found no secrets.","phase":"JS Analysis & Source Maps","category":"js_analysis_check","description":"FI
+  >> {"type":"finding","severity":"info","title":"Sensitive endpoint: *?lightbox=","detail":"GET https://www.thewhiteleafstudio.com/*?lightbox= (risk: 0)","phase":"Endpoint & Asset Discovery","category":"discovery","id":"12887c092ed5","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","c
+  >> {"type":"finding","severity":"info","title":"Sensitive endpoint: _partials*","detail":"GET https://www.thewhiteleafstudio.com/_partials* (risk: 0)","phase":"Endpoint & Asset Discovery","category":"discovery","id":"3263451f4321","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe
+  >> {"type":"finding","severity":"info","title":"Sensitive endpoint: *","detail":"GET https://www.thewhiteleafstudio.com/pro-gallery-webapp/v1/galleries/* (risk: 0)","phase":"Endpoint & Asset Discovery","category":"discovery","id":"e43620ed65b7","url":"","parameter":"","cluster":"public","cwe_ids":[],"c
+  >> {"type":"finding","severity":"info","title":"Endpoint & Asset Discovery completed","detail":"Stats: pages_crawled=1, js_files_analyzed=0, api_endpoints_found=0, schemas_discovered=0, subdomains_found=0","phase":"Endpoint & Asset Discovery","category":"source_code","id":"f040d4c25d5f","url":"","param
+  >> {"type":"finding","severity":"info","title":"Visual recon: 1/1 URL(s) captured","detail":"1/1 captured","phase":"Visual Recon & Screenshots","category":"visual_recon","id":"d1a3f00428fc","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"sour
+  >> {"type":"finding","severity":"info","title":"Screenshot category: error-page (1)","detail":"Detected 1 page(s) in the 'error-page' category","phase":"Visual Recon & Screenshots","category":"visual_recon","id":"7a9104fdd95e","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":""
+  >> {"type":"finding","severity":"info","title":"Generated 84 subdomain permutations","detail":"thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation_summary","description":"gotator generated 84 unique subdomain permutations for thewhiteleafstudio.com (94 low-quality pe
+  >> {"type":"finding","severity":"info","title":"Permutation: thewhiteleafstudio.com","detail":"thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: thewhiteleafstudio.com","id":"b73359396aac","url":"","parameter":"","cl
+  >> {"type":"finding","severity":"info","title":"Permutation: 1rer.thewhiteleafstudio.com","detail":"1rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 1rer.thewhiteleafstudio.com","id":"cd482f05a092","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 2rer.thewhiteleafstudio.com","detail":"2rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 2rer.thewhiteleafstudio.com","id":"3083770dd629","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 0rer.thewhiteleafstudio.com","detail":"0rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 0rer.thewhiteleafstudio.com","id":"cc7e170a2a84","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 3rer.thewhiteleafstudio.com","detail":"3rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 3rer.thewhiteleafstudio.com","id":"dd2580a2d78d","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 4rer.thewhiteleafstudio.com","detail":"4rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 4rer.thewhiteleafstudio.com","id":"d0fc1413337a","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 5rer.thewhiteleafstudio.com","detail":"5rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 5rer.thewhiteleafstudio.com","id":"4590bade3138","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 6rer.thewhiteleafstudio.com","detail":"6rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 6rer.thewhiteleafstudio.com","id":"620b6d005e03","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 7rer.thewhiteleafstudio.com","detail":"7rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 7rer.thewhiteleafstudio.com","id":"793bbc23a939","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 8rer.thewhiteleafstudio.com","detail":"8rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 8rer.thewhiteleafstudio.com","id":"24193d4be434","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 9rer.thewhiteleafstudio.com","detail":"9rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 9rer.thewhiteleafstudio.com","id":"6cad4e5fabc2","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 10rer.thewhiteleafstudio.com","detail":"10rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 10rer.thewhiteleafstudio.com","id":"f371cc0cce96","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: 11rer.thewhiteleafstudio.com","detail":"11rer.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 11rer.thewhiteleafstudio.com","id":"5a2a7b5831b5","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: 2tty.thewhiteleafstudio.com","detail":"2tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 2tty.thewhiteleafstudio.com","id":"6282e542d283","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 3tty.thewhiteleafstudio.com","detail":"3tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 3tty.thewhiteleafstudio.com","id":"132a3001c113","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 1tty.thewhiteleafstudio.com","detail":"1tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 1tty.thewhiteleafstudio.com","id":"9c87adcbe2c6","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 4tty.thewhiteleafstudio.com","detail":"4tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 4tty.thewhiteleafstudio.com","id":"69f3d5da6863","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 0tty.thewhiteleafstudio.com","detail":"0tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 0tty.thewhiteleafstudio.com","id":"9d27bbb845cd","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 5tty.thewhiteleafstudio.com","detail":"5tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 5tty.thewhiteleafstudio.com","id":"636f456d93a7","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 6tty.thewhiteleafstudio.com","detail":"6tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 6tty.thewhiteleafstudio.com","id":"5bdd93ed4dce","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 7tty.thewhiteleafstudio.com","detail":"7tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 7tty.thewhiteleafstudio.com","id":"ebb5fa638548","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 8tty.thewhiteleafstudio.com","detail":"8tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 8tty.thewhiteleafstudio.com","id":"1751459fa706","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 9tty.thewhiteleafstudio.com","detail":"9tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 9tty.thewhiteleafstudio.com","id":"8eef2c327b19","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: 10tty.thewhiteleafstudio.com","detail":"10tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 10tty.thewhiteleafstudio.com","id":"005aeae225a0","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: 11tty.thewhiteleafstudio.com","detail":"11tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 11tty.thewhiteleafstudio.com","id":"51726dbc3645","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: 12tty.thewhiteleafstudio.com","detail":"12tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: 12tty.thewhiteleafstudio.com","id":"3742c745905e","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: admin.thewhiteleafstudio.com","detail":"admin.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: admin.thewhiteleafstudio.com","id":"ca8d83faf97c","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: api.thewhiteleafstudio.com","detail":"api.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: api.thewhiteleafstudio.com","id":"cb0fda175013","url":"","param
+  >> {"type":"finding","severity":"info","title":"Permutation: app.thewhiteleafstudio.com","detail":"app.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: app.thewhiteleafstudio.com","id":"f69ed4a5b44e","url":"","param
+  >> {"type":"finding","severity":"info","title":"Permutation: blog.thewhiteleafstudio.com","detail":"blog.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: blog.thewhiteleafstudio.com","id":"7ff99ef6139e","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: cloud.thewhiteleafstudio.com","detail":"cloud.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: cloud.thewhiteleafstudio.com","id":"f52a0b6afd9e","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: cuali.thewhiteleafstudio.com","detail":"cuali.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: cuali.thewhiteleafstudio.com","id":"d2ad7df0e265","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: demo.thewhiteleafstudio.com","detail":"demo.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: demo.thewhiteleafstudio.com","id":"0375f57f169b","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev.thewhiteleafstudio.com","detail":"dev.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev.thewhiteleafstudio.com","id":"81d2bba67c76","url":"","param
+  >> {"type":"finding","severity":"info","title":"Permutation: dev2.thewhiteleafstudio.com","detail":"dev2.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev2.thewhiteleafstudio.com","id":"ed95f5730fb8","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev3.thewhiteleafstudio.com","detail":"dev3.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev3.thewhiteleafstudio.com","id":"ee2a4049497f","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev1.thewhiteleafstudio.com","detail":"dev1.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev1.thewhiteleafstudio.com","id":"ffe238c72e9d","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev4.thewhiteleafstudio.com","detail":"dev4.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev4.thewhiteleafstudio.com","id":"b45210b6e900","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev0.thewhiteleafstudio.com","detail":"dev0.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev0.thewhiteleafstudio.com","id":"b2a80f2ce452","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev5.thewhiteleafstudio.com","detail":"dev5.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev5.thewhiteleafstudio.com","id":"3bf614eef527","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev6.thewhiteleafstudio.com","detail":"dev6.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev6.thewhiteleafstudio.com","id":"34a61e9b6c80","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev7.thewhiteleafstudio.com","detail":"dev7.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev7.thewhiteleafstudio.com","id":"3cdfe2081ead","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev8.thewhiteleafstudio.com","detail":"dev8.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev8.thewhiteleafstudio.com","id":"4f7209514951","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev9.thewhiteleafstudio.com","detail":"dev9.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev9.thewhiteleafstudio.com","id":"b2416d6d9a0d","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: dev10.thewhiteleafstudio.com","detail":"dev10.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev10.thewhiteleafstudio.com","id":"0cac2457d7c8","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: dev11.thewhiteleafstudio.com","detail":"dev11.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev11.thewhiteleafstudio.com","id":"e430612ae989","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: dev12.thewhiteleafstudio.com","detail":"dev12.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: dev12.thewhiteleafstudio.com","id":"db4a7c2e37b0","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: email.thewhiteleafstudio.com","detail":"email.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: email.thewhiteleafstudio.com","id":"51ab511a53e8","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: exchange.thewhiteleafstudio.com","detail":"exchange.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: exchange.thewhiteleafstudio.com","id":"aa55317ab634",
+  >> {"type":"finding","severity":"info","title":"Permutation: forum.thewhiteleafstudio.com","detail":"forum.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: forum.thewhiteleafstudio.com","id":"463ba46f1dd1","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: gov.thewhiteleafstudio.com","detail":"gov.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: gov.thewhiteleafstudio.com","id":"c822dfb4123a","url":"","param
+  >> {"type":"finding","severity":"info","title":"Permutation: govyty.thewhiteleafstudio.com","detail":"govyty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: govyty.thewhiteleafstudio.com","id":"ee4aa55e814b","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: host.thewhiteleafstudio.com","detail":"host.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: host.thewhiteleafstudio.com","id":"364b275cd816","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: mail.thewhiteleafstudio.com","detail":"mail.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail.thewhiteleafstudio.com","id":"af3df4250064","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: mail2.thewhiteleafstudio.com","detail":"mail2.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail2.thewhiteleafstudio.com","id":"1a0a59e46d54","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail3.thewhiteleafstudio.com","detail":"mail3.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail3.thewhiteleafstudio.com","id":"00ea3aaf8fb5","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail1.thewhiteleafstudio.com","detail":"mail1.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail1.thewhiteleafstudio.com","id":"5c29a512dbd8","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail4.thewhiteleafstudio.com","detail":"mail4.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail4.thewhiteleafstudio.com","id":"a9a94e6f97d7","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail0.thewhiteleafstudio.com","detail":"mail0.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail0.thewhiteleafstudio.com","id":"bf2079fee852","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail5.thewhiteleafstudio.com","detail":"mail5.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail5.thewhiteleafstudio.com","id":"2213c8497ffd","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail6.thewhiteleafstudio.com","detail":"mail6.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail6.thewhiteleafstudio.com","id":"a689b48fc6c8","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail7.thewhiteleafstudio.com","detail":"mail7.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail7.thewhiteleafstudio.com","id":"1ba9d69fa098","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail8.thewhiteleafstudio.com","detail":"mail8.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail8.thewhiteleafstudio.com","id":"9c1cf235a0d2","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail9.thewhiteleafstudio.com","detail":"mail9.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail9.thewhiteleafstudio.com","id":"f2ef12631a9a","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: mail10.thewhiteleafstudio.com","detail":"mail10.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail10.thewhiteleafstudio.com","id":"409f3ed314ee","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: mail11.thewhiteleafstudio.com","detail":"mail11.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail11.thewhiteleafstudio.com","id":"57ac50ed1bc9","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: mail12.thewhiteleafstudio.com","detail":"mail12.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mail12.thewhiteleafstudio.com","id":"c24e1794037f","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: mysql.thewhiteleafstudio.com","detail":"mysql.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: mysql.thewhiteleafstudio.com","id":"b20a20f82089","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: news.thewhiteleafstudio.com","detail":"news.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: news.thewhiteleafstudio.com","id":"09454f7497b1","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: owa.thewhiteleafstudio.com","detail":"owa.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: owa.thewhiteleafstudio.com","id":"c19bf8881a06","url":"","param
+  >> {"type":"finding","severity":"info","title":"Permutation: portal.thewhiteleafstudio.com","detail":"portal.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: portal.thewhiteleafstudio.com","id":"962d668fd64e","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: pre.thewhiteleafstudio.com","detail":"pre.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: pre.thewhiteleafstudio.com","id":"396a1dc1bb86","url":"","param
+  >> {"type":"finding","severity":"info","title":"Permutation: pro.thewhiteleafstudio.com","detail":"pro.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: pro.thewhiteleafstudio.com","id":"0ac0585ab77a","url":"","param
+  >> {"type":"finding","severity":"info","title":"Permutation: prod.thewhiteleafstudio.com","detail":"prod.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: prod.thewhiteleafstudio.com","id":"b0b8178eb26e","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: prueba.thewhiteleafstudio.com","detail":"prueba.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: prueba.thewhiteleafstudio.com","id":"5b66415e3ea8","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: remote.thewhiteleafstudio.com","detail":"remote.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: remote.thewhiteleafstudio.com","id":"b71fe5d13984","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: secure.thewhiteleafstudio.com","detail":"secure.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: secure.thewhiteleafstudio.com","id":"9a1eb75c4bff","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: server.thewhiteleafstudio.com","detail":"server.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: server.thewhiteleafstudio.com","id":"766752197ffa","url":
+  >> {"type":"finding","severity":"info","title":"Permutation: shop.thewhiteleafstudio.com","detail":"shop.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: shop.thewhiteleafstudio.com","id":"6034a41a8d45","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: store.thewhiteleafstudio.com","detail":"store.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: store.thewhiteleafstudio.com","id":"86400b062112","url":"",
+  >> {"type":"finding","severity":"info","title":"Permutation: support.thewhiteleafstudio.com","detail":"support.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: support.thewhiteleafstudio.com","id":"b4bf79e13f07","ur
+  >> {"type":"finding","severity":"info","title":"Permutation: test.thewhiteleafstudio.com","detail":"test.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: test.thewhiteleafstudio.com","id":"daded5c401ed","url":"","pa
+  >> {"type":"finding","severity":"info","title":"Permutation: tty.thewhiteleafstudio.com","detail":"tty.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: tty.thewhiteleafstudio.com","id":"7604d384f2b4","url":"","param
+  >> {"type":"finding","severity":"info","title":"Permutation: web.thewhiteleafstudio.com","detail":"web.thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain_permutation","description":"Subdomain permutation generated: web.thewhiteleafstudio.com","id":"dfca8a970b1a","url":"","param
+  >> {"type":"finding","severity":"info","title":"Subdomain: thewhiteleafstudio.com","detail":"Subdomain: thewhiteleafstudio.com","phase":"Subdomain Discovery","category":"subdomain","remediation":"Validate the subdomain condition, remove the root cause, and apply the appropriate hardening or access-cont
+  >> {"type":"finding","severity":"info","title":"TLS Fingerprint: TLSv1.3 / TLS_AES_128_GCM_SHA256","detail":"Host: thewhiteleafstudio.com:443 | TLS: TLSv1.3 | Cipher: TLS_AES_128_GCM_SHA256 | JARM: 00000000000000000000...","url":"https://thewhiteleafstudio.com","phase":"TLS & Certificate Analysis","cat
+  >> {"type":"finding","severity":"info","title":"JA3S Fingerprint: dc72e6e41d079db48ea7e413...","detail":"Known product:  | Category:","url":"https://thewhiteleafstudio.com","phase":"TLS & Certificate Analysis","category":"tls","id":"ee4a4e1398b0","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":
+  >> {"type":"finding","severity":"info","title":"JA4 Fingerprint captured (2 components)","detail":"ja4s=t1302d_1301_1acd28cc39f1 | ja4x=d22d44c2dde2_d22d44c2dde2_d22d44c2dde2","url":"https://thewhiteleafstudio.com","phase":"TLS & Certificate Analysis","category":"tls","id":"021bf0e7e64a","parameter":""
+  >> {"type":"finding","severity":"info","title":"TLS certificate expires in 26 days","detail":"Certificate for thewhiteleafstudio.com expires on 2026-06-02T11:08:37+00:00 (issuer: Let's Encrypt).","url":"https://thewhiteleafstudio.com","phase":"TLS & Certificate Analysis","category":"tls","id":"7e38ac17
+  >> {"type":"finding","severity":"info","title":"SAN-discovered subdomain: thewhiteleafstudio.com","detail":"Subdomain thewhiteleafstudio.com discovered via TLS SAN extraction","phase":"TLS & Certificate Analysis","category":"san_subdomain","description":"Subdomain thewhiteleafstudio.com discovered via 
+  >> {"type":"finding","severity":"info","title":"SAN-discovered subdomain: www.thewhiteleafstudio.com","detail":"Subdomain www.thewhiteleafstudio.com discovered via TLS SAN extraction","phase":"TLS & Certificate Analysis","category":"san_subdomain","description":"Subdomain www.thewhiteleafstudio.com dis
+  >> {"type":"finding","severity":"info","title":"SPF record missing: thewhiteleafstudio.com","detail":"No SPF (Sender Policy Framework) TXT record found. Without SPF, any server can send email claiming to be from @thewhiteleafstudio.com, enabling phishing and spoofing.","phase":"DNS Security Testing","c
+  >> {"type":"finding","severity":"info","title":"SPF Record Missing","detail":"https://thewhiteleafstudio.com | Checked: True | Record Found: False","phase":"DNS Security Testing","category":"spf_missing","description":"Domain thewhiteleafstudio.com has no SPF record","remediation":"Add an SPF record to
+  >> {"type":"finding","severity":"info","title":"DMARC Record Missing","detail":"https://thewhiteleafstudio.com | Checked Domain: _dmarc.thewhiteleafstudio.com | Record Found: False","phase":"DNS Security Testing","category":"dmarc_missing","description":"Domain thewhiteleafstudio.com has no DMARC recor
+  >> {"type":"finding","severity":"info","title":"No DKIM Selectors Found","detail":"https://thewhiteleafstudio.com | Selectors Checked: ['default', 'selector1', 'selector2', 'google', 'google2048', 'mail', 'email', 'k1', 'k2', 'k3']","phase":"DNS Security Testing","category":"dkim_missing","description"
+  >> {"type":"finding","severity":"info","title":"Email Spoofing Risk: Critical","detail":"https://thewhiteleafstudio.com | Risk Level: critical | Has Spf: False | Has Dmarc: False | Has Dkim: False","phase":"DNS Security Testing","category":"email_spoofing","description":"Critical spoofing risk: No SPF,
+  >> {"type":"finding","severity":"info","title":"DNS Security Testing: scan completed (no results)","detail":"Summary: total_findings=4, has_spf=False, has_dmarc=False, has_dkim=False","phase":"DNS Security Testing","category":"source_code","id":"26a5f28fd567","url":"","parameter":"","cluster":"public",
+  >> {"type":"finding","severity":"info","title":"No SPF record found \u2014 domain is vulnerable to email spoofing","detail":"No SPF record found \u2014 domain is vulnerable to email spoofing","phase":"DNS Security Testing","category":"misconfiguration","url":"https://thewhiteleafstudio.com","id":"4bd68
+  >> {"type":"finding","severity":"info","title":"No DMARC record found \u2014 domain lacks email authentication policy","detail":"No DMARC record found \u2014 domain lacks email authentication policy","phase":"DNS Security Testing","category":"misconfiguration","url":"https://thewhiteleafstudio.com","id
+  >> {"type":"finding","severity":"info","title":"No MTA-STS TXT record \u2014 email delivery not TLS-enforced","detail":"No MTA-STS TXT record \u2014 email delivery not TLS-enforced","phase":"DNS Security Testing","category":"misconfiguration","url":"https://thewhiteleafstudio.com","id":"10f2478fe3c0","
+  >> {"type":"finding","severity":"info","title":"No BIMI record \u2014 email brand indicator not configured","detail":"No BIMI record \u2014 email brand indicator not configured","phase":"DNS Security Testing","category":"misconfiguration","url":"https://thewhiteleafstudio.com","id":"759cc2e7b3a6","para
+  >> {"type":"finding","severity":"info","title":"No TLSRPT record \u2014 not receiving TLS failure reports for email","detail":"No TLSRPT record \u2014 not receiving TLS failure reports for email","phase":"DNS Security Testing","category":"misconfiguration","url":"https://thewhiteleafstudio.com","id":"4
+  >> {"type":"finding","severity":"info","title":"No DKIM selectors discovered \u2014 DKIM may not be configured","detail":"No DKIM selectors discovered \u2014 DKIM may not be configured","phase":"DNS Security Testing","category":"misconfiguration","url":"https://thewhiteleafstudio.com","id":"968a6c098ac
+  >> {"type":"finding","severity":"info","title":"DNSSEC is not enabled \u2014 no DNSKEY or DS records found","detail":"DNSSEC is not enabled \u2014 no DNSKEY or DS records found","phase":"DNS Security Testing","category":"dnssec_issue","url":"https://thewhiteleafstudio.com","id":"8f787822e3b7","paramete
+  >> {"type":"finding","severity":"info","title":"No DNSSEC DNSKEY record \u2014 primary cache poisoning defence absent","detail":"No DNSSEC DNSKEY record \u2014 primary cache poisoning defence absent","phase":"DNS Security Testing","category":"cache_poisoning","url":"https://thewhiteleafstudio.com","id"
+  >> {"type":"finding","severity":"info","title":"No DNSKEY record found \u2014 DNSSEC is not deployed","detail":"No DNSKEY record found \u2014 DNSSEC is not deployed","phase":"DNS Security Testing","category":"cache_poisoning","url":"https://thewhiteleafstudio.com","id":"87376c1e68e3","parameter":"","cl
+  >> {"type":"finding","severity":"info","title":"IPv6 gap: 2/2 nameservers lack AAAA records","detail":"IPv6 gap: 2/2 nameservers lack AAAA records","phase":"DNS Security Testing","category":"misconfiguration","url":"https://thewhiteleafstudio.com","id":"1482169316e2","parameter":"","cluster":"public","
+  >> {"type":"finding","severity":"info","title":"Domain has no AAAA records \u2014 not reachable via IPv6","detail":"Domain has no AAAA records \u2014 not reachable via IPv6","phase":"DNS Security Testing","category":"misconfiguration","url":"https://thewhiteleafstudio.com","id":"1e082e8d2121","paramete
+  >> {"type":"finding","severity":"info","title":"DNSSEC not enabled: thewhiteleafstudio.com","detail":"DNSSEC is not configured for thewhiteleafstudio.com. Without DNSSEC, DNS responses can be spoofed via cache poisoning or man-in-the-middle attacks.","url":"https://thewhiteleafstudio.com","phase":"DNS 
+  >> {"type":"finding","severity":"info","title":"Zone transfer blocked: thewhiteleafstudio.com","detail":"AXFR is properly restricted \u2014 zone transfer not possible.","url":"https://thewhiteleafstudio.com","phase":"DNS Security Testing","category":"dns_security","id":"7bf57cc93252","parameter":"","cl
+  >> {"type":"finding","severity":"info","title":"DNS records for thewhiteleafstudio.com: 3 record(s)","detail":"Record types: A","url":"https://thewhiteleafstudio.com","phase":"DNS Security Testing","category":"dns_security","id":"f9070db37738","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"",
+  >> {"type":"finding","severity":"info","title":"DNS misconfiguration detected: thewhiteleafstudio.com","detail":"One or more DNS security tests indicated a vulnerability.","url":"https://thewhiteleafstudio.com","phase":"DNS Security Testing","category":"dns_security","id":"8a6c477f35ea","parameter":"",
+  >> {"type":"finding","severity":"info","title":"WAF Detected: fastly","detail":"WAF Detected: fastly","phase":"WAF Detection & Fingerprinting","category":"","id":"7c67515e0065","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":null,"source_tool":"WAF
+  >> {"type":"finding","severity":"info","title":"WAF Detected: fastly","detail":"Confidence: 60% | Evidence: Header match: x-served-by.*cache, Header match: fastly","phase":"WAF Detection & Fingerprinting","category":"waf","id":"4fb904a8bf73","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_
+  >> {"type":"finding","severity":"info","title":"WAF Detected: Fastly","detail":"https://www.thewhiteleafstudio.com","phase":"WAF Detection & Fingerprinting","category":"waf_detection","description":"WAF fingerprinting identified Fastly by Fastly CDN protecting https://www.thewhiteleafstudio.com","url":
+  >> {"type":"finding","severity":"info","title":"WAF Detected: Google Cloud App Armor","detail":"https://www.thewhiteleafstudio.com","phase":"WAF Detection & Fingerprinting","category":"waf_detection","description":"WAF fingerprinting identified Google Cloud App Armor by Google Cloud protecting https://
+  >> {"type":"finding","severity":"info","title":"Email: support@wix.com (source: dns_soa)","detail":"Email: support@wix.com (source: dns_soa)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause, and apply the appropriate
+  >> {"type":"finding","severity":"info","title":"Email: info@thewhiteleafstudio.com (source: pattern)","detail":"Email: info@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause, a
+  >> {"type":"finding","severity":"info","title":"Email: admin@thewhiteleafstudio.com (source: pattern)","detail":"Email: admin@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause,
+  >> {"type":"finding","severity":"info","title":"Email: contact@thewhiteleafstudio.com (source: pattern)","detail":"Email: contact@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root ca
+  >> {"type":"finding","severity":"info","title":"Email: support@thewhiteleafstudio.com (source: pattern)","detail":"Email: support@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root ca
+  >> {"type":"finding","severity":"info","title":"Email: hello@thewhiteleafstudio.com (source: pattern)","detail":"Email: hello@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause,
+  >> {"type":"finding","severity":"info","title":"Email: sales@thewhiteleafstudio.com (source: pattern)","detail":"Email: sales@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause,
+  >> {"type":"finding","severity":"info","title":"Email: security@thewhiteleafstudio.com (source: pattern)","detail":"Email: security@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root 
+  >> {"type":"finding","severity":"info","title":"Email: abuse@thewhiteleafstudio.com (source: pattern)","detail":"Email: abuse@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause,
+  >> {"type":"finding","severity":"info","title":"Email: webmaster@thewhiteleafstudio.com (source: pattern)","detail":"Email: webmaster@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the roo
+  >> {"type":"finding","severity":"info","title":"Email: postmaster@thewhiteleafstudio.com (source: pattern)","detail":"Email: postmaster@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the r
+  >> {"type":"finding","severity":"info","title":"Email: hostmaster@thewhiteleafstudio.com (source: pattern)","detail":"Email: hostmaster@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the r
+  >> {"type":"finding","severity":"info","title":"Email: noc@thewhiteleafstudio.com (source: pattern)","detail":"Email: noc@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause, and
+  >> {"type":"finding","severity":"info","title":"Email: billing@thewhiteleafstudio.com (source: pattern)","detail":"Email: billing@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root ca
+  >> {"type":"finding","severity":"info","title":"Email: hr@thewhiteleafstudio.com (source: pattern)","detail":"Email: hr@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause, and a
+  >> {"type":"finding","severity":"info","title":"Email: careers@thewhiteleafstudio.com (source: pattern)","detail":"Email: careers@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root ca
+  >> {"type":"finding","severity":"info","title":"Email: press@thewhiteleafstudio.com (source: pattern)","detail":"Email: press@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause,
+  >> {"type":"finding","severity":"info","title":"Email: legal@thewhiteleafstudio.com (source: pattern)","detail":"Email: legal@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root cause,
+  >> {"type":"finding","severity":"info","title":"Email: privacy@thewhiteleafstudio.com (source: pattern)","detail":"Email: privacy@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root ca
+  >> {"type":"finding","severity":"info","title":"Email: compliance@thewhiteleafstudio.com (source: pattern)","detail":"Email: compliance@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the r
+  >> {"type":"finding","severity":"info","title":"Email: devops@thewhiteleafstudio.com (source: pattern)","detail":"Email: devops@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the root caus
+  >> {"type":"finding","severity":"info","title":"Email: engineering@thewhiteleafstudio.com (source: pattern)","detail":"Email: engineering@thewhiteleafstudio.com (source: pattern)","phase":"OSINT Intelligence","category":"email_discovery","remediation":"Validate the email_discovery condition, remove the
+  >> {"type":"finding","severity":"info","title":"Host: thewhiteleafstudio.com (185.230.63.171)","detail":"Host: thewhiteleafstudio.com (185.230.63.171)","phase":"OSINT Intelligence","category":"host","remediation":"Validate the host condition, remove the root cause, and apply the appropriate hardening o
+  >> {"type":"finding","severity":"info","title":"Host: thewhiteleafstudio.com (185.230.63.107)","detail":"Host: thewhiteleafstudio.com (185.230.63.107)","phase":"OSINT Intelligence","category":"host","remediation":"Validate the host condition, remove the root cause, and apply the appropriate hardening o
+  >> {"type":"finding","severity":"info","title":"Host: thewhiteleafstudio.com (185.230.63.186)","detail":"Host: thewhiteleafstudio.com (185.230.63.186)","phase":"OSINT Intelligence","category":"host","remediation":"Validate the host condition, remove the root cause, and apply the appropriate hardening o
+  >> {"type":"finding","severity":"info","title":"Host: www.thewhiteleafstudio.com (34.149.87.45)","detail":"Host: www.thewhiteleafstudio.com (34.149.87.45)","phase":"OSINT Intelligence","category":"host","remediation":"Validate the host condition, remove the root cause, and apply the appropriate hardeni
+  >> {"type":"finding","severity":"info","title":"CAPTCHA detected: image_text","detail":"Base64-encoded CAPTCHA image","phase":"Extended OSINT & Recon","category":"captcha_bypass","url":"https://thewhiteleafstudio.com","id":"df3984ce8769","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":
+  >> {"type":"finding","severity":"info","title":"Overall MFA/CAPTCHA bypass risk score: 0.0/10","detail":"Bypass achieved: False, Findings: {'info': 2}","phase":"Extended OSINT & Recon","category":"authentication","url":"https://thewhiteleafstudio.com","id":"dc1c593c6314","parameter":"","cluster":"publi
+  >> {"type":"finding","severity":"info","title":"No automated bypass achieved","detail":"Target's MFA/CAPTCHA defenses held against automated testing","phase":"Extended OSINT & Recon","category":"authentication","url":"https://thewhiteleafstudio.com","id":"1eb670871f2e","parameter":"","cluster":"public"
+  >> {"type":"finding","severity":"info","title":"Extended OSINT & Recon completed","detail":"Stats: total_findings=4, severity_counts={'info': 4}, total_chain_steps=0, successful_steps=0, mfa_method=unknown, totp_generated=False, sms_intercepted=True, email_extracted=True","phase":"Extended OSINT & Reco
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d medium r
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://browser.sentry-cdn.com/7.120.3/modulemetadata.es5.min.js","detail":"External script from 'browser.sentry-cdn.com' loaded without SRI integrity attribute. CDN resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d high risk. An atta
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/unpkg/react@18.3.1/umd/react.production.min.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d 
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/unpkg/react-dom@18.3.1/umd/react-dom.production.min.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20a
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u009d medium risk.
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/services/wix-thunderbolt/dist/thunderbolt-commons.3a1c79ef.bundle.min.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/services/wix-thunderbolt/dist/main.2af1520d.bundle.min.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/services/wix-thunderbolt/dist/main.renderer.99fa8096.bundle.min.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00a
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/services/wix-thunderbolt/dist/browser-deprecation.bundle.es5.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u
+  >> {"type":"finding","severity":"info","title":"SRI Missing: https://static.parastorage.com/services/tag-manager-client/1.1028.0/siteTags.bundle.min.js","detail":"External script from 'static.parastorage.com' loaded without SRI integrity attribute. External resource \u00c3\u00a2\u00e2\u201a\u00ac\u00e2
+  >> {"type":"finding","severity":"info","title":"Pipeline encountered 1 error(s) during crawl","detail":"no_package_manifests_in_target_dir","phase":"CVE Correlation","category":"pipeline","pipeline_error":true,"id":"6d9abafbd1e7","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe"
+  >> {"type":"finding","severity":"info","title":"CVE Correlation: scan completed (no results)","detail":"Summary: total_cves=0, critical=0, high=0, medium=0, low=0, kev_count=0","phase":"CVE Correlation","category":"source_code","id":"2b847899e817","url":"","parameter":"","cluster":"public","cwe_ids":[]
+  >> {"type":"finding","severity":"info","title":"CSRF protection may be missing at /login/login","detail":"https://www.thewhiteleafstudio.com/login/login | Status Code: 429 | Snippet: <!doctype html><meta charset=\"utf-8\"><meta name=viewport content=\"width=device-width, initial-scale=1\"><title>429</t
+  >> {"type":"finding","severity":"info","title":"CSRF protection may be missing at /account/email","detail":"https://www.thewhiteleafstudio.com/account/email | Status Code: 429 | Snippet: <!doctype html><meta charset=\"utf-8\"><meta name=viewport content=\"width=device-width, initial-scale=1\"><title>42
+  >> {"type":"finding","severity":"info","title":"CSRF protection may be missing at /account/save","detail":"https://www.thewhiteleafstudio.com/account/save | Status Code: 429 | Snippet: <!doctype html><meta charset=\"utf-8\"><meta name=viewport content=\"width=device-width, initial-scale=1\"><title>429<
+  >> {"type":"finding","severity":"info","title":"Access Control & Privilege Testing: scan completed (no results)","detail":"Summary: total_findings=0, critical=0, high=0, medium=0, low=0, info=0","phase":"Access Control & Privilege Testing","category":"source_code","id":"69366cc9ab7d","url":"","paramete
+  >> {"type":"finding","severity":"info","title":"CF H2\u2192HTTP/1.1 Desync (httpx fallback): CF H2.CL Mismatch (CL < body)","detail":"Variant: CF H2.CL Mismatch (CL < body) | Reason: Origin returned 400 to H2 desync probe | Status: 400 | Elapsed: 0.055","phase":"Injection & Deserialization Testing","ca
+  >> {"type":"finding","severity":"info","title":"Injection & Deserialization Testing: scan completed (no results)","detail":"Summary: total_findings=19, ssi_vulnerable=True, esi_vulnerable=True","phase":"Injection & Deserialization Testing","category":"source_code","id":"b67dd9d02d19","url":"","paramete
+  >> {"type":"finding","severity":"info","title":"DNS: thewhiteleafstudio.com \u2192 185.230.63.186, 185.230.63.107, 185.230.63.171","detail":"DNS resolution for thewhiteleafstudio.com: 185.230.63.186, 185.230.63.107, 185.230.63.171. Response: NOERROR","phase":"DNS Resolution & Brute-force","category":"d
+  >> {"type":"finding","severity":"info","title":"Missing CSP Header","detail":"The response lacks Content-Security-Policy header.","url":"https://www.thewhiteleafstudio.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"7566cdcde177","cluster":"publi
+  >> {"type":"finding","severity":"info","title":"Missing X-Frame-Options","detail":"The response lacks X-Frame-Options header, potentially vulnerable to clickjacking.","url":"https://www.thewhiteleafstudio.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":""
+  >> {"type":"finding","severity":"info","title":"Email Address in Response","detail":"Email addresses were found in the response.","url":"https://www.thewhiteleafstudio.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"029cea29354b","cluster":"publi
+  >> {"type":"finding","severity":"info","title":"Debug Information Exposed","detail":"Debug or development information was found in the response.","url":"https://www.thewhiteleafstudio.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"fe4b238156b5",
+  >> {"type":"finding","severity":"info","title":"Server Version Disclosed","detail":"Server version information was disclosed in headers.","url":"https://www.thewhiteleafstudio.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"f241c4dcd94d","cluster
+  >> {"type":"finding","severity":"info","title":"Sensitive HTML Comment","detail":"An HTML comment contains potentially sensitive information.","url":"https://www.thewhiteleafstudio.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":"5e65dac7c636","cl
+  >> {"type":"finding","severity":"info","title":"JavaScript Source Map","detail":"A JavaScript source map reference was found, potentially exposing source code.","url":"https://www.thewhiteleafstudio.com","parameter":"","phase":"Core Utility Testing","category":"info_disclosure","source_module":"","id":
+  >> {"type":"finding","severity":"info","title":"Validated subdomain: www.thewhiteleafstudio.com","detail":"DNS brute-force with wildcard filtering confirmed subdomain www.thewhiteleafstudio.com for thewhiteleafstudio.com","phase":"DNS Resolution & Brute-force","category":"subdomain","description":"DNS 
+  >> {"type":"finding","severity":"info","title":"DNS CAA issue: No CAA records found \u2014 any Certificate Authority can issue certificates for this domain","detail":"No CAA records found \u2014 any Certificate Authority can issue certificates for this domain","url":"https://thewhiteleafstudio.com","ph
+  >> {"type":"finding","severity":"info","title":"DNS intel: No CAA records \u2014 any CA can issue certificates for this domain. Add CAA records to restrict issuance","detail":"No CAA records \u2014 any CA can issue certificates for this domain. Add CAA records to restrict issuance.","url":"https://thew
+  >> {"type":"finding","severity":"info","title":"DNS intel: No CAA iodef configured \u2014 add iodef record to receive notifications of misissuance attempts.","detail":"No CAA iodef configured \u2014 add iodef record to receive notifications of misissuance attempts.","url":"https://thewhiteleafstudio.co
+  >> {"type":"finding","severity":"info","title":"Virtual Host: www.thewhiteleafstudio.com (429)","detail":"http://www.thewhiteleafstudio.com","phase":"Virtual Host Discovery","category":"vhost_discovery","description":"Virtual host 'www.thewhiteleafstudio.com' discovered on thewhiteleafstudio.com (statu
+  >> {"type":"finding","severity":"info","title":"Anycast DNS Routing Detected","detail":"Target uses anycast DNS \u2014 same IP served from multiple geographic locations.","phase":"Network Topology Mapping","category":"","description":"Target uses anycast DNS \u2014 same IP served from multiple geograph
+  >> {"type":"finding","severity":"info","title":"CDN Routing Differences Detected","detail":"HTTP responses vary across different CDN edge nodes, which may expose region-specific attack surface.","phase":"Network Topology Mapping","category":"","description":"HTTP responses vary across different CDN edg
+  >> {"type":"finding","severity":"info","title":"Anycast Infrastructure Confirmed","detail":"Target uses anycast with 2 IPs covering 7 regions.","phase":"Network Topology Mapping","category":"","description":"Target uses anycast with 2 IPs covering 7 regions.","id":"49199146f347","url":"","parameter":""
+  >> {"type":"finding","severity":"info","title":"Coverage Gap: XSS testing limited","detail":"dalfox ran but found no XSS vulnerabilities. XSS detection for this target may be incomplete.","phase":"Active Vulnerability Testing","category":"coverage_gap","id":"b8845605374b","url":"","parameter":"","clust
+  >> {"type":"finding","severity":"info","title":"Open port: thewhiteleafstudio.com:443/tcp","detail":"thewhiteleafstudio.com:443","phase":"Network & Port Scanning","category":"network","description":"Discovered open port 443/tcp on thewhiteleafstudio.com","url":"thewhiteleafstudio.com","id":"0dbd745f7ec
+  >> {"type":"finding","severity":"info","title":"Open port: thewhiteleafstudio.com:82/tcp","detail":"thewhiteleafstudio.com:82","phase":"Network & Port Scanning","category":"network","description":"Discovered open port 82/tcp on thewhiteleafstudio.com","url":"thewhiteleafstudio.com","id":"45aa7a067c41",
+  >> {"type":"finding","severity":"info","title":"Open port: thewhiteleafstudio.com:80/tcp","detail":"thewhiteleafstudio.com:80","phase":"Network & Port Scanning","category":"network","description":"Discovered open port 80/tcp on thewhiteleafstudio.com","url":"thewhiteleafstudio.com","id":"c8fada02fced",
+  >> {"type":"finding","severity":"info","title":"Advanced Exploitation Testing: scan completed (no results)","detail":"Summary: total_findings=1, critical=0, high=0","phase":"Advanced Exploitation Testing","category":"source_code","id":"9e8974cf0822","url":"","parameter":"","cluster":"public","cwe_ids":
+  >> {"type":"finding","severity":"info","title":"Security headers present: 2 of 6","detail":"Present: strict-transport-security, x-content-type-options","url":"https://www.thewhiteleafstudio.com","phase":"Advanced Exploitation Testing","category":"security_header","id":"76ec0f8ead23","parameter":"","clu
+  >> {"type":"finding","severity":"info","title":"Cookie missing flags: ssr-caching","detail":"Cookie 'ssr-caching' is missing: HttpOnly. Consider adding security flags to reduce attack surface.","phase":"Advanced Exploitation Testing","category":"cookie_security","id":"4e4014303319","url":"","parameter"
+  >> {"type":"finding","severity":"info","title":"HTTP/2 CONTINUATION Flood \u2014 CVE-2024-27316","detail":"https://www.thewhiteleafstudio.com | Frames Sent: 200 | Goaway Received: False | Cve: CVE-2024-27316","phase":"Advanced Exploitation Testing","category":"continuation_frame_flood","description":"S
+  >> {"type":"finding","severity":"info","title":"No Rate Limiting on SSE Endpoint","detail":"SSE endpoint allows 20 concurrent connections without rate limiting","url":"https://www.thewhiteleafstudio.com","parameter":"","phase":"Advanced Exploitation Testing","category":"vulnerability","source_module":"
+  >> {"type":"finding","severity":"info","title":"Command injection via cmd","detail":"https://www.thewhiteleafstudio.com","phase":"Advanced Exploitation Testing","category":"","remediation":"Sanitize user input and avoid passing to shell commands. Use parameterized APIs.","url":"https://www.thewhiteleaf
+  >> {"type":"finding","severity":"info","title":"CF Access Bypassed via X-Forwarded-Host Host Injection","detail":"https://www.thewhiteleafstudio.com | Header: X-Forwarded-Host | Value: internal | Status: 200","phase":"Advanced Exploitation Testing","category":"","description":"Setting 'X-Forwarded-Host
+  >> {"type":"finding","severity":"info","title":"CF Access Bypassed via X-Host Host Injection","detail":"https://www.thewhiteleafstudio.com | Header: X-Host | Value: internal | Status: 200","phase":"Advanced Exploitation Testing","category":"","description":"Setting 'X-Host: internal' caused the CF Acce
+  >> {"type":"finding","severity":"info","title":"CF Access Bypassed via X-Original-URL Host Injection","detail":"https://www.thewhiteleafstudio.com | Header: X-Original-URL | Value: internal | Status: 200","phase":"Advanced Exploitation Testing","category":"","description":"Setting 'X-Original-URL: inte
+  >> {"type":"finding","severity":"info","title":"CF Access Bypassed via X-Rewrite-URL Host Injection","detail":"https://www.thewhiteleafstudio.com | Header: X-Rewrite-URL | Value: internal | Status: 200","phase":"Advanced Exploitation Testing","category":"","description":"Setting 'X-Rewrite-URL: interna
+  >> {"type":"finding","severity":"info","title":"UNION-Based SQL Injection","detail":"https://www.thewhiteleafstudio.com","phase":"Advanced Exploitation Testing","category":"","description":"Successful UNION injection with 100 columns: NULL columns","cwe_id":"CWE-89","url":"https://www.thewhiteleafstudi
+  >> {"type":"finding","severity":"info","title":"Boolean-Based Blind SQL Injection","detail":"https://www.thewhiteleafstudio.com","phase":"Advanced Exploitation Testing","category":"","description":"Boolean blind detected via String comparison (quoted): true=447625, false=447926, diff=301","cwe_id":"CWE
+  >> {"type":"finding","severity":"info","title":"Stacked Query Injection (mssql)","detail":"https://www.thewhiteleafstudio.com","phase":"Advanced Exploitation Testing","category":"","description":"Stacked query executed: @@version via stacked query","cwe_id":"CWE-89","url":"https://www.thewhiteleafstudi
+  >>       "source_tool": "Fingerprinting & Technology",
+  >>       "source": "Fingerprinting & Technology",
+  >>         "endpoint_criticality": "unknown",
+  >>         "source": "server",
+  >>       "title": "No source maps detected",
+  >>       "detail": "Probed https://www.thewhiteleafstudio.com for JavaScript source maps \u2014 none found.  The application does not appear to deploy .js.map files.",
+  >>       "phase": "JS Analysis & Source Maps",
+  >>       "category": "source_map_check",
+  >>       "description": "Probed https://www.thewhiteleafstudio.com for JavaScript source maps \u2014 none found.  The application does not appear to deploy .js.map files.",
+  >>       "remediation": "Validate the source_map_check condition, remove the root cause, and apply the appropriate hardening or access-control fix before rerunning verification.",
+  >>       "source_tool": "JS Analysis & Source Maps",
+  >>       "module": "JS Analysis & Source Maps",
+  >>       "source": "JS Analysis & Source Maps",
+  >>           "tool:js analysis & source maps=0.72",
+  >>       "detail": "Sources: page_content: 114",
+  >>       "source_tool": "Parameter Discovery",
+  >>       "source": "Parameter Discovery",
+  >>       "description": "Sources: page_content: 114",
+  >>       "evidence": "Sources: page_content: 114",
+  >>       "title": "Missing security header: Cross-Origin-Resource-Policy",
+  >>       "detail": "Header 'Cross-Origin-Resource-Policy' is absent (grade: F). Configure the web server to send this header on all responses.",
+  >>       "description": "Header 'Cross-Origin-Resource-Policy' is absent (grade: F). Configure the web server to send this header on all responses.",
+  >>       "title": "Server version disclosure: Server",
+  >>       "category": "source_code",
+  >>       "remediation": "Validate the source_code condition, remove the root cause, and apply the appropriate hardening or access-control fix before rerunning verification.",
+  >>           "cat:source_code=0.72",
+  >>       "detail": "Ip: 185.230.63.171 | Source: CT:thewhiteleafstudio.com | Phase: ct_correlation | Confidence: 0.7 | Verification: {'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': [], 'origin_headers': [], 'tls_cn': '', 'error': '', 'origin_confidence': 0.7} | 
+  >>       "evidence": "ip=185.230.63.171; source=CT:thewhiteleafstudio.com; phase=ct_correlation; confidence=0.7; verification={'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': [], 'origin_headers': [], 'tls_cn': '', 'error': '', 'origin_confidence': 0.7}; metadata
+  >>       "detail": "Ip: 185.230.63.107 | Source: CT:thewhiteleafstudio.com | Phase: ct_correlation | Confidence: 0.7 | Verification: {'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': [], 'origin_headers': [], 'tls_cn': '', 'error': '', 'origin_confidence': 0.7} | 
+  >>       "evidence": "ip=185.230.63.107; source=CT:thewhiteleafstudio.com; phase=ct_correlation; confidence=0.7; verification={'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': [], 'origin_headers': [], 'tls_cn': '', 'error': '', 'origin_confidence': 0.7}; metadata
+  >>       "detail": "Ip: 185.230.63.186 | Source: CT:thewhiteleafstudio.com | Phase: ct_correlation | Confidence: 0.7 | Verification: {'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': [], 'origin_headers': [], 'tls_cn': '', 'error': '', 'origin_confidence': 0.7} | 
+  >>       "evidence": "ip=185.230.63.186; source=CT:thewhiteleafstudio.com; phase=ct_correlation; confidence=0.7; verification={'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': [], 'origin_headers': [], 'tls_cn': '', 'error': '', 'origin_confidence': 0.7}; metadata
+  >>       "detail": "Ip: 34.149.87.45 | Source: hackertarget:hostsearch | Phase: historical_dns | Confidence: 0.53 | Verification: {'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': ['x-served-by', 'x-cache'], 'origin_headers': ['via'], 'tls_cn': '', 'error': '', 'o
+  >>       "evidence": "ip=34.149.87.45; source=hackertarget:hostsearch; phase=historical_dns; confidence=0.53; verification={'probe_port': 443, 'probe_scheme': 'https', 'status': 301, 'server': '', 'cdn_headers': ['x-served-by', 'x-cache'], 'origin_headers': ['via'], 'tls_cn': '', 'error': '', 'origin_c
+  >>       "title": "Removed/Hidden Page: https://www.thewhiteleafstudio.com/_api/v1/access-tokens",
+  >>       "detail": "https://www.thewhiteleafstudio.com/_api/v1/access-tokens",
+  >>       "description": "Wayback Machine shows a previously accessible page that has been removed: https://www.thewhiteleafstudio.com/_api/v1/access-tokens",
+  >>       "url": "https://www.thewhiteleafstudio.com/_api/v1/access-tokens",
+  >>       "source_tool": "URL Aggregation & Dorking",
+  >>       "source": "URL Aggregation & Dorking",
+  >>       "evidence": "url=https://www.thewhiteleafstudio.com/_api/v1/access-tokens",
+  >>         "endpoint_criticality": "medium",
+  >>       "source_tool": "OSINT Intelligence",
+  >>       "source": "OSINT Intelligence",

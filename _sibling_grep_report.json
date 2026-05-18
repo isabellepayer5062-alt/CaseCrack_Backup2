@@ -1,0 +1,5634 @@
+[
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/weight_tuner.py",
+    "hist_only_total": 61,
+    "migrated_count": 0,
+    "missing_count": 50,
+    "referenced_count": 11,
+    "symbols": [
+      {
+        "symbol": "AUTO_PERSIST_INTERVAL",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "BLEND_RAMP_OBSERVATIONS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "BLEND_RATIO",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "BLEND_RATIO_MAX",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DECAY_FACTOR",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DECEPTION_DECLINE_ACCEL",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DECEPTION_DECLINE_PCT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DECEPTION_LOOKBACK",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DESERT_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DESERT_WINDOW",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FROZEN_MISBELIEF_BLEND_CAP",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FROZEN_MISBELIEF_TRUST_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "INDEX_DECAY_FACTOR",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LOW_VARIANCE_DECAY",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LOW_VARIANCE_EPSILON",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_OBSERVATIONS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_WEIGHT_MAGNITUDE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MIN_WEIGHT_VELOCITY",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PERSIST_DECAY",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PERSIST_DIR",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PERSIST_FILENAME",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PERSIST_VERSION",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PROGRESSIVE_RIDGE_EXTRA",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PROGRESSIVE_RIDGE_RAMP",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "RESURRECTION_CORR_MIN",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "REWARD_INFORMATIVENESS_FLOOR",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "RIDGE_LAMBDA",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SIGNAL_JITTER_SCALE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "STABILITY_DAMPEN_FACTOR",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "STABILITY_DAMPEN_THRESHOLD",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py"
+        ]
+      },
+      {
+        "symbol": "STABILITY_WINDOW",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TRUST_MAX",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TRUST_MIN",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WEAK_SIGNAL_PROTECTION_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner._adaptive_blend",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner._calibrate",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner._has_contextual_contradictions",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner._in_reward_desert",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner._maybe_auto_persist",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/decision_orchestrator.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner._try_load",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner._update_contextual_trust",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner._update_trust_scores",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner.bind_exploit_graph",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/adaptive_chain_engine.py",
+          "CaseCrack/tools/burp_enterprise/agents/cognitive_bridge.py",
+          "CaseCrack/tools/burp_enterprise/decision_orchestrator.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.bind_observability",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner.export_state",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/bayesian_prioritizer.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/production_truth_loop.py",
+          "CaseCrack/tools/burp_enterprise/mcp/mcp_builtins.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.get_all_contextual_trust",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.get_calibration_history",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner.get_contextual_trust",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner.get_signal_trust",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/production_truth_loop.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/system_health.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.get_stability_scores",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner.get_weight_history",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/observability.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.get_weight_velocity",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/system_health.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.import_state",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/bayesian_prioritizer.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/production_truth_loop.py",
+          "CaseCrack/tools/burp_enterprise/session_auth/campaign_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.load",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.observe_with_context",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WeightTuner.save",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/bayesian_prioritizer.py",
+          "CaseCrack/tools/burp_enterprise/agents/creative_exploit_heuristics.py",
+          "CaseCrack/tools/burp_enterprise/agents/deterministic_replay.py"
+        ]
+      },
+      {
+        "symbol": "WeightTuner.weight_context_for_prompt",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_jitter",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_stable_payload_hash",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "get_weight_tuner",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "set_weight_tuner",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/agents/llm_bridge.py",
+    "hist_only_total": 50,
+    "migrated_count": 14,
+    "missing_count": 23,
+    "referenced_count": 13,
+    "symbols": [
+      {
+        "symbol": "LLMBridge._adaptive_temperature",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            173,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge._augment_with_rag",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._auto_route_role",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            170,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge._build_agent_chat_prompt",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            730,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge._build_agent_chat_prompt_local",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._build_tool_calling_system_prompt",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._classify_complexity",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            167,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge._cleanup_old_costs",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            185,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge._client_for_role",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            164,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge._complete_inner",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._complete_structured",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            286,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge._complete_structured_stream",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._compute_finding_dedup",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._detect_prompt_collapse",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._emit_llm_event",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._estimate_tokens",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._get_event_bus",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/graph/multi_agent/specialist_nodes.py",
+          "CaseCrack/tools/burp_enterprise/graph/multi_agent/supervisor.py",
+          "CaseCrack/tools/burp_enterprise/graph/nodes.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge._get_secret",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._infer_tool_categories",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._inject_feedback_signal",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._run_infra_health_check",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._score_intent",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge._tool_calling_loop",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge.agent_chat",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            702,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge.agent_chat_stream",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            1030,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge.analyze_false_positive",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge.close",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            1165,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge.complete",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_finding_correlator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.configure_feedback_db",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge.discover_chains",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/integration_audit.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/attack_strategy_engine.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/chain_execution_loop.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.generate_compliance_narrative",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/llm_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.generate_executive_summary",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/llm_intelligence.py",
+          "CaseCrack/tools/burp_enterprise/loop/exploit_report.py",
+          "CaseCrack/tools/burp_enterprise/output/executive_summary.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.generate_smart_remediation",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/llm_intelligence.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/remediation_validation.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.generate_target_profile",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/llm_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.get_queue_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/pipeline/task_queue.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/appliance_api.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.map_attack_surface",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/autonomous_exploitation.py",
+          "CaseCrack/tools/burp_enterprise/agents/copilot_loop.py",
+          "CaseCrack/tools/burp_enterprise/cli/commands/agent_strategy.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.plan_and_execute",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            613,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge.prioritize_findings",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/attack_reasoning.py",
+          "CaseCrack/tools/burp_enterprise/agents/llm_intelligence.py",
+          "CaseCrack/tools/burp_enterprise/agents/risk_aware_testing.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.recommend_scan_tuning",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/llm_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.request_count",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            148,
+            "method"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            152,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge.reset_escalation",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge.session_cost",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            132,
+            "method"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            136,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge.session_tokens",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            140,
+            "method"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+            144,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "LLMBridge.set_escalation",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMBridge.validate_finding",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/unified_arbitration.py",
+          "CaseCrack/tools/burp_enterprise/core_infra/canonical_finding.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/integration_audit.py"
+        ]
+      },
+      {
+        "symbol": "LLMBridge.validate_finding_with_debate",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/integration_audit.py"
+        ]
+      },
+      {
+        "symbol": "_CVSS_FALLBACK",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_CWE_FALLBACK",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_HEAVY_MODEL_RE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_inject_thinking_budget",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/payload_arbiter.py",
+    "hist_only_total": 45,
+    "migrated_count": 0,
+    "missing_count": 37,
+    "referenced_count": 8,
+    "symbols": [
+      {
+        "symbol": "CANDIDATE_LIMIT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CHAIN_EV_MAX_MULTIPLIER",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CHAIN_EV_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "COMPETITION_AMPLIFICATION",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "COMPETITION_DISAGREEMENT_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CONVERGENCE_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CONVERGENCE_WINDOW",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DIVERSITY_PRESSURE_BONUS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DOMINANCE_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DOMINANCE_WINDOW",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "EXPLORATION_BOOST",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "EXPLORATION_BUDGET_BASE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PRUNING_DEAD_CYCLES",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PRUNING_DEAD_THRESHOLD",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py"
+        ]
+      },
+      {
+        "symbol": "PayloadArbiter._apply_diversity_bonus",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter._apply_evasion_optimization",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter._chain_aware_reorder",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter._get_lazy_dominant",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter._validate_synergy_pairs",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter.bind_observability",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter.get_convergence_history",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter.get_disabled_synergy_pairs",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py"
+        ]
+      },
+      {
+        "symbol": "PayloadArbiter.get_dominance_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py"
+        ]
+      },
+      {
+        "symbol": "PayloadArbiter.get_lifecycle",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter.get_marginal_contributions",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/production_truth_loop.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/system_health.py"
+        ]
+      },
+      {
+        "symbol": "PayloadArbiter.get_pruned_signals",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/system_health.py"
+        ]
+      },
+      {
+        "symbol": "PayloadArbiter.get_resurrection_history",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py"
+        ]
+      },
+      {
+        "symbol": "PayloadArbiter.get_synergy_correlations",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py"
+        ]
+      },
+      {
+        "symbol": "PayloadArbiter.is_diversity_pressure_active",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/manual_audit_engine.py"
+        ]
+      },
+      {
+        "symbol": "PayloadArbiter.set_exploration_trust_scores",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadArbiter.verify_field_mapping",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "RESURRECTION_EVIDENCE_CYCLES",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "RESURRECTION_EVIDENCE_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "RESURRECTION_INITIAL_TRUST",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SYNERGY_DISABLE_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SYNERGY_PAIRS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SYNERGY_VALIDATION_WINDOW",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_AGGRESSIVE_ONLY_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_DEAD_SIGNAL_EPSILON",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SAFETY_REJECT_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_WEIGHT_SUM",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_compute_chain_momentum",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_compute_novelty_score",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_compute_stealth_score",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_compute_temporal_relevance",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/grammar_synthesizer.py",
+    "hist_only_total": 37,
+    "migrated_count": 0,
+    "missing_count": 37,
+    "referenced_count": 0,
+    "symbols": [
+      {
+        "symbol": "BYPASS_KNOWN_BOOST",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CONTEXT_PRECISION_BOOST",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "GRAMMAR_BASE_CONFIDENCE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_AST_DEPTH",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_GRAMMAR_PAYLOADS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQLiGrammar._gen_boolean_where",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQLiGrammar._gen_numeric_inject",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQLiGrammar._gen_order_by",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQLiGrammar._gen_string_break_double",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQLiGrammar._gen_string_break_single",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQLiGrammar._gen_union_numeric",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQLiGrammar._gen_union_string",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQLiGrammar._select_generators",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_attr_name_injection",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_attribute_break",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_comment_break",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_csp_bypass",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_event_injection",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_js_injection",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_noscript_break",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_script_break",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_style_break",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_svg_injection",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_tag_injection",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._gen_textarea_break",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._select_encodings",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "XSSGrammar._select_generators",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ENCODERS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_GRAMMAR_REGISTRY",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SAFE_ALERTS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_double_url_encode",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_html_entity_encode",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_html_hex_encode",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_mixed_case",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_rand_str",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_unicode_escape",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_url_encode",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py",
+    "hist_only_total": 33,
+    "migrated_count": 1,
+    "missing_count": 25,
+    "referenced_count": 7,
+    "symbols": [
+      {
+        "symbol": "CacheOptimizedForker._build_child_message",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CacheOptimizedForker._build_shared_prefix",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CacheOptimizedForker._compute_prefix_hash",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DreamConsolidator._bg_loop",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DreamConsolidator._gather_episodes",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DreamConsolidator._prune_duplicates",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DreamConsolidator._store_fact",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DreamConsolidator._store_rule",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DreamConsolidator.start_background",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/server.py",
+          "CaseCrack/tools/burp_enterprise/testing_tools/intercept.py"
+        ]
+      },
+      {
+        "symbol": "DreamConsolidator.stop_background",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DreamCycleStats.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "FORK_CHILD_RULES",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HOOK_TIMEOUT_S",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HookResult.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "LLMMemoryRetriever._query_llm",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_DREAM_TURNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_RELEVANT_MEMORIES",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MEMORY_SELECTOR_PROMPT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PostTurnOrchestrator._execute_one",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/loop/parallel_executor.py"
+        ]
+      },
+      {
+        "symbol": "PostTurnResult.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "STALL_CHECK_INTERVAL_S",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "STALL_PROMPT_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "STALL_REMEDIATIONS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "STALL_TAIL_BYTES",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "STALL_THRESHOLD_S",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "StallWatchdog._bg_loop",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "StallWatchdog._classify_stall",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "StallWatchdog.cleanup",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/adaptive_exploration_policy.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py"
+        ]
+      },
+      {
+        "symbol": "StallWatchdog.start_background",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/server.py",
+          "CaseCrack/tools/burp_enterprise/testing_tools/intercept.py"
+        ]
+      },
+      {
+        "symbol": "StallWatchdog.stop_background",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "T",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/_safe_parse.py",
+            25,
+            "assign"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/cloud/container.py",
+            48,
+            "assign"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/core_infra/cross_cutting.py",
+            91,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_RegisteredHook",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_WatchedProcess",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/genetic_forge.py",
+    "hist_only_total": 27,
+    "migrated_count": 0,
+    "missing_count": 25,
+    "referenced_count": 2,
+    "symbols": [
+      {
+        "symbol": "CONVERGENCE_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CONVERGENCE_WINDOW",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CROSSOVER_RATE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ELITE_SIZE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FITNESS_BYPASS_REWARD_WEIGHT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FITNESS_DIVERSITY_WEIGHT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FITNESS_HYPOTHESIS_WEIGHT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FITNESS_LENGTH_PENALTY_WEIGHT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FITNESS_PATH_ALIGNMENT_WEIGHT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FITNESS_STRUCTURAL_WEIGHT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ForgeChromosome.id",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_scanner_providers_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "GeneticForge._apply_random_mutation",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "GeneticForge._evolve_generation",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "GeneticForge._get_hypothesis_seeds",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "GeneticForge._get_thompson_arms",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "GeneticForge._seed_population",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "GeneticForge.drain_execution_fitness",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "GeneticForge.inject_fitness_signal",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/payload_synthesis_engine.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_feedback.py"
+        ]
+      },
+      {
+        "symbol": "MAX_GENERATIONS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MUTATION_RATE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SEED_BYPASSED_RATIO",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SEED_GRAMMAR_RATIO",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SEED_HYPOTHESIS_RATIO",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SEED_RANDOM_RATIO",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SEED_THOMPSON_RATIO",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TOURNAMENT_SIZE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_MUTATION_OPS",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/payload_synthesis_engine.py",
+    "hist_only_total": 26,
+    "migrated_count": 0,
+    "missing_count": 15,
+    "referenced_count": 11,
+    "symbols": [
+      {
+        "symbol": "GRAMMAR_COUNT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLM_SKIP_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_FINAL_PAYLOADS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_SYNTHESIS_TIME_MS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PER_ENGINE_CAP",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine._ensure_initialised",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/cli/daemon.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/integration_audit.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine._evaluate_strategy",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine._run_arbiter",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine._run_grammar",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine._run_llm",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine._run_scheduler",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine._should_invoke_llm",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.bind_campaign_intelligence",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/decision_orchestrator.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_feedback.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.bind_evasion_engine",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/payload_arbiter.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.bind_exploit_graph",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/adaptive_chain_engine.py",
+          "CaseCrack/tools/burp_enterprise/agents/cognitive_bridge.py",
+          "CaseCrack/tools/burp_enterprise/decision_orchestrator.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.bind_state_machine",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_feedback.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.bind_unified_reasoning",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_feedback.py",
+          "CaseCrack/tools/burp_enterprise/session_auth/session_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.bind_waf_adaptive",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/genetic_forge.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/payload_arbiter.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_feedback.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.context_compiler",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.failure_extractor",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.feedback_collector",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/system_health.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.genetic_forge",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/genetic_forge.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/observability.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/production_truth_loop.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.llm_synthesizer",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.observability_hub",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.synthesize_payloads",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/integration_audit.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/system_audit_harness.py",
+          "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py"
+        ]
+      },
+      {
+        "symbol": "PayloadSynthesisEngine.weight_tuner",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/deep_audit_harness.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/exploit_graph.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/integration_audit.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/learning_loop_engine.py",
+    "hist_only_total": 17,
+    "migrated_count": 0,
+    "missing_count": 15,
+    "referenced_count": 2,
+    "symbols": [
+      {
+        "symbol": "LearningLoopEngine._emit_learning_event",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine._on_atlas_event",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine._on_decision_outcome",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine._on_domain_vertical_detected",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine._on_finding_status_changed",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine._on_goal_event",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine._on_stealth_event",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine._on_strategy_event",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine._on_vuln_event",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/exploit_graph.py",
+          "CaseCrack/tools/burp_enterprise/scanners/scan_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "LearningLoopEngine.bind_event_bus",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot_loop.py",
+          "CaseCrack/tools/burp_enterprise/decision_orchestrator.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/runner.py"
+        ]
+      },
+      {
+        "symbol": "LearningLoopEngine.bind_learning_bridge",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LearningLoopEngine.get_meta_trend",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "QTablePersistence.decay_epsilon",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "QTablePersistence.max_q_for_state",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "QTablePersistence.set_plateau_mode",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_atexit_train_end_of_session",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_sigterm_handler",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_feedback.py",
+    "hist_only_total": 17,
+    "migrated_count": 0,
+    "missing_count": 13,
+    "referenced_count": 4,
+    "symbols": [
+      {
+        "symbol": "FeedbackEvent.reward_signal",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/integration_audit.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/weight_tuner.py"
+        ]
+      },
+      {
+        "symbol": "FeedbackEvent.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "MAX_FEEDBACK_HISTORY",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "NEGATIVE_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "POSITIVE_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "STRONG_POSITIVE_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SUBSYSTEM_TIMEOUT_MS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector._propagate_to_campaign_intelligence",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector._propagate_to_genetic_forge",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector._propagate_to_hypothesis_engine",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector._propagate_to_unified_reasoning",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector._propagate_to_waf_adaptive",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector._record_error",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/discovery_pkg/google_dorking.py"
+        ]
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector._record_latency",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector.get_engine_performance",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector.get_success_rate",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/platform_intelligence_memory.py"
+        ]
+      },
+      {
+        "symbol": "SynthesisFeedbackCollector.get_target_history",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_context.py",
+    "hist_only_total": 15,
+    "migrated_count": 0,
+    "missing_count": 14,
+    "referenced_count": 1,
+    "symbols": [
+      {
+        "symbol": "CANARY_PREFIX",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CMD_PROBE_CHARS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ContextCompiler.cache_reflection_context",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ContextCompiler.from_scan",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HIGH_CONFIDENCE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HTML_PROBE_CHARS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LOW_CONFIDENCE",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/validation_engine.py"
+        ]
+      },
+      {
+        "symbol": "MAX_CONTEXT_PROBES",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MEDIUM_CONFIDENCE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ReflectionContextDetector.analyze_char_probe",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ReflectionContextDetector.build_reflection_context",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ReflectionContextDetector.find_reflections",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SAFETY_LEVELS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SQL_PROBE_CHARS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TEMPLATE_PROBE_CHARS",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/execution_scheduler.py",
+    "hist_only_total": 13,
+    "migrated_count": 0,
+    "missing_count": 12,
+    "referenced_count": 1,
+    "symbols": [
+      {
+        "symbol": "DEFAULT_BUDGET_PER_REQUEST_MS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ExecutionScheduler._get_vendor_latency",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ExecutionScheduler._phase1_efficiency_sort",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ExecutionScheduler._phase2_chain_order",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ExecutionScheduler._phase3_stealth_interleave",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ExecutionScheduler._phase4_budget_trim",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ExecutionScheduler.bind_exploit_graph",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/adaptive_chain_engine.py",
+          "CaseCrack/tools/burp_enterprise/agents/cognitive_bridge.py",
+          "CaseCrack/tools/burp_enterprise/decision_orchestrator.py"
+        ]
+      },
+      {
+        "symbol": "INFO_VALUE_WEIGHT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_SCHEDULE_SIZE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MIN_COST_FLOOR",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "NOISY_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "QUIET_THRESHOLD",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "WAF_TRIGGER_LATENCY_PENALTY_MS",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/llm_synthesizer.py",
+    "hist_only_total": 12,
+    "migrated_count": 0,
+    "missing_count": 12,
+    "referenced_count": 0,
+    "symbols": [
+      {
+        "symbol": "ESTIMATED_COST_PER_CALL",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMSynthesizer._build_prompt",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMSynthesizer._call_llm",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMSynthesizer._parse_payload_dict",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLMSynthesizer._validate_and_wrap",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLM_BASE_CONFIDENCE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "LLM_CACHE_TTL",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_CACHE_SIZE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_LLM_PAYLOADS_PER_CALL",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "REASONING_CONFIDENCE_BOOST",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SYNTHESIS_PROMPT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_UNSAFE_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/failure_pattern.py",
+    "hist_only_total": 10,
+    "migrated_count": 0,
+    "missing_count": 8,
+    "referenced_count": 2,
+    "symbols": [
+      {
+        "symbol": "CONFIDENCE_PER_HIT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FailurePatternExtractor._evict_oldest",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/agent_sessions.py",
+          "CaseCrack/tools/burp_enterprise/session_auth/session_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "FailurePatternExtractor.bind_observability",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FailurePatternExtractor.get_all_patterns",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_gen_expanded.py",
+          "CaseCrack/tools/burp_enterprise/atlas/interface.py",
+          "CaseCrack/tools/burp_enterprise/atlas/patterns.py"
+        ]
+      },
+      {
+        "symbol": "MAX_CONFIDENCE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_PATTERNS_PER_VENDOR",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MAX_TOTAL_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MIN_OCCURRENCES_FOR_RULE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_RULE_DESCRIPTIONS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SIGNATURE_DETECTORS",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/hypothesis_engine.py",
+    "hist_only_total": 9,
+    "migrated_count": 0,
+    "missing_count": 8,
+    "referenced_count": 1,
+    "symbols": [
+      {
+        "symbol": "HypothesisEngine._apply_context_amplification",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisEngine._apply_interactions",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisEngine._get_or_create_weight",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisEngine._propagate_failure_cascade",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisEngine._update_weight_extremes",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisWeight.decay_all",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/session_auth/campaign_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisWeight.recalibrate_base_weight",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_MOMENTUM_BOOST_CAP_EXPLOIT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_MOMENTUM_BOOST_CAP_EXPLORE",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/synthesis_safety.py",
+    "hist_only_total": 6,
+    "migrated_count": 0,
+    "missing_count": 4,
+    "referenced_count": 2,
+    "symbols": [
+      {
+        "symbol": "CONTEXT_PROBE_AGREEMENT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "CoherenceController._compute_alignment_unlocked",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "NOVELTY_BIGRAM_SIZE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "NoveltyPressure._compute_novelty_unlocked",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "NoveltyPressure._fingerprint",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/output/finding_correlator.py"
+        ]
+      },
+      {
+        "symbol": "NoveltyPressure._payload_hash",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/attacker_memory.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "A",
+    "rel_path": "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_tracer.py",
+    "hist_only_total": 5,
+    "migrated_count": 0,
+    "missing_count": 3,
+    "referenced_count": 2,
+    "symbols": [
+      {
+        "symbol": "SynthesisTracer._emit",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/scan_budget_governor.py",
+          "CaseCrack/tools/burp_enterprise/agents/speculative_executor.py",
+          "CaseCrack/tools/burp_enterprise/agents/tool_monitor.py"
+        ]
+      },
+      {
+        "symbol": "SynthesisTracer._next_event_id",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SynthesisTracer._parents_for",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ValidationResult.add_violation",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/system_audit_harness.py"
+        ]
+      },
+      {
+        "symbol": "_SIGNAL_LABELS",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/tool_registry/output_parsers.py",
+    "hist_only_total": 46,
+    "migrated_count": 2,
+    "missing_count": 8,
+    "referenced_count": 36,
+    "symbols": [
+      {
+        "symbol": "ArjunParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "ArjunParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "DalfoxParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "DalfoxParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "FeroxbusterParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "FeroxbusterParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "FfufParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "FfufParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "GenericNDJSONParser.__init__",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "GenericNDJSONParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "GenericNDJSONParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "GhauriParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "GhauriParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "GobusterParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "GobusterParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "HttpxParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "HttpxParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "JsluiceParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "JsluiceParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "KatanaParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "KatanaParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "NaabuParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "NiktoParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "NiktoParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "NmapParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "NmapParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "NucleiParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "NucleiParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "OutputParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "OutputParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "ParsedFinding._compute_hmac",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ParsedFinding.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "ParsedFinding.verify_hmac",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_recovered_support.py",
+          "CaseCrack/tools/burp_enterprise/integrations/slack_notifier.py",
+          "CaseCrack/tools/burp_enterprise/integrations/webhook_dispatcher.py"
+        ]
+      },
+      {
+        "symbol": "ParserRegistry.has_parser",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ParserRegistry.registered_tools",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SqlmapParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "SqlmapParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "SubfinderParser.output_format",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot.py",
+          "CaseCrack/tools/burp_enterprise/agents/next_action_advisor.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_agent.py"
+        ]
+      },
+      {
+        "symbol": "SubfinderParser.tool_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "_HMAC_KEY",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_extract_cves",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_extract_cwes",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_extract_severity",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/output/finding_dedup.py",
+            364,
+            "func"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/tool_wrappers/_policy.py",
+            126,
+            "func"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py",
+            126,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "_extract_url",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/core_infra/canonical_finding.py",
+            156,
+            "func"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/output/finding_dedup.py",
+            356,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "_safe_json",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_safe_json_lines",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/reasoning/prompt_chains.py",
+    "hist_only_total": 45,
+    "migrated_count": 5,
+    "missing_count": 25,
+    "referenced_count": 15,
+    "symbols": [
+      {
+        "symbol": "ChainResult._get_step_output",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ChainResult.assessment",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_design_tokens.py",
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py",
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py"
+        ]
+      },
+      {
+        "symbol": "ChainResult.critic_approved",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ChainResult.critic_modifications",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ChainResult.evaluation",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py",
+          "CaseCrack/tools/burp_enterprise/agents/finding_safety_interlocks.py",
+          "CaseCrack/tools/burp_enterprise/agents/goal_planner.py"
+        ]
+      },
+      {
+        "symbol": "ChainResult.failed_steps",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/advanced_orchestration.py"
+        ]
+      },
+      {
+        "symbol": "ChainResult.hypotheses",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py",
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py"
+        ]
+      },
+      {
+        "symbol": "ChainResult.plan",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py",
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py"
+        ]
+      },
+      {
+        "symbol": "ChainResult.reflection",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_telemetry.py"
+        ]
+      },
+      {
+        "symbol": "ChainResult.successful_steps",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/mfa_captcha_bypass_chain.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/multi_request_validator.py"
+        ]
+      },
+      {
+        "symbol": "ChainResult.to_dict",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/exploit_chains/chain_executor.py",
+            197,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "ChainStepResult.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "InferenceProvider",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py",
+            150,
+            "class"
+          ]
+        ]
+      },
+      {
+        "symbol": "InferenceProvider.generate",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py",
+            153,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "InferenceProvider.generate_structured",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py",
+            157,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "PromptChain.add_step",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/mcp/cognitive_bridge.py"
+        ]
+      },
+      {
+        "symbol": "PromptChain.get_step",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py"
+        ]
+      },
+      {
+        "symbol": "PromptChainExecutor._apply_critic_modifications",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PromptChainExecutor._execute_step",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py",
+          "CaseCrack/tools/burp_enterprise/agents/goal_planner.py",
+          "CaseCrack/tools/burp_enterprise/atlas/adapter.py"
+        ]
+      },
+      {
+        "symbol": "PromptChainExecutor._extract_structured",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PromptChainExecutor._fallback_unstructured",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PromptChainExecutor._inject_doubt_into_evaluate",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PromptChainExecutor._try_parse_json",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "PromptChainExecutor._validate_schema",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/validation_engine.py"
+        ]
+      },
+      {
+        "symbol": "PromptChainExecutor.execute",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cli_dispatch.py",
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py"
+        ]
+      },
+      {
+        "symbol": "PromptChainExecutor.execute_step",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/graph/reasoning/nodes.py"
+        ]
+      },
+      {
+        "symbol": "PromptChainExecutor.get_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "_ASSESS_SCHEMA",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ASSESS_SYSTEM",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ASSESS_USER",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_EVALUATE_SCHEMA",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py",
+            407,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_EVALUATE_SYSTEM",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_EVALUATE_USER",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_HYPOTHESIZE_SCHEMA",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_HYPOTHESIZE_SYSTEM",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_HYPOTHESIZE_USER",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_PLAN_SCHEMA",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_PLAN_SYSTEM",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_PLAN_USER",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_REFLECT_SCHEMA",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_REFLECT_SYSTEM",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_REFLECT_USER",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SafeDict",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SafeDict.__missing__",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "build_reflect_step",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/gpu_governor.py",
+    "hist_only_total": 40,
+    "migrated_count": 0,
+    "missing_count": 34,
+    "referenced_count": 6,
+    "symbols": [
+      {
+        "symbol": "GPUGovernor.recommend_n_gpu_layers",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "GPUGovernor.resources",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_sessions.py"
+        ]
+      },
+      {
+        "symbol": "GPUVendor",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "OllamaBackend",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "SystemResources.has_gpu",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/swarm/gpu_governor.py"
+        ]
+      },
+      {
+        "symbol": "SystemResources.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "SystemResources.total_free_vram_mb",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/swarm/gpu_governor.py",
+          "CaseCrack/tools/burp_enterprise/swarm/multi_gpu/governor.py",
+          "CaseCrack/tools/burp_enterprise/swarm/multi_gpu/topology.py"
+        ]
+      },
+      {
+        "symbol": "SystemResources.total_vram_mb",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/swarm/gpu_governor.py",
+          "CaseCrack/tools/burp_enterprise/swarm/multi_gpu/governor.py",
+          "CaseCrack/tools/burp_enterprise/swarm/multi_gpu/scheduler.py"
+        ]
+      },
+      {
+        "symbol": "VRAMBudget.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "VRAMBudget.total_allocated_mb",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_AMD_NAME_TO_GFX",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_AMD_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_AMD_ROCM_NATIVE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_AMD_VULKAN_ONLY",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_APPLE_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_INTEL_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_NVIDIA_MIN_CUDA",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_NVIDIA_PATTERNS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_amd_best_backend",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_amd_estimate_vram_from_name",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_amd_gfx_from_name",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_all_gpus_windows",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_amd_linux",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_amd_windows",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_cuda_pynvml",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_cuda_torch",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_intel_linux",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_intel_windows",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_metal",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_nvidia_smi",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_via_ollama_api",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_detect_vulkan_devices",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_get_system_ram",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_intel_estimate_vram",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_nvidia_best_backend",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_query_dxgi_vram",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "apply_ollama_env",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "classify_vendor",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "get_ollama_env_vars",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "recommend_ollama_backend",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/tool_registry/registry.py",
+    "hist_only_total": 25,
+    "migrated_count": 0,
+    "missing_count": 14,
+    "referenced_count": 11,
+    "symbols": [
+      {
+        "symbol": "ToolDefinition.__post_init__",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_sessions.py"
+        ]
+      },
+      {
+        "symbol": "ToolDefinition.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "ToolDefinition.to_llm_description",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ToolRegistry._check_docker",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/integrations/nuclei_health.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/server.py"
+        ]
+      },
+      {
+        "symbol": "ToolRegistry._probe_availability",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ToolRegistry.check_all_availability",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ToolRegistry.clear_availability_cache",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ToolRegistry.find_by_capability",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ToolRegistry.find_by_category",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/fork_spawn.py"
+        ]
+      },
+      {
+        "symbol": "ToolRegistry.find_by_tag",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ToolRegistry.get_all",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/caap/hypothesis_engine.py",
+          "CaseCrack/tools/burp_enterprise/cli/commands/core.py"
+        ]
+      },
+      {
+        "symbol": "ToolRegistry.get_llm_tool_descriptions",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ToolRegistry.get_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "ToolRegistry.has",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_design_tokens.py"
+        ]
+      },
+      {
+        "symbol": "ToolRegistry.map_vuln_to_tools",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ToolRegistry.register_many",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/core_infra/module_registry.py"
+        ]
+      },
+      {
+        "symbol": "ToolRegistry.tool_count",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_orchestration.py"
+        ]
+      },
+      {
+        "symbol": "ToolRegistry.tool_names",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/runner.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/state.py"
+        ]
+      },
+      {
+        "symbol": "ToolRegistry.unregister",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py",
+          "CaseCrack/tools/burp_enterprise/agents/fork_spawn.py",
+          "CaseCrack/tools/burp_enterprise/graph/production.py"
+        ]
+      },
+      {
+        "symbol": "_APPROVED_DOCKER_REGISTRIES",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SAFE_DOCKER_IMAGE_RE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SafeDict",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SafeDict.__missing__",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_build_default_tools",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_is_approved_docker_image",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/reasoning/kv_checkpoint.py",
+    "hist_only_total": 23,
+    "migrated_count": 0,
+    "missing_count": 11,
+    "referenced_count": 12,
+    "symbols": [
+      {
+        "symbol": "ChainCheckpointState.get_step_output",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ChainCheckpointState.get_step_text",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ChainCheckpointState.last_step_index",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ChainCheckpointState.resume_from",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/pipeline/distributed_recon.py",
+          "CaseCrack/tools/burp_enterprise/pipeline/enterprise_scale_executor.py",
+          "CaseCrack/tools/burp_enterprise/strategy/async_exec.py"
+        ]
+      },
+      {
+        "symbol": "ChainCheckpointState.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "Checkpoint.age_seconds",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/discovery_pkg/ct_monitor.py",
+          "CaseCrack/tools/burp_enterprise/pipeline/long_running_orchestrator.py"
+        ]
+      },
+      {
+        "symbol": "Checkpoint.is_expired",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/role_registry.py",
+          "CaseCrack/tools/burp_enterprise/caap/escalation_gateway.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointConfig.from_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_telemetry.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointManager._init_tables",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "KVCheckpointManager._load_chain_from_db",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "KVCheckpointManager._load_from_db",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "KVCheckpointManager._make_id",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/attack_reasoning.py",
+          "CaseCrack/tools/burp_enterprise/integrations/nuclei_template_generator.py",
+          "CaseCrack/tools/burp_enterprise/loop/invariant_engine.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointManager._persist",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_recovered_support.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/exploit_progression.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/cross_target_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointManager._row_to_checkpoint",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "KVCheckpointManager.cleanup",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/adaptive_exploration_policy.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointManager.delete_chain",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "KVCheckpointManager.fork",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointManager.get",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_scanner_providers_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointManager.get_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointManager.list_chains",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/caap/exploitation_engine.py",
+          "CaseCrack/tools/burp_enterprise/cli/commands/agent_exploit_adapt.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/impact_chain.py"
+        ]
+      },
+      {
+        "symbol": "KVCheckpointManager.restore_chain",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_CREATE_INDEX",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_CREATE_TABLE",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/recon_dashboard/target_scoring.py",
+    "hist_only_total": 21,
+    "migrated_count": 21,
+    "missing_count": 0,
+    "referenced_count": 0,
+    "symbols": [
+      {
+        "symbol": "HuntPlan",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            779,
+            "class"
+          ]
+        ]
+      },
+      {
+        "symbol": "HuntPlan.to_dict",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            789,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "_ATTACK_APPROACHES",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            558,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_BOUNTY_INDICATORS",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/loop/target_selection.py",
+            192,
+            "assign"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            111,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_HUNT_REQUIRED_PHASES",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            826,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_TECH_EXPLOIT_SCORES",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            77,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_TECH_VULN_MAP",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            147,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_VULN_CLASS_PAYOUTS",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            123,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_VULN_CLASS_PHASES",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            802,
+            "assign"
+          ]
+        ]
+      },
+      {
+        "symbol": "_build_reasoning",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            597,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "_compute_bounty_score",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            381,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "_compute_history_score",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            483,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "_compute_recommendation",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            582,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "_compute_surface_score",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            433,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "_compute_tech_score",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            352,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "_predict_exploit_paths",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            505,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "allocate_campaign_budgets",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            667,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "compute_hunt_plan",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            835,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "filter_kill_targets",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            740,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "get_hunt_mode_directive",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            900,
+            "func"
+          ]
+        ]
+      },
+      {
+        "symbol": "score_target",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/exploit_persistence_engine.py",
+            216,
+            "func"
+          ],
+          [
+            "CaseCrack/tools/burp_enterprise/recon_dashboard/pre_exploit_dominance.py",
+            260,
+            "func"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/reasoning/context_budget.py",
+    "hist_only_total": 21,
+    "migrated_count": 0,
+    "missing_count": 11,
+    "referenced_count": 10,
+    "symbols": [
+      {
+        "symbol": "BudgetAllocation.render",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/ai_ml/_prompt_injection.py",
+          "CaseCrack/tools/burp_enterprise/caap/caap_formatter.py",
+          "CaseCrack/tools/burp_enterprise/caap/caap_parser.py"
+        ]
+      },
+      {
+        "symbol": "BudgetAllocation.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "BudgetAllocation.utilisation",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py",
+          "CaseCrack/tools/burp_enterprise/pipeline/resource_monitor.py"
+        ]
+      },
+      {
+        "symbol": "BudgetConfig.available_prompt_tokens",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "BudgetConfig.from_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_telemetry.py"
+        ]
+      },
+      {
+        "symbol": "BudgetConfig.response_reserve_tokens",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "BudgetSlot.__post_init__",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_sessions.py"
+        ]
+      },
+      {
+        "symbol": "BudgetSlot.estimated_tokens",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/fork_spawn.py",
+          "CaseCrack/tools/burp_enterprise/agents/llm_bridge.py",
+          "CaseCrack/tools/burp_enterprise/agents/llm_tracking.py"
+        ]
+      },
+      {
+        "symbol": "BudgetSlot.is_over_budget",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ContextBudgetAllocator._validate_pinned_budget",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ContextBudgetAllocator.config",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "ContextBudgetAllocator.get_slot",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ContextBudgetAllocator.get_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "ContextBudgetAllocator.set_content",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py"
+        ]
+      },
+      {
+        "symbol": "ContextBudgetAllocator.slot_names",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_DEFAULT_CPT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_MODEL_CPT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_cpt_for_model",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_truncate_to_tokens",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "set_tokenizer",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "token_count",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/caap/chat_interface.py",
+          "CaseCrack/tools/burp_enterprise/inference/kv_cache.py",
+          "CaseCrack/tools/burp_enterprise/session_auth/session_intelligence.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/reasoning/hypothesis_manager.py",
+    "hist_only_total": 20,
+    "migrated_count": 0,
+    "missing_count": 8,
+    "referenced_count": 12,
+    "symbols": [
+      {
+        "symbol": "DeduplicationStats.dedup_ratio",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "DeduplicationStats.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisCluster.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManager._bayesian_fuse",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisManager._compute_canonical_id",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisManager._enforce_limits",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisManager._merge_into",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisManager.active_count",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_sessions.py",
+          "CaseCrack/tools/burp_enterprise/agents/fork_spawn.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManager.config",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManager.get_active",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/planner_bridge.py",
+          "CaseCrack/tools/burp_enterprise/cli/commands/core.py",
+          "CaseCrack/tools/burp_enterprise/cli/commands/dashboard.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManager.get_by_vuln_type",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisManager.get_clusters",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisManager.get_hypothesis",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "HypothesisManager.get_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManager.ingest",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_gen_expanded.py",
+          "CaseCrack/tools/burp_enterprise/_recovered_support.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_loop.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManager.mark_stale",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/session_auth/session_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManager.prune",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/adaptive_exploration_policy.py",
+          "CaseCrack/tools/burp_enterprise/agents/autonomous_exploitation.py",
+          "CaseCrack/tools/burp_enterprise/agents/copilot_loop.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManager.record_test_result",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/copilot_loop.py",
+          "CaseCrack/tools/burp_enterprise/agents/nl_translator.py"
+        ]
+      },
+      {
+        "symbol": "HypothesisManagerConfig.from_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_telemetry.py"
+        ]
+      },
+      {
+        "symbol": "MergedHypothesis.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/engine.py",
+    "hist_only_total": 19,
+    "migrated_count": 0,
+    "missing_count": 13,
+    "referenced_count": 6,
+    "symbols": [
+      {
+        "symbol": "BackendType",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceBackend.backend_type",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceBackend.detokenize",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceBackend.generate",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_lockfile.py",
+          "CaseCrack/tools/burp_enterprise/_gen_expanded.py",
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py"
+        ]
+      },
+      {
+        "symbol": "InferenceBackend.generate_structured",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/loop/autonomous_loop.py"
+        ]
+      },
+      {
+        "symbol": "InferenceBackend.is_loaded",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/swarm/shared_weights.py",
+          "CaseCrack/tools/burp_enterprise/swarm/swarm.py"
+        ]
+      },
+      {
+        "symbol": "InferenceBackend.load_model",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceBackend.model_info",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceBackend.tokenize",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceBackend.unload_model",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceEngine._cache_key",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/discovery_pkg/google_dorking.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/llm_synthesizer.py",
+          "CaseCrack/tools/burp_enterprise/mcp/cognitive_bridge.py"
+        ]
+      },
+      {
+        "symbol": "InferenceEngine._ensure_started",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceEngine._try_fallback",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceEngine.config",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "InferenceEngine.detokenize",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceEngine.get_model_info",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InferenceEngine.tokenize",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelInfo.size_gb",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelInfo.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/database/data_migration.py",
+    "hist_only_total": 17,
+    "migrated_count": 0,
+    "missing_count": 14,
+    "referenced_count": 3,
+    "symbols": [
+      {
+        "symbol": "MigrationEngine._get_column_names",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine._get_pg_db",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine._get_sqlite_db",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine._get_tables",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine._safe_column_names",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine._safe_table_name",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine._transform_row",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine.migrate_all",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/db_persistence.py"
+        ]
+      },
+      {
+        "symbol": "MigrationEngine.migrate_cache_to_redis",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine.migrate_table",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationEngine.rollback",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/ai_ml/_rag_pipeline.py",
+          "CaseCrack/tools/burp_enterprise/data/postgres.py",
+          "CaseCrack/tools/burp_enterprise/database/db_consolidation_migrate.py"
+        ]
+      },
+      {
+        "symbol": "MigrationEngine.validate_migration",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "MigrationReport.summary",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_adaptive_rate.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_capabilities.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_policy.py"
+        ]
+      },
+      {
+        "symbol": "_BATCH_SIZE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_PARALLEL",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_TYPE_TRANSFORMS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_transform_value",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_manager.py",
+    "hist_only_total": 16,
+    "migrated_count": 2,
+    "missing_count": 7,
+    "referenced_count": 7,
+    "symbols": [
+      {
+        "symbol": "BenchmarkResult",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/testing_tools/benchmark_runner.py",
+            131,
+            "class"
+          ]
+        ]
+      },
+      {
+        "symbol": "BenchmarkResult.to_dict",
+        "class": "MIGRATED",
+        "evidence": [
+          [
+            "CaseCrack/tools/burp_enterprise/testing_tools/benchmark_runner.py",
+            142,
+            "method"
+          ]
+        ]
+      },
+      {
+        "symbol": "InstalledModel",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "InstalledModel.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "ModelManager._blocking_download",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelManager._download_hf_hub",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelManager._download_http",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelManager._ensure_dir",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/pipeline/distributed_recon.py"
+        ]
+      },
+      {
+        "symbol": "ModelManager._query_vram_used_mb",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelManager.benchmark",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/cli/_parsers/model_management.py",
+          "CaseCrack/tools/burp_enterprise/cli/_parsers/recon.py",
+          "CaseCrack/tools/burp_enterprise/cli/commands/recon_advanced.py"
+        ]
+      },
+      {
+        "symbol": "ModelManager.close",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py",
+          "CaseCrack/tools/burp_enterprise/_recovered_support.py",
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py"
+        ]
+      },
+      {
+        "symbol": "ModelManager.model_dir",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/inference/model_management/model_benchmarker.py",
+          "CaseCrack/tools/burp_enterprise/inference/model_management/model_downloader.py"
+        ]
+      },
+      {
+        "symbol": "ModelManager.remove",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_dedup_enums.py",
+          "CaseCrack/tools/burp_enterprise/adaptive_exploration_policy.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py"
+        ]
+      },
+      {
+        "symbol": "ModelSpec.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "RECOMMENDED_MODELS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_DEFAULT_MODEL_DIR",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/memory/vector_index.py",
+    "hist_only_total": 16,
+    "migrated_count": 0,
+    "missing_count": 10,
+    "referenced_count": 6,
+    "symbols": [
+      {
+        "symbol": "VectorMemoryIndex._init_storage",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex._load_from_storage",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex._persist_vector",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex._remove_unlocked",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex._search_binary_rerank",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex._search_numpy",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex._search_usearch",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex.add_vector",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex.close",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py",
+          "CaseCrack/tools/burp_enterprise/_recovered_support.py",
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py"
+        ]
+      },
+      {
+        "symbol": "VectorMemoryIndex.contains",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_find_dquotes.py",
+          "CaseCrack/tools/burp_enterprise/_shim_contract.py",
+          "CaseCrack/tools/burp_enterprise/_spa_shell.py"
+        ]
+      },
+      {
+        "symbol": "VectorMemoryIndex.get_metadata",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/discovery_pkg/param_discovery.py"
+        ]
+      },
+      {
+        "symbol": "VectorMemoryIndex.get_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "VectorMemoryIndex.get_vector",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex.remove",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_dedup_enums.py",
+          "CaseCrack/tools/burp_enterprise/adaptive_exploration_policy.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py"
+        ]
+      },
+      {
+        "symbol": "VectorMemoryIndex.search_vector",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VectorMemoryIndex.size",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/wasm_analysis/_types.py",
+          "CaseCrack/tools/burp_enterprise/_design_tokens.py",
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/grammar.py",
+    "hist_only_total": 15,
+    "migrated_count": 0,
+    "missing_count": 12,
+    "referenced_count": 3,
+    "symbols": [
+      {
+        "symbol": "GBNFGrammar.fresh_name",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_PRIMITIVES",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter.__init__",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "_SchemaConverter._escape_string",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter._get_ref_schema",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter._resolve_ref",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/testing_tools/evolutionary_fuzzer.py"
+        ]
+      },
+      {
+        "symbol": "_SchemaConverter._visit",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter._visit_array",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter._visit_const",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter._visit_enum",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter._visit_object",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter._visit_string",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter._visit_union",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SchemaConverter.convert",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/copilot_loop.py",
+          "CaseCrack/tools/burp_enterprise/agents/llm_advanced_defense.py",
+          "CaseCrack/tools/burp_enterprise/agents/unified_arbitration.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_management/model_registry.py",
+    "hist_only_total": 13,
+    "migrated_count": 0,
+    "missing_count": 12,
+    "referenced_count": 1,
+    "symbols": [
+      {
+        "symbol": "ModelRegistry.cards",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_design_tokens.py",
+          "CaseCrack/tools/burp_enterprise/agents/risk_aware_testing.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/decision_framework.py"
+        ]
+      },
+      {
+        "symbol": "_ARCH_DEEPSEEK_CODER_7B",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ARCH_LLAMA_3B",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ARCH_LLAMA_8B",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ARCH_MISTRAL_7B",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ARCH_PHI_3_MINI",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ARCH_QWEN_14B",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ARCH_QWEN_1_5B",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ARCH_QWEN_32B",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_ARCH_QWEN_7B",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_QUALITY_WEIGHT_CODE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_QUALITY_WEIGHT_QUANT",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_QUALITY_WEIGHT_REASONING",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/tool_registry/action_translator.py",
+    "hist_only_total": 12,
+    "migrated_count": 0,
+    "missing_count": 6,
+    "referenced_count": 6,
+    "symbols": [
+      {
+        "symbol": "ActionTranslator._map_vuln_type",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ActionTranslator.fallback_selector",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ActionTranslator.get_available_actions",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/loop/ai_directed_executor.py"
+        ]
+      },
+      {
+        "symbol": "ActionTranslator.get_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "ActionTranslator.get_tools_for_vuln",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ActionTranslator.parse_output",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/loop/ai_directed_executor.py"
+        ]
+      },
+      {
+        "symbol": "ActionTranslator.parser_registry",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ActionTranslator.registry",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cli_dispatch.py"
+        ]
+      },
+      {
+        "symbol": "ActionTranslator.translate_vuln_type",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ActionTranslator.translation_log",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TranslatedAction.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "TranslatorConfig.from_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_telemetry.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/tool_registry/fallback.py",
+    "hist_only_total": 10,
+    "migrated_count": 0,
+    "missing_count": 7,
+    "referenced_count": 3,
+    "symbols": [
+      {
+        "symbol": "FallbackConfig.from_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_telemetry.py"
+        ]
+      },
+      {
+        "symbol": "FallbackResult.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "FallbackSelector._find_by_capability_fallback",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FallbackSelector._register_defaults",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FallbackSelector._try_explicit_chain",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FallbackSelector.get_stats",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/_llm_bridge_new.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/advanced_agent_patterns.py"
+        ]
+      },
+      {
+        "symbol": "FallbackSelector.register_chains",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FallbackSelector.select_best_for_capability",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FallbackSelector.selection_log",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_CandidateScore",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_management/vram_selector.py",
+    "hist_only_total": 8,
+    "migrated_count": 0,
+    "missing_count": 3,
+    "referenced_count": 5,
+    "symbols": [
+      {
+        "symbol": "SelectionResult.filename",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/caap/browser_exploitation_engine.py",
+          "CaseCrack/tools/burp_enterprise/caap/exploitation_engine.py",
+          "CaseCrack/tools/burp_enterprise/caap/ui_interaction_engine.py"
+        ]
+      },
+      {
+        "symbol": "SelectionResult.model_name",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/cli/_parsers/model_management.py",
+          "CaseCrack/tools/burp_enterprise/graph/runner.py",
+          "CaseCrack/tools/burp_enterprise/inference/engine.py"
+        ]
+      },
+      {
+        "symbol": "VRAMModelSelector._build_explanation",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VRAMModelSelector.detect_vram",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/inference/model_management/model_cli.py"
+        ]
+      },
+      {
+        "symbol": "VRAMModelSelector.governor",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/scan_budget_governor.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/__init__.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/_hooks.py"
+        ]
+      },
+      {
+        "symbol": "VRAMModelSelector.registry",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cli_dispatch.py"
+        ]
+      },
+      {
+        "symbol": "VRAMModelSelector.select_with_criteria",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_score_model",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_management/model_downloader.py",
+    "hist_only_total": 8,
+    "migrated_count": 0,
+    "missing_count": 4,
+    "referenced_count": 4,
+    "symbols": [
+      {
+        "symbol": "DownloadProgress.is_failed",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/goal_planner.py"
+        ]
+      },
+      {
+        "symbol": "DownloadResult.to_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/email_hardening/_types.py"
+        ]
+      },
+      {
+        "symbol": "ModelDownloader._blocking_download",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelDownloader._do_download",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelDownloader.config",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "ModelDownloader.download_batch",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelDownloader.get_storage_usage",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "ModelDownloader.model_dir",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/inference/model_management/model_benchmarker.py",
+          "CaseCrack/tools/burp_enterprise/inference/model_manager.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/model_management/finetune_exporter.py",
+    "hist_only_total": 6,
+    "migrated_count": 0,
+    "missing_count": 5,
+    "referenced_count": 1,
+    "symbols": [
+      {
+        "symbol": "FinetuneExporter._get_converter",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FinetuneExporter._write_samples",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FinetuneExporter.config",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "_SYSTEM_PROMPT_CODE",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SYSTEM_PROMPT_HYPOTHESIS",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_SYSTEM_PROMPT_VULN",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/inference/kv_cache.py",
+    "hist_only_total": 3,
+    "migrated_count": 0,
+    "missing_count": 2,
+    "referenced_count": 1,
+    "symbols": [
+      {
+        "symbol": "KVCacheConfig.from_dict",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_memory.py",
+          "CaseCrack/tools/burp_enterprise/agents/agent_telemetry.py"
+        ]
+      },
+      {
+        "symbol": "KVQuantType.bytes_per_element",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "KVQuantType.quality_factor",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/memory/embedder.py",
+    "hist_only_total": 2,
+    "migrated_count": 0,
+    "missing_count": 1,
+    "referenced_count": 1,
+    "symbols": [
+      {
+        "symbol": "VenatorEmbedder._hash_embed",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "VenatorEmbedder.dimension",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/agents/autonomous_exploitation.py",
+          "CaseCrack/tools/burp_enterprise/agents/domain_knowledge_engine.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/audit_pyramid.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "B",
+    "rel_path": "CaseCrack/tools/burp_enterprise/__init__.py",
+    "hist_only_total": 0,
+    "migrated_count": 0,
+    "missing_count": 0,
+    "referenced_count": 0,
+    "symbols": []
+  },
+  {
+    "bucket": "C",
+    "rel_path": "CaseCrack/tests/test_cli_api_extended.py",
+    "hist_only_total": 23,
+    "migrated_count": 0,
+    "missing_count": 22,
+    "referenced_count": 1,
+    "symbols": [
+      {
+        "symbol": "TestCmdApi._mock_api_sec",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdApi.test_hpp_action_missing_params",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdApi.test_hpp_action_missing_value",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdApi.test_hpp_action_ok",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdBizlogic._biz_args",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdGraphql.test_graphql_output_file",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdGraphql.test_graphql_scan_no_findings",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdGraphql.test_graphql_scan_with_findings",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdGraphql.test_graphql_schema_output",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdGraphqlAdv._mock_gql_adv",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdGrpc._grpc_args",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdIdor._idor_args",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdIdor.test_compare_not_enough_contexts",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdMobile._mobile_args",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdMobile.test_deeplink_missing_links",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdMobile.test_headers_parsing",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdMobile.test_jwt_action_missing_token",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdRestapi._rest_args",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdSse._sse_args",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCmdSse.test_scan_missing_url",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestDelegateCommands.test_api_discovery_delegates",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestDelegateCommands.test_graphql_recon_delegates",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_args",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/caap/chat_interface.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "C",
+    "rel_path": "CaseCrack/tests/strict_fakes.py",
+    "hist_only_total": 16,
+    "migrated_count": 0,
+    "missing_count": 4,
+    "referenced_count": 12,
+    "symbols": [
+      {
+        "symbol": "CallRecord",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "FakeBypassArm",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "StrictGeneticForge.__init__",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "StrictGeneticForge.bind_grammar_synthesizer",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/genetic_forge.py"
+        ]
+      },
+      {
+        "symbol": "StrictHypothesisEngine.get_all_weights",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/hypothesis_engine.py",
+          "CaseCrack/tools/burp_enterprise/recon_dashboard/execution_intelligence.py"
+        ]
+      },
+      {
+        "symbol": "StrictHypothesisEngine.get_metrics",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_recovered_support.py",
+          "CaseCrack/tools/burp_enterprise/adaptive_exploration_policy.py",
+          "CaseCrack/tools/burp_enterprise/caap/caap_coordinator.py"
+        ]
+      },
+      {
+        "symbol": "StrictHypothesisEngine.get_weight",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/decision_orchestrator.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/production_truth_loop.py",
+          "CaseCrack/tools/burp_enterprise/hypothesis_engine.py"
+        ]
+      },
+      {
+        "symbol": "StrictUnifiedReasoning.__init__",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "StrictWeightTuner.get_current_weights",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/exploit_graph.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/integration_audit.py",
+          "CaseCrack/tools/burp_enterprise/exploit_chains/production_truth_loop.py"
+        ]
+      },
+      {
+        "symbol": "_StrictFakeBase",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_StrictFakeBase.__getattr__",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_cold_storage/_extract_data_to_json.py",
+          "CaseCrack/tools/burp_enterprise/_extract_data_to_json.py"
+        ]
+      },
+      {
+        "symbol": "_StrictFakeBase.__init__",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/__init__.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_finding_correlator_deprecated.py",
+          "CaseCrack/tools/burp_enterprise/_archive/_orchestrator_deprecated.py"
+        ]
+      },
+      {
+        "symbol": "_StrictFakeBase._record",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/exploit_chains/synthesis_tracer.py",
+          "CaseCrack/tools/burp_enterprise/graph/production.py",
+          "CaseCrack/tools/burp_enterprise/tool_wrappers/vhostfinder_provider.py"
+        ]
+      },
+      {
+        "symbol": "_StrictFakeBase.calls",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/wasm_analysis/_types.py",
+          "CaseCrack/tools/burp_enterprise/_mcp_tool_registry.py",
+          "CaseCrack/tools/burp_enterprise/_migrate_print_to_logger.py"
+        ]
+      },
+      {
+        "symbol": "_StrictFakeBase.calls_for",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "_StrictFakeBase.reset",
+        "class": "REFERENCED",
+        "evidence": [
+          "CaseCrack/tools/burp_enterprise/_cold_storage/tool_wrappers/_adaptive_rate.py",
+          "CaseCrack/tools/burp_enterprise/adaptive_chain_engine.py",
+          "CaseCrack/tools/burp_enterprise/agents/adaptive_learning.py"
+        ]
+      }
+    ]
+  },
+  {
+    "bucket": "C",
+    "rel_path": "CaseCrack/tests/test_recon_transport.py",
+    "hist_only_total": 6,
+    "migrated_count": 0,
+    "missing_count": 6,
+    "referenced_count": 0,
+    "symbols": [
+      {
+        "symbol": "TestCreateTransport.test_grpc_backend",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestCreateTransport.test_redis_backend",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestInProcessTransport.test_default_returns_none",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestRedisTransport",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestRedisTransport.test_construction",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestRedisTransport.test_with_config",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  },
+  {
+    "bucket": "C",
+    "rel_path": "CaseCrack/tests/test_fix134_waf_phase14_degraded.py",
+    "hist_only_total": 4,
+    "migrated_count": 0,
+    "missing_count": 4,
+    "referenced_count": 0,
+    "symbols": [
+      {
+        "symbol": "TestFix134CmdWafDetectErrorPaths.test_detect_import_error",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestFix134aCmdWafOutputFirst._run_detect",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestFix134aCmdWafOutputFirst.test_detect_writes_output_before_logging",
+        "class": "MISSING",
+        "evidence": []
+      },
+      {
+        "symbol": "TestFix134dWafw00fImportProtection.test_import_error_module_not_found",
+        "class": "MISSING",
+        "evidence": []
+      }
+    ]
+  }
+]

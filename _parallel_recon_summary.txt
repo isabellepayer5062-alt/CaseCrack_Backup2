@@ -1,0 +1,99 @@
+================================================================================
+FULL 31-PHASE PARALLEL RECON PIPELINE - ISSUE SUMMARY
+Target: https://sugarrushed.ca
+Completed: 2026-05-01T04:01:50.670605+00:00
+================================================================================
+
+TOTAL ERRORS CAPTURED: 0
+TOTAL WARNINGS CAPTURED: 0
+TOTAL CONSOLE ERROR LINES: 75
+PHASES WITH ERRORS: 0
+
+── PHASE COMPLETION STATUS ──
+  (No phase completion events captured)
+
+── ERRORS BY PHASE ──
+  No phase errors captured.
+
+── ALL ERRORS (chronological) ──
+  No errors captured.
+
+── WARNINGS ──
+  No warnings captured.
+
+── CONSOLE ERRORS / FAILURES ──
+  [JS Analysis & Source Maps] (INFO) [FAIL] Command failed: KeywordPreFilter.register() takes 2 positional arguments but 3 were given
+  [Fingerprinting & Technology] (WARNING) [!]   Misconfigured: HSTS max-age=7889238 < recommended 31536000
+  [Fingerprinting & Technology] (WARNING) [!]   Disclosure:    Server: cloudflare
+  [Parameter Discovery] (WARNING) [!] Baseline responses differ â€” taking 3rd sample as tie-breaker
+  [Parameter Discovery] (WARNING) [!] All 3 baseline responses differ â€” target is highly non-deterministic
+  [URL Aggregation & Dorking] (WARNING) [!]   https://sugarrushed.ca/api/unstable/graphql.json
+  [Parameter Discovery] (ERROR) burp-cli: error: unrecognized arguments: --chunk-size 50
+  [Endpoint & Asset Discovery] (WARNING) [!] [*] Timeout: 30.0s
+  [Endpoint & Asset Discovery] (INFO) $ python -m tools.burp_enterprise.cli ws-recon --target https://sugarrushed.ca --timeout 10 -o reports/recon-ws-recon.json
+  [URL Aggregation & Dorking] (INFO) [*] Timeout: 480.0s
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 2.0s (attempt 1/4)
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 6.0s (attempt 2/4)
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 18.0s (attempt 3/4)
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 21.6s (attempt 1/4)
+  [WAF Detection & Fingerprinting] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 24.0s (attempt 2/4)
+  [Network Topology Mapping] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 24.0s (attempt 3/4)
+  [Access Control & Privilege Testing] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 24.0s (attempt 4/4)
+  [Access Control & Privilege Testing] (ERROR) burp-cli: error: unrecognized arguments: -o reports/recon-session.json --random-agent --delay 1
+  [CVE Correlation] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Secrets Scanning] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Secrets Scanning] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay
+  [Passive Internet Search] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [DNS Security Testing] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Cloud & Container Security] (INFO) $ python -m tools.burp_enterprise.cli cloud-enum --keyword sugarrushed --threads 50 --timeout 240 -o reports/recon-cloud-enum.json --random-agent --delay 1
+  [Cloud & Container Security] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Source Code & Reverse Analytics] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Source Code & Reverse Analytics] (ERROR) burp-cli: error: unrecognized arguments: --limit 50 --random-agent --delay 1
+  [Supply Chain Security] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Defensive Posture Assessment] (INFO)                                   [--cookie COOKIE] [--timeout TIMEOUT]
+  [Defensive Posture Assessment] (ERROR) burp-cli defensive-posture: error: argument action: invalid choice: '1' (choose from scan, bots, captcha, headers, honeypots)
+  [Defensive Posture Assessment] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [TLS & Certificate Analysis] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [TLS & Certificate Analysis] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay
+  [TLS & Certificate Analysis] (INFO) [SOFT-TIMEOUT] Soft limit 33s reached — evaluating…
+  [Injection & Deserialization Testing] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Core Utility Testing] (INFO) $ python -m tools.burp_enterprise.cli full-scan --url https://sugarrushed.ca --phases recon passive --workers 3 --module-timeout 60 -o reports/recon-full-scan.json --random-agent --delay 1
+  [Core Utility Testing] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Core Utility Testing] (INFO) $ python -m tools.burp_enterprise.cli collaborator --webhook auto --generate --poll --timeout 15 --random-agent --delay 1
+  [DNS Resolution & Brute-force] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [DNS Resolution & Brute-force] (ERROR) burp-cli: error: unrecognized arguments: --random-agent
+  [Extended OSINT & Recon] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Subdomain Discovery] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Subdomain Discovery] (ERROR) burp-cli subdomain-predict: error: argument action: invalid choice: '1' (choose from predict, patterns, sequences, profile)
+  [Subdomain Discovery] (ERROR) burp-cli: error: unrecognized arguments: --threads 2 --random-agent --delay 1
+  [OSINT Intelligence] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [OSINT Intelligence] (ERROR) burp-cli email-osint: error: argument action: invalid choice: '1' (choose from discover, verify, security)
+  [OSINT Intelligence] (ERROR) burp-cli netintel: error: argument action: invalid choice: '1' (choose from hosts, reverse-ip, dns, reverse-dns, headers, links, ip-intel)
+  [OSINT Intelligence] (ERROR) burp-cli rdap: error: argument action: invalid choice: '1' (choose from domain, ip, asn)
+  [Visual Recon & Screenshots] (ERROR) burp-cli: error: unrecognized arguments: --random-agent
+  [Active Vulnerability Testing] (INFO) $ python -m tools.burp_enterprise.cli dalfox --url https://sugarrushed.ca --timeout 120 -o reports/recon-dalfox.json --random-agent --delay 1
+  [Active Vulnerability Testing] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Active Vulnerability Testing] (ERROR) [-] Unknown action: headers
+  [Unified Crawl + Secrets Pipeline] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Unified Crawl + Secrets Pipeline] (ERROR) burp-cli: error: unrecognized arguments: --max-js 20 --random-agent --delay 1
+  [Blue-Team & Threat Modeling] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Advanced Exploitation Testing] (INFO) [BUDGET] Capping Advanced Exploitation Testing timeout: 1056s → 870s (wall clock limit)
+  [Advanced Exploitation Testing] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Advanced Exploitation Testing] (INFO) $ python -m tools.burp_enterprise.cli scanner-api --url https://sugarrushed.ca --provider zap --active-scan --allow-mock --timeout 480 -o reports/recon-zap-dast.json scan --random-agent --delay 1
+  [Network & Port Scanning] (ERROR) burp-cli: error: unrecognized arguments: --random-agent
+  [Network & Port Scanning] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Network & Port Scanning] (INFO) $ python -m tools.burp_enterprise.cli nmap --host sugarrushed.ca --profile vuln --top-ports 1000 --timeout 90 -o reports/recon-nmap-vuln.json --json --random-agent
+  [AI-Enhanced Testing] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Correlation & Compliance] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Correlation & Compliance] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay
+  [Exploitation Verification & Risk Assessment] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Exploit Graph Analysis] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [AI-Enhanced Testing] (ERROR) burp-cli unified: error: argument --depth: invalid choice: '1' (choose from quick, standard, deep, comprehensive)
+  [Dashboard & Post-Scan Analysis] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Attack Surface & Analysis] (ERROR) burp-cli: error: unrecognized arguments: --random-agent --delay 1
+  [Attack Surface & Analysis] (INFO)                          [--test-timeout TEST_TIMEOUT] [--container]
+  [Attack Surface & Analysis] (ERROR) burp-cli strategy: error: argument --depth: invalid choice: '1' (choose from quick, standard, deep, comprehensive)
+  [Attack Surface & Analysis] (ERROR) burp-cli: error: unrecognized arguments: --random-agent

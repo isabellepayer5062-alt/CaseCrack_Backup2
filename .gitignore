@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/settings.json
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and runtime state
+*.log
+.dashboard_pid.txt
+.llm_circuit_breaker_state.json
+
+# Hypothesis testing
+.hypothesis/
+
+# LangGraph checkpoints/memory (runtime state)
+.langgraph_agent_checkpoints/
+.langgraph_cross_scan_memory/
+.venator_checkpoints/
+
+# Scan runs (runtime output)
+.runs/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Distribution
+*.dist-info/
+
+# Large runtime / scan artefacts — exceeds GitHub 100 MB limit
+_empireminecraft_log.jsonl
+_parallel_recon_log.jsonl
+_anduril_multi_target_log.jsonl
+_empireminecraft_v2_log.jsonl
+_hypixel_log.jsonl
+_state_c71db976-71f6-40b1-af22-022cc2ec09aa.json
+_state_fae709ba-0fb2-4b2c-8623-87175702540e.json
+_state_*.json
+*.db
+*.db-shm
+*.db-wal
+mcp_audit.jsonl*
+calibration_records.jsonl
+agent_memory.db
+screenshots/
+data/license.key

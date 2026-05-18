@@ -1,0 +1,13 @@
+SUDANAIR.COM PARALLEL RECON SUMMARY
+Generated: 2026-05-06T21:40:30.641833+00:00
+Target: https://www.sudanair.com/
+Elapsed: 604s
+Phases started: 0
+Phases completed: 0
+Phases failed: 0
+Total findings: 0
+Total errors: 0
+Total warnings: 0
+
+
+=== PHASES STARTED ===

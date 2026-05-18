@@ -1,0 +1,3377 @@
+{
+  "recoverable_count": 562,
+  "files": [
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-643382c7\\SSYH.py",
+      "timestamp_ms": 1770780852307,
+      "timestamp_iso": "2026-02-10T22:34:12.307000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\vercel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-73fe6e9e\\YuGO.py",
+      "timestamp_ms": 1770780794696,
+      "timestamp_iso": "2026-02-10T22:33:14.696000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\cli\\commands\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\282d44c\\IDw8.py",
+      "timestamp_ms": 1770780852348,
+      "timestamp_iso": "2026-02-10T22:34:12.348000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\cli\\commands\\vercel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\34789135\\h2xz.py",
+      "timestamp_ms": 1770780831926,
+      "timestamp_iso": "2026-02-10T22:33:51.926000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\cli\\main.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\52f40d72\\oslr.py",
+      "timestamp_ms": 1770780852348,
+      "timestamp_iso": "2026-02-10T22:34:12.348000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\platforms\\_base.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2b432973\\7wNS.py",
+      "timestamp_ms": 1770780523074,
+      "timestamp_iso": "2026-02-10T22:28:43.074000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\platforms\\_detector.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5ccbe622\\gK2J.py",
+      "timestamp_ms": 1770780557912,
+      "timestamp_iso": "2026-02-10T22:29:17.912000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\platforms\\vercel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2f0320a4\\yPGO.py",
+      "timestamp_ms": 1770780544163,
+      "timestamp_iso": "2026-02-10T22:29:04.163000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - Copy\\CaseCrack\\tools\\burp_enterprise\\vercel_agent.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6254348d\\kTXb.py",
+      "timestamp_ms": 1770780747098,
+      "timestamp_iso": "2026-02-10T22:32:27.098000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - PayPal\\CaseCrack\\tools\\burp_enterprise\\platforms\\_base.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\77ceced5\\tYd9.py",
+      "timestamp_ms": 1770854386355,
+      "timestamp_iso": "2026-02-11T18:59:46.355000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - PayPal\\CaseCrack\\tools\\burp_enterprise\\platforms\\_detector.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3335c1c0\\xfcu.py",
+      "timestamp_ms": 1770884964751,
+      "timestamp_iso": "2026-02-12T03:29:24.751000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0 - PayPal\\CaseCrack\\tools\\burp_enterprise\\platforms\\paypal.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1cf0e52a\\ocgt.py",
+      "timestamp_ms": 1770854391404,
+      "timestamp_iso": "2026-02-11T18:59:51.404000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_check_enums.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\696182f6\\GoCm.py",
+      "timestamp_ms": 1773526543090,
+      "timestamp_iso": "2026-03-14T18:15:43.090000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_cli_dispatch.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\32d6b2e4\\bZ2K.py",
+      "timestamp_ms": 1772403871487,
+      "timestamp_iso": "2026-03-01T17:24:31.487000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_dedup_enums.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4a77a520\\53bm.py",
+      "timestamp_ms": 1773526501956,
+      "timestamp_iso": "2026-03-14T18:15:01.956000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_exploitation_engine_new.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4e87a339\\ZYS3.py",
+      "timestamp_ms": 1773876538721,
+      "timestamp_iso": "2026-03-18T19:28:58.721000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_extract_data_to_json.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3e68e888\\8Z9a.py",
+      "timestamp_ms": 1773883705263,
+      "timestamp_iso": "2026-03-18T21:28:25.263000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_extract_vuln_intel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-74d00419\\DOYC.py",
+      "timestamp_ms": 1773880011214,
+      "timestamp_iso": "2026-03-18T20:26:51.214000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_find_dquotes.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7f85abc8\\sdMz.py",
+      "timestamp_ms": 1773526319395,
+      "timestamp_iso": "2026-03-14T18:11:59.395000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_find_dupes.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2a028576\\H5CZ.py",
+      "timestamp_ms": 1773526471278,
+      "timestamp_iso": "2026-03-14T18:14:31.278000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_finding_correlator_deprecated.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7258e342\\FQdR.py",
+      "timestamp_ms": 1773689018909,
+      "timestamp_iso": "2026-03-16T15:23:38.909000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_fix_di1.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-657f50f1\\gUiW.py",
+      "timestamp_ms": 1773798441428,
+      "timestamp_iso": "2026-03-17T21:47:21.428000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_gen_expanded.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-438bcb8b\\JZ54.py",
+      "timestamp_ms": 1773527955612,
+      "timestamp_iso": "2026-03-14T18:39:15.612000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_mcp_tool_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\335a7972\\sHZF.py",
+      "timestamp_ms": 1772269269702,
+      "timestamp_iso": "2026-02-28T04:01:09.702000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_migrate_print_to_logger.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-489da57d\\8f2d.py",
+      "timestamp_ms": 1773615239781,
+      "timestamp_iso": "2026-03-15T18:53:59.781000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_phase1_loaders\\data_loader.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-22b26813\\OKcE.py",
+      "timestamp_ms": 1773883617190,
+      "timestamp_iso": "2026-03-18T21:26:57.190000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_phase1_loaders\\mcp_tools_loader.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7146b5fd\\qebm.py",
+      "timestamp_ms": 1773883767991,
+      "timestamp_iso": "2026-03-18T21:29:27.991000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_phase1_loaders\\poc_generator_facade.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2bf873c8\\YXTv.py",
+      "timestamp_ms": 1773884594150,
+      "timestamp_iso": "2026-03-18T21:43:14.150000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_scan_quotes.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3011f5a8\\TkWZ.py",
+      "timestamp_ms": 1773526406470,
+      "timestamp_iso": "2026-03-14T18:13:26.470000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_scanner_providers_deprecated.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7f17078c\\6UH6.py",
+      "timestamp_ms": 1773689018908,
+      "timestamp_iso": "2026-03-16T15:23:38.908000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\_shared_rendering.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\69066cb\\HNIw.py",
+      "timestamp_ms": 1771701996862,
+      "timestamp_iso": "2026-02-21T14:26:36.862000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agent_roles_clean.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7bad2d31\\guOh.py",
+      "timestamp_ms": 1776215746567,
+      "timestamp_iso": "2026-04-14T21:15:46.567000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agent_sessions.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-332fe65\\J4dE.py",
+      "timestamp_ms": 1772265065118,
+      "timestamp_iso": "2026-02-28T02:51:05.118000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-56ac8e15\\UNV8.py",
+      "timestamp_ms": 1776307421616,
+      "timestamp_iso": "2026-04-15T22:43:41.616000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\_llm_bridge_new.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\48f19fb8\\vImc.py",
+      "timestamp_ms": 1774810944723,
+      "timestamp_iso": "2026-03-29T15:02:24.723000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\ab_testing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\31a47289\\TED4.py",
+      "timestamp_ms": 1775712356225,
+      "timestamp_iso": "2026-04-09T01:25:56.225000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\adaptive_learning.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3629f6f4\\De4C.py",
+      "timestamp_ms": 1776312778564,
+      "timestamp_iso": "2026-04-16T00:12:58.564000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\advanced_agent_patterns.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-73a8cea7\\93xQ.py",
+      "timestamp_ms": 1776298818263,
+      "timestamp_iso": "2026-04-15T20:20:18.263000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\advanced_orchestration.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\26416257\\s165.py",
+      "timestamp_ms": 1776301038263,
+      "timestamp_iso": "2026-04-15T20:57:18.263000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\agent_loop.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\11489f5d\\uII7.py",
+      "timestamp_ms": 1776353172774,
+      "timestamp_iso": "2026-04-16T11:26:12.774000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\agent_memory.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-a91aa0\\2Uay.py",
+      "timestamp_ms": 1775467271933,
+      "timestamp_iso": "2026-04-06T05:21:11.933000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\agent_sessions.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\320c31c4\\bgk7.py",
+      "timestamp_ms": 1776045923711,
+      "timestamp_iso": "2026-04-12T22:05:23.711000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\anthropic_patterns.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\382395a5\\dEId.py",
+      "timestamp_ms": 1776297763176,
+      "timestamp_iso": "2026-04-15T20:02:43.176000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\attack_reasoning.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1337ca8c\\wOmy.py",
+      "timestamp_ms": 1775498542035,
+      "timestamp_iso": "2026-04-06T14:02:22.035000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\bayesian_prioritizer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5ba51967\\efrl.py",
+      "timestamp_ms": 1775943128562,
+      "timestamp_iso": "2026-04-11T17:32:08.562000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\cognitive_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1204b413\\D4ef.py",
+      "timestamp_ms": 1776016326581,
+      "timestamp_iso": "2026-04-12T13:52:06.581000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\collaborative_intelligence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3b19e88e\\8CnL.py",
+      "timestamp_ms": 1774051698434,
+      "timestamp_iso": "2026-03-20T20:08:18.434000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\conflict_arbitration.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6a828d97\\Q1d2.py",
+      "timestamp_ms": 1776312148686,
+      "timestamp_iso": "2026-04-16T00:02:28.686000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_loop.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1de60ddc\\YG5I.py",
+      "timestamp_ms": 1776316161563,
+      "timestamp_iso": "2026-04-16T01:09:21.563000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_agents.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\67442ff5\\SDR1.py",
+      "timestamp_ms": 1776047778016,
+      "timestamp_iso": "2026-04-12T22:36:18.016000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_discovery_tools.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\31da081f\\3EOT.py",
+      "timestamp_ms": 1775507069250,
+      "timestamp_iso": "2026-04-06T16:24:29.250000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-f9888bf\\rp9s.py",
+      "timestamp_ms": 1776011873760,
+      "timestamp_iso": "2026-04-12T12:37:53.760000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_exploit_cloud_tools.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3a7b686e\\dE1o.py",
+      "timestamp_ms": 1775279398333,
+      "timestamp_iso": "2026-04-04T01:09:58.333000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_infra_tools.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-462d2601\\oG2x.py",
+      "timestamp_ms": 1775279152654,
+      "timestamp_iso": "2026-04-04T01:05:52.654000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_intel_tools.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1514adb9\\82gu.py",
+      "timestamp_ms": 1775279359691,
+      "timestamp_iso": "2026-04-04T01:09:19.691000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_tool_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\8fdcda7\\7yxg.py",
+      "timestamp_ms": 1775499555517,
+      "timestamp_iso": "2026-04-06T14:19:15.517000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_tools.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5d4f770\\m99s.py",
+      "timestamp_ms": 1775437909701,
+      "timestamp_iso": "2026-04-05T21:11:49.701000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\copilot_sdk_vuln_tools.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7db546fa\\RbrS.py",
+      "timestamp_ms": 1775499595102,
+      "timestamp_iso": "2026-04-06T14:19:55.102000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\deterministic_replay.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4132f587\\9ruX.py",
+      "timestamp_ms": 1776303981931,
+      "timestamp_iso": "2026-04-15T21:46:21.931000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\domain_knowledge_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4cfb3435\\HO8G.py",
+      "timestamp_ms": 1776358565497,
+      "timestamp_iso": "2026-04-16T12:56:05.497000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\doubt_injector.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1bf7f69c\\QoUK.py",
+      "timestamp_ms": 1775455967361,
+      "timestamp_iso": "2026-04-06T02:12:47.361000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\exceptions.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2369db37\\3h1g.py",
+      "timestamp_ms": 1775503114525,
+      "timestamp_iso": "2026-04-06T15:18:34.525000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\feedback_learning.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6f860065\\sRdV.py",
+      "timestamp_ms": 1775711570735,
+      "timestamp_iso": "2026-04-09T01:12:50.735000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\finding_dedup.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\84cd08b\\RPFb.py",
+      "timestamp_ms": 1776314789048,
+      "timestamp_iso": "2026-04-16T00:46:29.048000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\finding_safety_interlocks.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\57fa68b0\\FNod.py",
+      "timestamp_ms": 1776303119663,
+      "timestamp_iso": "2026-04-15T21:31:59.663000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\fork_spawn.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a44f93d\\8Im2.py",
+      "timestamp_ms": 1776298853222,
+      "timestamp_iso": "2026-04-15T20:20:53.222000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\goal_planner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\60c60455\\Gwtf.py",
+      "timestamp_ms": 1776047778016,
+      "timestamp_iso": "2026-04-12T22:36:18.016000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\hierarchical_planner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\36f3fa1f\\yJo2.py",
+      "timestamp_ms": 1775502120143,
+      "timestamp_iso": "2026-04-06T15:02:00.143000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_adaptive.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-160b99cd\\vFPQ.py",
+      "timestamp_ms": 1775953901898,
+      "timestamp_iso": "2026-04-11T20:31:41.898000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_advanced_defense.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\21393466\\uiau.py",
+      "timestamp_ms": 1776006819745,
+      "timestamp_iso": "2026-04-12T11:13:39.745000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6532e0c0\\wbiO.py",
+      "timestamp_ms": 1776030616835,
+      "timestamp_iso": "2026-04-12T17:50:16.835000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_cache.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\40ed5383\\9sth.py",
+      "timestamp_ms": 1775970543841,
+      "timestamp_iso": "2026-04-12T01:09:03.841000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_clients.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-25e0443\\WJ2G.py",
+      "timestamp_ms": 1776061580272,
+      "timestamp_iso": "2026-04-13T02:26:20.272000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_defense_hardening.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2e77fd96\\gxYo.py",
+      "timestamp_ms": 1776035000831,
+      "timestamp_iso": "2026-04-12T19:03:20.831000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_hardware_adapter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\356a1b71\\oMng.py",
+      "timestamp_ms": 1775501976577,
+      "timestamp_iso": "2026-04-06T14:59:36.577000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_intelligence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\47c1c44a\\GGcp.py",
+      "timestamp_ms": 1776137324045,
+      "timestamp_iso": "2026-04-13T23:28:44.045000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_ops.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\29e851d3\\QTWg.py",
+      "timestamp_ms": 1775954113145,
+      "timestamp_iso": "2026-04-11T20:35:13.145000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_output_guard.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3149fc22\\1hiY.py",
+      "timestamp_ms": 1776006786499,
+      "timestamp_iso": "2026-04-12T11:13:06.499000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_production.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1a7edc90\\MBEQ.py",
+      "timestamp_ms": 1776006628635,
+      "timestamp_iso": "2026-04-12T11:10:28.635000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\418fe30c\\E9rb.py",
+      "timestamp_ms": 1775943212276,
+      "timestamp_iso": "2026-04-11T17:33:32.276000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_routing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-619bfc1\\QOuk.py",
+      "timestamp_ms": 1775930729688,
+      "timestamp_iso": "2026-04-11T14:05:29.688000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_shutdown.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\23f7aa53\\R7QI.py",
+      "timestamp_ms": 1776006979875,
+      "timestamp_iso": "2026-04-12T11:16:19.875000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_tracing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-19b013d\\BL1b.py",
+      "timestamp_ms": 1775712633184,
+      "timestamp_iso": "2026-04-09T01:30:33.184000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_tracking.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2ffaaa52\\Zeez.py",
+      "timestamp_ms": 1776006851874,
+      "timestamp_iso": "2026-04-12T11:14:11.874000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\llm_types.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3281f32c\\12ev.py",
+      "timestamp_ms": 1776057850110,
+      "timestamp_iso": "2026-04-13T01:24:10.110000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\native_tool_calling.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\25806bce\\5YIi.py",
+      "timestamp_ms": 1775710806463,
+      "timestamp_iso": "2026-04-09T01:00:06.463000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\next_action_advisor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7f15ea30\\khSk.py",
+      "timestamp_ms": 1775520227190,
+      "timestamp_iso": "2026-04-06T20:03:47.190000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\nl_translator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4e067618\\sIJB.py",
+      "timestamp_ms": 1774979435677,
+      "timestamp_iso": "2026-03-31T13:50:35.677000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\planner_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1eb49c9b\\Bgt3.py",
+      "timestamp_ms": 1775523600826,
+      "timestamp_iso": "2026-04-06T21:00:00.826000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\proactive_intelligence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7d6b7e50\\R1qu.py",
+      "timestamp_ms": 1776045983677,
+      "timestamp_iso": "2026-04-12T22:06:23.677000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\prompt_budget.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-37caa74d\\5ImU.py",
+      "timestamp_ms": 1776062965307,
+      "timestamp_iso": "2026-04-13T02:49:25.307000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\prompt_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-16500968\\GW3t.py",
+      "timestamp_ms": 1776006963171,
+      "timestamp_iso": "2026-04-12T11:16:03.171000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\rag_context.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-56689755\\RCci.py",
+      "timestamp_ms": 1776038239731,
+      "timestamp_iso": "2026-04-12T19:57:19.731000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\reactive_compaction.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7f9984b8\\9CfT.py",
+      "timestamp_ms": 1776282814144,
+      "timestamp_iso": "2026-04-15T15:53:34.144000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\reasoning_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\49b75358\\YZNK.py",
+      "timestamp_ms": 1776353191040,
+      "timestamp_iso": "2026-04-16T11:26:31.040000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\redis_cache.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4a479e4b\\hlC4.py",
+      "timestamp_ms": 1775375797174,
+      "timestamp_iso": "2026-04-05T03:56:37.174000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\risk_aware_testing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\73fd779c\\DhVt.py",
+      "timestamp_ms": 1775377451856,
+      "timestamp_iso": "2026-04-05T04:24:11.856000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\rl_reward_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7ef6de72\\8Rw0.py",
+      "timestamp_ms": 1776018220753,
+      "timestamp_iso": "2026-04-12T14:23:40.753000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\role_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-57997473\\j8Jx.py",
+      "timestamp_ms": 1775366970978,
+      "timestamp_iso": "2026-04-05T01:29:30.978000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\speculative_executor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\61c66e3c\\2Vjg.py",
+      "timestamp_ms": 1776295300342,
+      "timestamp_iso": "2026-04-15T19:21:40.342000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\streaming_structured.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7aca953\\M1fE.py",
+      "timestamp_ms": 1775943300790,
+      "timestamp_iso": "2026-04-11T17:35:00.790000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\unified_agent.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7096a5e5\\UMyg.py",
+      "timestamp_ms": 1775954091533,
+      "timestamp_iso": "2026-04-11T20:34:51.533000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\agents\\unified_arbitration.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5ed36c21\\VbjE.py",
+      "timestamp_ms": 1776353118597,
+      "timestamp_iso": "2026-04-16T11:25:18.597000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\architecture_evolver.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\434b7d09\\bR37.py",
+      "timestamp_ms": 1776234339365,
+      "timestamp_iso": "2026-04-15T02:25:39.365000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\atlas_mcp_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-10b9a670\\9Cmt.py",
+      "timestamp_ms": 1773461653280,
+      "timestamp_iso": "2026-03-14T00:14:13.280000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\attacker_memory.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\184a4bd1\\tm2u.py",
+      "timestamp_ms": 1776140757608,
+      "timestamp_iso": "2026-04-14T00:25:57.608000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\audit_trail_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3897a396\\mXvj.py",
+      "timestamp_ms": 1773461653203,
+      "timestamp_iso": "2026-03-14T00:14:13.203000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\burp_enterprise_api.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7fec5fee\\i5UK.py",
+      "timestamp_ms": 1772221495638,
+      "timestamp_iso": "2026-02-27T14:44:55.638000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\business_logic_ai.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4dbb06b4\\sMrj.py",
+      "timestamp_ms": 1773616183163,
+      "timestamp_iso": "2026-03-15T19:09:43.163000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\caap\\caap_session.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4c2762ea\\8fAH.py",
+      "timestamp_ms": 1775467326369,
+      "timestamp_iso": "2026-04-06T05:22:06.369000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\caap\\escalation_gateway.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-61342220\\KTyJ.py",
+      "timestamp_ms": 1776314917378,
+      "timestamp_iso": "2026-04-16T00:48:37.378000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\caap\\exploitation_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\329653dd\\r7WW.py",
+      "timestamp_ms": 1775465503800,
+      "timestamp_iso": "2026-04-06T04:51:43.800000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\caap\\exploitation_models.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6900ed4b\\svUF.py",
+      "timestamp_ms": 1775058436830,
+      "timestamp_iso": "2026-04-01T11:47:16.830000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\caap_parser.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\370acc8b\\R6jw.py",
+      "timestamp_ms": 1773878626192,
+      "timestamp_iso": "2026-03-18T20:03:46.192000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\caap_session.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\46e33c6e\\5Zik.py",
+      "timestamp_ms": 1773878874645,
+      "timestamp_iso": "2026-03-18T20:07:54.645000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\causal_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-9b19145\\wVDa.py",
+      "timestamp_ms": 1776232476123,
+      "timestamp_iso": "2026-04-15T01:54:36.123000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\chain_schema.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\32931b13\\vWsL.py",
+      "timestamp_ms": 1771531335034,
+      "timestamp_iso": "2026-02-19T15:02:15.034000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-778791df\\ifM4.py",
+      "timestamp_ms": 1774669671189,
+      "timestamp_iso": "2026-03-27T23:47:51.189000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\advanced_racer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7ece0673\\JP0q.py",
+      "timestamp_ms": 1773512154822,
+      "timestamp_iso": "2026-03-14T14:15:54.822000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\agent.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6985e198\\Bnls.py",
+      "timestamp_ms": 1774579132328,
+      "timestamp_iso": "2026-03-26T22:38:52.328000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\ai_scan.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-38e0d377\\8V8X.py",
+      "timestamp_ms": 1773505673048,
+      "timestamp_iso": "2026-03-14T12:27:53.048000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\api.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-36cce01d\\Ue4X.py",
+      "timestamp_ms": 1774645499927,
+      "timestamp_iso": "2026-03-27T17:04:59.927000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\ask.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-36a1b0dc\\5k8y.py",
+      "timestamp_ms": 1770607942449,
+      "timestamp_iso": "2026-02-08T22:32:22.449000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\atlas.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\24712a52\\DDFc.py",
+      "timestamp_ms": 1772136883575,
+      "timestamp_iso": "2026-02-26T15:14:43.575000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\attack_reason.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\74c51ec2\\TEEb.py",
+      "timestamp_ms": 1773507095009,
+      "timestamp_iso": "2026-03-14T12:51:35.009000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\auth.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\666d7f49\\e5Pq.py",
+      "timestamp_ms": 1772854726162,
+      "timestamp_iso": "2026-03-06T22:38:46.162000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\context.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\79150d2e\\z74W.py",
+      "timestamp_ms": 1770924990151,
+      "timestamp_iso": "2026-02-12T14:36:30.151000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\copilot.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\e65f3f1\\2F3Z.py",
+      "timestamp_ms": 1774579132331,
+      "timestamp_iso": "2026-03-26T22:38:52.331000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\core.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3a20aa0e\\SrcX.py",
+      "timestamp_ms": 1774993460690,
+      "timestamp_iso": "2026-03-31T17:44:20.690000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\dashboard.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\d0068a9\\rn6u.py",
+      "timestamp_ms": 1770932133661,
+      "timestamp_iso": "2026-02-12T16:35:33.661000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\devsecops.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\710786e7\\FNpK.py",
+      "timestamp_ms": 1772863490318,
+      "timestamp_iso": "2026-03-07T01:04:50.318000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\dynamic_chain.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\647265c\\bNCa.py",
+      "timestamp_ms": 1773514556193,
+      "timestamp_iso": "2026-03-14T14:55:56.193000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\elite.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\18aadb4a\\uVK3.py",
+      "timestamp_ms": 1771389332182,
+      "timestamp_iso": "2026-02-17T23:35:32.182000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\evolutionary_fuzzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-8d04331\\9Qtw.py",
+      "timestamp_ms": 1773510296376,
+      "timestamp_iso": "2026-03-14T13:44:56.376000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\findings.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-da11959\\egY9.py",
+      "timestamp_ms": 1774579132300,
+      "timestamp_iso": "2026-03-26T22:38:52.300000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\gap_r.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-52a76f2c\\Bdlw.py",
+      "timestamp_ms": 1774333666071,
+      "timestamp_iso": "2026-03-24T02:27:46.071000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\go.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\69e98e89\\Z7Uo.py",
+      "timestamp_ms": 1770607942439,
+      "timestamp_iso": "2026-02-08T22:32:22.439000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\graph.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\17f4d2af\\JnnW.py",
+      "timestamp_ms": 1771527695313,
+      "timestamp_iso": "2026-02-19T14:01:35.313000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\http3.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\9f67232\\6UhJ.py",
+      "timestamp_ms": 1773508578288,
+      "timestamp_iso": "2026-03-14T13:16:18.288000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\init_cmd.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-143d0c7a\\RjP4.py",
+      "timestamp_ms": 1770607942445,
+      "timestamp_iso": "2026-02-08T22:32:22.445000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\injection.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-126b307a\\0MU3.py",
+      "timestamp_ms": 1772956132454,
+      "timestamp_iso": "2026-03-08T03:48:52.454000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\intel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\33f12227\\Hvfm.py",
+      "timestamp_ms": 1772820684012,
+      "timestamp_iso": "2026-03-06T13:11:24.012000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\license.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\14f35d5c\\MfJW.py",
+      "timestamp_ms": 1773711047602,
+      "timestamp_iso": "2026-03-16T21:30:47.602000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\model_management.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6d72a538\\vPep.py",
+      "timestamp_ms": 1774669662188,
+      "timestamp_iso": "2026-03-27T23:47:42.188000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\nuclei_gen.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2dfadd54\\HSuP.py",
+      "timestamp_ms": 1773470862596,
+      "timestamp_iso": "2026-03-14T02:47:42.596000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\osint.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-668b80ae\\w1Tw.py",
+      "timestamp_ms": 1771387894825,
+      "timestamp_iso": "2026-02-17T23:11:34.825000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\p7.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6a4eed4a\\TSvW.py",
+      "timestamp_ms": 1772442458580,
+      "timestamp_iso": "2026-03-02T04:07:38.580000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\passive_templates.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6f32c204\\DAw7.py",
+      "timestamp_ms": 1772305589346,
+      "timestamp_iso": "2026-02-28T14:06:29.346000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\pilot.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-a7c02fb\\BeUD.py",
+      "timestamp_ms": 1775283750822,
+      "timestamp_iso": "2026-04-04T02:22:30.822000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\platform.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5a23062\\2hPO.py",
+      "timestamp_ms": 1772953348386,
+      "timestamp_iso": "2026-03-08T03:02:28.386000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\production_gate.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-10d9c6f4\\kkT5.py",
+      "timestamp_ms": 1776047777996,
+      "timestamp_iso": "2026-04-12T22:36:17.996000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\protocol.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-68b844a7\\2ZVw.py",
+      "timestamp_ms": 1772999964896,
+      "timestamp_iso": "2026-03-08T15:59:24.896000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\recon.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1db0ee12\\4QwF.py",
+      "timestamp_ms": 1774422965519,
+      "timestamp_iso": "2026-03-25T03:16:05.519000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\recon_dashboard.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-29d7c007\\EjmY.py",
+      "timestamp_ms": 1773984839809,
+      "timestamp_iso": "2026-03-20T01:33:59.809000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\resume.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3fc21bdc\\xFbu.py",
+      "timestamp_ms": 1771016699655,
+      "timestamp_iso": "2026-02-13T16:04:59.655000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\_parsers\\worker.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6dfe4b33\\tsQk.py",
+      "timestamp_ms": 1773709729360,
+      "timestamp_iso": "2026-03-16T21:08:49.360000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\commands\\agent_facade_tmp.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2d340de8\\Fke0.py",
+      "timestamp_ms": 1771625051940,
+      "timestamp_iso": "2026-02-20T17:04:11.940000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cli\\commands\\recon_facade.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7f6708da\\HQls.py",
+      "timestamp_ms": 1771624662258,
+      "timestamp_iso": "2026-02-20T16:57:42.258000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cloud\\cloud_discovery.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\337803b0\\osdO.py",
+      "timestamp_ms": 1774994672435,
+      "timestamp_iso": "2026-03-31T18:04:32.435000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\cloud\\cloud_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6a68aa52\\ZfbR.py",
+      "timestamp_ms": 1774148420354,
+      "timestamp_iso": "2026-03-21T23:00:20.354000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\compliance.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4d6d17\\wdcY.py",
+      "timestamp_ms": 1771007670056,
+      "timestamp_iso": "2026-02-13T13:34:30.056000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\compliance_facade_tmp.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-43f302da\\fkFe.py",
+      "timestamp_ms": 1771651098539,
+      "timestamp_iso": "2026-02-21T00:18:18.539000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\config_watcher.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1153c8d\\Kwzn.py",
+      "timestamp_ms": 1772224939607,
+      "timestamp_iso": "2026-02-27T15:42:19.607000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\container.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6887fedb\\8n3d.py",
+      "timestamp_ms": 1771307212189,
+      "timestamp_iso": "2026-02-17T00:46:52.189000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\context_manager.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3d5a60ff\\1I67.py",
+      "timestamp_ms": 1772262718599,
+      "timestamp_iso": "2026-02-28T02:11:58.599000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\base_finding.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\42855562\\hIAs.py",
+      "timestamp_ms": 1775358367207,
+      "timestamp_iso": "2026-04-04T23:06:07.207000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\canonical_finding.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5441ee2d\\DD5B.py",
+      "timestamp_ms": 1776314820628,
+      "timestamp_iso": "2026-04-16T00:47:00.628000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\chaos_testing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7594b20\\iLV5.py",
+      "timestamp_ms": 1774152689095,
+      "timestamp_iso": "2026-03-22T00:11:29.095000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\chaos_testing_v2.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\23a516f3\\hV0N.py",
+      "timestamp_ms": 1774151948730,
+      "timestamp_iso": "2026-03-21T23:59:08.730000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\context_builder.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\36f1a766\\wXav.py",
+      "timestamp_ms": 1775467338799,
+      "timestamp_iso": "2026-04-06T05:22:18.799000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\db_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\66bf79b3\\oLDK.py",
+      "timestamp_ms": 1773914501880,
+      "timestamp_iso": "2026-03-19T06:01:41.880000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\exceptions.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5ef9bfa7\\Of6u.py",
+      "timestamp_ms": 1775502879417,
+      "timestamp_iso": "2026-04-06T15:14:39.417000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\finding_schema.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7a85bf66\\9w6F.py",
+      "timestamp_ms": 1775358350761,
+      "timestamp_iso": "2026-04-04T23:05:50.761000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\metrics_collector.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-f6a7fe0\\gPtg.py",
+      "timestamp_ms": 1774150026989,
+      "timestamp_iso": "2026-03-21T23:27:06.989000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\production_utils.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\147b9ad2\\MNVH.py",
+      "timestamp_ms": 1775466922464,
+      "timestamp_iso": "2026-04-06T05:15:22.464000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\resilience_wiring.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\80b42a1\\zxWE.py",
+      "timestamp_ms": 1774151322411,
+      "timestamp_iso": "2026-03-21T23:48:42.411000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\core_infra\\self_healing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3beebaf6\\7q8R.py",
+      "timestamp_ms": 1774151198798,
+      "timestamp_iso": "2026-03-21T23:46:38.798000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\creative_exploit_heuristics.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\57f3242f\\y9Tc.py",
+      "timestamp_ms": 1773643571978,
+      "timestamp_iso": "2026-03-16T02:46:11.978000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\csp_analyzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3559b62d\\53XC.py",
+      "timestamp_ms": 1773134059680,
+      "timestamp_iso": "2026-03-10T05:14:19.680000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\data\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-564ee939\\Ttff.py",
+      "timestamp_ms": 1773708894468,
+      "timestamp_iso": "2026-03-16T20:54:54.468000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\data\\postgres.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-616d1882\\hT4y.py",
+      "timestamp_ms": 1773709226815,
+      "timestamp_iso": "2026-03-16T21:00:26.815000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\database\\data_migration.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3ef0668f\\GL6a.py",
+      "timestamp_ms": 1775376659943,
+      "timestamp_iso": "2026-04-05T04:10:59.943000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\database\\db_manager.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-276fe544\\1hcJ.py",
+      "timestamp_ms": 1776047778016,
+      "timestamp_iso": "2026-04-12T22:36:18.016000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\database\\db_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-47408b38\\kvYp.py",
+      "timestamp_ms": 1776047778016,
+      "timestamp_iso": "2026-04-12T22:36:18.016000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\database\\hybrid_backend.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-20b44a49\\KKlw.py",
+      "timestamp_ms": 1775375862871,
+      "timestamp_iso": "2026-04-05T03:57:42.871000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\database\\pg_manager.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2d2ca3a3\\5nu8.py",
+      "timestamp_ms": 1775377796697,
+      "timestamp_iso": "2026-04-05T04:29:56.697000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\database\\pg_schema.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\359a069d\\fnov.py",
+      "timestamp_ms": 1775375716088,
+      "timestamp_iso": "2026-04-05T03:55:16.088000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\database\\redis_manager.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\ba1971d\\DEGq.py",
+      "timestamp_ms": 1775376639674,
+      "timestamp_iso": "2026-04-05T04:10:39.674000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\db_consolidation_migrate.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-578db925\\dPBv.py",
+      "timestamp_ms": 1773689000075,
+      "timestamp_iso": "2026-03-16T15:23:20.075000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\db_migrations.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-930760a\\hKez.py",
+      "timestamp_ms": 1773688961012,
+      "timestamp_iso": "2026-03-16T15:22:41.012000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\defender_adversary_model.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\36ca572f\\U8Wl.py",
+      "timestamp_ms": 1776234841818,
+      "timestamp_iso": "2026-04-15T02:34:01.818000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\_js_patterns.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-38446fda\\harM.py",
+      "timestamp_ms": 1774203422059,
+      "timestamp_iso": "2026-03-22T14:17:02.059000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\api_discovery.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-739214dd\\d9KN.py",
+      "timestamp_ms": 1774994672433,
+      "timestamp_iso": "2026-03-31T18:04:32.433000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\api_key_store.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1e1d2c32\\5SOB.py",
+      "timestamp_ms": 1774207848438,
+      "timestamp_iso": "2026-03-22T15:30:48.438000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\archive_sourcemap_scanner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\205e1e8b\\41cy.py",
+      "timestamp_ms": 1774205755510,
+      "timestamp_iso": "2026-03-22T14:55:55.510000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\browser_workflow_extractor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6bb9c3fb\\kSbW.py",
+      "timestamp_ms": 1774147664609,
+      "timestamp_iso": "2026-03-21T22:47:44.609000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\crawler.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\276d367a\\VfDW.py",
+      "timestamp_ms": 1774202698587,
+      "timestamp_iso": "2026-03-22T14:04:58.587000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\ct_monitor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\77f474f4\\M1bm.py",
+      "timestamp_ms": 1774218893667,
+      "timestamp_iso": "2026-03-22T18:34:53.667000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\discovery.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\cf1e49e\\0OJO.py",
+      "timestamp_ms": 1774198721912,
+      "timestamp_iso": "2026-03-22T12:58:41.912000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\free_osint.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\30f0f508\\oDD2.py",
+      "timestamp_ms": 1774069813206,
+      "timestamp_iso": "2026-03-21T01:10:13.206000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\google_dorking.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\638bb328\\QYZi.py",
+      "timestamp_ms": 1775016541378,
+      "timestamp_iso": "2026-04-01T00:09:01.378000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\headless_crawler.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-111365ce\\rtFk.py",
+      "timestamp_ms": 1774993083601,
+      "timestamp_iso": "2026-03-31T17:38:03.601000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\js_ast_analyzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2ffec48b\\DTop.py",
+      "timestamp_ms": 1774205286155,
+      "timestamp_iso": "2026-03-22T14:48:06.155000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\js_intelligence_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5f23048d\\4kAk.py",
+      "timestamp_ms": 1774205344034,
+      "timestamp_iso": "2026-03-22T14:49:04.034000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\js_supply_chain.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\15b5b707\\d1Hw.py",
+      "timestamp_ms": 1774205705395,
+      "timestamp_iso": "2026-03-22T14:55:05.395000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\nsec_walker.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-51fd5d84\\DPwE.py",
+      "timestamp_ms": 1774222910255,
+      "timestamp_iso": "2026-03-22T19:41:50.255000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\osint_recon.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-615cc00d\\SpH4.py",
+      "timestamp_ms": 1774649402241,
+      "timestamp_iso": "2026-03-27T18:10:02.241000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\param_discovery.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2d388a30\\dctn.py",
+      "timestamp_ms": 1776136691963,
+      "timestamp_iso": "2026-04-13T23:18:11.963000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\smart_wordlists.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-d6a6ce7\\vjaz.py",
+      "timestamp_ms": 1775013860692,
+      "timestamp_iso": "2026-03-31T23:24:20.692000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\subdomain.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-cf86936\\wYUG.py",
+      "timestamp_ms": 1774209353511,
+      "timestamp_iso": "2026-03-22T15:55:53.511000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\subdomain_active.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5a0f7701\\gU5l.py",
+      "timestamp_ms": 1774208857677,
+      "timestamp_iso": "2026-03-22T15:47:37.677000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\subdomain_external.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-176ad966\\bM0s.py",
+      "timestamp_ms": 1774506784613,
+      "timestamp_iso": "2026-03-26T02:33:04.613000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\subdomain_passive.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2c24eb1e\\yVwd.py",
+      "timestamp_ms": 1774207950203,
+      "timestamp_iso": "2026-03-22T15:32:30.203000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\subdomain_predictor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\50a8b2ed\\6cY6.py",
+      "timestamp_ms": 1774209213568,
+      "timestamp_iso": "2026-03-22T15:53:33.568000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\subdomain_takeover.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-17d64576\\QjVI.py",
+      "timestamp_ms": 1774209266143,
+      "timestamp_iso": "2026-03-22T15:54:26.143000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\url_aggregator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-17887fb9\\bJRg.py",
+      "timestamp_ms": 1775058436850,
+      "timestamp_iso": "2026-04-01T11:47:16.850000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\wappalyzer_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-66095c70\\2mqp.py",
+      "timestamp_ms": 1775016384510,
+      "timestamp_iso": "2026-04-01T00:06:24.510000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\wayback.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-480ca608\\u9gS.py",
+      "timestamp_ms": 1775058436862,
+      "timestamp_iso": "2026-04-01T11:47:16.862000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\discovery_pkg\\wildcard_filter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\497fc471\\3GNb.py",
+      "timestamp_ms": 1774208756975,
+      "timestamp_iso": "2026-03-22T15:45:56.975000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\docker_layer_analyzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\606162c9\\DWbW.py",
+      "timestamp_ms": 1773167062803,
+      "timestamp_iso": "2026-03-10T14:24:22.803000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\dom_xss_analyzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-af1ad78\\W7PB.py",
+      "timestamp_ms": 1773132824830,
+      "timestamp_iso": "2026-03-10T04:53:44.830000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\domain_knowledge_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2661463e\\okHQ.py",
+      "timestamp_ms": 1773643290808,
+      "timestamp_iso": "2026-03-16T02:41:30.808000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\email_hardening\\_types.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1438d774\\zfOb.py",
+      "timestamp_ms": 1773520204893,
+      "timestamp_iso": "2026-03-14T16:30:04.893000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\email_hardening\\bimi_deep.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\47211458\\2agT.py",
+      "timestamp_ms": 1773520387682,
+      "timestamp_iso": "2026-03-14T16:33:07.682000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\email_hardening\\dane_tlsa.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-525569f1\\Jip5.py",
+      "timestamp_ms": 1773520272867,
+      "timestamp_iso": "2026-03-14T16:31:12.867000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\email_hardening\\mta_sts.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-596f880d\\hjGR.py",
+      "timestamp_ms": 1773520236795,
+      "timestamp_iso": "2026-03-14T16:30:36.795000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\email_hardening\\spf_loops.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1802e07\\htdH.py",
+      "timestamp_ms": 1773520346265,
+      "timestamp_iso": "2026-03-14T16:32:26.265000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\email_hardening\\starttls_downgrade.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7f8e1b3f\\Ty4p.py",
+      "timestamp_ms": 1773520313997,
+      "timestamp_iso": "2026-03-14T16:31:53.997000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\entropy_intelligence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7a46199b\\UfyW.py",
+      "timestamp_ms": 1773166897576,
+      "timestamp_iso": "2026-03-10T14:21:37.576000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\error_page_analyzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1ac8be03\\Oy61.py",
+      "timestamp_ms": 1773166236117,
+      "timestamp_iso": "2026-03-10T14:10:36.117000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5573721d\\XxZ0.py",
+      "timestamp_ms": 1775788364657,
+      "timestamp_iso": "2026-04-09T22:32:44.657000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\audit_pyramid.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6b3bcdcf\\SOwl.py",
+      "timestamp_ms": 1775843903703,
+      "timestamp_iso": "2026-04-10T13:58:23.703000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\chain.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\61cdabda\\wnxq.py",
+      "timestamp_ms": 1774568214974,
+      "timestamp_iso": "2026-03-26T19:36:54.974000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\chain_executor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2d60b182\\98jZ.py",
+      "timestamp_ms": 1776353064106,
+      "timestamp_iso": "2026-04-16T11:24:24.106000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\chain_handlers_ext.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1584190a\\qdNJ.py",
+      "timestamp_ms": 1774220469307,
+      "timestamp_iso": "2026-03-22T19:01:09.307000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\decision_framework.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-74997588\\TC91.py",
+      "timestamp_ms": 1775844643209,
+      "timestamp_iso": "2026-04-10T14:10:43.209000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\deep_audit_harness.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3960351a\\XyBx.py",
+      "timestamp_ms": 1775842415097,
+      "timestamp_iso": "2026-04-10T13:33:35.097000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\dynamic_chain.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\41fa8fda\\REq3.py",
+      "timestamp_ms": 1773980858764,
+      "timestamp_iso": "2026-03-20T00:27:38.764000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\execution_scheduler.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5217667\\IxwG.py",
+      "timestamp_ms": 1775805296473,
+      "timestamp_iso": "2026-04-10T03:14:56.473000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\exploit_graph.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-39cb659f\\O7f3.py",
+      "timestamp_ms": 1776018247740,
+      "timestamp_iso": "2026-04-12T14:24:07.740000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\exploit_graph_renderer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2fb89ceb\\UsJV.py",
+      "timestamp_ms": 1774121526354,
+      "timestamp_iso": "2026-03-21T15:32:06.354000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\exploit_path_planner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\34e21d47\\tw6S.py",
+      "timestamp_ms": 1775887270990,
+      "timestamp_iso": "2026-04-11T02:01:10.990000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\exploit_progression.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\13da93d4\\o8ZM.py",
+      "timestamp_ms": 1776140698106,
+      "timestamp_iso": "2026-04-14T00:24:58.106000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\failure_pattern.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-19daba80\\Bhje.py",
+      "timestamp_ms": 1775781149813,
+      "timestamp_iso": "2026-04-09T20:32:29.813000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\genetic_forge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-67bb4266\\FAiP.py",
+      "timestamp_ms": 1776134965638,
+      "timestamp_iso": "2026-04-13T22:49:25.638000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\grammar_synthesizer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\729d304b\\0dqL.py",
+      "timestamp_ms": 1775804584331,
+      "timestamp_iso": "2026-04-10T03:03:04.331000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\graph_pathfinding.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\452f8d08\\hSUP.py",
+      "timestamp_ms": 1773978173429,
+      "timestamp_iso": "2026-03-19T23:42:53.429000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\graph_persistence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-56b1b3b3\\6GbF.py",
+      "timestamp_ms": 1775377451849,
+      "timestamp_iso": "2026-04-05T04:24:11.849000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\graph_state_ops.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2c034808\\FHHw.py",
+      "timestamp_ms": 1774227539330,
+      "timestamp_iso": "2026-03-22T20:58:59.330000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\graph_suggestions.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-13790a03\\OFRf.py",
+      "timestamp_ms": 1775373910053,
+      "timestamp_iso": "2026-04-05T03:25:10.053000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\impact_chain.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\564a5b2b\\9k4r.py",
+      "timestamp_ms": 1775058436830,
+      "timestamp_iso": "2026-04-01T11:47:16.830000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\integration_audit.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\8127c8b\\Q7gz.py",
+      "timestamp_ms": 1775884594980,
+      "timestamp_iso": "2026-04-11T01:16:34.980000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\learning_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\72ef5531\\r1An.py",
+      "timestamp_ms": 1775922416828,
+      "timestamp_iso": "2026-04-11T11:46:56.828000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\llm_synthesizer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\50fc2245\\tgeL.py",
+      "timestamp_ms": 1775804562986,
+      "timestamp_iso": "2026-04-10T03:02:42.986000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\manual_audit_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\12ae87dc\\ZTEQ.py",
+      "timestamp_ms": 1775887484430,
+      "timestamp_iso": "2026-04-11T02:04:44.430000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\mfa_captcha_bypass_chain.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-75d16153\\Ywfo.py",
+      "timestamp_ms": 1774147703141,
+      "timestamp_iso": "2026-03-21T22:48:23.141000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\observability.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-209fee06\\Oz4F.py",
+      "timestamp_ms": 1775781065870,
+      "timestamp_iso": "2026-04-09T20:31:05.870000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\payload_arbiter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6f3a78fd\\dlFG.py",
+      "timestamp_ms": 1775882895395,
+      "timestamp_iso": "2026-04-11T00:48:15.395000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\payload_synthesis_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-b3e0feb\\90Xn.py",
+      "timestamp_ms": 1776135062284,
+      "timestamp_iso": "2026-04-13T22:51:02.284000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\production_truth_loop.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\66c6da3d\\0Cui.py",
+      "timestamp_ms": 1776047777996,
+      "timestamp_iso": "2026-04-12T22:36:17.996000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\reality_gap_harness.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-f52d85d\\usQH.py",
+      "timestamp_ms": 1775843136983,
+      "timestamp_iso": "2026-04-10T13:45:36.983000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\state_graph.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-74d18e5\\DssG.py",
+      "timestamp_ms": 1775463154611,
+      "timestamp_iso": "2026-04-06T04:12:34.611000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\synthesis_context.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2b863a49\\q1mG.py",
+      "timestamp_ms": 1775867485952,
+      "timestamp_iso": "2026-04-10T20:31:25.952000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\synthesis_feedback.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\734cf3e3\\eZY3.py",
+      "timestamp_ms": 1776134997096,
+      "timestamp_iso": "2026-04-13T22:49:57.096000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\synthesis_tracer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-39ce9d25\\QLmq.py",
+      "timestamp_ms": 1775839340924,
+      "timestamp_iso": "2026-04-10T12:42:20.924000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\system_audit_harness.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4a7d40c9\\Sh1o.py",
+      "timestamp_ms": 1775856376582,
+      "timestamp_iso": "2026-04-10T17:26:16.582000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploit_chains\\weight_tuner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6e057ee0\\X8Q1.py",
+      "timestamp_ms": 1775931883714,
+      "timestamp_iso": "2026-04-11T14:24:43.714000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploitation\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-463edd99\\taue.py",
+      "timestamp_ms": 1771650109918,
+      "timestamp_iso": "2026-02-21T00:01:49.918000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploitation\\chains.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1261e5db\\44DH.py",
+      "timestamp_ms": 1772325183796,
+      "timestamp_iso": "2026-02-28T19:33:03.796000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploitation\\engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3d32f44b\\7L9B.py",
+      "timestamp_ms": 1776315181996,
+      "timestamp_iso": "2026-04-16T00:53:01.996000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploitation\\impact.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\79daba31\\RyEe.py",
+      "timestamp_ms": 1775058436836,
+      "timestamp_iso": "2026-04-01T11:47:16.836000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploitation\\models.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2735ca8d\\mG3v.py",
+      "timestamp_ms": 1773887084013,
+      "timestamp_iso": "2026-03-18T22:24:44.013000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploitation\\poc_generator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-43d90961\\Voie.py",
+      "timestamp_ms": 1773887336316,
+      "timestamp_iso": "2026-03-18T22:28:56.316000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\exploitation\\verifier.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\51ed0ea1\\zMeR.py",
+      "timestamp_ms": 1773796654841,
+      "timestamp_iso": "2026-03-17T21:17:34.841000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\extract_html.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4d04f309\\3q9C.py",
+      "timestamp_ms": 1771434571937,
+      "timestamp_iso": "2026-02-18T12:09:31.937000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\fail_secure_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7cfc32c\\DVmr.py",
+      "timestamp_ms": 1773461653235,
+      "timestamp_iso": "2026-03-14T00:14:13.235000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\finding_dedup.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\ed729d4\\TKv1.py",
+      "timestamp_ms": 1773178426844,
+      "timestamp_iso": "2026-03-10T17:33:46.844000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\git_deep_scanner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2c696da\\0aHn.py",
+      "timestamp_ms": 1773166984358,
+      "timestamp_iso": "2026-03-10T14:23:04.358000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\28ea4781\\xuNX.py",
+      "timestamp_ms": 1775231885013,
+      "timestamp_iso": "2026-04-03T11:58:05.013000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\builder.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6bb5899e\\Bl87.py",
+      "timestamp_ms": 1775274453491,
+      "timestamp_iso": "2026-04-03T23:47:33.491000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\checkpointer_async.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1b072a9f\\BzrR.py",
+      "timestamp_ms": 1775463094928,
+      "timestamp_iso": "2026-04-06T04:11:34.928000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\cross_scan_memory.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-733df9a7\\Z93Q.py",
+      "timestamp_ms": 1775442340152,
+      "timestamp_iso": "2026-04-05T22:25:40.152000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7b5ccd0f\\KvX1.py",
+      "timestamp_ms": 1775270971684,
+      "timestamp_iso": "2026-04-03T22:49:31.684000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\builder.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2ef1a30e\\K07u.py",
+      "timestamp_ms": 1776358565495,
+      "timestamp_iso": "2026-04-16T12:56:05.495000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\handoff.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\68704fcd\\VWkp.py",
+      "timestamp_ms": 1775273526202,
+      "timestamp_iso": "2026-04-03T23:32:06.202000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\runner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3d57cef\\JzJg.py",
+      "timestamp_ms": 1775962385417,
+      "timestamp_iso": "2026-04-11T22:53:05.417000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\specialist_nodes.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1bc7b6be\\w8zn.py",
+      "timestamp_ms": 1776358565494,
+      "timestamp_iso": "2026-04-16T12:56:05.494000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\state.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\56ce51bc\\5cN8.py",
+      "timestamp_ms": 1775437205874,
+      "timestamp_iso": "2026-04-05T21:00:05.874000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\supervisor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1353d127\\RkuD.py",
+      "timestamp_ms": 1776358565493,
+      "timestamp_iso": "2026-04-16T12:56:05.493000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\supervisor_clean.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\e55f7cf\\flEb.py",
+      "timestamp_ms": 1775267958098,
+      "timestamp_iso": "2026-04-03T21:59:18.098000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\tests\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-30f83b7d\\IIvT.py",
+      "timestamp_ms": 1775198167963,
+      "timestamp_iso": "2026-04-03T02:36:07.963000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\tests\\test_multi_agent.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-74ba923f\\h3rl.py",
+      "timestamp_ms": 1775197804126,
+      "timestamp_iso": "2026-04-03T02:30:04.126000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\multi_agent\\worker_factory.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\120a0858\\TIPd.py",
+      "timestamp_ms": 1775442358026,
+      "timestamp_iso": "2026-04-05T22:25:58.026000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\nodes.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\148e850c\\RY4V.py",
+      "timestamp_ms": 1776358565485,
+      "timestamp_iso": "2026-04-16T12:56:05.485000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\production.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6b9d7478\\SgrW.py",
+      "timestamp_ms": 1775421327501,
+      "timestamp_iso": "2026-04-05T16:35:27.501000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\reasoning\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3f45a270\\46Xe.py",
+      "timestamp_ms": 1775196248172,
+      "timestamp_iso": "2026-04-03T02:04:08.172000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\reasoning\\builder.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7827e273\\UZ0v.py",
+      "timestamp_ms": 1775274453496,
+      "timestamp_iso": "2026-04-03T23:47:33.496000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\reasoning\\nodes.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7a49c15d\\hppN.py",
+      "timestamp_ms": 1776358565493,
+      "timestamp_iso": "2026-04-16T12:56:05.493000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\reasoning\\runner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-51063690\\vwxG.py",
+      "timestamp_ms": 1775962370290,
+      "timestamp_iso": "2026-04-11T22:52:50.290000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\reasoning\\state.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7a22bc83\\TEp8.py",
+      "timestamp_ms": 1775196248174,
+      "timestamp_iso": "2026-04-03T02:04:08.174000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\runner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5d4d7ba1\\6XRu.py",
+      "timestamp_ms": 1775962352759,
+      "timestamp_iso": "2026-04-11T22:52:32.759000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\state.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2022072c\\dlhj.py",
+      "timestamp_ms": 1775437100858,
+      "timestamp_iso": "2026-04-05T20:58:20.858000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph\\tracing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-d785025\\YBG1.py",
+      "timestamp_ms": 1776006678984,
+      "timestamp_iso": "2026-04-12T11:11:18.984000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph_integrations.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\626fb9a2\\xUr5.py",
+      "timestamp_ms": 1773873981231,
+      "timestamp_iso": "2026-03-18T18:46:21.231000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph_knowledge_base.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7da7816f\\hYWf.py",
+      "timestamp_ms": 1773873437049,
+      "timestamp_iso": "2026-03-18T18:37:17.049000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph_pathfinding.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2bef3ec9\\qpg8.py",
+      "timestamp_ms": 1773871165689,
+      "timestamp_iso": "2026-03-18T17:59:25.689000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph_persistence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6ff201f2\\gDSv.py",
+      "timestamp_ms": 1773873885831,
+      "timestamp_iso": "2026-03-18T18:44:45.831000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph_rendering.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-40162b7f\\7rBd.py",
+      "timestamp_ms": 1773871245767,
+      "timestamp_iso": "2026-03-18T18:00:45.767000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph_reporting.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4856c661\\J6jK.py",
+      "timestamp_ms": 1773873934277,
+      "timestamp_iso": "2026-03-18T18:45:34.277000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph_state_ops.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7ad67609\\6FYb.py",
+      "timestamp_ms": 1773873830732,
+      "timestamp_iso": "2026-03-18T18:43:50.732000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graph_suggestions.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2cb95842\\jXRT.py",
+      "timestamp_ms": 1773871322035,
+      "timestamp_iso": "2026-03-18T18:02:02.035000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\graphql_schema_cache.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-18c6bce8\\T5X1.py",
+      "timestamp_ms": 1772389366891,
+      "timestamp_iso": "2026-03-01T13:22:46.891000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\grpc_exploit_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3d131ff8\\Oj7M.py",
+      "timestamp_ms": 1773685277299,
+      "timestamp_iso": "2026-03-16T14:21:17.299000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3b3e4bb4\\GpSs.py",
+      "timestamp_ms": 1774669596213,
+      "timestamp_iso": "2026-03-27T23:46:36.213000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-33dd2d26\\B01d.py",
+      "timestamp_ms": 1775523600810,
+      "timestamp_iso": "2026-04-06T21:00:00.810000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\gpu_governor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-321de56d\\4cUG.py",
+      "timestamp_ms": 1775506800100,
+      "timestamp_iso": "2026-04-06T16:20:00.100000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\grammar.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\545ec0ab\\1U40.py",
+      "timestamp_ms": 1775441869622,
+      "timestamp_iso": "2026-04-05T22:17:49.622000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\kv_cache.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-52f8b352\\rVkn.py",
+      "timestamp_ms": 1774653344725,
+      "timestamp_iso": "2026-03-27T19:15:44.725000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\llama_backend.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-54b5b358\\hcuy.py",
+      "timestamp_ms": 1775523600850,
+      "timestamp_iso": "2026-04-06T21:00:00.850000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\model_management\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\459a602c\\xvoA.py",
+      "timestamp_ms": 1774669588269,
+      "timestamp_iso": "2026-03-27T23:46:28.269000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\model_management\\finetune_exporter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7275cefc\\Kzu3.py",
+      "timestamp_ms": 1774669433241,
+      "timestamp_iso": "2026-03-27T23:43:53.241000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\model_management\\model_benchmarker.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3601d93e\\u4Lq.py",
+      "timestamp_ms": 1774669171067,
+      "timestamp_iso": "2026-03-27T23:39:31.067000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\model_management\\model_cli.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1441d7c8\\QKCC.py",
+      "timestamp_ms": 1774670210189,
+      "timestamp_iso": "2026-03-27T23:56:50.189000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\model_management\\model_downloader.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-52893bef\\7tSv.py",
+      "timestamp_ms": 1774669077755,
+      "timestamp_iso": "2026-03-27T23:37:57.755000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\model_management\\model_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\13ff49c9\\O4kx.py",
+      "timestamp_ms": 1775506700085,
+      "timestamp_iso": "2026-04-06T16:18:20.085000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\model_management\\vram_selector.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\37be9f7c\\qeBh.py",
+      "timestamp_ms": 1774669432376,
+      "timestamp_iso": "2026-03-27T23:43:52.376000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\model_manager.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\859617b\\VNIq.py",
+      "timestamp_ms": 1775936186101,
+      "timestamp_iso": "2026-04-11T15:36:26.101000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\ollama_backend.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3043f101\\1CCT.py",
+      "timestamp_ms": 1775455791391,
+      "timestamp_iso": "2026-04-06T02:09:51.391000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\inference\\setup_local_llm.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6b6e2e7b\\tnHI.py",
+      "timestamp_ms": 1774832822203,
+      "timestamp_iso": "2026-03-29T21:07:02.203000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\install_helper.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5944f580\\5lCv.py",
+      "timestamp_ms": 1773914501841,
+      "timestamp_iso": "2026-03-19T06:01:41.841000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\integrations\\email_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-597dc097\\SpDl.py",
+      "timestamp_ms": 1773980858733,
+      "timestamp_iso": "2026-03-20T00:27:38.733000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\integrations\\mobile_api.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\11aa1b2f\\YRnN.py",
+      "timestamp_ms": 1774645393808,
+      "timestamp_iso": "2026-03-27T17:03:13.808000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\integrations\\siem_connector.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6898ab80\\McqA.py",
+      "timestamp_ms": 1774491429960,
+      "timestamp_iso": "2026-03-25T22:17:09.960000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\integrations\\wasm_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2d0d9ba7\\hn7S.py",
+      "timestamp_ms": 1774203653974,
+      "timestamp_iso": "2026-03-22T14:20:53.974000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\dns_intel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4552c595\\eoaO.py",
+      "timestamp_ms": 1774992992813,
+      "timestamp_iso": "2026-03-31T17:36:32.813000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\domain_intel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-140b22a2\\3VGg.py",
+      "timestamp_ms": 1773980858771,
+      "timestamp_iso": "2026-03-20T00:27:38.771000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\favicon_correlation.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-16c30e2\\GN0e.py",
+      "timestamp_ms": 1775016787434,
+      "timestamp_iso": "2026-04-01T00:13:07.434000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\github_client_base.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3b3eea50\\8RsK.py",
+      "timestamp_ms": 1775176837535,
+      "timestamp_iso": "2026-04-02T20:40:37.535000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\github_deep_recon.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7acad063\\tvNB.py",
+      "timestamp_ms": 1775177197875,
+      "timestamp_iso": "2026-04-02T20:46:37.875000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\github_search.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7cede8d1\\WfDY.py",
+      "timestamp_ms": 1775176880358,
+      "timestamp_iso": "2026-04-02T20:41:20.358000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\reverse_analytics.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1dd1becc\\xYBQ.py",
+      "timestamp_ms": 1774642489187,
+      "timestamp_iso": "2026-03-27T16:14:49.187000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\saas_integration_recon.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5e3ea88c\\u3g1.py",
+      "timestamp_ms": 1774619652667,
+      "timestamp_iso": "2026-03-27T09:54:12.667000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\threat_intel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3683c4c8\\sVnS.py",
+      "timestamp_ms": 1774235110958,
+      "timestamp_iso": "2026-03-22T23:05:10.958000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\vuln_database.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-167d8144\\JxkD.py",
+      "timestamp_ms": 1775377768351,
+      "timestamp_iso": "2026-04-05T04:29:28.351000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\intel\\vuln_intel_clients.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\38775758\\o8LR.py",
+      "timestamp_ms": 1773991569886,
+      "timestamp_iso": "2026-03-20T03:26:09.886000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\js_intelligence_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-177ccf61\\4SwK.py",
+      "timestamp_ms": 1773178236150,
+      "timestamp_iso": "2026-03-10T17:30:36.150000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\keyword_prefilter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\112576d7\\uz8h.py",
+      "timestamp_ms": 1771983283422,
+      "timestamp_iso": "2026-02-24T20:34:43.422000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\license_keygen.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-58e9631d\\ze53.py",
+      "timestamp_ms": 1773712176038,
+      "timestamp_iso": "2026-03-16T21:49:36.038000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\log_endpoint_scanner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5653fdfd\\vrVy.py",
+      "timestamp_ms": 1773461653210,
+      "timestamp_iso": "2026-03-14T00:14:13.210000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\309846c1\\Dssu.py",
+      "timestamp_ms": 1775274453505,
+      "timestamp_iso": "2026-04-03T23:47:33.505000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\ai_directed_executor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-158d7ee2\\2gXr.py",
+      "timestamp_ms": 1775931951445,
+      "timestamp_iso": "2026-04-11T14:25:51.445000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\attack_graph.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3e81b49a\\OXAA.py",
+      "timestamp_ms": 1776007005600,
+      "timestamp_iso": "2026-04-12T11:16:45.600000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\autonomous_loop.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a3c7faa\\VdtT.py",
+      "timestamp_ms": 1776047777996,
+      "timestamp_iso": "2026-04-12T22:36:17.996000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\campaign_strategy.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-389a33e5\\Jcjj.py",
+      "timestamp_ms": 1774762571057,
+      "timestamp_iso": "2026-03-29T01:36:11.057000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\confirmation_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7ad90e91\\mr3b.py",
+      "timestamp_ms": 1774672511966,
+      "timestamp_iso": "2026-03-28T00:35:11.966000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\exploit_report.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1d5daea9\\WIdV.py",
+      "timestamp_ms": 1774762331405,
+      "timestamp_iso": "2026-03-29T01:32:11.405000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\exploration_bias.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6530481c\\iPeM.py",
+      "timestamp_ms": 1774675483832,
+      "timestamp_iso": "2026-03-28T01:24:43.832000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\feedback_loop_breaker.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\84cfc72\\ZQfn.py",
+      "timestamp_ms": 1775452132414,
+      "timestamp_iso": "2026-04-06T01:08:52.414000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\graph_pruner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-31dc7428\\mguY.py",
+      "timestamp_ms": 1774675531787,
+      "timestamp_iso": "2026-03-28T01:25:31.787000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\invariant_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\19b04050\\1aLV.py",
+      "timestamp_ms": 1774672280634,
+      "timestamp_iso": "2026-03-28T00:31:20.634000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\loop_config.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\54446740\\YaLz.py",
+      "timestamp_ms": 1774677044068,
+      "timestamp_iso": "2026-03-28T01:50:44.068000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\parallel_executor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\9716d32\\enm8.py",
+      "timestamp_ms": 1774672421924,
+      "timestamp_iso": "2026-03-28T00:33:41.924000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\payload_evolution.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3949aad3\\4WxP.py",
+      "timestamp_ms": 1774674642573,
+      "timestamp_iso": "2026-03-28T01:10:42.573000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\race_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\25e5802d\\yDPv.py",
+      "timestamp_ms": 1774674550603,
+      "timestamp_iso": "2026-03-28T01:09:10.603000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\session_matrix.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\70923c47\\b4VJ.py",
+      "timestamp_ms": 1774674313865,
+      "timestamp_iso": "2026-03-28T01:05:13.865000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\signal_extraction.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7940fe7f\\k7yY.py",
+      "timestamp_ms": 1774676966065,
+      "timestamp_iso": "2026-03-28T01:49:26.065000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\target_selection.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\509dae73\\4s3d.py",
+      "timestamp_ms": 1774676805260,
+      "timestamp_iso": "2026-03-28T01:46:45.260000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\target_specialization.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1f093584\\jHxv.py",
+      "timestamp_ms": 1774675700084,
+      "timestamp_iso": "2026-03-28T01:28:20.084000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\value_scorer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\29b97723\\vkiS.py",
+      "timestamp_ms": 1774675422895,
+      "timestamp_iso": "2026-03-28T01:23:42.895000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\vector_reasoning.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-527f2ed1\\fjVo.py",
+      "timestamp_ms": 1774672357142,
+      "timestamp_iso": "2026-03-28T00:32:37.142000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\loop\\world_state.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\15a7a579\\gKj4.py",
+      "timestamp_ms": 1774655054041,
+      "timestamp_iso": "2026-03-27T19:44:14.041000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\mass_assignment_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4836deec\\XBGn.py",
+      "timestamp_ms": 1773166815641,
+      "timestamp_iso": "2026-03-10T14:20:15.641000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\mcp\\cognitive_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5f3ad371\\54i4.py",
+      "timestamp_ms": 1775951050694,
+      "timestamp_iso": "2026-04-11T19:44:10.694000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\mcp\\cognitive_tools.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-17b11325\\gugz.py",
+      "timestamp_ms": 1774710986713,
+      "timestamp_iso": "2026-03-28T11:16:26.713000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\mcp\\mcp_builtins.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-65f21578\\uPJ9.py",
+      "timestamp_ms": 1774041838442,
+      "timestamp_iso": "2026-03-20T17:23:58.442000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\mcp\\mcp_server.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-20a62cab\\9QWb.py",
+      "timestamp_ms": 1776012070525,
+      "timestamp_iso": "2026-04-12T12:41:10.525000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\mcp\\mcp_tools.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\722bd01b\\FbAs.py",
+      "timestamp_ms": 1775507230840,
+      "timestamp_iso": "2026-04-06T16:27:10.840000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\mcp_builtins.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a17427d\\FATx.py",
+      "timestamp_ms": 1773882021702,
+      "timestamp_iso": "2026-03-18T21:00:21.702000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\misc\\audit_trail.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5bd79273\\oSJH.py",
+      "timestamp_ms": 1775377451856,
+      "timestamp_iso": "2026-04-05T04:24:11.856000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\misc\\init_wizard.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7ee0d89b\\kDQw.py",
+      "timestamp_ms": 1774506580111,
+      "timestamp_iso": "2026-03-26T02:29:40.111000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\misc\\strategy.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2a7abf86\\MJcR.py",
+      "timestamp_ms": 1773914501880,
+      "timestamp_iso": "2026-03-19T06:01:41.880000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\misc\\tool_abstraction.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4a9a34fa\\qE94.py",
+      "timestamp_ms": 1774046907275,
+      "timestamp_iso": "2026-03-20T18:48:27.275000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\misc\\tool_chain_advisor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\69abc99e\\yoAz.py",
+      "timestamp_ms": 1774422965780,
+      "timestamp_iso": "2026-03-25T03:16:05.780000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\module_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7099374\\KzxI.py",
+      "timestamp_ms": 1773098255190,
+      "timestamp_iso": "2026-03-09T19:17:35.190000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\network\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\592a45a1\\qEYS.py",
+      "timestamp_ms": 1774220416822,
+      "timestamp_iso": "2026-03-22T19:00:16.822000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\network\\dns_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\248e0a1b\\XaA4.py",
+      "timestamp_ms": 1774314541393,
+      "timestamp_iso": "2026-03-23T21:09:01.393000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\network\\http2_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\18710d9c\\U6p1.py",
+      "timestamp_ms": 1774587647079,
+      "timestamp_iso": "2026-03-27T01:00:47.079000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\network\\network_safety.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-62745ff2\\3xQG.py",
+      "timestamp_ms": 1774206818916,
+      "timestamp_iso": "2026-03-22T15:13:38.916000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\network\\port_scanner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3f9430cf\\xeYk.py",
+      "timestamp_ms": 1774220594649,
+      "timestamp_iso": "2026-03-22T19:03:14.649000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\network\\tls_fingerprint.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\286a9c1d\\oSiy.py",
+      "timestamp_ms": 1774219152390,
+      "timestamp_iso": "2026-03-22T18:39:12.390000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\network\\tls_posture_report.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7c455ebe\\3Tve.py",
+      "timestamp_ms": 1774218798299,
+      "timestamp_iso": "2026-03-22T18:33:18.299000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\network\\tls_scanner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7dcb35c3\\IF0Y.py",
+      "timestamp_ms": 1774219435615,
+      "timestamp_iso": "2026-03-22T18:43:55.615000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\notifications\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2242791b\\KSgf.py",
+      "timestamp_ms": 1771701172480,
+      "timestamp_iso": "2026-02-21T14:12:52.480000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\notifications\\discord.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\64402657\\QLlW.py",
+      "timestamp_ms": 1771701119511,
+      "timestamp_iso": "2026-02-21T14:11:59.511000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\notifications\\email_smtp.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-593480ce\\Rv4y.py",
+      "timestamp_ms": 1772085860439,
+      "timestamp_iso": "2026-02-26T01:04:20.439000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\notifications\\ntfy_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\42c8e1b2\\Wf6i.py",
+      "timestamp_ms": 1771305791300,
+      "timestamp_iso": "2026-02-17T00:23:11.300000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\notifications\\slack.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-36fe38d\\MmAT.py",
+      "timestamp_ms": 1771701084280,
+      "timestamp_iso": "2026-02-21T14:11:24.280000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\notifications\\teams.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-d49c773\\XV60.py",
+      "timestamp_ms": 1771701103507,
+      "timestamp_iso": "2026-02-21T14:11:43.507000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\notifications\\webhook.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5705e52c\\wwie.py",
+      "timestamp_ms": 1772085860439,
+      "timestamp_iso": "2026-02-26T01:04:20.439000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\nuclei_health.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3ffb3335\\bgLI.py",
+      "timestamp_ms": 1773165987059,
+      "timestamp_iso": "2026-03-10T14:06:27.059000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\objective_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\597aedca\\fryM.py",
+      "timestamp_ms": 1776148358409,
+      "timestamp_iso": "2026-04-14T02:32:38.409000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\operator_trust_dashboard.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-75279940\\73eI.py",
+      "timestamp_ms": 1776318795577,
+      "timestamp_iso": "2026-04-16T01:53:15.577000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\opportunity_scoring.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-39a65387\\Dkb9.py",
+      "timestamp_ms": 1773639010960,
+      "timestamp_iso": "2026-03-16T01:30:10.960000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\orchestrator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3c73f788\\DH4O.py",
+      "timestamp_ms": 1773445195430,
+      "timestamp_iso": "2026-03-13T19:39:55.430000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3b8e9161\\O7qq.py",
+      "timestamp_ms": 1774231775515,
+      "timestamp_iso": "2026-03-22T22:09:35.515000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\_common.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7c92b14d\\1llK.py",
+      "timestamp_ms": 1774230122222,
+      "timestamp_iso": "2026-03-22T21:42:02.222000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\_result_cache.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4a8229a2\\S9Tl.py",
+      "timestamp_ms": 1774229991899,
+      "timestamp_iso": "2026-03-22T21:39:51.899000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\alienvault_otx_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6bafdbae\\HLd6.py",
+      "timestamp_ms": 1774230406228,
+      "timestamp_iso": "2026-03-22T21:46:46.228000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\bgpview_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-38c35289\\4oFt.py",
+      "timestamp_ms": 1774230328575,
+      "timestamp_iso": "2026-03-22T21:45:28.575000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\chaos_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2d56ad87\\dSgp.py",
+      "timestamp_ms": 1771385608971,
+      "timestamp_iso": "2026-02-17T22:33:28.971000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\circuit_breaker.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1c2a5b59\\0nUo.py",
+      "timestamp_ms": 1774229834670,
+      "timestamp_iso": "2026-03-22T21:37:14.670000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\crtsh_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6cacf081\\qGTz.py",
+      "timestamp_ms": 1774230317149,
+      "timestamp_iso": "2026-03-22T21:45:17.149000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\dehashed_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-731b54bf\\5Znh.py",
+      "timestamp_ms": 1771385589082,
+      "timestamp_iso": "2026-02-17T22:33:09.082000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\email_intel_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1262d3a\\Xmk3.py",
+      "timestamp_ms": 1774230406442,
+      "timestamp_iso": "2026-03-22T21:46:46.442000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\fofa_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\74176c17\\XG0H.py",
+      "timestamp_ms": 1771385505522,
+      "timestamp_iso": "2026-02-17T22:31:45.522000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\hackertarget_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\56ab1bb2\\eLl8.py",
+      "timestamp_ms": 1771386781417,
+      "timestamp_iso": "2026-02-17T22:53:01.417000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\hunterio_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1a15a7f9\\e5Kd.py",
+      "timestamp_ms": 1771385535232,
+      "timestamp_iso": "2026-02-17T22:32:15.232000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\netintel_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\83e2cec\\ZdwS.py",
+      "timestamp_ms": 1774231756284,
+      "timestamp_iso": "2026-03-22T22:09:16.284000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\netlas_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\249bfdf4\\rPBC.py",
+      "timestamp_ms": 1771385564458,
+      "timestamp_iso": "2026-02-17T22:32:44.458000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\provider_registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6bc5082e\\VpKF.py",
+      "timestamp_ms": 1774229896461,
+      "timestamp_iso": "2026-03-22T21:38:16.461000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\rdap_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5dc9d674\\TEyK.py",
+      "timestamp_ms": 1774230338987,
+      "timestamp_iso": "2026-03-22T21:45:38.987000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\schemas.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1a0d0dcb\\y4Nn.py",
+      "timestamp_ms": 1774229956312,
+      "timestamp_iso": "2026-03-22T21:39:16.312000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\securitytrails_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\4d567880\\j0oQ.py",
+      "timestamp_ms": 1771385686358,
+      "timestamp_iso": "2026-02-17T22:34:46.358000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\subdomain_aggregator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-33177133\\OhL9.py",
+      "timestamp_ms": 1774231756364,
+      "timestamp_iso": "2026-03-22T22:09:16.364000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\whoxy_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\405686\\RuGv.py",
+      "timestamp_ms": 1771385635578,
+      "timestamp_iso": "2026-02-17T22:33:55.578000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\osint_providers\\xposedornot_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-38c21d44\\kwb4.py",
+      "timestamp_ms": 1774230347675,
+      "timestamp_iso": "2026-03-22T21:45:47.675000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\compliance_pkg.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1111e6ba\\Qzgk.py",
+      "timestamp_ms": 1773898828671,
+      "timestamp_iso": "2026-03-19T01:40:28.671000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\compliance_pkg\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3a9926a9\\YIBC.py",
+      "timestamp_ms": 1773898873232,
+      "timestamp_iso": "2026-03-19T01:41:13.232000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\compliance_pkg\\data.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\211e528f\\ZypL.py",
+      "timestamp_ms": 1774340322190,
+      "timestamp_iso": "2026-03-24T04:18:42.190000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\compliance_pkg\\mapper.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2dbd7fe8\\kHZY.py",
+      "timestamp_ms": 1773898878453,
+      "timestamp_iso": "2026-03-19T01:41:18.453000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\correlation_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-e35f191\\YIEm.py",
+      "timestamp_ms": 1774996024783,
+      "timestamp_iso": "2026-03-31T18:27:04.783000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\dashboard_renderer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\18d1a1a0\\Gq9f.py",
+      "timestamp_ms": 1774121526350,
+      "timestamp_iso": "2026-03-21T15:32:06.350000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\finding_stream.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1733a538\\HG4G.py",
+      "timestamp_ms": 1774049211961,
+      "timestamp_iso": "2026-03-20T19:26:51.961000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\findings_formatter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2fe48979\\ygFj.py",
+      "timestamp_ms": 1776045877728,
+      "timestamp_iso": "2026-04-12T22:04:37.728000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\html_poc_generator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-61acf116\\S4uS.py",
+      "timestamp_ms": 1774480723284,
+      "timestamp_iso": "2026-03-25T19:18:43.284000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\output_formats.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\659f5310\\dgRA.py",
+      "timestamp_ms": 1776320528036,
+      "timestamp_iso": "2026-04-16T02:22:08.036000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\poc_generator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-f955cf8\\WQyn.py",
+      "timestamp_ms": 1774121526349,
+      "timestamp_iso": "2026-03-21T15:32:06.349000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\reporter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-58dd0153\\TNaR.py",
+      "timestamp_ms": 1774980222037,
+      "timestamp_iso": "2026-03-31T14:03:42.037000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output\\sbom_generator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-65614b33\\76gg.py",
+      "timestamp_ms": 1774589201146,
+      "timestamp_iso": "2026-03-27T01:26:41.146000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\output_formats.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-56c0214c\\whrf.py",
+      "timestamp_ms": 1772868656214,
+      "timestamp_iso": "2026-03-07T02:30:56.214000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\pipeline\\full_scan_orchestrator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\c954133\\ebuE.py",
+      "timestamp_ms": 1776354532317,
+      "timestamp_iso": "2026-04-16T11:48:52.317000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\pipeline\\orchestrator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\23b29545\\vrpx.py",
+      "timestamp_ms": 1774148368553,
+      "timestamp_iso": "2026-03-21T22:59:28.553000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\pipeline\\pipeline_tracing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-39c43036\\zPIB.py",
+      "timestamp_ms": 1774234915974,
+      "timestamp_iso": "2026-03-22T23:01:55.974000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\pipeline\\resource_monitor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\16b88746\\BFat.py",
+      "timestamp_ms": 1775949318242,
+      "timestamp_iso": "2026-04-11T19:15:18.242000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\pipeline\\worker.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2343c02f\\zWm3.py",
+      "timestamp_ms": 1776354320035,
+      "timestamp_iso": "2026-04-16T11:45:20.035000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\planner_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-53f3ccc4\\W1K5.py",
+      "timestamp_ms": 1772263571378,
+      "timestamp_iso": "2026-02-28T02:26:11.378000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\postmessage_analyzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-584c05ec\\i8hw.py",
+      "timestamp_ms": 1773134472145,
+      "timestamp_iso": "2026-03-10T05:21:12.145000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\reasoning_display.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3592e45\\5CX4.py",
+      "timestamp_ms": 1771006234190,
+      "timestamp_iso": "2026-02-13T13:10:34.190000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon\\assessment_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-63c6ece3\\dQK7.py",
+      "timestamp_ms": 1775318892875,
+      "timestamp_iso": "2026-04-04T12:08:12.875000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon\\recon_context.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2f775fe3\\9LzM.py",
+      "timestamp_ms": 1776135084375,
+      "timestamp_iso": "2026-04-13T22:51:24.375000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon\\recon_pipeline.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7ec28a00\\ZWPm.py",
+      "timestamp_ms": 1776320597920,
+      "timestamp_iso": "2026-04-16T02:23:17.920000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon\\tier2_recon.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\10bb219c\\0uCt.py",
+      "timestamp_ms": 1774422966032,
+      "timestamp_iso": "2026-03-25T03:16:06.032000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\417a6ff8\\HZZz.py",
+      "timestamp_ms": 1771273631250,
+      "timestamp_iso": "2026-02-16T15:27:11.250000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\__main__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-72fc66d2\\TFly.py",
+      "timestamp_ms": 1775058436906,
+      "timestamp_iso": "2026-04-01T11:47:16.906000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\_apply_eventbus_delegators.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7367c612\\DKeu.py",
+      "timestamp_ms": 1773865054127,
+      "timestamp_iso": "2026-03-18T16:17:34.127000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\_apply_llm_delegators.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6701c2b5\\ypBL.py",
+      "timestamp_ms": 1773864946637,
+      "timestamp_iso": "2026-03-18T16:15:46.637000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\_apply_session_delegators.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-64856962\\QQ8a.py",
+      "timestamp_ms": 1773864855147,
+      "timestamp_iso": "2026-03-18T16:14:15.147000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\llm_helpers.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5ddc7454\\59CN.py",
+      "timestamp_ms": 1775711756467,
+      "timestamp_iso": "2026-04-09T01:15:56.467000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\phase_handlers\\infrastructure.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-a8a38fe\\txty.py",
+      "timestamp_ms": 1774317976846,
+      "timestamp_iso": "2026-03-23T22:06:16.846000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_dashboard\\routes_findings.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\37760ca8\\u7zD.py",
+      "timestamp_ms": 1775606098777,
+      "timestamp_iso": "2026-04-07T19:54:58.777000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\recon_transport.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1efa9f43\\4dgH.py",
+      "timestamp_ms": 1772402200619,
+      "timestamp_iso": "2026-03-01T16:56:40.619000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\registry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4da0438b\\72xO.py",
+      "timestamp_ms": 1772383804343,
+      "timestamp_iso": "2026-03-01T11:50:04.343000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\reporting\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3062e91f\\HZ0e.py",
+      "timestamp_ms": 1772446933033,
+      "timestamp_iso": "2026-03-02T05:22:13.033000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\reporting\\defectdojo_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-565afd6c\\tVPF.py",
+      "timestamp_ms": 1773980859182,
+      "timestamp_iso": "2026-03-20T00:27:39.182000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\reporting\\jira_client.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\46b1b681\\XI35.py",
+      "timestamp_ms": 1773711132650,
+      "timestamp_iso": "2026-03-16T21:32:12.650000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\reporting\\sarif_reporter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7e22618e\\sxnz.py",
+      "timestamp_ms": 1773711119000,
+      "timestamp_iso": "2026-03-16T21:31:59"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\results.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3a612c86\\z7Yl.py",
+      "timestamp_ms": 1772868656092,
+      "timestamp_iso": "2026-03-07T02:30:56.092000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\rl_reward_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-612aa85b\\WaWi.py",
+      "timestamp_ms": 1773642847157,
+      "timestamp_iso": "2026-03-16T02:34:07.157000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanner_providers.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\66b69ebb\\8JBH.py",
+      "timestamp_ms": 1773913074859,
+      "timestamp_iso": "2026-03-19T05:37:54.859000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\api_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3ac025bd\\hEum.py",
+      "timestamp_ms": 1774994777050,
+      "timestamp_iso": "2026-03-31T18:06:17.050000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\business_logic.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\68c76a63\\kl7y.py",
+      "timestamp_ms": 1774230694036,
+      "timestamp_iso": "2026-03-22T21:51:34.036000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\command_injection.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2d779317\\rl23.py",
+      "timestamp_ms": 1774236466584,
+      "timestamp_iso": "2026-03-22T23:27:46.584000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\cors.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\671613d5\\FjMJ.py",
+      "timestamp_ms": 1776132883101,
+      "timestamp_iso": "2026-04-13T22:14:43.101000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\csrf.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6de38d7e\\68ec.py",
+      "timestamp_ms": 1774992992819,
+      "timestamp_iso": "2026-03-31T17:36:32.819000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\defensive_posture.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\17ed42b0\\Qvtd.py",
+      "timestamp_ms": 1775013904799,
+      "timestamp_iso": "2026-03-31T23:25:04.799000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\deserialize.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5082c88d\\dJkN.py",
+      "timestamp_ms": 1774232869761,
+      "timestamp_iso": "2026-03-22T22:27:49.761000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\dom_xss_analyzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a5261d8\\6V3v.py",
+      "timestamp_ms": 1774039712788,
+      "timestamp_iso": "2026-03-20T16:48:32.788000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\event_integration.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3dfcea9d\\b8uz.py",
+      "timestamp_ms": 1774041554987,
+      "timestamp_iso": "2026-03-20T17:19:14.987000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\finding_enrichment.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\50481e69\\zCnJ.py",
+      "timestamp_ms": 1774041580462,
+      "timestamp_iso": "2026-03-20T17:19:40.462000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\idor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6e74925c\\bCrE.py",
+      "timestamp_ms": 1774994787104,
+      "timestamp_iso": "2026-03-31T18:06:27.104000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\incremental_scanner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\70c0f633\\G4rH.py",
+      "timestamp_ms": 1775377768352,
+      "timestamp_iso": "2026-04-05T04:29:28.352000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\injection.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7655ca8b\\DBtB.py",
+      "timestamp_ms": 1774589194142,
+      "timestamp_iso": "2026-03-27T01:26:34.142000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\ldap_injection.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-aa371bd\\8VVI.py",
+      "timestamp_ms": 1774633608105,
+      "timestamp_iso": "2026-03-27T13:46:48.105000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\nosql.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-bf2cb61\\eYxS.py",
+      "timestamp_ms": 1774238695126,
+      "timestamp_iso": "2026-03-23T00:04:55.126000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\oauth.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7ae94a35\\06Hx.py",
+      "timestamp_ms": 1774039395798,
+      "timestamp_iso": "2026-03-20T16:43:15.798000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\path_traversal.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6feb8ac2\\zmk6.py",
+      "timestamp_ms": 1774633608113,
+      "timestamp_iso": "2026-03-27T13:46:48.113000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\prototype_pollution.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2c9e3e7f\\rKKu.py",
+      "timestamp_ms": 1774227240850,
+      "timestamp_iso": "2026-03-22T20:54:00.850000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\saml_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\60fe531a\\h81M.py",
+      "timestamp_ms": 1774633635301,
+      "timestamp_iso": "2026-03-27T13:47:15.301000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\scan_intelligence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\207003cb\\GDNP.py",
+      "timestamp_ms": 1775369627429,
+      "timestamp_iso": "2026-04-05T02:13:47.429000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\scanner_hooks.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1a80c563\\ZfMF.py",
+      "timestamp_ms": 1776320453161,
+      "timestamp_iso": "2026-04-16T02:20:53.161000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\scanner_utilities.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-35aefdfd\\Z0nC.py",
+      "timestamp_ms": 1774229815611,
+      "timestamp_iso": "2026-03-22T21:36:55.611000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\smuggling.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1e57b9e5\\wJK8.py",
+      "timestamp_ms": 1774236094573,
+      "timestamp_iso": "2026-03-22T23:21:34.573000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\spa_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\18156a47\\0NZT.py",
+      "timestamp_ms": 1775071355364,
+      "timestamp_iso": "2026-04-01T15:22:35.364000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\sql_injection.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6e4cbdc6\\fEze.py",
+      "timestamp_ms": 1774223366786,
+      "timestamp_iso": "2026-03-22T19:49:26.786000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\ssrf.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-43b8be72\\5aMm.py",
+      "timestamp_ms": 1774340330458,
+      "timestamp_iso": "2026-03-24T04:18:50.458000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\ssrf_advanced.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1d1a609f\\zfvi.py",
+      "timestamp_ms": 1774232944108,
+      "timestamp_iso": "2026-03-22T22:29:04.108000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\ssrf_cartographer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7d6496cb\\MBZH.py",
+      "timestamp_ms": 1773980859948,
+      "timestamp_iso": "2026-03-20T00:27:39.948000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\telemetry.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6ce838ad\\qRrH.py",
+      "timestamp_ms": 1774041563323,
+      "timestamp_iso": "2026-03-20T17:19:23.323000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\waf.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-783ebaf0\\OEH8.py",
+      "timestamp_ms": 1774226572035,
+      "timestamp_iso": "2026-03-22T20:42:52.035000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\waf_adaptive.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4659cf77\\fBzy.py",
+      "timestamp_ms": 1774227284853,
+      "timestamp_iso": "2026-03-22T20:54:44.853000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\waf_payload_adapter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\65cbaf51\\8FJS.py",
+      "timestamp_ms": 1774226572022,
+      "timestamp_iso": "2026-03-22T20:42:52.022000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\websocket_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1213f056\\snpc.py",
+      "timestamp_ms": 1774994672440,
+      "timestamp_iso": "2026-03-31T18:04:32.440000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\xpath_injection.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2d0e1217\\zlDc.py",
+      "timestamp_ms": 1774633608113,
+      "timestamp_iso": "2026-03-27T13:46:48.113000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\xss_confirmer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-712aaf5a\\Jgbx.py",
+      "timestamp_ms": 1774229958089,
+      "timestamp_iso": "2026-03-22T21:39:18.089000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\scanners\\xxe.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-75463a19\\00i2.py",
+      "timestamp_ms": 1774233385046,
+      "timestamp_iso": "2026-03-22T22:36:25.046000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\secret_patterns_expanded.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5f0b4c\\FnVy.py",
+      "timestamp_ms": 1773543312624,
+      "timestamp_iso": "2026-03-14T22:55:12.624000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\secrets\\git_history_scanner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5cc22ee2\\yvwW.py",
+      "timestamp_ms": 1774642489187,
+      "timestamp_iso": "2026-03-27T16:14:49.187000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\secrets\\secret_patterns_expanded.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-3bb0d000\\x3Co.py",
+      "timestamp_ms": 1774422965528,
+      "timestamp_iso": "2026-03-25T03:16:05.528000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\secrets\\secrets_scanner.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\57e7e746\\3o7y.py",
+      "timestamp_ms": 1774642489187,
+      "timestamp_iso": "2026-03-27T16:14:49.187000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\session_auth\\campaign_intelligence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\59637c62\\qDo1.py",
+      "timestamp_ms": 1775772570739,
+      "timestamp_iso": "2026-04-09T18:09:30.739000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\session_auth\\licensing.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7224974e\\WqyA.py",
+      "timestamp_ms": 1776047778016,
+      "timestamp_iso": "2026-04-12T22:36:18.016000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\session_auth\\session_fixation_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\11d8041b\\zjnF.py",
+      "timestamp_ms": 1774507499724,
+      "timestamp_iso": "2026-03-26T02:44:59.724000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\session_auth\\session_intelligence.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5d7222d6\\S5Kg.py",
+      "timestamp_ms": 1775765455735,
+      "timestamp_iso": "2026-04-09T16:10:55.735000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\session_fixation_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\23c6b7e7\\VZAw.py",
+      "timestamp_ms": 1773166734576,
+      "timestamp_iso": "2026-03-10T14:18:54.576000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\signal_contracts.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6fce71c8\\RHQI.py",
+      "timestamp_ms": 1776317764933,
+      "timestamp_iso": "2026-04-16T01:36:04.933000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\signal_tracer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6095b348\\4sbb.py",
+      "timestamp_ms": 1776317812927,
+      "timestamp_iso": "2026-04-16T01:36:52.927000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\soap_wsdl_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1414facc\\rJkX.py",
+      "timestamp_ms": 1773166542673,
+      "timestamp_iso": "2026-03-10T14:15:42.673000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\ssrf_dns_bridge.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\659b0712\\S8gc.py",
+      "timestamp_ms": 1773178079527,
+      "timestamp_iso": "2026-03-10T17:27:59.527000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\state_machine_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\23c11e0d\\o5wR.py",
+      "timestamp_ms": 1773166118537,
+      "timestamp_iso": "2026-03-10T14:08:38.537000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\static\\extract_phase_a.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-9888d6c\\y23D.py",
+      "timestamp_ms": 1772447553290,
+      "timestamp_iso": "2026-03-02T05:32:33.290000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\static\\rewrite_template.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2351382e\\16IQ.py",
+      "timestamp_ms": 1772447553308,
+      "timestamp_iso": "2026-03-02T05:32:33.308000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\static\\verify_intercept.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1543af1f\\ytqT.py",
+      "timestamp_ms": 1771618282577,
+      "timestamp_iso": "2026-02-20T15:11:22.577000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\static\\verify_phase_a.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5cd21c\\mhGx.py",
+      "timestamp_ms": 1771614175902,
+      "timestamp_iso": "2026-02-20T14:02:55.902000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\static\\verify_phase_b.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5c5dbd\\jxMu.py",
+      "timestamp_ms": 1771615178429,
+      "timestamp_iso": "2026-02-20T14:19:38.429000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\static\\verify_spa_shell.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\6113df2c\\BVe9.py",
+      "timestamp_ms": 1771617910759,
+      "timestamp_iso": "2026-02-20T15:05:10.759000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\strategy\\_build_facade.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-53cf0ffc\\BEET.py",
+      "timestamp_ms": 1771619168536,
+      "timestamp_iso": "2026-02-20T15:26:08.536000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\strategy\\_build_modules.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3b503289\\uVpq.py",
+      "timestamp_ms": 1772441862457,
+      "timestamp_iso": "2026-03-02T03:57:42.457000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\subdomain_active.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\159faa91\\ya0h.py",
+      "timestamp_ms": 1773878849982,
+      "timestamp_iso": "2026-03-18T20:07:29.982000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\subdomain_passive.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a102590\\qjZE.py",
+      "timestamp_ms": 1773876435436,
+      "timestamp_iso": "2026-03-18T19:27:15.436000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\subdomain_takeover_ext.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-78d70786\\deky.py",
+      "timestamp_ms": 1773801042619,
+      "timestamp_iso": "2026-03-17T22:30:42.619000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\supply_chain_deep.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-50f5493e\\hcZS.py",
+      "timestamp_ms": 1773617928428,
+      "timestamp_iso": "2026-03-15T19:38:48.428000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\testing_tools\\evasion_engine.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7ce4e933\\TMtl.py",
+      "timestamp_ms": 1773980858855,
+      "timestamp_iso": "2026-03-20T00:27:38.855000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\testing_tools\\fuzzer.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\64e04f33\\JAVQ.py",
+      "timestamp_ms": 1774230388553,
+      "timestamp_iso": "2026-03-22T21:46:28.553000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\testing_tools\\intercept.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-40966783\\29pM.py",
+      "timestamp_ms": 1774121526351,
+      "timestamp_iso": "2026-03-21T15:32:06.351000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\tool_wrappers\\_adaptive_rate.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-416c4800\\FSco.py",
+      "timestamp_ms": 1774213344601,
+      "timestamp_iso": "2026-03-22T17:02:24.601000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\tool_wrappers\\_capabilities.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\36c8120f\\VLM4.py",
+      "timestamp_ms": 1774033327747,
+      "timestamp_iso": "2026-03-20T15:02:07.747000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\tool_wrappers\\_doctor.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2be2a17a\\OLty.py",
+      "timestamp_ms": 1771384908290,
+      "timestamp_iso": "2026-02-17T22:21:48.290000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\tool_wrappers\\_lockfile.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5a6ac9fe\\zULY.py",
+      "timestamp_ms": 1771384924738,
+      "timestamp_iso": "2026-02-17T22:22:04.738000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\tool_wrappers\\_policy.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7000926d\\IMuq.py",
+      "timestamp_ms": 1775801398252,
+      "timestamp_iso": "2026-04-10T02:09:58.252000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_database.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\620fc263\\X9UP.py",
+      "timestamp_ms": 1773880115496,
+      "timestamp_iso": "2026-03-18T20:28:35.496000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\25bd95f5\\8gXR.py",
+      "timestamp_ms": 1771652402670,
+      "timestamp_iso": "2026-02-21T00:40:02.670000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel\\clients.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-692c401f\\hsWc.py",
+      "timestamp_ms": 1773991642404,
+      "timestamp_iso": "2026-03-20T03:27:22.404000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel\\correlator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-fdea884\\oetD.py",
+      "timestamp_ms": 1772312773553,
+      "timestamp_iso": "2026-02-28T16:06:13.553000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel\\data.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\5f1647db\\3BEc.py",
+      "timestamp_ms": 1772500970774,
+      "timestamp_iso": "2026-03-02T20:22:50.774000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel\\database.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\7dae516a\\3QzP.py",
+      "timestamp_ms": 1775377768351,
+      "timestamp_iso": "2026-04-05T04:29:28.351000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel\\hub.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-70e9692c\\roW9.py",
+      "timestamp_ms": 1772946074088,
+      "timestamp_iso": "2026-03-08T00:01:14.088000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel\\mapper.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\72125264\\gXhg.py",
+      "timestamp_ms": 1772729550228,
+      "timestamp_iso": "2026-03-05T11:52:30.228000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel\\models.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6cca3665\\VCGi.py",
+      "timestamp_ms": 1772729500845,
+      "timestamp_iso": "2026-03-05T11:51:40.845000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel_clients.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-7e4abbef\\UORf.py",
+      "timestamp_ms": 1773880219147,
+      "timestamp_iso": "2026-03-18T20:30:19.147000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\vuln_intel_correlator.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\49b7254c\\8qap.py",
+      "timestamp_ms": 1773880153099,
+      "timestamp_iso": "2026-03-18T20:29:13.099000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\waf_payload_adapter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5663f5f\\SvS4.py",
+      "timestamp_ms": 1773178161393,
+      "timestamp_iso": "2026-03-10T17:29:21.393000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\waf_payload_tester.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\3fc422df\\J7rs.py",
+      "timestamp_ms": 1773134180939,
+      "timestamp_iso": "2026-03-10T05:16:20.939000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\wasm_analysis\\__init__.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-5d3ee036\\Rv7C.py",
+      "timestamp_ms": 1773517613464,
+      "timestamp_iso": "2026-03-14T15:46:53.464000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\wasm_analysis\\_types.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-4d46e660\\oOKl.py",
+      "timestamp_ms": 1773517661151,
+      "timestamp_iso": "2026-03-14T15:47:41.151000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\wasm_analysis\\data_flow.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\212063b1\\fnRP.py",
+      "timestamp_ms": 1773517892510,
+      "timestamp_iso": "2026-03-14T15:51:32.510000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\wasm_analysis\\side_channel.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\35d0451f\\jwbV.py",
+      "timestamp_ms": 1773517962965,
+      "timestamp_iso": "2026-03-14T15:52:42.965000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\wasm_analysis\\wasi_deep.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-1524cbd7\\bSjx.py",
+      "timestamp_ms": 1773518032097,
+      "timestamp_iso": "2026-03-14T15:53:52.097000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\wasm_analysis\\wat_decompiler.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-36f3345b\\wl13.py",
+      "timestamp_ms": 1773517816816,
+      "timestamp_iso": "2026-03-14T15:50:16.816000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\websocket.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-6a6e5e2b\\sI7X.py",
+      "timestamp_ms": 1771003910337,
+      "timestamp_iso": "2026-02-13T12:31:50.337000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\webtransport_security.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\1a415952\\gxhZ.py",
+      "timestamp_ms": 1773613984748,
+      "timestamp_iso": "2026-03-15T18:33:04.748000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\wildcard_filter.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\-2682d761\\zBwG.py",
+      "timestamp_ms": 1773878921186,
+      "timestamp_iso": "2026-03-18T20:08:41.186000"
+    },
+    {
+      "target": "c:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\xss.py",
+      "snapshot": "C:\\Users\\ya754\\AppData\\Roaming\\Code\\User\\History\\2bb45ee4\\J16x.py",
+      "timestamp_ms": 1772259093092,
+      "timestamp_iso": "2026-02-28T01:11:33.092000"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "verdict": "PASS",
+  "invariants_hold": true,
+  "duplicates_detected": 0,
+  "state_regressions": 0,
+  "orphan_recoveries_correct": true,
+  "snapshot_sse_consistency": true,
+  "blockers_proven": {
+    "INV-001": true,
+    "INV-002": true,
+    "INV-003": true,
+    "INV-005": true
+  },
+  "total_violations": 0,
+  "scenarios": [
+    {
+      "scenario": "burst_500",
+      "actions_tested": 500,
+      "violations": 0,
+      "violation_details": [],
+      "elapsed_ms": 97.8
+    },
+    {
+      "scenario": "duplicate_sse",
+      "actions_tested": 20,
+      "violations": 0,
+      "violation_details": [],
+      "elapsed_ms": 4.9
+    },
+    {
+      "scenario": "out_of_order",
+      "actions_tested": 50,
+      "violations": 0,
+      "violation_details": [],
+      "elapsed_ms": 10.7
+    },
+    {
+      "scenario": "orphan_snapshot_recovery",
+      "actions_tested": 30,
+      "violations": 0,
+      "violation_details": [],
+      "elapsed_ms": 4.9
+    },
+    {
+      "scenario": "snapshot_sse_race",
+      "actions_tested": 40,
+      "violations": 0,
+      "violation_details": [],
+      "elapsed_ms": 4.6
+    }
+  ],
+  "final_history_depth": 200
+}

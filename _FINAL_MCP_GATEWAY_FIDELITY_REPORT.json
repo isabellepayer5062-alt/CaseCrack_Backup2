@@ -1,0 +1,187 @@
+{
+  "verdict": "GO",
+  "checks": [
+    {
+      "name": "tool_fidelity::list_targets",
+      "passed": true,
+      "details": {
+        "direct_is_error": false,
+        "gateway_http_status": 200,
+        "direct_status": "ok",
+        "gateway_status": "ok",
+        "direct_code": null,
+        "gateway_code": null,
+        "direct_request_id": "direct-list_targets-fid",
+        "gateway_request_id": "fee66ad42b31",
+        "shape_match": true,
+        "direct_shape": {
+          "artifacts": "list",
+          "next_suggested_tools": "list",
+          "ok": "bool",
+          "request_id": "str",
+          "run_id": "str",
+          "summary": "str",
+          "tool": "str"
+        },
+        "gateway_shape": {
+          "artifacts": "list",
+          "next_suggested_tools": "list",
+          "ok": "bool",
+          "request_id": "str",
+          "run_id": "str",
+          "status": "str",
+          "summary": "str",
+          "tenant_id": "str",
+          "timestamp": "str",
+          "tool": "str"
+        },
+        "direct_core_shape": {
+          "ok": "bool",
+          "request_id": "str",
+          "summary": "str",
+          "tool": "str"
+        },
+        "gateway_core_shape": {
+          "ok": "bool",
+          "request_id": "str",
+          "summary": "str",
+          "tool": "str"
+        }
+      }
+    },
+    {
+      "name": "tool_fidelity::get_report",
+      "passed": true,
+      "details": {
+        "direct_is_error": true,
+        "gateway_http_status": 403,
+        "direct_status": "error",
+        "gateway_status": "error",
+        "direct_code": "POLICY_VIOLATION",
+        "gateway_code": "POLICY_VIOLATION",
+        "direct_request_id": "direct-get_report-fid",
+        "gateway_request_id": "213bd7226010",
+        "shape_match": true,
+        "direct_shape": {
+          "artifacts": "list",
+          "code": "str",
+          "error": "str",
+          "next_suggested_tools": "list",
+          "ok": "bool",
+          "request_id": "str",
+          "run_id": "str",
+          "summary": "str",
+          "tool": "str"
+        },
+        "gateway_shape": {
+          "artifacts": "list",
+          "code": "str",
+          "error": "str",
+          "next_suggested_tools": "list",
+          "ok": "bool",
+          "request_id": "str",
+          "run_id": "str",
+          "status": "str",
+          "summary": "str",
+          "tenant_id": "str",
+          "timestamp": "str",
+          "tool": "str"
+        },
+        "direct_core_shape": {
+          "ok": "bool",
+          "error": "str",
+          "code": "str",
+          "request_id": "str",
+          "summary": "str",
+          "tool": "str"
+        },
+        "gateway_core_shape": {
+          "ok": "bool",
+          "error": "str",
+          "code": "str",
+          "request_id": "str",
+          "summary": "str",
+          "tool": "str"
+        }
+      }
+    },
+    {
+      "name": "tool_fidelity::run_burp_scan",
+      "passed": true,
+      "details": {
+        "direct_is_error": true,
+        "gateway_http_status": 403,
+        "direct_status": "error",
+        "gateway_status": "error",
+        "direct_code": "POLICY_VIOLATION",
+        "gateway_code": "POLICY_VIOLATION",
+        "direct_request_id": "direct-run_burp_scan-fid",
+        "gateway_request_id": "d9d4837b33fc",
+        "shape_match": true,
+        "direct_shape": {
+          "artifacts": "list",
+          "code": "str",
+          "error": "str",
+          "next_suggested_tools": "list",
+          "ok": "bool",
+          "request_id": "str",
+          "run_id": "str",
+          "summary": "str",
+          "tool": "str"
+        },
+        "gateway_shape": {
+          "artifacts": "list",
+          "code": "str",
+          "error": "str",
+          "next_suggested_tools": "list",
+          "ok": "bool",
+          "request_id": "str",
+          "run_id": "str",
+          "status": "str",
+          "summary": "str",
+          "tenant_id": "str",
+          "timestamp": "str",
+          "tool": "str"
+        },
+        "direct_core_shape": {
+          "ok": "bool",
+          "error": "str",
+          "code": "str",
+          "request_id": "str",
+          "summary": "str",
+          "tool": "str"
+        },
+        "gateway_core_shape": {
+          "ok": "bool",
+          "error": "str",
+          "code": "str",
+          "request_id": "str",
+          "summary": "str",
+          "tool": "str"
+        }
+      }
+    },
+    {
+      "name": "snapshot_history_request_id",
+      "passed": true,
+      "details": {
+        "request_id": "3a20df282636",
+        "latest_action_request_id": "3a20df282636",
+        "recent_action_count": 4,
+        "request_id_in_recent_actions": true,
+        "snapshot_status": "degraded"
+      }
+    },
+    {
+      "name": "gateway_surface_contract",
+      "passed": true,
+      "details": {
+        "targets_status": 403,
+        "report_status": 403,
+        "snapshot_status": "degraded",
+        "snapshot_source_of_truth": "mcp"
+      }
+    }
+  ],
+  "failures": []
+}

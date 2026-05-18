@@ -1,0 +1,132 @@
+﻿====================================================================================================
+PHASE 4 PRODUCTION ALIGNMENT ù DEEP MODULE INVENTORY
+====================================================================================================
+
+[NETWORK]
+  module                         LOC  Cls   Fn  Pub Priv Async Stubs TODO  Sibling-Top1
+  --------------------------------------------------------------------------------------------------------------
+  dns_resolver                   312    4   36   22    4     0     0    0  tls_scanner(312/3374=9%)
+  http_fingerprint               363    4   31   17    4     0     0    0  tls_scanner(363/3374=10%)
+  proxy_chain                    326    6   35   21    4     0     0    0  tls_scanner(326/3374=9%)
+  ssl_analyzer                   423    5   30   12    8     0     0    0  tls_scanner(423/3374=12%)
+  traffic_analyzer               363    5   32   15    7     0     0    0  tls_scanner(363/3374=10%)
+
+[INTEGRATIONS]
+  module                         LOC  Cls   Fn  Pub Priv Async Stubs TODO  Sibling-Top1
+  --------------------------------------------------------------------------------------------------------------
+  ci_cd_pipeline                 313    8   30   16    4     0     0    0  email_security(313/2903=10%)
+  defect_dojo                    354    6   35   18    7     0     0    0  email_security(354/2903=12%)
+  jira_client                    376    5   35   19    6     0     0    0  email_security(376/2903=12%)
+  slack_notifier                 341    5   31   15    6     0     0    0  email_security(341/2903=11%)
+  sonarqube                      368    8   35   19    6     0     0    0  email_security(368/2903=12%)
+  webhook_dispatcher             355    6   36   21    5     0     0    0  email_security(355/2903=12%)
+
+[CAAP]
+  module                         LOC  Cls   Fn  Pub Priv Async Stubs TODO  Sibling-Top1
+  --------------------------------------------------------------------------------------------------------------
+  caap_coordinator               336    6   35   18    7     0     0    0  browser_exploitation_engine(336/2144=15%)
+  chat_interface                 315    6   38   15   13     0     0    0  browser_exploitation_engine(315/2144=14%)
+  compliance_checker             385    6   33   14    9     0     0    0  browser_exploitation_engine(385/2144=17%)
+  discovery_agent                348    6   33   16    7     0     0    0  browser_exploitation_engine(348/2144=16%)
+  exploitation_agent             319    5   31   16    5     0     0    0  browser_exploitation_engine(319/2144=14%)
+  hypothesis_engine              369    6   35   17    8     0     0    0  browser_exploitation_engine(369/2144=17%)
+  knowledge_graph                355    7   40   25    5     0     0    0  browser_exploitation_engine(355/2144=16%)
+  recon_agent                    415    5   33   15    8     0     0    0  browser_exploitation_engine(415/2144=19%)
+  session_orchestrator           363    5   40   24    6     0     0    0  browser_exploitation_engine(363/2144=16%)
+
+[TESTING_TOOLS]
+  module                         LOC  Cls   Fn  Pub Priv Async Stubs TODO  Sibling-Top1
+  --------------------------------------------------------------------------------------------------------------
+  api_fuzzer                     334    5   32   15    7     0     0    0  evasion_engine(334/3073=10%)
+  benchmark_runner               299    5   31   16    5     0     0    0  evasion_engine(299/3073=9%)
+  compliance_validator           282    5   30   15    5     0     0    0  evasion_engine(282/3073=9%)
+  integration_harness            316    5   33   16    6     0     0    0  evasion_engine(316/3073=10%)
+  load_tester                    316    5   28   13    5     0     0    0  evasion_engine(316/3073=10%)
+  mock_server                    315    5   41   24    7     0     1    0  evasion_engine(315/3073=10%)
+  regression_tracker             295    5   34   19    5     0     0    0  evasion_engine(295/3073=9%)
+
+
+[CAPABILITY MATRIX]  (Y=present, .=absent)
+  module                                    async  retry  metri  valid  persi  batch  strea  threa  event  rate_  cachi  auth  pagin  excep  confi  dry_r  loggi  lifec  instr  helpe  todo
+  network/dns_resolver                      .      .      Y      .      .      .      .      .      Y      Y      Y      .      .      .      .      .      Y      Y      Y      Y      .    
+  network/http_fingerprint                  .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  network/proxy_chain                       .      .      Y      .      .      .      .      .      Y      Y      .      Y      .      .      Y      .      Y      Y      Y      Y      .    
+  network/ssl_analyzer                      .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  network/traffic_analyzer                  .      .      Y      .      .      .      .      .      Y      Y      .      Y      .      .      .      .      Y      Y      Y      Y      .    
+  integrations/ci_cd_pipeline               .      .      Y      .      .      .      .      .      Y      Y      .      Y      .      .      Y      .      Y      Y      Y      Y      .    
+  integrations/defect_dojo                  .      Y      Y      .      .      .      .      .      Y      Y      .      .      .      .      Y      .      Y      Y      Y      Y      .    
+  integrations/jira_client                  .      Y      Y      .      .      .      .      .      Y      Y      .      Y      .      .      Y      .      Y      Y      Y      Y      .    
+  integrations/slack_notifier               .      Y      Y      .      .      .      .      .      Y      Y      .      Y      .      .      Y      .      Y      Y      Y      Y      .    
+  integrations/sonarqube                    .      Y      Y      .      .      .      .      .      Y      Y      .      Y      .      .      Y      .      Y      Y      Y      Y      .    
+  integrations/webhook_dispatcher           .      .      Y      .      Y      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  caap/caap_coordinator                     .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      Y      .      Y      Y      Y      Y      .    
+  caap/chat_interface                       .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  caap/compliance_checker                   .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  caap/discovery_agent                      .      .      Y      .      .      .      .      .      Y      Y      .      Y      .      .      .      .      Y      Y      Y      Y      .    
+  caap/exploitation_agent                   .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  caap/hypothesis_engine                    .      .      Y      .      .      .      .      .      Y      Y      .      Y      .      .      .      .      Y      Y      Y      Y      .    
+  caap/knowledge_graph                      .      .      Y      .      .      .      .      .      Y      Y      .      Y      .      .      .      .      Y      Y      Y      Y      .    
+  caap/recon_agent                          .      .      Y      .      .      .      Y      .      Y      Y      .      Y      .      .      .      .      Y      Y      Y      Y      .    
+  caap/session_orchestrator                 .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  testing_tools/api_fuzzer                  .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  testing_tools/benchmark_runner            .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  testing_tools/compliance_validator        .      .      Y      Y      .      .      .      .      Y      Y      .      Y      .      .      .      .      Y      Y      Y      Y      .    
+  testing_tools/integration_harness         .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  testing_tools/load_tester                 .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      Y      .      Y      Y      Y      Y      .    
+  testing_tools/mock_server                 .      .      Y      .      Y      .      .      Y      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+  testing_tools/regression_tracker          .      .      Y      .      .      .      .      .      Y      Y      .      .      .      .      .      .      Y      Y      Y      Y      .    
+
+
+[CROSS-CUTTING GAPS]
+  async          missing in 27/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  retry          missing in 23/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  metrics        missing in  0/27: 
+  validation     missing in 26/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  persistence    missing in 25/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  batching       missing in 27/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  streaming      missing in 26/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  threadsafe     missing in 26/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  eventbus       missing in  0/27: 
+  rate_limit     missing in  0/27: 
+  caching        missing in 26/27: http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline, defect_dojo...
+  auth           missing in 16/27: dns_resolver, http_fingerprint, ssl_analyzer, defect_dojo, webhook_dispatcher, caap_coordinator...
+  pagination     missing in 27/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  exceptions     missing in 27/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  config_obj     missing in 19/27: dns_resolver, http_fingerprint, ssl_analyzer, traffic_analyzer, webhook_dispatcher, chat_interface...
+  dry_run        missing in 27/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+  logging        missing in  0/27: 
+  lifecycle      missing in  0/27: 
+  instrument     missing in  0/27: 
+  helpers_inj    missing in  0/27: 
+  todo           missing in 27/27: dns_resolver, http_fingerprint, proxy_chain, ssl_analyzer, traffic_analyzer, ci_cd_pipeline...
+
+
+[SIBLING SIZE TARGETS]
+  recovered                                current    sib1    sib2    sib3  gap%
+  network/dns_resolver                         312    3374    2976    2730  9%
+  network/http_fingerprint                     363    3374    2976    2730  10%
+  network/proxy_chain                          326    3374    2976    2730  9%
+  network/ssl_analyzer                         423    3374    2976    2730  12%
+  network/traffic_analyzer                     363    3374    2976    2730  10%
+  integrations/ci_cd_pipeline                  313    2903    2676    1387  10%
+  integrations/defect_dojo                     354    2903    2676    1387  12%
+  integrations/jira_client                     376    2903    2676    1387  12%
+  integrations/slack_notifier                  341    2903    2676    1387  11%
+  integrations/sonarqube                       368    2903    2676    1387  12%
+  integrations/webhook_dispatcher              355    2903    2676    1387  12%
+  caap/caap_coordinator                        336    2144    1406    1339  15%
+  caap/chat_interface                          315    2144    1406    1339  14%
+  caap/compliance_checker                      385    2144    1406    1339  17%
+  caap/discovery_agent                         348    2144    1406    1339  16%
+  caap/exploitation_agent                      319    2144    1406    1339  14%
+  caap/hypothesis_engine                       369    2144    1406    1339  17%
+  caap/knowledge_graph                         355    2144    1406    1339  16%
+  caap/recon_agent                             415    2144    1406    1339  19%
+  caap/session_orchestrator                    363    2144    1406    1339  16%
+  testing_tools/api_fuzzer                     334    3073    2654    2254  10%
+  testing_tools/benchmark_runner               299    3073    2654    2254  9%
+  testing_tools/compliance_validator           282    3073    2654    2254  9%
+  testing_tools/integration_harness            316    3073    2654    2254  10%
+  testing_tools/load_tester                    316    3073    2654    2254  10%
+  testing_tools/mock_server                    315    3073    2654    2254  10%
+  testing_tools/regression_tracker             295    3073    2654    2254  9%

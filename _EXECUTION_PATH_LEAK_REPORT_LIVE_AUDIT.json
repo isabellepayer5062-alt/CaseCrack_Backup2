@@ -1,0 +1,55 @@
+{
+  "execution_path_leak_validation": "PASS",
+  "audit_path": "C:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\mcp_audit.jsonl",
+  "entries_checked": 4,
+  "missing_request_ids": 0,
+  "unknown_execution_paths": 0,
+  "state_mutation_non_mcp": 0,
+  "missing_terminal_events": 0,
+  "malformed_lines": 0,
+  "execution_path_distribution": {
+    "counts": {
+      "BRIDGE": 0,
+      "CLI": 0,
+      "MANUAL": 0,
+      "MCP": 0
+    },
+    "percent": {
+      "BRIDGE": 0.0,
+      "CLI": 0.0,
+      "MANUAL": 0.0,
+      "MCP": 0.0
+    }
+  },
+  "mutation_leak_rate": 0.0,
+  "non_mcp_execution_rate": 0.0,
+  "missing_terminal_rate": 0.0,
+  "request_id_gap_rate": 0.0,
+  "trends": [],
+  "non_mcp_sources": [],
+  "trend_window": {
+    "bucket_minutes": 60,
+    "bucket_count": 0
+  },
+  "trend_stability": {
+    "trend_stable": false,
+    "evaluated_buckets": 0,
+    "reason": "no_trend_data"
+  },
+  "cutover_condition": {
+    "mutation_leak_rate": 0.0,
+    "non_mcp_execution_rate": 0.0,
+    "trend_stable": false,
+    "ready_for_enforcement": false,
+    "target": {
+      "mutation_leak_rate": 0.0,
+      "non_mcp_execution_rate_lt": 0.01,
+      "trend_stable": true
+    }
+  },
+  "details": {
+    "state_mutation_non_mcp": [],
+    "missing_terminal_request_ids": [],
+    "unknown_execution_path_entries": []
+  }
+}

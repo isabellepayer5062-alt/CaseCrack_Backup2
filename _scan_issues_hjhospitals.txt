@@ -1,0 +1,10 @@
+=== hjhospitals.org scan monitor started 16:10:37 UTC ===
+=== Target: https://www.hjhospitals.org/ ===
+=== Scan: phases=38 mode=parallel (already running) ===
+[16:47:21] *** DEGRADED PHASE: Active Vulnerability Testing ***
+[17:02:34] *** DEGRADED PHASE: Dashboard & Post-Scan Analysis ***
+
+[17:10:54] === SCAN COMPLETE ===
+  findings   : 10197
+  degraded   : 2 phases
+  chains seen: 0

@@ -1,0 +1,2347 @@
+{
+  "verdict": "PASS",
+  "profile": "quick",
+  "audit_path": "C:\\Users\\ya754\\CaseCrack v1.0\\_tmp_mcp_dependency_adversarial_audit_1777173196-5376.jsonl",
+  "scenarios": [
+    {
+      "name": "baseline",
+      "passed": true,
+      "calls": 20,
+      "failures": 0,
+      "latency_ms": {
+        "p50": 15.59,
+        "p95": 21.33,
+        "p99": 101.201
+      },
+      "audit_events": [
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-000",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 0,
+            "__rid": "baseline-000"
+          },
+          "duration_ms": 101,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-001",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 1,
+            "__rid": "baseline-001"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-002",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 2,
+            "__rid": "baseline-002"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-003",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 3,
+            "__rid": "baseline-003"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-004",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 4,
+            "__rid": "baseline-004"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-005",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 5,
+            "__rid": "baseline-005"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-006",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 6,
+            "__rid": "baseline-006"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-007",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 7,
+            "__rid": "baseline-007"
+          },
+          "duration_ms": 14,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-008",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 8,
+            "__rid": "baseline-008"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-009",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 9,
+            "__rid": "baseline-009"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-010",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 10,
+            "__rid": "baseline-010"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-011",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 11,
+            "__rid": "baseline-011"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-012",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 12,
+            "__rid": "baseline-012"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-013",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 13,
+            "__rid": "baseline-013"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-014",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 14,
+            "__rid": "baseline-014"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-015",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 15,
+            "__rid": "baseline-015"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-016",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 16,
+            "__rid": "baseline-016"
+          },
+          "duration_ms": 14,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-017",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 17,
+            "__rid": "baseline-017"
+          },
+          "duration_ms": 14,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-018",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 18,
+            "__rid": "baseline-018"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "baseline-019",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 19,
+            "__rid": "baseline-019"
+          },
+          "duration_ms": 15,
+          "category": "phase1"
+        }
+      ]
+    },
+    {
+      "name": "slow_dependency_saturation",
+      "passed": true,
+      "details": {
+        "total_calls": 8,
+        "completed_calls": 8,
+        "elapsed_seconds": 40.077,
+        "timed_out": false,
+        "peak_pending": 8,
+        "duplicate_request_id_detected": false,
+        "terminal_missing_by_completion": false,
+        "backlog_bounded": true,
+        "hidden_queue_buildup_signal": false,
+        "retry_storm_signal": false
+      },
+      "latency_ms": {
+        "p50": 22545.535,
+        "p95": 38323.657,
+        "p99": 39726.029
+      },
+      "records": [
+        {
+          "request_id": "slow-sat-000",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "slow-sat-000",
+            "request_id": "slow-sat-000",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 1
+                },
+                "result": {
+                  "value": 1
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 5017.137
+        },
+        {
+          "request_id": "slow-sat-001",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "slow-sat-001",
+            "request_id": "slow-sat-001",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 1
+                },
+                "result": {
+                  "value": 1
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 10028.606
+        },
+        {
+          "request_id": "slow-sat-002",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "slow-sat-002",
+            "request_id": "slow-sat-002",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 2
+                },
+                "result": {
+                  "value": 2
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 15036.246
+        },
+        {
+          "request_id": "slow-sat-003",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "slow-sat-003",
+            "request_id": "slow-sat-003",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 3
+                },
+                "result": {
+                  "value": 3
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 20042.416
+        },
+        {
+          "request_id": "slow-sat-004",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "slow-sat-004",
+            "request_id": "slow-sat-004",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 4
+                },
+                "result": {
+                  "value": 4
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 25048.653
+        },
+        {
+          "request_id": "slow-sat-005",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "slow-sat-005",
+            "request_id": "slow-sat-005",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 5
+                },
+                "result": {
+                  "value": 5
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 30059.957
+        },
+        {
+          "request_id": "slow-sat-006",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "slow-sat-006",
+            "request_id": "slow-sat-006",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 6
+                },
+                "result": {
+                  "value": 6
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 35068.151
+        },
+        {
+          "request_id": "slow-sat-007",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "slow-sat-007",
+            "request_id": "slow-sat-007",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 7
+                },
+                "result": {
+                  "value": 7
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 40076.622
+        }
+      ],
+      "audit_events": [
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "slow-sat-000",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 0,
+            "__rid": "slow-sat-000"
+          },
+          "duration_ms": 5016,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "slow-sat-001",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 1,
+            "__rid": "slow-sat-001"
+          },
+          "duration_ms": 10028,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "slow-sat-002",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 2,
+            "__rid": "slow-sat-002"
+          },
+          "duration_ms": 15036,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "slow-sat-003",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 3,
+            "__rid": "slow-sat-003"
+          },
+          "duration_ms": 20042,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "slow-sat-004",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 4,
+            "__rid": "slow-sat-004"
+          },
+          "duration_ms": 25048,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "slow-sat-005",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 5,
+            "__rid": "slow-sat-005"
+          },
+          "duration_ms": 30059,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "slow-sat-006",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 6,
+            "__rid": "slow-sat-006"
+          },
+          "duration_ms": 35068,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "slow-sat-007",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 7,
+            "__rid": "slow-sat-007"
+          },
+          "duration_ms": 40076,
+          "category": "phase1"
+        }
+      ]
+    },
+    {
+      "name": "timeout_retry_collapse",
+      "passed": true,
+      "details": {
+        "logical_requests": 20,
+        "retry_requests": 11,
+        "retry_attempts_total": 22,
+        "retry_attempts_per_request": 2.0,
+        "retry_success_rate": 0.0,
+        "retry_induced_duplication": 0,
+        "idempotency_cache_holds": true
+      },
+      "records": [
+        {
+          "request_id": "timeout-collapse-000",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-000",
+            "request_id": "timeout-collapse-000",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.32
+        },
+        {
+          "request_id": "timeout-collapse-000",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-000",
+            "request_id": "timeout-collapse-000",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.008
+        },
+        {
+          "request_id": "timeout-collapse-000",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-000",
+            "request_id": "timeout-collapse-000",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.006
+        },
+        {
+          "request_id": "timeout-collapse-001",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-001",
+            "request_id": "timeout-collapse-001",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.244
+        },
+        {
+          "request_id": "timeout-collapse-001",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-001",
+            "request_id": "timeout-collapse-001",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.006
+        },
+        {
+          "request_id": "timeout-collapse-001",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-001",
+            "request_id": "timeout-collapse-001",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.004
+        },
+        {
+          "request_id": "timeout-collapse-002",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-002",
+            "request_id": "timeout-collapse-002",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 2
+                },
+                "result": {
+                  "value": 2
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 1.901
+        },
+        {
+          "request_id": "timeout-collapse-003",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-003",
+            "request_id": "timeout-collapse-003",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.242
+        },
+        {
+          "request_id": "timeout-collapse-003",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-003",
+            "request_id": "timeout-collapse-003",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.007
+        },
+        {
+          "request_id": "timeout-collapse-003",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-003",
+            "request_id": "timeout-collapse-003",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.004
+        },
+        {
+          "request_id": "timeout-collapse-004",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-004",
+            "request_id": "timeout-collapse-004",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 4
+                },
+                "result": {
+                  "value": 4
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.294
+        },
+        {
+          "request_id": "timeout-collapse-005",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-005",
+            "request_id": "timeout-collapse-005",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.283
+        },
+        {
+          "request_id": "timeout-collapse-005",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-005",
+            "request_id": "timeout-collapse-005",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.006
+        },
+        {
+          "request_id": "timeout-collapse-005",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-005",
+            "request_id": "timeout-collapse-005",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.004
+        },
+        {
+          "request_id": "timeout-collapse-006",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-006",
+            "request_id": "timeout-collapse-006",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.236
+        },
+        {
+          "request_id": "timeout-collapse-006",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-006",
+            "request_id": "timeout-collapse-006",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.006
+        },
+        {
+          "request_id": "timeout-collapse-006",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-006",
+            "request_id": "timeout-collapse-006",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.004
+        },
+        {
+          "request_id": "timeout-collapse-007",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-007",
+            "request_id": "timeout-collapse-007",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 7
+                },
+                "result": {
+                  "value": 7
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.077
+        },
+        {
+          "request_id": "timeout-collapse-008",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-008",
+            "request_id": "timeout-collapse-008",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.269
+        },
+        {
+          "request_id": "timeout-collapse-008",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-008",
+            "request_id": "timeout-collapse-008",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.006
+        },
+        {
+          "request_id": "timeout-collapse-008",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-008",
+            "request_id": "timeout-collapse-008",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.005
+        },
+        {
+          "request_id": "timeout-collapse-009",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-009",
+            "request_id": "timeout-collapse-009",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 9
+                },
+                "result": {
+                  "value": 9
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.044
+        },
+        {
+          "request_id": "timeout-collapse-010",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-010",
+            "request_id": "timeout-collapse-010",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.309
+        },
+        {
+          "request_id": "timeout-collapse-010",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-010",
+            "request_id": "timeout-collapse-010",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.008
+        },
+        {
+          "request_id": "timeout-collapse-010",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-010",
+            "request_id": "timeout-collapse-010",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.005
+        },
+        {
+          "request_id": "timeout-collapse-011",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-011",
+            "request_id": "timeout-collapse-011",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.297
+        },
+        {
+          "request_id": "timeout-collapse-011",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-011",
+            "request_id": "timeout-collapse-011",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.008
+        },
+        {
+          "request_id": "timeout-collapse-011",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-011",
+            "request_id": "timeout-collapse-011",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.004
+        },
+        {
+          "request_id": "timeout-collapse-012",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-012",
+            "request_id": "timeout-collapse-012",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 12
+                },
+                "result": {
+                  "value": 12
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.763
+        },
+        {
+          "request_id": "timeout-collapse-013",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-013",
+            "request_id": "timeout-collapse-013",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 13
+                },
+                "result": {
+                  "value": 13
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.067
+        },
+        {
+          "request_id": "timeout-collapse-014",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-014",
+            "request_id": "timeout-collapse-014",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.266
+        },
+        {
+          "request_id": "timeout-collapse-014",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-014",
+            "request_id": "timeout-collapse-014",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.006
+        },
+        {
+          "request_id": "timeout-collapse-014",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-014",
+            "request_id": "timeout-collapse-014",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.004
+        },
+        {
+          "request_id": "timeout-collapse-015",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-015",
+            "request_id": "timeout-collapse-015",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.233
+        },
+        {
+          "request_id": "timeout-collapse-015",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-015",
+            "request_id": "timeout-collapse-015",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.006
+        },
+        {
+          "request_id": "timeout-collapse-015",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-015",
+            "request_id": "timeout-collapse-015",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.004
+        },
+        {
+          "request_id": "timeout-collapse-016",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-016",
+            "request_id": "timeout-collapse-016",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 16
+                },
+                "result": {
+                  "value": 16
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.064
+        },
+        {
+          "request_id": "timeout-collapse-017",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-017",
+            "request_id": "timeout-collapse-017",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 17
+                },
+                "result": {
+                  "value": 17
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.249
+        },
+        {
+          "request_id": "timeout-collapse-018",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "timeout-collapse-018",
+            "request_id": "timeout-collapse-018",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 18
+                },
+                "result": {
+                  "value": 18
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.169
+        },
+        {
+          "request_id": "timeout-collapse-019",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-019",
+            "request_id": "timeout-collapse-019",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.247
+        },
+        {
+          "request_id": "timeout-collapse-019",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-019",
+            "request_id": "timeout-collapse-019",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.008
+        },
+        {
+          "request_id": "timeout-collapse-019",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "timeout-collapse-019",
+            "request_id": "timeout-collapse-019",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.004
+        }
+      ],
+      "retry_attempts_by_request": {
+        "timeout-collapse-000": 2,
+        "timeout-collapse-001": 2,
+        "timeout-collapse-003": 2,
+        "timeout-collapse-005": 2,
+        "timeout-collapse-006": 2,
+        "timeout-collapse-008": 2,
+        "timeout-collapse-010": 2,
+        "timeout-collapse-011": 2,
+        "timeout-collapse-014": 2,
+        "timeout-collapse-015": 2,
+        "timeout-collapse-019": 2
+      },
+      "execute_counts": {
+        "timeout-collapse-000": 1,
+        "timeout-collapse-001": 1,
+        "timeout-collapse-002": 1,
+        "timeout-collapse-003": 1,
+        "timeout-collapse-004": 1,
+        "timeout-collapse-005": 1,
+        "timeout-collapse-006": 1,
+        "timeout-collapse-007": 1,
+        "timeout-collapse-008": 1,
+        "timeout-collapse-009": 1,
+        "timeout-collapse-010": 1,
+        "timeout-collapse-011": 1,
+        "timeout-collapse-012": 1,
+        "timeout-collapse-013": 1,
+        "timeout-collapse-014": 1,
+        "timeout-collapse-015": 1,
+        "timeout-collapse-016": 1,
+        "timeout-collapse-017": 1,
+        "timeout-collapse-018": 1,
+        "timeout-collapse-019": 1
+      },
+      "audit_events": [
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-000",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 0,
+            "__rid": "timeout-collapse-000"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-001",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 1,
+            "__rid": "timeout-collapse-001"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-002",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 2,
+            "__rid": "timeout-collapse-002"
+          },
+          "duration_ms": 1,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-003",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 3,
+            "__rid": "timeout-collapse-003"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-004",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 4,
+            "__rid": "timeout-collapse-004"
+          },
+          "duration_ms": 2,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-005",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 5,
+            "__rid": "timeout-collapse-005"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-006",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 6,
+            "__rid": "timeout-collapse-006"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-007",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 7,
+            "__rid": "timeout-collapse-007"
+          },
+          "duration_ms": 1,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-008",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 8,
+            "__rid": "timeout-collapse-008"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-009",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 9,
+            "__rid": "timeout-collapse-009"
+          },
+          "duration_ms": 1,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-010",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 10,
+            "__rid": "timeout-collapse-010"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-011",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 11,
+            "__rid": "timeout-collapse-011"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-012",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 12,
+            "__rid": "timeout-collapse-012"
+          },
+          "duration_ms": 2,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-013",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 13,
+            "__rid": "timeout-collapse-013"
+          },
+          "duration_ms": 1,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-014",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 14,
+            "__rid": "timeout-collapse-014"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-015",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 15,
+            "__rid": "timeout-collapse-015"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-016",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 16,
+            "__rid": "timeout-collapse-016"
+          },
+          "duration_ms": 1,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-017",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 17,
+            "__rid": "timeout-collapse-017"
+          },
+          "duration_ms": 2,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-018",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 18,
+            "__rid": "timeout-collapse-018"
+          },
+          "duration_ms": 2,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "timeout-collapse-019",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 19,
+            "__rid": "timeout-collapse-019"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        }
+      ]
+    },
+    {
+      "name": "partial_response_injection",
+      "passed": true,
+      "details": {
+        "is_error": true,
+        "code": "POLICY_VIOLATION",
+        "acceptable_validation_codes": [
+          "POLICY_VIOLATION",
+          "VALIDATION_ERROR"
+        ],
+        "never_treated_as_success": true
+      },
+      "records": [
+        {
+          "request_id": "partial-response-001",
+          "is_error": true,
+          "code": "POLICY_VIOLATION",
+          "payload": {
+            "ok": false,
+            "error": "policy_violation",
+            "code": "POLICY_VIOLATION",
+            "tool": "get_report",
+            "run_id": "partial-response-001",
+            "request_id": "partial-response-001",
+            "summary": "validation error: missing result.value",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.32
+        }
+      ],
+      "audit_events": [
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "partial-response-001",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 1,
+            "__rid": "partial-response-001"
+          },
+          "error": "validation error: missing result.value",
+          "duration_ms": 0,
+          "category": "phase1"
+        }
+      ]
+    },
+    {
+      "name": "schema_drift_midstream",
+      "passed": true,
+      "details": {
+        "all_success": true,
+        "canonical_shape_consistent": true,
+        "normalized_values": [
+          100,
+          101
+        ],
+        "mixed_shape_state_detected": false,
+        "strategy": "normalized"
+      },
+      "records": [
+        {
+          "request_id": "schema-drift-001",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "schema-drift-001",
+            "request_id": "schema-drift-001",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 100
+                },
+                "result": {
+                  "value": 100
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.315
+        },
+        {
+          "request_id": "schema-drift-002",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "schema-drift-002",
+            "request_id": "schema-drift-002",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 101
+                },
+                "result": {
+                  "value": 101
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.185
+        }
+      ],
+      "audit_events": [
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "schema-drift-001",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 100,
+            "__rid": "schema-drift-001"
+          },
+          "duration_ms": 2,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "schema-drift-002",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 101,
+            "__rid": "schema-drift-002"
+          },
+          "duration_ms": 2,
+          "category": "phase1"
+        }
+      ]
+    },
+    {
+      "name": "flapping_dependency",
+      "passed": true,
+      "details": {
+        "state_sequence": [
+          "ok",
+          "err",
+          "ok",
+          "err",
+          "ok"
+        ],
+        "transition_count": 4,
+        "explainability_instability_flag": true,
+        "terminal_immutability_preserved": true
+      },
+      "records": [
+        {
+          "request_id": "flap-001",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "flap-001",
+            "request_id": "flap-001",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 200
+                },
+                "result": {
+                  "value": 200
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.108
+        },
+        {
+          "request_id": "flap-002",
+          "is_error": true,
+          "code": "POLICY_VIOLATION",
+          "payload": {
+            "ok": false,
+            "error": "policy_violation",
+            "code": "POLICY_VIOLATION",
+            "tool": "get_report",
+            "run_id": "flap-002",
+            "request_id": "flap-002",
+            "summary": "dependency failure",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.278
+        },
+        {
+          "request_id": "flap-003",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "flap-003",
+            "request_id": "flap-003",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 202
+                },
+                "result": {
+                  "value": 202
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.213
+        },
+        {
+          "request_id": "flap-004",
+          "is_error": true,
+          "code": "REQUEST_TIMEOUT",
+          "payload": {
+            "ok": false,
+            "error": "request_timeout",
+            "code": "REQUEST_TIMEOUT",
+            "tool": "get_report",
+            "run_id": "flap-004",
+            "request_id": "flap-004",
+            "summary": "dependency timeout",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.289
+        },
+        {
+          "request_id": "flap-005",
+          "is_error": false,
+          "code": "",
+          "payload": {
+            "ok": true,
+            "tool": "get_report",
+            "run_id": "flap-005",
+            "request_id": "flap-005",
+            "summary": "dependency-call-ok",
+            "artifacts": [
+              {
+                "summary": "dependency-call-ok",
+                "canonical": {
+                  "value": 204
+                },
+                "result": {
+                  "value": 204
+                }
+              }
+            ],
+            "next_suggested_tools": [
+              "discover_endpoints",
+              "analyze_target",
+              "subdomain_enumerate",
+              "get_strategy"
+            ]
+          },
+          "duration_ms": 2.271
+        }
+      ],
+      "audit_events": [
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "flap-001",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 200,
+            "__rid": "flap-001"
+          },
+          "duration_ms": 1,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "flap-002",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 201,
+            "__rid": "flap-002"
+          },
+          "error": "dependency failure",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "flap-003",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 202,
+            "__rid": "flap-003"
+          },
+          "duration_ms": 2,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "flap-004",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 203,
+            "__rid": "flap-004"
+          },
+          "error": "dependency timeout",
+          "duration_ms": 0,
+          "category": "phase1"
+        },
+        {
+          "event_type": "tool_completed",
+          "tool_name": "get_report",
+          "run_id": "flap-005",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": true,
+          "arguments": {
+            "idx": 204,
+            "__rid": "flap-005"
+          },
+          "duration_ms": 2,
+          "category": "phase1"
+        }
+      ]
+    },
+    {
+      "name": "corrupted_payload_invalid_json",
+      "passed": true,
+      "details": {
+        "is_error": true,
+        "code": "POLICY_VIOLATION",
+        "acceptable_parse_codes": [
+          "INTERNAL_ERROR",
+          "PARSE_ERROR",
+          "POLICY_VIOLATION"
+        ],
+        "no_crash": true,
+        "no_stuck_pending": true
+      },
+      "records": [
+        {
+          "request_id": "corrupt-json-001",
+          "is_error": true,
+          "code": "POLICY_VIOLATION",
+          "payload": {
+            "ok": false,
+            "error": "policy_violation",
+            "code": "POLICY_VIOLATION",
+            "tool": "get_report",
+            "run_id": "corrupt-json-001",
+            "request_id": "corrupt-json-001",
+            "summary": "parse error: invalid dependency payload",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.399
+        }
+      ],
+      "audit_events": [
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "corrupt-json-001",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 999,
+            "__rid": "corrupt-json-001"
+          },
+          "error": "parse error: invalid dependency payload",
+          "duration_ms": 0,
+          "category": "phase1"
+        }
+      ]
+    },
+    {
+      "name": "unseen_failure_pattern",
+      "passed": true,
+      "details": {
+        "is_error": true,
+        "code": "POLICY_VIOLATION",
+        "safe_buckets": [
+          "INTERNAL_ERROR",
+          "POLICY_VIOLATION"
+        ],
+        "never_treated_as_success": true,
+        "retry_attempts": 0,
+        "retry_policy_correct": true,
+        "explainability_pollution_detected": false
+      },
+      "records": [
+        {
+          "request_id": "unseen-failure-001",
+          "is_error": true,
+          "code": "POLICY_VIOLATION",
+          "payload": {
+            "ok": false,
+            "error": "policy_violation",
+            "code": "POLICY_VIOLATION",
+            "tool": "get_report",
+            "run_id": "unseen-failure-001",
+            "request_id": "unseen-failure-001",
+            "summary": "vendor_transport_glitch:E42:opaque_failure",
+            "artifacts": [],
+            "next_suggested_tools": []
+          },
+          "duration_ms": 0.291
+        }
+      ],
+      "audit_events": [
+        {
+          "event_type": "tool_failed",
+          "tool_name": "get_report",
+          "run_id": "unseen-failure-001",
+          "principal": "MCPPrincipal(principal_id='mcp-stdio', tenant_id='local', role='system', auth_type='stdio', key_name='stdio', claims={})",
+          "ok": false,
+          "arguments": {
+            "idx": 321,
+            "__rid": "unseen-failure-001"
+          },
+          "error": "vendor_transport_glitch:E42:opaque_failure",
+          "duration_ms": 0,
+          "category": "phase1"
+        }
+      ]
+    }
+  ],
+  "scenario_passes": {
+    "slow_dependency_saturation": true,
+    "timeout_retry_collapse": true,
+    "partial_response_injection": true,
+    "schema_drift_midstream": true,
+    "flapping_dependency": true,
+    "corrupted_payload_invalid_json": true,
+    "unseen_failure_pattern": true
+  },
+  "external_fault_containment": {
+    "external_failures_total": 38,
+    "classified_errors_by_type": {
+      "POLICY_VIOLATION": 4,
+      "REQUEST_TIMEOUT": 34
+    },
+    "classification_accuracy_pct": 100.0,
+    "unknown_classification_pct": 0.0
+  },
+  "stability_metrics": {
+    "terminal_conflicts": 0,
+    "missing_terminal": 0,
+    "duplicate_terminal": 0,
+    "terminal_expected_ids": 58,
+    "terminal_request_ids": 58
+  },
+  "retry_behavior": {
+    "retry_attempts_per_request": 2.0,
+    "retry_success_rate": 0.0,
+    "retry_induced_duplication": 0,
+    "retry_attempts_by_request": {
+      "timeout-collapse-000": 2,
+      "timeout-collapse-001": 2,
+      "timeout-collapse-003": 2,
+      "timeout-collapse-005": 2,
+      "timeout-collapse-006": 2,
+      "timeout-collapse-008": 2,
+      "timeout-collapse-010": 2,
+      "timeout-collapse-011": 2,
+      "timeout-collapse-014": 2,
+      "timeout-collapse-015": 2,
+      "timeout-collapse-019": 2
+    }
+  },
+  "latency_impact": {
+    "baseline_latency_ms": {
+      "p50": 15.59,
+      "p95": 21.33,
+      "p99": 101.201
+    },
+    "injected_latency_ms": {
+      "p50": 0.28,
+      "p95": 25299.218,
+      "p99": 37121.624
+    },
+    "tail_amplification_ratio": 2381.11764
+  },
+  "unknown_failure_safety": {
+    "scenario": "unseen_failure_pattern",
+    "passed": true,
+    "bucket_code": "POLICY_VIOLATION",
+    "never_treated_as_success": true,
+    "retry_policy_correct": true,
+    "explainability_pollution_detected": false
+  },
+  "must_never_happen": {
+    "success_later_becomes_failure": false,
+    "stuck_pending": false,
+    "duplicate_terminal_events_due_to_retries": false,
+    "mixed_schema_outputs": false,
+    "retries_bypass_idempotency": false
+  },
+  "invariants_raw": {
+    "duplicate_terminal": 0,
+    "terminal_conflicts": 0,
+    "missing_terminal": 0,
+    "parsed_lines": 58,
+    "invalid_lines": 0,
+    "terminal_request_ids": 58,
+    "terminal_expected_ids": 58
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "findings": [],
+  "signals": {
+    "uses_system_state": true,
+    "uses_explanation": true,
+    "has_adapter_activity_table": true,
+    "adapter_has_explanation": true,
+    "css_present": true
+  },
+  "artifact": "C:\\Users\\ya754\\CaseCrack v1.0\\_UI_LOGIC_LEAKAGE_AUDIT.json"
+}

@@ -1,0 +1,85 @@
+{
+  "verdict": "PASS",
+  "intelligence_deterministic": true,
+  "intelligence_fixture_pass": true,
+  "explainability_deterministic": true,
+  "no_contradictions": true,
+  "blockers_proven": {
+    "IN-001": true,
+    "IN-002": true,
+    "IN-003": true,
+    "IN-004": true,
+    "EX-001": true,
+    "EX-002": true,
+    "EX-003": true
+  },
+  "intelligence_tests": [
+    {
+      "test": "determinism_10_runs",
+      "blocker": "IN-001",
+      "passed": true,
+      "mismatched_runs": [],
+      "detail": "10/10 runs identical"
+    },
+    {
+      "test": "fixture_expected_output",
+      "blocker": "IN-002",
+      "passed": true,
+      "violations": [],
+      "detected_warnings": [
+        "STREAM_INSTABILITY",
+        "HIGH_ERROR_RATE",
+        "PERSISTENT_LICENSE_REQUIRED",
+        "REPEATED_DEGRADED_MODE"
+      ],
+      "detected_anomalies": [],
+      "recommendations": [
+        "CHECK_LICENSE_CONFIGURATION"
+      ]
+    },
+    {
+      "test": "determinism_varied_input_order",
+      "blocker": "IN-003",
+      "passed": true,
+      "violations": [],
+      "forward_unique_outputs": 1,
+      "reversed_unique_outputs": 1
+    },
+    {
+      "test": "edge_cases_no_crash",
+      "blocker": "IN-004",
+      "passed": true,
+      "violations": []
+    }
+  ],
+  "explainability_tests": [
+    {
+      "test": "explanation_determinism",
+      "blocker": "EX-001",
+      "passed": true,
+      "unique_outputs": 1,
+      "detail": "10/10 identical"
+    },
+    {
+      "test": "explanation_completeness",
+      "blocker": "EX-002",
+      "passed": true,
+      "violations": []
+    },
+    {
+      "test": "no_contradictions",
+      "blocker": "EX-003",
+      "passed": true,
+      "violations": [],
+      "license_explanation": {
+        "summary": "System is experiencing persistent license enforcement failures.",
+        "causes": [
+          "Tool execution blocked due to license enforcement (missing or invalid license context)."
+        ],
+        "recommendations": [
+          "CHECK_LICENSE_CONFIGURATION"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+﻿============================= test session starts =============================
+collected 184 items
+
+tests\test_tool_registry_sprint2.py F.FFF..........F...F.F.F.FF          [ 14%]
+tests\test_tool_registry.py FFFFFFF..F..FFFFFF..F.FFFFFFFF..FFF.FFF.FF.. [ 38%]
+.......FFFFFFFFFFFFF.FFFFFFFFFFFF...............FFFFFFFFFF.FFFF.FFFFFFFF [ 77%]
+F........FFF....................FFFFFFFFF                                [100%]
+
+================================== FAILURES ===================================
+E   Failed: DID NOT RAISE <class 'KeyError'>
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:132: Failed: DID NOT RAISE <class 'KeyError'>
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry_sprint2.py:59: AttributeError: type object 'ToolCapability' has no attribute 'VULN_SCAN'
+E   AttributeError: type object 'TranslatorConfig' has no attribute 'from_dict'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1678: AttributeError: type object 'TranslatorConfig' has no attribute 'from_dict'
+E   AssertionError: assert 'tool_registry' in {'chain': {'cooldown': 8.0, 'max_chain_history': 500, 'max_chain_length': 10, 'max_concurrent': 3, ...}, 'learning': {...ro', 'nonce_length': 13, 'poll_interval': 5.0, ...}, 'orchestration': {'max_workers': 4, 'module_timeout': 300.0}, ...}
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1619: AssertionError: assert 'tool_registry' in {'chain': {'cooldown': 8.0, 'max_chain_history': 500, 'max_chain_length': 10, 'max_concurrent': 3, ...}, 'learning': {...ro', 'nonce_length': 13, 'poll_interval': 5.0, ...}, 'orchestration': {'max_workers': 4, 'module_timeout': 300.0}, ...}
+E   AttributeError: type object 'FallbackConfig' has no attribute 'from_dict'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1666: AttributeError: type object 'FallbackConfig' has no attribute 'from_dict'
+E   KeyError: 'tool_registry'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1654: KeyError: 'tool_registry'
+E   KeyError: 'tool_registry'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1628: KeyError: 'tool_registry'
+E   KeyError: 'tool_registry'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1641: KeyError: 'tool_registry'
+E   TypeError: FeroxbusterParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1055: TypeError: FeroxbusterParser.parse() missing 1 required positional argument: 'ctx'
+E   AttributeError: type object 'OutputFormat' has no attribute 'PLAIN_TEXT'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:301: AttributeError: type object 'OutputFormat' has no attribute 'PLAIN_TEXT'
+E   AttributeError: 'FallbackSelector' object has no attribute 'select_best_for_capability'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1343: AttributeError: 'FallbackSelector' object has no attribute 'select_best_for_capability'
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1331: AttributeError: 'NoneType' object has no attribute '_availability_cache'
+E   TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:781: TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:796: TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:791: TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+E   AttributeError: 'AIDirectedExecutor' object has no attribute '_allowed'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\loop\ai_directed_executor.py:500: AttributeError: 'AIDirectedExecutor' object has no attribute '_allowed'
+E   KeyError: 'severity'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1584: KeyError: 'severity'
+E   TypeError: GobusterParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1092: TypeError: GobusterParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: NmapParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:913: TypeError: NmapParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: NmapParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:927: TypeError: NmapParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: GenericNDJSONParser() takes no arguments
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1707: TypeError: GenericNDJSONParser() takes no arguments
+E   TypeError: GenericNDJSONParser() takes no arguments
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1701: TypeError: GenericNDJSONParser() takes no arguments
+E   TypeError: GenericNDJSONParser() takes no arguments
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1693: TypeError: GenericNDJSONParser() takes no arguments
+E   TypeError: JsluiceParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1005: TypeError: JsluiceParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: JsluiceParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:994: TypeError: JsluiceParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: FfufParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:892: TypeError: FfufParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: GenericNDJSONParser() takes no arguments
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1148: TypeError: GenericNDJSONParser() takes no arguments
+E   AttributeError: 'ParserRegistry' object has no attribute 'has_parser'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1115: AttributeError: 'ParserRegistry' object has no attribute 'has_parser'
+E   assert None is not None
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1126: assert None is not None
+E   AttributeError: 'ParserRegistry' object has no attribute 'registered_tools'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1107: AttributeError: 'ParserRegistry' object has no attribute 'registered_tools'
+E   AttributeError: 'ParserRegistry' object has no attribute 'registered_tools'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1140: AttributeError: 'ParserRegistry' object has no attribute 'registered_tools'
+E   TypeError: ParseContext.__init__() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:747: TypeError: ParseContext.__init__() got an unexpected keyword argument 'target'
+E   TypeError: ParseContext.__init__() missing 1 required positional argument: 'tool_name'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:740: TypeError: ParseContext.__init__() missing 1 required positional argument: 'tool_name'
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1424: TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+E   AttributeError: 'ActionTranslator' object has no attribute 'get_available_actions'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1491: AttributeError: 'ActionTranslator' object has no attribute 'get_available_actions'
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1416: TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1431: TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+E   AttributeError: 'ActionTranslator' object has no attribute 'registry'. Did you mean: '_registry'?
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1454: AttributeError: 'ActionTranslator' object has no attribute 'registry'. Did you mean: '_registry'?
+E   AttributeError: 'ActionTranslator' object has no attribute 'translate_vuln_type'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1436: AttributeError: 'ActionTranslator' object has no attribute 'translate_vuln_type'
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1441: TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+E   AttributeError: 'ActionTranslator' object has no attribute 'get_tools_for_vuln'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1484: AttributeError: 'ActionTranslator' object has no attribute 'get_tools_for_vuln'
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1468: TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+E   AttributeError: 'ActionTranslator' object has no attribute 'parse_output'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1478: AttributeError: 'ActionTranslator' object has no attribute 'parse_output'
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1498: TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1504: TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1222: AttributeError: 'NoneType' object has no attribute '_availability_cache'
+E   TypeError: FallbackConfig.__init__() got an unexpected keyword argument 'strict_tools'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1283: TypeError: FallbackConfig.__init__() got an unexpected keyword argument 'strict_tools'
+E   TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1307: TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+E   TypeError: FallbackChain.__init__() got an unexpected keyword argument 'fallbacks'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1302: TypeError: FallbackChain.__init__() got an unexpected keyword argument 'fallbacks'
+E   TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1313: TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1235: AttributeError: 'NoneType' object has no attribute '_availability_cache'
+E   TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1293: TypeError: FallbackSelector.select() got an unexpected keyword argument 'prefer_available'
+E   TypeError: FallbackConfig.__init__() got an unexpected keyword argument 'enabled'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1262: TypeError: FallbackConfig.__init__() got an unexpected keyword argument 'enabled'
+E   TypeError: ParsedFinding.__init__() got an unexpected keyword argument 'vulnerability_type'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:707: TypeError: ParsedFinding.__init__() got an unexpected keyword argument 'vulnerability_type'
+E   TypeError: ParsedFinding.__init__() missing 4 required positional arguments: 'tool', 'vuln_type', 'severity', and 'url'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:730: TypeError: ParsedFinding.__init__() missing 4 required positional arguments: 'tool', 'vuln_type', 'severity', and 'url'
+E   TypeError: ParsedFinding.__init__() got an unexpected keyword argument 'extra'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:723: TypeError: ParsedFinding.__init__() got an unexpected keyword argument 'extra'
+E   TypeError: ParsedFinding.__init__() missing 5 required positional arguments: 'tool', 'vuln_type', 'severity', 'url', and 'title'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:698: TypeError: ParsedFinding.__init__() missing 5 required positional arguments: 'tool', 'vuln_type', 'severity', 'url', and 'title'
+E   TypeError: ArjunParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1019: TypeError: ArjunParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: GhauriParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1079: TypeError: GhauriParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: GhauriParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1072: TypeError: GhauriParser.parse() missing 1 required positional argument: 'ctx'
+E   AssertionError: Missing 'tool' key for sql_injection
+    assert 'tool' in ['sqlmap', 'ghauri']
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1403: AssertionError: Missing 'tool' key for sql_injection
+E   AttributeError: type object 'TranslatorConfig' has no attribute 'from_dict'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1381: AttributeError: type object 'TranslatorConfig' has no attribute 'from_dict'
+E   AssertionError: assert 'sqli' in {'api_discovery': ['arjun', 'katana'], 'crawl': ['katana'], 'directory_enum': ['feroxbuster', 'gobuster', 'ffuf'], 'graphql_probe': ['nuclei'], ...}
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1393: AssertionError: assert 'sqli' in {'api_discovery': ['arjun', 'katana'], 'crawl': ['katana'], 'directory_enum': ['feroxbuster', 'gobuster', 'ffuf'], 'graphql_probe': ['nuclei'], ...}
+E   TypeError: TranslatedAction.__init__() got an unexpected keyword argument 'command'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1359: TypeError: TranslatedAction.__init__() got an unexpected keyword argument 'command'
+E   AttributeError: 'TranslatorConfig' object has no attribute 'prefer_docker'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1374: AttributeError: 'TranslatorConfig' object has no attribute 'prefer_docker'
+E   TypeError: SqlmapParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:817: TypeError: SqlmapParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: SqlmapParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:826: TypeError: SqlmapParser.parse() missing 1 required positional argument: 'ctx'
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1836: AttributeError: 'NoneType' object has no attribute '_availability_cache'
+E   TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1818: TypeError: ActionTranslator.translate() got an unexpected keyword argument 'target'
+E   AttributeError: 'NoneType' object has no attribute '_availability_cache'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1825: AttributeError: 'NoneType' object has no attribute '_availability_cache'
+E   TypeError: GenericNDJSONParser() takes no arguments
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1814: TypeError: GenericNDJSONParser() takes no arguments
+E   TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1808: TypeError: NucleiParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: NiktoParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1038: TypeError: NiktoParser.parse() missing 1 required positional argument: 'ctx'
+E   AttributeError: type object 'FallbackConfig' has no attribute 'from_dict'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1198: AttributeError: type object 'FallbackConfig' has no attribute 'from_dict'
+E   AttributeError: 'FallbackConfig' object has no attribute 'enabled'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1191: AttributeError: 'FallbackConfig' object has no attribute 'enabled'
+E   TypeError: FallbackResult.__init__() got an unexpected keyword argument 'is_fallback'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1164: TypeError: FallbackResult.__init__() got an unexpected keyword argument 'is_fallback'
+E   TypeError: FallbackChain.__init__() got an unexpected keyword argument 'fallbacks'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1180: TypeError: FallbackChain.__init__() got an unexpected keyword argument 'fallbacks'
+E   TypeError: KatanaParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:979: TypeError: KatanaParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: KatanaParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:973: TypeError: KatanaParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: SubfinderParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:938: TypeError: SubfinderParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: SubfinderParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:944: TypeError: SubfinderParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: HttpxParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:960: TypeError: HttpxParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: DalfoxParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:859: TypeError: DalfoxParser.parse() missing 1 required positional argument: 'ctx'
+E   TypeError: DalfoxParser.parse() missing 1 required positional argument: 'ctx'
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:846: TypeError: DalfoxParser.parse() missing 1 required positional argument: 'ctx'
+E   ImportError: cannot import name '_safe_json_lines' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1720: ImportError: cannot import name '_safe_json_lines' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+E   ImportError: cannot import name '_safe_json' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1733: ImportError: cannot import name '_safe_json' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+E   ImportError: cannot import name '_extract_cves' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1752: ImportError: cannot import name '_extract_cves' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+E   ImportError: cannot import name '_extract_cwes' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1765: ImportError: cannot import name '_extract_cwes' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+E   ImportError: cannot import name '_extract_cwes' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1771: ImportError: cannot import name '_extract_cwes' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+E   ImportError: cannot import name '_safe_json_lines' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1728: ImportError: cannot import name '_safe_json_lines' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+E   ImportError: cannot import name '_extract_severity' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1739: ImportError: cannot import name '_extract_severity' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+E   ImportError: cannot import name '_extract_cves' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1759: ImportError: cannot import name '_extract_cves' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+E   ImportError: cannot import name '_extract_url' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+C:\Users\ya754\CaseCrack v1.0\CaseCrack\tests\test_tool_registry.py:1746: ImportError: cannot import name '_extract_url' from 'tools.burp_enterprise.tool_registry.output_parsers' (C:\Users\ya754\CaseCrack v1.0\CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py)
+=========================== short test summary info ===========================
+FAILED tests/test_tool_registry_sprint2.py::test_build_command_unknown_tool_raises
+FAILED tests/test_tool_registry_sprint2.py::test_action_translator_policy_picks_higher_health_score
+FAILED tests/test_tool_registry_sprint2.py::test_fallback_selects_healthier_alternative_in_chain
+FAILED tests/test_tool_registry_sprint2.py::test_registry_record_invocation_updates_score
+FAILED tests/test_tool_registry_sprint2.py::test_build_command_sandbox_blocks_metacharacters
+FAILED tests/test_tool_registry_sprint2.py::test_fallback_record_outcome_updates_registry
+FAILED tests/test_tool_registry_sprint2.py::test_build_command_sandbox_can_be_disabled_for_trusted_callers
+FAILED tests/test_tool_registry_sprint2.py::test_fallback_min_health_score_filters_dead_tool
+FAILED tests/test_tool_registry_sprint2.py::test_action_translator_returns_none_when_unavailable
+FAILED tests/test_tool_registry_sprint2.py::test_registry_health_stats_aggregates_all
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_translator_config_from_yaml
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_config_loads
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_fallback_config_from_yaml
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_config_tool_overrides
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_config_fallback_keys
+FAILED tests/test_tool_registry.py::TestConfigIntegration::test_config_translator_keys
+FAILED tests/test_tool_registry.py::TestFeroxbusterParser::test_parse_ndjson
+FAILED tests/test_tool_registry.py::TestEnums::test_output_format - Attribute...
+FAILED tests/test_tool_registry.py::TestFallbackSelectBestForCapability::test_best_for_nonexistent_capability
+FAILED tests/test_tool_registry.py::TestFallbackSelectBestForCapability::test_best_for_xss
+FAILED tests/test_tool_registry.py::TestNucleiParser::test_parse_ndjson - Typ...
+FAILED tests/test_tool_registry.py::TestNucleiParser::test_parse_malformed_lines
+FAILED tests/test_tool_registry.py::TestNucleiParser::test_parse_empty - Type...
+FAILED tests/test_tool_registry.py::TestIntegration::test_executor_get_available_tools_with_registry
+FAILED tests/test_tool_registry.py::TestIntegration::test_executor_parse_findings_enhanced
+FAILED tests/test_tool_registry.py::TestGobusterParser::test_parse_found_paths
+FAILED tests/test_tool_registry.py::TestNmapParser::test_parse_port_output - ...
+FAILED tests/test_tool_registry.py::TestNmapParser::test_parse_ndjson - TypeE...
+FAILED tests/test_tool_registry.py::TestGenericNDJSONParser::test_parse_skip_malformed
+FAILED tests/test_tool_registry.py::TestGenericNDJSONParser::test_parse_empty
+FAILED tests/test_tool_registry.py::TestGenericNDJSONParser::test_parse_standard_ndjson
+FAILED tests/test_tool_registry.py::TestJsluiceParser::test_parse_url - TypeE...
+FAILED tests/test_tool_registry.py::TestJsluiceParser::test_parse_secret - Ty...
+FAILED tests/test_tool_registry.py::TestFfufParser::test_parse_results - Type...
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_register_custom_parser
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_has_parser - Att...
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_get_unknown_returns_fallback
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_registered_tools
+FAILED tests/test_tool_registry.py::TestParserRegistry::test_build_default_parser_registry_count
+FAILED tests/test_tool_registry.py::TestParseContext::test_with_values - Type...
+FAILED tests/test_tool_registry.py::TestParseContext::test_defaults - TypeErr...
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_vuln_type_mapping
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_get_available_actions
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_known_tool
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_vuln_type_as_tool_name
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_in_process_tool
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_vuln_type_convenience
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_with_parameters
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_get_tools_for_vuln
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translate_nonexistent_tool
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_parse_output
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_get_stats - Ty...
+FAILED tests/test_tool_registry.py::TestActionTranslator::test_translation_log_grows
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_available_tool
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_strict_tool
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_selection_log
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_explicit_chain_registration
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_stats - TypeEr...
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_unavailable_with_chain
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_prefer_available_false
+FAILED tests/test_tool_registry.py::TestFallbackSelector::test_select_disabled_fallback
+FAILED tests/test_tool_registry.py::TestParsedFinding::test_to_dict - TypeErr...
+FAILED tests/test_tool_registry.py::TestParsedFinding::test_empty_extra_excluded
+FAILED tests/test_tool_registry.py::TestParsedFinding::test_extra_in_dict - T...
+FAILED tests/test_tool_registry.py::TestParsedFinding::test_defaults - TypeEr...
+FAILED tests/test_tool_registry.py::TestArjunParser::test_parse_json - TypeEr...
+FAILED tests/test_tool_registry.py::TestGhauriParser::test_parse_no_injection
+FAILED tests/test_tool_registry.py::TestGhauriParser::test_parse_injection_found
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_vuln_tool_map_structure
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_translator_config_from_dict
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_vuln_tool_map_has_common_types
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_translated_action_to_dict
+FAILED tests/test_tool_registry.py::TestTranslatorModels::test_translator_config_defaults
+FAILED tests/test_tool_registry.py::TestSqlmapParser::test_parse_injection_found
+FAILED tests/test_tool_registry.py::TestSqlmapParser::test_parse_no_injection
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_port_scan_fallback_chain
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_translator_empty_target
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_fallback_chain_fuzzer_group
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_unicode_output_parsing
+FAILED tests/test_tool_registry.py::TestEdgeCases::test_large_output_parsing
+FAILED tests/test_tool_registry.py::TestNiktoParser::test_parse_json - TypeEr...
+FAILED tests/test_tool_registry.py::TestFallbackModels::test_fallback_config_from_dict
+FAILED tests/test_tool_registry.py::TestFallbackModels::test_fallback_config_defaults
+FAILED tests/test_tool_registry.py::TestFallbackModels::test_fallback_result_to_dict
+FAILED tests/test_tool_registry.py::TestFallbackModels::test_fallback_chain
+FAILED tests/test_tool_registry.py::TestKatanaParser::test_parse_plaintext - ...
+FAILED tests/test_tool_registry.py::TestKatanaParser::test_parse_ndjson - Typ...
+FAILED tests/test_tool_registry.py::TestSubfinderParser::test_parse_ndjson - ...
+FAILED tests/test_tool_registry.py::TestSubfinderParser::test_parse_plaintext
+FAILED tests/test_tool_registry.py::TestHttpxParser::test_parse_ndjson - Type...
+FAILED tests/test_tool_registry.py::TestDalfoxParser::test_parse_grepping_line
+FAILED tests/test_tool_registry.py::TestDalfoxParser::test_parse_xss_found - ...
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_safe_json_lines
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_safe_json - Imp...
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_cves - ...
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_cwes - ...
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_cwes_direct
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_safe_json_lines_empty
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_severity
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_cves_direct
+FAILED tests/test_tool_registry.py::TestHelperUtilities::test_extract_url - I...
+======================= 101 failed, 83 passed in 5.10s ========================

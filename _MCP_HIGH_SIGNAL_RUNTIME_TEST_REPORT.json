@@ -1,0 +1,141 @@
+{
+  "verdict": "PASS",
+  "audit_path": "C:\\Users\\ya754\\CaseCrack v1.0\\_tmp_mcp_high_signal_audit.jsonl",
+  "tests": [
+    {
+      "name": "duplicate_execution_attempt",
+      "passed": true,
+      "details": {
+        "run_count": 1,
+        "first_error": false,
+        "second_error": false,
+        "terminal_events": [
+          {
+            "line": 1,
+            "event_type": "tool_completed",
+            "ok": true,
+            "tool": "get_report",
+            "error": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "success_forced_failure_race",
+      "passed": true,
+      "details": {
+        "is_error": false,
+        "response_ok": true,
+        "terminal_events": [
+          {
+            "line": 2,
+            "event_type": "tool_completed",
+            "ok": true,
+            "tool": "get_report",
+            "error": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "concurrent_burst",
+      "passed": true,
+      "details": {
+        "total": 100,
+        "unique_request_ids": 100,
+        "missing_terminal": 0,
+        "duplicate_terminal": 0,
+        "terminal_conflicts": 0,
+        "missing_examples": [],
+        "duplicate_examples": [],
+        "conflict_examples": []
+      }
+    },
+    {
+      "name": "sse_drop_recovery",
+      "passed": true,
+      "details": {
+        "outage_recovery": {
+          "history": [
+            {
+              "actionId": 3,
+              "tool": "get_report",
+              "args": {},
+              "requestId": "req-3",
+              "status": "ok",
+              "errorCode": "",
+              "errorKey": "",
+              "message": "Report loaded",
+              "error": "",
+              "startedAtMs": 3000,
+              "completedAtMs": 7000,
+              "durationMs": 4000,
+              "awaitingRecovery": false,
+              "recoveredAfterDisconnect": true,
+              "timestamp": "t007"
+            },
+            {
+              "actionId": 0,
+              "tool": "list_targets",
+              "args": {},
+              "requestId": "req-2",
+              "status": "ok",
+              "errorCode": "",
+              "errorKey": "",
+              "message": "Targets loaded",
+              "error": "",
+              "startedAtMs": 2000,
+              "completedAtMs": 6000,
+              "durationMs": 4000,
+              "awaitingRecovery": false,
+              "recoveredAfterDisconnect": true,
+              "timestamp": "t006"
+            },
+            {
+              "actionId": 0,
+              "tool": "run_burp_scan",
+              "args": {},
+              "requestId": "req-1",
+              "status": "ok",
+              "errorCode": "",
+              "errorKey": "",
+              "message": "Scan queued",
+              "error": "",
+              "startedAtMs": 1000,
+              "completedAtMs": 5000,
+              "durationMs": 4000,
+              "awaitingRecovery": false,
+              "recoveredAfterDisconnect": true,
+              "timestamp": "t005"
+            }
+          ],
+          "hint": "Recovered after reconnect - 3 actions were restored from snapshot reconciliation."
+        },
+        "snapshot_sse_race": {
+          "entry": {
+            "actionId": 1,
+            "tool": "list_targets",
+            "args": {
+              "filter": "race"
+            },
+            "requestId": "req-race",
+            "status": "ok",
+            "errorCode": "",
+            "errorKey": "",
+            "message": "Targets loaded",
+            "error": "",
+            "startedAtMs": 1000,
+            "completedAtMs": 2000,
+            "durationMs": 1000,
+            "awaitingRecovery": false,
+            "recoveredAfterDisconnect": true,
+            "timestamp": "t002"
+          }
+        },
+        "duplicate_history": false,
+        "missing_resolved": false
+      }
+    }
+  ],
+  "terminal_event_request_ids": 102
+}

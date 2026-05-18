@@ -1,0 +1,72 @@
+﻿
+===== fe741aee-1c2f-4369-88dc-3b1ec98b7734 =====
+  recentSnapshot.entries len: 96
+  fileBaselines (list len): 127
+  Last fileBaseline per recon-dashboard file:
+  Last op per recon-dashboard file:
+
+===== 251326ca-7dc0-4d81-9d57-58d76f6c32ba =====
+  recentSnapshot.entries len: 10
+  fileBaselines (list len): 9
+  Last fileBaseline per recon-dashboard file:
+  Last op per recon-dashboard file:
+
+===== 4ee01150-c401-4f48-8b23-ce30c85da2d0 =====
+  recentSnapshot.entries len: 2
+  fileBaselines (list len): 5
+  Last fileBaseline per recon-dashboard file:
+  Last op per recon-dashboard file:
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/css/recon-dashboard.css
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=28
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/js/recon-dashboard.js
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=23
+
+===== 2d6e604f-d895-4e48-b184-5d506e917117 =====
+  recentSnapshot.entries len: 2
+  fileBaselines (list len): 7
+  Last fileBaseline per recon-dashboard file:
+  Last op per recon-dashboard file:
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/js/recon-dashboard.js
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=24
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/css/recon-dashboard.css
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=25
+
+===== c71db976-71f6-40b1-af22-022cc2ec09aa =====
+  recentSnapshot.entries len: 2
+  fileBaselines (list len): 15
+  Last fileBaseline per recon-dashboard file:
+  Last op per recon-dashboard file:
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/js/recon-dashboard.js
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=75
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/css/recon-dashboard.css
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=71
+
+===== fae709ba-0fb2-4b2c-8623-87175702540e =====
+  recentSnapshot.entries len: 2
+  fileBaselines (list len): 6
+  Last fileBaseline per recon-dashboard file:
+  Last op per recon-dashboard file:
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/js/recon-dashboard.js
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=27
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/css/recon-dashboard.css
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=17
+
+===== 7f5add25-6da8-45d9-ba68-7b93d4d21849 =====
+  recentSnapshot.entries len: 3
+  fileBaselines (list len): 4
+  Last fileBaseline per recon-dashboard file:
+  Last op per recon-dashboard file:
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/js/recon-dashboard.js
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=4
+    file:///c%3A/Users/ya754/CaseCrack%20v1.0/CaseCrack/tools/burp_enterprise/static/css/recon-dashboard.css
+      keys: ['type', 'uri', 'requestId', 'epoch', 'edits']
+      epoch=19

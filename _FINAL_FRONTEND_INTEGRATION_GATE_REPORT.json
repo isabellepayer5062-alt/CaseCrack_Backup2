@@ -1,0 +1,1267 @@
+{
+  "verdict": "GO",
+  "blocking_failures": [],
+  "checks": [
+    {
+      "name": "phase1_tool_surface_present",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "required": [
+          "get_report",
+          "list_targets",
+          "run_burp_scan"
+        ],
+        "present": [
+          "get_report",
+          "list_targets",
+          "run_burp_scan"
+        ],
+        "missing": [],
+        "tool_count": 143
+      }
+    },
+    {
+      "name": "golden_dataset_present",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "path": "C:\\Users\\ya754\\CaseCrack v1.0\\_PHASE1_GOLDEN_DATASET.json",
+        "exists": true
+      }
+    },
+    {
+      "name": "generic_enforcement_wrapper_smoke",
+      "blocking": false,
+      "passed": false,
+      "details": {
+        "invalid_params_rejected": true,
+        "invalid_params_payload": {
+          "ok": false,
+          "error": "policy_violation",
+          "code": "POLICY_VIOLATION",
+          "tool": "manage_tenant_controls",
+          "run_id": "invalid-params",
+          "request_id": "invalid-params",
+          "summary": "tenant_id is required",
+          "artifacts": [],
+          "next_suggested_tools": []
+        },
+        "quota_enforced": true,
+        "first_quota_payload": {
+          "ok": true,
+          "tool": "get_copilot_coverage",
+          "run_id": "quota-1",
+          "request_id": "quota-1",
+          "summary": "completed",
+          "artifacts": [
+            {
+              "tool": "get_copilot_coverage",
+              "arguments": {},
+              "ok": true
+            }
+          ],
+          "next_suggested_tools": [
+            "discover_endpoints",
+            "analyze_target",
+            "subdomain_enumerate",
+            "get_strategy"
+          ]
+        },
+        "second_quota_payload": {
+          "ok": false,
+          "error": "rate_limited",
+          "code": "RATE_LIMITED",
+          "tool": "get_copilot_coverage",
+          "run_id": "quota-2",
+          "request_id": "quota-2",
+          "summary": "Tenant daily quota exceeded (1/day)",
+          "artifacts": [],
+          "next_suggested_tools": []
+        },
+        "concurrency_honored": false,
+        "observed_max_active": 1,
+        "configured_concurrency_limit": 1
+      }
+    },
+    {
+      "name": "control_plane_integrity",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "admin_only": true,
+        "user_status_payload": {
+          "ok": false,
+          "error": "tool_not_allowed",
+          "code": "ALLOWLIST_DENY",
+          "tool": "manage_tenant_controls",
+          "run_id": "status-user",
+          "request_id": "status-user",
+          "summary": "role_access_denied: role=user cannot execute category admin",
+          "artifacts": [],
+          "next_suggested_tools": []
+        },
+        "disable_payload": {
+          "ok": true,
+          "tool": "manage_tenant_controls",
+          "run_id": "disable-admin",
+          "request_id": "disable-admin",
+          "summary": "completed",
+          "artifacts": [
+            {
+              "action": "disable",
+              "before": {
+                "tenant_id": "tenant-control",
+                "level": "active",
+                "reason_code": "NONE",
+                "primary_reason_code": "NONE",
+                "contributing_reasons": [],
+                "reason_detail": "",
+                "until_epoch": 0.0,
+                "min_hold_until_epoch": 0.0,
+                "updated_at_epoch": 0.0,
+                "last_evaluated_at_epoch": 1777156718.9178813,
+                "updated_by": "",
+                "request_id": "",
+                "source": "runtime",
+                "admin_lock": false,
+                "plan_override": null,
+                "usage": {
+                  "tokens": 0.0,
+                  "daily_count": 0,
+                  "passthrough_calls": 0,
+                  "rate_limited_total": 0,
+                  "error_total": 0
+                },
+                "limits": {
+                  "plan": "free",
+                  "burst": 5.0,
+                  "refill": 0.5,
+                  "daily": 100,
+                  "concurrency": 1
+                },
+                "recent_actions": []
+              },
+              "after": {
+                "tenant_id": "tenant-control",
+                "level": "disabled",
+                "reason_code": "MANUAL_ADMIN_ACTION",
+                "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                "contributing_reasons": [
+                  "MANUAL_ADMIN_ACTION"
+                ],
+                "reason_detail": "frontend gate disable test",
+                "until_epoch": 1777157018.9179218,
+                "min_hold_until_epoch": 1777157018.9179218,
+                "updated_at_epoch": 1777156718.9179218,
+                "last_evaluated_at_epoch": 1777156718.9179218,
+                "updated_by": "gate-admin",
+                "request_id": "disable-admin",
+                "source": "manual",
+                "admin_lock": true,
+                "plan_override": null,
+                "usage": {
+                  "tokens": 0.0,
+                  "daily_count": 100,
+                  "passthrough_calls": 0,
+                  "rate_limited_total": 0,
+                  "error_total": 0
+                },
+                "limits": {
+                  "plan": "free",
+                  "burst": 5.0,
+                  "refill": 0.5,
+                  "daily": 100,
+                  "concurrency": 1
+                },
+                "recent_actions": [
+                  {
+                    "at_epoch": 1777156718.9179218,
+                    "action": "state_disabled",
+                    "reason_code": "MANUAL_ADMIN_ACTION",
+                    "reason_detail": "frontend gate disable test",
+                    "source": "manual",
+                    "request_id": "disable-admin",
+                    "updated_by": "gate-admin",
+                    "before": {},
+                    "after": {
+                      "tenant_id": "tenant-control",
+                      "level": "disabled",
+                      "reason_code": "MANUAL_ADMIN_ACTION",
+                      "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                      "contributing_reasons": [
+                        "MANUAL_ADMIN_ACTION"
+                      ],
+                      "reason_detail": "frontend gate disable test",
+                      "source": "manual",
+                      "updated_at_epoch": 1777156718.9179218,
+                      "until_epoch": 1777157018.9179218,
+                      "until_monotonic": 23082.6929324,
+                      "min_hold_until_epoch": 1777157018.9179218,
+                      "min_hold_until_monotonic": 23082.6929324,
+                      "updated_by": "gate-admin",
+                      "request_id": "disable-admin",
+                      "source_priority": 900,
+                      "severity": 3,
+                      "admin_lock": true,
+                      "last_evaluated_at_epoch": 1777156718.9179218,
+                      "recovery_level": "recovery",
+                      "recovery_reason_code": "RECOVERY_GRACE",
+                      "recovery_until_epoch": 1777157138.9179218,
+                      "recovery_until_monotonic": 23202.6929324
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "next_suggested_tools": [
+            "discover_endpoints",
+            "analyze_target",
+            "subdomain_enumerate",
+            "get_strategy"
+          ]
+        },
+        "disable_error": false,
+        "status_after_disable": {
+          "tenant_id": "tenant-control",
+          "level": "disabled",
+          "reason_code": "MANUAL_ADMIN_ACTION",
+          "primary_reason_code": "MANUAL_ADMIN_ACTION",
+          "contributing_reasons": [
+            "MANUAL_ADMIN_ACTION"
+          ],
+          "reason_detail": "frontend gate disable test",
+          "until_epoch": 1777157018.9179218,
+          "min_hold_until_epoch": 1777157018.9179218,
+          "updated_at_epoch": 1777156718.9179218,
+          "last_evaluated_at_epoch": 1777156718.9179218,
+          "updated_by": "gate-admin",
+          "request_id": "disable-admin",
+          "source": "manual",
+          "admin_lock": true,
+          "plan_override": null,
+          "usage": {
+            "tokens": 0.0,
+            "daily_count": 100,
+            "passthrough_calls": 0,
+            "rate_limited_total": 0,
+            "error_total": 0
+          },
+          "limits": {
+            "plan": "free",
+            "burst": 5.0,
+            "refill": 0.5,
+            "daily": 100,
+            "concurrency": 1
+          },
+          "recent_actions": [
+            {
+              "at_epoch": 1777156718.9179218,
+              "action": "state_disabled",
+              "reason_code": "MANUAL_ADMIN_ACTION",
+              "reason_detail": "frontend gate disable test",
+              "source": "manual",
+              "request_id": "disable-admin",
+              "updated_by": "gate-admin",
+              "before": {},
+              "after": {
+                "tenant_id": "tenant-control",
+                "level": "disabled",
+                "reason_code": "MANUAL_ADMIN_ACTION",
+                "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                "contributing_reasons": [
+                  "MANUAL_ADMIN_ACTION"
+                ],
+                "reason_detail": "frontend gate disable test",
+                "source": "manual",
+                "updated_at_epoch": 1777156718.9179218,
+                "until_epoch": 1777157018.9179218,
+                "until_monotonic": 23082.6929324,
+                "min_hold_until_epoch": 1777157018.9179218,
+                "min_hold_until_monotonic": 23082.6929324,
+                "updated_by": "gate-admin",
+                "request_id": "disable-admin",
+                "source_priority": 900,
+                "severity": 3,
+                "admin_lock": true,
+                "last_evaluated_at_epoch": 1777156718.9179218,
+                "recovery_level": "recovery",
+                "recovery_reason_code": "RECOVERY_GRACE",
+                "recovery_until_epoch": 1777157138.9179218,
+                "recovery_until_monotonic": 23202.6929324
+              }
+            }
+          ]
+        },
+        "status_after_restart": {
+          "tenant_id": "tenant-control",
+          "level": "disabled",
+          "reason_code": "MANUAL_ADMIN_ACTION",
+          "primary_reason_code": "MANUAL_ADMIN_ACTION",
+          "contributing_reasons": [
+            "MANUAL_ADMIN_ACTION"
+          ],
+          "reason_detail": "frontend gate disable test",
+          "until_epoch": 1777157018.9179218,
+          "min_hold_until_epoch": 1777157018.9179218,
+          "updated_at_epoch": 1777156718.9179218,
+          "last_evaluated_at_epoch": 1777156718.9179218,
+          "updated_by": "gate-admin",
+          "request_id": "disable-admin",
+          "source": "manual",
+          "admin_lock": true,
+          "plan_override": null,
+          "usage": {
+            "tokens": 0.0,
+            "daily_count": 0,
+            "passthrough_calls": 0,
+            "rate_limited_total": 0,
+            "error_total": 0
+          },
+          "limits": {
+            "plan": "free",
+            "burst": 5.0,
+            "refill": 0.5,
+            "daily": 100,
+            "concurrency": 1
+          },
+          "recent_actions": [
+            {
+              "action": "state_disabled",
+              "after": {
+                "admin_lock": true,
+                "contributing_reasons": [
+                  "MANUAL_ADMIN_ACTION"
+                ],
+                "last_evaluated_at_epoch": 1777156718.9179218,
+                "level": "disabled",
+                "min_hold_until_epoch": 1777157018.9179218,
+                "min_hold_until_monotonic": 23082.6929324,
+                "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                "reason_code": "MANUAL_ADMIN_ACTION",
+                "reason_detail": "frontend gate disable test",
+                "recovery_level": "recovery",
+                "recovery_reason_code": "RECOVERY_GRACE",
+                "recovery_until_epoch": 1777157138.9179218,
+                "recovery_until_monotonic": 23202.6929324,
+                "request_id": "disable-admin",
+                "severity": 3,
+                "source": "manual",
+                "source_priority": 900,
+                "tenant_id": "tenant-control",
+                "until_epoch": 1777157018.9179218,
+                "until_monotonic": 23082.6929324,
+                "updated_at_epoch": 1777156718.9179218,
+                "updated_by": "gate-admin"
+              },
+              "at_epoch": 1777156718.9179218,
+              "before": {},
+              "reason_code": "MANUAL_ADMIN_ACTION",
+              "reason_detail": "frontend gate disable test",
+              "request_id": "disable-admin",
+              "source": "manual",
+              "updated_by": "gate-admin"
+            }
+          ]
+        },
+        "enable_payload": {
+          "ok": true,
+          "tool": "manage_tenant_controls",
+          "run_id": "enable-admin",
+          "request_id": "enable-admin",
+          "summary": "completed",
+          "artifacts": [
+            {
+              "action": "enable",
+              "before": {
+                "tenant_id": "tenant-control",
+                "level": "disabled",
+                "reason_code": "MANUAL_ADMIN_ACTION",
+                "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                "contributing_reasons": [
+                  "MANUAL_ADMIN_ACTION"
+                ],
+                "reason_detail": "frontend gate disable test",
+                "until_epoch": 1777157018.9179218,
+                "min_hold_until_epoch": 1777157018.9179218,
+                "updated_at_epoch": 1777156718.9179218,
+                "last_evaluated_at_epoch": 1777156718.9179218,
+                "updated_by": "gate-admin",
+                "request_id": "disable-admin",
+                "source": "manual",
+                "admin_lock": true,
+                "plan_override": null,
+                "usage": {
+                  "tokens": 0.0,
+                  "daily_count": 0,
+                  "passthrough_calls": 0,
+                  "rate_limited_total": 0,
+                  "error_total": 0
+                },
+                "limits": {
+                  "plan": "free",
+                  "burst": 5.0,
+                  "refill": 0.5,
+                  "daily": 100,
+                  "concurrency": 1
+                },
+                "recent_actions": [
+                  {
+                    "action": "state_disabled",
+                    "after": {
+                      "admin_lock": true,
+                      "contributing_reasons": [
+                        "MANUAL_ADMIN_ACTION"
+                      ],
+                      "last_evaluated_at_epoch": 1777156718.9179218,
+                      "level": "disabled",
+                      "min_hold_until_epoch": 1777157018.9179218,
+                      "min_hold_until_monotonic": 23082.6929324,
+                      "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                      "reason_code": "MANUAL_ADMIN_ACTION",
+                      "reason_detail": "frontend gate disable test",
+                      "recovery_level": "recovery",
+                      "recovery_reason_code": "RECOVERY_GRACE",
+                      "recovery_until_epoch": 1777157138.9179218,
+                      "recovery_until_monotonic": 23202.6929324,
+                      "request_id": "disable-admin",
+                      "severity": 3,
+                      "source": "manual",
+                      "source_priority": 900,
+                      "tenant_id": "tenant-control",
+                      "until_epoch": 1777157018.9179218,
+                      "until_monotonic": 23082.6929324,
+                      "updated_at_epoch": 1777156718.9179218,
+                      "updated_by": "gate-admin"
+                    },
+                    "at_epoch": 1777156718.9179218,
+                    "before": {},
+                    "reason_code": "MANUAL_ADMIN_ACTION",
+                    "reason_detail": "frontend gate disable test",
+                    "request_id": "disable-admin",
+                    "source": "manual",
+                    "updated_by": "gate-admin"
+                  }
+                ]
+              },
+              "after": {
+                "tenant_id": "tenant-control",
+                "level": "recovery",
+                "reason_code": "MANUAL_RECOVERY",
+                "primary_reason_code": "MANUAL_RECOVERY",
+                "contributing_reasons": [
+                  "MANUAL_ADMIN_ACTION",
+                  "MANUAL_RECOVERY"
+                ],
+                "reason_detail": "Disabled tenants enter recovery before active",
+                "until_epoch": 1777156855.0232108,
+                "min_hold_until_epoch": 1777156855.0232108,
+                "updated_at_epoch": 1777156735.0232108,
+                "last_evaluated_at_epoch": 1777156735.0232108,
+                "updated_by": "gate-admin",
+                "request_id": "enable-admin",
+                "source": "manual",
+                "admin_lock": false,
+                "plan_override": null,
+                "usage": {
+                  "tokens": 0.0,
+                  "daily_count": 0,
+                  "passthrough_calls": 0,
+                  "rate_limited_total": 0,
+                  "error_total": 0
+                },
+                "limits": {
+                  "plan": "free",
+                  "burst": 2.5,
+                  "refill": 0.25,
+                  "daily": 100,
+                  "concurrency": 1
+                },
+                "recent_actions": [
+                  {
+                    "action": "state_disabled",
+                    "after": {
+                      "admin_lock": true,
+                      "contributing_reasons": [
+                        "MANUAL_ADMIN_ACTION"
+                      ],
+                      "last_evaluated_at_epoch": 1777156718.9179218,
+                      "level": "disabled",
+                      "min_hold_until_epoch": 1777157018.9179218,
+                      "min_hold_until_monotonic": 23082.6929324,
+                      "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                      "reason_code": "MANUAL_ADMIN_ACTION",
+                      "reason_detail": "frontend gate disable test",
+                      "recovery_level": "recovery",
+                      "recovery_reason_code": "RECOVERY_GRACE",
+                      "recovery_until_epoch": 1777157138.9179218,
+                      "recovery_until_monotonic": 23202.6929324,
+                      "request_id": "disable-admin",
+                      "severity": 3,
+                      "source": "manual",
+                      "source_priority": 900,
+                      "tenant_id": "tenant-control",
+                      "until_epoch": 1777157018.9179218,
+                      "until_monotonic": 23082.6929324,
+                      "updated_at_epoch": 1777156718.9179218,
+                      "updated_by": "gate-admin"
+                    },
+                    "at_epoch": 1777156718.9179218,
+                    "before": {},
+                    "reason_code": "MANUAL_ADMIN_ACTION",
+                    "reason_detail": "frontend gate disable test",
+                    "request_id": "disable-admin",
+                    "source": "manual",
+                    "updated_by": "gate-admin"
+                  },
+                  {
+                    "at_epoch": 1777156735.0232108,
+                    "action": "state_recovery",
+                    "reason_code": "MANUAL_RECOVERY",
+                    "reason_detail": "Disabled tenants enter recovery before active",
+                    "source": "manual",
+                    "request_id": "enable-admin",
+                    "updated_by": "gate-admin",
+                    "before": {
+                      "tenant_id": "tenant-control",
+                      "level": "disabled",
+                      "reason_code": "MANUAL_ADMIN_ACTION",
+                      "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                      "contributing_reasons": [
+                        "MANUAL_ADMIN_ACTION"
+                      ],
+                      "reason_detail": "frontend gate disable test",
+                      "source": "manual",
+                      "updated_at_epoch": 1777156718.9179218,
+                      "until_epoch": 1777157018.9179218,
+                      "min_hold_until_epoch": 1777157018.9179218,
+                      "updated_by": "gate-admin",
+                      "request_id": "disable-admin",
+                      "source_priority": 900,
+                      "severity": 3,
+                      "admin_lock": true,
+                      "last_evaluated_at_epoch": 1777156718.9179218,
+                      "recovery_level": "recovery",
+                      "recovery_reason_code": "RECOVERY_GRACE",
+                      "recovery_until_epoch": 1777157138.9179218,
+                      "until_monotonic": 23082.692933776554,
+                      "min_hold_until_monotonic": 23082.692933776554,
+                      "recovery_until_monotonic": 23202.692933776554
+                    },
+                    "after": {
+                      "tenant_id": "tenant-control",
+                      "level": "recovery",
+                      "reason_code": "MANUAL_RECOVERY",
+                      "primary_reason_code": "MANUAL_RECOVERY",
+                      "contributing_reasons": [
+                        "MANUAL_ADMIN_ACTION",
+                        "MANUAL_RECOVERY"
+                      ],
+                      "reason_detail": "Disabled tenants enter recovery before active",
+                      "source": "manual",
+                      "updated_at_epoch": 1777156735.0232108,
+                      "until_epoch": 1777156855.0232108,
+                      "until_monotonic": 22918.7982215,
+                      "min_hold_until_epoch": 1777156855.0232108,
+                      "min_hold_until_monotonic": 22918.7982215,
+                      "updated_by": "gate-admin",
+                      "request_id": "enable-admin",
+                      "source_priority": 900,
+                      "severity": 1,
+                      "admin_lock": false,
+                      "last_evaluated_at_epoch": 1777156735.0232108
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "next_suggested_tools": [
+            "discover_endpoints",
+            "analyze_target",
+            "subdomain_enumerate",
+            "get_strategy"
+          ]
+        },
+        "enable_error": false,
+        "status_after_enable": {
+          "tenant_id": "tenant-control",
+          "level": "recovery",
+          "reason_code": "MANUAL_RECOVERY",
+          "primary_reason_code": "MANUAL_RECOVERY",
+          "contributing_reasons": [
+            "MANUAL_ADMIN_ACTION",
+            "MANUAL_RECOVERY"
+          ],
+          "reason_detail": "Disabled tenants enter recovery before active",
+          "until_epoch": 1777156855.0232108,
+          "min_hold_until_epoch": 1777156855.0232108,
+          "updated_at_epoch": 1777156735.0232108,
+          "last_evaluated_at_epoch": 1777156735.0232108,
+          "updated_by": "gate-admin",
+          "request_id": "enable-admin",
+          "source": "manual",
+          "admin_lock": false,
+          "plan_override": null,
+          "usage": {
+            "tokens": 0.0,
+            "daily_count": 0,
+            "passthrough_calls": 0,
+            "rate_limited_total": 0,
+            "error_total": 0
+          },
+          "limits": {
+            "plan": "free",
+            "burst": 2.5,
+            "refill": 0.25,
+            "daily": 100,
+            "concurrency": 1
+          },
+          "recent_actions": [
+            {
+              "action": "state_disabled",
+              "after": {
+                "admin_lock": true,
+                "contributing_reasons": [
+                  "MANUAL_ADMIN_ACTION"
+                ],
+                "last_evaluated_at_epoch": 1777156718.9179218,
+                "level": "disabled",
+                "min_hold_until_epoch": 1777157018.9179218,
+                "min_hold_until_monotonic": 23082.6929324,
+                "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                "reason_code": "MANUAL_ADMIN_ACTION",
+                "reason_detail": "frontend gate disable test",
+                "recovery_level": "recovery",
+                "recovery_reason_code": "RECOVERY_GRACE",
+                "recovery_until_epoch": 1777157138.9179218,
+                "recovery_until_monotonic": 23202.6929324,
+                "request_id": "disable-admin",
+                "severity": 3,
+                "source": "manual",
+                "source_priority": 900,
+                "tenant_id": "tenant-control",
+                "until_epoch": 1777157018.9179218,
+                "until_monotonic": 23082.6929324,
+                "updated_at_epoch": 1777156718.9179218,
+                "updated_by": "gate-admin"
+              },
+              "at_epoch": 1777156718.9179218,
+              "before": {},
+              "reason_code": "MANUAL_ADMIN_ACTION",
+              "reason_detail": "frontend gate disable test",
+              "request_id": "disable-admin",
+              "source": "manual",
+              "updated_by": "gate-admin"
+            },
+            {
+              "at_epoch": 1777156735.0232108,
+              "action": "state_recovery",
+              "reason_code": "MANUAL_RECOVERY",
+              "reason_detail": "Disabled tenants enter recovery before active",
+              "source": "manual",
+              "request_id": "enable-admin",
+              "updated_by": "gate-admin",
+              "before": {
+                "tenant_id": "tenant-control",
+                "level": "disabled",
+                "reason_code": "MANUAL_ADMIN_ACTION",
+                "primary_reason_code": "MANUAL_ADMIN_ACTION",
+                "contributing_reasons": [
+                  "MANUAL_ADMIN_ACTION"
+                ],
+                "reason_detail": "frontend gate disable test",
+                "source": "manual",
+                "updated_at_epoch": 1777156718.9179218,
+                "until_epoch": 1777157018.9179218,
+                "min_hold_until_epoch": 1777157018.9179218,
+                "updated_by": "gate-admin",
+                "request_id": "disable-admin",
+                "source_priority": 900,
+                "severity": 3,
+                "admin_lock": true,
+                "last_evaluated_at_epoch": 1777156718.9179218,
+                "recovery_level": "recovery",
+                "recovery_reason_code": "RECOVERY_GRACE",
+                "recovery_until_epoch": 1777157138.9179218,
+                "until_monotonic": 23082.692933776554,
+                "min_hold_until_monotonic": 23082.692933776554,
+                "recovery_until_monotonic": 23202.692933776554
+              },
+              "after": {
+                "tenant_id": "tenant-control",
+                "level": "recovery",
+                "reason_code": "MANUAL_RECOVERY",
+                "primary_reason_code": "MANUAL_RECOVERY",
+                "contributing_reasons": [
+                  "MANUAL_ADMIN_ACTION",
+                  "MANUAL_RECOVERY"
+                ],
+                "reason_detail": "Disabled tenants enter recovery before active",
+                "source": "manual",
+                "updated_at_epoch": 1777156735.0232108,
+                "until_epoch": 1777156855.0232108,
+                "until_monotonic": 22918.7982215,
+                "min_hold_until_epoch": 1777156855.0232108,
+                "min_hold_until_monotonic": 22918.7982215,
+                "updated_by": "gate-admin",
+                "request_id": "enable-admin",
+                "source_priority": 900,
+                "severity": 1,
+                "admin_lock": false,
+                "last_evaluated_at_epoch": 1777156735.0232108
+              }
+            }
+          ]
+        },
+        "effective_limits": {
+          "plan": "free",
+          "burst": 2.5,
+          "refill": 0.25,
+          "daily": 100,
+          "concurrency": 1
+        },
+        "expected_recovery_concurrency_cap": 1
+      }
+    },
+    {
+      "name": "observability_signals_present",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "missing_metrics": [],
+        "audit_record_count": 2,
+        "latest_audit_record": {
+          "event_type": "tool_completed",
+          "tool": "manage_tenant_controls",
+          "run_id": "observability-status",
+          "request_id": "observability-status",
+          "ok": true,
+          "duration_ms": 8022,
+          "category": "admin",
+          "principal": {
+            "principal_id": "gate-admin",
+            "tenant_id": "control-plane",
+            "subject": "gate-admin",
+            "role": "system",
+            "tenant": "control-plane",
+            "auth_type": "stdio",
+            "key_name": ""
+          },
+          "arguments": {
+            "action": "status",
+            "tenant_id": "tenant-observability",
+            "reason": "probe",
+            "reason_code": "OBS_CHECK"
+          }
+        }
+      }
+    },
+    {
+      "name": "sse_event_contract",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "captured_event_count": 10,
+        "expected_event_count": 10,
+        "duplicated_request_ids": false,
+        "dropped_events": false,
+        "missing_top_level_fields": [],
+        "sample_events": [
+          {
+            "schema_version": 1,
+            "type": "tool_request",
+            "tool": "get_copilot_coverage",
+            "request_id": "4670e6b840fc",
+            "tenant_id": "tenant-sse",
+            "status": "accepted",
+            "timestamp": "2026-04-25T22:39:19.132680+00:00",
+            "data": {
+              "principal": {
+                "principal_id": "gate-sse",
+                "tenant_id": "tenant-sse",
+                "subject": "gate-sse",
+                "role": "system",
+                "plan": "enterprise",
+                "tenant": "tenant-sse",
+                "auth_type": "stdio"
+              }
+            }
+          },
+          {
+            "schema_version": 1,
+            "type": "tool_result",
+            "tool": "get_copilot_coverage",
+            "request_id": "4670e6b840fc",
+            "tenant_id": "tenant-sse",
+            "status": "ok",
+            "timestamp": "2026-04-25T22:39:35.190253+00:00",
+            "data": {
+              "principal": {
+                "principal_id": "gate-sse",
+                "tenant_id": "tenant-sse",
+                "subject": "gate-sse",
+                "role": "system",
+                "plan": "enterprise",
+                "tenant": "tenant-sse",
+                "auth_type": "stdio"
+              },
+              "ok": true,
+              "summary": "completed",
+              "error": "",
+              "code": ""
+            }
+          },
+          {
+            "schema_version": 1,
+            "type": "tool_request",
+            "tool": "get_copilot_coverage",
+            "request_id": "855e9a2eac08",
+            "tenant_id": "tenant-sse",
+            "status": "accepted",
+            "timestamp": "2026-04-25T22:39:35.190366+00:00",
+            "data": {
+              "principal": {
+                "principal_id": "gate-sse",
+                "tenant_id": "tenant-sse",
+                "subject": "gate-sse",
+                "role": "system",
+                "plan": "enterprise",
+                "tenant": "tenant-sse",
+                "auth_type": "stdio"
+              }
+            }
+          },
+          {
+            "schema_version": 1,
+            "type": "tool_result",
+            "tool": "get_copilot_coverage",
+            "request_id": "855e9a2eac08",
+            "tenant_id": "tenant-sse",
+            "status": "ok",
+            "timestamp": "2026-04-25T22:39:51.249992+00:00",
+            "data": {
+              "principal": {
+                "principal_id": "gate-sse",
+                "tenant_id": "tenant-sse",
+                "subject": "gate-sse",
+                "role": "system",
+                "plan": "enterprise",
+                "tenant": "tenant-sse",
+                "auth_type": "stdio"
+              },
+              "ok": true,
+              "summary": "completed",
+              "error": "",
+              "code": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "error_taxonomy_distinguishes_denials",
+      "blocking": false,
+      "passed": true,
+      "details": {
+        "policy_payload": {
+          "ok": false,
+          "error": "tool_not_allowed",
+          "code": "ALLOWLIST_DENY",
+          "tool": "get_copilot_coverage",
+          "run_id": "error-policy",
+          "request_id": "error-policy",
+          "summary": "role_access_denied: role=user cannot execute category dashboard",
+          "artifacts": [],
+          "next_suggested_tools": []
+        },
+        "quota_payload_first": {
+          "ok": true,
+          "tool": "get_copilot_coverage",
+          "run_id": "error-rate-1",
+          "request_id": "error-rate-1",
+          "summary": "completed",
+          "artifacts": [
+            {
+              "ok": false,
+              "error": "cannot import name 'copilot_loop' from 'tools.burp_enterprise.mcp' (C:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\tools\\burp_enterprise\\mcp\\__init__.py)"
+            }
+          ],
+          "next_suggested_tools": [
+            "discover_endpoints",
+            "analyze_target",
+            "subdomain_enumerate",
+            "get_strategy"
+          ]
+        },
+        "quota_payload_second": {
+          "ok": false,
+          "error": "rate_limited",
+          "code": "RATE_LIMITED",
+          "tool": "get_copilot_coverage",
+          "run_id": "error-rate-2",
+          "request_id": "error-rate-2",
+          "summary": "Tenant daily quota exceeded (1/day)",
+          "artifacts": [],
+          "next_suggested_tools": []
+        },
+        "license_payload": {
+          "ok": false,
+          "error": "license_required",
+          "code": "LICENSE_REQUIRED",
+          "tool": "get_copilot_coverage",
+          "run_id": "error-license-1",
+          "request_id": "error-license-1",
+          "summary": "valid license required",
+          "artifacts": [],
+          "next_suggested_tools": []
+        }
+      }
+    },
+    {
+      "name": "interaction_edge_cases",
+      "blocking": false,
+      "passed": true,
+      "details": {
+        "denial_step": {
+          "request_id": "edge-switch-deny",
+          "code": "ALLOWLIST_DENY",
+          "error": "tool_not_allowed",
+          "is_error": true
+        },
+        "success_step": {
+          "request_id": "edge-switch-success",
+          "ok": true,
+          "is_error": false
+        },
+        "mixed_interleaving": [
+          {
+            "request_id": "edge-mix-1",
+            "ok": true,
+            "code": "",
+            "error": "",
+            "is_error": false
+          },
+          {
+            "request_id": "edge-mix-2",
+            "ok": false,
+            "code": "RATE_LIMITED",
+            "error": "rate_limited",
+            "is_error": true
+          },
+          {
+            "request_id": "edge-mix-3",
+            "ok": false,
+            "code": "RATE_LIMITED",
+            "error": "rate_limited",
+            "is_error": true
+          }
+        ],
+        "mixed_interleaving_summary": {
+          "count": 3,
+          "unique_request_ids": 3,
+          "has_duplicate_request_ids": false,
+          "contains_rate_limited": true,
+          "contains_success": true
+        }
+      }
+    },
+    {
+      "name": "request_id_traceability",
+      "blocking": false,
+      "passed": true,
+      "details": {
+        "request_id": "trace-req-1",
+        "payload_ok": true,
+        "audit_record_count": 1,
+        "matching_record_count": 1,
+        "matching_sample": [
+          {
+            "event_type": "tool_completed",
+            "tool": "get_copilot_coverage",
+            "run_id": "trace-req-1",
+            "request_id": "trace-req-1",
+            "ok": true,
+            "duration_ms": 8027,
+            "category": "dashboard",
+            "principal": {
+              "principal_id": "gate-trace",
+              "tenant_id": "tenant-trace",
+              "subject": "gate-trace",
+              "role": "user",
+              "tenant": "tenant-trace",
+              "auth_type": "stdio",
+              "key_name": ""
+            },
+            "arguments": {}
+          }
+        ]
+      }
+    },
+    {
+      "name": "snapshot_reconciliation_payload",
+      "blocking": false,
+      "passed": true,
+      "details": {
+        "call_payload": {
+          "ok": false,
+          "status": "error",
+          "error": "tool_not_allowed",
+          "code": "ALLOWLIST_DENY",
+          "summary": "Denied list_targets for reconciliation test",
+          "data": {
+            "echo": {
+              "filter": "reconcile-check"
+            }
+          },
+          "source": "mcp_proxy",
+          "timestamp": "2026-04-25T22:41:59.788255+00:00",
+          "request_id": "330e16b87edb",
+          "tool": "list_targets",
+          "tenant_id": ""
+        },
+        "latest_action": {
+          "request_id": "330e16b87edb",
+          "tool": "list_targets",
+          "status": "error",
+          "code": "ALLOWLIST_DENY",
+          "error": "tool_not_allowed",
+          "summary": "Denied list_targets for reconciliation test",
+          "tenant_id": "",
+          "ok": false,
+          "arguments": {
+            "filter": "reconcile-check"
+          },
+          "completed_at": "2026-04-25T22:41:59.788255+00:00"
+        },
+        "recent_actions": [
+          {
+            "request_id": "330e16b87edb",
+            "tool": "list_targets",
+            "status": "error",
+            "code": "ALLOWLIST_DENY",
+            "error": "tool_not_allowed",
+            "summary": "Denied list_targets for reconciliation test",
+            "tenant_id": "",
+            "ok": false,
+            "arguments": {
+              "filter": "reconcile-check"
+            },
+            "completed_at": "2026-04-25T22:41:59.788255+00:00"
+          }
+        ],
+        "stream": {
+          "ok": true,
+          "data": {
+            "status": "ok"
+          }
+        }
+      }
+    },
+    {
+      "name": "snapshot_recent_actions_ordering",
+      "blocking": false,
+      "passed": true,
+      "details": {
+        "expected_ids": [
+          "3eb4eef8e92b",
+          "cf834d9ea0b7",
+          "9248d5254b7a"
+        ],
+        "recent_ids": [
+          "3eb4eef8e92b",
+          "cf834d9ea0b7",
+          "9248d5254b7a"
+        ],
+        "recent_actions": [
+          {
+            "request_id": "3eb4eef8e92b",
+            "tool": "stop_scan",
+            "status": "error",
+            "code": "RATE_LIMITED",
+            "error": "rate_limited",
+            "summary": "Handled stop_scan for alpha",
+            "tenant_id": "",
+            "ok": false,
+            "arguments": {
+              "target": "alpha"
+            },
+            "completed_at": "2026-04-25T22:41:59.791385+00:00"
+          },
+          {
+            "request_id": "cf834d9ea0b7",
+            "tool": "get_report",
+            "status": "ok",
+            "code": "",
+            "error": "",
+            "summary": "Handled get_report for alpha.json",
+            "tenant_id": "",
+            "ok": true,
+            "arguments": {
+              "path": "alpha.json"
+            },
+            "completed_at": "2026-04-25T22:41:59.791143+00:00"
+          },
+          {
+            "request_id": "9248d5254b7a",
+            "tool": "list_targets",
+            "status": "ok",
+            "code": "",
+            "error": "",
+            "summary": "Handled list_targets for alpha",
+            "tenant_id": "",
+            "ok": true,
+            "arguments": {
+              "filter": "alpha"
+            },
+            "completed_at": "2026-04-25T22:41:59.790896+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "name": "adapter_missing_terminal_recovery",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "request_id": "missing-terminal-r1",
+        "call_payload": {
+          "ok": true,
+          "request_id": "missing-terminal-r1",
+          "tool": "list_targets",
+          "status": "ok",
+          "code": "",
+          "error": "",
+          "summary": "Recovered terminal result",
+          "timestamp": "2026-04-25T22:41:59.793478+00:00",
+          "data": {
+            "items": [],
+            "count": 0,
+            "total": 0
+          },
+          "tenant_id": ""
+        },
+        "before_recent": [
+          {
+            "request_id": "missing-terminal-r1",
+            "tool": "list_targets",
+            "status": "pending",
+            "code": "",
+            "error": "",
+            "summary": "Waiting for result",
+            "tenant_id": "control-plane",
+            "ok": false,
+            "arguments": {
+              "filter": "missing-terminal"
+            },
+            "completed_at": "2026-04-25T22:41:59.792915+00:00"
+          }
+        ],
+        "after_recent": [
+          {
+            "request_id": "missing-terminal-r1",
+            "tool": "list_targets",
+            "status": "ok",
+            "code": "",
+            "error": "",
+            "summary": "Recovered terminal result",
+            "tenant_id": "",
+            "ok": true,
+            "arguments": {
+              "filter": "missing-terminal"
+            },
+            "completed_at": "2026-04-25T22:41:59.793478+00:00"
+          }
+        ],
+        "pending_before_count": 1,
+        "pending_after_count": 0,
+        "final_after_count": 1,
+        "replaced_not_duplicated": true,
+        "no_inconsistent_intermediate": true
+      }
+    },
+    {
+      "name": "adapter_truth_consistency",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "expected_ids": [
+          "cfab6669f230",
+          "5428f3af04bf",
+          "ab14adc181da"
+        ],
+        "recent_ids": [
+          "5428f3af04bf",
+          "ab14adc181da",
+          "cfab6669f230"
+        ],
+        "no_duplicate_request_id": true,
+        "all_completed_actions_once": true,
+        "final_state_stable": true,
+        "converged_with_results": true,
+        "statuses_snapshot_1": {
+          "5428f3af04bf": "ok",
+          "ab14adc181da": "error",
+          "cfab6669f230": "ok"
+        },
+        "statuses_snapshot_2": {
+          "5428f3af04bf": "ok",
+          "ab14adc181da": "error",
+          "cfab6669f230": "ok"
+        },
+        "expected_status": {
+          "cfab6669f230": "ok",
+          "5428f3af04bf": "ok",
+          "ab14adc181da": "error"
+        }
+      }
+    },
+    {
+      "name": "performance_smoke_internal_wrapper",
+      "blocking": false,
+      "passed": false,
+      "details": {
+        "calls": 20,
+        "all_success": true,
+        "p95_ms": 168738.57,
+        "note": "Internal wrapper smoke only; not sufficient to override blocking contract failures."
+      }
+    },
+    {
+      "name": "adapter_gateway_guardrail",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "allowed_file": "tools/burp_enterprise/static/js/mcp-ui-adapter.js",
+        "scanned_files": [
+          "tools/burp_enterprise/static/js/appliance.js",
+          "tools/burp_enterprise/static/js/atlas-dashboard.js",
+          "tools/burp_enterprise/static/js/dork-report.js",
+          "tools/burp_enterprise/static/js/exploit-graph.js",
+          "tools/burp_enterprise/static/js/intelligence-experience.js",
+          "tools/burp_enterprise/static/js/intercept.js",
+          "tools/burp_enterprise/static/js/mcp-ui-adapter.js",
+          "tools/burp_enterprise/static/js/recon-dashboard.js",
+          "tools/burp_enterprise/static/js/screenshot-gallery.js",
+          "tools/burp_enterprise/static/js/spa-shell.js"
+        ],
+        "violations": []
+      }
+    },
+    {
+      "name": "adapter_history_bounds",
+      "blocking": true,
+      "passed": true,
+      "details": {
+        "burst_count": 250,
+        "server_history_limit": 10,
+        "recent_actions_count": 10,
+        "history_bounded": true,
+        "no_duplicate_ids": true,
+        "sentinel_not_duplicated": true,
+        "note": "Server history capped at 10; JS adapter history capped at 200 with pending-action protection in _recordAction trim. Sentinel eviction is expected (server records terminal-only); duplicate-freedom is the hard invariant."
+      }
+    }
+  ]
+}

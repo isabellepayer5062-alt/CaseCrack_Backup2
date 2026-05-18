@@ -1,0 +1,476 @@
+{
+  "timestamp": "2026-04-16T14:03:21",
+  "headline": {
+    "static_coverage_pct": 52.0,
+    "runtime_coverage_pct": 82.0,
+    "weighted_coverage_pct": 90.2,
+    "grade": "B"
+  },
+  "counts": {
+    "total_modules": 1666,
+    "meaningful_modules": 976,
+    "static_reachable": 508,
+    "runtime_reachable": 800,
+    "total_loc": 886282,
+    "reachable_loc": 799446
+  },
+  "domains": {
+    "tool": {
+      "name": "tool",
+      "subsystems": [
+        "scanners",
+        "tool_wrappers",
+        "discovery_pkg"
+      ],
+      "total_modules": 205,
+      "meaningful_modules": 173,
+      "static_reachable": 53,
+      "runtime_reachable": 144,
+      "total_loc": 159430,
+      "reachable_loc": 153830,
+      "static_pct": 30.6,
+      "runtime_pct": 83.2,
+      "weighted_pct": 96.5,
+      "gap_modules": [
+        "tools.burp_enterprise.tool_wrappers._scan_runner",
+        "tools.burp_enterprise.tool_wrappers.zap_provider",
+        "tools.burp_enterprise.discovery_pkg.subdomain_external",
+        "tools.burp_enterprise.tool_wrappers.sslyze_provider",
+        "tools.burp_enterprise.tool_wrappers.sqlmap_provider",
+        "tools.burp_enterprise.tool_wrappers.interactsh_provider",
+        "tools.burp_enterprise.tool_wrappers.rustscan_provider",
+        "tools.burp_enterprise.tool_wrappers._policy",
+        "tools.burp_enterprise.tool_wrappers._scan_correlation",
+        "tools.burp_enterprise.tool_wrappers.meg_provider",
+        "tools.burp_enterprise.tool_wrappers.ffuf_provider",
+        "tools.burp_enterprise.tool_wrappers._capabilities",
+        "tools.burp_enterprise.discovery_pkg._js_patterns",
+        "tools.burp_enterprise.tool_wrappers.grpcurl_provider",
+        "tools.burp_enterprise.tool_wrappers._lockfile",
+        "tools.burp_enterprise.tool_wrappers._retry",
+        "tools.burp_enterprise.tool_wrappers._doctor",
+        "tools.burp_enterprise.tool_wrappers.arjun_provider",
+        "tools.burp_enterprise.tool_wrappers.hakrawler_provider",
+        "tools.burp_enterprise.tool_wrappers._preflight"
+      ],
+      "gap_loc": 5600
+    },
+    "agent": {
+      "name": "agent",
+      "subsystems": [
+        "agents",
+        "swarm",
+        "loop"
+      ],
+      "total_modules": 147,
+      "meaningful_modules": 107,
+      "static_reachable": 65,
+      "runtime_reachable": 80,
+      "total_loc": 113913,
+      "reachable_loc": 95087,
+      "static_pct": 60.7,
+      "runtime_pct": 74.8,
+      "weighted_pct": 83.5,
+      "gap_modules": [
+        "tools.burp_enterprise.agents.advanced_agent_patterns",
+        "tools.burp_enterprise.agents.advanced_orchestration",
+        "tools.burp_enterprise.agents.fork_spawn",
+        "tools.burp_enterprise.agents.copilot_sdk_vuln_tools",
+        "tools.burp_enterprise.agents.speculative_executor",
+        "tools.burp_enterprise.swarm.multi_gpu.topology",
+        "tools.burp_enterprise.agents.conflict_arbitration",
+        "tools.burp_enterprise.agents.role_registry",
+        "tools.burp_enterprise.agents.deterministic_replay",
+        "tools.burp_enterprise.agents.copilot_sdk_discovery_tools",
+        "tools.burp_enterprise.swarm.multi_gpu.scheduler",
+        "tools.burp_enterprise.swarm.multi_gpu.messenger",
+        "tools.burp_enterprise.loop.target_selection",
+        "tools.burp_enterprise.swarm.multi_gpu.model_sharder",
+        "tools.burp_enterprise.loop.exploit_report",
+        "tools.burp_enterprise.swarm.multi_gpu.governor",
+        "tools.burp_enterprise.loop.attack_graph",
+        "tools.burp_enterprise.loop.session_matrix",
+        "tools.burp_enterprise.loop.race_engine",
+        "tools.burp_enterprise.agents.copilot_sdk_infra_tools"
+      ],
+      "gap_loc": 18826
+    },
+    "strategy": {
+      "name": "strategy",
+      "subsystems": [
+        "strategy",
+        "intel",
+        "ai_ml",
+        "inference"
+      ],
+      "total_modules": 61,
+      "meaningful_modules": 55,
+      "static_reachable": 36,
+      "runtime_reachable": 50,
+      "total_loc": 59087,
+      "reachable_loc": 57864,
+      "static_pct": 65.5,
+      "runtime_pct": 90.9,
+      "weighted_pct": 97.9,
+      "gap_modules": [
+        "tools.burp_enterprise.intel.github_client_base",
+        "tools.burp_enterprise.inference.kv_cache",
+        "tools.burp_enterprise.strategy._build_modules",
+        "tools.burp_enterprise.inference.model_management",
+        "tools.burp_enterprise.strategy._build_facade"
+      ],
+      "gap_loc": 1223
+    },
+    "cli": {
+      "name": "cli",
+      "subsystems": [
+        "cli"
+      ],
+      "total_modules": 89,
+      "meaningful_modules": 85,
+      "static_reachable": 82,
+      "runtime_reachable": 82,
+      "total_loc": 52700,
+      "reachable_loc": 51953,
+      "static_pct": 96.5,
+      "runtime_pct": 96.5,
+      "weighted_pct": 98.6,
+      "gap_modules": [
+        "tools.burp_enterprise.cli.daemon",
+        "tools.burp_enterprise.cli._parsers.atlas",
+        "tools.burp_enterprise.cli._parsers"
+      ],
+      "gap_loc": 747
+    }
+  },
+  "subsystem_coverage": {
+    "agents": {
+      "total": 75,
+      "reachable": 63,
+      "coverage_pct": 84.0,
+      "total_loc": 93799,
+      "reachable_loc": 82843,
+      "weighted_pct": 88.3
+    },
+    "ai_ml": {
+      "total": 9,
+      "reachable": 9,
+      "coverage_pct": 100.0,
+      "total_loc": 2632,
+      "reachable_loc": 2632,
+      "weighted_pct": 100.0
+    },
+    "atlas": {
+      "total": 12,
+      "reachable": 12,
+      "coverage_pct": 100.0,
+      "total_loc": 7304,
+      "reachable_loc": 7304,
+      "weighted_pct": 100.0
+    },
+    "caap": {
+      "total": 13,
+      "reachable": 13,
+      "coverage_pct": 100.0,
+      "total_loc": 11104,
+      "reachable_loc": 11104,
+      "weighted_pct": 100.0
+    },
+    "cli": {
+      "total": 85,
+      "reachable": 82,
+      "coverage_pct": 96.5,
+      "total_loc": 52700,
+      "reachable_loc": 51953,
+      "weighted_pct": 98.6
+    },
+    "cloud": {
+      "total": 10,
+      "reachable": 10,
+      "coverage_pct": 100.0,
+      "total_loc": 16106,
+      "reachable_loc": 16106,
+      "weighted_pct": 100.0
+    },
+    "compliance_pkg": {
+      "total": 8,
+      "reachable": 8,
+      "coverage_pct": 100.0,
+      "total_loc": 2555,
+      "reachable_loc": 2555,
+      "weighted_pct": 100.0
+    },
+    "core_infra": {
+      "total": 20,
+      "reachable": 13,
+      "coverage_pct": 65.0,
+      "total_loc": 16063,
+      "reachable_loc": 11233,
+      "weighted_pct": 69.9
+    },
+    "database": {
+      "total": 12,
+      "reachable": 11,
+      "coverage_pct": 91.7,
+      "total_loc": 8365,
+      "reachable_loc": 7668,
+      "weighted_pct": 91.7
+    },
+    "discovery_pkg": {
+      "total": 34,
+      "reachable": 32,
+      "coverage_pct": 94.1,
+      "total_loc": 47292,
+      "reachable_loc": 46762,
+      "weighted_pct": 98.9
+    },
+    "email_hardening": {
+      "total": 6,
+      "reachable": 0,
+      "coverage_pct": 0.0,
+      "total_loc": 1662,
+      "reachable_loc": 0,
+      "weighted_pct": 0.0
+    },
+    "exploit_chains": {
+      "total": 48,
+      "reachable": 46,
+      "coverage_pct": 95.8,
+      "total_loc": 51386,
+      "reachable_loc": 48545,
+      "weighted_pct": 94.5
+    },
+    "exploitation": {
+      "total": 7,
+      "reachable": 4,
+      "coverage_pct": 57.1,
+      "total_loc": 7469,
+      "reachable_loc": 5586,
+      "weighted_pct": 74.8
+    },
+    "graph": {
+      "total": 22,
+      "reachable": 18,
+      "coverage_pct": 81.8,
+      "total_loc": 11641,
+      "reachable_loc": 9683,
+      "weighted_pct": 83.2
+    },
+    "graphql": {
+      "total": 4,
+      "reachable": 4,
+      "coverage_pct": 100.0,
+      "total_loc": 2505,
+      "reachable_loc": 2505,
+      "weighted_pct": 100.0
+    },
+    "inference": {
+      "total": 15,
+      "reachable": 13,
+      "coverage_pct": 86.7,
+      "total_loc": 8808,
+      "reachable_loc": 8343,
+      "weighted_pct": 94.7
+    },
+    "integrations": {
+      "total": 13,
+      "reachable": 13,
+      "coverage_pct": 100.0,
+      "total_loc": 15305,
+      "reachable_loc": 15305,
+      "weighted_pct": 100.0
+    },
+    "intel": {
+      "total": 24,
+      "reachable": 23,
+      "coverage_pct": 95.8,
+      "total_loc": 37210,
+      "reachable_loc": 36728,
+      "weighted_pct": 98.7
+    },
+    "loop": {
+      "total": 21,
+      "reachable": 12,
+      "coverage_pct": 57.1,
+      "total_loc": 13249,
+      "reachable_loc": 8972,
+      "weighted_pct": 67.7
+    },
+    "mcp": {
+      "total": 6,
+      "reachable": 6,
+      "coverage_pct": 100.0,
+      "total_loc": 5050,
+      "reachable_loc": 5050,
+      "weighted_pct": 100.0
+    },
+    "memory": {
+      "total": 2,
+      "reachable": 2,
+      "coverage_pct": 100.0,
+      "total_loc": 937,
+      "reachable_loc": 937,
+      "weighted_pct": 100.0
+    },
+    "network": {
+      "total": 14,
+      "reachable": 13,
+      "coverage_pct": 92.9,
+      "total_loc": 23507,
+      "reachable_loc": 22998,
+      "weighted_pct": 97.8
+    },
+    "notifications": {
+      "total": 6,
+      "reachable": 0,
+      "coverage_pct": 0.0,
+      "total_loc": 985,
+      "reachable_loc": 0,
+      "weighted_pct": 0.0
+    },
+    "osint_providers": {
+      "total": 13,
+      "reachable": 5,
+      "coverage_pct": 38.5,
+      "total_loc": 4259,
+      "reachable_loc": 1220,
+      "weighted_pct": 28.6
+    },
+    "output": {
+      "total": 16,
+      "reachable": 16,
+      "coverage_pct": 100.0,
+      "total_loc": 18085,
+      "reachable_loc": 18085,
+      "weighted_pct": 100.0
+    },
+    "passive_templates": {
+      "total": 5,
+      "reachable": 5,
+      "coverage_pct": 100.0,
+      "total_loc": 2082,
+      "reachable_loc": 2082,
+      "weighted_pct": 100.0
+    },
+    "pipeline": {
+      "total": 13,
+      "reachable": 13,
+      "coverage_pct": 100.0,
+      "total_loc": 12961,
+      "reachable_loc": 12961,
+      "weighted_pct": 100.0
+    },
+    "platforms": {
+      "total": 15,
+      "reachable": 15,
+      "coverage_pct": 100.0,
+      "total_loc": 3036,
+      "reachable_loc": 3036,
+      "weighted_pct": 100.0
+    },
+    "reasoning": {
+      "total": 4,
+      "reachable": 4,
+      "coverage_pct": 100.0,
+      "total_loc": 3609,
+      "reachable_loc": 3609,
+      "weighted_pct": 100.0
+    },
+    "recon": {
+      "total": 5,
+      "reachable": 5,
+      "coverage_pct": 100.0,
+      "total_loc": 5654,
+      "reachable_loc": 5654,
+      "weighted_pct": 100.0
+    },
+    "recon_dashboard": {
+      "total": 87,
+      "reachable": 61,
+      "coverage_pct": 70.1,
+      "total_loc": 102378,
+      "reachable_loc": 87312,
+      "weighted_pct": 85.3
+    },
+    "reporting": {
+      "total": 3,
+      "reachable": 0,
+      "coverage_pct": 0.0,
+      "total_loc": 1043,
+      "reachable_loc": 0,
+      "weighted_pct": 0.0
+    },
+    "scanners": {
+      "total": 73,
+      "reachable": 70,
+      "coverage_pct": 95.9,
+      "total_loc": 92103,
+      "reachable_loc": 91912,
+      "weighted_pct": 99.8
+    },
+    "secrets": {
+      "total": 18,
+      "reachable": 18,
+      "coverage_pct": 100.0,
+      "total_loc": 16536,
+      "reachable_loc": 16536,
+      "weighted_pct": 100.0
+    },
+    "session_auth": {
+      "total": 11,
+      "reachable": 11,
+      "coverage_pct": 100.0,
+      "total_loc": 8885,
+      "reachable_loc": 8885,
+      "weighted_pct": 100.0
+    },
+    "strategy": {
+      "total": 7,
+      "reachable": 5,
+      "coverage_pct": 71.4,
+      "total_loc": 10437,
+      "reachable_loc": 10161,
+      "weighted_pct": 97.4
+    },
+    "swarm": {
+      "total": 11,
+      "reachable": 5,
+      "coverage_pct": 45.5,
+      "total_loc": 6865,
+      "reachable_loc": 3272,
+      "weighted_pct": 47.7
+    },
+    "tool_registry": {
+      "total": 4,
+      "reachable": 4,
+      "coverage_pct": 100.0,
+      "total_loc": 3333,
+      "reachable_loc": 3333,
+      "weighted_pct": 100.0
+    },
+    "tool_wrappers": {
+      "total": 66,
+      "reachable": 42,
+      "coverage_pct": 63.6,
+      "total_loc": 20035,
+      "reachable_loc": 15156,
+      "weighted_pct": 75.6
+    },
+    "vuln_intel": {
+      "total": 8,
+      "reachable": 0,
+      "coverage_pct": 0.0,
+      "total_loc": 5386,
+      "reachable_loc": 0,
+      "weighted_pct": 0.0
+    },
+    "wasm_analysis": {
+      "total": 5,
+      "reachable": 0,
+      "coverage_pct": 0.0,
+      "total_loc": 2919,
+      "reachable_loc": 0,
+      "weighted_pct": 0.0
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "verdict": "PASS",
+  "no_lost_finals": true,
+  "no_phantom_pending": true,
+  "history_reconciles": true,
+  "blockers_proven": {
+    "TX-004": true,
+    "E2E-002": true,
+    "E2E-003": true
+  },
+  "scenarios": [
+    {
+      "scenario": "sse_kill_mid_request",
+      "passed": true,
+      "violations": [],
+      "actions_started": 5,
+      "completed_during_outage": 3,
+      "phantom_pending_after": 0
+    },
+    {
+      "scenario": "event_drop_40pct",
+      "passed": true,
+      "violations": [],
+      "total_actions": 100,
+      "dropped": 33,
+      "delivered": 67,
+      "lost_after_snapshot": 0
+    },
+    {
+      "scenario": "delayed_sse_snapshot_first",
+      "passed": true,
+      "violations": [],
+      "total_actions": 50,
+      "regressed_from_snapshot_truth": 0
+    },
+    {
+      "scenario": "reconnect_mid_flight",
+      "passed": true,
+      "violations": [],
+      "total_actions": 20,
+      "in_flight_during_outage": 10,
+      "lost_after_recovery": 0
+    },
+    {
+      "scenario": "e2e_burst_rate_limit_recommendation",
+      "passed": true,
+      "violations": [],
+      "detected_warnings": [
+        "STREAM_INSTABILITY",
+        "HIGH_ERROR_RATE",
+        "RATE_LIMIT_SATURATION"
+      ],
+      "detected_anomalies": [
+        "RATE_LIMIT_SPIKE"
+      ],
+      "recommendations": [
+        "REDUCE_CONCURRENCY"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+PHASE 1 MIGRATION: QUICK REFERENCE CARD
+======================================
+
+EMERGENCY PROCEDURES:
+  • Disable typed:  python _phase1_safety_upgrades.py --disable
+  • Enable failsafe: export MCP_PHASE1_FAILSAFE_ENABLED=true
+  • Rollback: export MCP_PHASE1_SHADOW_LEVEL=off
+
+WEEKLY GATES:
+  Week 1: Implement + test (dev checklist in _PHASE1_MIGRATION_CHECKLIST.md)
+  Week 2: QA isolation testing (qa checklist)
+  Week 3: Staging shadow test (run _PHASE1_READINESS_AUDIT.py → exit 0 required)
+  Week 4: Canary 3-stage (10% → 50% → 100%)
+  Week 5: Finalize (disable passthrough, arm regression detector)
+  Week 6+: Production monitoring (zero-tolerance passthrough alerts)
+
+THE 5 RULES (NON-NEGOTIABLE):
+  1. Readiness Audit MUST pass 100% before canary
+  2. ZERO unexplained divergences blocks progression
+  3. Fail-Safe mode ON at 10% canary (typed fails → passthrough)
+  4. Load test at peak + buffer, NOT average
+  5. Post-Week 5: ANY passthrough call = page on-call
+
+THE 4 GAPS (EXPLICITLY DEFINED):
+  1. Semantic Match: Allowed (ordering, ±5s timestamps) vs Blocked (missing fields)
+  2. Schema Freeze: No changes Weeks 3-5 (critical bugs only, with sign-off)
+  3. Golden Dataset: Capture 20-50 scenarios before Week 3 staging
+  4. Policy Impact: Track denials/limits separately (not output divergence)
+
+WHAT COUNTS AS MATCH:
+  ✅ Exact same output
+  ✅ Ordering difference (array reordered)
+  ✅ Timestamp ±5 seconds
+  ✅ Optional extra fields (typed superset)
+  ✅ Type coercion (180 vs 180.0)
+  ✅ Policy side-effects (quota exceeded, rate limited, unauthorized)
+
+WHAT COUNTS AS DIVERGENCE (BLOCKER):
+  ❌ Missing fields
+  ❌ Different values
+  ❌ Changed status
+  ❌ Structure wrapper change
+  ❌ Success vs failure
+
+CRITICAL FILES:
+
+Development:
+  📋 _PHASE1_QUICK_SUMMARY.md (start here)
+  💻 _PHASE1_INTEGRATION_COMPLETE.md (copy-paste code)
+  🐍 _phase1_tool_definitions.py (schemas)
+
+Verification:
+  ✓ _PHASE1_READINESS_AUDIT.py (15-check gate)
+  ✓ python _PHASE1_READINESS_AUDIT.py (run before canary)
+
+Enforcement:
+  🔒 _PHASE1_HARDENED_ENFORCEMENT_RULES.md (5 rules)
+  🔒 _PHASE1_ENFORCEMENT_VERIFICATION_CHECKLIST.md (sign-offs)
+
+Monitoring:
+  📊 _PHASE1_SEMANTIC_MATCH_SPEC.md (divergence definitions)
+  📊 _PHASE1_MCP_PRODUCTION_READINESS_SUMMARY.md (integration status)
+
+COMMANDS TO RUN:
+
+Before Week 3 Staging:
+  python _PHASE1_READINESS_AUDIT.py
+  Expected: Exit code 0 (all 15 checks pass)
+
+Before Week 4 Canary (10%):
+  export MCP_PHASE1_SHADOW_LEVEL=full
+  export MCP_PHASE1_FAILSAFE_ENABLED=true
+  
+Stage Progression Criteria:
+  10%: Zero failsafe triggers
+  50%: Zero divergences, stable metrics
+  100%: All metrics stable, error rates acceptable
+
+After Week 5 Finalization:
+  export MCP_PHASE1_PASSTHROUGH_ENABLED=false
+  (Triggers: RegressionDetector.mark_migration_complete())
+
+METRICS TO MONITOR:
+
+Core:
+  • phase1_typed_calls (count)
+  • phase1_passthrough_calls (count)
+  • phase1_divergence_rate (% of calls)
+  • phase1_match_rate (% of non-divergent calls)
+
+Safety:
+  • phase1_failsafe_triggered (count)
+  • phase1_fatal_divergences (count)
+  • phase1_regressions_detected (count)
+
+Policy:
+  • phase1_policy_denials_total (count)
+  • phase1_rate_limits_total (count)
+  • phase1_latency_overhead_mean_ms (milliseconds)
+
+Performance:
+  • phase1_typed_latency_p99 (milliseconds, <2000ms required)
+  • phase1_validation_overhead_ms (mean)
+  • phase1_policy_check_overhead_ms (mean)
+
+SIGN-OFF CHECKLIST (BEFORE WEEK 1 STARTS):
+  □ Development Lead
+  □ QA Lead
+  □ Release Manager
+  □ Ops Lead
+  □ Executive Sponsor
+
+All 5 must sign: _PHASE1_ENFORCEMENT_VERIFICATION_CHECKLIST.md
+
+IF SOMETHING GOES WRONG:
+
+Divergence detected:
+  1. Check _PHASE1_SEMANTIC_MATCH_SPEC.md for allowed differences
+  2. If allowed → update SEMANTIC_MATCH in DivergenceDetector
+  3. If blocked → investigate and fix implementation
+  4. DO NOT proceed to next stage if divergence unresolved
+
+Failsafe triggers at 10%:
+  1. Check error logs for why typed is failing
+  2. Fix implementation
+  3. Reset failsafe counter
+  4. Re-run load test
+  5. Restart from 10%
+
+Load test fails:
+  1. Identify at what concurrency p99 exceeds 2000ms
+  2. That concurrency is UNSAFE
+  3. Improve typed implementation
+  4. Re-run load test
+  5. Must show safe_ceiling >= peak + buffer
+
+CONTACTS:
+
+On-Call Team: [contact]
+  • Response: <15 min
+  • Escalation: [manager]
+
+Tech Lead: [contact]
+  • Architecture questions
+  • Design decisions
+
+Release Manager: [contact]
+  • Canary approval
+  • Rollback decisions
+
+================================================================================
+PRINT THIS CARD. KEEP IT HANDY.
+================================================================================

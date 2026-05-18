@@ -1,0 +1,50 @@
+verdict	only_hist	only_disk	refs	ratio	rel_path	disk_only_syms
+PURE_REGRESSION	21	0	6	0.55	CaseCrack\tools\burp_enterprise\decision_orchestrator.py	
+PURE_REGRESSION	10	0	1	0.39	CaseCrack\tools\burp_enterprise\inference\model_management\model_cli.py	
+PURE_REGRESSION	6	0	1	0.40	CaseCrack\tools\burp_enterprise\inference\model_management\model_benchmarker.py	
+PURE_REGRESSION	51	0	0	0.23	CaseCrack\tests\test_organism_health_gaps.py	
+PURE_REGRESSION	16	0	0	0.17	CaseCrack\tools\burp_enterprise\intel\github_client_base.py	
+PURE_REGRESSION	5	0	0	0.68	CaseCrack\tools\burp_enterprise\output\findings_formatter.py	
+PURE_REGRESSION	4	0	0	0.68	CaseCrack\tools\burp_enterprise\mcp\mcp_server.py	
+PURE_REGRESSION	4	0	0	0.72	CaseCrack\tools\burp_enterprise\agents\bayesian_prioritizer.py	
+REFACTORED	15	11	15	0.53	CaseCrack\tools\burp_enterprise\exploit_chains\synthesis_context.py	ProbeResult.__post_init__|ProbeResult.to_dict|RankedPayload.__post_init__|ReflectionContext.__post_init__|ReflectionContextDetector.__init__|ReflectionContextDetector.add_probe
+REFACTORED	0	4	14	0.09	CaseCrack\tools\burp_enterprise\__init__.py	__getattr__|_lazy_registry|get_recovered_modules|register_with_orchestrator
+REFACTORED	17	10	12	0.53	CaseCrack\tools\burp_enterprise\exploit_chains\synthesis_feedback.py	FeedbackEvent.is_neutral|SynthesisFeedbackCollector._propagate_to_campaign|SynthesisFeedbackCollector._propagate_to_forge|SynthesisFeedbackCollector._propagate_to_hypothesis|SynthesisFeedbackCollector._propagate_to_reasoning|SynthesisFeedbackCollector._propagate_to_waf
+REFACTORED	45	15	11	0.25	CaseCrack\tools\burp_enterprise\exploit_chains\payload_arbiter.py	PayloadArbiter._score_payload|_CHAIN_KEYWORDS|_COST_BY_ENGINE|_DESTRUCTIVE_PATTERNS|_IMPACT_BY_VULN|_LOCAL_HOSTS
+REFACTORED	61	5	9	0.19	CaseCrack\tools\burp_enterprise\exploit_chains\weight_tuner.py	WeightTuner._extract_observation|_NEGATIVE_SIGNALS|_POSITIVE_SIGNALS|_REWARD_BY_TYPE|_SIGNAL_TO_ARBITER_ATTR
+REFACTORED	9	21	5	0.53	CaseCrack\tools\burp_enterprise\hypothesis_engine.py	HypothesisEngine._amplification_for|HypothesisEngine._get_or_create|HypothesisEngine._interaction_lookup|HypothesisEngine._prune_expired_boosts|HypothesisEngine._update_extreme_metrics|HypothesisWeight.signal_boost_total
+REFACTORED	50	57	3	0.28	CaseCrack\tools\burp_enterprise\agents\llm_bridge.py	Analysis|Analysis.to_dict|AnthropicClient|AnthropicClient.__init__|AnthropicClient.complete|AnthropicClient.estimate_cost
+REFACTORED	37	16	3	0.57	CaseCrack\tools\burp_enterprise\exploit_chains\grammar_synthesizer.py	SQLiGrammar._dialect_payloads|SQLiGrammar._position_payloads|XSSGrammar._attr_name_payloads|XSSGrammar._attr_value_payloads|XSSGrammar._comment_payloads|XSSGrammar._encoded_variants
+REFACTORED	27	19	3	0.70	CaseCrack\tools\burp_enterprise\exploit_chains\genetic_forge.py	CONVERGENCE_PATIENCE|DEFAULT_CROSSOVER_RATE|DEFAULT_ELITE_FRACTION|DEFAULT_MAX_GENERATIONS|DEFAULT_MUTATION_RATE|ForgeChromosome.__post_init__
+REFACTORED	26	10	3	0.31	CaseCrack\tools\burp_enterprise\exploit_chains\payload_synthesis_engine.py	PayloadSynthesisEngine._ensure_arbiter|PayloadSynthesisEngine._ensure_forge|PayloadSynthesisEngine._ensure_grammar|PayloadSynthesisEngine._ensure_llm|PayloadSynthesisEngine._ensure_scheduler|PayloadSynthesisEngine.forge
+REFACTORED	19	1	3	0.56	CaseCrack\tools\burp_enterprise\recon_dashboard\server.py	_load_stdlib_secrets
+REFACTORED	13	4	3	0.43	CaseCrack\tools\burp_enterprise\exploit_chains\execution_scheduler.py	ExecutionScheduler._estimate_latency|ExecutionScheduler._interleave_stealth|ExecutionScheduler._primary_key|ExecutionScheduler._trim_by_budget
+REFACTORED	10	10	3	0.47	CaseCrack\tools\burp_enterprise\exploit_chains\failure_pattern.py	FailurePatternExtractor._evict_one|FailurePatternExtractor._filter|FailurePatternExtractor._refresh_counters|_AVOID_STRUCTURE_BY_SIG|_EVENT_HANDLER_RE|_MAX_PATTERNS
+REFACTORED	46	11	2	0.60	CaseCrack\tools\burp_enterprise\tool_registry\output_parsers.py	CANONICAL_SEVERITIES|NaabuParser.parse|OutputParser._severity_norm|ParsedFinding.is_valid|ParserRegistry.invalid_count|ParserRegistry.names
+REFACTORED	45	15	2	0.25	CaseCrack\tools\burp_enterprise\reasoning\prompt_chains.py	ChainResult.get_step|ChainResult.success|DAGNode|DAGTraceEntry|PromptChainDAGExecutor|PromptChainDAGExecutor.__init__
+REFACTORED	40	7	2	0.16	CaseCrack\tools\burp_enterprise\inference\gpu_governor.py	GPUGovernor._discover_nvidia_smi|GPUGovernor._discover_windows_wmic|GPUGovernor.allocate|GPUGovernor.discover|GPUGovernor.release|GPUInfo.__post_init__
+REFACTORED	25	15	2	0.36	CaseCrack\tools\burp_enterprise\tool_registry\registry.py	ToolDefinition.availability|ToolDefinition.is_available|ToolRegistry.__contains__|ToolRegistry.available_for_capability|ToolRegistry.available_tools|ToolRegistry.deep_check
+REFACTORED	23	31	2	0.67	CaseCrack\tools\burp_enterprise\reasoning\kv_checkpoint.py	ChainCheckpointState.checkpoint_count|ChainCheckpointState.latest|Checkpoint.__post_init__|Checkpoint.from_dict|Checkpoint.verify|CheckpointIntegrityError
+REFACTORED	21	11	2	0.52	CaseCrack\tools\burp_enterprise\reasoning\context_budget.py	AdaptiveBudgetTuner|AdaptiveBudgetTuner.__init__|AdaptiveBudgetTuner.record|AdaptiveBudgetTuner.record_batch|AdaptiveBudgetTuner.stats|AdaptiveBudgetTuner.step
+REFACTORED	20	25	2	0.58	CaseCrack\tools\burp_enterprise\reasoning\hypothesis_manager.py	DeduplicationStats.unique_count|Hypothesis|Hypothesis.fingerprint|HypothesisManager._enforce_cap|HypothesisManager._evict_stale|HypothesisManager._find_semantic_duplicate
+REFACTORED	12	5	2	0.45	CaseCrack\tools\burp_enterprise\tool_registry\action_translator.py	ActionTranslator._build_args|ActionTranslator._pick_tool|ActionTranslator.set_registry|ActionTranslator.translate_batch|TOOL_PRIORS
+REFACTORED	12	11	2	0.74	CaseCrack\tools\burp_enterprise\exploit_chains\llm_synthesizer.py	DEFAULT_LLM_CONFIDENCE|DEFAULT_MAX_PAYLOADS_PER_CALL|LLMSynthesizer._coerce_entry|LLMSynthesizer._rank|LLMSynthesizer.clear_cache|_DESTRUCTIVE_RE
+REFACTORED	10	6	2	0.32	CaseCrack\tools\burp_enterprise\tool_registry\fallback.py	FallbackSelector._is_healthy|FallbackSelector._rank_alternatives|FallbackSelector._score|FallbackSelector.record_outcome|FallbackSelector.set_registry|_build_default_chains
+REFACTORED	6	5	2	0.72	CaseCrack\tools\burp_enterprise\synthesis_safety.py	_CONFIDENCE_FIELD_WEIGHTS|_WS_RE|_fingerprint|_shingles|_similarity
+REFACTORED	0	7	2	0.07	CaseCrack\tools\burp_enterprise\_spa_shell.py	SPA_SHELL_HTML|_ASSEMBLED_HEAD|_HEAD_TPL|_SPA_BODY|_SPA_CSS|_SPA_JS
+REFACTORED	17	1	1	0.69	CaseCrack\tools\burp_enterprise\learning_loop_engine.py	StrategyEvolver.evolve_exploitation_paths
+REFACTORED	16	7	1	0.32	CaseCrack\tools\burp_enterprise\inference\model_manager.py	ModelManager._default_catalog|ModelManager._parse_filename|ModelManager.scan|ModelManager.select|ModelSpec.__post_init__|_CTX_RE
+REFACTORED	16	10	1	0.48	CaseCrack\tools\burp_enterprise\memory\vector_index.py	VectorMemoryIndex.__len__|VectorMemoryIndex._raw_search|VectorMemoryIndex.add_batch|VectorMemoryIndex.load|VectorMemoryIndex.save|_BruteForceIndex
+REFACTORED	15	7	1	0.44	CaseCrack\tools\burp_enterprise\inference\grammar.py	GBNFGrammar.to_string|GBNFGrammar.validate|_SchemaWalker|_SchemaWalker.__init__|_SchemaWalker._emit|_SchemaWalker._next_rule
+REFACTORED	13	2	1	0.58	CaseCrack\tools\burp_enterprise\inference\model_management\model_registry.py	ModelRegistry.list_all|_cap
+REFACTORED	10	1	1	0.51	CaseCrack\tools\burp_enterprise\inference\model_management\finetune_exporter.py	FinetuneExporter._serialize
+REFACTORED	8	2	1	0.34	CaseCrack\tools\burp_enterprise\inference\model_management\vram_selector.py	VRAMModelSelector._score|VRAMModelSelector._task_capability
+REFACTORED	8	9	1	0.47	CaseCrack\tools\burp_enterprise\inference\kv_cache.py	KVCacheManager._bytes_per_token|KVCacheManager._evict_one|KVCacheManager._seq_mb|KVCacheManager._used_mb|KVCacheManager.release|KVCacheManager.reserve
+REFACTORED	8	3	1	0.49	CaseCrack\tools\burp_enterprise\inference\model_management\model_downloader.py	ModelDownloader._partial_path|ModelDownloader._path|ModelDownloader.download_url
+REFACTORED	8	10	1	0.65	CaseCrack\tools\burp_enterprise\memory\embedder.py	VenatorEmbedder.clear_cache|VenatorEmbedder.embedding_dim|VenatorEmbedder.similarity|_TFIDFEmbedder|_TFIDFEmbedder.__init__|_TFIDFEmbedder._term_freq
+REFACTORED	23	39	0	0.68	CaseCrack\tests\test_cli_api_extended.py	TestCmdApi._make_mod|TestCmdApi._run|TestCmdApi.test_hpp_missing_param|TestCmdApi.test_hpp_missing_value|TestCmdApi.test_hpp_ok|TestCmdBizlogic._ba
+REFACTORED	17	14	0	0.44	CaseCrack\tools\burp_enterprise\database\data_migration.py	MigrationEngine._common_columns|MigrationEngine._migrate_table|MigrationEngine._row_count|MigrationEngine._table_list|MigrationEngine.migrate|MigrationEngine.verify
+REFACTORED	16	9	0	0.73	CaseCrack\tests\strict_fakes.py	_Call|_FakeBypassArm|_FakeBypassArm.__repr__|_StrictBase|_StrictBase.__getattr__|_StrictBase.__init__
+MINOR	2	0	3	0.51	CaseCrack\tools\burp_enterprise\tool_wrappers\dalfox_provider.py	
+MINOR	2	0	1	0.50	CaseCrack\tools\burp_enterprise\platforms\generic.py	
+MINOR	1	0	0	0.31	CaseCrack\tools\burp_enterprise\recon_dashboard\atlas_api.py	

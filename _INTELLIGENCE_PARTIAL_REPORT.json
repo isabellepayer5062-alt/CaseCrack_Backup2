@@ -1,0 +1,49 @@
+{
+  "intelligence_deterministic": true,
+  "intelligence_fixture_pass": true,
+  "blockers_proven": {
+    "IN-001": true,
+    "IN-002": true,
+    "IN-003": true,
+    "IN-004": true
+  },
+  "tests": [
+    {
+      "test": "determinism_10_runs",
+      "blocker": "IN-001",
+      "passed": true,
+      "mismatched_runs": [],
+      "detail": "10/10 runs identical"
+    },
+    {
+      "test": "fixture_expected_output",
+      "blocker": "IN-002",
+      "passed": true,
+      "violations": [],
+      "detected_warnings": [
+        "STREAM_INSTABILITY",
+        "HIGH_ERROR_RATE",
+        "PERSISTENT_LICENSE_REQUIRED",
+        "REPEATED_DEGRADED_MODE"
+      ],
+      "detected_anomalies": [],
+      "recommendations": [
+        "CHECK_LICENSE_CONFIGURATION"
+      ]
+    },
+    {
+      "test": "determinism_varied_input_order",
+      "blocker": "IN-003",
+      "passed": true,
+      "violations": [],
+      "forward_unique_outputs": 1,
+      "reversed_unique_outputs": 1
+    },
+    {
+      "test": "edge_cases_no_crash",
+      "blocker": "IN-004",
+      "passed": true,
+      "violations": []
+    }
+  ]
+}

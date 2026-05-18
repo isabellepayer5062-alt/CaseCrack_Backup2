@@ -1,0 +1,8 @@
+{
+  "target_url": "https://test.example.com",
+  "scanner": "zap",
+  "findings": [],
+  "skipped": true,
+  "skip_reason": "ZAP provider unavailable",
+  "generated_at": "2026-05-05T06:44:40.647975+00:00Z"
+}

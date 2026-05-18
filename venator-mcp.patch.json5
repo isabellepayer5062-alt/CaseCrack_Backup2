@@ -1,0 +1,18 @@
+{
+  // Register Venator/CaseCrack MCP server as a subprocess MCP endpoint.
+  // OpenClaw will spawn this process on demand and communicate over stdio.
+  // The cwd must be the CaseCrack Python package root (contains pyproject.toml).
+  //
+  // For WSL2/Kali HTTP mode instead, use:
+  //   { "url": "http://127.0.0.1:9191" }
+  // after starting Venator with MCP_HTTP_ENABLED=true MCP_HTTP_PORT=9191.
+  mcp: {
+    servers: {
+      "venator-recon-suite": {
+        command: "python",
+        args: ["-m", "tools.burp_enterprise.mcp_server"],
+        cwd: "c:/Users/ya754/CaseCrack v1.0/CaseCrack"
+      }
+    }
+  }
+}

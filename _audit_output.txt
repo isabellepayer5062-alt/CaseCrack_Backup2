@@ -1,0 +1,13 @@
+﻿.venv\Scripts\python.exe :   File "C:\Users\ya754\CaseCrack 
+v1.0\_audit_manual_deep.py", line 336
+At line:1 char:37
++ ... rack v1.0"; .venv\Scripts\python.exe _audit_manual_deep.py *>&1 | Out ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (  File "C:\User...p.py", line 336 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    print(f"    Top scores: {[f'{r[\"score\"]:.4f}' for r in 
+base_results[:3]]}")
+                                    ^
+SyntaxError: unexpected character after line continuation character

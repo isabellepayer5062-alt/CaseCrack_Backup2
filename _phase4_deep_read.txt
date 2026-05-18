@@ -1,0 +1,386 @@
+﻿====================================================================================================
+DEEP MODULE READING ù public API surface per recovered module
+====================================================================================================
+
+### network/dns_resolver.py
+    "DNS Resolver ù advanced DNS resolution and enumeration."
+    [DC] DNSRecord(name,record_type,value,ttl)
+    [CL] DNSResolver()
+        resolve_a(domain) -> List[DNSRecord]
+        resolve_aaaa(domain) -> List[DNSRecord]
+        resolve_all(domain) -> List[DNSRecord]
+        resolve_with_dnspython(domain,rdtype) -> List[DNSRecord]
+        get_mx_records(domain) -> List[DNSRecord]
+        get_txt_records(domain) -> List[DNSRecord]
+        get_ns_records(domain) -> List[DNSRecord]
+        get_soa_record(domain) -> List[DNSRecord]
+        get_cname(domain) -> List[DNSRecord]
+        get_srv_records(domain) -> List[DNSRecord]
+        bulk_resolve(domains) -> Dict[str, List[DNSRecord]]
+        reverse_lookup(ip) -> List[str]
+    [FN] _emit, resolve_domain
+
+### network/http_fingerprint.py
+    "HTTP Fingerprint ù web server and technology fingerprinting."
+    [DC] TechMatch(name,category,version,confidence,evidence)
+    [CL] HTTPFingerprinter()
+        fingerprint_headers(headers) -> List[TechMatch]
+        fingerprint_body(body) -> List[TechMatch]
+        detect_waf(headers,body) -> List[TechMatch]
+        fingerprint(headers,body) -> List[TechMatch]
+        get_all_matches() -> List[TechMatch]
+        fingerprint_url(url) -> List[TechMatch]
+        get_technologies() -> Dict[str, List[str]]
+    [FN] _emit, fingerprint_response
+
+### network/proxy_chain.py
+    "Proxy Chain ù HTTP/SOCKS proxy chaining and rotation."
+    [CL] ProxyType(HTTP,HTTPS,SOCKS4,SOCKS5)
+    [CL] RotationStrategy(ROUND_ROBIN,RANDOM,LEAST_USED,FASTEST)
+    [DC] ProxyConfig(host,port,proxy_type,username,password,country,latency_ms,use_count...)
+    [CL] ProxyChain()
+        add_proxy(proxy) -> None
+        add_proxy_url(url) -> None
+        get_next() -> Optional[ProxyConfig]
+        get_proxy_dict() -> Optional[Dict[str, str]]
+        mark_failed(proxy) -> None
+        mark_success(proxy,latency_ms) -> None
+        reset_all() -> None
+        get_healthy() -> List[ProxyConfig]
+        get_stats() -> Dict[str, Any]
+        to_chain_list() -> List[str]
+    [FN] _emit, create_proxy_chain
+
+### network/ssl_analyzer.py
+    "SSL/TLS Analyzer ù comprehensive TLS security assessment."
+    [DC] CertInfo(subject,issuer,serial_number,not_before,not_after,san,signature_algorithm,key_size...)
+    [DC] TLSAssessment(host,port,protocol_version,cipher_suite,cert_info,supports_tls13,supports_tls12,supports_tls11...)
+    [CL] SSLAnalyzer()
+        analyze(host,port) -> TLSAssessment
+    [FN] _emit, analyze_ssl
+
+### network/traffic_analyzer.py
+    "Traffic Analyzer ù HTTP traffic analysis and anomaly detection."
+    [DC] HTTPExchange(method,url,status_code,request_headers,response_headers,request_body,response_body_size,content_type...)
+    [DC] TrafficSummary(total_requests,unique_urls,methods,status_codes,content_types,hosts,auth_urls,redirect_chains...)
+    [CL] TrafficAnalyzer()
+        add_exchange(exchange) -> None
+        add_raw(method,url,status_code,request_headers,response_headers,latency_ms) -> None
+        analyze() -> TrafficSummary
+        get_exchanges() -> List[HTTPExchange]
+        get_stats() -> Dict[str, Any]
+    [FN] _emit, analyze_traffic
+
+### integrations/ci_cd_pipeline.py
+    "CI/CD Pipeline Integration ù trigger scans from CI/CD pipelines."
+    [CL] CIPlatform(JENKINS,GITHUB_ACTIONS,GITLAB_CI,AZURE_DEVOPS,BITBUCKET,GENERIC)
+    [CL] ScanPolicy(QUICK,STANDARD,FULL,CUSTOM)
+    [DC] PipelineConfig(platform,base_url,api_token,project,branch,scan_policy,fail_on_severity,timeout_minutes...)
+    [DC] PipelineTrigger(trigger_id,commit_sha,branch,author,message,repo_url,environment)
+    [DC] PipelineResult(passed,findings_count,critical,high,medium,low,scan_id,report_url...)
+    [CL] CICDPipeline()
+        trigger_scan(trigger,targets) -> PipelineResult
+        evaluate_gate(result) -> bool
+        format_comment(result) -> str
+        get_config() -> Dict[str, Any]
+    [FN] _emit, create_pipeline
+
+### integrations/defect_dojo.py
+    "DefectDojo Integration ù vulnerability management platform connector."
+    [DC] DefectDojoConfig(base_url,api_key,product_id,product_name,engagement_name,test_type,verify_ssl,timeout)
+    [DC] DDEngagement(id,name,product_id,status,target_start,target_end)
+    [DC] DDFinding(id,title,severity,description,cwe,url,active,verified...)
+    [CL] DefectDojoClient()
+        is_available() -> bool
+        create_engagement(name,target_start,target_end) -> DDEngagement
+        import_findings(findings,engagement_id) -> Dict[str, Any]
+        import_sarif(sarif_path,engagement_id) -> Dict[str, Any]
+        get_findings(engagement_id) -> List[DDFinding]
+        get_config() -> Dict[str, Any]
+    [FN] _emit, create_defect_dojo
+
+### integrations/jira_client.py
+    "Jira Client ù Jira issue tracker integration for integrations package."
+    [DC] JiraConfig(base_url,username,api_token,project_key,issue_type,priority_map,labels,verify_ssl...)
+    [DC] JiraIssue(key,summary,description,status,priority,assignee,labels,url)
+    [CL] JiraClient()
+        is_available() -> bool
+        create_issue(summary,description,severity,extra_fields) -> JiraIssue
+        create_from_finding(finding) -> JiraIssue
+        create_from_findings(findings) -> List[JiraIssue]
+        get_issue(key) -> Optional[JiraIssue]
+        add_comment(key,comment) -> bool
+        search_issues(jql,max_results) -> List[JiraIssue]
+        get_config() -> Dict[str, Any]
+    [FN] _emit, create_jira_client
+
+### integrations/slack_notifier.py
+    "Slack Notifier ù send security alerts to Slack channels."
+    [CL] AlertLevel(CRITICAL,HIGH,MEDIUM,LOW,INFO)
+    [DC] SlackConfig(webhook_url,bot_token,default_channel,min_severity,include_details,mention_on_critical,timeout)
+    [CL] SlackNotifier()
+        notify_finding(finding) -> bool
+        notify_scan_complete(scan_result) -> bool
+        notify_scan_started(target,scan_id) -> bool
+        notify_batch(findings) -> Dict[str, int]
+        get_config() -> Dict[str, Any]
+    [FN] _emit, create_slack_notifier
+
+### integrations/sonarqube.py
+    "SonarQube Integration ù code quality and security analysis sync."
+    [CL] SonarSeverity(BLOCKER,CRITICAL,MAJOR,MINOR,INFO)
+    [CL] SonarType(BUG,VULNERABILITY,CODE_SMELL,SECURITY_HOTSPOT)
+    [DC] SonarConfig(base_url,token,project_key,organization,verify_ssl,timeout)
+    [DC] SonarIssue(key,rule,severity,component,line,message,issue_type,effort...)
+    [DC] QualityGateStatus(status,conditions)
+    [CL] SonarClient()
+        is_available() -> bool
+        get_issues(severities,types) -> List[SonarIssue]
+        get_vulnerabilities() -> List[SonarIssue]
+        get_quality_gate() -> QualityGateStatus
+        import_as_findings() -> List[Dict]
+        get_config() -> Dict[str, Any]
+    [FN] _emit, create_sonar_client
+
+### integrations/webhook_dispatcher.py
+    "Webhook Dispatcher ù outbound webhook delivery engine."
+    [CL] WebhookEvent(SCAN_STARTED,SCAN_COMPLETED,SCAN_FAILED,FINDING_NEW,FINDING_VERIFIED,FINDING_RESOLVED,ALERT_CRITICAL,REPORT_READY)
+    [DC] WebhookEndpoint(url,name,secret,events,headers,active,max_retries,timeout...)
+    [DC] DeliveryResult(endpoint_name,event,status_code,success,attempts,error,duration_ms)
+    [CL] WebhookDispatcher()
+        register(endpoint) -> None
+        register_url(url,name,secret,events) -> None
+        unregister(name) -> bool
+        add_filter(event,fn) -> None
+        dispatch(event,payload) -> List[DeliveryResult]
+        dispatch_finding(finding) -> List[DeliveryResult]
+        dispatch_scan_complete(scan_result) -> List[DeliveryResult]
+        get_endpoints() -> List[Dict]
+        get_delivery_log(limit) -> List[Dict]
+        get_stats() -> Dict[str, Any]
+    [FN] _emit, create_dispatcher
+
+### caap/caap_coordinator.py
+    "CAAP Coordinator ù top-level orchestrator for the Copilot-Assisted Attack Platform."
+    [CL] CAAPPhase(IDLE,RECON,DISCOVERY,ANALYSIS,EXPLOITATION,POST_EXPLOIT,REPORTING,COMPLETE)
+    [DC] CAAPConfig(max_depth,max_duration_minutes,auto_exploit,stealth_mode,scope_strict,target_domains,excluded_paths,concurrency)
+    [DC] PhaseResult(phase,status,findings,duration_sec,metadata)
+    [CL] CAAPCoordinator()
+        phase() -> CAAPPhase
+        register_agent(name,agent) -> None
+        on_phase(phase,callback) -> None
+        start(targets) -> Dict[str, Any]
+        get_summary() -> Dict[str, Any]
+        get_all_findings() -> List[Dict]
+        get_config() -> Dict[str, Any]
+    [FN] _emit, create_coordinator
+
+### caap/chat_interface.py
+    "Chat Interface ù interactive chat-driven security assessment UI bridge."
+    [CL] ChatRole(USER,ASSISTANT,SYSTEM)
+    [DC] ChatMessage(role,content,timestamp,metadata)
+    [DC] ChatCommand(name,description,handler,aliases)
+    [CL] ChatInterface()
+        register_command(name,description,handler,aliases) -> None
+        process(user_input) -> ChatMessage
+        on_message(name,handler) -> None
+        get_history() -> List[Dict]
+        get_system_prompt() -> str
+    [FN] _emit, create_chat
+
+### caap/compliance_checker.py
+    "Compliance Checker ù validate findings against compliance frameworks."
+    [CL] ComplianceFramework(PCI_DSS,SOC2,HIPAA,OWASP_TOP10,NIST_800_53,ISO_27001,GDPR,CIS)
+    [DC] ComplianceMapping(framework,control_id,control_name,description,requirement_level)
+    [DC] ComplianceResult(framework,total_controls,passing,failing,not_tested,violations,score_pct)
+    [CL] ComplianceChecker()
+        add_mapping(mapping) -> None
+        check(findings) -> Dict[str, ComplianceResult]
+        get_frameworks() -> List[str]
+    [FN] _emit, check_compliance
+
+### caap/discovery_agent.py
+    "Discovery Agent ù autonomous endpoint and asset discovery."
+    [CL] DiscoveryMethod(CRAWL,BRUTE_FORCE,API_SCHEMA,SITEMAP,ROBOTS,JS_ANALYSIS,WAYBACK)
+    [DC] EndpointInfo(url,method,parameters,content_type,status_code,technology,auth_required,discovery_method)
+    [DC] DiscoveryResult(target,endpoints,technologies,parameters_found,forms,api_schemas,duration_sec)
+    [CL] DiscoveryAgent()
+        run(targets) -> Dict[str, Any]
+        discover(target) -> DiscoveryResult
+        add_endpoint(endpoint) -> None
+        get_endpoints() -> List[Dict]
+        get_stats() -> Dict[str, int]
+    [FN] _emit, create_discovery_agent
+
+### caap/exploitation_agent.py
+    "Exploitation Agent ù autonomous vulnerability exploitation."
+    [CL] ExploitStatus(PENDING,RUNNING,SUCCESS,PARTIAL,FAILED,SKIPPED)
+    [DC] ExploitAttempt(finding_id,vuln_type,target_url,payload,status,evidence,response_code,duration_ms...)
+    [CL] ExploitationAgent()
+        register_exploiter(vuln_type,exploiter) -> None
+        run(targets) -> Dict[str, Any]
+        exploit(finding) -> ExploitAttempt
+        exploit_batch(findings) -> List[ExploitAttempt]
+        get_attempts() -> List[Dict]
+        get_stats() -> Dict[str, Any]
+    [FN] _emit, create_exploitation_agent
+
+### caap/hypothesis_engine.py
+    "Hypothesis Engine ù generate and test security hypotheses."
+    [CL] HypothesisState(PROPOSED,TESTING,CONFIRMED,REJECTED,INCONCLUSIVE)
+    [CL] HypothesisCategory(INJECTION,AUTH,ACCESS_CONTROL,CRYPTO,MISCONFIG,LOGIC,SSRF,DESERIALIZATION...)
+    [DC] Hypothesis(id,title,description,category,target_url,confidence,priority,state...)
+    [CL] HypothesisEngine()
+        generate(context) -> List[Hypothesis]
+        register_tester(category,tester) -> None
+        test(hypothesis) -> Hypothesis
+        test_all() -> List[Hypothesis]
+        get_confirmed() -> List[Hypothesis]
+        get_all() -> List[Dict]
+        get_stats() -> Dict[str, int]
+    [FN] _emit, create_hypothesis_engine
+
+### caap/knowledge_graph.py
+    "Knowledge Graph ù security knowledge and relationship tracking."
+    [CL] NodeType(HOST,PORT,ENDPOINT,PARAMETER,VULNERABILITY,TECHNOLOGY,CREDENTIAL,FINDING...)
+    [CL] EdgeType(HAS_PORT,HAS_ENDPOINT,HAS_PARAM,HAS_VULN,RUNS,LEADS_TO,EXPLOITS,DEPENDS_ON...)
+    [DC] GraphNode(id,node_type,label,properties,created_at)
+    [DC] GraphEdge(source,target,edge_type,weight,properties)
+    [CL] KnowledgeGraph()
+        add_node(node) -> None
+        add_node_simple(node_id,node_type,label) -> GraphNode
+        add_edge(edge) -> None
+        connect(source,target,edge_type,weight) -> GraphEdge
+        get_node(node_id) -> Optional[GraphNode]
+        get_neighbors(node_id) -> List[GraphNode]
+        get_nodes_by_type(node_type) -> List[GraphNode]
+        find_path(start,end,max_depth) -> Optional[List[str]]
+        find_attack_paths(from_type,to_type) -> List[List[str]]
+        add_host(hostname) -> GraphNode
+        add_vulnerability(vuln_id,host) -> GraphNode
+        add_endpoint(url,host) -> GraphNode
+        to_dict() -> Dict[str, Any]
+        get_stats() -> Dict[str, Any]
+    [FN] _emit, create_knowledge_graph
+
+### caap/recon_agent.py
+    "Recon Agent ù autonomous reconnaissance agent."
+    [CL] ReconPhase(PASSIVE,ACTIVE,DEEP)
+    [DC] ReconResult(target,subdomains,open_ports,technologies,dns_records,certificates,emails,interesting_files...)
+    [CL] ReconAgent()
+        run(targets) -> Dict[str, Any]
+        recon(target) -> ReconResult
+        get_result(target) -> Optional[ReconResult]
+        get_all_results() -> Dict[str, Dict]
+        get_stats() -> Dict[str, Any]
+    [FN] _emit, create_recon_agent
+
+### caap/session_orchestrator.py
+    "Session Orchestrator ù manage CAAP assessment sessions."
+    [CL] SessionState(CREATED,RUNNING,PAUSED,COMPLETED,FAILED,CANCELLED)
+    [DC] Session(id,name,targets,state,config,findings,phases_completed,current_phase...)
+    [CL] SessionOrchestrator()
+        create_session(targets,name,config) -> Session
+        start(session_id) -> bool
+        pause(session_id) -> bool
+        resume(session_id) -> bool
+        complete(session_id) -> bool
+        cancel(session_id) -> bool
+        add_finding(session_id,finding) -> bool
+        set_phase(session_id,phase) -> bool
+        get_session(session_id) -> Optional[Session]
+        list_sessions(state) -> List[Dict]
+        on(event,callback) -> None
+        export_session(session_id) -> Optional[Dict]
+        get_stats() -> Dict[str, Any]
+    [FN] _emit, create_session_orchestrator
+
+### testing_tools/api_fuzzer.py
+    "API Fuzzer ù intelligent API endpoint fuzzing."
+    [CL] FuzzStrategy(RANDOM,BOUNDARY,TYPE_AWARE,MUTATION,DICTIONARY)
+    [DC] FuzzResult(url,method,parameter,payload,status_code,response_size,response_time_ms,anomaly...)
+    [CL] ApiFuzzer()
+        set_baseline(url,method,baseline_response) -> None
+        fuzz_endpoint(url,method,parameters) -> List[FuzzResult]
+        fuzz_batch(endpoints) -> List[FuzzResult]
+        get_anomalies() -> List[Dict]
+        get_stats() -> Dict[str, Any]
+    [FN] _emit, create_api_fuzzer
+
+### testing_tools/benchmark_runner.py
+    "Benchmark Runner ù performance and accuracy benchmarking."
+    [DC] BenchmarkCase(name,fn,iterations,timeout,tags,expected)
+    [DC] BenchmarkResult(name,passed,iterations,total_time_sec,avg_time_sec,min_time_sec,max_time_sec,error...)
+    [CL] BenchmarkRunner()
+        add(case) -> None
+        add_fn(name,fn,iterations) -> None
+        run(tags) -> List[BenchmarkResult]
+        get_results() -> List[Dict]
+        get_summary() -> Dict[str, Any]
+    [FN] _emit, create_benchmark
+
+### testing_tools/compliance_validator.py
+    "Compliance Validator ù validate scan results against compliance standards."
+    [DC] ComplianceRule(id,name,description,standard,required,check_fn_name)
+    [DC] ValidationResult(rule_id,rule_name,passed,message,evidence)
+    [CL] ComplianceValidator()
+        add_rule(rule) -> None
+        validate(scan_data) -> List[ValidationResult]
+        get_report(scan_data) -> Dict[str, Any]
+        get_rules() -> List[Dict]
+    [FN] _emit, validate_compliance
+
+### testing_tools/integration_harness.py
+    "Integration Harness ù test integration between system components."
+    [DC] IntegrationTest(name,fn,setup_fn,teardown_fn,depends_on,timeout,tags)
+    [DC] IntegrationResult(name,passed,duration_sec,error,output)
+    [CL] IntegrationHarness()
+        add(test) -> None
+        add_test(name,fn) -> None
+        run(tags) -> List[IntegrationResult]
+        get_results() -> List[Dict]
+        get_summary() -> Dict[str, Any]
+    [FN] _emit, create_harness
+
+### testing_tools/load_tester.py
+    "Load Tester ù HTTP load and stress testing."
+    [DC] LoadConfig(url,method,headers,body,concurrency,total_requests,ramp_up_sec,timeout)
+    [DC] LoadResult(total_requests,successful,failed,total_time_sec,avg_latency_ms,min_latency_ms,max_latency_ms,p50_ms...)
+    [CL] LoadTester()
+        run(url) -> LoadResult
+        get_results() -> List[Dict]
+    [FN] _emit, create_load_tester
+
+### testing_tools/mock_server.py
+    "Mock Server ù configurable HTTP mock server for testing."
+    [DC] MockRoute(path,method,status_code,response_body,response_headers,content_type,delay_sec)
+    [CL] _RequestHandler(routes,request_log)
+        do_GET()
+        do_POST()
+        do_PUT()
+        do_DELETE()
+        log_message(format)
+    [CL] MockServer()
+        add_route(route) -> None
+        add(path,response_body,method,status_code) -> None
+        add_json(path,data,method,status_code) -> None
+        start() -> str
+        stop() -> None
+        base_url() -> str
+        get_request_log() -> List[Dict]
+        clear_log() -> None
+        get_routes() -> List[Dict]
+    [FN] _emit, create_mock_server
+
+### testing_tools/regression_tracker.py
+    "Regression Tracker ù track vulnerability regression across scans."
+    [DC] ScanSnapshot(scan_id,timestamp,findings,metadata)
+    [DC] RegressionReport(baseline_scan,current_scan,new_findings,resolved_findings,regressions,persistent)
+    [CL] RegressionTracker()
+        add_snapshot(snapshot) -> None
+        add_scan(scan_id,findings) -> ScanSnapshot
+        compare(baseline_id,current_id) -> RegressionReport
+        compare_latest() -> Optional[RegressionReport]
+        get_trend() -> List[Dict]
+        get_snapshots() -> List[Dict]
+    [FN] _emit, create_tracker

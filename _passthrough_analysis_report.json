@@ -1,0 +1,379 @@
+{
+  "timestamp": 1777077509.7677174,
+  "summary": {
+    "total_commands": 8,
+    "total_volume": 2537,
+    "avg_error_rate": 0.0298,
+    "single_tenant_commands": 0,
+    "multi_tenant_commands": 8
+  },
+  "rankings": {
+    "by_volume": [
+      {
+        "rank": 1,
+        "command": "run_burp_scan",
+        "volume": 855,
+        "pct_of_total": 33.7,
+        "error_rate": 0.0023,
+        "tenant_count": 3
+      },
+      {
+        "rank": 2,
+        "command": "list_targets",
+        "volume": 655,
+        "pct_of_total": 25.82,
+        "error_rate": 0.0031,
+        "tenant_count": 3
+      },
+      {
+        "rank": 3,
+        "command": "get_report",
+        "volume": 425,
+        "pct_of_total": 16.75,
+        "error_rate": 0.0047,
+        "tenant_count": 3
+      },
+      {
+        "rank": 4,
+        "command": "export_findings",
+        "volume": 285,
+        "pct_of_total": 11.23,
+        "error_rate": 0.007,
+        "tenant_count": 3
+      },
+      {
+        "rank": 5,
+        "command": "check_status",
+        "volume": 191,
+        "pct_of_total": 7.53,
+        "error_rate": 0.0105,
+        "tenant_count": 3
+      },
+      {
+        "rank": 6,
+        "command": "admin_config",
+        "volume": 86,
+        "pct_of_total": 3.39,
+        "error_rate": 0.0233,
+        "tenant_count": 3
+      },
+      {
+        "rank": 7,
+        "command": "debug_verbose",
+        "volume": 32,
+        "pct_of_total": 1.26,
+        "error_rate": 0.0625,
+        "tenant_count": 3
+      },
+      {
+        "rank": 8,
+        "command": "experimental_ml",
+        "volume": 8,
+        "pct_of_total": 0.32,
+        "error_rate": 0.125,
+        "tenant_count": 2
+      }
+    ],
+    "by_tenant_count": [
+      {
+        "rank": 1,
+        "command": "run_burp_scan",
+        "tenant_count": 3,
+        "volume": 855,
+        "tenants": [
+          "tenant-a",
+          "tenant-b",
+          "tenant-c"
+        ],
+        "error_rate": 0.0023
+      },
+      {
+        "rank": 2,
+        "command": "list_targets",
+        "tenant_count": 3,
+        "volume": 655,
+        "tenants": [
+          "tenant-a",
+          "tenant-b",
+          "tenant-c"
+        ],
+        "error_rate": 0.0031
+      },
+      {
+        "rank": 3,
+        "command": "get_report",
+        "tenant_count": 3,
+        "volume": 425,
+        "tenants": [
+          "tenant-a",
+          "tenant-b",
+          "tenant-c"
+        ],
+        "error_rate": 0.0047
+      },
+      {
+        "rank": 4,
+        "command": "export_findings",
+        "tenant_count": 3,
+        "volume": 285,
+        "tenants": [
+          "tenant-a",
+          "tenant-b",
+          "tenant-c"
+        ],
+        "error_rate": 0.007
+      },
+      {
+        "rank": 5,
+        "command": "check_status",
+        "tenant_count": 3,
+        "volume": 191,
+        "tenants": [
+          "tenant-a",
+          "tenant-b",
+          "tenant-c"
+        ],
+        "error_rate": 0.0105
+      },
+      {
+        "rank": 6,
+        "command": "admin_config",
+        "tenant_count": 3,
+        "volume": 86,
+        "tenants": [
+          "tenant-a",
+          "tenant-b",
+          "tenant-c"
+        ],
+        "error_rate": 0.0233
+      },
+      {
+        "rank": 7,
+        "command": "debug_verbose",
+        "tenant_count": 3,
+        "volume": 32,
+        "tenants": [
+          "tenant-a",
+          "tenant-b",
+          "tenant-c"
+        ],
+        "error_rate": 0.0625
+      },
+      {
+        "rank": 8,
+        "command": "experimental_ml",
+        "tenant_count": 2,
+        "volume": 8,
+        "tenants": [
+          "tenant-a",
+          "tenant-c"
+        ],
+        "error_rate": 0.125
+      }
+    ],
+    "by_error_rate": [
+      {
+        "rank": 1,
+        "command": "experimental_ml",
+        "error_rate": 0.125,
+        "failed_count": 1,
+        "success_count": 7,
+        "volume": 8,
+        "tenant_count": 2
+      },
+      {
+        "rank": 2,
+        "command": "debug_verbose",
+        "error_rate": 0.0625,
+        "failed_count": 2,
+        "success_count": 30,
+        "volume": 32,
+        "tenant_count": 3
+      },
+      {
+        "rank": 3,
+        "command": "admin_config",
+        "error_rate": 0.0233,
+        "failed_count": 2,
+        "success_count": 84,
+        "volume": 86,
+        "tenant_count": 3
+      },
+      {
+        "rank": 4,
+        "command": "check_status",
+        "error_rate": 0.0105,
+        "failed_count": 2,
+        "success_count": 189,
+        "volume": 191,
+        "tenant_count": 3
+      },
+      {
+        "rank": 5,
+        "command": "export_findings",
+        "error_rate": 0.007,
+        "failed_count": 2,
+        "success_count": 283,
+        "volume": 285,
+        "tenant_count": 3
+      },
+      {
+        "rank": 6,
+        "command": "get_report",
+        "error_rate": 0.0047,
+        "failed_count": 2,
+        "success_count": 423,
+        "volume": 425,
+        "tenant_count": 3
+      },
+      {
+        "rank": 7,
+        "command": "list_targets",
+        "error_rate": 0.0031,
+        "failed_count": 2,
+        "success_count": 653,
+        "volume": 655,
+        "tenant_count": 3
+      },
+      {
+        "rank": 8,
+        "command": "run_burp_scan",
+        "error_rate": 0.0023,
+        "failed_count": 2,
+        "success_count": 853,
+        "volume": 855,
+        "tenant_count": 3
+      }
+    ]
+  },
+  "categories": {
+    "core_workflows": {
+      "count": 3,
+      "description": "High volume, low error (<5%), multi-tenant \u2192 MUST CONVERT FIRST",
+      "commands": [
+        "get_report",
+        "list_targets",
+        "run_burp_scan"
+      ],
+      "stats": [
+        {
+          "command": "get_report",
+          "volume": 425,
+          "pct_of_total": 16.75,
+          "error_rate": 0.0047,
+          "tenant_count": 3
+        },
+        {
+          "command": "list_targets",
+          "volume": 655,
+          "pct_of_total": 25.82,
+          "error_rate": 0.0031,
+          "tenant_count": 3
+        },
+        {
+          "command": "run_burp_scan",
+          "volume": 855,
+          "pct_of_total": 33.7,
+          "error_rate": 0.0023,
+          "tenant_count": 3
+        }
+      ]
+    },
+    "edge_debug": {
+      "count": 2,
+      "description": "Medium volume, variable error, or higher risk \u2192 REVIEW BEFORE CONVERT",
+      "commands": [
+        "check_status",
+        "export_findings"
+      ],
+      "stats": [
+        {
+          "command": "check_status",
+          "volume": 191,
+          "pct_of_total": 7.53,
+          "error_rate": 0.0105,
+          "tenant_count": 3
+        },
+        {
+          "command": "export_findings",
+          "volume": 285,
+          "pct_of_total": 11.23,
+          "error_rate": 0.007,
+          "tenant_count": 3
+        }
+      ]
+    },
+    "dead_rare": {
+      "count": 3,
+      "description": "Low volume (<5%), rare or experimental \u2192 DEFER OR DOCUMENT",
+      "commands": [
+        "admin_config",
+        "debug_verbose",
+        "experimental_ml"
+      ],
+      "stats": [
+        {
+          "command": "admin_config",
+          "volume": 86,
+          "pct_of_total": 3.39,
+          "error_rate": 0.0233,
+          "tenant_count": 3
+        },
+        {
+          "command": "debug_verbose",
+          "volume": 32,
+          "pct_of_total": 1.26,
+          "error_rate": 0.0625,
+          "tenant_count": 3
+        },
+        {
+          "command": "experimental_ml",
+          "volume": 8,
+          "pct_of_total": 0.32,
+          "error_rate": 0.125,
+          "tenant_count": 2
+        }
+      ]
+    }
+  },
+  "roadmap": {
+    "phase_1_high_priority": {
+      "title": "Core Workflows (80%+ of traffic)",
+      "commands": [
+        "get_report",
+        "list_targets",
+        "run_burp_scan"
+      ],
+      "volume": 1935,
+      "pct_of_total": 76.27,
+      "action": "Complete MCP integration + hardening, test thoroughly",
+      "risk": "LOW (high coverage, stable patterns)",
+      "effort": "HIGH (most commands, but well-defined)"
+    },
+    "phase_2_medium_priority": {
+      "title": "Edge/Debug Commands (10-20% of traffic)",
+      "commands": [
+        "check_status",
+        "export_findings"
+      ],
+      "volume": 476,
+      "pct_of_total": 18.76,
+      "action": "Audit for errors, plan targeted hardening",
+      "risk": "MEDIUM (variable error rates, lower volume)",
+      "effort": "MEDIUM (fewer commands, but may need investigation)"
+    },
+    "phase_3_deferred": {
+      "title": "Dead/Rare Commands (<5% of traffic)",
+      "commands": [
+        "admin_config",
+        "debug_verbose",
+        "experimental_ml"
+      ],
+      "volume": 126,
+      "pct_of_total": 4.97,
+      "action": "Document as experimental, deprecate if obsolete",
+      "risk": "HIGH (unclear patterns, rare usage = less tested)",
+      "effort": "LOW (few commands, can defer safely)"
+    }
+  }
+}

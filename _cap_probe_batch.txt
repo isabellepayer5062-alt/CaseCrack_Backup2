@@ -1,0 +1,303 @@
+﻿
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/database/data_migration.py
+HIST: 3ef0668f\GL6a.py
+======================================================================
+disk=18 hist=20 only_hist_public=6 only_disk_public=8
+sizes: disk=10695 hist=23954
+disk_markers: []
+
+-- only_in_hist (public) 6:
+    MigrationEngine.migrate_all                        ext_refs=2 <-- LIVE CALLERS
+    MigrationEngine.migrate_cache_to_redis             ext_refs=0
+    MigrationEngine.migrate_table                      ext_refs=0
+    MigrationEngine.rollback                           ext_refs=13 <-- LIVE CALLERS
+    MigrationEngine.validate_migration                 ext_refs=0
+    MigrationReport.summary                            ext_refs=505 <-- LIVE CALLERS
+
+-- only_in_disk (public) 8:
+    MigrationEngine.migrate                            ext_refs=16 <-- LIVE CALLERS (keep!)
+    MigrationEngine.verify                             ext_refs=340 <-- LIVE CALLERS (keep!)
+    MigrationReport.failed_tables                      ext_refs=0
+    MigrationReport.success                            ext_refs=447 <-- LIVE CALLERS (keep!)
+    MigrationReport.to_dict                            ext_refs=819 <-- LIVE CALLERS (keep!)
+    MigrationReport.total_rows                         ext_refs=0
+    MigrationStatus                                    ext_refs=0
+    TableMigrationResult.to_dict                       ext_refs=819 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/tool_registry/registry.py
+HIST: 4050eaaa\TJ0D.py
+======================================================================
+disk=27 hist=36 only_hist_public=16 only_disk_public=13
+sizes: disk=16306 hist=41954
+disk_markers: []
+
+-- only_in_hist (public) 16:
+    ToolDefinition.to_dict                             ext_refs=820 <-- LIVE CALLERS
+    ToolDefinition.to_llm_description                  ext_refs=1 <-- LIVE CALLERS
+    ToolRegistry.check_all_availability                ext_refs=1 <-- LIVE CALLERS
+    ToolRegistry.clear_availability_cache              ext_refs=1 <-- LIVE CALLERS
+    ToolRegistry.find_by_capability                    ext_refs=1 <-- LIVE CALLERS
+    ToolRegistry.find_by_category                      ext_refs=2 <-- LIVE CALLERS
+    ToolRegistry.find_by_tag                           ext_refs=1 <-- LIVE CALLERS
+    ToolRegistry.get_all                               ext_refs=13 <-- LIVE CALLERS
+    ToolRegistry.get_llm_tool_descriptions             ext_refs=1 <-- LIVE CALLERS
+    ToolRegistry.get_stats                             ext_refs=157 <-- LIVE CALLERS
+    ToolRegistry.has                                   ext_refs=832 <-- LIVE CALLERS
+    ToolRegistry.map_vuln_to_tools                     ext_refs=1 <-- LIVE CALLERS
+    ToolRegistry.register_many                         ext_refs=3 <-- LIVE CALLERS
+    ToolRegistry.tool_count                            ext_refs=9 <-- LIVE CALLERS
+    ToolRegistry.tool_names                            ext_refs=23 <-- LIVE CALLERS
+    ToolRegistry.unregister                            ext_refs=8 <-- LIVE CALLERS
+
+-- only_in_disk (public) 13:
+    ToolDefinition.availability                        ext_refs=56 <-- LIVE CALLERS (keep!)
+    ToolDefinition.is_available                        ext_refs=49 <-- LIVE CALLERS (keep!)
+    ToolRegistry.available_for_capability              ext_refs=1 <-- LIVE CALLERS (keep!)
+    ToolRegistry.available_tools                       ext_refs=5 <-- LIVE CALLERS (keep!)
+    ToolRegistry.deep_check                            ext_refs=1 <-- LIVE CALLERS (keep!)
+    ToolRegistry.deep_check_all                        ext_refs=0
+    ToolRegistry.health_score                          ext_refs=4 <-- LIVE CALLERS (keep!)
+    ToolRegistry.health_stats                          ext_refs=1 <-- LIVE CALLERS (keep!)
+    ToolRegistry.last_probe                            ext_refs=0
+    ToolRegistry.record_invocation                     ext_refs=3 <-- LIVE CALLERS (keep!)
+    ToolRegistry.reset_health                          ext_refs=0
+    ToolRegistry.summary                               ext_refs=504 <-- LIVE CALLERS (keep!)
+    ToolRegistry.tools_with_capability                 ext_refs=7 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/reasoning/kv_checkpoint.py
+HIST: f3d22b1\Zxfe.py
+======================================================================
+disk=38 hist=30 only_hist_public=15 only_disk_public=23
+sizes: disk=14998 hist=21511
+disk_markers: []
+
+-- only_in_hist (public) 15:
+    ChainCheckpointState.get_step_output               ext_refs=1 <-- LIVE CALLERS
+    ChainCheckpointState.get_step_text                 ext_refs=0
+    ChainCheckpointState.last_step_index               ext_refs=1 <-- LIVE CALLERS
+    ChainCheckpointState.resume_from                   ext_refs=5 <-- LIVE CALLERS
+    ChainCheckpointState.to_dict                       ext_refs=819 <-- LIVE CALLERS
+    Checkpoint.age_seconds                             ext_refs=11 <-- LIVE CALLERS
+    Checkpoint.is_expired                              ext_refs=30 <-- LIVE CALLERS
+    KVCheckpointConfig.from_dict                       ext_refs=127 <-- LIVE CALLERS
+    KVCheckpointManager.cleanup                        ext_refs=70 <-- LIVE CALLERS
+    KVCheckpointManager.delete_chain                   ext_refs=1 <-- LIVE CALLERS
+    KVCheckpointManager.fork                           ext_refs=25 <-- LIVE CALLERS
+    KVCheckpointManager.get                            ext_refs=1142 <-- LIVE CALLERS
+    KVCheckpointManager.get_stats                      ext_refs=157 <-- LIVE CALLERS
+    KVCheckpointManager.list_chains                    ext_refs=9 <-- LIVE CALLERS
+    KVCheckpointManager.restore_chain                  ext_refs=1 <-- LIVE CALLERS
+
+-- only_in_disk (public) 23:
+    ChainCheckpointState.checkpoint_count              ext_refs=1 <-- LIVE CALLERS (keep!)
+    ChainCheckpointState.latest                        ext_refs=121 <-- LIVE CALLERS (keep!)
+    Checkpoint.from_dict                               ext_refs=127 <-- LIVE CALLERS (keep!)
+    Checkpoint.verify                                  ext_refs=340 <-- LIVE CALLERS (keep!)
+    CheckpointIntegrityError                           ext_refs=1 <-- LIVE CALLERS (keep!)
+    CheckpointVersionConflict                          ext_refs=1 <-- LIVE CALLERS (keep!)
+    JournalEntry                                       ext_refs=0
+    JournalEntry.to_dict                               ext_refs=819 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.clear_chain                    ext_refs=1 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.close                          ext_refs=252 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.delete                         ext_refs=95 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.journal                        ext_refs=3 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.journal_size                   ext_refs=1 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.latest                         ext_refs=121 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.list_chain                     ext_refs=1 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.replay_audit                   ext_refs=1 <-- LIVE CALLERS (keep!)
+    KVCheckpointManager.restore                        ext_refs=36 <-- LIVE CALLERS (keep!)
+    _SQLiteStore.close                                 ext_refs=252 <-- LIVE CALLERS (keep!)
+    _SQLiteStore.delete                                ext_refs=95 <-- LIVE CALLERS (keep!)
+    _SQLiteStore.list_chain                            ext_refs=1 <-- LIVE CALLERS (keep!)
+    _SQLiteStore.load                                  ext_refs=283 <-- LIVE CALLERS (keep!)
+    _SQLiteStore.save                                  ext_refs=115 <-- LIVE CALLERS (keep!)
+    compute_integrity_hash                             ext_refs=1 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/inference/engine.py
+HIST: -33dd2d26\B01d.py
+======================================================================
+disk=45 hist=39 only_hist_public=16 only_disk_public=17
+sizes: disk=21209 hist=27670
+disk_markers: []
+
+-- only_in_hist (public) 16:
+    BackendType                                        ext_refs=2 <-- LIVE CALLERS
+    InferenceBackend.backend_type                      ext_refs=1 <-- LIVE CALLERS
+    InferenceBackend.detokenize                        ext_refs=1 <-- LIVE CALLERS
+    InferenceBackend.generate                          ext_refs=195 <-- LIVE CALLERS
+    InferenceBackend.generate_structured               ext_refs=5 <-- LIVE CALLERS
+    InferenceBackend.is_loaded                         ext_refs=4 <-- LIVE CALLERS
+    InferenceBackend.load_model                        ext_refs=1 <-- LIVE CALLERS
+    InferenceBackend.model_info                        ext_refs=1 <-- LIVE CALLERS
+    InferenceBackend.tokenize                          ext_refs=1 <-- LIVE CALLERS
+    InferenceBackend.unload_model                      ext_refs=1 <-- LIVE CALLERS
+    InferenceEngine.config                             ext_refs=578 <-- LIVE CALLERS
+    InferenceEngine.detokenize                         ext_refs=1 <-- LIVE CALLERS
+    InferenceEngine.get_model_info                     ext_refs=0
+    InferenceEngine.tokenize                           ext_refs=1 <-- LIVE CALLERS
+    ModelInfo.size_gb                                  ext_refs=0
+    ModelInfo.to_dict                                  ext_refs=819 <-- LIVE CALLERS
+
+-- only_in_disk (public) 17:
+    GenerationResult.cost_usd                          ext_refs=20 <-- LIVE CALLERS (keep!)
+    GenerationResult.latency_ms                        ext_refs=45 <-- LIVE CALLERS (keep!)
+    GenerationResult.stop_reason                       ext_refs=7 <-- LIVE CALLERS (keep!)
+    GenerationResult.tokens_generated                  ext_refs=3 <-- LIVE CALLERS (keep!)
+    GenerationResult.tokens_per_second                 ext_refs=2 <-- LIVE CALLERS (keep!)
+    GenerationResult.tokens_prompt                     ext_refs=12 <-- LIVE CALLERS (keep!)
+    GenerationResult.tokens_total                      ext_refs=16 <-- LIVE CALLERS (keep!)
+    InferenceEngine.agenerate                          ext_refs=0
+    InferenceEngine.generate_sync                      ext_refs=0
+    _BaseBackend.generate                              ext_refs=195 <-- LIVE CALLERS (keep!)
+    _BaseBackend.load                                  ext_refs=283 <-- LIVE CALLERS (keep!)
+    _BaseBackend.unload                                ext_refs=2 <-- LIVE CALLERS (keep!)
+    _LlamaCppBackend.generate                          ext_refs=195 <-- LIVE CALLERS (keep!)
+    _LlamaCppBackend.load                              ext_refs=283 <-- LIVE CALLERS (keep!)
+    _LlamaCppBackend.unload                            ext_refs=2 <-- LIVE CALLERS (keep!)
+    _OllamaBackend.generate                            ext_refs=195 <-- LIVE CALLERS (keep!)
+    _OllamaBackend.load                                ext_refs=283 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/inference/kv_cache.py
+HIST: -52f8b352\rVkn.py
+======================================================================
+disk=24 hist=18 only_hist_public=3 only_disk_public=3
+sizes: disk=10149 hist=13331
+disk_markers: []
+
+-- only_in_hist (public) 3:
+    KVCacheConfig.from_dict                            ext_refs=128 <-- LIVE CALLERS
+    KVQuantType.bytes_per_element                      ext_refs=0
+    KVQuantType.quality_factor                         ext_refs=0
+
+-- only_in_disk (public) 3:
+    KVCacheManager.release                             ext_refs=67 <-- LIVE CALLERS (keep!)
+    KVCacheManager.reserve                             ext_refs=7 <-- LIVE CALLERS (keep!)
+    KVCacheManager.stats                               ext_refs=324 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/inference/gpu_governor.py
+HIST: -321de56d\4cUG.py
+======================================================================
+disk=17 hist=46 only_hist_public=14 only_disk_public=3
+sizes: disk=8506 hist=50529
+disk_markers: []
+
+-- only_in_hist (public) 14:
+    GPUGovernor.recommend_n_gpu_layers                 ext_refs=0
+    GPUGovernor.resources                              ext_refs=143 <-- LIVE CALLERS
+    GPUVendor                                          ext_refs=0
+    OllamaBackend                                      ext_refs=0
+    SystemResources.has_gpu                            ext_refs=2 <-- LIVE CALLERS
+    SystemResources.to_dict                            ext_refs=819 <-- LIVE CALLERS
+    SystemResources.total_free_vram_mb                 ext_refs=4 <-- LIVE CALLERS
+    SystemResources.total_vram_mb                      ext_refs=6 <-- LIVE CALLERS
+    VRAMBudget.to_dict                                 ext_refs=819 <-- LIVE CALLERS
+    VRAMBudget.total_allocated_mb                      ext_refs=0
+    apply_ollama_env                                   ext_refs=0
+    classify_vendor                                    ext_refs=0
+    get_ollama_env_vars                                ext_refs=0
+    recommend_ollama_backend                           ext_refs=0
+
+-- only_in_disk (public) 3:
+    GPUGovernor.allocate                               ext_refs=11 <-- LIVE CALLERS (keep!)
+    GPUGovernor.discover                               ext_refs=172 <-- LIVE CALLERS (keep!)
+    GPUGovernor.release                                ext_refs=67 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/inference/model_manager.py
+HIST: 859617b\VNIq.py
+======================================================================
+disk=17 hist=25 only_hist_public=9 only_disk_public=2
+sizes: disk=9017 hist=26353
+disk_markers: []
+
+-- only_in_hist (public) 9:
+    BenchmarkResult                                    ext_refs=2 <-- LIVE CALLERS
+    BenchmarkResult.to_dict                            ext_refs=820 <-- LIVE CALLERS
+    InstalledModel                                     ext_refs=0
+    InstalledModel.to_dict                             ext_refs=820 <-- LIVE CALLERS
+    ModelManager.benchmark                             ext_refs=27 <-- LIVE CALLERS
+    ModelManager.close                                 ext_refs=253 <-- LIVE CALLERS
+    ModelManager.model_dir                             ext_refs=4 <-- LIVE CALLERS
+    ModelManager.remove                                ext_refs=132 <-- LIVE CALLERS
+    ModelSpec.to_dict                                  ext_refs=820 <-- LIVE CALLERS
+
+-- only_in_disk (public) 2:
+    ModelManager.scan                                  ext_refs=606 <-- LIVE CALLERS (keep!)
+    ModelManager.select                                ext_refs=64 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/inference/model_management/model_registry.py
+HIST: 13ff49c9\O4kx.py
+======================================================================
+disk=30 hist=41 only_hist_public=1 only_disk_public=1
+sizes: disk=13917 hist=22382
+disk_markers: []
+
+-- only_in_hist (public) 1:
+    ModelRegistry.cards                                ext_refs=19 <-- LIVE CALLERS
+
+-- only_in_disk (public) 1:
+    ModelRegistry.list_all                             ext_refs=5 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/inference/model_management/model_downloader.py
+HIST: -52893bef\7tSv.py
+======================================================================
+disk=24 hist=25 only_hist_public=2 only_disk_public=1
+sizes: disk=11341 hist=17391
+disk_markers: []
+
+-- only_in_hist (public) 2:
+    ModelDownloader.config                             ext_refs=578 <-- LIVE CALLERS
+    ModelDownloader.model_dir                          ext_refs=4 <-- LIVE CALLERS
+
+-- only_in_disk (public) 1:
+    ModelDownloader.download_url                       ext_refs=3 <-- LIVE CALLERS (keep!)
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/inference/model_management/finetune_exporter.py
+HIST: -7275cefc\Kzu3.py
+======================================================================
+disk=30 hist=35 only_hist_public=1 only_disk_public=0
+sizes: disk=11532 hist=19403
+disk_markers: []
+
+-- only_in_hist (public) 1:
+    FinetuneExporter.config                            ext_refs=578 <-- LIVE CALLERS
+
+-- only_in_disk (public) 0:
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/inference/model_management/vram_selector.py
+HIST: 37be9f7c\qeBh.py
+======================================================================
+disk=17 hist=20 only_hist_public=3 only_disk_public=0
+sizes: disk=7463 hist=17547
+disk_markers: []
+
+-- only_in_hist (public) 3:
+    VRAMModelSelector.governor                         ext_refs=26 <-- LIVE CALLERS
+    VRAMModelSelector.registry                         ext_refs=169 <-- LIVE CALLERS
+    VRAMModelSelector.select_with_criteria             ext_refs=0
+
+-- only_in_disk (public) 0:
+
+======================================================================
+FILE: CaseCrack/tools/burp_enterprise/__init__.py
+HIST: -3bcd2844\XCHc.py
+======================================================================
+disk=4 hist=0 only_hist_public=0 only_disk_public=2
+sizes: disk=7851 hist=85364
+disk_markers: []
+
+-- only_in_hist (public) 0:
+
+-- only_in_disk (public) 2:
+    get_recovered_modules                              ext_refs=1 <-- LIVE CALLERS (keep!)
+    register_with_orchestrator                         ext_refs=0

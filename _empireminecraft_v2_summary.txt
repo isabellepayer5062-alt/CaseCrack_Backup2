@@ -1,0 +1,507 @@
+================================================================================
+FULL RECON v2 — empireminecraft.com
+Run completed : 2026-05-06T08:36:32.467050+00:00
+Elapsed       : 5036 seconds
+================================================================================
+
+TOTAL ERRORS          : 0
+TOTAL WARNINGS        : 381
+CONSOLE ISSUE LINES   : 502
+PHASES WITH ERRORS    : 24
+TOTAL CONSOLE LINES   : 5506
+
+── PHASE STATUS ───────────────────────────────────────────────────────────────
+  AI-Enhanced Testing                                     
+  Access Control & Privilege Testing                      
+  Active Vulnerability Testing                            
+  Advanced Exploitation Testing                           
+  Attack Surface & Analysis                               
+  Blue-Team & Threat Modeling                             
+  CVE Correlation                                         
+  Cloud & Container Security                              
+  Core Utility Testing                                    
+  Correlation & Compliance                                
+  DNS Resolution & Brute-force                            
+  DNS Security Testing                                    
+  Dashboard & Post-Scan Analysis                          
+  Defensive Posture Assessment                            
+  Endpoint & Asset Discovery                              
+  Exploit Graph Analysis                                  
+  Exploitation Verification & Risk Assessment             
+  Extended OSINT & Recon                                  
+  Fingerprinting & Technology                             
+  Injection & Deserialization Testing                     
+  JS Analysis & Source Maps                               
+  Network & Port Scanning                                 
+  Network Topology Mapping                                
+  OSINT Intelligence                                      
+  Parameter Discovery                                     
+  Passive Internet Search                                 
+  Secrets Scanning                                        
+  Source Code & Reverse Analytics                         
+  Subdomain Discovery                                     
+  Supply Chain Security                                   
+  TLS & Certificate Analysis                              
+  URL Aggregation & Dorking                               
+  Unified Crawl + Secrets Pipeline                        
+  Virtual Host Discovery                                  
+  Visual Recon & Screenshots                              
+  WAF Detection & Fingerprinting                          
+
+── ERRORS BY PHASE ────────────────────────────────────────────────────────────
+
+  [Access Control & Privilege Testing]  (10 error(s))
+    • [*]   • No critical account security issues detected.
+    • [*]   • [critical] MFA Bypass via Empty code
+    • [*]   • [critical] MFA Bypass via All zeros
+    • [*]   • [critical] MFA Bypass via Common code
+    • [*]   • [critical] MFA Bypass via mfa_verified parameter
+    • [*]   • [critical] MFA Bypass via skip_mfa parameter
+    • [*]   • [critical] MFA Bypass via bypass parameter
+    • [*]   • [critical] MFA Bypass via Null string
+    • [*]   • [critical] MFA Bypass via Undefined string
+    • [SOFT-TIMEOUT] Soft limit 225s reached — evaluating…
+
+  [Active Vulnerability Testing]  (17 error(s))
+    • $ python -m tools.burp_enterprise.cli dalfox --url https://empireminecraft.com --timeout 120 -o reports/recon-dalfox.json
+    • $ python -m tools.burp_enterprise.cli nuclei --url https://empireminecraft.com --severity critical,high,medium --tags Apache,Google Tag Manager,Ruby on Rails,apache,bitbucket,config,exposure,misconfig,takeover -o reports/recon-nuclei.json
+    • Exception in thread Thread-9 (_readerthread):
+    • Traceback (most recent call last):
+    • UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 1422: character maps to <undefined>
+    • [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+    • $ python -m tools.burp_enterprise.cli dalfox --url https://empireminecraft.com/search?q=FUZZ --timeout 120 -o reports/recon-dalfox-search.json
+    • [*]    Evidence: Polyglot triggered template error response
+    • 🟡 Firebase Error Disclosure
+    • $ python -m tools.burp_enterprise.cli dalfox --url https://empireminecraft.com/search?type=FUZZ&q=test --timeout 120 -o reports/recon-dalfox-search-type.json
+    • $ python -m tools.burp_enterprise.cli dalfox --url https://empireminecraft.com/collections/vendors?q=FUZZ --timeout 120 -o reports/recon-dalfox-vendors.json
+    • [*] Polling for OOB interactions (timeout=60.0s, interval=5.0s)…
+    • [SOFT-TIMEOUT] Soft limit 225s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 197s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 198s reached — evaluating…
+    • $ python -m tools.burp_enterprise.cli nuclei --url https://empireminecraft.com --tags xss --severity critical,high,medium,low -o reports\recon-nuclei-xss-fallback-0.json
+    • [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+
+  [Advanced Exploitation Testing]  (10 error(s))
+    • [BUDGET] Capping Advanced Exploitation Testing timeout: 1056s → 870s (wall clock limit)
+    • [-] RACE CONDITION DETECTED!
+    • [SOFT-TIMEOUT] Soft limit 30s reached — evaluating…
+    • burp-cli bizlogic: error: argument --variant-id: expected one argument
+    • $ python -m tools.burp_enterprise.cli scanner-api --url https://empireminecraft.com --provider zap --active-scan --timeout 480 -o reports/recon-zap-dast.json scan
+    • [FAIL] Command failed: invalid syntax (_docker.py, line 985)
+    • [*] Polling for OOB interactions (timeout=30.0s, interval=3.0s)…
+    • [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 60s — killed
+    • [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+
+  [Attack Surface & Analysis]  (4 error(s))
+    • $ python -m tools.burp_enterprise.cli nuclei --url https://empireminecraft.com --tags apache,exposure,misconfig,takeover --severity critical,high,medium -o reports/recon-nuclei-validation.json
+    • [SOFT-TIMEOUT] Soft limit 90s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 90s — killed
+
+  [CVE Correlation]  (2 error(s))
+    • $ python -m tools.burp_enterprise.cli nuclei --url https://empireminecraft.com --tags apache,config,cve,exposure,misconfig,takeover --severity critical,high -o reports/recon-nuclei-cve.json
+    • $ python -m tools.burp_enterprise.cli trivy --target reports --scan-type fs --severity CRITICAL,HIGH -o reports/recon-trivy.json
+
+  [Cloud & Container Security]  (10 error(s))
+    • $ python -m tools.burp_enterprise.cli cloud-enum --keyword empireminecraft --threads 50 --timeout 240 -o reports/recon-cloud-enum.json
+    • [FAIL] Command failed: invalid syntax (_docker.py, line 985)
+    • [*] Could not detect cloud provider
+    • [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+    •   Timeout           : 8s
+    •   Critical            : 0
+    • [SOFT-TIMEOUT] Soft limit 225s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 300s — killed
+    • [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 60s — killed
+
+  [Correlation & Compliance]  (16 error(s))
+    • {"type":"finding","severity":"info","title":"empireminecraft.comhttps://empireminecraft.com \u203a threads \u203a wiki-link-errorWiki Link Error | Empire Minecraft","detail":"https://empireminecraft.com/threads/wiki-link-error.88871/","phase":"URL Aggregation & Dorking","category":"directory-listing","description":"Root directory listing","url":"ht
+    • {"type":"finding","severity":"info","title":"empireminecraft.comhttps://empireminecraft.com \u203a threads \u203a help-needed-game[HELP NEEDED] \"game crashed\" | Empire Minecraft","detail":"https://empireminecraft.com/threads/help-needed-game-crashed.81779/","phase":"URL Aggregation & Dorking","category":"error-pages","description":"Java exception
+    • {"type":"finding","severity":"info","title":"empireminecraft.comhttps://empireminecraft.com \u203a threads \u203a logging-in-errorLogging in Error: &quot;Connection Lost&quot; | Empire Minecraft","detail":"https://empireminecraft.com/threads/logging-in-error-connection-lost.53628/","phase":"URL Aggregation & Dorking","category":"error-pages","descr
+    • {"type":"finding","severity":"info","title":"empireminecraft.comhttps://empireminecraft.com \u203a threads \u203a multimc-error-code-1MultiMC Error Code -1 - Empire Minecraft","detail":"https://empireminecraft.com/threads/multimc-error-code-1.78775/","phase":"URL Aggregation & Dorking","category":"error-pages","description":"Java exception","url":"
+    • {"type":"finding","severity":"info","title":"empireminecraft.comhttps://empireminecraft.com \u203a threads \u203a internal-exceptionInternal exception: java.lang.NullPointerException | Empire ...","detail":"https://empireminecraft.com/threads/internal-exception-java-lang-nullpointerexception.4009/","phase":"URL Aggregation & Dorking","category":"er
+    • {"type":"finding","severity":"info","title":"empireminecraft.comhttps://empireminecraft.com \u203a threads \u203a unable-to-connect-toUnable to connect to EMC | Empire Minecraft","detail":"https://empireminecraft.com/threads/unable-to-connect-to-emc.36331/","phase":"URL Aggregation & Dorking","category":"login-pages","description":"Auth endpoint","
+    • {"type":"finding","severity":"info","title":"empireminecraft.comhttps://empireminecraft.com \u203a threads \u203a mod-help-inventory[Mod help] Inventory profiles next crashing - Empire Minecraft","detail":"https://empireminecraft.com/threads/mod-help-inventory-profiles-next-crashing.87186/","phase":"URL Aggregation & Dorking","category":"file-expos
+    • {"type":"finding","severity":"info","title":"empireminecraft.comhttps://empireminecraft.com \u203a threads \u203a 1-14-not-loading1.14 not loading - error - need help - Empire Minecraft","detail":"https://empireminecraft.com/threads/1-14-not-loading-error-need-help.81116/","phase":"URL Aggregation & Dorking","category":"file-exposure","description"
+    • {"type":"finding","severity":"info","title":"CVE Correlation: scan completed (no results)","detail":"Summary: total_cves=0, critical=0, high=0, medium=0, low=0, kev_count=0","phase":"CVE Correlation","category":"source_code","id":"4db7ad205247","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"","cwe":"","cve_ids":[],"cvss_score":nu
+    • {"type":"finding","severity":"info","title":"Active Vulnerability Testing: scan completed (no results)","detail":"Summary: total_findings=1, critical=0, tested_payloads=46, blocked_payloads=0, scan_duration=29.949767112731934","phase":"Active Vulnerability Testing","category":"source_code","id":"61fdc0a421eb","url":"","parameter":"","cluster":"publ
+    • {"type":"finding","severity":"info","title":"Firebase Error Disclosure","detail":"https://empireminecraft.com/users.json","phase":"Active Vulnerability Testing","category":"","description":"Firebase error triggered: Users collection dump","cwe_id":"CWE-209","url":"https://empireminecraft.com/users.json","param":"q","id":"22a3e603322d","parameter":"
+    • {"type":"finding","severity":"info","title":"Firebase Error Disclosure","detail":"https://empireminecraft.com/admin.json","phase":"Active Vulnerability Testing","category":"","description":"Firebase error triggered: Admin collection dump","cwe_id":"CWE-209","url":"https://empireminecraft.com/admin.json","param":"q","id":"e6a61b9d11c8","parameter":"
+    • {"type":"finding","severity":"info","title":"[Passive Template] Missing Security Headers","detail":"Passive template 'missing-security-headers' matched against https://empireminecraft.com.\n\nCritical security headers are missing from the response.\nMissing headers can leave the application vulnerable to\nclickjacking, XSS, MIME-sniffing, and other
+    • {"type":"finding","severity":"info","title":"Access Control & Privilege Testing: scan completed (no results)","detail":"Summary: total_findings=1, critical=0, high=1, medium=0, low=0, info=0","phase":"Access Control & Privilege Testing","category":"source_code","id":"d7f35e5aa72e","url":"","parameter":"","cluster":"public","cwe_ids":[],"cwe_id":"",
+    •         "endpoint_criticality": "unknown",
+    •         "endpoint_criticality": "high",
+
+  [DNS Resolution & Brute-force]  (2 error(s))
+    • [*]   Critical            : 0
+    • [SOFT-TIMEOUT] Soft limit 176s reached — evaluating…
+
+  [Defensive Posture Assessment]  (2 error(s))
+    • High/Critical Findings (1)
+    • [SOFT-TIMEOUT] Soft limit 90s reached — evaluating…
+
+  [Endpoint & Asset Discovery]  (10 error(s))
+    • [SOFT-TIMEOUT] Soft limit 135s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 173s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 147s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 180s — killed
+    • $ python -m tools.burp_enterprise.cli ws-recon --target https://empireminecraft.com --timeout 10 -o reports/recon-ws-recon.json
+    • [SOFT-TIMEOUT] Soft limit 41s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 10s reached — evaluating…
+    • E20: feroxbuster execution state=crashed exit=-1 findings=119 target=https://empireminecraft.com
+    • [HARD-TIMEOUT] Deferred command killed after hard deadline
+    • [TIMEOUT] Command timed out after 10s
+
+  [Fingerprinting & Technology]  (1 error(s))
+    • [SOFT-TIMEOUT] Soft limit 30s reached — evaluating…
+
+  [Injection & Deserialization Testing]  (6 error(s))
+    • [*] Polling for OOB interactions (timeout=60.0s, interval=5.0s)…
+    • [*]   Critical: 25, High: 158, Medium: 14
+    • [-] Critical: 25
+    • [*]   • [critical] CL.TE Request Smuggling Detected
+    • [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 60s — killed
+
+  [JS Analysis & Source Maps]  (1 error(s))
+    •   Findings:     3 total (0 critical, 0 high)
+
+  [Network & Port Scanning]  (1 error(s))
+    • $ python -m tools.burp_enterprise.cli nmap --host empireminecraft.com --profile vuln --top-ports 1000 --timeout 90 -o reports/recon-nmap-vuln.json --json
+
+  [Network Topology Mapping]  (2 error(s))
+    •   Timeout         : 10.0s
+    •   Findings (2 total, 0 critical, 0 high):
+
+  [OSINT Intelligence]  (4 error(s))
+    • [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 60s — killed
+    • [TIMEOUT] Hard timeout after 90s — killed
+
+  [Parameter Discovery]  (5 error(s))
+    • [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 54s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 12s reached — evaluating…
+    • [TIMEOUT] Command timed out after 12s
+
+  [Passive Internet Search]  (2 error(s))
+    • [SOFT-TIMEOUT] Soft limit 90s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 120s — killed
+
+  [Source Code & Reverse Analytics]  (1 error(s))
+    •     "critical": 0,
+
+  [Subdomain Discovery]  (5 error(s))
+    • [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 60s — killed
+    • [TIMEOUT] Hard timeout after 90s — killed
+    • [SOFT-TIMEOUT] Soft limit 180s reached — evaluating…
+
+  [Supply Chain Security]  (1 error(s))
+    •   Findings:     3 total (0 critical, 0 high)
+
+  [URL Aggregation & Dorking]  (6 error(s))
+    • [BUDGET] Capping URL Aggregation & Dorking timeout: 936s → 870s (wall clock limit)
+    • [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+    • [SOFT-TIMEOUT] Soft limit 90s reached — evaluating…
+    • [TIMEOUT] Hard timeout after 90s — killed
+    • [TIMEOUT] Hard timeout after 120s — killed
+    • [*] Timeout: 480.0s
+
+  [Virtual Host Discovery]  (1 error(s))
+    • [SOFT-TIMEOUT] Soft limit 54s reached — evaluating…
+
+  [WAF Detection & Fingerprinting]  (2 error(s))
+    •         "Keep-Alive": "timeout=5, max=100",
+    •         "Keep-Alive": "timeout=5, max=99",
+
+── ALL ERRORS (chronological) ─────────────────────────────────────────────────
+  None.
+
+── WARNINGS ───────────────────────────────────────────────────────────────────
+  [init] Cleaning 387 stale report files from previous run
+  [Fingerprinting & Technology] [!]   Disclosure:    Server: Apache/2.4.66 (Ubuntu)
+  [Fingerprinting & Technology] [!] No technologies detected
+  [Fingerprinting & Technology] STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.config [42975]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.dockerignore [42999]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.firebaserc [42991]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.eslintrc [42983]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.babelrc [42979]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.prettierrc [42991]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.DS_Store [42983]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.editorconfig [42999]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/.vscode [42975]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/index.aspx [42987]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/index.asp [42983]
+  [Endpoint & Asset Discovery] [+] [200] https://empireminecraft.com/index.cgi [42983]
+  [Endpoint & Asset Discovery] STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Endpoint & Asset Discovery] [!] [*] Timeout: 30.0s
+  [Endpoint & Asset Discovery] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (180s) for command 'strategy'
+  [Endpoint & Asset Discovery] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (10s) for command 'ws_recon'
+  [Endpoint & Asset Discovery] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (56s) for command 'api_discovery'
+  [Endpoint & Asset Discovery] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (230s) for command 'katana'
+  [Endpoint & Asset Discovery] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (230s) for command 'gospider'
+  [JS Analysis & Source Maps] STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-255.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-2.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-5.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-1.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-residence-200.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-10.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-residence-2.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-9.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-200.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-residence-3.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-6.json
+  [URL Aggregation & Dorking] [!]   https://empireminecraft.com/api/pinfo.php?name=
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-residence-10.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-residence-9.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-residence-8.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-7.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-8.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-residence-1.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-residence-7.json
+  [URL Aggregation & Dorking] [!]   http://empireminecraft.com:80/api/server-online-4.json
+  [URL Aggregation & Dorking]   "forks_skipped": 0,
+  [URL Aggregation & Dorking] [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (90s) for command 'github_search'
+  [URL Aggregation & Dorking] [!] google: Rate limited (429). Backing off 2.0s (attempt 1/6)
+  [URL Aggregation & Dorking] [!] google: Rate limited (429). Backing off 6.0s (attempt 2/6)
+  [URL Aggregation & Dorking] [!] google: Rate limited (429). Backing off 18.0s (attempt 3/6)
+  [URL Aggregation & Dorking] [!] google: Rate limited (429). Backing off 48.0s (attempt 4/6)
+  [URL Aggregation & Dorking] [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/access-signs-on-the-side-of-chests.63074/
+  [URL Aggregation & Dorking] [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/warning-staff-plese-read.17924/
+  [URL Aggregation & Dorking] [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/minor-change-repeated-reports.86027/
+  [URL Aggregation & Dorking] [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/i-am-not-a-thief.61245/
+  [URL Aggregation & Dorking] [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/warnings-and-griefing.2786/
+  [URL Aggregation & Dorking] [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/the-redstone-thread.67833/page-4
+  [URL Aggregation & Dorking] [!] google: Rate limited (429). Backing off 96.0s (attempt 5/6)
+  [URL Aggregation & Dorking] [!] google: Rate limited (429). Backing off 96.0s (attempt 6/6)
+  [URL Aggregation & Dorking] [!] All engines blocked — 31 overflow queries could not be redistributed (116/147 completed)
+  [URL Aggregation & Dorking] [!] Blocked engines: google
+  [URL Aggregation & Dorking] STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Parameter Discovery] [+]   ✓ FOUND: skip (confidence: 65%, anomaly: plaintext_change, reflected: False) [MEDIUM]
+  [Subdomain Discovery] [*]   Rate limit: 10 req/s
+  [Subdomain Discovery] STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Subdomain Discovery] [*] Need at least 2 known subdomains for pattern mining — skipping (found 1)
+  [Subdomain Discovery] $ python -m tools.burp_enterprise.cli ct-monitor --domain empireminecraft.com --duration 30 --skip-certstream -o reports/recon-ct-monitor.json
+  [Subdomain Discovery]   CertStream  : skip
+  [Subdomain Discovery] [*]   Cache hits (skipped): 5
+  [Subdomain Discovery] [!] ⚠️  PUBLIC CLOUD ASSETS FOUND!
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcom/public
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcom/assets
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcom/static
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcom/media
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcom/files
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcom/backup
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcom/data
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcomstorage/public
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcomstorage/assets
+  [Subdomain Discovery] [!]   • [azure] empireminecraftcomstorage/static
+  [DNS Resolution & Brute-force] [!]   DoH Resolution    : enabled
+
+── CONSOLE ISSUES (errors & warnings) ────────────────────────────────────────
+  [init] (INFO) Cleaning 387 stale report files from previous run
+  [Fingerprinting & Technology] (WARNING) [!]   Disclosure:    Server: Apache/2.4.66 (Ubuntu)
+  [Fingerprinting & Technology] (WARNING) [!] No technologies detected
+  [Fingerprinting & Technology] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Fingerprinting & Technology] (INFO) [SOFT-TIMEOUT] Soft limit 30s reached — evaluating…
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.config [42975]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.dockerignore [42999]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.firebaserc [42991]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.eslintrc [42983]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.babelrc [42979]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.prettierrc [42991]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.DS_Store [42983]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.editorconfig [42999]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/.vscode [42975]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/index.aspx [42987]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/index.asp [42983]
+  [Endpoint & Asset Discovery] (SUCCESS) [+] [200] https://empireminecraft.com/index.cgi [42983]
+  [Endpoint & Asset Discovery] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Endpoint & Asset Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 135s reached — evaluating…
+  [Endpoint & Asset Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 173s reached — evaluating…
+  [Endpoint & Asset Discovery] (WARNING) [!] [*] Timeout: 30.0s
+  [Endpoint & Asset Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 147s reached — evaluating…
+  [Endpoint & Asset Discovery] (WARNING) [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (180s) for command 'strategy'
+  [Endpoint & Asset Discovery] (INFO) [TIMEOUT] Hard timeout after 180s — killed
+  [Endpoint & Asset Discovery] (INFO) $ python -m tools.burp_enterprise.cli ws-recon --target https://empireminecraft.com --timeout 10 -o reports/recon-ws-recon.json
+  [Endpoint & Asset Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 41s reached — evaluating…
+  [Endpoint & Asset Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 10s reached — evaluating…
+  [Endpoint & Asset Discovery] (INFO) E20: feroxbuster execution state=crashed exit=-1 findings=119 target=https://empireminecraft.com
+  [Endpoint & Asset Discovery] (WARNING) [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (10s) for command 'ws_recon'
+  [Endpoint & Asset Discovery] (WARNING) [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (56s) for command 'api_discovery'
+  [Endpoint & Asset Discovery] (WARNING) [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (230s) for command 'katana'
+  [Endpoint & Asset Discovery] (WARNING) [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (230s) for command 'gospider'
+  [Endpoint & Asset Discovery] (INFO) [HARD-TIMEOUT] Deferred command killed after hard deadline
+  [Endpoint & Asset Discovery] (INFO) [TIMEOUT] Command timed out after 10s
+  [JS Analysis & Source Maps] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [JS Analysis & Source Maps] (INFO)   Findings:     3 total (0 critical, 0 high)
+  [URL Aggregation & Dorking] (INFO) [BUDGET] Capping URL Aggregation & Dorking timeout: 936s → 870s (wall clock limit)
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-255.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-2.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-5.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-1.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-residence-200.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-10.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-residence-2.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-9.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-200.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-residence-3.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-6.json
+  [URL Aggregation & Dorking] (WARNING) [!]   https://empireminecraft.com/api/pinfo.php?name=
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-residence-10.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-residence-9.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-residence-8.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-7.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-8.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-residence-1.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-residence-7.json
+  [URL Aggregation & Dorking] (WARNING) [!]   http://empireminecraft.com:80/api/server-online-4.json
+  [URL Aggregation & Dorking] (INFO)   "forks_skipped": 0,
+  [URL Aggregation & Dorking] (INFO) [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+  [URL Aggregation & Dorking] (INFO) [SOFT-TIMEOUT] Soft limit 90s reached — evaluating…
+  [URL Aggregation & Dorking] (WARNING) [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (90s) for command 'github_search'
+  [URL Aggregation & Dorking] (INFO) [TIMEOUT] Hard timeout after 90s — killed
+  [URL Aggregation & Dorking] (INFO) [TIMEOUT] Hard timeout after 120s — killed
+  [URL Aggregation & Dorking] (INFO) [*] Timeout: 480.0s
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 2.0s (attempt 1/6)
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 6.0s (attempt 2/6)
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 18.0s (attempt 3/6)
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 48.0s (attempt 4/6)
+  [URL Aggregation & Dorking] (INFO) [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/access-signs-on-the-side-of-chests.63074/
+  [URL Aggregation & Dorking] (INFO) [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/warning-staff-plese-read.17924/
+  [URL Aggregation & Dorking] (INFO) [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/minor-change-repeated-reports.86027/
+  [URL Aggregation & Dorking] (INFO) [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/i-am-not-a-thief.61245/
+  [URL Aggregation & Dorking] (INFO) [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/warnings-and-griefing.2786/
+  [URL Aggregation & Dorking] (INFO) [*]   [MEDIUM] PHP warning messages: https://empireminecraft.com/threads/the-redstone-thread.67833/page-4
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 96.0s (attempt 5/6)
+  [URL Aggregation & Dorking] (WARNING) [!] google: Rate limited (429). Backing off 96.0s (attempt 6/6)
+  [URL Aggregation & Dorking] (WARNING) [!] All engines blocked — 31 overflow queries could not be redistributed (116/147 completed)
+  [URL Aggregation & Dorking] (WARNING) [!] Blocked engines: google
+  [URL Aggregation & Dorking] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Parameter Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+  [Parameter Discovery] (SUCCESS) [+]   ✓ FOUND: skip (confidence: 65%, anomaly: plaintext_change, reflected: False) [MEDIUM]
+  [Parameter Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 54s reached — evaluating…
+  [Parameter Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+  [Parameter Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 12s reached — evaluating…
+  [Parameter Discovery] (INFO) [TIMEOUT] Command timed out after 12s
+  [Subdomain Discovery] (INFO) [*]   Rate limit: 10 req/s
+  [Subdomain Discovery] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Subdomain Discovery] (INFO) [*] Need at least 2 known subdomains for pattern mining — skipping (found 1)
+  [Subdomain Discovery] (INFO) $ python -m tools.burp_enterprise.cli ct-monitor --domain empireminecraft.com --duration 30 --skip-certstream -o reports/recon-ct-monitor.json
+  [Subdomain Discovery] (INFO)   CertStream  : skip
+  [Subdomain Discovery] (INFO) [*]   Cache hits (skipped): 5
+  [Subdomain Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+  [Subdomain Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+  [Subdomain Discovery] (INFO) [TIMEOUT] Hard timeout after 60s — killed
+  [Subdomain Discovery] (INFO) [TIMEOUT] Hard timeout after 90s — killed
+  [Subdomain Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 180s reached — evaluating…
+  [Subdomain Discovery] (WARNING) [!] ⚠️  PUBLIC CLOUD ASSETS FOUND!
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcom/public
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcom/assets
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcom/static
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcom/media
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcom/files
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcom/backup
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcom/data
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcomstorage/public
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcomstorage/assets
+  [Subdomain Discovery] (WARNING) [!]   • [azure] empireminecraftcomstorage/static
+  [DNS Resolution & Brute-force] (WARNING) [!]   DoH Resolution    : enabled
+  [DNS Resolution & Brute-force] (WARNING) [!]   DNS History       : enabled
+  [DNS Resolution & Brute-force] (WARNING) [!]   NS Delegation     : enabled
+  [DNS Resolution & Brute-force] (WARNING) [!]   NSEC Walking      : enabled
+  [DNS Resolution & Brute-force] (WARNING) [!]   SRV Discovery     : enabled
+  [DNS Resolution & Brute-force] (WARNING) [!]   CAA Analysis      : enabled
+  [DNS Resolution & Brute-force] (WARNING) [!]   Timeout           : 10s
+  [DNS Resolution & Brute-force] (INFO) [*]   Critical            : 0
+  [DNS Resolution & Brute-force] (INFO) [SOFT-TIMEOUT] Soft limit 176s reached — evaluating…
+  [Virtual Host Discovery] (INFO) [SOFT-TIMEOUT] Soft limit 54s reached — evaluating…
+  [Network & Port Scanning] (INFO) $ python -m tools.burp_enterprise.cli nmap --host empireminecraft.com --profile vuln --top-ports 1000 --timeout 90 -o reports/recon-nmap-vuln.json --json
+  [TLS & Certificate Analysis] (INFO) [*] [ja4] JA4S: t1200d_0000_e3b0c44298fc | JA4X: 0831681ccc93_0831681ccc93_0831681ccc93
+  [TLS & Certificate Analysis] (INFO) [*]   JA4S:  t1200d_0000_e3b0c44298fc
+  [DNS Security Testing] (WARNING) [!] No DNSSEC records found -- domain does NOT use DNSSEC
+  [DNS Security Testing] (WARNING) [!] DNS rebinding may be possible!
+  [DNS Security Testing] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [WAF Detection & Fingerprinting] (INFO)         "Keep-Alive": "timeout=5, max=100",
+  [WAF Detection & Fingerprinting] (INFO)         "Keep-Alive": "timeout=5, max=99",
+  [CVE Correlation] (INFO) $ python -m tools.burp_enterprise.cli nuclei --url https://empireminecraft.com --tags apache,config,cve,exposure,misconfig,takeover --severity critical,high -o reports/recon-nuclei-cve.json
+  [CVE Correlation] (INFO) $ python -m tools.burp_enterprise.cli trivy --target reports --scan-type fs --severity CRITICAL,HIGH -o reports/recon-trivy.json
+  [CVE Correlation] (SUCCESS) [trivy] No package manifests found in 'reports' — skipping fs scan
+  [Active Vulnerability Testing] (INFO) $ python -m tools.burp_enterprise.cli dalfox --url https://empireminecraft.com --timeout 120 -o reports/recon-dalfox.json
+  [Active Vulnerability Testing] (INFO) $ python -m tools.burp_enterprise.cli nuclei --url https://empireminecraft.com --severity critical,high,medium --tags Apache,Google Tag Manager,Ruby on Rails,apache,bitbucket,config,exposure,misconfig,takeover -o reports/recon-nuclei.json
+  [Active Vulnerability Testing] (ERROR) Exception in thread Thread-9 (_readerthread):
+  [Active Vulnerability Testing] (ERROR) Traceback (most recent call last):
+  [Active Vulnerability Testing] (INFO) UnicodeDecodeError: 'charmap' codec can't decode byte 0x81 in position 1422: character maps to <undefined>
+  [Active Vulnerability Testing] (INFO) [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+  [Active Vulnerability Testing] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Active Vulnerability Testing] (WARNING)   2026/05/06 07:45:02 [!] Skipping HTTP versions technique: curl not found in PATH
+  [Active Vulnerability Testing] (WARNING) [!] Potential SSTI: q (polyglot triggered error)
+  [Active Vulnerability Testing] (INFO) $ python -m tools.burp_enterprise.cli dalfox --url https://empireminecraft.com/search?q=FUZZ --timeout 120 -o reports/recon-dalfox-search.json
+  [Active Vulnerability Testing] (WARNING) [!] ⚠️ Found 6 NoSQL injection issues!
+  [Active Vulnerability Testing] (WARNING) [!] WAF detected: cloudflare
+  [Active Vulnerability Testing] (INFO) [*]    Evidence: Polyglot triggered template error response
+  [Active Vulnerability Testing] (ERROR) 🟡 Firebase Error Disclosure
+  [Active Vulnerability Testing] (INFO) $ python -m tools.burp_enterprise.cli dalfox --url https://empireminecraft.com/search?type=FUZZ&q=test --timeout 120 -o reports/recon-dalfox-search-type.json
+  [Active Vulnerability Testing] (INFO) $ python -m tools.burp_enterprise.cli dalfox --url https://empireminecraft.com/collections/vendors?q=FUZZ --timeout 120 -o reports/recon-dalfox-vendors.json
+  [Active Vulnerability Testing] (WARNING) [!] Potential SSTI: type (polyglot triggered error)
+  [Active Vulnerability Testing] (INFO) [*] Polling for OOB interactions (timeout=60.0s, interval=5.0s)…
+  [Active Vulnerability Testing] (INFO) [SOFT-TIMEOUT] Soft limit 225s reached — evaluating…
+  [Active Vulnerability Testing] (INFO) [SOFT-TIMEOUT] Soft limit 197s reached — evaluating…
+  [Active Vulnerability Testing] (INFO) [SOFT-TIMEOUT] Soft limit 198s reached — evaluating…
+  [Active Vulnerability Testing] (INFO) $ python -m tools.burp_enterprise.cli nuclei --url https://empireminecraft.com --tags xss --severity critical,high,medium,low -o reports\recon-nuclei-xss-fallback-0.json
+  [Active Vulnerability Testing] (INFO) [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+  [OSINT Intelligence] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [OSINT Intelligence] (WARNING) [!]   ⚠️ SPF: SPF uses soft fail (~all)
+  [OSINT Intelligence] (WARNING) [!]   ⚠️ DMARC: DMARC policy is none (monitor only)
+  [OSINT Intelligence] (INFO) [SOFT-TIMEOUT] Soft limit 45s reached — evaluating…
+  [OSINT Intelligence] (INFO) [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+  [OSINT Intelligence] (INFO) [TIMEOUT] Hard timeout after 60s — killed
+  [OSINT Intelligence] (INFO) [TIMEOUT] Hard timeout after 90s — killed
+  [Passive Internet Search] (INFO)   No API keys configured for any uncover engine — skipping
+  [Passive Internet Search] (INFO)     "No API keys configured for any uncover engine \u2014 skipping"
+  [Passive Internet Search] (INFO) [SOFT-TIMEOUT] Soft limit 90s reached — evaluating…
+  [Passive Internet Search] (WARNING) [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'threat_intel'
+  [Passive Internet Search] (INFO) [TIMEOUT] Hard timeout after 120s — killed
+  [Source Code & Reverse Analytics] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Source Code & Reverse Analytics] (INFO) [*] BuiltWith free tier — skipping relationship queries
+  [Source Code & Reverse Analytics] (INFO)     "critical": 0,
+  [Source Code & Reverse Analytics] (INFO)         "is_deprecated": false,
+  [Source Code & Reverse Analytics] (WARNING)       "remediation": "Replace 'cookieconsent2' with a maintained alternative. Deprecated/abandoned packages may contain unpatched vulnerabilities.",
+  [Unified Crawl + Secrets Pipeline] (INFO) Pages skipped : 0
+  [Attack Surface & Analysis] (INFO) $ python -m tools.burp_enterprise.cli nuclei --url https://empireminecraft.com --tags apache,exposure,misconfig,takeover --severity critical,high,medium -o reports/recon-nuclei-validation.json
+  [Attack Surface & Analysis] (WARNING) [!]   ⚠️  Zone is not DNSSEC-signed — NSEC walking not possible
+  [Attack Surface & Analysis] (INFO) [*] ðŸ“Š 43 tests queued, 4 skipped
+  [Attack Surface & Analysis] (INFO) - [SKIP] **Cross-Site Scripting** - 10min
+  [Attack Surface & Analysis] (WARNING) [!] [MEDIUM] [backup-file-exposure] Backup File Exposure
+  [Attack Surface & Analysis] (WARNING) [!] [MEDIUM] [htaccess-exposure] .htaccess File Exposure
+  [Attack Surface & Analysis] (INFO) [*] â­ï¸  Skipped Tests (4):
+  [Attack Surface & Analysis] (INFO) - [SKIP] **File Upload Vulnerabilities** - 20min
+  [Attack Surface & Analysis] (INFO) - [SKIP] **Cross-Site Request Forgery** - 10min
+  [Attack Surface & Analysis] (INFO) ### Rate Limiting
+  [Attack Surface & Analysis] (INFO) - [P60] **Rate Limiting Issues** - 10min
+  [Attack Surface & Analysis] (INFO) STALE PRODUCTION BUILD: recon-dashboard.css modified after dist/ was built.  Run 'cd tools/burp_enterprise/static && npm run build' to rebuild production assets.  Currently serving OUTDATED minified JS/CSS.
+  [Attack Surface & Analysis] (WARNING) [!] No OpenAPI spec found, testing base URL only
+  [Attack Surface & Analysis] (INFO) [*] Testing rate limiting...
+  [Attack Surface & Analysis] (INFO) 🟡 No Rate Limiting Detected
+  [Attack Surface & Analysis] (INFO) [*]    Endpoint does not implement rate limiting after 50 requests
+  [Attack Surface & Analysis] (WARNING) [!] No API specification found
+  [Attack Surface & Analysis] (INFO) [SOFT-TIMEOUT] Soft limit 90s reached — evaluating…
+  [Attack Surface & Analysis] (WARNING) [!] Rate limiting issues: 1
+  [Attack Surface & Analysis] (INFO) [*]   • No Rate Limiting Detected
+  [Attack Surface & Analysis] (WARNING) [!] gRPC-Web call failed: HTTPSConnectionPool(host='empireminecraft.com', port=50051): Max retries exceeded with url: /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo (Caused by ConnectTimeoutError(<HTTPSConnection(host='empireminecraft.com', port=50051) at 0x1cc873334d0>, 'Connection 
+  [Attack Surface & Analysis] (WARNING) [!] FIX-TIMEOUT-PROP: Self-kill deadline reached (120s) for command 'nuclei'
+  [Attack Surface & Analysis] (WARNING) [!] gRPC-Web call failed: HTTPSConnectionPool(host='empireminecraft.com', port=50051): Max retries exceeded with url: /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo (Caused by ConnectTimeoutError(<HTTPSConnection(host='empireminecraft.com', port=50051) at 0x2c11ca99810>, 'Connection 
+  [Attack Surface & Analysis] (INFO) [SOFT-TIMEOUT] Soft limit 68s reached — evaluating…
+  [Attack Surface & Analysis] (WARNING) [!] gRPC-Web call failed: HTTPSConnectionPool(host='empireminecraft.com', port=50051): Max retries exceeded with url: /grpc.reflection.v1alpha.ServerReflection/ServerReflectionInfo (Caused by ConnectTimeoutError(<HTTPSConnection(host='empireminecraft.com', port=50051) at 0x1cc87333750>, 'Connection 
+  [Attack Surface & Analysis] (INFO) [TIMEOUT] Hard timeout after 90s — killed
+  [Access Control & Privilege Testing] (INFO)                      Rate Limit Testing                     
+  [Access Control & Privilege Testing] (WARNING) [!] Medium: 1
+  [Access Control & Privilege Testing] (WARNING) [!] High: 1
+  [Access Control & Privilege Testing] (INFO) Rate Limit Detection
+  [Access Control & Privilege Testing] (INFO) [*] Rate limited: False

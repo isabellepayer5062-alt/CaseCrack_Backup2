@@ -1,0 +1,33 @@
+{
+  "total": 327,
+  "severity": {
+    "info": 186,
+    "low": 27,
+    "medium": 29,
+    "high": 76,
+    "critical": 9
+  },
+  "built_in_fp": {
+    "likely_fp": 0,
+    "cdn_fp": 0
+  },
+  "secrets": {
+    "total": 0,
+    "cdn_hosted": 0,
+    "target_hosted": 0
+  },
+  "cves": 0,
+  "waf_bypass": 0,
+  "duplicates": {
+    "unique_dup_groups": 15,
+    "excess_findings": 42
+  },
+  "pipeline_issues": {
+    "missing_title": 0,
+    "missing_severity": 0,
+    "missing_phase": 0,
+    "missing_category": 16
+  },
+  "high_critical": 85,
+  "confirmed": 0
+}

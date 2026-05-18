@@ -1,0 +1,41 @@
+{
+  "audit_sanity": "FAIL",
+  "audit_path": "C:\\Users\\ya754\\CaseCrack v1.0\\CaseCrack\\mcp_audit.jsonl",
+  "entries_checked": 4,
+  "duplicate_request_ids": 1,
+  "missing_request_ids": 0,
+  "missing_terminal_states": 0,
+  "invalid_codes": 0,
+  "impossible_transitions": 1,
+  "malformed_lines": 0,
+  "known_error_codes": [
+    "ALLOWLIST_DENY",
+    "INTERNAL_ERROR",
+    "LICENSE_REQUIRED",
+    "RATE_LIMITED",
+    "TENANT_ID_REQUIRED",
+    "UNKNOWN_ARGUMENT",
+    "VALIDATION_ERROR"
+  ],
+  "terminal_conflicts": 1,
+  "details": {
+    "duplicate_request_ids": [
+      "fb3cab3b6723"
+    ],
+    "missing_terminal_request_ids": [],
+    "invalid_code_entries": [],
+    "terminal_conflict_request_ids": [
+      "fb3cab3b6723"
+    ],
+    "impossible_transitions": [
+      {
+        "request_id": "fb3cab3b6723",
+        "line_from": 3,
+        "state_from": "ok",
+        "line_to": 4,
+        "state_to": "error"
+      }
+    ],
+    "malformed_lines": []
+  }
+}

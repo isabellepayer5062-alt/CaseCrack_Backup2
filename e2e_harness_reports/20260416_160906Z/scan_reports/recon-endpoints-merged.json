@@ -1,0 +1,270 @@
+{
+  "target": "https://sugarrushed.ca",
+  "total": 44,
+  "endpoints": [
+    {
+      "url": "https://sugarrushed.ca/a/downloads/-/*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/admin",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/cart",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/orders",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/checkouts",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/checkout",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/75639193883/checkouts",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/75639193883/orders",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/carts",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/account",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/collections/*sort_by*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/collections/*sort_by*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/collections/*+*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/collections/*%2B*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/collections/*%2b*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/collections/*+*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/collections/*%2B*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/collections/*%2b*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/collections/*filter*&*filter*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/blogs/*+*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/blogs/*%2B*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/blogs/*%2b*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/blogs/*+*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/blogs/*%2B*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/blogs/*%2b*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*?*oseid=*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*preview_theme_id*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*preview_script_id*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/policies",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/policies",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/*?*ls=*&ls=*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/*?*ls%3D*%3Fls%3D*",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/search",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/sf_private_access_tokens",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/apple-app-site-association",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/.well-known/shopify/monorail",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/cdn/wpm/*.js",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/recommendations/products",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/recommendations/products",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/products/*-[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]-remote",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/products/*-[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]-remote",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/collections/*/products/*-[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]-remote",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/*/collections/*/products/*-[a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9][a-f0-9]-remote",
+      "method": "GET",
+      "source": "robots.txt",
+      "content_type": ""
+    },
+    {
+      "url": "https://sugarrushed.ca/sitemap.xml",
+      "method": "GET",
+      "source": "robots.txt-sitemap",
+      "content_type": ""
+    }
+  ]
+}
