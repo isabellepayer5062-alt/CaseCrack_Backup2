@@ -24,6 +24,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 30000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -266,6 +267,7 @@ inputs:
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   deny_active_exploitation: true
   deny_external_resolution: false
   max_hosts_per_run: 10000

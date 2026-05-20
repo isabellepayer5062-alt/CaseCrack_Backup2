@@ -34,6 +34,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 35000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -69,11 +70,13 @@ inputs:
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   require_each_step_validated: true
   deny_data_modification: true
   deny_data_deletion: true
   max_chain_depth: 5
   require_impact_multiplier: true
+feedback_sink: feedback/chain-feedback.jsonl
 
 tags: [chain, exploit_poc, complex_agentic, race_condition]
 ---

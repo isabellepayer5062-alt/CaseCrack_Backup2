@@ -24,6 +24,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 25000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -61,11 +62,13 @@ inputs:
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   deny_active_exploitation: true
   require_safe_validation_path: true
   max_execution_time_seconds: 600
   waf_block_escalates_before_penalty: true
   partial_fail_downgrades_severity: true
+feedback_sink: feedback/executor-feedback.jsonl
 
 tags: [validation, execution, oracle, sandbox]
 ---

@@ -25,6 +25,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 20000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -59,6 +60,7 @@ inputs:
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   human_review_required: true
   review_gate: always_before_submit
   allow_draft_only_mode: true

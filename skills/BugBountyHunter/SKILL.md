@@ -247,10 +247,10 @@ orchestrator, not by the skill itself.
 | P4    | PoCForge           | TrafficTriage score ≥ 6.5 OR ChainHunter chain found | 40 000     |
 | P4.5  | ExecutorValidator  | PoCForge produced ≥1 path                           | 25 000     |
 | P5    | ReportWizard       | Executor oracle_score ≥ threshold (class-dependent)  | 35 000     |
-| P5.6  | PlatformSubmitter  | target_platform is set AND auto_submit != false       | 20 000     |
+| P5.1  | PlatformSubmitter  | target_platform is set AND auto_submit != false       | 20 000     |
 | P5.5  | LearnerReflector   | Always (post-hunt)                                   | 20 000     |
 
-> **Budget note**: Mandatory phases (P1–P2 + P4–P5.5) sum to ~210 000 tokens.
+> **Budget note**: Mandatory phases (P0–P2 + P4–P5.5) sum to ~210 000 tokens.
 > The 220 000 total cap reserves ~10 000 tokens for mandatory overhead. Optional
 > phases (P3.x, P5.6) share the surplus dynamically; each optional phase is
 > gated on its trigger condition so not all will activate in a single run.
@@ -331,6 +331,7 @@ When a non-mandatory subskill fails, the pipeline continues in degraded mode:
 | MobileAnalyzer | Mobile surface not analyzed; PoCForge continues with web-only findings | `mobile: skipped` |
 | *(Note: MobileAnalyzer is delegated to the standalone MobileHunter agent. If the delegate agent is unavailable or times out after `delegate_timeout_seconds`, this degraded behaviour applies.)* | | |
 | ExecutorValidator | ReportWizard emits unverified report | `oracle_score: unverified` |
+| PlatformSubmitter | Report generation completes; findings not submitted to platform; manual submission required | `platform_submit: skipped` |
 | LearnerReflector | Run completes; KG update deferred to next run | `kg_update: deferred` |
 
 If a **mandatory** subskill (ReconAnalyzer, TrafficTriage, or ReportWizard) fails,

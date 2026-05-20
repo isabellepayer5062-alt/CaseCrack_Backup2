@@ -6,9 +6,8 @@ description: >
   Generate triager-ready, platform-compliant bug bounty reports with
   CVSS 3.1 and 4.0 scoring, CWE/OWASP linkage, evidence chains, and structured JSON
   output. Enforces evidence requirements and no-speculative-claims policy.
-  Includes integrated platform submission to HackerOne, Bugcrowd, Intigriti,
-  and YesWeHack via their respective APIs, cross-platform deduplication, and
-  a mandatory human review gate before any report is submitted.
+  Enforces mandatory human review gate; handoff to PlatformSubmitter for
+  final API submission to HackerOne, Bugcrowd, Intigriti, and YesWeHack.
 
 model_routing:
   default: anthropic/claude-sonnet-4-6
@@ -27,6 +26,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 35000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -98,6 +98,7 @@ inputs:
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   require_evidence_links: true
   no_speculative_claims: true
   require_cvss_vector: true
@@ -112,6 +113,7 @@ policies:
   no_pii_in_payload: true
   rate_limit: 5_reports_per_hour
   scope_check_before_submit: true
+feedback_sink: feedback/report-feedback.jsonl
 
 tags: [reporting, disclosure, submission, cvss, cvss4, cwe, hackerone, bugcrowd, platform]
 ---

@@ -24,6 +24,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 30000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -52,12 +53,14 @@ inputs:
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   allow_read_only_source_access: true
   deny_secret_exfiltration: true
   deny_writing_to_source_dir: true
   max_file_read_depth: 5
   partial_source_strategy: graceful_degradation
   skip_if: "source_snapshot_dir == null AND triage_ranked contains no js_bundle_signals"
+feedback_sink: feedback/source-feedback.jsonl
 
 tags: [source, static-analysis, taint-analysis, correlation]
 ---

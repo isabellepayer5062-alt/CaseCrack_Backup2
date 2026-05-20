@@ -24,6 +24,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 35000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -60,11 +61,13 @@ inputs:
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   max_request_rate_per_host: 2
   max_request_rate_total: 40
   deny_state_changing_requests: true
   require_backoff_on_429: 30
   require_backoff_on_503: 60
+feedback_sink: feedback/triage-feedback.jsonl
 
 tags: [triage, http, prioritization, scoring]
 ---

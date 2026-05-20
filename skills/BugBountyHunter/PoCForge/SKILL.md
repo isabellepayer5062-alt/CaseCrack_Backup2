@@ -25,6 +25,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 40000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -59,23 +60,24 @@ inputs:
     - name: ai_attack_findings
       type: json_file
       path: "{{phase_outputs.AIAttackProber.ai-attack-findings.json}}"
-      description: "AI/LLM attack findings from AIAttackProber "— OWASP LLM Top 10 IDs and CWE mappings for LLM-specific PoC construction"
+      description: "AI/LLM attack findings from AIAttackProber — OWASP LLM Top 10 IDs and CWE mappings for LLM-specific PoC construction"
     - name: xs_leak_candidates
       type: json_file
       path: "{{phase_outputs.XSLeakHunter.xs-leak-candidates.json}}"
-      description: "XS-Leak candidates from XSLeakHunter "— oracle type and bit-leak rate for cross-site leak PoC tailoring"
+      description: "XS-Leak candidates from XSLeakHunter — oracle type and bit-leak rate for cross-site leak PoC tailoring"
     - name: mobile_findings
       type: json_file
       path: "{{phase_outputs.MobileAnalyzer.mobile-findings.json}}"
-      description: "Mobile findings from MobileAnalyzer "— deep link CVEs and mobile-specific attack vectors for mobile PoC construction"
+      description: "Mobile findings from MobileAnalyzer — deep link CVEs and mobile-specific attack vectors for mobile PoC construction"
     - name: supply_chain_findings
       type: json_file
       path: "{{phase_outputs.SupplyChainAuditor.supply-chain-findings.json}}"
-      description: "Supply chain findings from SupplyChainAuditor "— SBOM CVEs and CI/CD pipeline risks for dependency exploitation PoC"
+      description: "Supply chain findings from SupplyChainAuditor — SBOM CVEs and CI/CD pipeline risks for dependency exploitation PoC"
 
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   require_readonly_poc: true
   deny_data_modification: true
   deny_data_deletion: true
@@ -85,6 +87,7 @@ policies:
   max_request_rate_per_host: 2
   require_test_account: true
   require_rollback_notes: true
+feedback_sink: feedback/poc-feedback.jsonl
 
 tags: [poc, exploit_poc, race_condition, complex_agentic]
 ---

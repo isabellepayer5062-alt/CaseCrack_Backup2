@@ -24,6 +24,7 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 20000
     hard_fail_on_overflow: true
+  idempotency_key: "{{run_id}}_{{name}}"
   checkpoint:
     enabled: true
     interval_tokens: 5000
@@ -75,10 +76,15 @@ inputs:
       type: jsonl_file
       path: "{{phase_outputs.ProgramProfiler.feedback_sink | null}}"
       description: "Program profiler outcomes — validates whether attack surface priority predictions matched confirmed findings for scoring calibration"
+    - name: platform_submission_feedback
+      type: json_file
+      path: "{{phase_outputs.PlatformSubmitter.submission-receipts.json | null}}"
+      description: "Platform submission receipts — tracks which findings were accepted, rejected, or duplicated. Used for KG outcome classification (confirmed vs. informative/duplicate)."
 
 policies:
   operation_mode: non_destructive_only
   in_scope_required: true
+  audit_log: /workspace/audit/{{run_id}}_{{name}}.jsonl
   require_evidence_links: true
 
 tags: [learning, reflection, knowledge_graph, rag]
@@ -217,7 +223,8 @@ Machine-readable run telemetry (the last artifact written by LearnerReflector):
       "SupplyChainAuditor": 0,
       "AIAttackProber": 0,
       "XSLeakHunter": 0,
-      "MobileAnalyzer": 0
+      "MobileAnalyzer": 0,
+      "PlatformSubmitter": 0
     }
   },
   "phase_timing_seconds": {
