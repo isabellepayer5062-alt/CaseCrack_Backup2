@@ -1,0 +1,18 @@
+// OpenClaw config patch for CaseCrack BugBountyHunter project
+// Apply with: openclaw config patch --file openclaw.patch.json5
+{
+  // Set default agent model to Claude Sonnet 4.6
+  agents: {
+    defaults: {
+      model: "anthropic/claude-sonnet-4-6",
+    }
+  },
+
+  // Point openclaw to the project's skills directory
+  skills: {
+    load: {
+      // Scan the CaseCrack skills folder so BugBountyHunter is discoverable
+      extraDirs: ["c:\\Users\\ya754\\CaseCrack v1.0\\skills"]
+    }
+  }
+}

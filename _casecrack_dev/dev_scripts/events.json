@@ -1,0 +1,8 @@
+{
+  "events": [
+    {"event": "artifact_issued", "identity": "A"},
+    {"event": "identity_mutated_to_b", "identity": "B"},
+    {"event": "approved", "identity": "B"},
+    {"event": "identity_restored_to_a", "identity": "A"}
+  ]
+}

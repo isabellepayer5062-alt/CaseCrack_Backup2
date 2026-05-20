@@ -74,3 +74,12 @@ calibration_records.jsonl
 agent_memory.db
 screenshots/
 data/license.key
+
+# Scan outputs, findings, and evidence (sensitive - archive externally)
+reports/
+outputs/
+evidence/
+e2e_harness_reports/
+ctemp/
+_tmp_phase15_validation/
+exploit_output/

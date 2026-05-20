@@ -1,0 +1,36 @@
+﻿============================================================
+  BugBountyHunter Skill Suite � Production Validation
+  Root: C:\Users\ya754\CaseCrack v1.0\skills\BugBountyHunter
+============================================================
+
+[T1] Orchestrator SKILL.md � Frontmatter Integrity
+python.exe : Traceback (most recent call last):
+At line:1 char:97
++ ... ng]::UTF8 ; & ".venv\Scripts\python.exe" "skills\BugBountyHunter\_val ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\ya754\CaseCrack 
+v1.0\skills\BugBountyHunter\_validate_skills.py", line 657, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\ya754\CaseCrack 
+v1.0\skills\BugBountyHunter\_validate_skills.py", line 637, in main
+    subskills_map = test_orchestrator(r)
+  File "C:\Users\ya754\CaseCrack 
+v1.0\skills\BugBountyHunter\_validate_skills.py", line 145, in 
+test_orchestrator
+    r.ok("YAML frontmatter parses cleanly")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ya754\CaseCrack 
+v1.0\skills\BugBountyHunter\_validate_skills.py", line 83, in ok
+    print(f"  {PASS} {msg}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.
+3568.0_x64__qbz5n2kfra8p0\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in 
+position 2: character maps to <undefined>

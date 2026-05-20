@@ -1,0 +1,370 @@
+﻿[
+    {
+        "title":  "Exposed API Key: aws_secret_key",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com | Key Type: aws_secret_key | Key Preview: io/images/61nocsj5/p... | Key Length: 40",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: web/xss-reflected",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: web/xss-reflected",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: auth/oauth-misconfig",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: auth/oauth-misconfig",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: cloud/ssh-db-exposure",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: cloud/ssh-db-exposure",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: auth/session-fixation",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: auth/session-fixation",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: cloud/bucket-exposure",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: cloud/bucket-exposure",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: supply_chain/secrets-repo",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: supply_chain/secrets-repo",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: auth/password-reset",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: auth/password-reset",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: infra/port-service-enum",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: infra/port-service-enum",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: auth/account-enumeration",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: auth/account-enumeration",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exploit Chain: infra/full-recon",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Exploit graph suggested chain: infra/full-recon",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1 metadata accessible via IP obfuscation (169.254.169.254:443). URL validation allowlist may be bypassable.",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1 metadata accessible via IP obfuscation (169.254.169.254:80). URL validation allowlist may be bypassable.",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1 metadata accessible via IP obfuscation (0x00000000A9FEA9FE). URL validation allowlist may be bypassable.",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1 metadata accessible via IP obfuscation (169.254.169.254.nip.io). URL validation allowlist may be bypassable.",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1 metadata accessible via IP obfuscation (2852039166). URL validation allowlist may be bypassable.",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1 metadata accessible via IP obfuscation (0251.0376.0251.0376). URL validation allowlist may be bypassable.",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1 metadata accessible via IP obfuscation (0xA9FEA9FE). URL validation allowlist may be bypassable.",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1 metadata accessible via IP obfuscation ([::ffff:a9fe:a9fe]). URL validation allowlist may be bypassable.",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: dynamic/instance-identity/document",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: user-data",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/iam/security-credentials/",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/iam/info",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/iam/",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/security-groups",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/public-ipv4",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/public-hostname",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/local-ipv4",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/local-hostname",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/instance-type",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/instance-id",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/ami-id",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "AWS IMDSv1: meta-data/",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Command injection via cmd",
+        "severity":  "critical",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Potential H2.CL Request Smuggling (Needs Confirmation)",
+        "severity":  "high",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com | Status Code: 302 | Technique: Content-Length conflict with HTTP/2 | Smuggled Request Prefix: GET /admin HTTP/1.1\r\nHost: anduril.com\r\n\r\n | Needs Confirmation: True",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Secret: AlgoliaAdminKey",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "/target/js/app.xx86qLsC2t.js",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Secret Detected: generic-api-key",
+        "severity":  "high",
+        "target_url":  "",
+        "endpoint":  "",
+        "description":  "Value: e6e4****",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Node.js Deserialization Detected",
+        "severity":  "critical",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "https://anduril.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Credit Card Number Exposed",
+        "severity":  "critical",
+        "target_url":  "https://anduril.com",
+        "endpoint":  "https://anduril.com",
+        "description":  "A credit card number was found in the response.",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "CSRF protection may be missing at /account/save",
+        "severity":  "high",
+        "target_url":  "https://anduril.com/account/save",
+        "endpoint":  "https://anduril.com/account/save",
+        "description":  "https://anduril.com/account/save | Status Code: 302 | Snippet: \u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e302 Found\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e302 Found\u003c/h1\u003e\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n | Token Sent: False",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "CSRF protection may be missing at /account/email",
+        "severity":  "high",
+        "target_url":  "https://anduril.com/account/email",
+        "endpoint":  "https://anduril.com/account/email",
+        "description":  "https://anduril.com/account/email | Status Code: 302 | Snippet: \u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e302 Found\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e302 Found\u003c/h1\u003e\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n | Token Sent: False",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "CSRF protection may be missing at /login/login",
+        "severity":  "high",
+        "target_url":  "https://anduril.com/login/login",
+        "endpoint":  "https://anduril.com/login/login",
+        "description":  "https://anduril.com/login/login | Status Code: 302 | Snippet: \u003chtml\u003e\r\n\u003chead\u003e\u003ctitle\u003e302 Found\u003c/title\u003e\u003c/head\u003e\r\n\u003cbody\u003e\r\n\u003ccenter\u003e\u003ch1\u003e302 Found\u003c/h1\u003e\u003c/center\u003e\r\n\u003c/body\u003e\r\n\u003c/html\u003e\r\n | Token Sent: False",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Open Redirect in /login/login?redirect=",
+        "severity":  "high",
+        "target_url":  "https://anduril.com/login/login?redirect=https%3A%2F%2Fevil.example.com",
+        "endpoint":  "https://anduril.com/login/login?redirect=https%3A%2F%2Fevil.example.com",
+        "description":  "https://anduril.com/login/login?redirect=https%3A%2F%2Fevil.example.com | Status Code: 302 | Location: https://www.anduril.com:443/login/login?redirect=https%3A%2F%2Fevil.example.com | Injected: https://evil.example.com",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exposed Secret: firebase_key",
+        "severity":  "high",
+        "target_url":  "https://anduril.com/assets/js/app.xx86qLsC2t.js",
+        "endpoint":  "https://anduril.com/assets/js/app.xx86qLsC2t.js",
+        "description":  "https://anduril.com/assets/js/app.xx86qLsC2t.js | Type: firebase_key | Line: 3",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exposed Secret: aws_secret_key",
+        "severity":  "high",
+        "target_url":  "https://anduril.com/assets/js/app.xx86qLsC2t.js",
+        "endpoint":  "https://anduril.com/assets/js/app.xx86qLsC2t.js",
+        "description":  "https://anduril.com/assets/js/app.xx86qLsC2t.js | Type: aws_secret_key | Line: 3",
+        "detail_json":  "{}"
+    },
+    {
+        "title":  "Exposed Secret: aws_access_key",
+        "severity":  "high",
+        "target_url":  "https://anduril.com/assets/js/app.xx86qLsC2t.js",
+        "endpoint":  "https://anduril.com/assets/js/app.xx86qLsC2t.js",
+        "description":  "https://anduril.com/assets/js/app.xx86qLsC2t.js | Type: aws_access_key | Line: 3",
+        "detail_json":  "{}"
+    }
+]

@@ -1,0 +1,136 @@
+{
+  "$schema": "https://openclaw.dev/schemas/openclaw.config.2026-05.schema.json",
+  "version": "2026.05",
+  "profile": "bugbounty-hybrid",
+  "network": {
+    "bind": "127.0.0.1",
+    "port": 8765,
+    "public_exposure": false,
+    "webhook": {
+      "enabled": true,
+      "listen": "127.0.0.1",
+      "path": "/hooks/openclaw",
+      "auth": {
+        "mode": "bearer_env",
+        "env": "OPENCLAW_WEBHOOK_TOKEN"
+      }
+    }
+  },
+  "security": {
+    "enforce_in_scope_only": true,
+    "scope_file": "/bb/scope/roots.txt",
+    "destructive_actions": "deny",
+    "strict_tool_allowlist": true,
+    "tool_allowlist": [
+      "subfinder",
+      "httpx",
+      "nuclei",
+      "jq",
+      "awk",
+      "sed",
+      "grep",
+      "sort",
+      "uniq",
+      "tee",
+      "cat",
+      "bash",
+      "curl",
+      "openclaw.agent",
+      "openclaw.cron.add",
+      "openclaw.cron.run"
+    ],
+    "egress": {
+      "deny_private_ranges": true,
+      "allow_hosts": [
+        "localhost",
+        "127.0.0.1"
+      ]
+    }
+  },
+  "prompt_caching": {
+    "enabled": true,
+    "mode": "global",
+    "shared": true,
+    "ttl_seconds": 86400
+  },
+  "budgets": {
+    "skill_run": {
+      "max_total_tokens": 150000,
+      "max_input_tokens": 120000,
+      "max_output_tokens": 30000,
+      "hard_fail_on_overflow": true
+    }
+  },
+  "models": {
+    "aliases": {
+      "sonnet_default": "anthropic/claude-sonnet-4-6",
+      "gpt_escalation": "openai/gpt-5.5"
+    },
+    "fallback_chains": {
+      "sonnet_chain": [
+        "anthropic/claude-sonnet-4-6",
+        "anthropic/claude-sonnet-4-5",
+        "openai/gpt-5.5-mini"
+      ],
+      "gpt_chain": [
+        "openai/gpt-5.5",
+        "openai/gpt-5.5-mini",
+        "anthropic/claude-sonnet-4-6"
+      ]
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "anthropic/claude-sonnet-4-6",
+      "fallback_chain": "sonnet_chain",
+      "prompt_caching": true,
+      "budget_ref": "skill_run",
+      "temperature": 0.2
+    },
+    "model_routing": {
+      "default": "anthropic/claude-sonnet-4-6",
+      "rules": [
+        {
+          "when": {
+            "tags_any": [
+              "complex_agentic",
+              "exploit_poc",
+              "race_condition"
+            ]
+          },
+          "model": "openai/gpt-5.5",
+          "fallback_chain": "gpt_chain"
+        }
+      ]
+    }
+  },
+  "skills": {
+    "directory": "./skills",
+    "policy": {
+      "default_operation_mode": "non_destructive_only",
+      "deny_oos_targets": true
+    },
+    "defaults": {
+      "model": "anthropic/claude-sonnet-4-6",
+      "fallback_chain": "sonnet_chain",
+      "prompt_caching": true,
+      "budget_ref": "skill_run"
+    },
+    "model_routing": {
+      "default": "anthropic/claude-sonnet-4-6",
+      "rules": [
+        {
+          "when": {
+            "tags_any": [
+              "complex_agentic",
+              "exploit_poc",
+              "race_condition"
+            ]
+          },
+          "model": "openai/gpt-5.5",
+          "fallback_chain": "gpt_chain"
+        }
+      ]
+    }
+  }
+}

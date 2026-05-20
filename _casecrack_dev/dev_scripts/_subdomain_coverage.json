@@ -1,0 +1,12 @@
+{
+  "sources": {},
+  "timings": {},
+  "total_raw": 0,
+  "deduplicated": 0,
+  "wildcard_filtered": 0,
+  "alive_after_probe": 0,
+  "takeover_candidates": 0,
+  "source_percentages": {},
+  "domain": "example.com",
+  "timestamp": "2026-05-01T00:06:00.793591"
+}

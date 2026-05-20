@@ -1,1 +1,1 @@
-{"waf_detected": false, "waf_vendor": "", "vendor_votes": {}, "evasion_strategies": []}
+{"waf_detected": true, "waf_vendor": "cloudfront", "vendor_votes": {"cloudfront": 0.5}, "evasion_strategies": []}

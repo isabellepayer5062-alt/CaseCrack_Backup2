@@ -1,0 +1,14 @@
+{
+  "transaction_details": [
+    {
+      "transaction_info": {
+        "paypal_account_id": "L9MHR48D9Q88S",
+        "transaction_subject": "Premium Store",
+        "transaction_note": "PREMIUM*STORE"
+      },
+      "payer_info": {
+        "email_address": "sb-iukua49412362@personal.example.com"
+      }
+    }
+  ]
+}

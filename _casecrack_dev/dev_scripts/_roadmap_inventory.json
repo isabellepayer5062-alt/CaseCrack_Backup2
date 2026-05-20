@@ -1,0 +1,2438 @@
+{
+  "phase3": {
+    "agents": [
+      {
+        "exists": true,
+        "path": "agents\\auth_context.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/auth_context",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\autonomous_exploitation.py",
+        "loc": 895,
+        "api_count": 15,
+        "api": [
+          "class:AStarPathFinder",
+          "class:MCTSNode",
+          "class:MCTSPlanner",
+          "class:ExploitGraphAwareHeuristic",
+          "class:LearnerFeedbackBridge"
+        ],
+        "module": "agents/autonomous_exploitation",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "agents\\browser_workflow_extractor.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/browser_workflow_extractor",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\business_logic_scanner.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/business_logic_scanner",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\chain_impact_scorer.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/chain_impact_scorer",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\crawl_secrets_pipeline.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/crawl_secrets_pipeline",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\creative_exploit_heuristics.py",
+        "loc": 560,
+        "api_count": 8,
+        "api": [
+          "class:HeuristicType",
+          "class:EndpointSignature",
+          "class:CreativeHypothesis",
+          "class:CreativeExploitHeuristics",
+          "C:HeuristicType"
+        ],
+        "module": "agents/creative_exploit_heuristics",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "agents\\discovery_bridge.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/discovery_bridge",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\evolutionary_fuzzer.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/evolutionary_fuzzer",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\exploit_graph.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/exploit_graph",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\long_running_orchestrator.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/long_running_orchestrator",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\opportunity_scoring.py",
+        "loc": 289,
+        "api_count": 6,
+        "api": [
+          "class:SurfaceProfile",
+          "class:SurfaceSignal",
+          "class:OpportunityScorer",
+          "C:SurfaceProfile",
+          "C:SurfaceSignal"
+        ],
+        "module": "agents/opportunity_scoring",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "agents\\payload_intelligence.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/payload_intelligence",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\race_harness.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/race_harness",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "agents\\reverse_analytics.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/reverse_analytics",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": false,
+        "path": "agents/autonomous_exploitation_v2.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/autonomous_exploitation_v2",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "agents/llm_cache.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/llm_cache",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "agents/llm_clients.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/llm_clients",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "agents/llm_routing.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/llm_routing",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "agents/llm_tracking.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "agents/llm_tracking",
+        "status": "MISSING"
+      }
+    ],
+    "scanners": [
+      {
+        "exists": true,
+        "path": "scanners\\business_logic_ai.py",
+        "loc": 1712,
+        "api_count": 27,
+        "api": [
+          "class:AIFindingSeverity",
+          "class:AIFindingType",
+          "class:AIBusinessLogicFinding",
+          "class:FlowStep",
+          "class:ApplicationFlow"
+        ],
+        "module": "scanners/business_logic_ai",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\business_logic_scanner.py",
+        "loc": 606,
+        "api_count": 12,
+        "api": [
+          "class:AbuseDomain",
+          "class:AbuseConfidence",
+          "class:AbuseSignal",
+          "class:AbuseHypothesis",
+          "class:TestSuggestion"
+        ],
+        "module": "scanners/business_logic_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\captcha_bypass.py",
+        "loc": 2411,
+        "api_count": 26,
+        "api": [
+          "class:CaptchaMode",
+          "class:SolverBackend",
+          "class:ChallengeProvider",
+          "class:CaptchaType",
+          "class:AvoidanceStrategy"
+        ],
+        "module": "scanners/captcha_bypass",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\csp_analyzer.py",
+        "loc": 890,
+        "api_count": 16,
+        "api": [
+          "class:CSPSeverity",
+          "class:CSPBypassType",
+          "class:CSPDirective",
+          "class:CSPPolicy",
+          "class:CSPFinding"
+        ],
+        "module": "scanners/csp_analyzer",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\defensive_monitoring_tester.py",
+        "loc": 683,
+        "api_count": 24,
+        "api": [
+          "class:MonitoringCategory",
+          "class:ProbeResult",
+          "class:EvasionTechnique",
+          "class:FindingSeverity",
+          "class:CanaryType"
+        ],
+        "module": "scanners/defensive_monitoring_tester",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\error_intelligence.py",
+        "loc": 1676,
+        "api_count": 32,
+        "api": [
+          "class:ErrorCategory",
+          "class:ErrorSeverityLevel",
+          "class:TechnologyType",
+          "class:ErrorClassification",
+          "class:ErrorPattern"
+        ],
+        "module": "scanners/error_intelligence",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\error_page_analyzer.py",
+        "loc": 568,
+        "api_count": 13,
+        "api": [
+          "class:DisclosureType",
+          "class:AnalysisSeverity",
+          "class:ErrorContentFinding",
+          "class:DebugFuzzResult",
+          "class:ErrorPageAnalysisResult"
+        ],
+        "module": "scanners/error_page_analyzer",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\fail_secure_tester.py",
+        "loc": 401,
+        "api_count": 13,
+        "api": [
+          "class:FailMode",
+          "class:FailTestCategory",
+          "class:FailSeverity",
+          "class:FailSecureFinding",
+          "class:FailSecureResult"
+        ],
+        "module": "scanners/fail_secure_tester",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\graphql_schema_cache.py",
+        "loc": 563,
+        "api_count": 7,
+        "api": [
+          "class:SchemaCacheEntry",
+          "class:GraphQLSchemaCache",
+          "C:SchemaCacheEntry",
+          "C:GraphQLSchemaCache",
+          "f:to_scanner_schema"
+        ],
+        "module": "scanners/graphql_schema_cache",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\grpc_exploit_tester.py",
+        "loc": 432,
+        "api_count": 11,
+        "api": [
+          "class:GRPCExploitType",
+          "class:GRPCExploitSeverity",
+          "class:GRPCExploitFinding",
+          "class:GRPCExploitResult",
+          "class:GRPCExploitTester"
+        ],
+        "module": "scanners/grpc_exploit_tester",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\log_endpoint_scanner.py",
+        "loc": 432,
+        "api_count": 15,
+        "api": [
+          "class:LogExposureType",
+          "class:SensitiveDataType",
+          "class:LogSeverity",
+          "class:SensitiveMatch",
+          "class:LogEndpointFinding"
+        ],
+        "module": "scanners/log_endpoint_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\mass_assignment_tester.py",
+        "loc": 425,
+        "api_count": 11,
+        "api": [
+          "class:MassAssignVulnType",
+          "class:MassAssignSeverity",
+          "class:MassAssignFinding",
+          "class:MassAssignResult",
+          "class:MassAssignmentTester"
+        ],
+        "module": "scanners/mass_assignment_tester",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\network_safety.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/network_safety",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\oauth_recon.py",
+        "loc": 2121,
+        "api_count": 46,
+        "api": [
+          "class:ReconPhase",
+          "class:ProviderType",
+          "class:GrantType",
+          "class:SeverityLevel",
+          "class:TokenFormat"
+        ],
+        "module": "scanners/oauth_recon",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "scanners\\oob_interaction.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/oob_interaction",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": false,
+        "path": "scanners/path_traversal_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/path_traversal_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/privilege_escalation_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/privilege_escalation_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/prototype_pollution_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/prototype_pollution_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/redirect_chain_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/redirect_chain_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/request_smuggling_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/request_smuggling_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/ssti_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/ssti_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/subdomain_takeover_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/subdomain_takeover_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/timing_oracle_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/timing_oracle_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/upload_exploit_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/upload_exploit_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/waf_evasion_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/waf_evasion_scanner",
+        "status": "MISSING"
+      },
+      {
+        "exists": false,
+        "path": "scanners/xxe_scanner.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "scanners/xxe_scanner",
+        "status": "MISSING"
+      }
+    ],
+    "core_infra": [
+      {
+        "exists": true,
+        "path": "core_infra\\compliance_pkg.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/compliance_pkg",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\confidence_engine.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/confidence_engine",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\context_manager.py",
+        "loc": 523,
+        "api_count": 12,
+        "api": [
+          "class:ToolResultEntry",
+          "class:CompressedToolSummary",
+          "class:CompressedContextState",
+          "class:PinnedMemoryState",
+          "C:ToolResultEntry"
+        ],
+        "module": "core_infra/context_manager",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\cross_cutting.py",
+        "loc": 1120,
+        "api_count": 12,
+        "api": [
+          "class:CrossCuttingMiddleware",
+          "class:InfrastructureMixin",
+          "C:CrossCuttingMiddleware",
+          "C:InfrastructureMixin",
+          "f:get_middleware"
+        ],
+        "module": "core_infra/cross_cutting",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\error_intelligence.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/error_intelligence",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\event_bus.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/event_bus",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\exploit_graph.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/exploit_graph",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\finding_stream.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/finding_stream",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\js_ast_analyzer.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/js_ast_analyzer",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\module_registry.py",
+        "loc": 1573,
+        "api_count": 26,
+        "api": [
+          "class:UnifiedSeverity",
+          "class:FindingCategory",
+          "class:UnifiedFinding",
+          "class:UnifiedSecretPattern",
+          "class:SecretDetectorRegistry"
+        ],
+        "module": "core_infra/module_registry",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\preflight.py",
+        "loc": 256,
+        "api_count": 9,
+        "api": [
+          "f:check_python_version",
+          "f:check_cpu",
+          "f:check_ram",
+          "f:check_disk",
+          "f:check_docker"
+        ],
+        "module": "core_infra/preflight",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\scanner_utilities.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/scanner_utilities",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\secret_patterns.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/secret_patterns",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\severity_engine.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/severity_engine",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "core_infra\\telemetry.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "core_infra/telemetry",
+        "status": "STUB (8 LOC)"
+      }
+    ],
+    "pipeline": [
+      {
+        "exists": true,
+        "path": "pipeline\\config.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/config",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\cross_cutting.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/cross_cutting",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\ct_monitor.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/ct_monitor",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\distributed_recon.py",
+        "loc": 1878,
+        "api_count": 49,
+        "api": [
+          "class:NodeStatus",
+          "class:TaskStatus",
+          "class:TaskPriority",
+          "class:WorkDistributionStrategy",
+          "class:ScanPhase"
+        ],
+        "module": "pipeline/distributed_recon",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\dns_intel.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/dns_intel",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\enterprise_scale_executor.py",
+        "loc": 2367,
+        "api_count": 51,
+        "api": [
+          "class:ExecutorType",
+          "class:EventType",
+          "class:ConfidenceLevel",
+          "class:NodeDiscoveryMethod",
+          "class:AutoScaleAction"
+        ],
+        "module": "pipeline/enterprise_scale_executor",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\event_bus.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/event_bus",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\licensing.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/licensing",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\long_running_orchestrator.py",
+        "loc": 433,
+        "api_count": 12,
+        "api": [
+          "class:CampaignPhase",
+          "class:DeferredCheckType",
+          "class:DeferredCheck",
+          "class:AccountContext",
+          "class:Campaign"
+        ],
+        "module": "pipeline/long_running_orchestrator",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\orchestrator_bridge.py",
+        "loc": 591,
+        "api_count": 10,
+        "api": [
+          "class:BridgeSource",
+          "class:BridgedScanResult",
+          "class:OrchestratorCapabilities",
+          "class:OrchestratorBridge",
+          "C:BridgeSource"
+        ],
+        "module": "pipeline/orchestrator_bridge",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\recovery_bridge.py",
+        "loc": 131,
+        "api_count": 2,
+        "api": [
+          "f:recoverable",
+          "f:scan_with_recovery"
+        ],
+        "module": "pipeline/recovery_bridge",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\scan_intelligence.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/scan_intelligence",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\scanner_hooks.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/scanner_hooks",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\scanner_utilities.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "pipeline/scanner_utilities",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "pipeline\\task_queue.py",
+        "loc": 325,
+        "api_count": 19,
+        "api": [
+          "class:TaskStatus",
+          "class:ScanProfile",
+          "class:ScanTask",
+          "C:TaskStatus",
+          "C:ScanProfile"
+        ],
+        "module": "pipeline/task_queue",
+        "status": "RECOVERED"
+      }
+    ],
+    "recon": [
+      {
+        "exists": true,
+        "path": "recon\\cross_cutting.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/cross_cutting",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\event_bus.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/event_bus",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\git_history_scanner.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/git_history_scanner",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\graphql_recon.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/graphql_recon",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\headless_crawler.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/headless_crawler",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\http3_scanner.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/http3_scanner",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\http_client.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/http_client",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\ipv6_scanner.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/ipv6_scanner",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\juicy_files.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/juicy_files",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\kerberos_scanner.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/kerberos_scanner",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\phase_health.py",
+        "loc": 139,
+        "api_count": 6,
+        "api": [
+          "class:PhaseStatus",
+          "class:CommandHealth",
+          "class:PhaseHealthReport",
+          "C:PhaseStatus",
+          "C:CommandHealth"
+        ],
+        "module": "recon/phase_health",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "recon\\scanner_hooks.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/scanner_hooks",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\second_order_detector.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/second_order_detector",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\supply_chain_intel.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/supply_chain_intel",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "recon\\telemetry.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "recon/telemetry",
+        "status": "STUB (8 LOC)"
+      }
+    ],
+    "secrets": [
+      {
+        "exists": true,
+        "path": "secrets\\canary_detector.py",
+        "loc": 127,
+        "api_count": 4,
+        "api": [
+          "class:CanaryResult",
+          "class:CanaryDetector",
+          "C:CanaryResult",
+          "C:CanaryDetector"
+        ],
+        "module": "secrets/canary_detector",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\crawl_secrets_pipeline.py",
+        "loc": 202,
+        "api_count": 9,
+        "api": [
+          "class:InputFormat",
+          "class:PipelineConfig",
+          "class:PipelineResult",
+          "class:CrawlSecretsPipeline",
+          "C:InputFormat"
+        ],
+        "module": "secrets/crawl_secrets_pipeline",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\credential_enumerator.py",
+        "loc": 244,
+        "api_count": 6,
+        "api": [
+          "class:PermissionEntry",
+          "class:EnumerationResult",
+          "class:CredentialPermissionEnumerator",
+          "C:PermissionEntry",
+          "C:EnumerationResult"
+        ],
+        "module": "secrets/credential_enumerator",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\cross_fork_scanner.py",
+        "loc": 100,
+        "api_count": 5,
+        "api": [
+          "class:CrossForkConfig",
+          "class:CrossForkResult",
+          "C:CrossForkConfig",
+          "C:CrossForkResult",
+          "f:scan_forks"
+        ],
+        "module": "secrets/cross_fork_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\custom_detector.py",
+        "loc": 91,
+        "api_count": 3,
+        "api": [
+          "class:CustomPattern",
+          "C:CustomPattern",
+          "f:run_custom_detection"
+        ],
+        "module": "secrets/custom_detector",
+        "status": "STUB (91 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\custom_detector_loader.py",
+        "loc": 84,
+        "api_count": 1,
+        "api": [
+          "f:load_custom_detectors"
+        ],
+        "module": "secrets/custom_detector_loader",
+        "status": "STUB (84 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\docker_image_scanner.py",
+        "loc": 171,
+        "api_count": 5,
+        "api": [
+          "class:DockerScanConfig",
+          "class:DockerScanResult",
+          "C:DockerScanConfig",
+          "C:DockerScanResult",
+          "f:scan_image"
+        ],
+        "module": "secrets/docker_image_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\docker_layer_analyzer.py",
+        "loc": 95,
+        "api_count": 5,
+        "api": [
+          "class:LayerInfo",
+          "class:LayerAnalysisResult",
+          "C:LayerInfo",
+          "C:LayerAnalysisResult",
+          "f:analyze_layers"
+        ],
+        "module": "secrets/docker_layer_analyzer",
+        "status": "STUB (95 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\entropy_analyzer.py",
+        "loc": 132,
+        "api_count": 4,
+        "api": [
+          "class:EntropyResult",
+          "class:EntropyAnalyzer",
+          "C:EntropyResult",
+          "C:EntropyAnalyzer"
+        ],
+        "module": "secrets/entropy_analyzer",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\entropy_intelligence.py",
+        "loc": 122,
+        "api_count": 4,
+        "api": [
+          "class:EntropyIntelligenceResult",
+          "class:EntropyIntelligence",
+          "C:EntropyIntelligenceResult",
+          "C:EntropyIntelligence"
+        ],
+        "module": "secrets/entropy_intelligence",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\git_deep_scanner.py",
+        "loc": 129,
+        "api_count": 6,
+        "api": [
+          "class:DeepScanConfig",
+          "class:DeepScanResult",
+          "class:GitDeepScanner",
+          "C:DeepScanConfig",
+          "C:DeepScanResult"
+        ],
+        "module": "secrets/git_deep_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\keyword_prefilter.py",
+        "loc": 105,
+        "api_count": 2,
+        "api": [
+          "class:KeywordPreFilter",
+          "C:KeywordPreFilter"
+        ],
+        "module": "secrets/keyword_prefilter",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\network_safety.py",
+        "loc": 6,
+        "api_count": 0,
+        "api": [],
+        "module": "secrets/network_safety",
+        "status": "STUB (6 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\secret_patterns.py",
+        "loc": 413,
+        "api_count": 6,
+        "api": [
+          "class:ExtendedSecretType",
+          "class:ExtendedSecretPattern",
+          "class:ExtendedPatternLibrary",
+          "C:ExtendedSecretType",
+          "C:ExtendedSecretPattern"
+        ],
+        "module": "secrets/secret_patterns",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "secrets\\secret_verifier.py",
+        "loc": 406,
+        "api_count": 20,
+        "api": [
+          "class:VerificationStatus",
+          "class:VerificationResult",
+          "class:SecretVerifierConfig",
+          "class:BaseVerifier",
+          "class:AWSVerifier"
+        ],
+        "module": "secrets/secret_verifier",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": false,
+        "path": "secrets/trufflehog_integration.py",
+        "loc": 0,
+        "api_count": 0,
+        "api": [],
+        "module": "secrets/trufflehog_integration",
+        "status": "MISSING"
+      }
+    ],
+    "output": [
+      {
+        "exists": true,
+        "path": "output\\atlas.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "output/atlas",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "output\\base_finding.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "output/base_finding",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "output\\chain_executor.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "output/chain_executor",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "output\\compliance_mapper.py",
+        "loc": 9,
+        "api_count": 0,
+        "api": [],
+        "module": "output/compliance_mapper",
+        "status": "STUB (9 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "output\\composite_rule_engine.py",
+        "loc": 375,
+        "api_count": 4,
+        "api": [
+          "class:ProximityRule",
+          "class:CompositeRuleEngine",
+          "C:ProximityRule",
+          "C:CompositeRuleEngine"
+        ],
+        "module": "output/composite_rule_engine",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "output\\confidence_engine.py",
+        "loc": 591,
+        "api_count": 13,
+        "api": [
+          "class:ConfidenceTier",
+          "class:ConfidenceContext",
+          "class:ConfidenceAssessment",
+          "class:ConfidenceEngine",
+          "C:ConfidenceTier"
+        ],
+        "module": "output/confidence_engine",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "output\\event_integration.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "output/event_integration",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "output\\exploit_graph.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "output/exploit_graph",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "output\\exploit_graph_renderer.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "output/exploit_graph_renderer",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "output\\finding_correlator.py",
+        "loc": 40,
+        "api_count": 0,
+        "api": [],
+        "module": "output/finding_correlator",
+        "status": "STUB (40 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "output\\finding_dedup.py",
+        "loc": 271,
+        "api_count": 10,
+        "api": [
+          "class:InjectionVector",
+          "class:AttackType",
+          "class:DedupStats",
+          "class:FindingDeduplicator",
+          "C:InjectionVector"
+        ],
+        "module": "output/finding_dedup",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "output\\finding_enrichment.py",
+        "loc": 426,
+        "api_count": 2,
+        "api": [
+          "f:enrich_finding",
+          "f:enrich_findings_batch"
+        ],
+        "module": "output/finding_enrichment",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "output\\response_classifier.py",
+        "loc": 356,
+        "api_count": 8,
+        "api": [
+          "class:PageType",
+          "class:CDNProvider",
+          "class:ResponseClassification",
+          "class:ResponseClassifier",
+          "C:PageType"
+        ],
+        "module": "output/response_classifier",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "output\\severity_engine.py",
+        "loc": 1515,
+        "api_count": 36,
+        "api": [
+          "class:AttackVector",
+          "class:AttackComplexity",
+          "class:PrivilegesRequired",
+          "class:UserInteraction",
+          "class:Impact"
+        ],
+        "module": "output/severity_engine",
+        "status": "RECOVERED"
+      }
+    ],
+    "caap": [
+      {
+        "exists": true,
+        "path": "caap\\browser_exploitation_engine.py",
+        "loc": 1704,
+        "api_count": 23,
+        "api": [
+          "class:ExploitStatus",
+          "class:AttackVector",
+          "class:InterceptType",
+          "class:BrowserExploitConfig",
+          "class:HAREntry"
+        ],
+        "module": "caap/browser_exploitation_engine",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "caap\\caap_chains.py",
+        "loc": 267,
+        "api_count": 2,
+        "api": [
+          "class:AttackChainAwareGenerator",
+          "C:AttackChainAwareGenerator"
+        ],
+        "module": "caap/caap_chains",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "caap\\caap_hypothesis.py",
+        "loc": 1083,
+        "api_count": 8,
+        "api": [
+          "class:MemoryBoost",
+          "class:MemoryAwareHypothesisGenerator",
+          "class:AdaptiveBoost",
+          "class:AdaptiveLearningAwareHypothesisGenerator",
+          "C:MemoryBoost"
+        ],
+        "module": "caap/caap_hypothesis",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "caap\\caap_models.py",
+        "loc": 326,
+        "api_count": 24,
+        "api": [
+          "class:CAAPDirective",
+          "class:HypothesisStatus",
+          "class:FindingSeverity",
+          "class:RenderPriority",
+          "class:CAAPHypothesis"
+        ],
+        "module": "caap/caap_models",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "caap\\caap_parser.py",
+        "loc": 774,
+        "api_count": 10,
+        "api": [
+          "class:CAAPOutputEnhancer",
+          "class:ParsedResult",
+          "class:CAAPResultParser",
+          "C:CAAPOutputEnhancer",
+          "f:create_caap_session"
+        ],
+        "module": "caap/caap_parser",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "caap\\exploitation_data.py",
+        "loc": 279,
+        "api_count": 3,
+        "api": [
+          "class:CVSSCalculator",
+          "C:CVSSCalculator",
+          "f:get_remediation"
+        ],
+        "module": "caap/exploitation_data",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "caap\\screenshot.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "caap/screenshot",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "caap\\state_graph.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "caap/state_graph",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "caap\\ui_interaction_engine.py",
+        "loc": 612,
+        "api_count": 10,
+        "api": [
+          "class:InteractionType",
+          "class:DetectionSource",
+          "class:UIInteraction",
+          "class:SyntheticAction",
+          "class:UIInteractionEngine"
+        ],
+        "module": "caap/ui_interaction_engine",
+        "status": "RECOVERED"
+      }
+    ],
+    "discovery_pkg": [
+      {
+        "exists": true,
+        "path": "discovery_pkg\\browser_extension_recon.py",
+        "loc": 1629,
+        "api_count": 50,
+        "api": [
+          "class:ExtFindingType",
+          "class:ExtSeverity",
+          "class:ExtensionArtifact",
+          "class:ContentScriptSurface",
+          "class:MessagePassingVuln"
+        ],
+        "module": "discovery_pkg/browser_extension_recon",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "discovery_pkg\\captcha_bypass.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "discovery_pkg/captcha_bypass",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "discovery_pkg\\discovery_bridge.py",
+        "loc": 424,
+        "api_count": 6,
+        "api": [
+          "class:BridgedEndpoint",
+          "class:BridgeStats",
+          "class:DiscoveryBridge",
+          "C:BridgedEndpoint",
+          "C:BridgeStats"
+        ],
+        "module": "discovery_pkg/discovery_bridge",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "discovery_pkg\\postman_scanner.py",
+        "loc": 484,
+        "api_count": 8,
+        "api": [
+          "class:PostmanSecretSeverity",
+          "class:PostmanSecret",
+          "class:PostmanScanResult",
+          "class:PostmanWorkspaceScanner",
+          "C:PostmanSecretSeverity"
+        ],
+        "module": "discovery_pkg/postman_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "discovery_pkg\\postmessage_analyzer.py",
+        "loc": 641,
+        "api_count": 11,
+        "api": [
+          "class:PostMessageVulnType",
+          "class:PMSeverity",
+          "class:PostMessageFinding",
+          "class:PostMessageAnalysisResult",
+          "class:PostMessageAnalyzer"
+        ],
+        "module": "discovery_pkg/postmessage_analyzer",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "discovery_pkg\\state_graph.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "discovery_pkg/state_graph",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "discovery_pkg\\subdomain_takeover_ext.py",
+        "loc": 458,
+        "api_count": 11,
+        "api": [
+          "class:ExtTakeoverType",
+          "class:ExtTakeoverSeverity",
+          "class:ExtTakeoverFinding",
+          "class:ExtTakeoverResult",
+          "class:ExtendedTakeoverChecker"
+        ],
+        "module": "discovery_pkg/subdomain_takeover_ext",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "discovery_pkg\\template_fingerprint.py",
+        "loc": 1112,
+        "api_count": 34,
+        "api": [
+          "class:TemplateEngine",
+          "class:ExpressionLanguage",
+          "class:InjectionContext",
+          "class:SeverityLevel",
+          "class:FPPhase"
+        ],
+        "module": "discovery_pkg/template_fingerprint",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "discovery_pkg\\workflow_modeler.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "discovery_pkg/workflow_modeler",
+        "status": "STUB (8 LOC)"
+      }
+    ],
+    "misc": [
+      {
+        "exists": true,
+        "path": "misc\\audit_trail_tester.py",
+        "loc": 428,
+        "api_count": 15,
+        "api": [
+          "class:AuditCategory",
+          "class:AuditSeverity",
+          "class:AuditFieldStatus",
+          "class:AuditField",
+          "class:AuditFinding"
+        ],
+        "module": "misc/audit_trail_tester",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "misc\\baseline_manager.py",
+        "loc": 245,
+        "api_count": 5,
+        "api": [
+          "class:BaselineEntry",
+          "class:BaselineManager",
+          "f:compute_fingerprint",
+          "C:BaselineEntry",
+          "C:BaselineManager"
+        ],
+        "module": "misc/baseline_manager",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "misc\\install_helper.py",
+        "loc": 1311,
+        "api_count": 14,
+        "api": [
+          "class:InstallConfig",
+          "class:CheckResult",
+          "class:MEMORYSTATUSEX",
+          "C:InstallConfig",
+          "C:CheckResult"
+        ],
+        "module": "misc/install_helper",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "misc\\juicy_files.py",
+        "loc": 1306,
+        "api_count": 23,
+        "api": [
+          "class:JuicyLevel",
+          "class:ExtensionCategory",
+          "class:FindingSource",
+          "class:JuicyExtension",
+          "class:JuicyFileFinding"
+        ],
+        "module": "misc/juicy_files",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "misc\\licensing.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "misc/licensing",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "misc\\network_safety.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "misc/network_safety",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "misc\\preflight.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "misc/preflight",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "misc\\resource_monitor.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "misc/resource_monitor",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "misc\\tool_wrapper_bridge.py",
+        "loc": 364,
+        "api_count": 7,
+        "api": [
+          "class:ProviderResult",
+          "class:ToolWrapperBridge",
+          "C:ProviderResult",
+          "C:ToolWrapperBridge",
+          "f:run_provider"
+        ],
+        "module": "misc/tool_wrapper_bridge",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "misc\\workflow_modeler.py",
+        "loc": 691,
+        "api_count": 14,
+        "api": [
+          "class:StepType",
+          "class:WorkflowCategory",
+          "class:AssertionType",
+          "class:WorkflowStep",
+          "class:Workflow"
+        ],
+        "module": "misc/workflow_modeler",
+        "status": "RECOVERED"
+      }
+    ],
+    "intel": [
+      {
+        "exists": true,
+        "path": "intel\\azure_devops_deep_recon.py",
+        "loc": 1281,
+        "api_count": 51,
+        "api": [
+          "class:ADOFindingType",
+          "class:ADOSeverity",
+          "class:ADOSubdomain",
+          "class:ADOProjectMember",
+          "class:ADOCommitSecret"
+        ],
+        "module": "intel/azure_devops_deep_recon",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "intel\\bitbucket_deep_recon.py",
+        "loc": 1147,
+        "api_count": 49,
+        "api": [
+          "class:BBFindingType",
+          "class:BBSeverity",
+          "class:BBSubdomain",
+          "class:BBWorkspaceMember",
+          "class:BBCommitSecret"
+        ],
+        "module": "intel/bitbucket_deep_recon",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "intel\\gitlab_deep_recon.py",
+        "loc": 1095,
+        "api_count": 49,
+        "api": [
+          "class:GLFindingType",
+          "class:GLSeverity",
+          "class:GLSubdomain",
+          "class:GLGroupMember",
+          "class:GLCommitSecret"
+        ],
+        "module": "intel/gitlab_deep_recon",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "intel\\iot_discovery.py",
+        "loc": 1821,
+        "api_count": 38,
+        "api": [
+          "class:IoTPhase",
+          "class:IoTSeverity",
+          "class:IoTDeviceType",
+          "class:IoTProtocol",
+          "class:CredentialStatus"
+        ],
+        "module": "intel/iot_discovery",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "intel\\source_code_search.py",
+        "loc": 1593,
+        "api_count": 34,
+        "api": [
+          "class:TrackingIDType",
+          "class:SearchSource",
+          "class:CorrelationConfidence",
+          "class:RiskLevel",
+          "class:ExtractedTrackingID"
+        ],
+        "module": "intel/source_code_search",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "intel\\supply_chain_deep.py",
+        "loc": 1293,
+        "api_count": 54,
+        "api": [
+          "class:DepthPhase",
+          "class:AlertSeverity",
+          "class:ResourceKind",
+          "class:SRIAlgorithm",
+          "class:CIProvider"
+        ],
+        "module": "intel/supply_chain_deep",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "intel\\supply_chain_intel.py",
+        "loc": 2127,
+        "api_count": 52,
+        "api": [
+          "class:SCFindingType",
+          "class:PackageRegistry",
+          "class:Severity",
+          "class:PackageInfo",
+          "class:DepConfusionResult"
+        ],
+        "module": "intel/supply_chain_intel",
+        "status": "RECOVERED"
+      }
+    ],
+    "exploit_chains": [
+      {
+        "exists": true,
+        "path": "exploit_chains\\chain_impact_scorer.py",
+        "loc": 461,
+        "api_count": 8,
+        "api": [
+          "class:FindingLink",
+          "class:ChainScore",
+          "class:ChainTemplate",
+          "class:ChainImpactScorer",
+          "C:FindingLink"
+        ],
+        "module": "exploit_chains/chain_impact_scorer",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "exploit_chains\\chain_matcher.py",
+        "loc": 416,
+        "api_count": 7,
+        "api": [
+          "class:ChainMatch",
+          "class:PackMatch",
+          "class:ChainMatcher",
+          "C:ChainMatch",
+          "C:PackMatch"
+        ],
+        "module": "exploit_chains/chain_matcher",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "exploit_chains\\chain_packs.py",
+        "loc": 249,
+        "api_count": 9,
+        "api": [
+          "class:Pack",
+          "class:PackChainResult",
+          "class:PackResult",
+          "C:Pack",
+          "C:PackChainResult"
+        ],
+        "module": "exploit_chains/chain_packs",
+        "status": "RECOVERED"
+      }
+    ],
+    "cloud": [
+      {
+        "exists": true,
+        "path": "cloud\\bucket_scanner.py",
+        "loc": 413,
+        "api_count": 12,
+        "api": [
+          "class:BucketProvider",
+          "class:BucketSecretSeverity",
+          "class:BucketFile",
+          "class:BucketSecret",
+          "class:BucketScanResult"
+        ],
+        "module": "cloud/bucket_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "cloud\\cloud_asset_discovery.py",
+        "loc": 210,
+        "api_count": 2,
+        "api": [
+          "class:CloudDiscoveryMixin",
+          "C:CloudDiscoveryMixin"
+        ],
+        "module": "cloud/cloud_asset_discovery",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "cloud\\cloud_inventory.py",
+        "loc": 1878,
+        "api_count": 38,
+        "api": [
+          "class:AssetType",
+          "class:InventoryProvider",
+          "class:ExposureLevel",
+          "class:InventoryStatus",
+          "class:CloudCredential"
+        ],
+        "module": "cloud/cloud_inventory",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "cloud\\container.py",
+        "loc": 109,
+        "api_count": 2,
+        "api": [
+          "class:Container",
+          "C:Container"
+        ],
+        "module": "cloud/container",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "cloud\\container_recon.py",
+        "loc": 1878,
+        "api_count": 48,
+        "api": [
+          "class:ContainerPlatform",
+          "class:ExposureType",
+          "class:SeverityLevel",
+          "class:AuthStatus",
+          "class:K8sComponent"
+        ],
+        "module": "cloud/container_recon",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "cloud\\iam_attack_paths.py",
+        "loc": 3529,
+        "api_count": 58,
+        "api": [
+          "class:IAMPhase",
+          "class:SeverityLevel",
+          "class:CloudProvider",
+          "class:PrivEscTechnique",
+          "class:PermissionCategory"
+        ],
+        "module": "cloud/iam_attack_paths",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "cloud\\ipv6_scanner.py",
+        "loc": 639,
+        "api_count": 15,
+        "api": [
+          "class:IPv6VulnType",
+          "class:Severity",
+          "class:IPv6Host",
+          "class:DualStackDelta",
+          "class:IPv6Finding"
+        ],
+        "module": "cloud/ipv6_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "cloud\\kerberos_scanner.py",
+        "loc": 1243,
+        "api_count": 18,
+        "api": [
+          "class:KerberosVulnType",
+          "class:Severity",
+          "class:KerberosKDC",
+          "class:SPNEntry",
+          "class:NTLMInfo"
+        ],
+        "module": "cloud/kerberos_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "cloud\\network_safety.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "cloud/network_safety",
+        "status": "STUB (8 LOC)"
+      }
+    ],
+    "testing_tools": [
+      {
+        "exists": true,
+        "path": "testing_tools\\advanced_racer.py",
+        "loc": 1863,
+        "api_count": 44,
+        "api": [
+          "class:AdvancedRaceVulnType",
+          "class:PoolStrategy",
+          "class:WebhookTiming",
+          "class:CachePoisonVector",
+          "class:TokenEntropyClass"
+        ],
+        "module": "testing_tools/advanced_racer",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "testing_tools\\captcha_bypass.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "testing_tools/captcha_bypass",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "testing_tools\\evolutionary_fuzzer.py",
+        "loc": 2169,
+        "api_count": 52,
+        "api": [
+          "class:EvolutionaryFuzzerVulnType",
+          "class:GeneticOperator",
+          "class:SelectionStrategy",
+          "class:MutationOperator",
+          "class:PlatformType"
+        ],
+        "module": "testing_tools/evolutionary_fuzzer",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "testing_tools\\payload_intelligence.py",
+        "loc": 394,
+        "api_count": 8,
+        "api": [
+          "class:InputType",
+          "class:TargetContext",
+          "class:ContextPayload",
+          "class:PayloadKnowledgeBase",
+          "C:InputType"
+        ],
+        "module": "testing_tools/payload_intelligence",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "testing_tools\\race_harness.py",
+        "loc": 441,
+        "api_count": 8,
+        "api": [
+          "class:RaceTemplate",
+          "class:RaceResult",
+          "class:HarnessStats",
+          "class:RaceHarness",
+          "C:RaceTemplate"
+        ],
+        "module": "testing_tools/race_harness",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "testing_tools\\recursive_decoder.py",
+        "loc": 286,
+        "api_count": 2,
+        "api": [
+          "class:RecursiveDecoder",
+          "C:RecursiveDecoder"
+        ],
+        "module": "testing_tools/recursive_decoder",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "testing_tools\\screenshot.py",
+        "loc": 1364,
+        "api_count": 23,
+        "api": [
+          "class:PageCategory",
+          "class:ScreenshotFormat",
+          "class:ScreenshotStatus",
+          "class:ScreenshotConfig",
+          "class:ScreenshotInfo"
+        ],
+        "module": "testing_tools/screenshot",
+        "status": "RECOVERED"
+      }
+    ],
+    "integrations": [
+      {
+        "exists": true,
+        "path": "integrations\\config.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "integrations/config",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "integrations\\dependency_health.py",
+        "loc": 384,
+        "api_count": 9,
+        "api": [
+          "class:DependencySpec",
+          "class:DepStatus",
+          "class:HealthReport",
+          "C:DependencySpec",
+          "C:DepStatus"
+        ],
+        "module": "integrations/dependency_health",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "integrations\\event_integration.py",
+        "loc": 422,
+        "api_count": 14,
+        "api": [
+          "f:emit_event",
+          "f:module_lifecycle",
+          "f:scan_emitter",
+          "f:emit_subdomain_discovered",
+          "f:emit_endpoint_discovered"
+        ],
+        "module": "integrations/event_integration",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "integrations\\notification_webhooks.py",
+        "loc": 397,
+        "api_count": 16,
+        "api": [
+          "class:WebhookProvider",
+          "class:NotificationLevel",
+          "class:NotificationEventType",
+          "class:WebhookConfig",
+          "class:NotificationPayload"
+        ],
+        "module": "integrations/notification_webhooks",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "integrations\\nuclei_health.py",
+        "loc": 1041,
+        "api_count": 15,
+        "api": [
+          "class:HealthStatus",
+          "class:FallbackSeverity",
+          "class:NucleiHealthResult",
+          "class:FallbackFinding",
+          "class:TemplateInventory"
+        ],
+        "module": "integrations/nuclei_health",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "integrations\\nuclei_template_generator.py",
+        "loc": 2216,
+        "api_count": 29,
+        "api": [
+          "class:MatcherType",
+          "class:ExtractorType",
+          "class:TemplateProtocol",
+          "class:NucleiMatcher",
+          "class:NucleiExtractor"
+        ],
+        "module": "integrations/nuclei_template_generator",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "integrations\\updater.py",
+        "loc": 428,
+        "api_count": 10,
+        "api": [
+          "class:UpdateInfo",
+          "class:ReleaseManifest",
+          "class:UpdateState",
+          "class:UpdateManager",
+          "C:UpdateInfo"
+        ],
+        "module": "integrations/updater",
+        "status": "RECOVERED"
+      }
+    ],
+    "network": [
+      {
+        "exists": true,
+        "path": "network\\http2_fingerprint.py",
+        "loc": 1529,
+        "api_count": 33,
+        "api": [
+          "class:H2FingerprintType",
+          "class:Severity",
+          "class:ProtocolSupport",
+          "class:H2SettingsFingerprint",
+          "class:ALPNProfile"
+        ],
+        "module": "network/http2_fingerprint",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "network\\http3_scanner.py",
+        "loc": 834,
+        "api_count": 19,
+        "api": [
+          "class:H3SmuggleType",
+          "class:H3Response",
+          "class:H3SmugglingResult",
+          "class:H3ScanResult",
+          "class:QUICTransportScanner"
+        ],
+        "module": "network/http3_scanner",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "network\\http3_security.py",
+        "loc": 1843,
+        "api_count": 39,
+        "api": [
+          "class:HTTP3VulnType",
+          "class:Severity",
+          "class:QUICPacketType",
+          "class:QUICFrameType",
+          "class:HTTP3Finding"
+        ],
+        "module": "network/http3_security",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "network\\http_client.py",
+        "loc": 8,
+        "api_count": 0,
+        "api": [],
+        "module": "network/http_client",
+        "status": "STUB (8 LOC)"
+      },
+      {
+        "exists": true,
+        "path": "network\\multi_perspective.py",
+        "loc": 2106,
+        "api_count": 54,
+        "api": [
+          "class:GeoRegion",
+          "class:PerspectivePhase",
+          "class:DivergenceLevel",
+          "class:SeverityLevel",
+          "class:CDNProvider"
+        ],
+        "module": "network/multi_perspective",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "network\\network_mapper.py",
+        "loc": 1445,
+        "api_count": 48,
+        "api": [
+          "class:TopologyPhase",
+          "class:LoadBalancerType",
+          "class:ProxyType",
+          "class:ASRelationType",
+          "class:LeakLocation"
+        ],
+        "module": "network/network_mapper",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "network\\recon_transport.py",
+        "loc": 574,
+        "api_count": 15,
+        "api": [
+          "class:Transport",
+          "class:BaseTransport",
+          "class:InProcessTransport",
+          "class:RedisTransportConfig",
+          "class:RedisTransport"
+        ],
+        "module": "network/recon_transport",
+        "status": "RECOVERED"
+      }
+    ],
+    "database": [
+      {
+        "exists": true,
+        "path": "database\\db_consolidation_migrate.py",
+        "loc": 310,
+        "api_count": 3,
+        "api": [
+          "f:migrate",
+          "f:verify",
+          "f:main"
+        ],
+        "module": "database/db_consolidation_migrate",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "database\\db_migrations.py",
+        "loc": 184,
+        "api_count": 2,
+        "api": [
+          "class:Migrator",
+          "C:Migrator"
+        ],
+        "module": "database/db_migrations",
+        "status": "RECOVERED"
+      }
+    ],
+    "inference": [
+      {
+        "exists": true,
+        "path": "inference\\model_management\\__init__.py",
+        "loc": 81,
+        "api_count": 0,
+        "api": [],
+        "is_pkg": true,
+        "module": "inference/model_management",
+        "status": "STUB (81 LOC)"
+      }
+    ],
+    "session_auth": [
+      {
+        "exists": true,
+        "path": "session_auth\\auth_context.py",
+        "loc": 337,
+        "api_count": 10,
+        "api": [
+          "class:RoleLevel",
+          "class:Identity",
+          "class:AccessTest",
+          "class:IDORPair",
+          "class:AuthContextExplorer"
+        ],
+        "module": "session_auth/auth_context",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "session_auth\\license_keygen.py",
+        "loc": 288,
+        "api_count": 2,
+        "api": [
+          "f:build_parser",
+          "f:main"
+        ],
+        "module": "session_auth/license_keygen",
+        "status": "RECOVERED"
+      },
+      {
+        "exists": true,
+        "path": "session_auth\\session_state_manager.py",
+        "loc": 405,
+        "api_count": 12,
+        "api": [
+          "class:SessionChallenge",
+          "class:SessionHealth",
+          "class:ChallengeEvent",
+          "class:RateLimitState",
+          "class:SessionSnapshot"
+        ],
+        "module": "session_auth/session_state_manager",
+        "status": "RECOVERED"
+      }
+    ],
+    "swarm": [
+      {
+        "exists": true,
+        "path": "swarm\\multi_gpu\\__init__.py",
+        "loc": 94,
+        "api_count": 0,
+        "api": [],
+        "is_pkg": true,
+        "module": "swarm/multi_gpu",
+        "status": "STUB (94 LOC)"
+      }
+    ],
+    "mcp": [
+      {
+        "exists": true,
+        "path": "mcp\\atlas_mcp_bridge.py",
+        "loc": 878,
+        "api_count": 6,
+        "api": [
+          "f:query_attack_patterns",
+          "f:get_archetype_profile",
+          "f:report_outcome",
+          "f:handle_query_attack_patterns",
+          "f:handle_get_archetype_profile"
+        ],
+        "module": "mcp/atlas_mcp_bridge",
+        "status": "RECOVERED"
+      }
+    ]
+  },
+  "phase1_totals": {
+    "ok": 30,
+    "short": 3,
+    "missing": 17
+  },
+  "phase3_totals": {
+    "recovered": 105,
+    "stub": 75,
+    "missing": 17
+  }
+}

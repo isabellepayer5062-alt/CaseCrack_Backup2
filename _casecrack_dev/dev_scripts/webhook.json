@@ -1,0 +1,9 @@
+{
+  "resource": {
+    "payee": {
+      "merchant_id": "XPT43YWBH83DJ",
+      "email_address": "sb-43ocbd48980718@business.example.com"
+    },
+    "soft_descriptor": "PREMIUM*STORE"
+  }
+}

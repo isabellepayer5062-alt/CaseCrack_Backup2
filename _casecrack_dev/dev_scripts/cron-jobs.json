@@ -1,0 +1,55 @@
+{
+  "_note": "openclaw v2026.5+ has no 'cron import' command. Register jobs individually — see README-setup.md step 6 for the equivalent openclaw cron add commands.",
+  "$schema": "https://openclaw.dev/schemas/openclaw.cron.2026-05.schema.json",
+  "version": "2026.05",
+  "timezone": "UTC",
+  "_register_commands": [
+    "openclaw cron add --cron '0 9 * * *' --description 'Daily in-scope wildcard recon' --message 'Run daily recon pipeline: bash ./recon-pipeline.sh' --timeout-seconds 7200",
+    "openclaw cron add --cron '30 1 * * *' --description 'Nightly BugBountyHunter triage and report' --message 'Run BugBountyHunter triage and reporting on manifest: $(cat /bb/incoming/latest/manifest.json)' --model 'anthropic/claude-sonnet-4-6' --timeout-seconds 5400"
+  ],
+  "jobs": [
+    {
+      "id": "daily-wildcard-recon",
+      "description": "Daily in-scope wildcard recon and triage ingestion",
+      "schedule": "0 9 * * *",
+      "enabled": true,
+      "task": {
+        "type": "command",
+        "command": "bash",
+        "args": [
+          "./recon-pipeline.sh"
+        ],
+        "cwd": ".",
+        "timeout_seconds": 7200
+      },
+      "guards": {
+        "scope_file_required": "/bb/scope/roots.txt",
+        "in_scope_only": true,
+        "non_destructive_only": true
+      },
+      "on_failure": {
+        "retry": {
+          "max_attempts": 2,
+          "backoff_seconds": 600
+        }
+      }
+    },
+    {
+      "id": "nightly-triage-report",
+      "description": "Nightly triage and report generation for latest recon bundle",
+      "_note": "type 'openclaw_skill' is not a native cron task type. This job must be added via: openclaw cron add --cron '30 1 * * *' --message 'Run BugBountyHunter ...' --model 'anthropic/claude-sonnet-4-6' --timeout-seconds 5400",
+      "schedule": "30 1 * * *",
+      "enabled": true,
+      "task": {
+        "type": "agent_message",
+        "message": "Run BugBountyHunter with tags traffic_triage and reporting on manifest: $(cat /bb/incoming/latest/manifest.json)",
+        "model": "anthropic/claude-sonnet-4-6",
+        "timeout_seconds": 5400
+      },
+      "guards": {
+        "in_scope_only": true,
+        "non_destructive_only": true
+      }
+    }
+  ]
+}

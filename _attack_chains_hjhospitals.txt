@@ -1,8 +1,0 @@
-=== hjhospitals.org scan monitor started 16:10:37 UTC ===
-=== Target: https://www.hjhospitals.org/ ===
-=== Scan: phases=38 mode=parallel (already running) ===
-
-[17:10:54] === SCAN COMPLETE ===
-  findings   : 10197
-  degraded   : 2 phases
-  chains seen: 0

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Anduril gRPC-Web Sniffer (Security Research PoC)",
+  "version": "1.0",
+  "description": "PoC: Captures __GRPCWEB_DEVTOOLS__ postMessage broadcasts from catalog.anduril.com. Demonstrates that the gRPC-Web DevTools interface active in production leaks full API payloads to any browser extension with host_permissions on the target.",
+  "permissions": ["scripting"],
+  "host_permissions": [
+    "https://catalog.anduril.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://catalog.anduril.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
