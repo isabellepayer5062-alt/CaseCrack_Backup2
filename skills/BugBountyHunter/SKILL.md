@@ -399,147 +399,19 @@ into the prompt context.
 
 ## Tool Execution Layer (MCP-Compatible)
 
-The orchestrator delegates all external tool invocations through a sandboxed
-MCP-compatible tool registry. No skill directly shells out.
-
-```yaml
-tool_registry:
-  mode: mcp_sandbox
-  sandbox_image: openclaw/tool-sandbox:2026.05
-  network_policy: deny_egress_except_scope
-  max_execution_time_seconds: 300
-  max_memory_mb: 512
-  max_disk_mb: 1024
-  allowed_tools:
-    - subfinder
-    - httpx
-    - nuclei
-    - jq
-    - awk
-    - grep
-    - sort
-    - uniq
-    - curl
-    - nmap:
-        args_allowlist: ["-sV","-sS","-p","--open","-Pn","-T4","--max-retries","2"]
-        deny: ["-A","-O","-sC","--script","-T5","--max-parallelism"]
-    - ffuf:
-        args_allowlist: ["-u","-w","-H","-X","-mc","-fc","-t","-rate"]
-        deny: ["-x","-r","-recursion","-od"]
-    - sqlmap:
-        args_allowlist: ["-u","--batch","--level=1","--risk=1","--tamper","--timeout"]
-        deny: ["--os-shell","--os-pwn","--os-cmd","--file-read","--file-write"]
-    - playwright:
-        mode: headless
-        deny_navigation: true
-        max_pages: 1
-    - burp_cli:
-        args_allowlist: ["--scan","--scope","--report"]
-        deny: ["--intruder","--repeater","--sequencer"]
-    - metasploit_module:
-        mode: auxiliary_only
-        deny_exploit_modules: true
-    - naabu:
-        args_allowlist: ["-l","-p","-top-ports","-silent","-json","-o","-rate"]
-        deny: ["-nmap-cli","-proxy"]
-        condition: "explicit_port_scan_authorized == true"
-    - gau:
-        args_allowlist: ["--threads","--timeout","--providers","--blacklist","--o"]
-        deny: ["--proxy"]
-    - waybackurls:
-        args_allowlist: ["--no-subs","--get-versions"]
-        deny: []
-    - jsluice:
-        args_allowlist: ["urls","secrets","-r","--input"]
-        deny: ["--write"]
-    - linkfinder:
-        args_allowlist: ["-i","-o","-d"]
-        deny: ["--burp"]
-    - interactsh_client:
-        mode: oob_listener_only
-        args_allowlist: ["--server","--token","--poll-interval","--output-json","--max-wait-seconds","--correlation-id","--since"]
-        deny: ["--persistent"]
-        condition: "interactsh_server_configured == true"
-```
-
-### execute_tool Contract
-
-```python
-def execute_tool(
-    tool_name: str,
-    args: List[str],
-    safety_scope: SafetyScope,
-    timeout_seconds: int = 300,
-    token_quota: int = 5000,
-    capture_stdout: bool = True,
-    capture_stderr: bool = True,
-    structured_output_schema: Optional[JsonSchema] = None
-) -> ToolResult:
-    """
-    safety_scope enforces:
-      - in_scope_hosts only
-      - non_destructive_only
-      - rate_limits per host
-      - deny_state_changing_requests
-    """
-```
-
-Every tool invocation is logged to `/bb/audit/{{run_id}}.jsonl` with:
-- `tool_name`, `args`, `start_time`, `end_time`, `exit_code`
-- `stdout_hash` (SHA-256), `stderr_hash`
-- `safety_scope` snapshot
-- `token_consumed` (for LLM-based parsing)
+> **Load before any tool invocation**:
+> `read_file('skills/BugBountyHunter/ref/tool-execution.md')`
+>
+> Contains: MCP tool registry YAML, execute_tool contract (args, timeout, scope
+> enforcement, structured output schema), and per-invocation audit log format.
 
 ## Dynamic Dependency & Swarm Graph
 
-The orchestrator maintains a live dependency DAG and can spawn parallel
-micro-agents (swarm workers) per phase.
-
-```yaml
-swarm:
-  enabled: true
-  max_workers_per_phase: 10
-  blackboard:
-    path: /workspace/blackboard/{{run_id}}.jsonl
-    format: jsonl
-    ttl_hours: 48
-  worker_spawn_rules:
-    ReconAnalyzer:
-      - variant: default
-        seed: null
-      - variant: deep_dns
-        seed: dns_brute_force
-        tool: subfinder -all -recursive
-      - variant: permutations
-        seed: alt_dns_permutations
-        tool: dnsgen + massdns
-    TrafficTriage:
-      - variant: default
-      - variant: auth_surface_focus
-        filter: "endpoint matches /(login|oauth|reset|session|auth)/i"
-      - variant: api_surface_focus
-        filter: "content_type matches /json|graphql/i"
-```
-
-### Blackboard Protocol
-
-Each worker writes hypotheses to the blackboard:
-
-```jsonc
-{
-  "worker_id": "ReconAnalyzer-deep_dns-3",
-  "phase": "P1",
-  "hypothesis": "api-v2.example.com is an undocumented staging endpoint",
-  "confidence": 0.71,
-  "evidence": ["dns_brute_force_hit", "httpx_200_no_redirect"],
-  "timestamp": "<ISO8601>",
-  "status": "proposed | confirmed | rejected"
-}
-```
-
-The orchestrator reads the blackboard after each phase, merges confirmed
-hypotheses into the canonical phase output, and rejects outliers via
-inter-quartile confidence filtering.
+> **Load when spawning phase workers**:
+> `read_file('skills/BugBountyHunter/ref/swarm-graph.md')`
+>
+> Contains: live DAG config, swarm worker spawn rules, blackboard write protocol,
+> and inter-quartile confidence filtering for hypothesis merging.
 
 ## Validation & Reflection Loop
 
@@ -581,55 +453,12 @@ injected into the prompt context (up to `retry.max_attempts`).
 
 ## Persistent Memory & Learner
 
-Cross-run intelligence is stored in a local RAG + knowledge graph that
-compounds with every hunt.
-
-```yaml
-memory:
-  rag_store:
-    path: /bb/memory/rag/
-    embedding_model: openai/text-embedding-3-large
-    chunk_size: 512
-    overlap: 64
-  knowledge_graph:
-    path: /bb/memory/kg/
-    schema: openclaw/kg/bb-kg-schema-2026-05.ttl
-    update_on: [confirmed_finding, rejected_hypothesis, successful_poc]
-```
-
-### update_knowledge_graph Contract
-
-```python
-def update_knowledge_graph(
-    outcome_type: Literal["confirmed_finding", "rejected_hypothesis", "successful_poc", "false_positive"],
-    target_fqdn: str,
-    vuln_class: str,
-    cwe_id: str,
-    attack_pattern: str,
-    guard_bypass_method: Optional[str],
-    tool_efficacy: Dict[str, float],  # tool -> signal_strength
-    reporter_confidence: float,
-    triager_accepted: Optional[bool],
-    bounty_payout_usd: Optional[float],
-    notes: str
-) -> None:
-    """
-    Writes a structured node into the knowledge graph.
-    Nodes are queryable by (target_fqdn, vuln_class, attack_pattern)
-    for future hunts against similar stacks.
-    """
-```
-
-### Pre-Hunt Retrieval
-
-Before each run, the orchestrator queries the knowledge graph:
-- `similar_targets(stack_fingerprint)` → past findings on same tech stack
-- `effective_tools(vuln_class)` → tools that historically produced strong signals
-- `guard_bypass_patterns(cwe_id)` → known bypasses for this weakness class
-- `false_positive_signals(pattern)` → patterns that previously led to FPs
-
-Retrieved context is injected into the system prompt of each subskill
-(up to 4000 tokens, ranked by recency and bounty payout).
+> **Load at run start** (pre-hunt KG retrieval) and after each run (KG update):
+> `read_file('skills/BugBountyHunter/ref/memory-learner.md')`
+>
+> Contains: memory YAML config, update_knowledge_graph contract, pre-hunt
+> retrieval queries (similar_targets, effective_tools, guard_bypass_patterns,
+> false_positive_signals), and RAG injection rules.
 
 ## Cross-Phase Feedback Routing
 
@@ -661,95 +490,20 @@ the KG after each run, making adjustments globally available.
 
 ## Pipeline Effectiveness Metrics
 
-Structured metrics are collected after each run and written to `pipeline-metrics.json`.
-
-### Conversion Funnel KPIs
-
-| Metric | Definition | Target |
-|--------|-----------|--------|
-| `recon_to_triage_rate` | Triage findings / ReconAnalyzer live hosts | > 15% |
-| `triage_to_poc_rate` | PoCForge inputs / high-confidence triage findings | > 50% |
-| `poc_to_validated_rate` | ExecutorValidator confirmed / PoCForge attempts | > 40% |
-| `validated_to_submitted_rate` | ReportWizard submitted / validated findings | > 80% |
-| `overall_yield` | Confirmed findings / total live hosts scanned | tracked |
-
-### Cost Efficiency Metrics
-
-| Metric | Definition |
-|--------|-----------|
-| `cost_per_finding_usd` | Total LLM cost / confirmed findings |
-| `tokens_per_finding` | Total tokens / confirmed findings |
-| `avg_phase_token_utilization` | Actual tokens used / phase budget |
-
-### Quality Metrics
-
-| Metric | Definition |
-|--------|-----------|
-| `false_positive_rate` | Rejected findings / total promoted to `status: finding` |
-| `high_confidence_accuracy` | Confirmed high-band findings / total high-band findings |
-| `chain_success_rate` | Validated chain PoCs / total ChainHunter chains |
-
-Metrics accumulate in the KG across runs to enable trend analysis and automatic
-threshold tuning via LearnerReflector.
+> **Load when writing pipeline-metrics.json** (post-run):
+> `read_file('skills/BugBountyHunter/ref/pipeline-metrics.md')`
+>
+> Contains: conversion funnel KPI definitions, cost efficiency metrics, quality
+> metrics, and LearnerReflector threshold tuning rules.
 
 ## Exploit Chaining Protocol
 
-A dedicated `ChainHunter` micro-agent is spawned for any finding with
-`exploit_score >= 8.0` or `vuln_class` in [Race Condition, SSRF, IDOR,
-Authentication Bypass]. ChainHunter maps multi-step attack chains without
-executing them.
-
-```yaml
-chain_hunter:
-  model: openai/gpt-5.5
-  max_chain_depth: 5
-  max_branching_factor: 3
-  state_machine:
-    states: [entry, authentication, authorization, middleware, sink, impact]
-    transitions:
-      - from: entry
-        to: authentication
-        guard: "auth_required == true"
-      - from: authentication
-        to: authorization
-        guard: "session_valid == true"
-      - from: authorization
-        to: middleware
-        guard: "role_check_passed == false"
-      - from: middleware
-        to: sink
-        guard: "input_reaches_sink == true"
-      - from: sink
-        to: impact
-        guard: "guard_status in [none, bypassable]"
-```
-
-### Chain Output
-
-```jsonc
-{
-  "chain_id": "CHN-<sha256[:8]>",
-  "triage_id": "TRG-a1b2c3d4",
-  "states": [
-    {"state": "entry", "endpoint": "/api/v1/coupons/apply", "method": "POST"},
-    {"state": "authentication", "bypass": "none_required", "notes": "No auth header checked"},
-    {"state": "authorization", "bypass": "role_check_missing", "notes": "Admin-only route lacks role guard"},
-    {"state": "middleware", "bypass": "input_validation_weak", "notes": "Regex allows negative amount"},
-    {"state": "sink", "sink_label": "race_window", "file": "app/services/coupon_service.py:89"},
-    {"state": "impact", "impact": "arbitrary_credit_inflation", "cvss_boost": 1.5}
-  ],
-  "rollback_plan": [
-    "Revert coupon balance via admin panel",
-    "Invalidate affected session tokens",
-    "Notify finance team of test transaction"
-  ],
-  "chain_complexity": "complex",
-  "escalate_to_gpt": true
-}
-```
-
-If `chain_complexity == complex`, the entire chain is escalated to GPT-5.5
-for final review before PoCForge consumes it.
+> **Load when** exploit_score >= 8.0 **or** uln_class in [Race Condition, SSRF,
+> IDOR, Authentication Bypass] **or** ChainHunter returns chains:
+> `read_file('skills/BugBountyHunter/ref/exploit-chaining.md')`
+>
+> Contains: ChainHunter spawn config, chain output JSON schema, GPT-5.5 escalation
+> rule for complex chains, and PoCForge consumption contract.
 
 ## Scalability for Large Scopes
 
@@ -783,120 +537,18 @@ Apply in order (stop at first prune that meets the budget target):
 
 ## Advanced Reasoning Primitives
 
-Every critical decision in the pipeline must use one of the following
-reasoning frameworks, selected by the orchestrator based on task complexity:
-
-### 1. Tree-of-Thought (ToT) — for branching exploration
-
-Used in: ReconAnalyzer (variant selection), TrafficTriage (signal scoring),
-ChainHunter (path exploration).
-
-```
-THOUGHT TREE — depth 3, branch factor 2
-Root: Given signal X, what are the most likely vulnerability classes?
-├─ Branch A: Broken Access Control
-│  ├─ Leaf A1: IDOR via predictable UUID (confidence 0.78)
-│  └─ Leaf A2: Missing authz on admin route (confidence 0.65)
-└─ Branch B: Information Disclosure
-   ├─ Leaf B1: Verbose error leaks stack trace (confidence 0.82)
-   └─ Leaf B2: Debug endpoint exposes env vars (confidence 0.71)
-
-SELECT: Branch B → Leaf B1 (highest confidence, strongest evidence)
-```
-
-### 2. ReAct (Reasoning + Acting) — for tool-driven loops
-
-Used in: PoCForge (step construction), SourceHunter (taint tracing).
-
-```
-Observation: <what the tool returned>
-Thought: <what this means for the hypothesis>
-Action: <next tool call or analysis step>
-→ Repeat until hypothesis is confirmed or falsified.
-```
-
-### 3. Reflection — for self-correction
-
-Used in: Validator, ReportWizard (severity review), after every phase.
-
-```
-Claim: "This endpoint is vulnerable to SSRF"
-Evidence: ["requests.get(user_input) at line 142", "no URL allowlist"]
-Reflection:
-  - Counter-evidence: ["Input is validated against regex ^https?://.*"]
-  - Revised claim: "SSRF is possible but limited to http/https schemes"
-  - Revised confidence: 0.55 (downgraded from 0.82)
-  - Action: Emit as candidate, not finding.
-```
-
-### 4. Hypothesis Tracking with Confidence Scoring
-
-Every hypothesis carries a living confidence score updated by Bayesian
-inference as new evidence arrives:
-
-```python
-confidence_posterior = (
-    confidence_prior * likelihood(evidence | hypothesis)
-) / (
-    confidence_prior * likelihood(evidence | hypothesis)
-    + (1 - confidence_prior) * likelihood(evidence | not_hypothesis)
-)
-```
-
-The orchestrator surfaces all hypotheses with `confidence_posterior >= 0.6`
-to downstream phases. Hypotheses below 0.6 are archived in the blackboard
-for future runs (stack fingerprint may change, making them relevant later).
+> **Load when** the orchestrator needs to make a branching decision or self-correct:
+> `read_file('skills/BugBountyHunter/ref/advanced-reasoning.md')`
+>
+> Contains: Tree-of-Thought template, ReAct loop pattern, Reflection framework,
+> Hypothesis Tracking with Bayesian confidence scoring.
 
 ## Explainability & Finding Rationale
 
-Every finding promoted to `status: finding` must include a machine-readable
-reasoning trace enabling triagers to understand prioritization logic without
-re-reading raw evidence artifacts.
+> **Load when promoting any hypothesis to** status: finding:
+> `read_file('skills/BugBountyHunter/ref/explainability.md')`
+>
+> Contains: finding_rationale JSON schema, signal_tiers independence rules,
+> narrative quality requirements (self-contained, falsifiable, calibrated,
+> chain-aware), and prioritization_summary writing guidelines.
 
-### `finding_rationale` Schema
-
-Each finding in `triage-ranked.json` carries a `finding_rationale` object:
-
-```jsonc
-{
-  "finding_rationale": {
-    "top_signals": [
-      {
-        "signal": "admin_route_exposed",
-        "contribution": 3.5,
-        "tier": "B",
-        "why": "Route returns 200 OK without auth redirect — no session cookie required"
-      },
-      {
-        "signal": "no_auth_redirect",
-        "contribution": 2.1,
-        "tier": "B",
-        "why": "All tested clients receive data payload, not 401/403 or login redirect"
-      }
-    ],
-    "independence_adjustment": "auth_surface group: 2nd signal ×0.6",
-    "kg_adjustment": "+0.12 (auth_bypass historical payout rate for scope)",
-    "confidence_basis": "2× Tier-B signals → 0.78 baseline; corroboration +0.05; final: 0.82",
-    "competing_hypotheses": [
-      {
-        "hypothesis": "False positive — rate-limited admin route with deferred 401",
-        "likelihood": 0.12,
-        "refuted_by": "Verified 5 consecutive requests all returned 200 with user data"
-      }
-    ],
-    "prioritization_summary": "High-value admin endpoint with no observable auth enforcement. Two independent Tier-B signals with KG-boosted weight and historical payout correlation make this the top-ranked finding for this host."
-  }
-}
-```
-
-### Narrative Quality Requirements
-
-The `prioritization_summary` field and every `next-steps.md` entry must satisfy:
-
-- **Self-contained**: a triager reading only the summary must understand the full
-  reasoning without consulting raw evidence files.
-- **Falsifiable**: state at least one observation that would refute the claim.
-- **Calibrated**: every confidence value must be traceable to the signal tier table
-  and independence rules — no opaque or estimated scores.
-- **Chain-aware**: if `chain_relevance: true`, describe what the chain enables and
-  what the critical intermediate step is.
