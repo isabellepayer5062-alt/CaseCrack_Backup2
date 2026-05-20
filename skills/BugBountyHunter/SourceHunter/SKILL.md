@@ -1,5 +1,6 @@
 ---
 name: SourceHunter
+kind: skill
 version: "2026.05"
 description: >
   Correlate source-code patterns with live triage signals to confirm probable
@@ -23,6 +24,10 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 30000
     hard_fail_on_overflow: true
+  checkpoint:
+    enabled: true
+    interval_tokens: 5000
+    store: disk
   temperature: 0.15
   retry:
     max_attempts: 2

@@ -1,5 +1,6 @@
 ---
 name: ProgramProfiler
+kind: skill
 version: "2026.05"
 description: >
   Pre-hunt program intelligence layer. Analyzes the bug bounty program scope, historical
@@ -30,6 +31,10 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 25000
     hard_fail_on_overflow: true
+  checkpoint:
+    enabled: true
+    interval_tokens: 5000
+    store: disk
   temperature: 0.15
   retry:
     max_attempts: 2

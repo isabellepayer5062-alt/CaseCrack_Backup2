@@ -167,6 +167,13 @@ subskills:
     pass_outputs: [report.md, report.json, triager-checklist.md, submission/, submission-receipts.json, submission-log.md]
     condition: "target_platform is set AND auto_submit != false (submission phase); always for report generation"
     safety: "human_review_gate_required before any platform submission"
+  - name: PlatformSubmitter
+    depends_on: [ReportWizard]
+    optional_inputs: [ReportWizard.report.json, ReportWizard.report.md, ReportWizard.submission/]
+    pass_outputs: [submission-receipts.json, submission-log.md]
+    condition: "target_platform is set AND auto_submit != false"
+    safety: "human_review_gate_required before any API submission"
+    note: "Handles final-mile API submission to HackerOne/Bugcrowd/Intigriti/YesWeHack. draft_only_mode when DRAFT_ONLY=true."
   - name: LearnerReflector
     depends_on: [ReportWizard]
     pass_outputs: ["delta_{{run_id}}.jsonl", "reflection_{{run_id}}.md", "session-summary.md", "run-summary.json", blackboard_append]
@@ -240,7 +247,13 @@ orchestrator, not by the skill itself.
 | P4    | PoCForge           | TrafficTriage score ≥ 6.5 OR ChainHunter chain found | 40 000     |
 | P4.5  | ExecutorValidator  | PoCForge produced ≥1 path                           | 25 000     |
 | P5    | ReportWizard       | Executor oracle_score ≥ threshold (class-dependent)  | 35 000     |
+| P5.6  | PlatformSubmitter  | target_platform is set AND auto_submit != false       | 20 000     |
 | P5.5  | LearnerReflector   | Always (post-hunt)                                   | 20 000     |
+
+> **Budget note**: Mandatory phases (P1–P2 + P4–P5.5) sum to ~210 000 tokens.
+> The 220 000 total cap reserves ~10 000 tokens for mandatory overhead. Optional
+> phases (P3.x, P5.6) share the surplus dynamically; each optional phase is
+> gated on its trigger condition so not all will activate in a single run.
 
 If a phase's trigger condition is not met, emit a `phase_skipped` event and
 continue to the next eligible phase. Never silently skip.
@@ -498,7 +511,7 @@ the KG after each run, making adjustments globally available.
 
 ## Exploit Chaining Protocol
 
-> **Load when** exploit_score >= 8.0 **or** uln_class in [Race Condition, SSRF,
+> **Load when** `exploit_score >= 8.0` **or** `vuln_class` in [Race Condition, SSRF,
 > IDOR, Authentication Bypass] **or** ChainHunter returns chains:
 > `read_file('skills/BugBountyHunter/ref/exploit-chaining.md')`
 >

@@ -1,5 +1,6 @@
 ---
 name: ReconAnalyzer
+kind: skill
 version: "2026.05"
 description: >
   Parse, deduplicate, scope-filter, and enrich raw recon streams from
@@ -23,6 +24,10 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 30000
     hard_fail_on_overflow: true
+  checkpoint:
+    enabled: true
+    interval_tokens: 5000
+    store: disk
   temperature: 0.1
   retry:
     max_attempts: 2
@@ -253,6 +258,10 @@ inputs:
       type: jsonl_file
       path: "{{manifest.artifacts.param_discovery}}"
       description: "Parameter discovery (param_discovery.py + smart_wordlists.py) — AI-generated target-specific parameter wordlists, hidden parameter enumeration (Arjun-style), parameter mining from JS/docs/responses"
+    - name: program_profile
+      type: json_file
+      path: "{{phase_outputs.ProgramProfiler.program-profile.json}}"
+      description: "ProgramProfiler output — program-level metadata (reward_range, asset_priorities, known_exclusions, deployment_signals). When present: boost anomaly_score for high-priority assets, skip known-excluded endpoints, apply program-specific severity calibration."
 
 policies:
   operation_mode: non_destructive_only

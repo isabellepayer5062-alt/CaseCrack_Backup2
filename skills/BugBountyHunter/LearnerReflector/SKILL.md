@@ -1,5 +1,6 @@
 ---
 name: LearnerReflector
+kind: skill
 version: "2026.05"
 description: >
   Post-hunt reflection and knowledge graph update layer. Turns every hunt into
@@ -23,6 +24,10 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 20000
     hard_fail_on_overflow: true
+  checkpoint:
+    enabled: true
+    interval_tokens: 5000
+    store: disk
   temperature: 0.2
   retry:
     max_attempts: 2

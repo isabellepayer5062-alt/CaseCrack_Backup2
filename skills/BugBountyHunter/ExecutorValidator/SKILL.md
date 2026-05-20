@@ -1,5 +1,6 @@
 ---
 name: ExecutorValidator
+kind: skill
 version: "2026.05"
 description: >
   Deterministic execution oracle. Replays PoCs in a sandboxed microVM,
@@ -23,6 +24,10 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 25000
     hard_fail_on_overflow: true
+  checkpoint:
+    enabled: true
+    interval_tokens: 5000
+    store: disk
   temperature: 0.1
   retry:
     max_attempts: 3

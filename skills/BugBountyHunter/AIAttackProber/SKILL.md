@@ -1,5 +1,6 @@
 ---
 name: AIAttackProber
+kind: skill
 version: "2026.05"
 description: >
   Detect, enumerate, and exploit vulnerabilities in AI/LLM integrations embedded in
@@ -20,8 +21,8 @@ model_routing:
         tags_any: [recon_only, surface_mapping]
       model: anthropic/claude-sonnet-4-6
   fallback:
-    - anthropic/claude-sonnet-4-6
     - anthropic/claude-sonnet-4-5
+    - openai/gpt-5.5-mini
 
 runtime:
   prompt_caching:
@@ -30,6 +31,10 @@ runtime:
   token_budget:
     max_total_tokens_per_run: 35000
     hard_fail_on_overflow: true
+  checkpoint:
+    enabled: true
+    interval_tokens: 5000
+    store: disk
   temperature: 0.2
   retry:
     max_attempts: 3
